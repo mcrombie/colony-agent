@@ -5,7 +5,6 @@ from __future__ import annotations
 import random
 from typing import Any
 
-
 ALLOWED_EVENT_TYPES = (
     "good_harvest",
     "poor_harvest",

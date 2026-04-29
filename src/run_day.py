@@ -7,10 +7,9 @@ from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
-from colony_sim.events import choose_event
-from colony_sim.mechanics import apply_event
-from colony_sim.narrative import write_daily_entry
-
+from src.event_selector import choose_event
+from src.mechanics import apply_event
+from src.narrative import write_daily_entry
 
 PROJECT_DIR = Path(__file__).resolve().parent
 STATE_PATH = PROJECT_DIR / "state.json"
@@ -55,4 +54,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

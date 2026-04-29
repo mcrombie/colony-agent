@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from typing import Any
 
-
 EVENT_OPENINGS = {
     "good_harvest": "A good harvest lifted the colony's spirits",
     "poor_harvest": "A poor harvest strained the colony's stores",

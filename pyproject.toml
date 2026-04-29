@@ -7,15 +7,19 @@ name = "colony-agent"
 version = "0.1.0"
 description = "A small stateful colony simulation loop."
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["openai>=2.0.0"]
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
+include = ["src*"]
 
 [tool.setuptools.package-data]
-colony_sim = ["state.json", "history.md"]
+src = ["state.json", "history.md"]
 
 [tool.pytest.ini_options]
-pythonpath = ["src"]
+pythonpath = ["."]
 testpaths = ["tests"]
 
+[tool.isort]
+profile = "black"
+src_paths = ["src", "tests"]

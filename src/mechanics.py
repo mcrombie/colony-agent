@@ -5,8 +5,7 @@ from __future__ import annotations
 from copy import deepcopy
 from typing import Any
 
-from colony_sim.events import ALLOWED_EVENT_TYPES
-
+from src.events import ALLOWED_EVENT_TYPES
 
 LIMITED_STATS = ("morale", "security", "health")
 NON_NEGATIVE_STATS = ("population", "food", "wood")
@@ -113,4 +112,3 @@ def _actual_effects(
         for stat in intended_effects
         if after[stat] - before[stat] != 0
     }
-

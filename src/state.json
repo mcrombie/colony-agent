@@ -1,0 +1,115 @@
+{
+  "day": 12,
+  "colony_name": "Blergen",
+  "population": 100,
+  "food": 135,
+  "wood": 10,
+  "morale": 10,
+  "security": 9,
+  "health": 6,
+  "known_threats": [
+    "wolves",
+    "winter"
+  ],
+  "event_log": [
+    {
+      "day": 1,
+      "event_type": "construction",
+      "effects": {
+        "wood": -10,
+        "security": 1,
+        "morale": 1
+      },
+      "summary": "Colonists spent wood to strengthen the settlement."
+    },
+    {
+      "day": 2,
+      "event_type": "construction",
+      "effects": {
+        "wood": -10,
+        "security": 1,
+        "morale": 1
+      },
+      "summary": "Colonists spent wood to strengthen the settlement."
+    },
+    {
+      "day": 3,
+      "event_type": "good_harvest",
+      "effects": {
+        "food": 15,
+        "morale": 1
+      },
+      "summary": "A strong harvest added food to the stores."
+    },
+    {
+      "day": 4,
+      "event_type": "dispute",
+      "effects": {
+        "morale": -2,
+        "security": -1
+      },
+      "summary": "A dispute unsettled the colony."
+    },
+    {
+      "day": 5,
+      "event_type": "construction",
+      "effects": {
+        "wood": -10,
+        "security": 1,
+        "morale": 1
+      },
+      "summary": "Colonists spent wood to strengthen the settlement."
+    },
+    {
+      "day": 6,
+      "event_type": "construction",
+      "effects": {
+        "wood": -10,
+        "security": 1,
+        "morale": 1
+      },
+      "summary": "Colonists spent wood to strengthen the settlement."
+    },
+    {
+      "day": 7,
+      "event_type": "quiet_day",
+      "effects": {
+        "food": -5
+      },
+      "summary": "The day passed quietly while food stores were used."
+    },
+    {
+      "day": 8,
+      "event_type": "construction",
+      "effects": {
+        "wood": -10,
+        "security": 1
+      },
+      "summary": "Colonists spent wood to strengthen the settlement."
+    },
+    {
+      "day": 9,
+      "event_type": "good_harvest",
+      "effects": {
+        "food": 15
+      },
+      "summary": "A strong harvest added food to the stores."
+    },
+    {
+      "day": 10,
+      "event_type": "quiet_day",
+      "effects": {
+        "food": -5
+      },
+      "summary": "The day passed quietly while food stores were used."
+    },
+    {
+      "day": 11,
+      "event_type": "quiet_day",
+      "effects": {
+        "food": -5
+      },
+      "summary": "The day passed quietly while food stores were used."
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 from copy import deepcopy
 
-from colony_sim.mechanics import apply_event, clamp_state
-
+from src.mechanics import apply_event, clamp_state
 
 BASE_STATE = {
     "day": 1,
@@ -68,4 +67,3 @@ def test_illness_can_reduce_health():
 
     assert after["health"] == 5
     assert event_record["effects"]["health"] == -1
-
