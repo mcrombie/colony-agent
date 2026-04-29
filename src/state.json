@@ -1,11 +1,11 @@
 {
-  "day": 27,
+  "day": 28,
   "colony_name": "Blergen",
   "population": 98,
   "food": 105,
   "wood": 0,
-  "morale": 6,
-  "security": 8,
+  "morale": 5,
+  "security": 7,
   "health": 0,
   "known_threats": [
     "wolves",
@@ -238,6 +238,15 @@
       "event_type": "chaos_gods",
       "effects": {
         "health": -1,
+        "security": -1,
+        "morale": -1
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent."
+    },
+    {
+      "day": 27,
+      "event_type": "chaos_gods",
+      "effects": {
         "security": -1,
         "morale": -1
       },
