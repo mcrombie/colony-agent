@@ -1,8 +1,8 @@
 {
-  "day": 32,
+  "day": 33,
   "colony_name": "Blergen",
   "population": 98,
-  "food": 105,
+  "food": 100,
   "wood": 0,
   "morale": 2,
   "security": 5,
@@ -281,6 +281,14 @@
         "security": -1
       },
       "summary": "A dispute unsettled the colony."
+    },
+    {
+      "day": 32,
+      "event_type": "quiet_day",
+      "effects": {
+        "food": -5
+      },
+      "summary": "The day passed quietly while food stores were used."
     }
   ]
 }
