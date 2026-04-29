@@ -1,4 +1,4 @@
-"""OpenAI-powered event selection for the colony simulation."""
+"""OpenAI-powered decision selection for the colony simulation."""
 
 from __future__ import annotations
 
@@ -7,14 +7,14 @@ import os
 import time
 from typing import Any, Literal
 
-from src.constants import OPENAI_EVENT_TYPES
+from src.constants import LEADERSHIP_ACTION_TYPES, WORLD_EVENT_TYPES
 
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
 OPENAI_MAX_ATTEMPTS = 3
 
 
 class OpenAISelectorError(RuntimeError):
-    """Raised when the OpenAI selector cannot choose a valid event."""
+    """Raised when the OpenAI selector cannot choose a valid decision."""
 
 
 class MissingOpenAIConfigError(OpenAISelectorError):
@@ -25,8 +25,119 @@ class OpenAIAPICallError(OpenAISelectorError):
     """Raised when the OpenAI API call fails."""
 
 
+def choose_world_event_with_openai(state: dict[str, Any]) -> str:
+    """Ask OpenAI to choose one allowed world event for the current state."""
+    client, model, base_model = _openai_client()
+
+    class WorldEventSelection(base_model):
+        world_event: Literal[
+            "good_harvest",
+            "poor_harvest",
+            "illness",
+            "dispute",
+            "discovery",
+            "quiet_day",
+        ]
+        reasoning: str
+
+    input_payload = [
+        {
+            "role": "system",
+            "content": (
+                "You are a deity watching the fictional colony of Blergen. "
+                "Choose exactly one allowed world event that should befall "
+                "the colony today. You control fate and circumstance, not "
+                "the colony's leadership decisions. Many days should have no "
+                "significant outside event; choose quiet_day roughly 35 to "
+                "50 percent of the time unless the state strongly suggests a "
+                "crisis or opportunity. Do not apply mechanics and do not "
+                "invent new event types."
+            ),
+        },
+        {
+            "role": "user",
+            "content": json.dumps(_state_for_world_prompt(state), indent=2),
+        },
+    ]
+
+    response = _parse_with_retries(
+        client=client,
+        model=model,
+        input_payload=input_payload,
+        text_format=WorldEventSelection,
+    )
+
+    world_event = response.output_parsed.world_event
+    if world_event not in WORLD_EVENT_TYPES:
+        raise OpenAIAPICallError(f"OpenAI returned an invalid world event: {world_event}")
+
+    return world_event
+
+
+def choose_leadership_action_with_openai(
+    state: dict[str, Any],
+    world_event: str,
+) -> str:
+    """Ask OpenAI to choose the president's response to the day's event."""
+    client, model, base_model = _openai_client()
+
+    class LeadershipActionSelection(base_model):
+        leadership_action: Literal[
+            "preserve_resources",
+            "ration_food",
+            "gather_wood",
+            "expand_fields",
+            "strengthen_defenses",
+            "tend_the_sick",
+            "mediate_dispute",
+            "send_scouts",
+            "hold_festival",
+        ]
+        reasoning: str
+
+    input_payload = [
+        {
+            "role": "system",
+            "content": (
+                "You are the president of the Blergen colony. A report has "
+                "arrived describing today's circumstance, which may be a "
+                "major event or a quiet day. Choose exactly one allowed "
+                "leadership action for the colony. Respond practically in "
+                "light of the event and the current state. Do not apply "
+                "mechanics and do not invent new action types."
+            ),
+        },
+        {
+            "role": "user",
+            "content": json.dumps(
+                _state_for_leadership_prompt(state, world_event),
+                indent=2,
+            ),
+        },
+    ]
+
+    response = _parse_with_retries(
+        client=client,
+        model=model,
+        input_payload=input_payload,
+        text_format=LeadershipActionSelection,
+    )
+
+    leadership_action = response.output_parsed.leadership_action
+    if leadership_action not in LEADERSHIP_ACTION_TYPES:
+        raise OpenAIAPICallError(
+            f"OpenAI returned an invalid leadership action: {leadership_action}"
+        )
+
+    return leadership_action
+
+
 def choose_event_with_openai(state: dict[str, Any]) -> str:
-    """Ask OpenAI to choose one allowed event type for the current state."""
+    """Backward-compatible wrapper for older callers."""
+    return choose_world_event_with_openai(state)
+
+
+def _openai_client() -> tuple[Any, str, type[Any]]:
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise MissingOpenAIConfigError("OPENAI_API_KEY is not set.")
@@ -36,53 +147,12 @@ def choose_event_with_openai(state: dict[str, Any]) -> str:
         from pydantic import BaseModel
     except ImportError as exc:
         raise OpenAISelectorError(
-            "The OpenAI selector requires the openai package. "
+            "The OpenAI selectors require the openai package. "
             "Install dependencies with: python -m pip install -r requirements.txt"
         ) from exc
 
-    class EventSelection(BaseModel):
-        event_type: Literal[
-            "good_harvest",
-            "poor_harvest",
-            "construction",
-            "illness",
-            "dispute",
-            "discovery",
-            "quiet_day",
-        ]
-        reasoning: str
-
     model = os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
-    client = OpenAI(api_key=api_key, timeout=30.0, max_retries=2)
-    input_payload = [
-        {
-            "role": "system",
-            "content": (
-                "You are an event selector for a small fictional colony "
-                "simulation. Choose exactly one allowed event type. "
-                "Consider the current state, known threats, and recent "
-                "events, but do not apply mechanics and do not invent new "
-                "event types."
-            ),
-        },
-        {
-            "role": "user",
-            "content": json.dumps(_state_for_prompt(state), indent=2),
-        },
-    ]
-
-    response = _parse_with_retries(
-        client=client,
-        model=model,
-        input_payload=input_payload,
-        text_format=EventSelection,
-    )
-
-    event_type = response.output_parsed.event_type
-    if event_type not in OPENAI_EVENT_TYPES:
-        raise OpenAIAPICallError(f"OpenAI returned an invalid event type: {event_type}")
-
-    return event_type
+    return OpenAI(api_key=api_key, timeout=30.0, max_retries=2), model, BaseModel
 
 
 def _parse_with_retries(
@@ -129,9 +199,10 @@ def _safe_error_message(error: Exception) -> str:
     return type(error).__name__
 
 
-def _state_for_prompt(state: dict[str, Any]) -> dict[str, Any]:
+def _state_for_world_prompt(state: dict[str, Any]) -> dict[str, Any]:
     return {
-        "allowed_event_types": list(OPENAI_EVENT_TYPES),
+        "role": "deity",
+        "allowed_world_events": list(WORLD_EVENT_TYPES),
         "current_state": {
             "day": state["day"],
             "colony_name": state["colony_name"],
@@ -145,3 +216,37 @@ def _state_for_prompt(state: dict[str, Any]) -> dict[str, Any]:
         },
         "recent_events": state.get("event_log", [])[-5:],
     }
+
+
+def _state_for_leadership_prompt(
+    state: dict[str, Any],
+    world_event: str,
+) -> dict[str, Any]:
+    return {
+        "role": "president",
+        "today_world_event": world_event,
+        "allowed_leadership_actions": list(LEADERSHIP_ACTION_TYPES),
+        "current_state": {
+            "day": state["day"],
+            "colony_name": state["colony_name"],
+            "population": state["population"],
+            "food": state["food"],
+            "wood": state["wood"],
+            "morale": state["morale"],
+            "security": state["security"],
+            "health": state["health"],
+            "known_threats": state["known_threats"],
+        },
+        "recent_events": state.get("event_log", [])[-5:],
+        "important_rules": [
+            "Food is consumed every day regardless of your action.",
+            "If food reaches zero, population will fall until food recovers.",
+            "strengthen_defenses requires at least 10 wood.",
+            "hold_festival costs extra food.",
+        ],
+    }
+
+
+def _state_for_prompt(state: dict[str, Any]) -> dict[str, Any]:
+    """Backward-compatible prompt helper for older tests and callers."""
+    return _state_for_world_prompt(state)

@@ -7,8 +7,8 @@ from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
-from src.event_selector import choose_event
-from src.mechanics import apply_event
+from src.event_selector import choose_leadership_action, choose_world_event
+from src.mechanics import apply_day
 from src.narrative import write_daily_entry
 
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -35,8 +35,13 @@ def append_history(entry: str, path: Path = HISTORY_PATH) -> None:
 def run_day() -> dict[str, Any]:
     """Advance the colony by one day and persist the result."""
     state_before = load_state()
-    event_type = choose_event(state_before)
-    state_after, event_record = apply_event(deepcopy(state_before), event_type)
+    world_event = choose_world_event(state_before)
+    leadership_action = choose_leadership_action(state_before, world_event)
+    state_after, event_record = apply_day(
+        deepcopy(state_before),
+        world_event,
+        leadership_action,
+    )
     entry = write_daily_entry(state_before, event_record, state_after)
 
     append_history(entry)
@@ -48,7 +53,9 @@ def main() -> None:
     event_record = run_day()
     print(
         f"Day {event_record['day']}: "
-        f"{event_record['event_type']} - {event_record['summary']}"
+        f"{event_record['world_event']} / "
+        f"{event_record['leadership_action']} - "
+        f"{event_record['summary']}"
     )
 
 

@@ -3,7 +3,7 @@ from copy import deepcopy
 import pytest
 
 from src import event_selector
-from src.constants import CHAOS_GODS_EVENT_TYPE
+from src.constants import CHAOS_GODS_EVENT_TYPE, PRESERVE_RESOURCES_ACTION_TYPE
 from src.openai_selector import (
     MissingOpenAIConfigError,
     OpenAIAPICallError,
@@ -24,18 +24,32 @@ BASE_STATE = {
 }
 
 
-def test_choose_event_uses_openai_selector(monkeypatch):
+def test_choose_world_event_uses_openai_selector(monkeypatch):
     state = deepcopy(BASE_STATE)
     monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
     monkeypatch.setattr(
         event_selector,
-        "choose_event_with_openai",
+        "choose_world_event_with_openai",
         lambda current_state: "discovery",
     )
 
-    event_type = event_selector.choose_event(state)
+    world_event = event_selector.choose_world_event(state)
 
-    assert event_type == "discovery"
+    assert world_event == "discovery"
+
+
+def test_choose_leadership_action_uses_openai_selector(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_leadership_action_with_openai",
+        lambda current_state, world_event: "send_scouts",
+    )
+
+    leadership_action = event_selector.choose_leadership_action(state, "quiet_day")
+
+    assert leadership_action == "send_scouts"
 
 
 def test_missing_openai_key_fails_loudly(monkeypatch):
@@ -44,7 +58,7 @@ def test_missing_openai_key_fails_loudly(monkeypatch):
     monkeypatch.delenv("OPENAI_API_KEY", raising=False)
 
     with pytest.raises(MissingOpenAIConfigError, match="OPENAI_API_KEY is not set"):
-        event_selector.choose_event(state)
+        event_selector.choose_world_event(state)
 
 
 def test_api_call_failure_becomes_chaos_gods_event(monkeypatch):
@@ -52,15 +66,31 @@ def test_api_call_failure_becomes_chaos_gods_event(monkeypatch):
     monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
     monkeypatch.setattr(
         event_selector,
-        "choose_event_with_openai",
+        "choose_world_event_with_openai",
         lambda current_state: (_ for _ in ()).throw(
             OpenAIAPICallError("OpenAI API call failed.")
         ),
     )
 
-    event_type = event_selector.choose_event(state)
+    world_event = event_selector.choose_world_event(state)
 
-    assert event_type == CHAOS_GODS_EVENT_TYPE
+    assert world_event == CHAOS_GODS_EVENT_TYPE
+
+
+def test_leadership_api_failure_preserves_resources(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_leadership_action_with_openai",
+        lambda current_state, world_event: (_ for _ in ()).throw(
+            OpenAIAPICallError("OpenAI API call failed.")
+        ),
+    )
+
+    leadership_action = event_selector.choose_leadership_action(state, "quiet_day")
+
+    assert leadership_action == PRESERVE_RESOURCES_ACTION_TYPE
 
 
 def test_api_call_failure_logs_sanitized_warning(monkeypatch, capsys):
@@ -68,16 +98,34 @@ def test_api_call_failure_logs_sanitized_warning(monkeypatch, capsys):
     monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
     monkeypatch.setattr(
         event_selector,
-        "choose_event_with_openai",
+        "choose_world_event_with_openai",
         lambda current_state: (_ for _ in ()).throw(
             OpenAIAPICallError("OpenAI API call failed: AuthenticationError")
         ),
     )
 
-    event_selector.choose_event(state)
+    event_selector.choose_world_event(state)
 
     captured = capsys.readouterr()
-    assert "::warning title=OpenAI selector failed::" in captured.out
+    assert "::warning title=OpenAI deity selector failed::" in captured.out
+    assert "AuthenticationError" in captured.out
+
+
+def test_president_api_call_failure_logs_sanitized_warning(monkeypatch, capsys):
+    state = deepcopy(BASE_STATE)
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_leadership_action_with_openai",
+        lambda current_state, world_event: (_ for _ in ()).throw(
+            OpenAIAPICallError("OpenAI API call failed: AuthenticationError")
+        ),
+    )
+
+    event_selector.choose_leadership_action(state, "quiet_day")
+
+    captured = capsys.readouterr()
+    assert "::warning title=OpenAI president selector failed::" in captured.out
     assert "AuthenticationError" in captured.out
 
 

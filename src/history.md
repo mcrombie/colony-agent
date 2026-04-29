@@ -96,3 +96,24 @@ A dispute unsettled the day's work, reduced morale by 2, and reduced security by
 
 Day 32 - Blergen:
 The colony passed a quiet day, reduced food by 5. The settlement survives, but sickness is wearing people down.
+
+Day 33 - Blergen:
+No great outside event disturbed Blergen, and the president ordered tighter food rationing; the day's changes reduced food by 2, and reduced morale by 1. The settlement survives, but sickness is wearing people down.
+
+Day 34 - Blergen:
+No great outside event disturbed Blergen, and the president sent crews out to gather wood; the day's changes reduced food by 4, and increased wood by 10. The settlement survives, but sickness is wearing people down.
+
+Day 35 - Blergen:
+No great outside event disturbed Blergen, and the president spent wood to strengthen the settlement; the day's changes reduced food by 4, reduced wood by 10, increased morale by 1, and increased security by 1. The settlement survives, but sickness is wearing people down.
+
+Day 36 - Blergen:
+No great outside event disturbed Blergen, and the president told the colonists to preserve resources; the day's changes reduced food by 4. The settlement survives, but sickness is wearing people down.
+
+Day 37 - Blergen:
+No great outside event disturbed Blergen, and the president ordered tighter food rationing; the day's changes reduced food by 2, and reduced morale by 1. The settlement survives, but sickness is wearing people down.
+
+Day 38 - Blergen:
+Illness moved through the colony, and the president organized care for the sick; the day's changes reduced population by 1, and reduced food by 7. The settlement survives, but sickness is wearing people down.
+
+Day 39 - Blergen:
+No great outside event disturbed Blergen, and the president told the colonists to preserve resources; the day's changes reduced food by 4. The settlement survives, but sickness is wearing people down.

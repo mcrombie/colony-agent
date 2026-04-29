@@ -1,11 +1,11 @@
 {
-  "day": 33,
+  "day": 40,
   "colony_name": "Blergen",
-  "population": 98,
-  "food": 100,
+  "population": 97,
+  "food": 73,
   "wood": 0,
-  "morale": 2,
-  "security": 5,
+  "morale": 1,
+  "security": 6,
   "health": 0,
   "known_threats": [
     "wolves",
@@ -289,6 +289,104 @@
         "food": -5
       },
       "summary": "The day passed quietly while food stores were used."
+    },
+    {
+      "day": 33,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "ration_food",
+      "effects": {
+        "food": -2,
+        "morale": -1
+      },
+      "survival_effects": {
+        "food": -2
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered tighter food rationing."
+    },
+    {
+      "day": 34,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "gather_wood",
+      "effects": {
+        "food": -4,
+        "wood": 10
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "summary": "No significant outside event disturbed the colony. The president sent work crews to gather wood."
+    },
+    {
+      "day": 35,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "strengthen_defenses",
+      "effects": {
+        "food": -4,
+        "wood": -10,
+        "morale": 1,
+        "security": 1
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "summary": "No significant outside event disturbed the colony. The president spent wood to strengthen the settlement."
+    },
+    {
+      "day": 36,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "preserve_resources",
+      "effects": {
+        "food": -4
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 37,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "ration_food",
+      "effects": {
+        "food": -2,
+        "morale": -1
+      },
+      "survival_effects": {
+        "food": -2
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered tighter food rationing."
+    },
+    {
+      "day": 38,
+      "event_type": "illness",
+      "world_event": "illness",
+      "leadership_action": "tend_the_sick",
+      "effects": {
+        "population": -1,
+        "food": -7
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "summary": "Illness spread through several homes. The president organized care for the sick."
+    },
+    {
+      "day": 39,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "preserve_resources",
+      "effects": {
+        "food": -4
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered the colony to preserve resources."
     }
   ]
 }
