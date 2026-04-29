@@ -1,10 +1,10 @@
 {
-  "day": 34,
+  "day": 35,
   "colony_name": "Blergen",
   "population": 97,
   "food": 100,
   "wood": 0,
-  "morale": 1,
+  "morale": 2,
   "security": 5,
   "health": 0,
   "known_threats": [
@@ -298,6 +298,14 @@
         "population": -1
       },
       "summary": "Illness spread through several homes."
+    },
+    {
+      "day": 34,
+      "event_type": "discovery",
+      "effects": {
+        "morale": 1
+      },
+      "summary": "Scouts discovered useful clay near the riverbank."
     }
   ]
 }

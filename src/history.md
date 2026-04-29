@@ -99,3 +99,6 @@ The colony passed a quiet day, reduced food by 5. The settlement survives, but s
 
 Day 33 - Blergen:
 Illness moved through the colony, reduced morale by 1, and reduced population by 1. The settlement survives, but sickness is wearing people down.
+
+Day 34 - Blergen:
+A discovery gave the colony something new to discuss, increased morale by 1. The settlement survives, but sickness is wearing people down.
