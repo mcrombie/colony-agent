@@ -2,7 +2,7 @@
 
 Colony Agent is a small stateful Python simulation. Each run advances the fictional colony of Blergen by one day, chooses one event from the current state, applies deterministic effects, writes a short history entry, and saves the updated state.
 
-The event selector can use the OpenAI API, with a rule-based selector still available for local testing and fallback development.
+The event selector uses the OpenAI API. Missing OpenAI configuration is treated as an error so runs do not silently fall back to random events. If a configured API call fails, the colony receives a special `chaos_gods` event.
 
 ## Why this is an agentic loop
 
@@ -36,14 +36,11 @@ OPENAI_API_KEY=your_api_key_here
 OPENAI_MODEL=gpt-5.4-mini
 ```
 
-When `OPENAI_API_KEY` is present, `python -m src.run_day` uses the OpenAI selector by default. To force local rules instead:
-
-```powershell
-$env:COLONY_EVENT_SELECTOR = "rules"
-python -m src.run_day
-```
+When `OPENAI_API_KEY` is missing, `python -m src.run_day` fails before advancing the colony.
 
 The OpenAI selector only chooses one allowed event type. The mechanical effects still come from deterministic local code.
+
+If the OpenAI API call fails after configuration is present, the simulation records `chaos_gods`: health -1, security -1, and morale -1.
 
 ## Run tests
 

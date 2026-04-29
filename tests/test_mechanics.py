@@ -67,3 +67,18 @@ def test_illness_can_reduce_health():
 
     assert after["health"] == 5
     assert event_record["effects"]["health"] == -1
+
+
+def test_chaos_gods_reduce_health_security_and_morale():
+    state = state_with(health=6, security=5, morale=7)
+
+    after, event_record = apply_event(state, "chaos_gods")
+
+    assert after["health"] == 5
+    assert after["security"] == 4
+    assert after["morale"] == 6
+    assert event_record["effects"] == {
+        "health": -1,
+        "security": -1,
+        "morale": -1,
+    }

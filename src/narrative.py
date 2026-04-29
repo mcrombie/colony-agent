@@ -12,6 +12,7 @@ EVENT_OPENINGS = {
     "dispute": "A dispute unsettled the day's work",
     "discovery": "A discovery gave the colony something new to discuss",
     "quiet_day": "The colony passed a quiet day",
+    "chaos_gods": "The chaos gods struck the colony",
 }
 
 
@@ -61,4 +62,3 @@ def _closing_sentence(state: dict[str, Any]) -> str:
         return "The settlement survives, though confidence is thinning."
 
     return "The settlement endures into another morning."
-

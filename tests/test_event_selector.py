@@ -1,6 +1,10 @@
 from copy import deepcopy
 
+import pytest
+
 from src import event_selector
+from src.constants import CHAOS_GODS_EVENT_TYPE
+from src.openai_selector import MissingOpenAIConfigError, OpenAIAPICallError
 
 BASE_STATE = {
     "day": 1,
@@ -16,28 +20,40 @@ BASE_STATE = {
 }
 
 
-def test_rules_mode_uses_rule_based_selector(monkeypatch):
+def test_choose_event_uses_openai_selector(monkeypatch):
     state = deepcopy(BASE_STATE)
-    monkeypatch.setattr(
-        event_selector,
-        "choose_rule_based_event",
-        lambda current_state: "quiet_day",
-    )
-
-    event_type = event_selector.choose_event(state, mode="rules")
-
-    assert event_type == "quiet_day"
-
-
-def test_openai_mode_uses_openai_selector(monkeypatch):
-    state = deepcopy(BASE_STATE)
-    monkeypatch.setenv("OPENAI_API_KEY", "test-key")
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
     monkeypatch.setattr(
         event_selector,
         "choose_event_with_openai",
         lambda current_state: "discovery",
     )
 
-    event_type = event_selector.choose_event(state, mode="openai")
+    event_type = event_selector.choose_event(state)
 
     assert event_type == "discovery"
+
+
+def test_missing_openai_key_fails_loudly(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+
+    with pytest.raises(MissingOpenAIConfigError, match="OPENAI_API_KEY is not set"):
+        event_selector.choose_event(state)
+
+
+def test_api_call_failure_becomes_chaos_gods_event(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_event_with_openai",
+        lambda current_state: (_ for _ in ()).throw(
+            OpenAIAPICallError("OpenAI API call failed.")
+        ),
+    )
+
+    event_type = event_selector.choose_event(state)
+
+    assert event_type == CHAOS_GODS_EVENT_TYPE

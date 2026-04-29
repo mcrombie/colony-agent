@@ -5,7 +5,7 @@ from __future__ import annotations
 from copy import deepcopy
 from typing import Any
 
-from src.events import ALLOWED_EVENT_TYPES
+from src.constants import ALLOWED_EVENT_TYPES
 
 LIMITED_STATS = ("morale", "security", "health")
 NON_NEGATIVE_STATS = ("population", "food", "wood")
@@ -59,6 +59,7 @@ def summarize_event(state: dict[str, Any], event_type: str) -> str:
         "illness": "Illness spread through several homes.",
         "dispute": "A dispute unsettled the colony.",
         "quiet_day": "The day passed quietly while food stores were used.",
+        "chaos_gods": "The chaos gods struck the colony when the oracle went silent.",
     }
 
     if event_type == "discovery":
@@ -97,6 +98,9 @@ def _effects_for_event(state: dict[str, Any], event_type: str) -> dict[str, int]
 
     if event_type == "quiet_day":
         return {"food": -5}
+
+    if event_type == "chaos_gods":
+        return {"health": -1, "security": -1, "morale": -1}
 
     raise ValueError(f"Unknown event type: {event_type}")
 

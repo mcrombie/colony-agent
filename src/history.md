@@ -33,3 +33,24 @@ The colony passed a quiet day, reduced food by 5. The settlement endures into an
 
 Day 11 - Blergen:
 The colony passed a quiet day, reduced food by 5. The settlement endures into another morning.
+
+Day 12 - Blergen:
+A construction effort reinforced the settlement, reduced wood by 10, and increased security by 1. The settlement endures into another morning.
+
+Day 13 - Blergen:
+A poor harvest strained the colony's stores, reduced food by 10, and reduced morale by 1. The settlement endures into another morning.
+
+Day 14 - Blergen:
+The colony passed a quiet day, reduced food by 5. The settlement endures into another morning.
+
+Day 15 - Blergen:
+A construction effort reinforced the settlement, increased morale by 1. The settlement endures into another morning.
+
+Day 16 - Blergen:
+The colony passed a quiet day, reduced food by 5. The settlement endures into another morning.
+
+Day 17 - Blergen:
+The chaos gods struck the colony, reduced health by 1, reduced security by 1, and reduced morale by 1. The settlement endures into another morning.
+
+Day 18 - Blergen:
+A discovery gave the colony something new to discuss, increased morale by 1. The settlement endures into another morning.

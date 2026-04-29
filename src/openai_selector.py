@@ -6,7 +6,7 @@ import json
 import os
 from typing import Any, Literal
 
-from src.events import ALLOWED_EVENT_TYPES
+from src.constants import OPENAI_EVENT_TYPES
 
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
 
@@ -15,11 +15,19 @@ class OpenAISelectorError(RuntimeError):
     """Raised when the OpenAI selector cannot choose a valid event."""
 
 
+class MissingOpenAIConfigError(OpenAISelectorError):
+    """Raised when required OpenAI configuration is missing."""
+
+
+class OpenAIAPICallError(OpenAISelectorError):
+    """Raised when the OpenAI API call fails."""
+
+
 def choose_event_with_openai(state: dict[str, Any]) -> str:
     """Ask OpenAI to choose one allowed event type for the current state."""
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
-        raise OpenAISelectorError("OPENAI_API_KEY is not set.")
+        raise MissingOpenAIConfigError("OPENAI_API_KEY is not set.")
 
     try:
         from openai import OpenAI
@@ -45,37 +53,40 @@ def choose_event_with_openai(state: dict[str, Any]) -> str:
     model = os.getenv("OPENAI_MODEL", DEFAULT_OPENAI_MODEL)
     client = OpenAI(api_key=api_key)
 
-    response = client.responses.parse(
-        model=model,
-        input=[
-            {
-                "role": "system",
-                "content": (
-                    "You are an event selector for a small fictional colony "
-                    "simulation. Choose exactly one allowed event type. "
-                    "Consider the current state, known threats, and recent "
-                    "events, but do not apply mechanics and do not invent new "
-                    "event types."
-                ),
-            },
-            {
-                "role": "user",
-                "content": json.dumps(_state_for_prompt(state), indent=2),
-            },
-        ],
-        text_format=EventSelection,
-    )
+    try:
+        response = client.responses.parse(
+            model=model,
+            input=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You are an event selector for a small fictional colony "
+                        "simulation. Choose exactly one allowed event type. "
+                        "Consider the current state, known threats, and recent "
+                        "events, but do not apply mechanics and do not invent new "
+                        "event types."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": json.dumps(_state_for_prompt(state), indent=2),
+                },
+            ],
+            text_format=EventSelection,
+        )
+    except Exception as exc:
+        raise OpenAIAPICallError("OpenAI API call failed.") from exc
 
     event_type = response.output_parsed.event_type
-    if event_type not in ALLOWED_EVENT_TYPES:
-        raise OpenAISelectorError(f"OpenAI returned an invalid event type: {event_type}")
+    if event_type not in OPENAI_EVENT_TYPES:
+        raise OpenAIAPICallError(f"OpenAI returned an invalid event type: {event_type}")
 
     return event_type
 
 
 def _state_for_prompt(state: dict[str, Any]) -> dict[str, Any]:
     return {
-        "allowed_event_types": list(ALLOWED_EVENT_TYPES),
+        "allowed_event_types": list(OPENAI_EVENT_TYPES),
         "current_state": {
             "day": state["day"],
             "colony_name": state["colony_name"],
