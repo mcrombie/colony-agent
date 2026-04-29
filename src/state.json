@@ -1,5 +1,5 @@
 {
-  "day": 30,
+  "day": 31,
   "colony_name": "Blergen",
   "population": 98,
   "food": 105,
@@ -263,6 +263,12 @@
     },
     {
       "day": 29,
+      "event_type": "failed_construction",
+      "effects": {},
+      "summary": "Construction failed because the colony lacked enough wood."
+    },
+    {
+      "day": 30,
       "event_type": "failed_construction",
       "effects": {},
       "summary": "Construction failed because the colony lacked enough wood."
