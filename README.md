@@ -58,9 +58,39 @@ Then run:
 python -m pytest
 ```
 
+## GitHub Actions
+
+The workflow in `.github/workflows/advance-colony.yml` currently runs once per hour and can also be started manually from the Actions tab.
+
+Before enabling it on GitHub, add this repository secret:
+
+```text
+OPENAI_API_KEY
+```
+
+Optionally add this repository variable to override the default model:
+
+```text
+OPENAI_MODEL
+```
+
+Each run installs dependencies, runs tests, advances the colony once, and commits changes to `src/state.json` and `src/history.md`.
+
+When you are ready to switch from hourly to daily, change the workflow cron from:
+
+```yaml
+- cron: "0 * * * *"
+```
+
+to:
+
+```yaml
+- cron: "0 12 * * *"
+```
+
 ## Roadmap
 
 1. Add an OpenAI API event selector. Done.
-2. Add a GitHub Actions daily run.
+2. Add a GitHub Actions daily run. Started as hourly for evaluation.
 3. Publish `history.md` to Cromblog.
 4. Add charts and long-term summaries.

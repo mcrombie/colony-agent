@@ -50,7 +50,7 @@ def choose_event_with_openai(state: dict[str, Any]) -> str:
         ]
         reasoning: str
 
-    model = os.getenv("OPENAI_MODEL", DEFAULT_OPENAI_MODEL)
+    model = os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
     client = OpenAI(api_key=api_key)
 
     try:
