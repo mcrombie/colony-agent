@@ -13,6 +13,7 @@ EVENT_OPENINGS = {
     "discovery": "A discovery gave the colony something new to discuss",
     "quiet_day": "The colony passed a quiet day",
     "chaos_gods": "The chaos gods struck the colony",
+    "failed_construction": "The planned construction work failed",
 }
 
 

@@ -54,3 +54,24 @@ The chaos gods struck the colony, reduced health by 1, reduced security by 1, an
 
 Day 18 - Blergen:
 A discovery gave the colony something new to discuss, increased morale by 1. The settlement endures into another morning.
+
+Day 19 - Blergen:
+The colony passed a quiet day, reduced food by 5. The settlement endures into another morning.
+
+Day 20 - Blergen:
+Illness moved through the colony, reduced health by 1, and reduced morale by 1. The settlement endures into another morning.
+
+Day 21 - Blergen:
+Illness moved through the colony, reduced health by 1, and reduced morale by 1. The settlement survives, but sickness is wearing people down.
+
+Day 22 - Blergen:
+Illness moved through the colony, reduced health by 1, reduced morale by 1, and reduced population by 1. The settlement survives, but sickness is wearing people down.
+
+Day 23 - Blergen:
+Illness moved through the colony, reduced health by 1, reduced morale by 1, and reduced population by 1. The settlement survives, but sickness is wearing people down.
+
+Day 24 - Blergen:
+The colony passed a quiet day, reduced food by 5. The settlement survives, but sickness is wearing people down.
+
+Day 25 - Blergen:
+A discovery gave the colony something new to discuss, increased morale by 1. The settlement survives, but sickness is wearing people down.

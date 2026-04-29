@@ -5,7 +5,7 @@ from __future__ import annotations
 from copy import deepcopy
 from typing import Any
 
-from src.constants import ALLOWED_EVENT_TYPES
+from src.constants import ALLOWED_EVENT_TYPES, FAILED_CONSTRUCTION_EVENT_TYPE
 
 LIMITED_STATS = ("morale", "security", "health")
 NON_NEGATIVE_STATS = ("population", "food", "wood")
@@ -31,6 +31,7 @@ def apply_event(state: dict[str, Any], event_type: str) -> tuple[dict[str, Any],
 
     before = deepcopy(state)
     after = deepcopy(state)
+    event_type = _resolve_event_type(before, event_type)
     effects = _effects_for_event(before, event_type)
 
     for stat, amount in effects.items():
@@ -60,6 +61,7 @@ def summarize_event(state: dict[str, Any], event_type: str) -> str:
         "dispute": "A dispute unsettled the colony.",
         "quiet_day": "The day passed quietly while food stores were used.",
         "chaos_gods": "The chaos gods struck the colony when the oracle went silent.",
+        "failed_construction": "Construction failed because the colony lacked enough wood.",
     }
 
     if event_type == "discovery":
@@ -84,6 +86,9 @@ def _effects_for_event(state: dict[str, Any], event_type: str) -> dict[str, int]
     if event_type == "construction":
         return {"wood": -10, "security": 1, "morale": 1}
 
+    if event_type == "failed_construction":
+        return {}
+
     if event_type == "illness":
         effects = {"health": -1, "morale": -1}
         if state["health"] <= 3:
@@ -103,6 +108,13 @@ def _effects_for_event(state: dict[str, Any], event_type: str) -> dict[str, int]
         return {"health": -1, "security": -1, "morale": -1}
 
     raise ValueError(f"Unknown event type: {event_type}")
+
+
+def _resolve_event_type(state: dict[str, Any], event_type: str) -> str:
+    if event_type == "construction" and state["wood"] < 10:
+        return FAILED_CONSTRUCTION_EVENT_TYPE
+
+    return event_type
 
 
 def _actual_effects(

@@ -1,12 +1,12 @@
 {
-  "day": 19,
+  "day": 26,
   "colony_name": "Blergen",
-  "population": 100,
-  "food": 115,
+  "population": 98,
+  "food": 105,
   "wood": 0,
-  "morale": 10,
+  "morale": 7,
   "security": 9,
-  "health": 5,
+  "health": 1,
   "known_threats": [
     "wolves",
     "winter"
@@ -170,6 +170,68 @@
         "morale": 1
       },
       "summary": "Scouts discovered fresh water north of camp."
+    },
+    {
+      "day": 19,
+      "event_type": "quiet_day",
+      "effects": {
+        "food": -5
+      },
+      "summary": "The day passed quietly while food stores were used."
+    },
+    {
+      "day": 20,
+      "event_type": "illness",
+      "effects": {
+        "health": -1,
+        "morale": -1
+      },
+      "summary": "Illness spread through several homes."
+    },
+    {
+      "day": 21,
+      "event_type": "illness",
+      "effects": {
+        "health": -1,
+        "morale": -1
+      },
+      "summary": "Illness spread through several homes."
+    },
+    {
+      "day": 22,
+      "event_type": "illness",
+      "effects": {
+        "health": -1,
+        "morale": -1,
+        "population": -1
+      },
+      "summary": "Illness spread through several homes."
+    },
+    {
+      "day": 23,
+      "event_type": "illness",
+      "effects": {
+        "health": -1,
+        "morale": -1,
+        "population": -1
+      },
+      "summary": "Illness spread through several homes."
+    },
+    {
+      "day": 24,
+      "event_type": "quiet_day",
+      "effects": {
+        "food": -5
+      },
+      "summary": "The day passed quietly while food stores were used."
+    },
+    {
+      "day": 25,
+      "event_type": "discovery",
+      "effects": {
+        "morale": 1
+      },
+      "summary": "Scouts discovered useful clay near the riverbank."
     }
   ]
 }

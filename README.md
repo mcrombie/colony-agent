@@ -42,6 +42,8 @@ The OpenAI selector only chooses one allowed event type. The mechanical effects 
 
 If the OpenAI API call fails after configuration is present, the simulation records `chaos_gods`: health -1, security -1, and morale -1.
 
+If OpenAI chooses `construction` when the colony has fewer than 10 wood, the simulation records `failed_construction` instead and leaves wood, security, and morale unchanged.
+
 ## Run tests
 
 Install dependencies if needed:

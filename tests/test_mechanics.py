@@ -60,6 +60,19 @@ def test_construction_consumes_wood_and_improves_security():
     assert event_record["effects"]["security"] == 1
 
 
+def test_construction_without_enough_wood_logs_failed_construction():
+    state = state_with(wood=5, security=4, morale=7)
+
+    after, event_record = apply_event(state, "construction")
+
+    assert after["wood"] == 5
+    assert after["security"] == 4
+    assert after["morale"] == 7
+    assert event_record["event_type"] == "failed_construction"
+    assert event_record["effects"] == {}
+    assert "lacked enough wood" in event_record["summary"]
+
+
 def test_illness_can_reduce_health():
     state = state_with(health=6)
 
