@@ -75,3 +75,6 @@ The colony passed a quiet day, reduced food by 5. The settlement survives, but s
 
 Day 25 - Blergen:
 A discovery gave the colony something new to discuss, increased morale by 1. The settlement survives, but sickness is wearing people down.
+
+Day 26 - Blergen:
+The chaos gods struck the colony, reduced health by 1, reduced security by 1, and reduced morale by 1. The settlement survives, but sickness is wearing people down.
