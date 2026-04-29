@@ -75,13 +75,31 @@ def choose_event_with_openai(state: dict[str, Any]) -> str:
             text_format=EventSelection,
         )
     except Exception as exc:
-        raise OpenAIAPICallError("OpenAI API call failed.") from exc
+        raise OpenAIAPICallError(
+            f"OpenAI API call failed: {_safe_error_message(exc)}"
+        ) from exc
 
     event_type = response.output_parsed.event_type
     if event_type not in OPENAI_EVENT_TYPES:
         raise OpenAIAPICallError(f"OpenAI returned an invalid event type: {event_type}")
 
     return event_type
+
+
+def _safe_error_message(error: Exception) -> str:
+    api_key = os.getenv("OPENAI_API_KEY") or ""
+    message = str(error)
+    if api_key:
+        message = message.replace(api_key, "[redacted]")
+
+    message = " ".join(message.split())
+    if len(message) > 500:
+        message = message[:497] + "..."
+
+    if message:
+        return f"{type(error).__name__}: {message}"
+
+    return type(error).__name__
 
 
 def _state_for_prompt(state: dict[str, Any]) -> dict[str, Any]:

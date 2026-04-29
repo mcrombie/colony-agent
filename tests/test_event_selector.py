@@ -57,3 +57,21 @@ def test_api_call_failure_becomes_chaos_gods_event(monkeypatch):
     event_type = event_selector.choose_event(state)
 
     assert event_type == CHAOS_GODS_EVENT_TYPE
+
+
+def test_api_call_failure_logs_sanitized_warning(monkeypatch, capsys):
+    state = deepcopy(BASE_STATE)
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_event_with_openai",
+        lambda current_state: (_ for _ in ()).throw(
+            OpenAIAPICallError("OpenAI API call failed: AuthenticationError")
+        ),
+    )
+
+    event_selector.choose_event(state)
+
+    captured = capsys.readouterr()
+    assert "::warning title=OpenAI selector failed::" in captured.out
+    assert "AuthenticationError" in captured.out

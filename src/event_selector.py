@@ -14,5 +14,19 @@ def choose_event(state: dict[str, Any]) -> str:
     load_local_env()
     try:
         return choose_event_with_openai(state)
-    except OpenAIAPICallError:
+    except OpenAIAPICallError as exc:
+        print(
+            "::warning title=OpenAI selector failed::"
+            f"{_escape_github_annotation(str(exc))}"
+        )
         return CHAOS_GODS_EVENT_TYPE
+
+
+def _escape_github_annotation(message: str) -> str:
+    return (
+        message.replace("%", "%25")
+        .replace("\r", "%0D")
+        .replace("\n", "%0A")
+        .replace(":", "%3A")
+        .replace(",", "%2C")
+    )
