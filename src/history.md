@@ -84,3 +84,6 @@ The chaos gods struck the colony, reduced security by 1, and reduced morale by 1
 
 Day 28 - Blergen:
 The chaos gods struck the colony, reduced security by 1, and reduced morale by 1. The settlement survives, but sickness is wearing people down.
+
+Day 29 - Blergen:
+The planned construction work failed. The settlement survives, but sickness is wearing people down.

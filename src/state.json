@@ -1,5 +1,5 @@
 {
-  "day": 29,
+  "day": 30,
   "colony_name": "Blergen",
   "population": 98,
   "food": 105,
@@ -260,6 +260,12 @@
         "morale": -1
       },
       "summary": "The chaos gods struck the colony when the oracle went silent."
+    },
+    {
+      "day": 29,
+      "event_type": "failed_construction",
+      "effects": {},
+      "summary": "Construction failed because the colony lacked enough wood."
     }
   ]
 }
