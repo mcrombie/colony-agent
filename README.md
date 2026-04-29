@@ -76,16 +76,24 @@ OPENAI_MODEL
 
 Each run installs dependencies, runs tests, advances the colony once, and commits changes to `src/state.json` and `src/history.md`.
 
+The temporary evaluation schedule gives GitHub three chances per hour:
+
+```yaml
+- cron: "7,27,47 * * * *"
+```
+
+GitHub can delay or drop scheduled runs during busy periods. The workflow includes a cadence check so backup slots skip themselves if `src/state.json` or `src/history.md` was updated in the last 50 minutes. Manual runs still advance immediately.
+
 When you are ready to switch from hourly to daily, change the workflow cron from:
 
 ```yaml
-- cron: "0 * * * *"
+- cron: "7,27,47 * * * *"
 ```
 
 to:
 
 ```yaml
-- cron: "0 12 * * *"
+- cron: "17 12 * * *"
 ```
 
 ## Roadmap

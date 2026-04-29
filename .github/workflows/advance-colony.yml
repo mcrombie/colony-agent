@@ -2,11 +2,11 @@ name: Advance Colony
 
 on:
   schedule:
-    # Hourly while the simulation is being evaluated. This intentionally avoids
-    # minute 0 because GitHub's scheduled runners are busiest at the top of
-    # the hour. Change to
-    # "0 12 * * *" for a once-daily run.
-    - cron: "17 * * * *"
+    # Three chances per hour while the simulation is being evaluated. GitHub can
+    # delay or drop scheduled runs during busy periods, so the cadence check
+    # below prevents backup slots from advancing the colony more than once.
+    # Change to "17 12 * * *" for a once-daily run.
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,26 +23,54 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check hourly cadence
+        id: cadence
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run requested; advancing colony."
+            echo "should_advance=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          last_run_ts="$(git log -1 --format=%ct -- src/state.json src/history.md 2>/dev/null || echo 0)"
+          now_ts="$(date +%s)"
+          age_seconds=$((now_ts - last_run_ts))
+
+          if [ "$age_seconds" -lt 3000 ]; then
+            echo "Colony files changed ${age_seconds}s ago; skipping this backup schedule slot."
+            echo "should_advance=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "No recent colony update found; advancing colony."
+            echo "should_advance=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Set up Python
+        if: steps.cadence.outputs.should_advance == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: "pip"
 
       - name: Install dependencies
+        if: steps.cadence.outputs.should_advance == 'true'
         run: python -m pip install -r requirements.txt
 
       - name: Run tests
+        if: steps.cadence.outputs.should_advance == 'true'
         run: python -m pytest -p no:cacheprovider
 
       - name: Advance colony by one day
+        if: steps.cadence.outputs.should_advance == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
         run: python -m src.run_day
 
       - name: Commit updated colony state
+        if: steps.cadence.outputs.should_advance == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
