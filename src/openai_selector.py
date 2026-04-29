@@ -4,11 +4,13 @@ from __future__ import annotations
 
 import json
 import os
+import time
 from typing import Any, Literal
 
 from src.constants import OPENAI_EVENT_TYPES
 
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
+OPENAI_MAX_ATTEMPTS = 3
 
 
 class OpenAISelectorError(RuntimeError):
@@ -51,33 +53,30 @@ def choose_event_with_openai(state: dict[str, Any]) -> str:
         reasoning: str
 
     model = os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, timeout=30.0, max_retries=2)
+    input_payload = [
+        {
+            "role": "system",
+            "content": (
+                "You are an event selector for a small fictional colony "
+                "simulation. Choose exactly one allowed event type. "
+                "Consider the current state, known threats, and recent "
+                "events, but do not apply mechanics and do not invent new "
+                "event types."
+            ),
+        },
+        {
+            "role": "user",
+            "content": json.dumps(_state_for_prompt(state), indent=2),
+        },
+    ]
 
-    try:
-        response = client.responses.parse(
-            model=model,
-            input=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are an event selector for a small fictional colony "
-                        "simulation. Choose exactly one allowed event type. "
-                        "Consider the current state, known threats, and recent "
-                        "events, but do not apply mechanics and do not invent new "
-                        "event types."
-                    ),
-                },
-                {
-                    "role": "user",
-                    "content": json.dumps(_state_for_prompt(state), indent=2),
-                },
-            ],
-            text_format=EventSelection,
-        )
-    except Exception as exc:
-        raise OpenAIAPICallError(
-            f"OpenAI API call failed: {_safe_error_message(exc)}"
-        ) from exc
+    response = _parse_with_retries(
+        client=client,
+        model=model,
+        input_payload=input_payload,
+        text_format=EventSelection,
+    )
 
     event_type = response.output_parsed.event_type
     if event_type not in OPENAI_EVENT_TYPES:
@@ -86,9 +85,37 @@ def choose_event_with_openai(state: dict[str, Any]) -> str:
     return event_type
 
 
+def _parse_with_retries(
+    client: Any,
+    model: str,
+    input_payload: list[dict[str, str]],
+    text_format: type[Any],
+) -> Any:
+    last_error = None
+    for attempt in range(1, OPENAI_MAX_ATTEMPTS + 1):
+        try:
+            return client.responses.parse(
+                model=model,
+                input=input_payload,
+                text_format=text_format,
+            )
+        except Exception as exc:
+            last_error = exc
+            if attempt < OPENAI_MAX_ATTEMPTS:
+                time.sleep(attempt * 2)
+
+    raise OpenAIAPICallError(
+        "OpenAI API call failed after "
+        f"{OPENAI_MAX_ATTEMPTS} attempts: {_safe_error_message(last_error)}"
+    ) from last_error
+
+
 def _safe_error_message(error: Exception) -> str:
     api_key = os.getenv("OPENAI_API_KEY") or ""
     message = str(error)
+    cause = getattr(error, "__cause__", None)
+    if cause:
+        message = f"{message} Cause: {type(cause).__name__}: {cause}"
     if api_key:
         message = message.replace(api_key, "[redacted]")
 

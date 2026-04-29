@@ -4,7 +4,11 @@ import pytest
 
 from src import event_selector
 from src.constants import CHAOS_GODS_EVENT_TYPE
-from src.openai_selector import MissingOpenAIConfigError, OpenAIAPICallError
+from src.openai_selector import (
+    MissingOpenAIConfigError,
+    OpenAIAPICallError,
+    _parse_with_retries,
+)
 
 BASE_STATE = {
     "day": 1,
@@ -75,3 +79,28 @@ def test_api_call_failure_logs_sanitized_warning(monkeypatch, capsys):
     captured = capsys.readouterr()
     assert "::warning title=OpenAI selector failed::" in captured.out
     assert "AuthenticationError" in captured.out
+
+
+def test_openai_parse_retries_transient_failure(monkeypatch):
+    calls = {"count": 0}
+    monkeypatch.setattr("src.openai_selector.time.sleep", lambda seconds: None)
+
+    class Responses:
+        def parse(self, **kwargs):
+            calls["count"] += 1
+            if calls["count"] == 1:
+                raise ConnectionError("temporary connection error")
+            return "ok"
+
+    class Client:
+        responses = Responses()
+
+    result = _parse_with_retries(
+        client=Client(),
+        model="test-model",
+        input_payload=[],
+        text_format=object,
+    )
+
+    assert result == "ok"
+    assert calls["count"] == 2
