@@ -2,11 +2,9 @@ name: Advance Colony
 
 on:
   schedule:
-    # Three chances per hour while the simulation is being evaluated. GitHub can
-    # delay or drop scheduled runs during busy periods, so the cadence check
-    # below prevents backup slots from advancing the colony more than once.
-    # Change to "17 12 * * *" for a once-daily run.
-    - cron: "7,27,47 * * * *"
+    # Daily early-morning run. GitHub cron uses UTC, so this is about
+    # 7:17 AM Eastern during daylight time and 6:17 AM during standard time.
+    - cron: "17 11 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,7 +24,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check hourly cadence
+      - name: Check cadence
         id: cadence
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -40,7 +38,7 @@ jobs:
           age_seconds=$((now_ts - last_run_ts))
 
           if [ "$age_seconds" -lt 3000 ]; then
-            echo "Colony files changed ${age_seconds}s ago; skipping this backup schedule slot."
+            echo "Colony files changed ${age_seconds}s ago; skipping this scheduled run."
             echo "should_advance=false" >> "$GITHUB_OUTPUT"
           else
             echo "No recent colony update found; advancing colony."
