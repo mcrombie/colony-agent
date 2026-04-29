@@ -2,9 +2,11 @@ name: Advance Colony
 
 on:
   schedule:
-    # Hourly while the simulation is being evaluated. Change to
+    # Hourly while the simulation is being evaluated. This intentionally avoids
+    # minute 0 because GitHub's scheduled runners are busiest at the top of
+    # the hour. Change to
     # "0 12 * * *" for a once-daily run.
-    - cron: "0 * * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -51,4 +53,3 @@ jobs:
             git commit -m "Advance colony simulation"
             git push
           fi
-
