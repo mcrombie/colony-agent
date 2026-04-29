@@ -1,11 +1,11 @@
 {
-  "day": 31,
+  "day": 32,
   "colony_name": "Blergen",
   "population": 98,
   "food": 105,
   "wood": 0,
-  "morale": 4,
-  "security": 6,
+  "morale": 2,
+  "security": 5,
   "health": 0,
   "known_threats": [
     "wolves",
@@ -272,6 +272,15 @@
       "event_type": "failed_construction",
       "effects": {},
       "summary": "Construction failed because the colony lacked enough wood."
+    },
+    {
+      "day": 31,
+      "event_type": "dispute",
+      "effects": {
+        "morale": -2,
+        "security": -1
+      },
+      "summary": "A dispute unsettled the colony."
     }
   ]
 }

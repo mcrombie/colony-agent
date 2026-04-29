@@ -90,3 +90,6 @@ The planned construction work failed. The settlement survives, but sickness is w
 
 Day 30 - Blergen:
 The planned construction work failed. The settlement survives, but sickness is wearing people down.
+
+Day 31 - Blergen:
+A dispute unsettled the day's work, reduced morale by 2, and reduced security by 1. The settlement survives, but sickness is wearing people down.
