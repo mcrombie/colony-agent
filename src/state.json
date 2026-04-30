@@ -1,8 +1,8 @@
 {
-  "day": 35,
+  "day": 36,
   "colony_name": "Blergen",
   "population": 97,
-  "food": 100,
+  "food": 96,
   "wood": 0,
   "morale": 1,
   "security": 6,
@@ -306,6 +306,19 @@
         "morale": 1
       },
       "summary": "Scouts discovered useful clay near the riverbank."
+    },
+    {
+      "day": 35,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "preserve_resources",
+      "effects": {
+        "food": -4
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered the colony to preserve resources."
     }
   ]
 }

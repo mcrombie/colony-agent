@@ -102,3 +102,6 @@ Illness moved through the colony, reduced morale by 1, and reduced population by
 
 Day 34 - Blergen:
 A discovery gave the colony something new to discuss, increased morale by 1. The settlement survives, but sickness is wearing people down.
+
+Day 35 - Blergen:
+No great outside event disturbed Blergen, and the president told the colonists to preserve resources; the day's changes reduced food by 4. The settlement survives, but sickness is wearing people down.
