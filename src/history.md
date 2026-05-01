@@ -105,3 +105,6 @@ A discovery gave the colony something new to discuss, increased morale by 1. The
 
 Day 35 - Blergen:
 No great outside event disturbed Blergen, and the president told the colonists to preserve resources; the day's changes reduced food by 4. The settlement survives, but sickness is wearing people down.
+
+Day 36 - Blergen:
+No great outside event disturbed Blergen, and the president sent crews out to gather wood; the day's changes reduced food by 4, and increased wood by 10. The settlement survives, but sickness is wearing people down.
