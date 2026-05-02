@@ -1,10 +1,10 @@
 {
-  "day": 37,
+  "day": 38,
   "colony_name": "Blergen",
   "population": 97,
-  "food": 92,
+  "food": 90,
   "wood": 10,
-  "morale": 1,
+  "morale": 0,
   "security": 6,
   "health": 0,
   "known_threats": [
@@ -333,6 +333,20 @@
         "food": -4
       },
       "summary": "No significant outside event disturbed the colony. The president sent work crews to gather wood."
+    },
+    {
+      "day": 37,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "ration_food",
+      "effects": {
+        "food": -2,
+        "morale": -1
+      },
+      "survival_effects": {
+        "food": -2
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered tighter food rationing."
     }
   ]
 }
