@@ -111,3 +111,6 @@ No great outside event disturbed Blergen, and the president sent crews out to ga
 
 Day 37 - Blergen:
 No great outside event disturbed Blergen, and the president ordered tighter food rationing; the day's changes reduced food by 2, and reduced morale by 1. The settlement survives, but sickness is wearing people down.
+
+Day 38 - Blergen:
+No great outside event disturbed Blergen, and the president sent crews out to gather wood; the day's changes reduced food by 4, and increased wood by 10. The settlement survives, but sickness is wearing people down.
