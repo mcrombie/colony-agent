@@ -1,11 +1,11 @@
 {
-  "day": 39,
+  "day": 40,
   "colony_name": "Blergen",
   "population": 97,
-  "food": 86,
-  "wood": 20,
-  "morale": 0,
-  "security": 6,
+  "food": 82,
+  "wood": 10,
+  "morale": 1,
+  "security": 7,
   "health": 0,
   "known_threats": [
     "wolves",
@@ -361,6 +361,22 @@
         "food": -4
       },
       "summary": "No significant outside event disturbed the colony. The president sent work crews to gather wood."
+    },
+    {
+      "day": 39,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "strengthen_defenses",
+      "effects": {
+        "food": -4,
+        "wood": -10,
+        "morale": 1,
+        "security": 1
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "summary": "No significant outside event disturbed the colony. The president spent wood to strengthen the settlement."
     }
   ]
 }

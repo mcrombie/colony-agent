@@ -114,3 +114,6 @@ No great outside event disturbed Blergen, and the president ordered tighter food
 
 Day 38 - Blergen:
 No great outside event disturbed Blergen, and the president sent crews out to gather wood; the day's changes reduced food by 4, and increased wood by 10. The settlement survives, but sickness is wearing people down.
+
+Day 39 - Blergen:
+No great outside event disturbed Blergen, and the president spent wood to strengthen the settlement; the day's changes reduced food by 4, reduced wood by 10, increased morale by 1, and increased security by 1. The settlement survives, but sickness is wearing people down.
