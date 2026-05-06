@@ -10,6 +10,12 @@ from src.constants import (
     ALLOWED_WORLD_EVENT_TYPES,
     FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE,
 )
+from src.people import (
+    apply_daily_people_events,
+    apply_population_loss_to_people,
+    ensure_people_exist,
+    sync_derived_colony_stats,
+)
 
 LIMITED_STATS = ("morale", "security", "health")
 NON_NEGATIVE_STATS = ("population", "food", "wood")
@@ -40,8 +46,8 @@ def apply_day(
     if leadership_action not in ALLOWED_LEADERSHIP_ACTION_TYPES:
         raise ValueError(f"Unknown leadership action: {leadership_action}")
 
-    before = deepcopy(state)
-    after = deepcopy(state)
+    before = ensure_people_exist(state)
+    after = deepcopy(before)
     leadership_action = _resolve_leadership_action(before, leadership_action)
 
     for stat, amount in _effects_for_world_event(before, world_event).items():
@@ -51,8 +57,18 @@ def apply_day(
         after[stat] += amount
 
     after = clamp_state(after)
+    population_before_survival = after["population"]
     survival_effects = _apply_daily_food_consumption(after, leadership_action)
     after = clamp_state(after)
+    people_events = _apply_people_effects(
+        before=before,
+        after=after,
+        world_event=world_event,
+        leadership_action=leadership_action,
+        population_before_survival=population_before_survival,
+        survival_effects=survival_effects,
+    )
+    sync_derived_colony_stats(after)
     after["day"] = before["day"] + 1
 
     event_record = {
@@ -62,6 +78,7 @@ def apply_day(
         "leadership_action": leadership_action,
         "effects": _actual_effects(before, after),
         "survival_effects": survival_effects,
+        "people_events": people_events,
         "summary": summarize_day(before, world_event, leadership_action),
     }
     after.setdefault("event_log", []).append(event_record)
@@ -217,6 +234,59 @@ def _apply_daily_food_consumption(
         }.items()
         if state[stat] - before != 0
     }
+
+
+def _apply_people_effects(
+    *,
+    before: dict[str, Any],
+    after: dict[str, Any],
+    world_event: str,
+    leadership_action: str,
+    population_before_survival: int,
+    survival_effects: dict[str, int],
+) -> dict[str, list[dict[str, Any]]]:
+    people_events = apply_daily_people_events(
+        after,
+        world_event=world_event,
+        leadership_action=leadership_action,
+        day=before["day"],
+        discovery_detail=(
+            _discovery_detail(before) if world_event == "discovery" else None
+        ),
+    )
+    deaths = []
+    direct_loss = max(0, before["population"] - population_before_survival)
+    survival_loss = max(0, -survival_effects.get("population", 0))
+
+    if direct_loss:
+        deaths.extend(
+            apply_population_loss_to_people(
+                after,
+                loss_count=direct_loss,
+                day=before["day"],
+                cause=_population_loss_cause(world_event),
+            )
+        )
+
+    if survival_loss:
+        deaths.extend(
+            apply_population_loss_to_people(
+                after,
+                loss_count=survival_loss,
+                day=before["day"],
+                cause="starvation",
+            )
+        )
+
+    people_events["deaths"] = deaths
+    return people_events
+
+
+def _population_loss_cause(world_event: str) -> str:
+    if world_event == "illness":
+        return "illness"
+
+    return "hardship"
 
 
 def _resolve_leadership_action(

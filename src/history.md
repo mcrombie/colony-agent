@@ -120,3 +120,15 @@ No great outside event disturbed Blergen, and the president spent wood to streng
 
 Day 40 - Blergen:
 No great outside event disturbed Blergen, and the president sent crews out to gather wood; the day's changes reduced food by 4, and increased wood by 10. The settlement survives, but sickness is wearing people down.
+
+Day 41 - Blergen:
+No great outside event disturbed Blergen, and the president ordered tighter food rationing; the day's changes reduced food by 2, and reduced morale by 1. The settlement survives, but sickness is wearing people down.
+
+Day 42 - Blergen:
+No great outside event disturbed Blergen, and the president told the colonists to preserve resources; the day's changes reduced food by 4. The settlement survives, but sickness is wearing people down.
+
+Day 43 - Blergen:
+No great outside event disturbed Blergen, and the president directed labor toward the fields; the day's changes increased food by 4. Wynn Bren, and Yuri Bren worked the field expansion. The settlement survives, but sickness is wearing people down.
+
+Day 44 - Blergen:
+A discovery gave the colony something new to discuss, and the president sent scouts beyond the settlement; the day's changes reduced food by 4, and increased wood by 5. Wynn Bren discovered old trail markers beyond the fields. Wynn Bren, and Ada Cairn scouted beyond the settlement. The settlement survives, but sickness is wearing people down.

@@ -51,8 +51,32 @@ def write_daily_entry(
     else:
         body = f"{body}."
 
+    people_text = _describe_people_events(event_record.get("people_events", {}))
+    if people_text:
+        body = f"{body} {people_text}"
+
     closing = _closing_sentence(state_after)
     return f"Day {day} - {colony_name}:\n{body} {closing}\n"
+
+
+def write_personal_history_entry(
+    state_before: dict[str, Any],
+    event_record: dict[str, Any],
+    state_after: dict[str, Any],
+) -> str:
+    """Return a character-focused markdown entry for people_history.md."""
+    lines = _personal_history_lines(
+        state_before=state_before,
+        event_record=event_record,
+        state_after=state_after,
+    )
+    if not lines:
+        return ""
+
+    day = event_record["day"]
+    colony_name = state_before["colony_name"]
+    body = "\n".join(f"- {line}" for line in lines)
+    return f"Day {day} - {colony_name} Personal Stories:\n{body}\n"
 
 
 def _describe_effects(effects: dict[str, int]) -> str:
@@ -68,6 +92,203 @@ def _describe_effects(effects: dict[str, int]) -> str:
         return pieces[0]
 
     return ", ".join(pieces[:-1]) + f", and {pieces[-1]}"
+
+
+def _describe_people_events(people_events: dict[str, Any]) -> str:
+    pieces = []
+    for event_type in ("illnesses", "conflicts", "discoveries", "actions"):
+        pieces.extend(
+            event["summary"]
+            for event in people_events.get(event_type, [])[:2]
+            if event.get("summary")
+        )
+
+    deaths = people_events.get("deaths", [])
+    if deaths:
+        names = [death["name"] for death in deaths]
+        if len(names) == 1:
+            pieces.append(f"{names[0]} died.")
+        elif len(names) <= 3:
+            pieces.append(f"{_join_names(names)} died.")
+        else:
+            shown_names = _join_names(names[:3])
+            remaining = len(names) - 3
+            pieces.append(f"{shown_names}, and {remaining} others died.")
+
+    return " ".join(pieces)
+
+
+def _personal_history_lines(
+    *,
+    state_before: dict[str, Any],
+    event_record: dict[str, Any],
+    state_after: dict[str, Any],
+) -> list[str]:
+    people_events = event_record.get("people_events", {})
+    lines = []
+
+    for illness in people_events.get("illnesses", []):
+        for person_ref in illness.get("people", []):
+            lines.append(
+                _personal_line(
+                    person_ref,
+                    state_before=state_before,
+                    state_after=state_after,
+                    event_summary="fell ill",
+                )
+            )
+
+    for conflict in people_events.get("conflicts", []):
+        people = conflict.get("people", [])
+        if len(people) >= 2:
+            first, second = people[:2]
+            lines.append(
+                _relationship_line(
+                    first,
+                    second,
+                    state_before=state_before,
+                    state_after=state_after,
+                    event_summary="became rivals",
+                )
+            )
+
+    for discovery in people_events.get("discoveries", []):
+        detail = discovery.get("detail", "something useful")
+        for person_ref in discovery.get("people", []):
+            lines.append(
+                _personal_line(
+                    person_ref,
+                    state_before=state_before,
+                    state_after=state_after,
+                    event_summary=f"discovered {detail}",
+                )
+            )
+
+    for action in people_events.get("actions", []):
+        action_summary = _action_history_summary(action.get("type", "acted"))
+        for person_ref in action.get("people", []):
+            lines.append(
+                _personal_line(
+                    person_ref,
+                    state_before=state_before,
+                    state_after=state_after,
+                    event_summary=action_summary,
+                )
+            )
+
+    for death in people_events.get("deaths", []):
+        lines.append(
+            _personal_line(
+                death,
+                state_before=state_before,
+                state_after=state_after,
+                event_summary=f"died of {death.get('cause', 'hardship')}",
+            )
+        )
+
+    return lines
+
+
+def _personal_line(
+    person_ref: dict[str, Any],
+    *,
+    state_before: dict[str, Any],
+    state_after: dict[str, Any],
+    event_summary: str,
+) -> str:
+    person_after = _person_by_id(state_after, person_ref["id"])
+    person_before = _person_by_id(state_before, person_ref["id"])
+    name = person_ref["name"]
+    role = person_after.get("role") or person_before.get("role") or "colonist"
+    status = _status_change_text(person_before, person_after)
+    return f"{name} ({role}) {event_summary}. {status}"
+
+
+def _relationship_line(
+    first_ref: dict[str, Any],
+    second_ref: dict[str, Any],
+    *,
+    state_before: dict[str, Any],
+    state_after: dict[str, Any],
+    event_summary: str,
+) -> str:
+    first_after = _person_by_id(state_after, first_ref["id"])
+    second_after = _person_by_id(state_after, second_ref["id"])
+    first_role = first_after.get("role", "colonist")
+    second_role = second_after.get("role", "colonist")
+    first_status = _status_change_text(
+        _person_by_id(state_before, first_ref["id"]),
+        first_after,
+    )
+    second_status = _status_change_text(
+        _person_by_id(state_before, second_ref["id"]),
+        second_after,
+    )
+    return (
+        f"{first_ref['name']} ({first_role}) and "
+        f"{second_ref['name']} ({second_role}) {event_summary}. "
+        f"{first_ref['name']}: {first_status} "
+        f"{second_ref['name']}: {second_status}"
+    )
+
+
+def _status_change_text(
+    person_before: dict[str, Any],
+    person_after: dict[str, Any],
+) -> str:
+    before_status = person_before.get("status", {})
+    after_status = person_after.get("status", {})
+    pieces = []
+    for stat in ("health", "morale", "hunger"):
+        before_value = before_status.get(stat)
+        after_value = after_status.get(stat)
+        if before_value is None or after_value is None:
+            continue
+        if before_value != after_value:
+            pieces.append(f"{stat} {before_value}->{after_value}")
+
+    alive_before = before_status.get("alive")
+    alive_after = after_status.get("alive")
+    if alive_before is True and alive_after is False:
+        pieces.append("died")
+
+    if pieces:
+        return "; ".join(pieces) + "."
+
+    return "Status unchanged."
+
+
+def _action_history_summary(action_type: str) -> str:
+    summaries = {
+        "harvest": "helped bring in the harvest",
+        "strained_by_harvest": "felt the harvest strain",
+        "shaken_by_chaos": "was shaken by the silent oracle",
+        "rationed_food": "endured tighter rations",
+        "gathered_wood": "joined the wood crews",
+        "expanded_fields": "worked the field expansion",
+        "strengthened_defenses": "helped strengthen the settlement",
+        "tended_the_sick": "received care",
+        "mediated_dispute": "stepped back from rivalry",
+        "mediated_tensions": "joined the mediation circle",
+        "sent_scouts": "scouted beyond the settlement",
+        "festival": "found relief at the festival",
+    }
+    return summaries.get(action_type, "took part in the day's work")
+
+
+def _person_by_id(state: dict[str, Any], person_id: str) -> dict[str, Any]:
+    for person in state.get("people", []):
+        if person.get("id") == person_id:
+            return person
+
+    return {}
+
+
+def _join_names(names: list[str]) -> str:
+    if len(names) == 1:
+        return names[0]
+
+    return ", ".join(names[:-1]) + f", and {names[-1]}"
 
 
 def _closing_sentence(state: dict[str, Any]) -> str:

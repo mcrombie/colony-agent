@@ -18,6 +18,43 @@ The project has a simple observe-decide-respond-act-record loop:
 
 Because the next run depends on the saved result of the previous run, the loop is stateful.
 
+## Individual colonists
+
+Older state files can store `population` as only a number. When a day runs now,
+the simulation upgrades that state with a `people` list containing one living
+colonist per population member. Each colonist has a stable ID, distinct name,
+role, personality, status, relationship placeholders, and personal story notes.
+
+The current aggregate mechanics still drive the simulation. When those mechanics
+reduce population, the loss is assigned to named colonists, those colonists are
+marked dead, and the day's event record includes their death records. The daily
+history entry also names colonists who died.
+
+Daily world events and leadership actions also touch individual colonists. For
+example, illness can name who fell sick, disputes can create rivalries, discovery
+credits a scout or forager, and work orders name the colonists who took part.
+These personal consequences are saved in each colonist's story notes and in the
+day's `people_events` record.
+
+`population`, `health`, and `morale` are derived from the living colonists.
+Population is the count of living people, while health and morale are integer
+averages of living colonists' personal status values. Food, wood, security, and
+known threats remain colony-level fields.
+
+The OpenAI selectors receive a bounded `character_context` section with role
+counts, status summaries, and a small set of relevant named colonists. The deity
+prompt sees current vulnerabilities and recent stories. The president prompt
+gets colonists relevant to the chosen world event, such as sick colonists during
+illness, rivals during disputes, or scouts during discoveries. OpenAI still only
+chooses from the allowed event and action labels.
+
+The readable archive is split in two:
+
+- `src/history.md` records the colony-level chronicle.
+- `src/people_history.md` records individual colonist moments as bullet points
+  with personal status changes. The durable machine-readable version of each
+  colonist's story remains in `src/state.json`.
+
 ## Run one day
 
 From the project root:

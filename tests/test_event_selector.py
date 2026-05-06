@@ -8,7 +8,10 @@ from src.openai_selector import (
     MissingOpenAIConfigError,
     OpenAIAPICallError,
     _parse_with_retries,
+    _state_for_leadership_prompt,
+    _state_for_world_prompt,
 )
+from src.people import generate_people
 
 BASE_STATE = {
     "day": 1,
@@ -22,6 +25,13 @@ BASE_STATE = {
     "known_threats": ["wolves", "winter"],
     "event_log": [],
 }
+
+
+def state_with_people(count=12):
+    state = deepcopy(BASE_STATE)
+    state["population"] = count
+    state["people"] = generate_people(count, colony_health=6, colony_morale=7)
+    return state
 
 
 def test_choose_world_event_uses_openai_selector(monkeypatch):
@@ -152,3 +162,57 @@ def test_openai_parse_retries_transient_failure(monkeypatch):
 
     assert result == "ok"
     assert calls["count"] == 2
+
+
+def test_world_prompt_includes_bounded_character_context():
+    state = state_with_people(count=12)
+    state["people"][0]["story"]["notable_events"].append(
+        "Ada Aster helped hold the storehouse line on day 1."
+    )
+
+    prompt = _state_for_world_prompt(state)
+    character_context = prompt["character_context"]
+
+    assert character_context["living_population"] == 12
+    assert character_context["role_counts"]["scout"] == 1
+    assert len(character_context["featured_colonists"]) <= 8
+    assert "people" not in prompt
+    assert {
+        "id",
+        "name",
+        "age",
+        "role",
+        "traits",
+        "temperament",
+        "fear",
+        "desire",
+        "status",
+        "relationship_counts",
+        "recent_story",
+    } <= set(character_context["featured_colonists"][0])
+
+
+def test_leadership_prompt_selects_event_relevant_colonists():
+    state = state_with_people(count=12)
+
+    prompt = _state_for_leadership_prompt(state, "discovery")
+    featured_roles = {
+        person["role"]
+        for person in prompt["character_context"]["featured_colonists"][:2]
+    }
+
+    assert featured_roles == {"scout", "forager"}
+    assert prompt["today_world_event"] == "discovery"
+    assert "Named colonists can inform priorities" in prompt["important_rules"][-1]
+
+
+def test_illness_leadership_prompt_prioritizes_fragile_colonists():
+    state = state_with_people(count=12)
+    state["people"][7]["status"]["health"] = 1
+    state["people"][2]["status"]["health"] = 2
+
+    prompt = _state_for_leadership_prompt(state, "illness")
+    featured = prompt["character_context"]["featured_colonists"]
+
+    assert featured[0]["status"]["health"] == 1
+    assert featured[1]["status"]["health"] == 2

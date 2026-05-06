@@ -8,6 +8,7 @@ import time
 from typing import Any, Literal
 
 from src.constants import LEADERSHIP_ACTION_TYPES, WORLD_EVENT_TYPES
+from src.people import character_context_for_prompt
 
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
 OPENAI_MAX_ATTEMPTS = 3
@@ -51,7 +52,9 @@ def choose_world_event_with_openai(state: dict[str, Any]) -> str:
                 "significant outside event; choose quiet_day roughly 35 to "
                 "50 percent of the time unless the state strongly suggests a "
                 "crisis or opportunity. Do not apply mechanics and do not "
-                "invent new event types."
+                "invent new event types. Named colonists are provided as "
+                "context for fate and story pressure, but your structured "
+                "response must still choose only one allowed world event."
             ),
         },
         {
@@ -104,7 +107,9 @@ def choose_leadership_action_with_openai(
                 "major event or a quiet day. Choose exactly one allowed "
                 "leadership action for the colony. Respond practically in "
                 "light of the event and the current state. Do not apply "
-                "mechanics and do not invent new action types."
+                "mechanics and do not invent new action types. Named "
+                "colonists are context for priorities, not extra output "
+                "fields."
             ),
         },
         {
@@ -214,6 +219,7 @@ def _state_for_world_prompt(state: dict[str, Any]) -> dict[str, Any]:
             "health": state["health"],
             "known_threats": state["known_threats"],
         },
+        "character_context": character_context_for_prompt(state),
         "recent_events": state.get("event_log", [])[-5:],
     }
 
@@ -237,12 +243,17 @@ def _state_for_leadership_prompt(
             "health": state["health"],
             "known_threats": state["known_threats"],
         },
+        "character_context": character_context_for_prompt(
+            state,
+            world_event=world_event,
+        ),
         "recent_events": state.get("event_log", [])[-5:],
         "important_rules": [
             "Food is consumed every day regardless of your action.",
             "If food reaches zero, population will fall until food recovers.",
             "strengthen_defenses requires at least 10 wood.",
             "hold_festival costs extra food.",
+            "Named colonists can inform priorities, but choose only one allowed action label.",
         ],
     }
 

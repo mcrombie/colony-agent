@@ -1,12 +1,12 @@
 {
-  "day": 41,
+  "day": 45,
   "colony_name": "Blergen",
   "population": 97,
-  "food": 78,
-  "wood": 20,
+  "food": 72,
+  "wood": 25,
   "morale": 1,
   "security": 7,
-  "health": 0,
+  "health": 1,
   "known_threats": [
     "wolves",
     "winter"
@@ -391,6 +391,3026 @@
         "food": -4
       },
       "summary": "No significant outside event disturbed the colony. The president sent work crews to gather wood."
+    },
+    {
+      "day": 41,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "ration_food",
+      "effects": {
+        "food": -2,
+        "morale": -1
+      },
+      "survival_effects": {
+        "food": -2
+      },
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered tighter food rationing."
+    },
+    {
+      "day": 42,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "preserve_resources",
+      "effects": {
+        "food": -4
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 43,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "expand_fields",
+      "effects": {
+        "food": 4
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "expanded_fields",
+            "people": [
+              {
+                "id": "person_049",
+                "name": "Wynn Bren"
+              },
+              {
+                "id": "person_051",
+                "name": "Yuri Bren"
+              }
+            ],
+            "summary": "Wynn Bren, and Yuri Bren worked the field expansion."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No significant outside event disturbed the colony. The president directed labor toward the fields."
+    },
+    {
+      "day": 44,
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "leadership_action": "send_scouts",
+      "effects": {
+        "food": -4,
+        "wood": 5
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "old trail markers beyond the fields",
+            "people": [
+              {
+                "id": "person_049",
+                "name": "Wynn Bren"
+              }
+            ],
+            "summary": "Wynn Bren discovered old trail markers beyond the fields."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_049",
+                "name": "Wynn Bren"
+              },
+              {
+                "id": "person_053",
+                "name": "Ada Cairn"
+              }
+            ],
+            "summary": "Wynn Bren, and Ada Cairn scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered old trail markers beyond the fields. The president sent scouts beyond the settlement."
+    }
+  ],
+  "people": [
+    {
+      "id": "person_001",
+      "name": "Ada Aster",
+      "age": 18,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_002",
+      "name": "Bram Aster",
+      "age": 25,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_003",
+      "name": "Cora Aster",
+      "age": 32,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_004",
+      "name": "Dain Aster",
+      "age": 39,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_005",
+      "name": "Elia Aster",
+      "age": 46,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_006",
+      "name": "Finn Aster",
+      "age": 53,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_007",
+      "name": "Galen Aster",
+      "age": 60,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_008",
+      "name": "Hana Aster",
+      "age": 67,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_009",
+      "name": "Iris Aster",
+      "age": 23,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_010",
+      "name": "Jory Aster",
+      "age": 30,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_011",
+      "name": "Kara Aster",
+      "age": 37,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_012",
+      "name": "Lio Aster",
+      "age": 44,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_013",
+      "name": "Mara Aster",
+      "age": 51,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_014",
+      "name": "Niko Aster",
+      "age": 58,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_015",
+      "name": "Orin Aster",
+      "age": 65,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_016",
+      "name": "Pia Aster",
+      "age": 21,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_017",
+      "name": "Quin Aster",
+      "age": 28,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_018",
+      "name": "Rhea Aster",
+      "age": 35,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_019",
+      "name": "Soren Aster",
+      "age": 42,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_020",
+      "name": "Talia Aster",
+      "age": 49,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_021",
+      "name": "Una Aster",
+      "age": 56,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_022",
+      "name": "Vera Aster",
+      "age": 63,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_023",
+      "name": "Wynn Aster",
+      "age": 19,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_024",
+      "name": "Xara Aster",
+      "age": 26,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_025",
+      "name": "Yuri Aster",
+      "age": 33,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_026",
+      "name": "Zara Aster",
+      "age": 40,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_027",
+      "name": "Ada Bren",
+      "age": 47,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_028",
+      "name": "Bram Bren",
+      "age": 54,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_029",
+      "name": "Cora Bren",
+      "age": 61,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_030",
+      "name": "Dain Bren",
+      "age": 68,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_031",
+      "name": "Elia Bren",
+      "age": 24,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_032",
+      "name": "Finn Bren",
+      "age": 31,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_033",
+      "name": "Galen Bren",
+      "age": 38,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_034",
+      "name": "Hana Bren",
+      "age": 45,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_035",
+      "name": "Iris Bren",
+      "age": 52,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_036",
+      "name": "Jory Bren",
+      "age": 59,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_037",
+      "name": "Kara Bren",
+      "age": 66,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_038",
+      "name": "Lio Bren",
+      "age": 22,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_039",
+      "name": "Mara Bren",
+      "age": 29,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_040",
+      "name": "Niko Bren",
+      "age": 36,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_041",
+      "name": "Orin Bren",
+      "age": 43,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_042",
+      "name": "Pia Bren",
+      "age": 50,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_043",
+      "name": "Quin Bren",
+      "age": 57,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_044",
+      "name": "Rhea Bren",
+      "age": 64,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_045",
+      "name": "Soren Bren",
+      "age": 20,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_046",
+      "name": "Talia Bren",
+      "age": 27,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_047",
+      "name": "Una Bren",
+      "age": 34,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_048",
+      "name": "Vera Bren",
+      "age": 41,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_049",
+      "name": "Wynn Bren",
+      "age": 48,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 3,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Wynn Bren worked the field expansion on day 43.",
+          "Wynn Bren discovered old trail markers beyond the fields on day 44.",
+          "Wynn Bren scouted beyond the settlement on day 44."
+        ]
+      }
+    },
+    {
+      "id": "person_050",
+      "name": "Xara Bren",
+      "age": 55,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_051",
+      "name": "Yuri Bren",
+      "age": 62,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Yuri Bren worked the field expansion on day 43."
+        ]
+      }
+    },
+    {
+      "id": "person_052",
+      "name": "Zara Bren",
+      "age": 18,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_053",
+      "name": "Ada Cairn",
+      "age": 25,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 2,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Ada Cairn scouted beyond the settlement on day 44."
+        ]
+      }
+    },
+    {
+      "id": "person_054",
+      "name": "Bram Cairn",
+      "age": 32,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_055",
+      "name": "Cora Cairn",
+      "age": 39,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_056",
+      "name": "Dain Cairn",
+      "age": 46,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_057",
+      "name": "Elia Cairn",
+      "age": 53,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_058",
+      "name": "Finn Cairn",
+      "age": 60,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_059",
+      "name": "Galen Cairn",
+      "age": 67,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_060",
+      "name": "Hana Cairn",
+      "age": 23,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_061",
+      "name": "Iris Cairn",
+      "age": 30,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_062",
+      "name": "Jory Cairn",
+      "age": 37,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_063",
+      "name": "Kara Cairn",
+      "age": 44,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_064",
+      "name": "Lio Cairn",
+      "age": 51,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_065",
+      "name": "Mara Cairn",
+      "age": 58,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_066",
+      "name": "Niko Cairn",
+      "age": 65,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_067",
+      "name": "Orin Cairn",
+      "age": 21,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_068",
+      "name": "Pia Cairn",
+      "age": 28,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_069",
+      "name": "Quin Cairn",
+      "age": 35,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_070",
+      "name": "Rhea Cairn",
+      "age": 42,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_071",
+      "name": "Soren Cairn",
+      "age": 49,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_072",
+      "name": "Talia Cairn",
+      "age": 56,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_073",
+      "name": "Una Cairn",
+      "age": 63,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_074",
+      "name": "Vera Cairn",
+      "age": 19,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_075",
+      "name": "Wynn Cairn",
+      "age": 26,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_076",
+      "name": "Xara Cairn",
+      "age": 33,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_077",
+      "name": "Yuri Cairn",
+      "age": 40,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_078",
+      "name": "Zara Cairn",
+      "age": 47,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_079",
+      "name": "Ada Dove",
+      "age": 54,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_080",
+      "name": "Bram Dove",
+      "age": 61,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_081",
+      "name": "Cora Dove",
+      "age": 68,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_082",
+      "name": "Dain Dove",
+      "age": 24,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_083",
+      "name": "Elia Dove",
+      "age": 31,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_084",
+      "name": "Finn Dove",
+      "age": 38,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_085",
+      "name": "Galen Dove",
+      "age": 45,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_086",
+      "name": "Hana Dove",
+      "age": 52,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_087",
+      "name": "Iris Dove",
+      "age": 59,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_088",
+      "name": "Jory Dove",
+      "age": 66,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_089",
+      "name": "Kara Dove",
+      "age": 22,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_090",
+      "name": "Lio Dove",
+      "age": 29,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_091",
+      "name": "Mara Dove",
+      "age": 36,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_092",
+      "name": "Niko Dove",
+      "age": 43,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_093",
+      "name": "Orin Dove",
+      "age": 50,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_094",
+      "name": "Pia Dove",
+      "age": 57,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_095",
+      "name": "Quin Dove",
+      "age": 64,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_096",
+      "name": "Rhea Dove",
+      "age": 20,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
+    },
+    {
+      "id": "person_097",
+      "name": "Soren Dove",
+      "age": 27,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 1,
+        "morale": 1,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": []
+      }
     }
   ]
 }

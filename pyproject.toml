@@ -14,7 +14,7 @@ where = ["."]
 include = ["src*"]
 
 [tool.setuptools.package-data]
-src = ["state.json", "history.md"]
+src = ["state.json", "history.md", "people_history.md"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
