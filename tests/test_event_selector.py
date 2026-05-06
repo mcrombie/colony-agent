@@ -7,6 +7,7 @@ from src.constants import CHAOS_GODS_EVENT_TYPE, PRESERVE_RESOURCES_ACTION_TYPE
 from src.openai_selector import (
     MissingOpenAIConfigError,
     OpenAIAPICallError,
+    _normalize_world_event_decision,
     _parse_with_retries,
     _state_for_leadership_prompt,
     _state_for_world_prompt,
@@ -40,12 +41,15 @@ def test_choose_world_event_uses_openai_selector(monkeypatch):
     monkeypatch.setattr(
         event_selector,
         "choose_world_event_with_openai",
-        lambda current_state: "discovery",
+        lambda current_state, environment=None: {
+            "world_event": "discovery",
+            "reasoning": "test",
+        },
     )
 
     world_event = event_selector.choose_world_event(state)
 
-    assert world_event == "discovery"
+    assert world_event["world_event"] == "discovery"
 
 
 def test_choose_leadership_action_uses_openai_selector(monkeypatch):
@@ -77,14 +81,15 @@ def test_api_call_failure_becomes_chaos_gods_event(monkeypatch):
     monkeypatch.setattr(
         event_selector,
         "choose_world_event_with_openai",
-        lambda current_state: (_ for _ in ()).throw(
+        lambda current_state, environment=None: (_ for _ in ()).throw(
             OpenAIAPICallError("OpenAI API call failed.")
         ),
     )
 
     world_event = event_selector.choose_world_event(state)
 
-    assert world_event == CHAOS_GODS_EVENT_TYPE
+    assert world_event["world_event"] == CHAOS_GODS_EVENT_TYPE
+    assert world_event["severity"] == 3
 
 
 def test_leadership_api_failure_preserves_resources(monkeypatch):
@@ -109,7 +114,7 @@ def test_api_call_failure_logs_sanitized_warning(monkeypatch, capsys):
     monkeypatch.setattr(
         event_selector,
         "choose_world_event_with_openai",
-        lambda current_state: (_ for _ in ()).throw(
+        lambda current_state, environment=None: (_ for _ in ()).throw(
             OpenAIAPICallError("OpenAI API call failed: AuthenticationError")
         ),
     )
@@ -170,12 +175,19 @@ def test_world_prompt_includes_bounded_character_context():
         "Ada Aster helped hold the storehouse line on day 1."
     )
 
-    prompt = _state_for_world_prompt(state)
+    environment = {
+        "date": {"month": "February", "day_of_month": 19, "season": "winter"},
+        "weather": {"condition": "snow", "severity": 2, "season": "winter"},
+    }
+    prompt = _state_for_world_prompt(state, environment=environment)
     character_context = prompt["character_context"]
 
     assert character_context["living_population"] == 12
     assert character_context["role_counts"]["scout"] == 1
     assert len(character_context["featured_colonists"]) <= 8
+    assert prompt["environment"] == environment
+    assert "wolf_attack" in prompt["allowed_world_events"]
+    assert "storm" in prompt["allowed_world_events"]
     assert "people" not in prompt
     assert {
         "id",
@@ -195,7 +207,10 @@ def test_world_prompt_includes_bounded_character_context():
 def test_leadership_prompt_selects_event_relevant_colonists():
     state = state_with_people(count=12)
 
-    prompt = _state_for_leadership_prompt(state, "discovery")
+    prompt = _state_for_leadership_prompt(
+        state,
+        {"world_event": "discovery", "severity": 1},
+    )
     featured_roles = {
         person["role"]
         for person in prompt["character_context"]["featured_colonists"][:2]
@@ -203,6 +218,7 @@ def test_leadership_prompt_selects_event_relevant_colonists():
 
     assert featured_roles == {"scout", "forager"}
     assert prompt["today_world_event"] == "discovery"
+    assert prompt["today_event_details"]["severity"] == 1
     assert "Named colonists can inform priorities" in prompt["important_rules"][-1]
 
 
@@ -216,3 +232,24 @@ def test_illness_leadership_prompt_prioritizes_fragile_colonists():
 
     assert featured[0]["status"]["health"] == 1
     assert featured[1]["status"]["health"] == 2
+
+
+def test_world_event_decision_normalizes_severity():
+    decision = _normalize_world_event_decision(
+        {"world_event": "wolf_attack", "severity": 8, "reasoning": "wolves"},
+    )
+
+    assert decision == {
+        "world_event": "wolf_attack",
+        "severity": 5,
+        "reasoning": "wolves",
+    }
+
+
+def test_storm_decision_defaults_to_weather_severity():
+    decision = _normalize_world_event_decision(
+        {"world_event": "storm", "reasoning": "bad weather"},
+        environment={"weather": {"severity": 4}},
+    )
+
+    assert decision["severity"] == 4

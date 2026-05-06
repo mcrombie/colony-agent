@@ -1,11 +1,11 @@
 {
-  "day": 49,
+  "day": 51,
   "colony_name": "Blergen",
   "population": 97,
-  "food": 66,
-  "wood": 25,
+  "food": 52,
+  "wood": 11,
   "morale": 1,
-  "security": 7,
+  "security": 8,
   "health": 1,
   "known_threats": [
     "wolves",
@@ -646,6 +646,97 @@
         "deaths": []
       },
       "summary": "No significant outside event disturbed the colony. The president organized care for the sick."
+    },
+    {
+      "day": 49,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "preserve_resources",
+      "effects": {
+        "food": -4
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No significant outside event disturbed the colony. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 50,
+      "date": {
+        "year": 1,
+        "day_of_year": 50,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 19,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "clear_cold",
+        "severity": 1,
+        "summary": "Cold clear air settled over the camp."
+      },
+      "weather_effects": {},
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 4
+      },
+      "leadership_action": "strengthen_defenses",
+      "effects": {
+        "food": -10,
+        "wood": -14,
+        "security": 1
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 4,
+            "people": [
+              {
+                "id": "person_044",
+                "name": "Rhea Bren"
+              },
+              {
+                "id": "person_095",
+                "name": "Quin Dove"
+              },
+              {
+                "id": "person_022",
+                "name": "Vera Aster"
+              },
+              {
+                "id": "person_073",
+                "name": "Una Cairn"
+              }
+            ],
+            "summary": "Rhea Bren, Quin Dove, Vera Aster, and Una Cairn bore the worst of the storm."
+          },
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_054",
+                "name": "Bram Cairn"
+              },
+              {
+                "id": "person_057",
+                "name": "Elia Cairn"
+              }
+            ],
+            "summary": "Bram Cairn, and Elia Cairn helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 4 storm struck Blergen. Weather: Cold clear air settled over the camp. The president spent wood to strengthen the settlement."
     }
   ],
   "people": [
@@ -1304,11 +1395,13 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "morale": 0,
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Vera Aster endured a severity 4 storm on day 50."
+        ]
       }
     },
     {
@@ -1965,11 +2058,13 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "morale": 0,
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Rhea Bren endured a severity 4 storm on day 50."
+        ]
       }
     },
     {
@@ -2276,11 +2371,13 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Bram Cairn helped strengthen the settlement on day 50."
+        ]
       }
     },
     {
@@ -2366,11 +2463,13 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Elia Cairn helped strengthen the settlement on day 50."
+        ]
       }
     },
     {
@@ -2848,11 +2947,13 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "morale": 0,
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Una Cairn endured a severity 4 storm on day 50."
+        ]
       }
     },
     {
@@ -3510,11 +3611,13 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "morale": 0,
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Quin Dove endured a severity 4 storm on day 50."
+        ]
       }
     },
     {

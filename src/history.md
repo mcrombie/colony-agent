@@ -144,3 +144,9 @@ No great outside event disturbed Blergen, and the president directed labor towar
 
 Day 48 - Blergen:
 No great outside event disturbed Blergen, and the president organized care for the sick; the day's changes reduced food by 7. Kara Bren, Jory Dove, Orin Aster, and Niko Cairn received care. The settlement survives, but sickness is wearing people down.
+
+Day 49 - Blergen:
+No great outside event disturbed Blergen, and the president told the colonists to preserve resources; the day's changes reduced food by 4. The settlement survives, but sickness is wearing people down.
+
+Day 50 (February 19) - Blergen:
+Cold clear air settled over the camp. A severity 4 storm tested the colony, and the president spent wood to strengthen the settlement; the day's changes reduced food by 10, reduced wood by 14, and increased security by 1. Rhea Bren, Quin Dove, Vera Aster, and Una Cairn bore the worst of the storm. Bram Cairn, and Elia Cairn helped strengthen the settlement. The settlement survives, but sickness is wearing people down.

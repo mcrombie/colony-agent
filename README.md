@@ -11,10 +11,11 @@ The project has a simple observe-decide-respond-act-record loop:
 1. Observe the current colony state from `src/state.json`.
 2. Ask the deity selector which world event befalls Blergen.
 3. Ask the president selector how colony leadership responds to that event.
-4. Act by applying deterministic mechanical effects to the state.
-5. Consume daily food, with starvation reducing population if food runs out.
-6. Record the result in `event_log` and `src/history.md`.
-7. Persist the new state for the next run.
+4. Derive the day's calendar date, season, and weather.
+5. Act by applying deterministic weather, event, leadership, and survival effects.
+6. Consume daily food, with starvation reducing population if food runs out.
+7. Record the result in `event_log` and `src/history.md`.
+8. Persist the new state for the next run.
 
 Because the next run depends on the saved result of the previous run, the loop is stateful.
 
@@ -40,6 +41,26 @@ day's `people_events` record.
 Population is the count of living people, while health and morale are integer
 averages of living colonists' personal status values. Food, wood, security, and
 known threats remain colony-level fields.
+
+## Seasons, weather, and threats
+
+Day 1 is January 1 in the colony calendar. Dates are derived from the saved day
+number, so day 50 is February 19. The simulation uses four seasons:
+
+- Winter: December, January, February
+- Spring: March, April, May
+- Summer: June, July, August
+- Autumn: September, October, November
+
+Every day has deterministic weather based on the day and season. Weather is
+recorded in the event log and can have small mechanical effects, such as snow
+costing wood, hard freezes hurting health, or severe winter weather lowering
+morale.
+
+`known_threats` now affects what events are available to the selector. `wolves`
+can become a `wolf_attack`, and `winter` raises the importance of winter weather
+and storm danger. Winter itself is not an event; it is a season that shapes the
+weather table and the prompt context.
 
 The OpenAI selectors receive a bounded `character_context` section with role
 counts, status summaries, and a small set of relevant named colonists. The deity
@@ -82,10 +103,15 @@ The OpenAI selectors only choose from allowed labels. The mechanical effects sti
 The deity selector is prompted as a deity deciding what event, if any, should befall Blergen. It can choose:
 
 ```text
-good_harvest, poor_harvest, illness, dispute, discovery, quiet_day
+good_harvest, poor_harvest, illness, dispute, discovery,
+storm, wolf_attack, quiet_day
 ```
 
-The prompt asks the deity to choose `quiet_day` often so many days leave room for the colonists to take initiative.
+The prompt asks the deity to favor impactful events and choose `quiet_day` only
+about 15 to 25 percent of the time. `storm` and `wolf_attack` include a
+severity from 1 to 5. Stronger wolf attacks can kill colonists, especially when
+security is low. Stronger storms can damage stores, wood, health, morale, and in
+extreme sickly conditions, population.
 
 The president selector is prompted as the president of Blergen deciding how to respond to the event. It can choose:
 
@@ -100,6 +126,9 @@ If the deity API call fails after configuration is present, the simulation recor
 If the president API call fails after configuration is present, the simulation uses `preserve_resources`.
 
 If the president chooses `strengthen_defenses` when the colony has fewer than 10 wood, the simulation records `failed_strengthen_defenses` instead and leaves wood, security, and morale unchanged.
+
+If the president chooses `strengthen_defenses` during a wolf attack and the
+colony has enough wood, the attack's effective severity is reduced by one level.
 
 Food is consumed every day regardless of events or leadership actions. If food reaches zero, population falls until food recovers.
 

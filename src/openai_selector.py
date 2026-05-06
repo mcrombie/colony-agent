@@ -26,7 +26,11 @@ class OpenAIAPICallError(OpenAISelectorError):
     """Raised when the OpenAI API call fails."""
 
 
-def choose_world_event_with_openai(state: dict[str, Any]) -> str:
+def choose_world_event_with_openai(
+    state: dict[str, Any],
+    *,
+    environment: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     """Ask OpenAI to choose one allowed world event for the current state."""
     client, model, base_model = _openai_client()
 
@@ -37,8 +41,11 @@ def choose_world_event_with_openai(state: dict[str, Any]) -> str:
             "illness",
             "dispute",
             "discovery",
+            "storm",
+            "wolf_attack",
             "quiet_day",
         ]
+        severity: int | None = None
         reasoning: str
 
     input_payload = [
@@ -48,18 +55,24 @@ def choose_world_event_with_openai(state: dict[str, Any]) -> str:
                 "You are a deity watching the fictional colony of Blergen. "
                 "Choose exactly one allowed world event that should befall "
                 "the colony today. You control fate and circumstance, not "
-                "the colony's leadership decisions. Many days should have no "
-                "significant outside event; choose quiet_day roughly 35 to "
-                "50 percent of the time unless the state strongly suggests a "
-                "crisis or opportunity. Do not apply mechanics and do not "
-                "invent new event types. Named colonists are provided as "
-                "context for fate and story pressure, but your structured "
-                "response must still choose only one allowed world event."
+                "the colony's leadership decisions. Favor impactful events, "
+                "good and bad. Choose quiet_day only about 15 to 25 percent "
+                "of the time, and less often when severe weather or known "
+                "threats suggest danger. Wolves are an active threat and may "
+                "produce wolf_attack. Winter is a season, not an event, but "
+                "winter weather can produce storm. For wolf_attack and storm, "
+                "set severity from 1 to 5. Do not apply mechanics and do not "
+                "invent new event types. Named colonists are context for fate "
+                "and story pressure, but your structured response must still "
+                "choose only one allowed world event."
             ),
         },
         {
             "role": "user",
-            "content": json.dumps(_state_for_world_prompt(state), indent=2),
+            "content": json.dumps(
+                _state_for_world_prompt(state, environment=environment),
+                indent=2,
+            ),
         },
     ]
 
@@ -74,12 +87,19 @@ def choose_world_event_with_openai(state: dict[str, Any]) -> str:
     if world_event not in WORLD_EVENT_TYPES:
         raise OpenAIAPICallError(f"OpenAI returned an invalid world event: {world_event}")
 
-    return world_event
+    return _normalize_world_event_decision(
+        {
+            "world_event": world_event,
+            "severity": response.output_parsed.severity,
+            "reasoning": response.output_parsed.reasoning,
+        },
+        environment=environment,
+    )
 
 
 def choose_leadership_action_with_openai(
     state: dict[str, Any],
-    world_event: str,
+    world_event: str | dict[str, Any],
 ) -> str:
     """Ask OpenAI to choose the president's response to the day's event."""
     client, model, base_model = _openai_client()
@@ -109,7 +129,8 @@ def choose_leadership_action_with_openai(
                 "light of the event and the current state. Do not apply "
                 "mechanics and do not invent new action types. Named "
                 "colonists are context for priorities, not extra output "
-                "fields."
+                "fields. Storms and wolf attacks can be severe; consider "
+                "defense, sickness, food, and morale accordingly."
             ),
         },
         {
@@ -139,7 +160,7 @@ def choose_leadership_action_with_openai(
 
 def choose_event_with_openai(state: dict[str, Any]) -> str:
     """Backward-compatible wrapper for older callers."""
-    return choose_world_event_with_openai(state)
+    return choose_world_event_with_openai(state)["world_event"]
 
 
 def _openai_client() -> tuple[Any, str, type[Any]]:
@@ -204,7 +225,43 @@ def _safe_error_message(error: Exception) -> str:
     return type(error).__name__
 
 
-def _state_for_world_prompt(state: dict[str, Any]) -> dict[str, Any]:
+def _normalize_world_event_decision(
+    decision: str | dict[str, Any],
+    *,
+    environment: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    if isinstance(decision, str):
+        decision = {"world_event": decision}
+
+    world_event = decision.get("world_event")
+    if world_event not in WORLD_EVENT_TYPES:
+        raise OpenAIAPICallError(f"OpenAI returned an invalid world event: {world_event}")
+
+    normalized = {
+        "world_event": world_event,
+        "reasoning": decision.get("reasoning", ""),
+    }
+    if world_event in {"storm", "wolf_attack"}:
+        default_severity = 3
+        if world_event == "storm" and environment:
+            default_severity = environment.get("weather", {}).get("severity", 3)
+        normalized["severity"] = max(1, min(5, int(decision.get("severity") or default_severity)))
+
+    return normalized
+
+
+def _world_event_type(world_event: str | dict[str, Any]) -> str:
+    if isinstance(world_event, str):
+        return world_event
+
+    return world_event["world_event"]
+
+
+def _state_for_world_prompt(
+    state: dict[str, Any],
+    *,
+    environment: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     return {
         "role": "deity",
         "allowed_world_events": list(WORLD_EVENT_TYPES),
@@ -219,6 +276,13 @@ def _state_for_world_prompt(state: dict[str, Any]) -> dict[str, Any]:
             "health": state["health"],
             "known_threats": state["known_threats"],
         },
+        "environment": environment or {},
+        "threat_rules": [
+            "known_threats containing wolves means wolf_attack is available.",
+            "known_threats containing winter means winter weather should increase storm danger.",
+            "Winter is a season and period, not a world_event label.",
+            "For wolf_attack and storm, severity must be an integer from 1 to 5.",
+        ],
         "character_context": character_context_for_prompt(state),
         "recent_events": state.get("event_log", [])[-5:],
     }
@@ -226,11 +290,13 @@ def _state_for_world_prompt(state: dict[str, Any]) -> dict[str, Any]:
 
 def _state_for_leadership_prompt(
     state: dict[str, Any],
-    world_event: str,
+    world_event: str | dict[str, Any],
 ) -> dict[str, Any]:
+    world_event_type = _world_event_type(world_event)
     return {
         "role": "president",
-        "today_world_event": world_event,
+        "today_world_event": world_event_type,
+        "today_event_details": world_event if isinstance(world_event, dict) else {},
         "allowed_leadership_actions": list(LEADERSHIP_ACTION_TYPES),
         "current_state": {
             "day": state["day"],
@@ -245,7 +311,7 @@ def _state_for_leadership_prompt(
         },
         "character_context": character_context_for_prompt(
             state,
-            world_event=world_event,
+            world_event=world_event_type,
         ),
         "recent_events": state.get("event_log", [])[-5:],
         "important_rules": [
@@ -253,6 +319,8 @@ def _state_for_leadership_prompt(
             "If food reaches zero, population will fall until food recovers.",
             "strengthen_defenses requires at least 10 wood.",
             "hold_festival costs extra food.",
+            "strengthen_defenses can reduce damage from wolf attacks.",
+            "send_scouts can help track threats but still costs the day's action.",
             "Named colonists can inform priorities, but choose only one allowed action label.",
         ],
     }

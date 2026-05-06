@@ -216,6 +216,41 @@ def test_leadership_action_targets_relevant_named_people():
     assert all(person["story"]["notable_events"] for person in workers)
 
 
+def test_wolf_attack_names_defenders():
+    state = state_with(people=generate_people(12, colony_health=6, colony_morale=6))
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "wolf_attack", "severity": 3},
+        "preserve_resources",
+    )
+
+    action = event_record["people_events"]["actions"][0]
+    defender_ids = [person["id"] for person in action["people"]]
+    defenders = [person for person in after["people"] if person["id"] in defender_ids]
+    assert action["type"] == "defended_wolf_attack"
+    assert action["severity"] == 3
+    assert {"guard", "scout", "builder"} >= {person["role"] for person in defenders}
+    assert all("wolf attack" in person["story"]["notable_events"][0] for person in defenders)
+
+
+def test_storm_names_affected_colonists():
+    state = state_with(people=generate_people(12, colony_health=6, colony_morale=6))
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "storm", "severity": 4},
+        "preserve_resources",
+    )
+
+    action = event_record["people_events"]["actions"][0]
+    affected_ids = [person["id"] for person in action["people"]]
+    affected_people = [person for person in after["people"] if person["id"] in affected_ids]
+    assert action["type"] == "weathered_storm"
+    assert action["severity"] == 4
+    assert all(person["status"]["hunger"] == 1 for person in affected_people)
+
+
 def test_history_entry_names_people_who_died():
     state_before = ensure_people_exist(state_with(population=12, food=0))
     state_after, event_record = apply_day(state_before, "quiet_day", "preserve_resources")
@@ -234,6 +269,21 @@ def test_history_entry_includes_person_level_story_beat():
 
     discovery_summary = event_record["people_events"]["discoveries"][0]["summary"]
     assert discovery_summary in entry
+
+
+def test_history_entry_includes_date_weather_and_severity():
+    state_before = ensure_people_exist(state_with(population=12))
+    state_after, event_record = apply_day(
+        state_before,
+        {"world_event": "wolf_attack", "severity": 2},
+        "preserve_resources",
+    )
+
+    entry = write_daily_entry(state_before, event_record, state_after)
+
+    assert "Day 1 (January 1) - Blergen:" in entry
+    assert "A gray sky pressed low over Blergen." in entry
+    assert "severity 2 wolf attack" in entry
 
 
 def test_personal_history_entry_records_individual_status_changes():

@@ -13,20 +13,30 @@ from src.openai_selector import (
 )
 
 
-def choose_world_event(state: dict[str, Any]) -> str:
+def choose_world_event(
+    state: dict[str, Any],
+    environment: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     """Choose a world event with OpenAI, failing loudly when config is missing."""
     load_local_env()
     try:
-        return choose_world_event_with_openai(state)
+        return choose_world_event_with_openai(state, environment=environment)
     except OpenAIAPICallError as exc:
         print(
             "::warning title=OpenAI deity selector failed::"
             f"{_escape_github_annotation(str(exc))}"
         )
-        return CHAOS_GODS_EVENT_TYPE
+        return {
+            "world_event": CHAOS_GODS_EVENT_TYPE,
+            "severity": 3,
+            "reasoning": "The oracle failed, so the chaos gods answered instead.",
+        }
 
 
-def choose_leadership_action(state: dict[str, Any], world_event: str) -> str:
+def choose_leadership_action(
+    state: dict[str, Any],
+    world_event: str | dict[str, Any],
+) -> str:
     """Choose the colony president's response with OpenAI."""
     load_local_env()
     try:
@@ -41,7 +51,7 @@ def choose_leadership_action(state: dict[str, Any], world_event: str) -> str:
 
 def choose_event(state: dict[str, Any]) -> str:
     """Backward-compatible wrapper for older callers."""
-    return choose_world_event(state)
+    return choose_world_event(state)["world_event"]
 
 
 def _escape_github_annotation(message: str) -> str:

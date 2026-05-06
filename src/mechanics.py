@@ -10,6 +10,7 @@ from src.constants import (
     ALLOWED_WORLD_EVENT_TYPES,
     FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE,
 )
+from src.environment import environment_for_day
 from src.people import (
     apply_daily_people_events,
     apply_population_loss_to_people,
@@ -36,24 +37,41 @@ def clamp_state(state: dict[str, Any]) -> dict[str, Any]:
 
 def apply_day(
     state: dict[str, Any],
-    world_event: str,
+    world_event: str | dict[str, Any],
     leadership_action: str,
+    environment: dict[str, Any] | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     """Apply one day and return the next state plus an event record."""
-    if world_event not in ALLOWED_WORLD_EVENT_TYPES:
-        raise ValueError(f"Unknown world event: {world_event}")
+    event_decision = _normalize_world_event(world_event)
+    world_event_type = event_decision["world_event"]
+    event_details = _event_details(event_decision)
+    if world_event_type not in ALLOWED_WORLD_EVENT_TYPES:
+        raise ValueError(f"Unknown world event: {world_event_type}")
 
     if leadership_action not in ALLOWED_LEADERSHIP_ACTION_TYPES:
         raise ValueError(f"Unknown leadership action: {leadership_action}")
 
     before = ensure_people_exist(state)
     after = deepcopy(before)
+    environment = environment or environment_for_day(before["day"])
+    weather = environment["weather"]
     leadership_action = _resolve_leadership_action(before, leadership_action)
 
-    for stat, amount in _effects_for_world_event(before, world_event).items():
+    weather_effects = _effects_for_weather(weather)
+    for stat, amount in weather_effects.items():
         after[stat] += amount
 
-    for stat, amount in _effects_for_leadership_action(before, leadership_action).items():
+    world_effects = _effects_for_world_event(
+        before,
+        world_event_type,
+        event_details=event_details,
+        leadership_action=leadership_action,
+    )
+    for stat, amount in world_effects.items():
+        after[stat] += amount
+
+    leadership_effects = _effects_for_leadership_action(before, leadership_action)
+    for stat, amount in leadership_effects.items():
         after[stat] += amount
 
     after = clamp_state(after)
@@ -64,7 +82,8 @@ def apply_day(
     people_events = _apply_people_effects(
         before=before,
         after=after,
-        world_event=world_event,
+        world_event=world_event_type,
+        event_details=event_details,
         leadership_action=leadership_action,
         population_before_survival=population_before_survival,
         survival_effects=survival_effects,
@@ -79,13 +98,23 @@ def apply_day(
 
     event_record = {
         "day": before["day"],
-        "event_type": world_event,
-        "world_event": world_event,
+        "date": environment["date"],
+        "weather": weather,
+        "weather_effects": weather_effects,
+        "event_type": world_event_type,
+        "world_event": world_event_type,
+        "event_details": event_details,
         "leadership_action": leadership_action,
         "effects": _actual_effects(before, after),
         "survival_effects": survival_effects,
         "people_events": people_events,
-        "summary": summarize_day(before, world_event, leadership_action),
+        "summary": summarize_day(
+            before,
+            world_event_type,
+            leadership_action,
+            event_details=event_details,
+            weather=weather,
+        ),
     }
     after.setdefault("event_log", []).append(event_record)
 
@@ -104,14 +133,22 @@ def summarize_day(
     state: dict[str, Any],
     world_event: str,
     leadership_action: str,
+    *,
+    event_details: dict[str, Any] | None = None,
+    weather: dict[str, Any] | None = None,
 ) -> str:
     """Create a short factual summary for the event log."""
+    event_details = event_details or {}
     event_summaries = {
         "good_harvest": "A strong harvest favored Blergen.",
         "poor_harvest": "A poor harvest strained Blergen's stores.",
         "illness": "Illness spread through several homes.",
         "dispute": "A dispute unsettled the colony.",
-        "quiet_day": "No significant outside event disturbed the colony.",
+        "quiet_day": "No major world event overtook the colony.",
+        "storm": f"A severity {event_details.get('severity', 3)} storm struck Blergen.",
+        "wolf_attack": (
+            f"A severity {event_details.get('severity', 3)} wolf attack hit the settlement."
+        ),
         "chaos_gods": "The chaos gods struck the colony when the oracle went silent.",
     }
     action_summaries = {
@@ -134,7 +171,11 @@ def summarize_day(
     else:
         event_summary = event_summaries[world_event]
 
-    return f"{event_summary} {action_summaries[leadership_action]}"
+    weather_summary = ""
+    if weather:
+        weather_summary = f" Weather: {weather['summary']}"
+
+    return f"{event_summary}{weather_summary} {action_summaries[leadership_action]}"
 
 
 def daily_food_needed(population: int, leadership_action: str = "preserve_resources") -> int:
@@ -149,7 +190,65 @@ def daily_food_needed(population: int, leadership_action: str = "preserve_resour
     return base_need
 
 
-def _effects_for_world_event(state: dict[str, Any], world_event: str) -> dict[str, int]:
+def _normalize_world_event(world_event: str | dict[str, Any]) -> dict[str, Any]:
+    if isinstance(world_event, str):
+        return {"world_event": world_event}
+
+    return deepcopy(world_event)
+
+
+def _event_details(event_decision: dict[str, Any]) -> dict[str, Any]:
+    details = {
+        key: value
+        for key, value in event_decision.items()
+        if key not in {"world_event", "reasoning"} and value is not None
+    }
+    if event_decision["world_event"] in {"storm", "wolf_attack"}:
+        details["severity"] = max(1, min(5, int(details.get("severity", 3))))
+
+    return details
+
+
+def _effects_for_weather(weather: dict[str, Any]) -> dict[str, int]:
+    condition = weather["condition"]
+    severity = weather.get("severity", 1)
+    if condition in {"clear", "clear_cold", "overcast", "mild"}:
+        return {}
+
+    if condition == "snow":
+        return {"wood": -1}
+
+    if condition == "hard_freeze":
+        return {"health": -1}
+
+    if condition == "sleet":
+        return {"wood": -1, "morale": -1}
+
+    if condition == "winter_storm":
+        return {"wood": -max(1, severity - 2), "morale": -1}
+
+    if condition in {"rain", "mud"}:
+        return {"morale": -1}
+
+    if condition in {"wind", "thunderstorm"}:
+        return {"security": -1}
+
+    if condition == "dry_heat":
+        return {"food": -2, "health": -1}
+
+    if condition in {"hot", "cold_rain", "early_frost"}:
+        return {"health": -1}
+
+    return {}
+
+
+def _effects_for_world_event(
+    state: dict[str, Any],
+    world_event: str,
+    *,
+    event_details: dict[str, Any],
+    leadership_action: str,
+) -> dict[str, int]:
     if world_event == "good_harvest":
         return {"food": 15, "morale": 1}
 
@@ -168,6 +267,16 @@ def _effects_for_world_event(state: dict[str, Any], world_event: str) -> dict[st
     if world_event == "discovery":
         return {"morale": 1}
 
+    if world_event == "storm":
+        return _effects_for_storm(event_details.get("severity", 3), state)
+
+    if world_event == "wolf_attack":
+        return _effects_for_wolf_attack(
+            event_details.get("severity", 3),
+            state,
+            leadership_action,
+        )
+
     if world_event == "quiet_day":
         return {}
 
@@ -175,6 +284,45 @@ def _effects_for_world_event(state: dict[str, Any], world_event: str) -> dict[st
         return {"health": -1, "security": -1, "morale": -1}
 
     raise ValueError(f"Unknown world event: {world_event}")
+
+
+def _effects_for_storm(severity: int, state: dict[str, Any]) -> dict[str, int]:
+    severity = max(1, min(5, severity))
+    effects_by_severity = {
+        1: {"morale": -1},
+        2: {"food": -2, "morale": -1},
+        3: {"food": -4, "wood": -2, "health": -1},
+        4: {"food": -6, "wood": -4, "health": -1, "morale": -1},
+        5: {"food": -8, "wood": -6, "health": -2, "morale": -2},
+    }
+    effects = deepcopy(effects_by_severity[severity])
+    if severity == 5 and state["health"] <= 3:
+        effects["population"] = -1
+
+    return effects
+
+
+def _effects_for_wolf_attack(
+    severity: int,
+    state: dict[str, Any],
+    leadership_action: str,
+) -> dict[str, int]:
+    severity = max(1, min(5, severity))
+    if leadership_action == "strengthen_defenses":
+        severity = max(1, severity - 1)
+
+    effects_by_severity = {
+        1: {"security": -1, "morale": -1},
+        2: {"security": -1, "morale": -1, "food": -2},
+        3: {"security": -2, "morale": -2, "health": -1},
+        4: {"security": -2, "morale": -2, "health": -1, "population": -1},
+        5: {"security": -3, "morale": -3, "health": -2, "population": -2},
+    }
+    effects = deepcopy(effects_by_severity[severity])
+    if severity == 3 and state["security"] <= 4:
+        effects["population"] = -1
+
+    return effects
 
 
 def _effects_for_leadership_action(
@@ -383,6 +531,7 @@ def _apply_people_effects(
     before: dict[str, Any],
     after: dict[str, Any],
     world_event: str,
+    event_details: dict[str, Any],
     leadership_action: str,
     population_before_survival: int,
     survival_effects: dict[str, int],
@@ -392,6 +541,7 @@ def _apply_people_effects(
         world_event=world_event,
         leadership_action=leadership_action,
         day=before["day"],
+        event_details=event_details,
         discovery_detail=(
             _discovery_detail(before) if world_event == "discovery" else None
         ),
@@ -427,6 +577,12 @@ def _apply_people_effects(
 def _population_loss_cause(world_event: str) -> str:
     if world_event == "illness":
         return "illness"
+
+    if world_event == "wolf_attack":
+        return "wolf_attack"
+
+    if world_event == "storm":
+        return "storm"
 
     return "hardship"
 

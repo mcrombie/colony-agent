@@ -10,7 +10,9 @@ EVENT_OPENINGS = {
     "illness": "Illness moved through the colony",
     "dispute": "A dispute unsettled the day's work",
     "discovery": "A discovery gave the colony something new to discuss",
-    "quiet_day": "No great outside event disturbed Blergen",
+    "storm": "A storm tested the colony",
+    "wolf_attack": "Wolves came against the colony",
+    "quiet_day": "No major world event overtook Blergen",
     "chaos_gods": "The chaos gods struck the colony",
 }
 
@@ -38,14 +40,19 @@ def write_daily_entry(
     """Return one restrained paragraph for history.md."""
     colony_name = state_before["colony_name"]
     day = event_record["day"]
+    date_text = _date_text(event_record.get("date"))
     world_event = event_record["world_event"]
     leadership_action = event_record["leadership_action"]
     effects_text = _describe_effects(event_record["effects"])
 
     body = (
-        f"{EVENT_OPENINGS[world_event]}, and "
+        f"{_event_opening(world_event, event_record.get('event_details', {}))}, and "
         f"{ACTION_PHRASES[leadership_action]}"
     )
+    weather_text = _weather_text(event_record.get("weather"))
+    if weather_text:
+        body = f"{weather_text} {body}"
+
     if effects_text:
         body = f"{body}; the day's changes {effects_text}."
     else:
@@ -56,7 +63,7 @@ def write_daily_entry(
         body = f"{body} {people_text}"
 
     closing = _closing_sentence(state_after)
-    return f"Day {day} - {colony_name}:\n{body} {closing}\n"
+    return f"Day {day}{date_text} - {colony_name}:\n{body} {closing}\n"
 
 
 def write_personal_history_entry(
@@ -182,7 +189,7 @@ def _personal_history_lines(
                 death,
                 state_before=state_before,
                 state_after=state_after,
-                event_summary=f"died of {death.get('cause', 'hardship')}",
+                event_summary=f"died of {_cause_phrase(death.get('cause', 'hardship'))}",
             )
         )
 
@@ -263,6 +270,8 @@ def _action_history_summary(action_type: str) -> str:
         "harvest": "helped bring in the harvest",
         "strained_by_harvest": "felt the harvest strain",
         "shaken_by_chaos": "was shaken by the silent oracle",
+        "weathered_storm": "bore the worst of the storm",
+        "defended_wolf_attack": "defended the camp from wolves",
         "rationed_food": "endured tighter rations",
         "gathered_wood": "joined the wood crews",
         "expanded_fields": "worked the field expansion",
@@ -274,6 +283,34 @@ def _action_history_summary(action_type: str) -> str:
         "festival": "found relief at the festival",
     }
     return summaries.get(action_type, "took part in the day's work")
+
+
+def _event_opening(world_event: str, event_details: dict[str, Any]) -> str:
+    if world_event == "storm":
+        return f"A severity {event_details.get('severity', 3)} storm tested the colony"
+
+    if world_event == "wolf_attack":
+        return f"A severity {event_details.get('severity', 3)} wolf attack hit the colony"
+
+    return EVENT_OPENINGS[world_event]
+
+
+def _date_text(date: dict[str, Any] | None) -> str:
+    if not date:
+        return ""
+
+    return f" ({date['month']} {date['day_of_month']})"
+
+
+def _weather_text(weather: dict[str, Any] | None) -> str:
+    if not weather:
+        return ""
+
+    return f"{weather['summary']}"
+
+
+def _cause_phrase(cause: str) -> str:
+    return cause.replace("_", " ")
 
 
 def _person_by_id(state: dict[str, Any], person_id: str) -> dict[str, Any]:

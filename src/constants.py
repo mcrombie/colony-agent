@@ -6,6 +6,8 @@ WORLD_EVENT_TYPES = (
     "illness",
     "dispute",
     "discovery",
+    "storm",
+    "wolf_attack",
     "quiet_day",
 )
 

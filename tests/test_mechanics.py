@@ -67,6 +67,8 @@ def test_daily_food_is_consumed_regardless_of_event():
 
     assert after["food"] == 115
     assert event_record["survival_effects"] == {"food": -5}
+    assert event_record["date"]["month"] == "January"
+    assert event_record["weather"]["condition"] == "overcast"
 
 
 def test_rationing_reduces_daily_food_need_but_costs_morale():
@@ -160,6 +162,71 @@ def test_chaos_gods_reduce_health_security_and_morale():
     assert event_record["effects"]["health"] == -1
     assert event_record["effects"]["security"] == -1
     assert event_record["effects"]["morale"] == -1
+
+
+def test_wolf_attack_uses_severity_and_records_details():
+    state = state_with(security=4, morale=7, health=6)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "wolf_attack", "severity": 3},
+        "preserve_resources",
+    )
+
+    assert after["security"] == 2
+    assert after["population"] == 99
+    assert event_record["event_details"] == {"severity": 3}
+    assert event_record["people_events"]["deaths"][0]["cause"] == "wolf_attack"
+
+
+def test_strengthen_defenses_reduces_wolf_attack_damage():
+    state = state_with(security=4, wood=20, morale=7, health=6)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "wolf_attack", "severity": 3},
+        "strengthen_defenses",
+    )
+
+    assert after["wood"] == 10
+    assert after["security"] == 4
+    assert after["population"] == 100
+    assert "population" not in event_record["effects"]
+
+
+def test_storm_uses_severity_and_weather_context():
+    environment = {
+        "date": {
+            "year": 1,
+            "day_of_year": 50,
+            "month": "February",
+            "month_number": 2,
+            "day_of_month": 19,
+            "season": "winter",
+        },
+        "weather": {
+            "season": "winter",
+            "condition": "winter_storm",
+            "severity": 4,
+            "summary": "A winter storm threatened the colony's shelters and stores.",
+        },
+    }
+    state = state_with(day=50, food=120, wood=60, health=6, morale=7)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "storm", "severity": 4},
+        "preserve_resources",
+        environment=environment,
+    )
+
+    assert after["food"] == 109
+    assert after["wood"] == 54
+    assert after["health"] == 5
+    assert after["morale"] == 5
+    assert event_record["date"]["month"] == "February"
+    assert event_record["event_details"] == {"severity": 4}
+    assert event_record["weather_effects"] == {"wood": -2, "morale": -1}
 
 
 def test_old_apply_event_wrapper_still_advances_a_day():

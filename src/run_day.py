@@ -7,6 +7,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
+from src.environment import environment_for_day
 from src.event_selector import choose_leadership_action, choose_world_event
 from src.mechanics import apply_day
 from src.narrative import write_daily_entry, write_personal_history_entry
@@ -45,12 +46,14 @@ def append_personal_history(entry: str, path: Path = PEOPLE_HISTORY_PATH) -> Non
 def run_day() -> dict[str, Any]:
     """Advance the colony by one day and persist the result."""
     state_before = ensure_people_exist(load_state())
-    world_event = choose_world_event(state_before)
+    environment = environment_for_day(state_before["day"])
+    world_event = choose_world_event(state_before, environment=environment)
     leadership_action = choose_leadership_action(state_before, world_event)
     state_after, event_record = apply_day(
         deepcopy(state_before),
         world_event,
         leadership_action,
+        environment=environment,
     )
     entry = write_daily_entry(state_before, event_record, state_after)
     personal_entry = write_personal_history_entry(

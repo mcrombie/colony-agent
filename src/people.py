@@ -270,6 +270,7 @@ def apply_daily_people_events(
     world_event: str,
     leadership_action: str,
     day: int,
+    event_details: dict[str, Any] | None = None,
     discovery_detail: str | None = None,
 ) -> dict[str, list[dict[str, Any]]]:
     """Apply person-level story effects for the day's event and action."""
@@ -285,6 +286,7 @@ def apply_daily_people_events(
         people_events=people_events,
         world_event=world_event,
         day=day,
+        event_details=event_details or {},
         discovery_detail=discovery_detail,
     )
     _apply_leadership_action_to_people(
@@ -403,6 +405,17 @@ def _featured_people_for_prompt(
                 day=state.get("day", 0),
             )
         )
+    elif world_event == "wolf_attack":
+        selected.extend(
+            _select_people_by_role(
+                state,
+                ("guard", "scout", "builder"),
+                max_people,
+                day=state.get("day", 0),
+            )
+        )
+    elif world_event == "storm":
+        selected.extend(_select_vulnerable_people(state, max_people))
     elif world_event == "poor_harvest":
         selected.extend(_hungriest_people(state, max_people))
     elif world_event == "good_harvest":
@@ -556,6 +569,7 @@ def _apply_world_event_to_people(
     people_events: dict[str, list[dict[str, Any]]],
     world_event: str,
     day: int,
+    event_details: dict[str, Any],
     discovery_detail: str | None,
 ) -> None:
     if world_event == "illness":
@@ -572,6 +586,24 @@ def _apply_world_event_to_people(
             people_events=people_events,
             day=day,
             detail=discovery_detail or "something useful beyond camp",
+        )
+        return
+
+    if world_event == "storm":
+        _apply_storm_to_people(
+            state,
+            people_events=people_events,
+            day=day,
+            severity=event_details.get("severity", 3),
+        )
+        return
+
+    if world_event == "wolf_attack":
+        _apply_wolf_attack_to_people(
+            state,
+            people_events=people_events,
+            day=day,
+            severity=event_details.get("severity", 3),
         )
         return
 
@@ -798,6 +830,85 @@ def _apply_discovery_to_people(
             "detail": detail,
             "people": _people_refs(discoverers),
             "summary": f"{discoverer['name']} discovered {detail}.",
+        }
+    )
+
+
+def _apply_storm_to_people(
+    state: dict[str, Any],
+    *,
+    people_events: dict[str, list[dict[str, Any]]],
+    day: int,
+    severity: int,
+) -> None:
+    severity = max(1, min(5, severity))
+    affected_people = _select_vulnerable_people(state, max(1, min(5, severity)))
+    if not affected_people:
+        return
+
+    health_delta = -1 if severity >= 3 else 0
+    morale_delta = -1 if severity >= 2 else 0
+    hunger_delta = 1 if severity >= 4 else 0
+    for person in affected_people:
+        _change_status(
+            person,
+            health_delta=health_delta,
+            morale_delta=morale_delta,
+            hunger_delta=hunger_delta,
+        )
+        _add_story_note(
+            person,
+            f"{person['name']} endured a severity {severity} storm on day {day}.",
+        )
+
+    people_events["actions"].append(
+        {
+            "type": "weathered_storm",
+            "severity": severity,
+            "people": _people_refs(affected_people),
+            "summary": (
+                f"{_join_names([person['name'] for person in affected_people])} "
+                f"bore the worst of the storm."
+            ),
+        }
+    )
+
+
+def _apply_wolf_attack_to_people(
+    state: dict[str, Any],
+    *,
+    people_events: dict[str, list[dict[str, Any]]],
+    day: int,
+    severity: int,
+) -> None:
+    severity = max(1, min(5, severity))
+    defenders = _select_people_by_role(
+        state,
+        ("guard", "scout", "builder"),
+        max(1, min(5, severity)),
+        day=day,
+    )
+    if not defenders:
+        return
+
+    health_delta = -1 if severity >= 3 else 0
+    morale_delta = -1 if severity >= 2 else 0
+    for person in defenders:
+        _change_status(person, health_delta=health_delta, morale_delta=morale_delta)
+        _add_story_note(
+            person,
+            f"{person['name']} faced a severity {severity} wolf attack on day {day}.",
+        )
+
+    people_events["actions"].append(
+        {
+            "type": "defended_wolf_attack",
+            "severity": severity,
+            "people": _people_refs(defenders),
+            "summary": (
+                f"{_join_names([person['name'] for person in defenders])} "
+                f"met the wolf attack at the edge of camp."
+            ),
         }
     )
 
@@ -1063,5 +1174,11 @@ def _death_note(name: str, day: int, cause: str) -> str:
 
     if cause == "illness":
         return f"{name} died during an illness on day {day}."
+
+    if cause == "wolf_attack":
+        return f"{name} died during a wolf attack on day {day}."
+
+    if cause == "storm":
+        return f"{name} died during a storm on day {day}."
 
     return f"{name} died during colony hardship on day {day}."
