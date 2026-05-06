@@ -33,7 +33,7 @@ jobs:
             exit 0
           fi
 
-          last_run_ts="$(git log -1 --format=%ct -- src/state.json src/history.md 2>/dev/null || echo 0)"
+          last_run_ts="$(git log -1 --format=%ct -- src/state.json src/history.md src/people_history.md 2>/dev/null || echo 0)"
           now_ts="$(date +%s)"
           age_seconds=$((now_ts - last_run_ts))
 
@@ -72,7 +72,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/state.json src/history.md
+          git add src/state.json src/history.md src/people_history.md
           if git diff --cached --quiet; then
             echo "No colony changes to commit."
           else

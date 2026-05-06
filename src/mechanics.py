@@ -57,6 +57,7 @@ def apply_day(
         after[stat] += amount
 
     after = clamp_state(after)
+    status_targets = _changed_status_targets(before, after)
     population_before_survival = after["population"]
     survival_effects = _apply_daily_food_consumption(after, leadership_action)
     after = clamp_state(after)
@@ -67,6 +68,11 @@ def apply_day(
         leadership_action=leadership_action,
         population_before_survival=population_before_survival,
         survival_effects=survival_effects,
+    )
+    _sync_people_status_to_colony_targets(
+        after,
+        status_targets=status_targets,
+        protected_ids=_people_event_person_ids(people_events),
     )
     sync_derived_colony_stats(after)
     after["day"] = before["day"] + 1
@@ -234,6 +240,142 @@ def _apply_daily_food_consumption(
         }.items()
         if state[stat] - before != 0
     }
+
+
+def _changed_status_targets(
+    before: dict[str, Any],
+    after: dict[str, Any],
+) -> dict[str, int]:
+    return {
+        stat: after[stat]
+        for stat in ("health", "morale")
+        if after[stat] - before[stat] != 0
+    }
+
+
+def _sync_people_status_to_colony_targets(
+    state: dict[str, Any],
+    *,
+    status_targets: dict[str, int],
+    protected_ids: set[str],
+) -> None:
+    """Adjust non-featured colonists so derived stats keep aggregate effects."""
+    if not status_targets or "people" not in state:
+        return
+
+    living_people = []
+    for person in state["people"]:
+        status = person.get("status", {})
+        if not status.get("alive", True):
+            continue
+        living_people.append(person)
+
+    if not living_people:
+        return
+
+    unprotected_people = sorted(
+        [person for person in living_people if person["id"] not in protected_ids],
+        key=lambda person: person["id"],
+    )
+    protected_people = sorted(
+        [person for person in living_people if person["id"] in protected_ids],
+        key=lambda person: person["id"],
+    )
+    for stat, target_value in status_targets.items():
+        target = _status_target_for_living_people(stat, target_value)
+        current_total = _living_status_total(living_people, stat)
+        current_average = current_total // len(living_people)
+
+        if current_average < target:
+            desired_total = target * len(living_people)
+            remaining = _distribute_status_adjustment(
+                unprotected_people,
+                stat=stat,
+                amount=desired_total - current_total,
+                direction=1,
+            )
+            _distribute_status_adjustment(
+                protected_people,
+                stat=stat,
+                amount=remaining,
+                direction=1,
+            )
+        elif current_average > target:
+            desired_total = (target * len(living_people)) + len(living_people) - 1
+            remaining = _distribute_status_adjustment(
+                unprotected_people,
+                stat=stat,
+                amount=current_total - desired_total,
+                direction=-1,
+            )
+            _distribute_status_adjustment(
+                protected_people,
+                stat=stat,
+                amount=remaining,
+                direction=-1,
+            )
+
+
+def _people_event_person_ids(people_events: dict[str, list[dict[str, Any]]]) -> set[str]:
+    person_ids = set()
+    for events in people_events.values():
+        for event in events:
+            for person_ref in event.get("people", []):
+                if person_ref.get("id"):
+                    person_ids.add(person_ref["id"])
+            if event.get("id"):
+                person_ids.add(event["id"])
+
+    return person_ids
+
+
+def _status_target_for_living_people(stat: str, target: int) -> int:
+    if stat == "health":
+        return max(1, min(10, target))
+
+    return max(0, min(10, target))
+
+
+def _living_status_total(people: list[dict[str, Any]], stat: str) -> int:
+    return sum(person.get("status", {}).get(stat, 0) for person in people)
+
+
+def _distribute_status_adjustment(
+    people: list[dict[str, Any]],
+    *,
+    stat: str,
+    amount: int,
+    direction: int,
+) -> int:
+    if amount <= 0:
+        return 0
+
+    minimum = 1 if stat == "health" else 0
+    remaining = amount
+    while remaining > 0:
+        changed_this_pass = False
+        for person in people:
+            status = person.get("status", {})
+            value = status.get(stat)
+            if value is None:
+                continue
+
+            if direction > 0 and value < 10:
+                status[stat] = value + 1
+            elif direction < 0 and value > minimum:
+                status[stat] = value - 1
+            else:
+                continue
+
+            remaining -= 1
+            changed_this_pass = True
+            if remaining == 0:
+                return 0
+
+        if not changed_this_pass:
+            return remaining
+
+    return remaining
 
 
 def _apply_people_effects(

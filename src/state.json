@@ -1,8 +1,8 @@
 {
-  "day": 45,
+  "day": 49,
   "colony_name": "Blergen",
   "population": 97,
-  "food": 72,
+  "food": 66,
   "wood": 25,
   "morale": 1,
   "security": 7,
@@ -502,6 +502,150 @@
         "deaths": []
       },
       "summary": "Scouts discovered old trail markers beyond the fields. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 45,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "expand_fields",
+      "effects": {
+        "food": 4
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "expanded_fields",
+            "people": [
+              {
+                "id": "person_049",
+                "name": "Wynn Bren"
+              },
+              {
+                "id": "person_051",
+                "name": "Yuri Bren"
+              }
+            ],
+            "summary": "Wynn Bren, and Yuri Bren worked the field expansion."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No significant outside event disturbed the colony. The president directed labor toward the fields."
+    },
+    {
+      "day": 46,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "tend_the_sick",
+      "effects": {
+        "food": -7
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "tended_the_sick",
+            "people": [
+              {
+                "id": "person_030",
+                "name": "Dain Bren"
+              },
+              {
+                "id": "person_081",
+                "name": "Cora Dove"
+              },
+              {
+                "id": "person_008",
+                "name": "Hana Aster"
+              },
+              {
+                "id": "person_059",
+                "name": "Galen Cairn"
+              }
+            ],
+            "summary": "Dain Bren, Cora Dove, Hana Aster, and Galen Cairn received care."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No significant outside event disturbed the colony. The president organized care for the sick."
+    },
+    {
+      "day": 47,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "expand_fields",
+      "effects": {
+        "food": 4
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "expanded_fields",
+            "people": [
+              {
+                "id": "person_049",
+                "name": "Wynn Bren"
+              },
+              {
+                "id": "person_051",
+                "name": "Yuri Bren"
+              }
+            ],
+            "summary": "Wynn Bren, and Yuri Bren worked the field expansion."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No significant outside event disturbed the colony. The president directed labor toward the fields."
+    },
+    {
+      "day": 48,
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "leadership_action": "tend_the_sick",
+      "effects": {
+        "food": -7
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "tended_the_sick",
+            "people": [
+              {
+                "id": "person_037",
+                "name": "Kara Bren"
+              },
+              {
+                "id": "person_088",
+                "name": "Jory Dove"
+              },
+              {
+                "id": "person_015",
+                "name": "Orin Aster"
+              },
+              {
+                "id": "person_066",
+                "name": "Niko Cairn"
+              }
+            ],
+            "summary": "Kara Bren, Jory Dove, Orin Aster, and Niko Cairn received care."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No significant outside event disturbed the colony. The president organized care for the sick."
     }
   ],
   "people": [
@@ -736,12 +880,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 3,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Hana Aster received care from the sick ward on day 46."
+        ]
       }
     },
     {
@@ -946,12 +1092,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 3,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Orin Aster received care from the sick ward on day 48."
+        ]
       }
     },
     {
@@ -1394,12 +1542,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 3,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Dain Bren received care from the sick ward on day 46."
+        ]
       }
     },
     {
@@ -1603,12 +1753,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 3,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Kara Bren received care from the sick ward on day 48."
+        ]
       }
     },
     {
@@ -1970,7 +2122,9 @@
         "notable_events": [
           "Wynn Bren worked the field expansion on day 43.",
           "Wynn Bren discovered old trail markers beyond the fields on day 44.",
-          "Wynn Bren scouted beyond the settlement on day 44."
+          "Wynn Bren scouted beyond the settlement on day 44.",
+          "Wynn Bren worked the field expansion on day 45.",
+          "Wynn Bren worked the field expansion on day 47."
         ]
       }
     },
@@ -2032,7 +2186,9 @@
       },
       "story": {
         "notable_events": [
-          "Yuri Bren worked the field expansion on day 43."
+          "Yuri Bren worked the field expansion on day 43.",
+          "Yuri Bren worked the field expansion on day 45.",
+          "Yuri Bren worked the field expansion on day 47."
         ]
       }
     },
@@ -2269,12 +2425,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 3,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Galen Cairn received care from the sick ward on day 46."
+        ]
       }
     },
     {
@@ -2478,12 +2636,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 3,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Niko Cairn received care from the sick ward on day 48."
+        ]
       }
     },
     {
@@ -2926,12 +3086,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 3,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Cora Dove received care from the sick ward on day 46."
+        ]
       }
     },
     {
@@ -3135,12 +3297,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 3,
+        "morale": 2,
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Jory Dove received care from the sick ward on day 48."
+        ]
       }
     },
     {

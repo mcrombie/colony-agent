@@ -64,7 +64,7 @@ python -m pip install -r requirements.txt
 python -m src.run_day
 ```
 
-This updates `src/state.json` and appends one paragraph to `src/history.md`.
+This updates `src/state.json`, appends one paragraph to `src/history.md`, and appends any personal story beats to `src/people_history.md`.
 
 ## OpenAI selectors
 
@@ -133,7 +133,7 @@ Optionally add this repository variable to override the default model:
 OPENAI_MODEL
 ```
 
-Each run installs dependencies, runs tests, advances the colony once, and commits changes to `src/state.json` and `src/history.md`.
+Each run installs dependencies, runs tests, advances the colony once, and commits changes to `src/state.json`, `src/history.md`, and `src/people_history.md`.
 
 The daily schedule is:
 

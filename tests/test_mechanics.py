@@ -1,6 +1,7 @@
 from copy import deepcopy
 
 from src.mechanics import apply_day, apply_event, clamp_state, daily_food_needed
+from src.people import derived_colony_stats, generate_people
 
 BASE_STATE = {
     "day": 1,
@@ -78,6 +79,32 @@ def test_rationing_reduces_daily_food_need_but_costs_morale():
     assert after["morale"] == 6
     assert event_record["effects"]["food"] == -3
     assert event_record["effects"]["morale"] == -1
+
+
+def test_morale_effects_are_preserved_when_people_drive_stats():
+    state = state_with(
+        morale=5,
+        people=generate_people(100, colony_health=6, colony_morale=5),
+    )
+
+    after, event_record = apply_day(state, "good_harvest", "preserve_resources")
+
+    assert after["morale"] == 6
+    assert after["morale"] == derived_colony_stats(after)["morale"]
+    assert event_record["effects"]["morale"] == 1
+
+
+def test_leadership_morale_effects_are_preserved_with_named_people():
+    state = state_with(
+        morale=5,
+        people=generate_people(100, colony_health=6, colony_morale=5),
+    )
+
+    after, event_record = apply_day(state, "quiet_day", "hold_festival")
+
+    assert after["morale"] == 7
+    assert after["morale"] == derived_colony_stats(after)["morale"]
+    assert event_record["effects"]["morale"] == 2
 
 
 def test_strengthen_defenses_consumes_wood_and_improves_security():

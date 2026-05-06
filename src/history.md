@@ -132,3 +132,15 @@ No great outside event disturbed Blergen, and the president directed labor towar
 
 Day 44 - Blergen:
 A discovery gave the colony something new to discuss, and the president sent scouts beyond the settlement; the day's changes reduced food by 4, and increased wood by 5. Wynn Bren discovered old trail markers beyond the fields. Wynn Bren, and Ada Cairn scouted beyond the settlement. The settlement survives, but sickness is wearing people down.
+
+Day 45 - Blergen:
+No great outside event disturbed Blergen, and the president directed labor toward the fields; the day's changes increased food by 4. Wynn Bren, and Yuri Bren worked the field expansion. The settlement survives, but sickness is wearing people down.
+
+Day 46 - Blergen:
+No great outside event disturbed Blergen, and the president organized care for the sick; the day's changes reduced food by 7. Dain Bren, Cora Dove, Hana Aster, and Galen Cairn received care. The settlement survives, but sickness is wearing people down.
+
+Day 47 - Blergen:
+No great outside event disturbed Blergen, and the president directed labor toward the fields; the day's changes increased food by 4. Wynn Bren, and Yuri Bren worked the field expansion. The settlement survives, but sickness is wearing people down.
+
+Day 48 - Blergen:
+No great outside event disturbed Blergen, and the president organized care for the sick; the day's changes reduced food by 7. Kara Bren, Jory Dove, Orin Aster, and Niko Cairn received care. The settlement survives, but sickness is wearing people down.
