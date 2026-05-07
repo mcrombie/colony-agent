@@ -319,7 +319,8 @@ def _state_for_leadership_prompt(
         "recent_events": state.get("event_log", [])[-5:],
         "important_rules": [
             "Food is consumed every day regardless of your action.",
-            "If food reaches zero, population will fall until food recovers.",
+            "Each living colonist needs 1 food per day.",
+            "Missed rations increase personal hunger; severe hunger can kill colonists.",
             "strengthen_defenses requires at least 10 wood.",
             "hold_festival costs extra food.",
             "strengthen_defenses can reduce damage from wolf attacks.",

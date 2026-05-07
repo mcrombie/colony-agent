@@ -13,7 +13,7 @@ The project has a simple observe-decide-respond-act-record loop:
 3. Ask the president selector how colony leadership responds to that event.
 4. Derive the day's calendar date, season, and weather.
 5. Act by applying deterministic weather, event, leadership, and survival effects.
-6. Consume daily food, with starvation reducing population if food runs out.
+6. Consume daily food, with each living colonist needing 1 food per day.
 7. Record the result in `event_log` and `src/history.md`.
 8. Persist the new state for the next run.
 
@@ -132,7 +132,10 @@ If the president chooses `strengthen_defenses` when the colony has fewer than 10
 If the president chooses `strengthen_defenses` during a wolf attack and the
 colony has enough wood, the attack's effective severity is reduced by one level.
 
-Food is consumed every day regardless of events or leadership actions. If food reaches zero, population falls until food recovers.
+Food is consumed every day regardless of events or leadership actions. Each
+living colonist needs 1 food per day. If there is not enough food, named
+colonists miss rations and their hunger rises. Severe hunger causes named
+starvation deaths, reducing population.
 
 ## Run tests
 

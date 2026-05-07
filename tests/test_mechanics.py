@@ -42,14 +42,30 @@ def test_food_never_below_zero():
     assert event_record["effects"]["food"] == -3
 
 
-def test_starvation_reduces_population_when_food_runs_out():
+def test_food_shortage_increases_hunger_before_starvation_deaths():
     state = state_with(food=0, population=100)
 
     after, event_record = apply_day(state, "quiet_day", "preserve_resources")
 
     assert after["food"] == 0
-    assert after["population"] == 95
-    assert event_record["effects"]["population"] == -5
+    assert after["population"] == 100
+    assert event_record["survival_effects"]["missed_rations"] == 100
+    assert event_record["people_events"]["actions"][0]["type"] == "missed_rations"
+    assert all(person["status"]["hunger"] == 1 for person in after["people"])
+
+
+def test_starvation_reduces_population_when_hunger_is_severe():
+    people = generate_people(100, colony_health=6, colony_morale=7)
+    for person in people:
+        person["status"]["hunger"] = 2
+    state = state_with(food=99, population=100, people=people)
+
+    after, event_record = apply_day(state, "quiet_day", "preserve_resources")
+
+    assert after["food"] == 0
+    assert after["population"] == 99
+    assert event_record["effects"]["population"] == -1
+    assert event_record["people_events"]["deaths"][0]["cause"] == "starvation"
 
 
 def test_day_increments():
@@ -77,21 +93,22 @@ def test_daily_food_is_consumed_regardless_of_event():
 
     after, event_record = apply_day(state, "quiet_day", "preserve_resources")
 
-    assert after["food"] == 115
-    assert event_record["survival_effects"] == {"food": -5}
+    assert daily_food_needed(100) == 100
+    assert after["food"] == 20
+    assert event_record["survival_effects"] == {"food": -100}
     assert event_record["date"]["month"] == "January"
     assert event_record["weather"]["condition"] == "overcast"
 
 
-def test_rationing_reduces_daily_food_need_but_costs_morale():
+def test_rationing_does_not_reduce_minimum_food_need_and_costs_morale():
     state = state_with(food=120, population=100, morale=7)
 
     after, event_record = apply_day(state, "quiet_day", "ration_food")
 
-    assert daily_food_needed(100, "ration_food") == 3
-    assert after["food"] == 117
+    assert daily_food_needed(100, "ration_food") == 100
+    assert after["food"] == 20
     assert after["morale"] == 6
-    assert event_record["effects"]["food"] == -3
+    assert event_record["effects"]["food"] == -100
     assert event_record["effects"]["morale"] == -1
 
 
@@ -232,7 +249,7 @@ def test_storm_uses_severity_and_weather_context():
         environment=environment,
     )
 
-    assert after["food"] == 109
+    assert after["food"] == 14
     assert after["wood"] == 54
     assert after["health"] == 5
     assert after["morale"] == 5

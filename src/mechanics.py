@@ -12,6 +12,7 @@ from src.constants import (
 )
 from src.environment import environment_for_day, sync_calendar_state
 from src.people import (
+    apply_daily_food_status,
     apply_daily_people_events,
     apply_population_loss_to_people,
     ensure_people_exist,
@@ -182,14 +183,7 @@ def summarize_day(
 
 def daily_food_needed(population: int, leadership_action: str = "preserve_resources") -> int:
     """Return how much food the colony needs to eat today."""
-    if population <= 0:
-        return 0
-
-    base_need = max(1, population // 20)
-    if leadership_action == "ration_food":
-        return max(1, base_need - 2)
-
-    return base_need
+    return max(0, population)
 
 
 def _normalize_world_event(world_event: str | dict[str, Any]) -> dict[str, Any]:
@@ -369,27 +363,22 @@ def _apply_daily_food_consumption(
     leadership_action: str,
 ) -> dict[str, int]:
     food_before = state["food"]
-    population_before = state["population"]
-    food_needed = daily_food_needed(population_before, leadership_action)
+    food_needed = daily_food_needed(state["population"], leadership_action)
 
     if food_needed == 0:
         return {}
 
-    if food_before >= food_needed:
-        state["food"] -= food_needed
-    else:
-        shortage = food_needed - food_before
-        state["food"] = 0
-        state["population"] -= max(1, shortage)
+    food_consumed = min(food_before, food_needed)
+    missed_rations = food_needed - food_consumed
+    state["food"] = food_before - food_consumed
 
-    return {
-        stat: state[stat] - before
-        for stat, before in {
-            "food": food_before,
-            "population": population_before,
-        }.items()
-        if state[stat] - before != 0
-    }
+    effects = {}
+    if food_consumed:
+        effects["food"] = -food_consumed
+    if missed_rations:
+        effects["missed_rations"] = missed_rations
+
+    return effects
 
 
 def _changed_status_targets(
@@ -550,7 +539,6 @@ def _apply_people_effects(
     )
     deaths = []
     direct_loss = max(0, before["population"] - population_before_survival)
-    survival_loss = max(0, -survival_effects.get("population", 0))
 
     if direct_loss:
         deaths.extend(
@@ -562,15 +550,16 @@ def _apply_people_effects(
             )
         )
 
-    if survival_loss:
-        deaths.extend(
-            apply_population_loss_to_people(
-                after,
-                loss_count=survival_loss,
-                day=before["day"],
-                cause="starvation",
-            )
-        )
+    food_events = apply_daily_food_status(
+        after,
+        missed_rations=survival_effects.get("missed_rations", 0),
+        day=before["day"],
+    )
+    for event_type, events in food_events.items():
+        if event_type == "deaths":
+            deaths.extend(events)
+        else:
+            people_events.setdefault(event_type, []).extend(events)
 
     people_events["deaths"] = deaths
     return people_events

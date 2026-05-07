@@ -281,6 +281,7 @@ def _action_history_summary(action_type: str) -> str:
         "mediated_tensions": "joined the mediation circle",
         "sent_scouts": "scouted beyond the settlement",
         "festival": "found relief at the festival",
+        "missed_rations": "went without a full ration",
     }
     return summaries.get(action_type, "took part in the day's work")
 

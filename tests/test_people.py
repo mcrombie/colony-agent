@@ -99,12 +99,35 @@ def test_character_context_for_prompt_is_bounded_and_compact():
     assert "relationships" not in context["featured_colonists"][0]
 
 
-def test_population_loss_marks_named_people_dead():
+def test_food_shortage_marks_named_people_hungry():
     state = state_with(
         population=12,
-        food=0,
+        food=11,
         people=generate_people(12, colony_health=5, colony_morale=6),
     )
+
+    after, event_record = apply_day(state, "quiet_day", "preserve_resources")
+
+    assert after["population"] == 12
+    assert living_population(after) == 12
+    assert event_record["survival_effects"]["missed_rations"] == 1
+
+    hunger_event = event_record["people_events"]["actions"][0]
+    hungry_person = next(
+        person for person in after["people"] if person["id"] == hunger_event["people"][0]["id"]
+    )
+    assert hunger_event["type"] == "missed_rations"
+    assert hungry_person["status"]["hunger"] == 1
+    assert hungry_person["story"]["notable_events"] == [
+        f"{hungry_person['name']} went without a full ration on day 1."
+    ]
+
+
+def test_severe_hunger_marks_named_people_dead():
+    people = generate_people(12, colony_health=5, colony_morale=6)
+    for person in people:
+        person["status"]["hunger"] = 2
+    state = state_with(population=12, food=11, people=people)
 
     after, event_record = apply_day(state, "quiet_day", "preserve_resources")
 
@@ -118,9 +141,9 @@ def test_population_loss_marks_named_people_dead():
     assert death["cause"] == "starvation"
     assert dead_person["status"]["alive"] is False
     assert dead_person["status"]["health"] == 0
-    assert dead_person["story"]["notable_events"] == [
+    assert dead_person["story"]["notable_events"][-1] == (
         f"{dead_person['name']} died of starvation on day 1."
-    ]
+    )
 
 
 def test_illness_population_loss_records_illness_death():
@@ -248,11 +271,13 @@ def test_storm_names_affected_colonists():
     affected_people = [person for person in after["people"] if person["id"] in affected_ids]
     assert action["type"] == "weathered_storm"
     assert action["severity"] == 4
-    assert all(person["status"]["hunger"] == 1 for person in affected_people)
+    assert all(person["story"]["notable_events"] for person in affected_people)
 
 
 def test_history_entry_names_people_who_died():
-    state_before = ensure_people_exist(state_with(population=12, food=0))
+    state_before = ensure_people_exist(state_with(population=12, food=11))
+    for person in state_before["people"]:
+        person["status"]["hunger"] = 2
     state_after, event_record = apply_day(state_before, "quiet_day", "preserve_resources")
 
     entry = write_daily_entry(state_before, event_record, state_after)

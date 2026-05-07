@@ -5,6 +5,8 @@ from __future__ import annotations
 from copy import deepcopy
 from typing import Any
 
+STARVATION_HUNGER_THRESHOLD = 3
+
 FIRST_NAMES = (
     "Ada",
     "Bram",
@@ -243,25 +245,59 @@ def apply_population_loss_to_people(
         return []
 
     deaths = []
-    people_by_id = {person["id"]: person for person in state["people"]}
     for person in _select_casualties(state, loss_count):
-        person_record = people_by_id[person["id"]]
-        person_record["status"]["alive"] = False
-        person_record["status"]["health"] = 0
-
-        note = _death_note(person_record["name"], day, cause)
-        person_record.setdefault("story", {}).setdefault("notable_events", []).append(note)
-        deaths.append(
-            {
-                "id": person_record["id"],
-                "name": person_record["name"],
-                "cause": cause,
-                "summary": note,
-            }
-        )
+        deaths.append(_mark_person_dead(person, day=day, cause=cause))
 
     sync_derived_colony_stats(state)
     return deaths
+
+
+def apply_daily_food_status(
+    state: dict[str, Any],
+    *,
+    missed_rations: int,
+    day: int,
+) -> dict[str, list[dict[str, Any]]]:
+    """Update personal hunger after daily food is consumed."""
+    if "people" not in state:
+        return {}
+
+    living = living_people(state)
+    if not living:
+        return {}
+
+    missed_count = max(0, min(missed_rations, len(living)))
+    underfed = _select_people_for_missed_rations(state, missed_count)
+    underfed_ids = {person["id"] for person in underfed}
+    fed = [person for person in living if person["id"] not in underfed_ids]
+
+    for person in fed:
+        status = person.setdefault("status", {})
+        status["hunger"] = max(0, status.get("hunger", 0) - 1)
+
+    if not underfed:
+        return {}
+
+    deaths = []
+    for person in underfed:
+        status = person.setdefault("status", {})
+        status["hunger"] = min(10, status.get("hunger", 0) + 1)
+        _add_story_note(person, f"{person['name']} went without a full ration on day {day}.")
+        if status["hunger"] >= STARVATION_HUNGER_THRESHOLD:
+            deaths.append(_mark_person_dead(person, day=day, cause="starvation"))
+
+    sync_derived_colony_stats(state)
+    event = {
+        "type": "missed_rations",
+        "missed_rations": missed_count,
+        "people": _people_refs(underfed),
+        "summary": _missed_rations_summary(underfed),
+    }
+    result: dict[str, list[dict[str, Any]]] = {"actions": [event]}
+    if deaths:
+        result["deaths"] = deaths
+
+    return result
 
 
 def apply_daily_people_events(
@@ -372,6 +408,24 @@ def _select_casualties(
         ),
     )
     return vulnerable_people[:loss_count]
+
+
+def _select_people_for_missed_rations(
+    state: dict[str, Any],
+    missed_count: int,
+) -> list[dict[str, Any]]:
+    if missed_count <= 0:
+        return []
+
+    return sorted(
+        living_people(state),
+        key=lambda person: (
+            person.get("status", {}).get("hunger", 0),
+            -person.get("status", {}).get("health", 5),
+            -person.get("status", {}).get("morale", 5),
+            person["id"],
+        ),
+    )[:missed_count]
 
 
 def _average_living_stat(people: list[dict[str, Any]], stat: str) -> int:
@@ -1166,6 +1220,30 @@ def _join_names(names: list[str]) -> str:
         return names[0]
 
     return ", ".join(names[:-1]) + f", and {names[-1]}"
+
+
+def _missed_rations_summary(people: list[dict[str, Any]]) -> str:
+    names = [person["name"] for person in people]
+    if len(names) <= 4:
+        return f"{_join_names(names)} went without full rations."
+
+    shown_names = _join_names(names[:3])
+    remaining = len(names) - 3
+    return f"{shown_names}, and {remaining} others went without full rations."
+
+
+def _mark_person_dead(person: dict[str, Any], *, day: int, cause: str) -> dict[str, str]:
+    person["status"]["alive"] = False
+    person["status"]["health"] = 0
+
+    note = _death_note(person["name"], day, cause)
+    person.setdefault("story", {}).setdefault("notable_events", []).append(note)
+    return {
+        "id": person["id"],
+        "name": person["name"],
+        "cause": cause,
+        "summary": note,
+    }
 
 
 def _death_note(name: str, day: int, cause: str) -> str:

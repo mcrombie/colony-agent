@@ -159,3 +159,15 @@ A winter storm threatened the colony's shelters and stores. A severity 5 storm t
 
 Day 53 (Year 1, February 22) - Blergen:
 Snow made paths and work crews slower. A severity 3 wolf attack hit the colony, and the president tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 4, reduced morale by 1, and reduced security by 2. Bram Cairn, Elia Cairn, and Kara Cairn met the wolf attack at the edge of camp. Hunger is becoming the settlement's most urgent worry.
+
+Day 54 (Year 1, February 23) - Blergen:
+Snow made paths and work crews slower. A severity 4 storm tested the colony, and the president ordered tighter food rationing; the day's changes reduced food by 8. Iris Dove, Pia Dove, Ada Dove, and Hana Dove bore the worst of the storm. Cora Cairn, Dain Cairn, Elia Cairn, and Finn Cairn felt the tighter rations first. Hunger is becoming the settlement's most urgent worry.
+
+Day 55 (Year 1, February 24) - Blergen:
+Cold clear air settled over the camp. A severity 4 storm tested the colony, and the president ordered tighter food rationing; the day's changes reduced food by 21. Iris Dove, Pia Dove, Ada Dove, and Hana Dove bore the worst of the storm. Dain Cairn, Elia Cairn, Finn Cairn, and Galen Cairn felt the tighter rations first. With the stores empty, hunger is now the colony's ruling fact.
+
+Day 56 (Year 1, February 25) - Blergen:
+A gray sky pressed low over Blergen. A severity 4 storm tested the colony, and the president ordered tighter food rationing; the day's changes reduced population by 7. Iris Dove, Pia Dove, Ada Dove, and Hana Dove bore the worst of the storm. Elia Cairn, Finn Cairn, Galen Cairn, and Hana Cairn felt the tighter rations first. Finn Cairn, Hana Cairn, and Elia Cairn, and 4 others died. With the stores empty, hunger is now the colony's ruling fact.
+
+Day 57 (Year 1, February 26) - Blergen:
+A winter storm threatened the colony's shelters and stores. A severity 4 storm tested the colony, and the president told the colonists to preserve resources; the day's changes reduced population by 82. Orin Dove, Zara Cairn, Galen Dove, and Kara Cairn bore the worst of the storm. Vera Aster, Rhea Bren, and Una Cairn, and 86 others went without full rations. Orin Aster, Dain Bren, and Kara Bren, and 79 others died. The loss of people is beginning to define the settlement's future.

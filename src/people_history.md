@@ -61,3 +61,394 @@ Day 53 - Blergen Personal Stories:
 - Bram Cairn (builder) defended the camp from wolves. health 2->1; morale 5->4.
 - Elia Cairn (guard) defended the camp from wolves. health 2->1; morale 5->4.
 - Kara Cairn (scout) defended the camp from wolves. health 2->1; morale 2->1.
+
+Day 54 - Blergen Personal Stories:
+- Iris Dove (guard) bore the worst of the storm. morale 1->0; hunger 1->2.
+- Pia Dove (builder) bore the worst of the storm. hunger 1->2.
+- Ada Dove (forager) bore the worst of the storm. morale 1->0; hunger 1->2.
+- Hana Dove (cook) bore the worst of the storm. morale 1->0; hunger 1->2.
+- Cora Cairn (healer) endured tighter rations. morale 1->0; hunger 0->1.
+- Dain Cairn (cook) endured tighter rations. morale 1->0; hunger 0->1.
+- Elia Cairn (guard) endured tighter rations. morale 4->3; hunger 0->1.
+- Finn Cairn (teacher) endured tighter rations. morale 1->0; hunger 0->1.
+
+Day 55 - Blergen Personal Stories:
+- Iris Dove (guard) bore the worst of the storm. Status unchanged.
+- Pia Dove (builder) bore the worst of the storm. Status unchanged.
+- Ada Dove (forager) bore the worst of the storm. Status unchanged.
+- Hana Dove (cook) bore the worst of the storm. Status unchanged.
+- Dain Cairn (cook) endured tighter rations. Status unchanged.
+- Elia Cairn (guard) endured tighter rations. morale 3->2.
+- Finn Cairn (teacher) endured tighter rations. Status unchanged.
+- Galen Cairn (forager) endured tighter rations. morale 2->1.
+- Orin Aster (healer) went without a full ration. hunger 0->1.
+- Dain Bren (carpenter) went without a full ration. hunger 0->1.
+- Kara Bren (guard) went without a full ration. hunger 0->1.
+- Niko Cairn (cook) went without a full ration. hunger 0->1.
+- Hana Aster (teacher) went without a full ration. hunger 0->1.
+- Cora Dove (farmer) went without a full ration. hunger 0->1.
+- Jory Dove (teacher) went without a full ration. hunger 0->1.
+- Wynn Bren (forager) went without a full ration. hunger 0->1.
+- Jory Aster (carpenter) went without a full ration. hunger 0->1.
+- Kara Aster (farmer) went without a full ration. hunger 0->1.
+- Lio Aster (woodcutter) went without a full ration. hunger 0->1.
+- Mara Aster (scout) went without a full ration. hunger 0->1.
+- Niko Aster (builder) went without a full ration. hunger 0->1.
+- Pia Aster (cook) went without a full ration. hunger 0->1.
+- Quin Aster (guard) went without a full ration. hunger 0->1.
+- Rhea Aster (teacher) went without a full ration. hunger 0->1.
+- Soren Aster (forager) went without a full ration. hunger 0->1.
+- Talia Aster (carpenter) went without a full ration. hunger 0->1.
+- Una Aster (farmer) went without a full ration. hunger 0->1.
+- Wynn Aster (scout) went without a full ration. hunger 0->1.
+- Xara Aster (builder) went without a full ration. hunger 0->1.
+- Yuri Aster (healer) went without a full ration. hunger 0->1.
+- Zara Aster (cook) went without a full ration. hunger 0->1.
+- Ada Bren (guard) went without a full ration. hunger 0->1.
+- Bram Bren (teacher) went without a full ration. hunger 0->1.
+- Cora Bren (forager) went without a full ration. hunger 0->1.
+- Elia Bren (farmer) went without a full ration. hunger 0->1.
+- Finn Bren (woodcutter) went without a full ration. hunger 0->1.
+- Galen Bren (scout) went without a full ration. hunger 0->1.
+- Hana Bren (builder) went without a full ration. hunger 0->1.
+- Iris Bren (healer) went without a full ration. hunger 0->1.
+- Jory Bren (cook) went without a full ration. hunger 0->1.
+- Lio Bren (teacher) went without a full ration. hunger 0->1.
+- Mara Bren (forager) went without a full ration. hunger 0->1.
+- Niko Bren (carpenter) went without a full ration. hunger 0->1.
+- Orin Bren (farmer) went without a full ration. hunger 0->1.
+- Pia Bren (woodcutter) went without a full ration. hunger 0->1.
+- Quin Bren (scout) went without a full ration. hunger 0->1.
+- Soren Bren (healer) went without a full ration. hunger 0->1.
+- Talia Bren (cook) went without a full ration. hunger 0->1.
+- Una Bren (guard) went without a full ration. hunger 0->1.
+- Vera Bren (teacher) went without a full ration. hunger 0->1.
+- Xara Bren (carpenter) went without a full ration. hunger 0->1.
+- Yuri Bren (farmer) went without a full ration. hunger 0->1.
+- Zara Bren (woodcutter) went without a full ration. hunger 0->1.
+- Hana Cairn (carpenter) went without a full ration. hunger 0->1.
+- Iris Cairn (farmer) went without a full ration. hunger 0->1.
+- Jory Cairn (woodcutter) went without a full ration. hunger 0->1.
+- Lio Cairn (builder) went without a full ration. hunger 0->1.
+- Mara Cairn (healer) went without a full ration. hunger 0->1.
+- Orin Cairn (guard) went without a full ration. hunger 0->1.
+- Pia Cairn (teacher) went without a full ration. hunger 0->1.
+- Quin Cairn (forager) went without a full ration. hunger 0->1.
+- Rhea Cairn (carpenter) went without a full ration. hunger 0->1.
+- Soren Cairn (farmer) went without a full ration. hunger 0->1.
+- Talia Cairn (woodcutter) went without a full ration. hunger 0->1.
+- Vera Cairn (builder) went without a full ration. hunger 0->1.
+- Wynn Cairn (healer) went without a full ration. hunger 0->1.
+- Xara Cairn (cook) went without a full ration. hunger 0->1.
+- Yuri Cairn (guard) went without a full ration. hunger 0->1.
+- Cora Aster (scout) went without a full ration. hunger 0->1.
+- Dain Aster (builder) went without a full ration. hunger 0->1.
+- Elia Aster (healer) went without a full ration. hunger 0->1.
+- Finn Aster (cook) went without a full ration. hunger 0->1.
+- Galen Aster (guard) went without a full ration. hunger 0->1.
+- Iris Aster (forager) went without a full ration. hunger 0->1.
+- Bram Cairn (builder) went without a full ration. hunger 0->1.
+- Ada Cairn (scout) went without a full ration. hunger 0->1.
+- Kara Cairn (scout) went without a full ration. hunger 0->1.
+- Zara Cairn (teacher) went without a full ration. hunger 0->1.
+- Dain Dove (woodcutter) went without a full ration. hunger 0->1.
+- Elia Dove (scout) went without a full ration. hunger 0->1.
+- Finn Dove (builder) went without a full ration. hunger 0->1.
+- Galen Dove (healer) went without a full ration. hunger 0->1.
+- Kara Dove (forager) went without a full ration. hunger 0->1.
+- Lio Dove (carpenter) went without a full ration. hunger 0->1.
+- Mara Dove (farmer) went without a full ration. hunger 0->1.
+- Niko Dove (woodcutter) went without a full ration. hunger 0->1.
+- Ada Aster (farmer) went without a full ration. hunger 0->1.
+- Bram Aster (woodcutter) went without a full ration. hunger 0->1.
+- Orin Dove (scout) went without a full ration. hunger 0->1.
+
+Day 56 - Blergen Personal Stories:
+- Iris Dove (guard) bore the worst of the storm. health 1->0; hunger 2->4; died.
+- Pia Dove (builder) bore the worst of the storm. health 1->0; hunger 2->4; died.
+- Ada Dove (forager) bore the worst of the storm. health 1->0; hunger 2->4; died.
+- Hana Dove (cook) bore the worst of the storm. health 1->0; hunger 2->4; died.
+- Elia Cairn (guard) endured tighter rations. health 1->0; morale 2->1; hunger 1->3; died.
+- Finn Cairn (teacher) endured tighter rations. health 2->0; hunger 1->3; died.
+- Galen Cairn (forager) endured tighter rations. morale 1->0; hunger 0->2.
+- Hana Cairn (carpenter) endured tighter rations. health 2->0; morale 1->0; hunger 1->3; died.
+- Vera Aster (woodcutter) went without a full ration. hunger 0->1.
+- Rhea Bren (builder) went without a full ration. hunger 0->1.
+- Una Cairn (scout) went without a full ration. hunger 0->1.
+- Quin Dove (healer) went without a full ration. hunger 0->1.
+- Cora Cairn (healer) went without a full ration. hunger 0->1.
+- Rhea Dove (cook) went without a full ration. hunger 0->1.
+- Soren Dove (guard) went without a full ration. hunger 0->1.
+- Orin Aster (healer) went without a full ration. hunger 1->2.
+- Dain Bren (carpenter) went without a full ration. hunger 1->2.
+- Kara Bren (guard) went without a full ration. hunger 1->2.
+- Niko Cairn (cook) went without a full ration. hunger 1->2.
+- Hana Aster (teacher) went without a full ration. hunger 1->2.
+- Galen Cairn (forager) went without a full ration. morale 1->0; hunger 0->2.
+- Cora Dove (farmer) went without a full ration. hunger 1->2.
+- Jory Dove (teacher) went without a full ration. hunger 1->2.
+- Wynn Bren (forager) went without a full ration. hunger 1->2.
+- Jory Aster (carpenter) went without a full ration. hunger 1->2.
+- Kara Aster (farmer) went without a full ration. hunger 1->2.
+- Lio Aster (woodcutter) went without a full ration. hunger 1->2.
+- Mara Aster (scout) went without a full ration. hunger 1->2.
+- Niko Aster (builder) went without a full ration. hunger 1->2.
+- Pia Aster (cook) went without a full ration. hunger 1->2.
+- Quin Aster (guard) went without a full ration. hunger 1->2.
+- Rhea Aster (teacher) went without a full ration. hunger 1->2.
+- Soren Aster (forager) went without a full ration. hunger 1->2.
+- Talia Aster (carpenter) went without a full ration. hunger 1->2.
+- Una Aster (farmer) went without a full ration. hunger 1->2.
+- Wynn Aster (scout) went without a full ration. hunger 1->2.
+- Xara Aster (builder) went without a full ration. hunger 1->2.
+- Yuri Aster (healer) went without a full ration. hunger 1->2.
+- Zara Aster (cook) went without a full ration. hunger 1->2.
+- Ada Bren (guard) went without a full ration. hunger 1->2.
+- Bram Bren (teacher) went without a full ration. hunger 1->2.
+- Cora Bren (forager) went without a full ration. hunger 1->2.
+- Elia Bren (farmer) went without a full ration. hunger 1->2.
+- Finn Bren (woodcutter) went without a full ration. hunger 1->2.
+- Galen Bren (scout) went without a full ration. hunger 1->2.
+- Hana Bren (builder) went without a full ration. hunger 1->2.
+- Iris Bren (healer) went without a full ration. hunger 1->2.
+- Jory Bren (cook) went without a full ration. hunger 1->2.
+- Lio Bren (teacher) went without a full ration. hunger 1->2.
+- Mara Bren (forager) went without a full ration. hunger 1->2.
+- Niko Bren (carpenter) went without a full ration. hunger 1->2.
+- Orin Bren (farmer) went without a full ration. hunger 1->2.
+- Pia Bren (woodcutter) went without a full ration. hunger 1->2.
+- Quin Bren (scout) went without a full ration. hunger 1->2.
+- Soren Bren (healer) went without a full ration. hunger 1->2.
+- Talia Bren (cook) went without a full ration. hunger 1->2.
+- Una Bren (guard) went without a full ration. hunger 1->2.
+- Vera Bren (teacher) went without a full ration. hunger 1->2.
+- Xara Bren (carpenter) went without a full ration. hunger 1->2.
+- Yuri Bren (farmer) went without a full ration. hunger 1->2.
+- Zara Bren (woodcutter) went without a full ration. hunger 1->2.
+- Iris Cairn (farmer) went without a full ration. hunger 1->2.
+- Jory Cairn (woodcutter) went without a full ration. hunger 1->2.
+- Lio Cairn (builder) went without a full ration. hunger 1->2.
+- Mara Cairn (healer) went without a full ration. hunger 1->2.
+- Orin Cairn (guard) went without a full ration. hunger 1->2.
+- Pia Cairn (teacher) went without a full ration. hunger 1->2.
+- Quin Cairn (forager) went without a full ration. hunger 1->2.
+- Rhea Cairn (carpenter) went without a full ration. hunger 1->2.
+- Soren Cairn (farmer) went without a full ration. hunger 1->2.
+- Talia Cairn (woodcutter) went without a full ration. hunger 1->2.
+- Vera Cairn (builder) went without a full ration. hunger 1->2.
+- Wynn Cairn (healer) went without a full ration. hunger 1->2.
+- Xara Cairn (cook) went without a full ration. hunger 1->2.
+- Yuri Cairn (guard) went without a full ration. hunger 1->2.
+- Cora Aster (scout) went without a full ration. health 2->1; hunger 1->2.
+- Dain Aster (builder) went without a full ration. health 2->1; hunger 1->2.
+- Elia Aster (healer) went without a full ration. hunger 1->2.
+- Finn Aster (cook) went without a full ration. hunger 1->2.
+- Galen Aster (guard) went without a full ration. hunger 1->2.
+- Iris Aster (forager) went without a full ration. hunger 1->2.
+- Dain Cairn (cook) went without a full ration. hunger 1->2.
+- Bram Cairn (builder) went without a full ration. hunger 1->2.
+- Ada Cairn (scout) went without a full ration. hunger 1->2.
+- Kara Cairn (scout) went without a full ration. hunger 1->2.
+- Zara Cairn (teacher) went without a full ration. hunger 1->2.
+- Dain Dove (woodcutter) went without a full ration. hunger 1->2.
+- Elia Dove (scout) went without a full ration. hunger 1->2.
+- Finn Dove (builder) went without a full ration. hunger 1->2.
+- Galen Dove (healer) went without a full ration. hunger 1->2.
+- Kara Dove (forager) went without a full ration. hunger 1->2.
+- Lio Dove (carpenter) went without a full ration. hunger 1->2.
+- Mara Dove (farmer) went without a full ration. hunger 1->2.
+- Niko Dove (woodcutter) went without a full ration. hunger 1->2.
+- Ada Aster (farmer) went without a full ration. hunger 1->2.
+- Bram Aster (woodcutter) went without a full ration. hunger 1->2.
+- Orin Dove (scout) went without a full ration. hunger 1->2.
+- Finn Cairn (teacher) went without a full ration. health 2->0; hunger 1->3; died.
+- Hana Cairn (carpenter) went without a full ration. health 2->0; morale 1->0; hunger 1->3; died.
+- Elia Cairn (guard) went without a full ration. health 1->0; morale 2->1; hunger 1->3; died.
+- Ada Dove (forager) went without a full ration. health 1->0; hunger 2->4; died.
+- Hana Dove (cook) went without a full ration. health 1->0; hunger 2->4; died.
+- Iris Dove (guard) went without a full ration. health 1->0; hunger 2->4; died.
+- Pia Dove (builder) went without a full ration. health 1->0; hunger 2->4; died.
+- Finn Cairn (teacher) died of starvation. health 2->0; hunger 1->3; died.
+- Hana Cairn (carpenter) died of starvation. health 2->0; morale 1->0; hunger 1->3; died.
+- Elia Cairn (guard) died of starvation. health 1->0; morale 2->1; hunger 1->3; died.
+- Ada Dove (forager) died of starvation. health 1->0; hunger 2->4; died.
+- Hana Dove (cook) died of starvation. health 1->0; hunger 2->4; died.
+- Iris Dove (guard) died of starvation. health 1->0; hunger 2->4; died.
+- Pia Dove (builder) died of starvation. health 1->0; hunger 2->4; died.
+
+Day 57 - Blergen Personal Stories:
+- Orin Dove (scout) bore the worst of the storm. health 1->0; hunger 2->4; died.
+- Zara Cairn (teacher) bore the worst of the storm. health 1->0; morale 1->0; hunger 2->4; died.
+- Galen Dove (healer) bore the worst of the storm. health 1->0; morale 1->0; hunger 2->4; died.
+- Kara Cairn (scout) bore the worst of the storm. health 1->0; morale 1->0; hunger 2->4; died.
+- Vera Aster (woodcutter) went without a full ration. health 3->2; hunger 1->2.
+- Rhea Bren (builder) went without a full ration. health 3->2; hunger 1->2.
+- Una Cairn (scout) went without a full ration. hunger 1->2.
+- Quin Dove (healer) went without a full ration. hunger 1->2.
+- Cora Cairn (healer) went without a full ration. health 2->1; hunger 1->2.
+- Rhea Dove (cook) went without a full ration. hunger 1->2.
+- Soren Dove (guard) went without a full ration. hunger 1->2.
+- Orin Aster (healer) went without a full ration. health 4->0; hunger 2->3; died.
+- Dain Bren (carpenter) went without a full ration. health 4->0; hunger 2->3; died.
+- Kara Bren (guard) went without a full ration. health 4->0; hunger 2->3; died.
+- Niko Cairn (cook) went without a full ration. health 4->0; hunger 2->3; died.
+- Hana Aster (teacher) went without a full ration. health 4->0; hunger 2->3; died.
+- Galen Cairn (forager) went without a full ration. health 4->0; hunger 2->3; died.
+- Cora Dove (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Jory Dove (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Wynn Bren (forager) went without a full ration. health 2->0; hunger 2->3; died.
+- Jory Aster (carpenter) went without a full ration. health 2->0; hunger 2->3; died.
+- Kara Aster (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Lio Aster (woodcutter) went without a full ration. health 2->0; hunger 2->3; died.
+- Mara Aster (scout) went without a full ration. health 2->0; hunger 2->3; died.
+- Niko Aster (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Pia Aster (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Quin Aster (guard) went without a full ration. health 2->0; hunger 2->3; died.
+- Rhea Aster (teacher) went without a full ration. health 2->0; hunger 2->3; died.
+- Soren Aster (forager) went without a full ration. health 2->0; hunger 2->3; died.
+- Talia Aster (carpenter) went without a full ration. health 2->0; hunger 2->3; died.
+- Una Aster (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Wynn Aster (scout) went without a full ration. health 2->0; hunger 2->3; died.
+- Xara Aster (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Yuri Aster (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Zara Aster (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Ada Bren (guard) went without a full ration. health 2->0; hunger 2->3; died.
+- Bram Bren (teacher) went without a full ration. health 2->0; hunger 2->3; died.
+- Cora Bren (forager) went without a full ration. health 2->0; hunger 2->3; died.
+- Elia Bren (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Finn Bren (woodcutter) went without a full ration. health 2->0; hunger 2->3; died.
+- Galen Bren (scout) went without a full ration. health 2->0; hunger 2->3; died.
+- Hana Bren (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Iris Bren (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Jory Bren (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Lio Bren (teacher) went without a full ration. health 2->0; hunger 2->3; died.
+- Mara Bren (forager) went without a full ration. health 2->0; hunger 2->3; died.
+- Niko Bren (carpenter) went without a full ration. health 2->0; hunger 2->3; died.
+- Orin Bren (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Pia Bren (woodcutter) went without a full ration. health 2->0; hunger 2->3; died.
+- Quin Bren (scout) went without a full ration. health 2->0; hunger 2->3; died.
+- Soren Bren (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Talia Bren (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Una Bren (guard) went without a full ration. health 2->0; hunger 2->3; died.
+- Vera Bren (teacher) went without a full ration. health 2->0; hunger 2->3; died.
+- Xara Bren (carpenter) went without a full ration. health 2->0; hunger 2->3; died.
+- Yuri Bren (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Zara Bren (woodcutter) went without a full ration. health 2->0; hunger 2->3; died.
+- Iris Cairn (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Jory Cairn (woodcutter) went without a full ration. health 2->0; hunger 2->3; died.
+- Lio Cairn (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Mara Cairn (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Orin Cairn (guard) went without a full ration. health 2->0; hunger 2->3; died.
+- Pia Cairn (teacher) went without a full ration. health 2->0; hunger 2->3; died.
+- Quin Cairn (forager) went without a full ration. health 2->0; hunger 2->3; died.
+- Rhea Cairn (carpenter) went without a full ration. health 2->0; hunger 2->3; died.
+- Soren Cairn (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Talia Cairn (woodcutter) went without a full ration. health 2->0; hunger 2->3; died.
+- Vera Cairn (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Wynn Cairn (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Xara Cairn (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Yuri Cairn (guard) went without a full ration. health 2->0; hunger 2->3; died.
+- Elia Aster (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Finn Aster (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Galen Aster (guard) went without a full ration. health 2->0; hunger 2->3; died.
+- Iris Aster (forager) went without a full ration. health 2->0; hunger 2->3; died.
+- Dain Cairn (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Bram Cairn (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Ada Cairn (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Dain Dove (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Elia Dove (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Finn Dove (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Kara Dove (forager) went without a full ration. health 1->0; hunger 2->3; died.
+- Lio Dove (carpenter) went without a full ration. health 1->0; hunger 2->3; died.
+- Mara Dove (farmer) went without a full ration. health 1->0; hunger 2->3; died.
+- Niko Dove (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Ada Aster (farmer) went without a full ration. health 1->0; hunger 2->3; died.
+- Bram Aster (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Cora Aster (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Dain Aster (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Kara Cairn (scout) went without a full ration. health 1->0; morale 1->0; hunger 2->4; died.
+- Zara Cairn (teacher) went without a full ration. health 1->0; morale 1->0; hunger 2->4; died.
+- Galen Dove (healer) went without a full ration. health 1->0; morale 1->0; hunger 2->4; died.
+- Orin Dove (scout) went without a full ration. health 1->0; hunger 2->4; died.
+- Orin Aster (healer) died of starvation. health 4->0; hunger 2->3; died.
+- Dain Bren (carpenter) died of starvation. health 4->0; hunger 2->3; died.
+- Kara Bren (guard) died of starvation. health 4->0; hunger 2->3; died.
+- Niko Cairn (cook) died of starvation. health 4->0; hunger 2->3; died.
+- Hana Aster (teacher) died of starvation. health 4->0; hunger 2->3; died.
+- Galen Cairn (forager) died of starvation. health 4->0; hunger 2->3; died.
+- Cora Dove (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Jory Dove (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Wynn Bren (forager) died of starvation. health 2->0; hunger 2->3; died.
+- Jory Aster (carpenter) died of starvation. health 2->0; hunger 2->3; died.
+- Kara Aster (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Lio Aster (woodcutter) died of starvation. health 2->0; hunger 2->3; died.
+- Mara Aster (scout) died of starvation. health 2->0; hunger 2->3; died.
+- Niko Aster (builder) died of starvation. health 2->0; hunger 2->3; died.
+- Pia Aster (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Quin Aster (guard) died of starvation. health 2->0; hunger 2->3; died.
+- Rhea Aster (teacher) died of starvation. health 2->0; hunger 2->3; died.
+- Soren Aster (forager) died of starvation. health 2->0; hunger 2->3; died.
+- Talia Aster (carpenter) died of starvation. health 2->0; hunger 2->3; died.
+- Una Aster (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Wynn Aster (scout) died of starvation. health 2->0; hunger 2->3; died.
+- Xara Aster (builder) died of starvation. health 2->0; hunger 2->3; died.
+- Yuri Aster (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Zara Aster (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Ada Bren (guard) died of starvation. health 2->0; hunger 2->3; died.
+- Bram Bren (teacher) died of starvation. health 2->0; hunger 2->3; died.
+- Cora Bren (forager) died of starvation. health 2->0; hunger 2->3; died.
+- Elia Bren (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Finn Bren (woodcutter) died of starvation. health 2->0; hunger 2->3; died.
+- Galen Bren (scout) died of starvation. health 2->0; hunger 2->3; died.
+- Hana Bren (builder) died of starvation. health 2->0; hunger 2->3; died.
+- Iris Bren (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Jory Bren (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Lio Bren (teacher) died of starvation. health 2->0; hunger 2->3; died.
+- Mara Bren (forager) died of starvation. health 2->0; hunger 2->3; died.
+- Niko Bren (carpenter) died of starvation. health 2->0; hunger 2->3; died.
+- Orin Bren (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Pia Bren (woodcutter) died of starvation. health 2->0; hunger 2->3; died.
+- Quin Bren (scout) died of starvation. health 2->0; hunger 2->3; died.
+- Soren Bren (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Talia Bren (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Una Bren (guard) died of starvation. health 2->0; hunger 2->3; died.
+- Vera Bren (teacher) died of starvation. health 2->0; hunger 2->3; died.
+- Xara Bren (carpenter) died of starvation. health 2->0; hunger 2->3; died.
+- Yuri Bren (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Zara Bren (woodcutter) died of starvation. health 2->0; hunger 2->3; died.
+- Iris Cairn (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Jory Cairn (woodcutter) died of starvation. health 2->0; hunger 2->3; died.
+- Lio Cairn (builder) died of starvation. health 2->0; hunger 2->3; died.
+- Mara Cairn (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Orin Cairn (guard) died of starvation. health 2->0; hunger 2->3; died.
+- Pia Cairn (teacher) died of starvation. health 2->0; hunger 2->3; died.
+- Quin Cairn (forager) died of starvation. health 2->0; hunger 2->3; died.
+- Rhea Cairn (carpenter) died of starvation. health 2->0; hunger 2->3; died.
+- Soren Cairn (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Talia Cairn (woodcutter) died of starvation. health 2->0; hunger 2->3; died.
+- Vera Cairn (builder) died of starvation. health 2->0; hunger 2->3; died.
+- Wynn Cairn (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Xara Cairn (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Yuri Cairn (guard) died of starvation. health 2->0; hunger 2->3; died.
+- Elia Aster (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Finn Aster (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Galen Aster (guard) died of starvation. health 2->0; hunger 2->3; died.
+- Iris Aster (forager) died of starvation. health 2->0; hunger 2->3; died.
+- Dain Cairn (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Bram Cairn (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Ada Cairn (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Dain Dove (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Elia Dove (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Finn Dove (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Kara Dove (forager) died of starvation. health 1->0; hunger 2->3; died.
+- Lio Dove (carpenter) died of starvation. health 1->0; hunger 2->3; died.
+- Mara Dove (farmer) died of starvation. health 1->0; hunger 2->3; died.
+- Niko Dove (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Ada Aster (farmer) died of starvation. health 1->0; hunger 2->3; died.
+- Bram Aster (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Cora Aster (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Dain Aster (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Kara Cairn (scout) died of starvation. health 1->0; morale 1->0; hunger 2->4; died.
+- Zara Cairn (teacher) died of starvation. health 1->0; morale 1->0; hunger 2->4; died.
+- Galen Dove (healer) died of starvation. health 1->0; morale 1->0; hunger 2->4; died.
+- Orin Dove (scout) died of starvation. health 1->0; hunger 2->4; died.

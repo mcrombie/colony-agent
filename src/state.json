@@ -1,9 +1,9 @@
 {
-  "day": 54,
+  "day": 58,
   "year": 1,
   "colony_name": "Blergen",
-  "population": 96,
-  "food": 29,
+  "population": 7,
+  "food": 0,
   "wood": 0,
   "morale": 0,
   "security": 7,
@@ -962,6 +962,1939 @@
         "deaths": []
       },
       "summary": "A severity 3 wolf attack hit the settlement. Weather: Snow made paths and work crews slower. The president tried to strengthen the settlement, but there was not enough wood."
+    },
+    {
+      "day": 54,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 54,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 23,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "snow",
+        "severity": 2,
+        "summary": "Snow made paths and work crews slower."
+      },
+      "weather_effects": {
+        "wood": -1
+      },
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 4
+      },
+      "leadership_action": "ration_food",
+      "effects": {
+        "food": -8
+      },
+      "survival_effects": {
+        "food": -2
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 4,
+            "people": [
+              {
+                "id": "person_087",
+                "name": "Iris Dove"
+              },
+              {
+                "id": "person_094",
+                "name": "Pia Dove"
+              },
+              {
+                "id": "person_079",
+                "name": "Ada Dove"
+              },
+              {
+                "id": "person_086",
+                "name": "Hana Dove"
+              }
+            ],
+            "summary": "Iris Dove, Pia Dove, Ada Dove, and Hana Dove bore the worst of the storm."
+          },
+          {
+            "type": "rationed_food",
+            "people": [
+              {
+                "id": "person_055",
+                "name": "Cora Cairn"
+              },
+              {
+                "id": "person_056",
+                "name": "Dain Cairn"
+              },
+              {
+                "id": "person_057",
+                "name": "Elia Cairn"
+              },
+              {
+                "id": "person_058",
+                "name": "Finn Cairn"
+              }
+            ],
+            "summary": "Cora Cairn, Dain Cairn, Elia Cairn, and Finn Cairn felt the tighter rations first."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 4 storm struck Blergen. Weather: Snow made paths and work crews slower. The president ordered tighter food rationing."
+    },
+    {
+      "day": 55,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 55,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 24,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "clear_cold",
+        "severity": 1,
+        "summary": "Cold clear air settled over the camp."
+      },
+      "weather_effects": {},
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 4
+      },
+      "leadership_action": "ration_food",
+      "effects": {
+        "food": -21
+      },
+      "survival_effects": {
+        "food": -15,
+        "missed_rations": 81
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 4,
+            "people": [
+              {
+                "id": "person_087",
+                "name": "Iris Dove"
+              },
+              {
+                "id": "person_094",
+                "name": "Pia Dove"
+              },
+              {
+                "id": "person_079",
+                "name": "Ada Dove"
+              },
+              {
+                "id": "person_086",
+                "name": "Hana Dove"
+              }
+            ],
+            "summary": "Iris Dove, Pia Dove, Ada Dove, and Hana Dove bore the worst of the storm."
+          },
+          {
+            "type": "rationed_food",
+            "people": [
+              {
+                "id": "person_056",
+                "name": "Dain Cairn"
+              },
+              {
+                "id": "person_057",
+                "name": "Elia Cairn"
+              },
+              {
+                "id": "person_058",
+                "name": "Finn Cairn"
+              },
+              {
+                "id": "person_059",
+                "name": "Galen Cairn"
+              }
+            ],
+            "summary": "Dain Cairn, Elia Cairn, Finn Cairn, and Galen Cairn felt the tighter rations first."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 81,
+            "people": [
+              {
+                "id": "person_015",
+                "name": "Orin Aster"
+              },
+              {
+                "id": "person_030",
+                "name": "Dain Bren"
+              },
+              {
+                "id": "person_037",
+                "name": "Kara Bren"
+              },
+              {
+                "id": "person_066",
+                "name": "Niko Cairn"
+              },
+              {
+                "id": "person_008",
+                "name": "Hana Aster"
+              },
+              {
+                "id": "person_081",
+                "name": "Cora Dove"
+              },
+              {
+                "id": "person_088",
+                "name": "Jory Dove"
+              },
+              {
+                "id": "person_049",
+                "name": "Wynn Bren"
+              },
+              {
+                "id": "person_010",
+                "name": "Jory Aster"
+              },
+              {
+                "id": "person_011",
+                "name": "Kara Aster"
+              },
+              {
+                "id": "person_012",
+                "name": "Lio Aster"
+              },
+              {
+                "id": "person_013",
+                "name": "Mara Aster"
+              },
+              {
+                "id": "person_014",
+                "name": "Niko Aster"
+              },
+              {
+                "id": "person_016",
+                "name": "Pia Aster"
+              },
+              {
+                "id": "person_017",
+                "name": "Quin Aster"
+              },
+              {
+                "id": "person_018",
+                "name": "Rhea Aster"
+              },
+              {
+                "id": "person_019",
+                "name": "Soren Aster"
+              },
+              {
+                "id": "person_020",
+                "name": "Talia Aster"
+              },
+              {
+                "id": "person_021",
+                "name": "Una Aster"
+              },
+              {
+                "id": "person_023",
+                "name": "Wynn Aster"
+              },
+              {
+                "id": "person_024",
+                "name": "Xara Aster"
+              },
+              {
+                "id": "person_025",
+                "name": "Yuri Aster"
+              },
+              {
+                "id": "person_026",
+                "name": "Zara Aster"
+              },
+              {
+                "id": "person_027",
+                "name": "Ada Bren"
+              },
+              {
+                "id": "person_028",
+                "name": "Bram Bren"
+              },
+              {
+                "id": "person_029",
+                "name": "Cora Bren"
+              },
+              {
+                "id": "person_031",
+                "name": "Elia Bren"
+              },
+              {
+                "id": "person_032",
+                "name": "Finn Bren"
+              },
+              {
+                "id": "person_033",
+                "name": "Galen Bren"
+              },
+              {
+                "id": "person_034",
+                "name": "Hana Bren"
+              },
+              {
+                "id": "person_035",
+                "name": "Iris Bren"
+              },
+              {
+                "id": "person_036",
+                "name": "Jory Bren"
+              },
+              {
+                "id": "person_038",
+                "name": "Lio Bren"
+              },
+              {
+                "id": "person_039",
+                "name": "Mara Bren"
+              },
+              {
+                "id": "person_040",
+                "name": "Niko Bren"
+              },
+              {
+                "id": "person_041",
+                "name": "Orin Bren"
+              },
+              {
+                "id": "person_042",
+                "name": "Pia Bren"
+              },
+              {
+                "id": "person_043",
+                "name": "Quin Bren"
+              },
+              {
+                "id": "person_045",
+                "name": "Soren Bren"
+              },
+              {
+                "id": "person_046",
+                "name": "Talia Bren"
+              },
+              {
+                "id": "person_047",
+                "name": "Una Bren"
+              },
+              {
+                "id": "person_048",
+                "name": "Vera Bren"
+              },
+              {
+                "id": "person_050",
+                "name": "Xara Bren"
+              },
+              {
+                "id": "person_051",
+                "name": "Yuri Bren"
+              },
+              {
+                "id": "person_052",
+                "name": "Zara Bren"
+              },
+              {
+                "id": "person_060",
+                "name": "Hana Cairn"
+              },
+              {
+                "id": "person_061",
+                "name": "Iris Cairn"
+              },
+              {
+                "id": "person_062",
+                "name": "Jory Cairn"
+              },
+              {
+                "id": "person_064",
+                "name": "Lio Cairn"
+              },
+              {
+                "id": "person_065",
+                "name": "Mara Cairn"
+              },
+              {
+                "id": "person_067",
+                "name": "Orin Cairn"
+              },
+              {
+                "id": "person_068",
+                "name": "Pia Cairn"
+              },
+              {
+                "id": "person_069",
+                "name": "Quin Cairn"
+              },
+              {
+                "id": "person_070",
+                "name": "Rhea Cairn"
+              },
+              {
+                "id": "person_071",
+                "name": "Soren Cairn"
+              },
+              {
+                "id": "person_072",
+                "name": "Talia Cairn"
+              },
+              {
+                "id": "person_074",
+                "name": "Vera Cairn"
+              },
+              {
+                "id": "person_075",
+                "name": "Wynn Cairn"
+              },
+              {
+                "id": "person_076",
+                "name": "Xara Cairn"
+              },
+              {
+                "id": "person_077",
+                "name": "Yuri Cairn"
+              },
+              {
+                "id": "person_003",
+                "name": "Cora Aster"
+              },
+              {
+                "id": "person_004",
+                "name": "Dain Aster"
+              },
+              {
+                "id": "person_005",
+                "name": "Elia Aster"
+              },
+              {
+                "id": "person_006",
+                "name": "Finn Aster"
+              },
+              {
+                "id": "person_007",
+                "name": "Galen Aster"
+              },
+              {
+                "id": "person_009",
+                "name": "Iris Aster"
+              },
+              {
+                "id": "person_054",
+                "name": "Bram Cairn"
+              },
+              {
+                "id": "person_053",
+                "name": "Ada Cairn"
+              },
+              {
+                "id": "person_063",
+                "name": "Kara Cairn"
+              },
+              {
+                "id": "person_078",
+                "name": "Zara Cairn"
+              },
+              {
+                "id": "person_082",
+                "name": "Dain Dove"
+              },
+              {
+                "id": "person_083",
+                "name": "Elia Dove"
+              },
+              {
+                "id": "person_084",
+                "name": "Finn Dove"
+              },
+              {
+                "id": "person_085",
+                "name": "Galen Dove"
+              },
+              {
+                "id": "person_089",
+                "name": "Kara Dove"
+              },
+              {
+                "id": "person_090",
+                "name": "Lio Dove"
+              },
+              {
+                "id": "person_091",
+                "name": "Mara Dove"
+              },
+              {
+                "id": "person_092",
+                "name": "Niko Dove"
+              },
+              {
+                "id": "person_001",
+                "name": "Ada Aster"
+              },
+              {
+                "id": "person_002",
+                "name": "Bram Aster"
+              },
+              {
+                "id": "person_093",
+                "name": "Orin Dove"
+              }
+            ],
+            "summary": "Orin Aster, Dain Bren, and Kara Bren, and 78 others went without full rations."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 4 storm struck Blergen. Weather: Cold clear air settled over the camp. The president ordered tighter food rationing."
+    },
+    {
+      "day": 56,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 56,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 25,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "overcast",
+        "severity": 1,
+        "summary": "A gray sky pressed low over Blergen."
+      },
+      "weather_effects": {},
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 4
+      },
+      "leadership_action": "ration_food",
+      "effects": {
+        "population": -7
+      },
+      "survival_effects": {
+        "missed_rations": 96
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 4,
+            "people": [
+              {
+                "id": "person_087",
+                "name": "Iris Dove"
+              },
+              {
+                "id": "person_094",
+                "name": "Pia Dove"
+              },
+              {
+                "id": "person_079",
+                "name": "Ada Dove"
+              },
+              {
+                "id": "person_086",
+                "name": "Hana Dove"
+              }
+            ],
+            "summary": "Iris Dove, Pia Dove, Ada Dove, and Hana Dove bore the worst of the storm."
+          },
+          {
+            "type": "rationed_food",
+            "people": [
+              {
+                "id": "person_057",
+                "name": "Elia Cairn"
+              },
+              {
+                "id": "person_058",
+                "name": "Finn Cairn"
+              },
+              {
+                "id": "person_059",
+                "name": "Galen Cairn"
+              },
+              {
+                "id": "person_060",
+                "name": "Hana Cairn"
+              }
+            ],
+            "summary": "Elia Cairn, Finn Cairn, Galen Cairn, and Hana Cairn felt the tighter rations first."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 96,
+            "people": [
+              {
+                "id": "person_022",
+                "name": "Vera Aster"
+              },
+              {
+                "id": "person_044",
+                "name": "Rhea Bren"
+              },
+              {
+                "id": "person_073",
+                "name": "Una Cairn"
+              },
+              {
+                "id": "person_095",
+                "name": "Quin Dove"
+              },
+              {
+                "id": "person_055",
+                "name": "Cora Cairn"
+              },
+              {
+                "id": "person_096",
+                "name": "Rhea Dove"
+              },
+              {
+                "id": "person_097",
+                "name": "Soren Dove"
+              },
+              {
+                "id": "person_015",
+                "name": "Orin Aster"
+              },
+              {
+                "id": "person_030",
+                "name": "Dain Bren"
+              },
+              {
+                "id": "person_037",
+                "name": "Kara Bren"
+              },
+              {
+                "id": "person_066",
+                "name": "Niko Cairn"
+              },
+              {
+                "id": "person_008",
+                "name": "Hana Aster"
+              },
+              {
+                "id": "person_059",
+                "name": "Galen Cairn"
+              },
+              {
+                "id": "person_081",
+                "name": "Cora Dove"
+              },
+              {
+                "id": "person_088",
+                "name": "Jory Dove"
+              },
+              {
+                "id": "person_049",
+                "name": "Wynn Bren"
+              },
+              {
+                "id": "person_010",
+                "name": "Jory Aster"
+              },
+              {
+                "id": "person_011",
+                "name": "Kara Aster"
+              },
+              {
+                "id": "person_012",
+                "name": "Lio Aster"
+              },
+              {
+                "id": "person_013",
+                "name": "Mara Aster"
+              },
+              {
+                "id": "person_014",
+                "name": "Niko Aster"
+              },
+              {
+                "id": "person_016",
+                "name": "Pia Aster"
+              },
+              {
+                "id": "person_017",
+                "name": "Quin Aster"
+              },
+              {
+                "id": "person_018",
+                "name": "Rhea Aster"
+              },
+              {
+                "id": "person_019",
+                "name": "Soren Aster"
+              },
+              {
+                "id": "person_020",
+                "name": "Talia Aster"
+              },
+              {
+                "id": "person_021",
+                "name": "Una Aster"
+              },
+              {
+                "id": "person_023",
+                "name": "Wynn Aster"
+              },
+              {
+                "id": "person_024",
+                "name": "Xara Aster"
+              },
+              {
+                "id": "person_025",
+                "name": "Yuri Aster"
+              },
+              {
+                "id": "person_026",
+                "name": "Zara Aster"
+              },
+              {
+                "id": "person_027",
+                "name": "Ada Bren"
+              },
+              {
+                "id": "person_028",
+                "name": "Bram Bren"
+              },
+              {
+                "id": "person_029",
+                "name": "Cora Bren"
+              },
+              {
+                "id": "person_031",
+                "name": "Elia Bren"
+              },
+              {
+                "id": "person_032",
+                "name": "Finn Bren"
+              },
+              {
+                "id": "person_033",
+                "name": "Galen Bren"
+              },
+              {
+                "id": "person_034",
+                "name": "Hana Bren"
+              },
+              {
+                "id": "person_035",
+                "name": "Iris Bren"
+              },
+              {
+                "id": "person_036",
+                "name": "Jory Bren"
+              },
+              {
+                "id": "person_038",
+                "name": "Lio Bren"
+              },
+              {
+                "id": "person_039",
+                "name": "Mara Bren"
+              },
+              {
+                "id": "person_040",
+                "name": "Niko Bren"
+              },
+              {
+                "id": "person_041",
+                "name": "Orin Bren"
+              },
+              {
+                "id": "person_042",
+                "name": "Pia Bren"
+              },
+              {
+                "id": "person_043",
+                "name": "Quin Bren"
+              },
+              {
+                "id": "person_045",
+                "name": "Soren Bren"
+              },
+              {
+                "id": "person_046",
+                "name": "Talia Bren"
+              },
+              {
+                "id": "person_047",
+                "name": "Una Bren"
+              },
+              {
+                "id": "person_048",
+                "name": "Vera Bren"
+              },
+              {
+                "id": "person_050",
+                "name": "Xara Bren"
+              },
+              {
+                "id": "person_051",
+                "name": "Yuri Bren"
+              },
+              {
+                "id": "person_052",
+                "name": "Zara Bren"
+              },
+              {
+                "id": "person_061",
+                "name": "Iris Cairn"
+              },
+              {
+                "id": "person_062",
+                "name": "Jory Cairn"
+              },
+              {
+                "id": "person_064",
+                "name": "Lio Cairn"
+              },
+              {
+                "id": "person_065",
+                "name": "Mara Cairn"
+              },
+              {
+                "id": "person_067",
+                "name": "Orin Cairn"
+              },
+              {
+                "id": "person_068",
+                "name": "Pia Cairn"
+              },
+              {
+                "id": "person_069",
+                "name": "Quin Cairn"
+              },
+              {
+                "id": "person_070",
+                "name": "Rhea Cairn"
+              },
+              {
+                "id": "person_071",
+                "name": "Soren Cairn"
+              },
+              {
+                "id": "person_072",
+                "name": "Talia Cairn"
+              },
+              {
+                "id": "person_074",
+                "name": "Vera Cairn"
+              },
+              {
+                "id": "person_075",
+                "name": "Wynn Cairn"
+              },
+              {
+                "id": "person_076",
+                "name": "Xara Cairn"
+              },
+              {
+                "id": "person_077",
+                "name": "Yuri Cairn"
+              },
+              {
+                "id": "person_003",
+                "name": "Cora Aster"
+              },
+              {
+                "id": "person_004",
+                "name": "Dain Aster"
+              },
+              {
+                "id": "person_005",
+                "name": "Elia Aster"
+              },
+              {
+                "id": "person_006",
+                "name": "Finn Aster"
+              },
+              {
+                "id": "person_007",
+                "name": "Galen Aster"
+              },
+              {
+                "id": "person_009",
+                "name": "Iris Aster"
+              },
+              {
+                "id": "person_056",
+                "name": "Dain Cairn"
+              },
+              {
+                "id": "person_054",
+                "name": "Bram Cairn"
+              },
+              {
+                "id": "person_053",
+                "name": "Ada Cairn"
+              },
+              {
+                "id": "person_063",
+                "name": "Kara Cairn"
+              },
+              {
+                "id": "person_078",
+                "name": "Zara Cairn"
+              },
+              {
+                "id": "person_082",
+                "name": "Dain Dove"
+              },
+              {
+                "id": "person_083",
+                "name": "Elia Dove"
+              },
+              {
+                "id": "person_084",
+                "name": "Finn Dove"
+              },
+              {
+                "id": "person_085",
+                "name": "Galen Dove"
+              },
+              {
+                "id": "person_089",
+                "name": "Kara Dove"
+              },
+              {
+                "id": "person_090",
+                "name": "Lio Dove"
+              },
+              {
+                "id": "person_091",
+                "name": "Mara Dove"
+              },
+              {
+                "id": "person_092",
+                "name": "Niko Dove"
+              },
+              {
+                "id": "person_001",
+                "name": "Ada Aster"
+              },
+              {
+                "id": "person_002",
+                "name": "Bram Aster"
+              },
+              {
+                "id": "person_093",
+                "name": "Orin Dove"
+              },
+              {
+                "id": "person_058",
+                "name": "Finn Cairn"
+              },
+              {
+                "id": "person_060",
+                "name": "Hana Cairn"
+              },
+              {
+                "id": "person_057",
+                "name": "Elia Cairn"
+              },
+              {
+                "id": "person_079",
+                "name": "Ada Dove"
+              },
+              {
+                "id": "person_086",
+                "name": "Hana Dove"
+              },
+              {
+                "id": "person_087",
+                "name": "Iris Dove"
+              },
+              {
+                "id": "person_094",
+                "name": "Pia Dove"
+              }
+            ],
+            "summary": "Vera Aster, Rhea Bren, and Una Cairn, and 93 others went without full rations."
+          }
+        ],
+        "deaths": [
+          {
+            "id": "person_058",
+            "name": "Finn Cairn",
+            "cause": "starvation",
+            "summary": "Finn Cairn died of starvation on day 56."
+          },
+          {
+            "id": "person_060",
+            "name": "Hana Cairn",
+            "cause": "starvation",
+            "summary": "Hana Cairn died of starvation on day 56."
+          },
+          {
+            "id": "person_057",
+            "name": "Elia Cairn",
+            "cause": "starvation",
+            "summary": "Elia Cairn died of starvation on day 56."
+          },
+          {
+            "id": "person_079",
+            "name": "Ada Dove",
+            "cause": "starvation",
+            "summary": "Ada Dove died of starvation on day 56."
+          },
+          {
+            "id": "person_086",
+            "name": "Hana Dove",
+            "cause": "starvation",
+            "summary": "Hana Dove died of starvation on day 56."
+          },
+          {
+            "id": "person_087",
+            "name": "Iris Dove",
+            "cause": "starvation",
+            "summary": "Iris Dove died of starvation on day 56."
+          },
+          {
+            "id": "person_094",
+            "name": "Pia Dove",
+            "cause": "starvation",
+            "summary": "Pia Dove died of starvation on day 56."
+          }
+        ]
+      },
+      "summary": "A severity 4 storm struck Blergen. Weather: A gray sky pressed low over Blergen. The president ordered tighter food rationing."
+    },
+    {
+      "day": 57,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 57,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 26,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "winter_storm",
+        "severity": 4,
+        "summary": "A winter storm threatened the colony's shelters and stores."
+      },
+      "weather_effects": {
+        "wood": -2,
+        "morale": -1
+      },
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 4
+      },
+      "leadership_action": "preserve_resources",
+      "effects": {
+        "population": -82
+      },
+      "survival_effects": {
+        "missed_rations": 89
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 4,
+            "people": [
+              {
+                "id": "person_093",
+                "name": "Orin Dove"
+              },
+              {
+                "id": "person_078",
+                "name": "Zara Cairn"
+              },
+              {
+                "id": "person_085",
+                "name": "Galen Dove"
+              },
+              {
+                "id": "person_063",
+                "name": "Kara Cairn"
+              }
+            ],
+            "summary": "Orin Dove, Zara Cairn, Galen Dove, and Kara Cairn bore the worst of the storm."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 89,
+            "people": [
+              {
+                "id": "person_022",
+                "name": "Vera Aster"
+              },
+              {
+                "id": "person_044",
+                "name": "Rhea Bren"
+              },
+              {
+                "id": "person_073",
+                "name": "Una Cairn"
+              },
+              {
+                "id": "person_095",
+                "name": "Quin Dove"
+              },
+              {
+                "id": "person_055",
+                "name": "Cora Cairn"
+              },
+              {
+                "id": "person_096",
+                "name": "Rhea Dove"
+              },
+              {
+                "id": "person_097",
+                "name": "Soren Dove"
+              },
+              {
+                "id": "person_015",
+                "name": "Orin Aster"
+              },
+              {
+                "id": "person_030",
+                "name": "Dain Bren"
+              },
+              {
+                "id": "person_037",
+                "name": "Kara Bren"
+              },
+              {
+                "id": "person_066",
+                "name": "Niko Cairn"
+              },
+              {
+                "id": "person_008",
+                "name": "Hana Aster"
+              },
+              {
+                "id": "person_059",
+                "name": "Galen Cairn"
+              },
+              {
+                "id": "person_081",
+                "name": "Cora Dove"
+              },
+              {
+                "id": "person_088",
+                "name": "Jory Dove"
+              },
+              {
+                "id": "person_049",
+                "name": "Wynn Bren"
+              },
+              {
+                "id": "person_010",
+                "name": "Jory Aster"
+              },
+              {
+                "id": "person_011",
+                "name": "Kara Aster"
+              },
+              {
+                "id": "person_012",
+                "name": "Lio Aster"
+              },
+              {
+                "id": "person_013",
+                "name": "Mara Aster"
+              },
+              {
+                "id": "person_014",
+                "name": "Niko Aster"
+              },
+              {
+                "id": "person_016",
+                "name": "Pia Aster"
+              },
+              {
+                "id": "person_017",
+                "name": "Quin Aster"
+              },
+              {
+                "id": "person_018",
+                "name": "Rhea Aster"
+              },
+              {
+                "id": "person_019",
+                "name": "Soren Aster"
+              },
+              {
+                "id": "person_020",
+                "name": "Talia Aster"
+              },
+              {
+                "id": "person_021",
+                "name": "Una Aster"
+              },
+              {
+                "id": "person_023",
+                "name": "Wynn Aster"
+              },
+              {
+                "id": "person_024",
+                "name": "Xara Aster"
+              },
+              {
+                "id": "person_025",
+                "name": "Yuri Aster"
+              },
+              {
+                "id": "person_026",
+                "name": "Zara Aster"
+              },
+              {
+                "id": "person_027",
+                "name": "Ada Bren"
+              },
+              {
+                "id": "person_028",
+                "name": "Bram Bren"
+              },
+              {
+                "id": "person_029",
+                "name": "Cora Bren"
+              },
+              {
+                "id": "person_031",
+                "name": "Elia Bren"
+              },
+              {
+                "id": "person_032",
+                "name": "Finn Bren"
+              },
+              {
+                "id": "person_033",
+                "name": "Galen Bren"
+              },
+              {
+                "id": "person_034",
+                "name": "Hana Bren"
+              },
+              {
+                "id": "person_035",
+                "name": "Iris Bren"
+              },
+              {
+                "id": "person_036",
+                "name": "Jory Bren"
+              },
+              {
+                "id": "person_038",
+                "name": "Lio Bren"
+              },
+              {
+                "id": "person_039",
+                "name": "Mara Bren"
+              },
+              {
+                "id": "person_040",
+                "name": "Niko Bren"
+              },
+              {
+                "id": "person_041",
+                "name": "Orin Bren"
+              },
+              {
+                "id": "person_042",
+                "name": "Pia Bren"
+              },
+              {
+                "id": "person_043",
+                "name": "Quin Bren"
+              },
+              {
+                "id": "person_045",
+                "name": "Soren Bren"
+              },
+              {
+                "id": "person_046",
+                "name": "Talia Bren"
+              },
+              {
+                "id": "person_047",
+                "name": "Una Bren"
+              },
+              {
+                "id": "person_048",
+                "name": "Vera Bren"
+              },
+              {
+                "id": "person_050",
+                "name": "Xara Bren"
+              },
+              {
+                "id": "person_051",
+                "name": "Yuri Bren"
+              },
+              {
+                "id": "person_052",
+                "name": "Zara Bren"
+              },
+              {
+                "id": "person_061",
+                "name": "Iris Cairn"
+              },
+              {
+                "id": "person_062",
+                "name": "Jory Cairn"
+              },
+              {
+                "id": "person_064",
+                "name": "Lio Cairn"
+              },
+              {
+                "id": "person_065",
+                "name": "Mara Cairn"
+              },
+              {
+                "id": "person_067",
+                "name": "Orin Cairn"
+              },
+              {
+                "id": "person_068",
+                "name": "Pia Cairn"
+              },
+              {
+                "id": "person_069",
+                "name": "Quin Cairn"
+              },
+              {
+                "id": "person_070",
+                "name": "Rhea Cairn"
+              },
+              {
+                "id": "person_071",
+                "name": "Soren Cairn"
+              },
+              {
+                "id": "person_072",
+                "name": "Talia Cairn"
+              },
+              {
+                "id": "person_074",
+                "name": "Vera Cairn"
+              },
+              {
+                "id": "person_075",
+                "name": "Wynn Cairn"
+              },
+              {
+                "id": "person_076",
+                "name": "Xara Cairn"
+              },
+              {
+                "id": "person_077",
+                "name": "Yuri Cairn"
+              },
+              {
+                "id": "person_005",
+                "name": "Elia Aster"
+              },
+              {
+                "id": "person_006",
+                "name": "Finn Aster"
+              },
+              {
+                "id": "person_007",
+                "name": "Galen Aster"
+              },
+              {
+                "id": "person_009",
+                "name": "Iris Aster"
+              },
+              {
+                "id": "person_056",
+                "name": "Dain Cairn"
+              },
+              {
+                "id": "person_054",
+                "name": "Bram Cairn"
+              },
+              {
+                "id": "person_053",
+                "name": "Ada Cairn"
+              },
+              {
+                "id": "person_082",
+                "name": "Dain Dove"
+              },
+              {
+                "id": "person_083",
+                "name": "Elia Dove"
+              },
+              {
+                "id": "person_084",
+                "name": "Finn Dove"
+              },
+              {
+                "id": "person_089",
+                "name": "Kara Dove"
+              },
+              {
+                "id": "person_090",
+                "name": "Lio Dove"
+              },
+              {
+                "id": "person_091",
+                "name": "Mara Dove"
+              },
+              {
+                "id": "person_092",
+                "name": "Niko Dove"
+              },
+              {
+                "id": "person_001",
+                "name": "Ada Aster"
+              },
+              {
+                "id": "person_002",
+                "name": "Bram Aster"
+              },
+              {
+                "id": "person_003",
+                "name": "Cora Aster"
+              },
+              {
+                "id": "person_004",
+                "name": "Dain Aster"
+              },
+              {
+                "id": "person_063",
+                "name": "Kara Cairn"
+              },
+              {
+                "id": "person_078",
+                "name": "Zara Cairn"
+              },
+              {
+                "id": "person_085",
+                "name": "Galen Dove"
+              },
+              {
+                "id": "person_093",
+                "name": "Orin Dove"
+              }
+            ],
+            "summary": "Vera Aster, Rhea Bren, and Una Cairn, and 86 others went without full rations."
+          }
+        ],
+        "deaths": [
+          {
+            "id": "person_015",
+            "name": "Orin Aster",
+            "cause": "starvation",
+            "summary": "Orin Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_030",
+            "name": "Dain Bren",
+            "cause": "starvation",
+            "summary": "Dain Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_037",
+            "name": "Kara Bren",
+            "cause": "starvation",
+            "summary": "Kara Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_066",
+            "name": "Niko Cairn",
+            "cause": "starvation",
+            "summary": "Niko Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_008",
+            "name": "Hana Aster",
+            "cause": "starvation",
+            "summary": "Hana Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_059",
+            "name": "Galen Cairn",
+            "cause": "starvation",
+            "summary": "Galen Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_081",
+            "name": "Cora Dove",
+            "cause": "starvation",
+            "summary": "Cora Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_088",
+            "name": "Jory Dove",
+            "cause": "starvation",
+            "summary": "Jory Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_049",
+            "name": "Wynn Bren",
+            "cause": "starvation",
+            "summary": "Wynn Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_010",
+            "name": "Jory Aster",
+            "cause": "starvation",
+            "summary": "Jory Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_011",
+            "name": "Kara Aster",
+            "cause": "starvation",
+            "summary": "Kara Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_012",
+            "name": "Lio Aster",
+            "cause": "starvation",
+            "summary": "Lio Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_013",
+            "name": "Mara Aster",
+            "cause": "starvation",
+            "summary": "Mara Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_014",
+            "name": "Niko Aster",
+            "cause": "starvation",
+            "summary": "Niko Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_016",
+            "name": "Pia Aster",
+            "cause": "starvation",
+            "summary": "Pia Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_017",
+            "name": "Quin Aster",
+            "cause": "starvation",
+            "summary": "Quin Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_018",
+            "name": "Rhea Aster",
+            "cause": "starvation",
+            "summary": "Rhea Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_019",
+            "name": "Soren Aster",
+            "cause": "starvation",
+            "summary": "Soren Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_020",
+            "name": "Talia Aster",
+            "cause": "starvation",
+            "summary": "Talia Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_021",
+            "name": "Una Aster",
+            "cause": "starvation",
+            "summary": "Una Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_023",
+            "name": "Wynn Aster",
+            "cause": "starvation",
+            "summary": "Wynn Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_024",
+            "name": "Xara Aster",
+            "cause": "starvation",
+            "summary": "Xara Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_025",
+            "name": "Yuri Aster",
+            "cause": "starvation",
+            "summary": "Yuri Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_026",
+            "name": "Zara Aster",
+            "cause": "starvation",
+            "summary": "Zara Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_027",
+            "name": "Ada Bren",
+            "cause": "starvation",
+            "summary": "Ada Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_028",
+            "name": "Bram Bren",
+            "cause": "starvation",
+            "summary": "Bram Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_029",
+            "name": "Cora Bren",
+            "cause": "starvation",
+            "summary": "Cora Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_031",
+            "name": "Elia Bren",
+            "cause": "starvation",
+            "summary": "Elia Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_032",
+            "name": "Finn Bren",
+            "cause": "starvation",
+            "summary": "Finn Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_033",
+            "name": "Galen Bren",
+            "cause": "starvation",
+            "summary": "Galen Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_034",
+            "name": "Hana Bren",
+            "cause": "starvation",
+            "summary": "Hana Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_035",
+            "name": "Iris Bren",
+            "cause": "starvation",
+            "summary": "Iris Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_036",
+            "name": "Jory Bren",
+            "cause": "starvation",
+            "summary": "Jory Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_038",
+            "name": "Lio Bren",
+            "cause": "starvation",
+            "summary": "Lio Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_039",
+            "name": "Mara Bren",
+            "cause": "starvation",
+            "summary": "Mara Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_040",
+            "name": "Niko Bren",
+            "cause": "starvation",
+            "summary": "Niko Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_041",
+            "name": "Orin Bren",
+            "cause": "starvation",
+            "summary": "Orin Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_042",
+            "name": "Pia Bren",
+            "cause": "starvation",
+            "summary": "Pia Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_043",
+            "name": "Quin Bren",
+            "cause": "starvation",
+            "summary": "Quin Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_045",
+            "name": "Soren Bren",
+            "cause": "starvation",
+            "summary": "Soren Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_046",
+            "name": "Talia Bren",
+            "cause": "starvation",
+            "summary": "Talia Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_047",
+            "name": "Una Bren",
+            "cause": "starvation",
+            "summary": "Una Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_048",
+            "name": "Vera Bren",
+            "cause": "starvation",
+            "summary": "Vera Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_050",
+            "name": "Xara Bren",
+            "cause": "starvation",
+            "summary": "Xara Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_051",
+            "name": "Yuri Bren",
+            "cause": "starvation",
+            "summary": "Yuri Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_052",
+            "name": "Zara Bren",
+            "cause": "starvation",
+            "summary": "Zara Bren died of starvation on day 57."
+          },
+          {
+            "id": "person_061",
+            "name": "Iris Cairn",
+            "cause": "starvation",
+            "summary": "Iris Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_062",
+            "name": "Jory Cairn",
+            "cause": "starvation",
+            "summary": "Jory Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_064",
+            "name": "Lio Cairn",
+            "cause": "starvation",
+            "summary": "Lio Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_065",
+            "name": "Mara Cairn",
+            "cause": "starvation",
+            "summary": "Mara Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_067",
+            "name": "Orin Cairn",
+            "cause": "starvation",
+            "summary": "Orin Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_068",
+            "name": "Pia Cairn",
+            "cause": "starvation",
+            "summary": "Pia Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_069",
+            "name": "Quin Cairn",
+            "cause": "starvation",
+            "summary": "Quin Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_070",
+            "name": "Rhea Cairn",
+            "cause": "starvation",
+            "summary": "Rhea Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_071",
+            "name": "Soren Cairn",
+            "cause": "starvation",
+            "summary": "Soren Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_072",
+            "name": "Talia Cairn",
+            "cause": "starvation",
+            "summary": "Talia Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_074",
+            "name": "Vera Cairn",
+            "cause": "starvation",
+            "summary": "Vera Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_075",
+            "name": "Wynn Cairn",
+            "cause": "starvation",
+            "summary": "Wynn Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_076",
+            "name": "Xara Cairn",
+            "cause": "starvation",
+            "summary": "Xara Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_077",
+            "name": "Yuri Cairn",
+            "cause": "starvation",
+            "summary": "Yuri Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_005",
+            "name": "Elia Aster",
+            "cause": "starvation",
+            "summary": "Elia Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_006",
+            "name": "Finn Aster",
+            "cause": "starvation",
+            "summary": "Finn Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_007",
+            "name": "Galen Aster",
+            "cause": "starvation",
+            "summary": "Galen Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_009",
+            "name": "Iris Aster",
+            "cause": "starvation",
+            "summary": "Iris Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_056",
+            "name": "Dain Cairn",
+            "cause": "starvation",
+            "summary": "Dain Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_054",
+            "name": "Bram Cairn",
+            "cause": "starvation",
+            "summary": "Bram Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_053",
+            "name": "Ada Cairn",
+            "cause": "starvation",
+            "summary": "Ada Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_082",
+            "name": "Dain Dove",
+            "cause": "starvation",
+            "summary": "Dain Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_083",
+            "name": "Elia Dove",
+            "cause": "starvation",
+            "summary": "Elia Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_084",
+            "name": "Finn Dove",
+            "cause": "starvation",
+            "summary": "Finn Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_089",
+            "name": "Kara Dove",
+            "cause": "starvation",
+            "summary": "Kara Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_090",
+            "name": "Lio Dove",
+            "cause": "starvation",
+            "summary": "Lio Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_091",
+            "name": "Mara Dove",
+            "cause": "starvation",
+            "summary": "Mara Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_092",
+            "name": "Niko Dove",
+            "cause": "starvation",
+            "summary": "Niko Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_001",
+            "name": "Ada Aster",
+            "cause": "starvation",
+            "summary": "Ada Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_002",
+            "name": "Bram Aster",
+            "cause": "starvation",
+            "summary": "Bram Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_003",
+            "name": "Cora Aster",
+            "cause": "starvation",
+            "summary": "Cora Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_004",
+            "name": "Dain Aster",
+            "cause": "starvation",
+            "summary": "Dain Aster died of starvation on day 57."
+          },
+          {
+            "id": "person_063",
+            "name": "Kara Cairn",
+            "cause": "starvation",
+            "summary": "Kara Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_078",
+            "name": "Zara Cairn",
+            "cause": "starvation",
+            "summary": "Zara Cairn died of starvation on day 57."
+          },
+          {
+            "id": "person_085",
+            "name": "Galen Dove",
+            "cause": "starvation",
+            "summary": "Galen Dove died of starvation on day 57."
+          },
+          {
+            "id": "person_093",
+            "name": "Orin Dove",
+            "cause": "starvation",
+            "summary": "Orin Dove died of starvation on day 57."
+          }
+        ]
+      },
+      "summary": "A severity 4 storm struck Blergen. Weather: A winter storm threatened the colony's shelters and stores. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -986,13 +2919,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Ada Aster went without a full ration on day 55.",
+          "Ada Aster went without a full ration on day 56.",
+          "Ada Aster went without a full ration on day 57.",
+          "Ada Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1016,13 +2954,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Bram Aster went without a full ration on day 55.",
+          "Bram Aster went without a full ration on day 56.",
+          "Bram Aster went without a full ration on day 57.",
+          "Bram Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1046,13 +2989,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Cora Aster went without a full ration on day 55.",
+          "Cora Aster went without a full ration on day 56.",
+          "Cora Aster went without a full ration on day 57.",
+          "Cora Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1076,13 +3024,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Dain Aster went without a full ration on day 55.",
+          "Dain Aster went without a full ration on day 56.",
+          "Dain Aster went without a full ration on day 57.",
+          "Dain Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1106,13 +3059,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Elia Aster went without a full ration on day 55.",
+          "Elia Aster went without a full ration on day 56.",
+          "Elia Aster went without a full ration on day 57.",
+          "Elia Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1136,13 +3094,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Finn Aster went without a full ration on day 55.",
+          "Finn Aster went without a full ration on day 56.",
+          "Finn Aster went without a full ration on day 57.",
+          "Finn Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1165,13 +3128,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Galen Aster went without a full ration on day 55.",
+          "Galen Aster went without a full ration on day 56.",
+          "Galen Aster went without a full ration on day 57.",
+          "Galen Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1195,14 +3163,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
-          "Hana Aster received care from the sick ward on day 46."
+          "Hana Aster received care from the sick ward on day 46.",
+          "Hana Aster went without a full ration on day 55.",
+          "Hana Aster went without a full ration on day 56.",
+          "Hana Aster went without a full ration on day 57.",
+          "Hana Aster died of starvation on day 57."
         ]
       }
     },
@@ -1227,13 +3199,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Iris Aster went without a full ration on day 55.",
+          "Iris Aster went without a full ration on day 56.",
+          "Iris Aster went without a full ration on day 57.",
+          "Iris Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1257,13 +3234,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Jory Aster went without a full ration on day 55.",
+          "Jory Aster went without a full ration on day 56.",
+          "Jory Aster went without a full ration on day 57.",
+          "Jory Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1287,13 +3269,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Kara Aster went without a full ration on day 55.",
+          "Kara Aster went without a full ration on day 56.",
+          "Kara Aster went without a full ration on day 57.",
+          "Kara Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1317,13 +3304,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Lio Aster went without a full ration on day 55.",
+          "Lio Aster went without a full ration on day 56.",
+          "Lio Aster went without a full ration on day 57.",
+          "Lio Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1347,13 +3339,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Mara Aster went without a full ration on day 55.",
+          "Mara Aster went without a full ration on day 56.",
+          "Mara Aster went without a full ration on day 57.",
+          "Mara Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1377,13 +3374,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Niko Aster went without a full ration on day 55.",
+          "Niko Aster went without a full ration on day 56.",
+          "Niko Aster went without a full ration on day 57.",
+          "Niko Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1407,14 +3409,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
-          "Orin Aster received care from the sick ward on day 48."
+          "Orin Aster received care from the sick ward on day 48.",
+          "Orin Aster went without a full ration on day 55.",
+          "Orin Aster went without a full ration on day 56.",
+          "Orin Aster went without a full ration on day 57.",
+          "Orin Aster died of starvation on day 57."
         ]
       }
     },
@@ -1438,13 +3444,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Pia Aster went without a full ration on day 55.",
+          "Pia Aster went without a full ration on day 56.",
+          "Pia Aster went without a full ration on day 57.",
+          "Pia Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1468,13 +3479,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Quin Aster went without a full ration on day 55.",
+          "Quin Aster went without a full ration on day 56.",
+          "Quin Aster went without a full ration on day 57.",
+          "Quin Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1498,13 +3514,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Rhea Aster went without a full ration on day 55.",
+          "Rhea Aster went without a full ration on day 56.",
+          "Rhea Aster went without a full ration on day 57.",
+          "Rhea Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1528,13 +3549,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Soren Aster went without a full ration on day 55.",
+          "Soren Aster went without a full ration on day 56.",
+          "Soren Aster went without a full ration on day 57.",
+          "Soren Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1558,13 +3584,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Talia Aster went without a full ration on day 55.",
+          "Talia Aster went without a full ration on day 56.",
+          "Talia Aster went without a full ration on day 57.",
+          "Talia Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1588,13 +3619,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Una Aster went without a full ration on day 55.",
+          "Una Aster went without a full ration on day 56.",
+          "Una Aster went without a full ration on day 57.",
+          "Una Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1619,14 +3655,16 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
+        "health": 2,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Vera Aster endured a severity 4 storm on day 50.",
-          "Vera Aster received care from the sick ward on day 51."
+          "Vera Aster received care from the sick ward on day 51.",
+          "Vera Aster went without a full ration on day 56.",
+          "Vera Aster went without a full ration on day 57."
         ]
       }
     },
@@ -1651,13 +3689,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Wynn Aster went without a full ration on day 55.",
+          "Wynn Aster went without a full ration on day 56.",
+          "Wynn Aster went without a full ration on day 57.",
+          "Wynn Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1681,13 +3724,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Xara Aster went without a full ration on day 55.",
+          "Xara Aster went without a full ration on day 56.",
+          "Xara Aster went without a full ration on day 57.",
+          "Xara Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1710,13 +3758,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Yuri Aster went without a full ration on day 55.",
+          "Yuri Aster went without a full ration on day 56.",
+          "Yuri Aster went without a full ration on day 57.",
+          "Yuri Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1740,13 +3793,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Zara Aster went without a full ration on day 55.",
+          "Zara Aster went without a full ration on day 56.",
+          "Zara Aster went without a full ration on day 57.",
+          "Zara Aster died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1770,13 +3828,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Ada Bren went without a full ration on day 55.",
+          "Ada Bren went without a full ration on day 56.",
+          "Ada Bren went without a full ration on day 57.",
+          "Ada Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1800,13 +3863,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Bram Bren went without a full ration on day 55.",
+          "Bram Bren went without a full ration on day 56.",
+          "Bram Bren went without a full ration on day 57.",
+          "Bram Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1830,13 +3898,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Cora Bren went without a full ration on day 55.",
+          "Cora Bren went without a full ration on day 56.",
+          "Cora Bren went without a full ration on day 57.",
+          "Cora Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1860,14 +3933,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
-          "Dain Bren received care from the sick ward on day 46."
+          "Dain Bren received care from the sick ward on day 46.",
+          "Dain Bren went without a full ration on day 55.",
+          "Dain Bren went without a full ration on day 56.",
+          "Dain Bren went without a full ration on day 57.",
+          "Dain Bren died of starvation on day 57."
         ]
       }
     },
@@ -1892,13 +3969,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Elia Bren went without a full ration on day 55.",
+          "Elia Bren went without a full ration on day 56.",
+          "Elia Bren went without a full ration on day 57.",
+          "Elia Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1922,13 +4004,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Finn Bren went without a full ration on day 55.",
+          "Finn Bren went without a full ration on day 56.",
+          "Finn Bren went without a full ration on day 57.",
+          "Finn Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1952,13 +4039,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Galen Bren went without a full ration on day 55.",
+          "Galen Bren went without a full ration on day 56.",
+          "Galen Bren went without a full ration on day 57.",
+          "Galen Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -1981,13 +4073,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Hana Bren went without a full ration on day 55.",
+          "Hana Bren went without a full ration on day 56.",
+          "Hana Bren went without a full ration on day 57.",
+          "Hana Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2011,13 +4108,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Iris Bren went without a full ration on day 55.",
+          "Iris Bren went without a full ration on day 56.",
+          "Iris Bren went without a full ration on day 57.",
+          "Iris Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2041,13 +4143,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Jory Bren went without a full ration on day 55.",
+          "Jory Bren went without a full ration on day 56.",
+          "Jory Bren went without a full ration on day 57.",
+          "Jory Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2071,14 +4178,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
-          "Kara Bren received care from the sick ward on day 48."
+          "Kara Bren received care from the sick ward on day 48.",
+          "Kara Bren went without a full ration on day 55.",
+          "Kara Bren went without a full ration on day 56.",
+          "Kara Bren went without a full ration on day 57.",
+          "Kara Bren died of starvation on day 57."
         ]
       }
     },
@@ -2103,13 +4214,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Lio Bren went without a full ration on day 55.",
+          "Lio Bren went without a full ration on day 56.",
+          "Lio Bren went without a full ration on day 57.",
+          "Lio Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2133,13 +4249,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Mara Bren went without a full ration on day 55.",
+          "Mara Bren went without a full ration on day 56.",
+          "Mara Bren went without a full ration on day 57.",
+          "Mara Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2163,13 +4284,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Niko Bren went without a full ration on day 55.",
+          "Niko Bren went without a full ration on day 56.",
+          "Niko Bren went without a full ration on day 57.",
+          "Niko Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2193,13 +4319,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Orin Bren went without a full ration on day 55.",
+          "Orin Bren went without a full ration on day 56.",
+          "Orin Bren went without a full ration on day 57.",
+          "Orin Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2223,13 +4354,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Pia Bren went without a full ration on day 55.",
+          "Pia Bren went without a full ration on day 56.",
+          "Pia Bren went without a full ration on day 57.",
+          "Pia Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2252,13 +4388,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Quin Bren went without a full ration on day 55.",
+          "Quin Bren went without a full ration on day 56.",
+          "Quin Bren went without a full ration on day 57.",
+          "Quin Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2283,14 +4424,16 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
+        "health": 2,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Rhea Bren endured a severity 4 storm on day 50.",
-          "Rhea Bren received care from the sick ward on day 51."
+          "Rhea Bren received care from the sick ward on day 51.",
+          "Rhea Bren went without a full ration on day 56.",
+          "Rhea Bren went without a full ration on day 57."
         ]
       }
     },
@@ -2315,13 +4458,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Soren Bren went without a full ration on day 55.",
+          "Soren Bren went without a full ration on day 56.",
+          "Soren Bren went without a full ration on day 57.",
+          "Soren Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2345,13 +4493,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Talia Bren went without a full ration on day 55.",
+          "Talia Bren went without a full ration on day 56.",
+          "Talia Bren went without a full ration on day 57.",
+          "Talia Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2375,13 +4528,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Una Bren went without a full ration on day 55.",
+          "Una Bren went without a full ration on day 56.",
+          "Una Bren went without a full ration on day 57.",
+          "Una Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2405,13 +4563,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Vera Bren went without a full ration on day 55.",
+          "Vera Bren went without a full ration on day 56.",
+          "Vera Bren went without a full ration on day 57.",
+          "Vera Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2435,10 +4598,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -2446,7 +4609,11 @@
           "Wynn Bren discovered old trail markers beyond the fields on day 44.",
           "Wynn Bren scouted beyond the settlement on day 44.",
           "Wynn Bren worked the field expansion on day 45.",
-          "Wynn Bren worked the field expansion on day 47."
+          "Wynn Bren worked the field expansion on day 47.",
+          "Wynn Bren went without a full ration on day 55.",
+          "Wynn Bren went without a full ration on day 56.",
+          "Wynn Bren went without a full ration on day 57.",
+          "Wynn Bren died of starvation on day 57."
         ]
       }
     },
@@ -2471,13 +4638,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Xara Bren went without a full ration on day 55.",
+          "Xara Bren went without a full ration on day 56.",
+          "Xara Bren went without a full ration on day 57.",
+          "Xara Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2501,16 +4673,20 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Yuri Bren worked the field expansion on day 43.",
           "Yuri Bren worked the field expansion on day 45.",
-          "Yuri Bren worked the field expansion on day 47."
+          "Yuri Bren worked the field expansion on day 47.",
+          "Yuri Bren went without a full ration on day 55.",
+          "Yuri Bren went without a full ration on day 56.",
+          "Yuri Bren went without a full ration on day 57.",
+          "Yuri Bren died of starvation on day 57."
         ]
       }
     },
@@ -2534,13 +4710,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Zara Bren went without a full ration on day 55.",
+          "Zara Bren went without a full ration on day 56.",
+          "Zara Bren went without a full ration on day 57.",
+          "Zara Bren died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2564,15 +4745,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Ada Cairn scouted beyond the settlement on day 44.",
-          "Ada Cairn discovered fresh water north of camp on day 51."
+          "Ada Cairn discovered fresh water north of camp on day 51.",
+          "Ada Cairn went without a full ration on day 55.",
+          "Ada Cairn went without a full ration on day 56.",
+          "Ada Cairn went without a full ration on day 57.",
+          "Ada Cairn died of starvation on day 57."
         ]
       }
     },
@@ -2597,16 +4782,20 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Bram Cairn helped strengthen the settlement on day 50.",
           "Bram Cairn helped strengthen the settlement on day 52.",
-          "Bram Cairn faced a severity 3 wolf attack on day 53."
+          "Bram Cairn faced a severity 3 wolf attack on day 53.",
+          "Bram Cairn went without a full ration on day 55.",
+          "Bram Cairn went without a full ration on day 56.",
+          "Bram Cairn went without a full ration on day 57.",
+          "Bram Cairn died of starvation on day 57."
         ]
       }
     },
@@ -2632,12 +4821,16 @@
       },
       "status": {
         "alive": true,
-        "health": 2,
-        "morale": 1,
-        "hunger": 0
+        "health": 1,
+        "morale": 0,
+        "hunger": 2
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Cora Cairn endured tighter rations on day 54.",
+          "Cora Cairn went without a full ration on day 56.",
+          "Cora Cairn went without a full ration on day 57."
+        ]
       }
     },
     {
@@ -2661,13 +4854,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
-        "morale": 1,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Dain Cairn endured tighter rations on day 54.",
+          "Dain Cairn endured tighter rations on day 55.",
+          "Dain Cairn went without a full ration on day 56.",
+          "Dain Cairn went without a full ration on day 57.",
+          "Dain Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2691,16 +4890,21 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
-        "morale": 4,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 1,
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Elia Cairn helped strengthen the settlement on day 50.",
           "Elia Cairn helped strengthen the settlement on day 52.",
-          "Elia Cairn faced a severity 3 wolf attack on day 53."
+          "Elia Cairn faced a severity 3 wolf attack on day 53.",
+          "Elia Cairn endured tighter rations on day 54.",
+          "Elia Cairn endured tighter rations on day 55.",
+          "Elia Cairn endured tighter rations on day 56.",
+          "Elia Cairn went without a full ration on day 56.",
+          "Elia Cairn died of starvation on day 56."
         ]
       }
     },
@@ -2725,13 +4929,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
-        "morale": 1,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Finn Cairn endured tighter rations on day 54.",
+          "Finn Cairn endured tighter rations on day 55.",
+          "Finn Cairn endured tighter rations on day 56.",
+          "Finn Cairn went without a full ration on day 56.",
+          "Finn Cairn died of starvation on day 56."
+        ]
       }
     },
     {
@@ -2755,14 +4965,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
-        "morale": 2,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 3
       },
       "story": {
         "notable_events": [
-          "Galen Cairn received care from the sick ward on day 46."
+          "Galen Cairn received care from the sick ward on day 46.",
+          "Galen Cairn endured tighter rations on day 55.",
+          "Galen Cairn endured tighter rations on day 56.",
+          "Galen Cairn went without a full ration on day 56.",
+          "Galen Cairn went without a full ration on day 57.",
+          "Galen Cairn died of starvation on day 57."
         ]
       }
     },
@@ -2787,13 +5002,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
-        "morale": 1,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Hana Cairn went without a full ration on day 55.",
+          "Hana Cairn endured tighter rations on day 56.",
+          "Hana Cairn went without a full ration on day 56.",
+          "Hana Cairn died of starvation on day 56."
+        ]
       }
     },
     {
@@ -2816,13 +5036,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Iris Cairn went without a full ration on day 55.",
+          "Iris Cairn went without a full ration on day 56.",
+          "Iris Cairn went without a full ration on day 57.",
+          "Iris Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2846,13 +5071,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Jory Cairn went without a full ration on day 55.",
+          "Jory Cairn went without a full ration on day 56.",
+          "Jory Cairn went without a full ration on day 57.",
+          "Jory Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2876,14 +5106,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 4
       },
       "story": {
         "notable_events": [
-          "Kara Cairn faced a severity 3 wolf attack on day 53."
+          "Kara Cairn faced a severity 3 wolf attack on day 53.",
+          "Kara Cairn went without a full ration on day 55.",
+          "Kara Cairn went without a full ration on day 56.",
+          "Kara Cairn endured a severity 4 storm on day 57.",
+          "Kara Cairn went without a full ration on day 57.",
+          "Kara Cairn died of starvation on day 57."
         ]
       }
     },
@@ -2908,13 +5143,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Lio Cairn went without a full ration on day 55.",
+          "Lio Cairn went without a full ration on day 56.",
+          "Lio Cairn went without a full ration on day 57.",
+          "Lio Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2938,13 +5178,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Mara Cairn went without a full ration on day 55.",
+          "Mara Cairn went without a full ration on day 56.",
+          "Mara Cairn went without a full ration on day 57.",
+          "Mara Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -2968,14 +5213,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
-          "Niko Cairn received care from the sick ward on day 48."
+          "Niko Cairn received care from the sick ward on day 48.",
+          "Niko Cairn went without a full ration on day 55.",
+          "Niko Cairn went without a full ration on day 56.",
+          "Niko Cairn went without a full ration on day 57.",
+          "Niko Cairn died of starvation on day 57."
         ]
       }
     },
@@ -3000,13 +5249,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Orin Cairn went without a full ration on day 55.",
+          "Orin Cairn went without a full ration on day 56.",
+          "Orin Cairn went without a full ration on day 57.",
+          "Orin Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3030,13 +5284,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Pia Cairn went without a full ration on day 55.",
+          "Pia Cairn went without a full ration on day 56.",
+          "Pia Cairn went without a full ration on day 57.",
+          "Pia Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3060,13 +5319,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Quin Cairn went without a full ration on day 55.",
+          "Quin Cairn went without a full ration on day 56.",
+          "Quin Cairn went without a full ration on day 57.",
+          "Quin Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3089,13 +5353,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Rhea Cairn went without a full ration on day 55.",
+          "Rhea Cairn went without a full ration on day 56.",
+          "Rhea Cairn went without a full ration on day 57.",
+          "Rhea Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3119,13 +5388,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Soren Cairn went without a full ration on day 55.",
+          "Soren Cairn went without a full ration on day 56.",
+          "Soren Cairn went without a full ration on day 57.",
+          "Soren Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3149,13 +5423,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Talia Cairn went without a full ration on day 55.",
+          "Talia Cairn went without a full ration on day 56.",
+          "Talia Cairn went without a full ration on day 57.",
+          "Talia Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3182,12 +5461,14 @@
         "alive": true,
         "health": 3,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Una Cairn endured a severity 4 storm on day 50.",
-          "Una Cairn received care from the sick ward on day 51."
+          "Una Cairn received care from the sick ward on day 51.",
+          "Una Cairn went without a full ration on day 56.",
+          "Una Cairn went without a full ration on day 57."
         ]
       }
     },
@@ -3212,13 +5493,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Vera Cairn went without a full ration on day 55.",
+          "Vera Cairn went without a full ration on day 56.",
+          "Vera Cairn went without a full ration on day 57.",
+          "Vera Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3242,13 +5528,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Wynn Cairn went without a full ration on day 55.",
+          "Wynn Cairn went without a full ration on day 56.",
+          "Wynn Cairn went without a full ration on day 57.",
+          "Wynn Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3272,13 +5563,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Xara Cairn went without a full ration on day 55.",
+          "Xara Cairn went without a full ration on day 56.",
+          "Xara Cairn went without a full ration on day 57.",
+          "Xara Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3302,13 +5598,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Yuri Cairn went without a full ration on day 55.",
+          "Yuri Cairn went without a full ration on day 56.",
+          "Yuri Cairn went without a full ration on day 57.",
+          "Yuri Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3332,13 +5633,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 4
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Zara Cairn went without a full ration on day 55.",
+          "Zara Cairn went without a full ration on day 56.",
+          "Zara Cairn endured a severity 4 storm on day 57.",
+          "Zara Cairn went without a full ration on day 57.",
+          "Zara Cairn died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3361,14 +5668,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
-        "morale": 1,
-        "hunger": 1
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 4
       },
       "story": {
         "notable_events": [
-          "Ada Dove endured a severity 5 storm on day 52."
+          "Ada Dove endured a severity 5 storm on day 52.",
+          "Ada Dove endured a severity 4 storm on day 54.",
+          "Ada Dove endured a severity 4 storm on day 55.",
+          "Ada Dove endured a severity 4 storm on day 56.",
+          "Ada Dove went without a full ration on day 56.",
+          "Ada Dove died of starvation on day 56."
         ]
       }
     },
@@ -3426,14 +5738,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
-          "Cora Dove received care from the sick ward on day 46."
+          "Cora Dove received care from the sick ward on day 46.",
+          "Cora Dove went without a full ration on day 55.",
+          "Cora Dove went without a full ration on day 56.",
+          "Cora Dove went without a full ration on day 57.",
+          "Cora Dove died of starvation on day 57."
         ]
       }
     },
@@ -3458,13 +5774,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Dain Dove went without a full ration on day 55.",
+          "Dain Dove went without a full ration on day 56.",
+          "Dain Dove went without a full ration on day 57.",
+          "Dain Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3488,13 +5809,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Elia Dove went without a full ration on day 55.",
+          "Elia Dove went without a full ration on day 56.",
+          "Elia Dove went without a full ration on day 57.",
+          "Elia Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3518,13 +5844,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Finn Dove went without a full ration on day 55.",
+          "Finn Dove went without a full ration on day 56.",
+          "Finn Dove went without a full ration on day 57.",
+          "Finn Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3548,13 +5879,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 4
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Galen Dove went without a full ration on day 55.",
+          "Galen Dove went without a full ration on day 56.",
+          "Galen Dove endured a severity 4 storm on day 57.",
+          "Galen Dove went without a full ration on day 57.",
+          "Galen Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3578,14 +5915,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
-        "morale": 1,
-        "hunger": 1
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 4
       },
       "story": {
         "notable_events": [
-          "Hana Dove endured a severity 5 storm on day 52."
+          "Hana Dove endured a severity 5 storm on day 52.",
+          "Hana Dove endured a severity 4 storm on day 54.",
+          "Hana Dove endured a severity 4 storm on day 55.",
+          "Hana Dove endured a severity 4 storm on day 56.",
+          "Hana Dove went without a full ration on day 56.",
+          "Hana Dove died of starvation on day 56."
         ]
       }
     },
@@ -3610,14 +5952,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
-        "morale": 1,
-        "hunger": 1
+        "alive": false,
+        "health": 0,
+        "morale": 0,
+        "hunger": 4
       },
       "story": {
         "notable_events": [
-          "Iris Dove endured a severity 5 storm on day 52."
+          "Iris Dove endured a severity 5 storm on day 52.",
+          "Iris Dove endured a severity 4 storm on day 54.",
+          "Iris Dove endured a severity 4 storm on day 55.",
+          "Iris Dove endured a severity 4 storm on day 56.",
+          "Iris Dove went without a full ration on day 56.",
+          "Iris Dove died of starvation on day 56."
         ]
       }
     },
@@ -3641,14 +5988,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
         "notable_events": [
-          "Jory Dove received care from the sick ward on day 48."
+          "Jory Dove received care from the sick ward on day 48.",
+          "Jory Dove went without a full ration on day 55.",
+          "Jory Dove went without a full ration on day 56.",
+          "Jory Dove went without a full ration on day 57.",
+          "Jory Dove died of starvation on day 57."
         ]
       }
     },
@@ -3673,13 +6024,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Kara Dove went without a full ration on day 55.",
+          "Kara Dove went without a full ration on day 56.",
+          "Kara Dove went without a full ration on day 57.",
+          "Kara Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3703,13 +6059,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Lio Dove went without a full ration on day 55.",
+          "Lio Dove went without a full ration on day 56.",
+          "Lio Dove went without a full ration on day 57.",
+          "Lio Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3733,13 +6094,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Mara Dove went without a full ration on day 55.",
+          "Mara Dove went without a full ration on day 56.",
+          "Mara Dove went without a full ration on day 57.",
+          "Mara Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3763,13 +6129,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 1,
-        "hunger": 0
+        "hunger": 3
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Niko Dove went without a full ration on day 55.",
+          "Niko Dove went without a full ration on day 56.",
+          "Niko Dove went without a full ration on day 57.",
+          "Niko Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3793,13 +6164,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 0
+        "hunger": 4
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Orin Dove went without a full ration on day 55.",
+          "Orin Dove went without a full ration on day 56.",
+          "Orin Dove endured a severity 4 storm on day 57.",
+          "Orin Dove went without a full ration on day 57.",
+          "Orin Dove died of starvation on day 57."
+        ]
       }
     },
     {
@@ -3823,14 +6200,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 1
+        "hunger": 4
       },
       "story": {
         "notable_events": [
-          "Pia Dove endured a severity 5 storm on day 52."
+          "Pia Dove endured a severity 5 storm on day 52.",
+          "Pia Dove endured a severity 4 storm on day 54.",
+          "Pia Dove endured a severity 4 storm on day 55.",
+          "Pia Dove endured a severity 4 storm on day 56.",
+          "Pia Dove went without a full ration on day 56.",
+          "Pia Dove died of starvation on day 56."
         ]
       }
     },
@@ -3858,12 +6240,14 @@
         "alive": true,
         "health": 3,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Quin Dove endured a severity 4 storm on day 50.",
-          "Quin Dove received care from the sick ward on day 51."
+          "Quin Dove received care from the sick ward on day 51.",
+          "Quin Dove went without a full ration on day 56.",
+          "Quin Dove went without a full ration on day 57."
         ]
       }
     },
@@ -3891,10 +6275,13 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 2
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Rhea Dove went without a full ration on day 56.",
+          "Rhea Dove went without a full ration on day 57."
+        ]
       }
     },
     {
@@ -3920,10 +6307,13 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 2
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Soren Dove went without a full ration on day 56.",
+          "Soren Dove went without a full ration on day 57."
+        ]
       }
     }
   ]
