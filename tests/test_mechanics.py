@@ -77,6 +77,44 @@ def test_day_increments():
     assert after["year"] == 1
 
 
+def test_empty_colony_takes_no_action_and_consumes_no_food():
+    state = state_with(population=0, food=12, people=[])
+
+    after, event_record = apply_day(state, "empty_colony", "no_action")
+
+    assert after["population"] == 0
+    assert after["food"] == 12
+    assert after["day"] == 2
+    assert event_record["world_event"] == "empty_colony"
+    assert event_record["leadership_action"] == "no_action"
+    assert event_record["survival_effects"] == {}
+    assert event_record["people_events"] == {"deaths": []}
+
+
+def test_good_harvest_creates_population_scaled_food_buffer():
+    state = state_with(food=0, population=7, people=generate_people(7))
+
+    after, event_record = apply_day(state, "good_harvest", "preserve_resources")
+
+    assert after["food"] == 28
+    assert event_record["effects"]["food"] == 28
+    assert event_record["survival_effects"] == {"food": -7}
+
+
+def test_expand_fields_can_rescue_a_small_starving_colony():
+    people = generate_people(7, colony_health=2, colony_morale=0)
+    for person in people:
+        person["status"]["hunger"] = 2
+    state = state_with(food=0, population=7, people=people)
+
+    after, event_record = apply_day(state, "quiet_day", "expand_fields")
+
+    assert after["food"] == 14
+    assert after["population"] == 7
+    assert event_record["effects"]["food"] == 14
+    assert all(person["status"]["hunger"] == 1 for person in after["people"])
+
+
 def test_year_updates_when_day_rolls_into_next_year():
     state = state_with(day=365)
 
@@ -136,6 +174,19 @@ def test_leadership_morale_effects_are_preserved_with_named_people():
     assert after["morale"] == 7
     assert after["morale"] == derived_colony_stats(after)["morale"]
     assert event_record["effects"]["morale"] == 2
+
+
+def test_festival_cost_scales_with_population():
+    state = state_with(
+        food=250,
+        population=100,
+        people=generate_people(100, colony_health=6, colony_morale=5),
+    )
+
+    after, event_record = apply_day(state, "quiet_day", "hold_festival")
+
+    assert after["food"] == 50
+    assert event_record["effects"]["food"] == -200
 
 
 def test_strengthen_defenses_consumes_wood_and_improves_security():

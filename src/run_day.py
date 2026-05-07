@@ -7,6 +7,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
+from src.constants import EMPTY_COLONY_EVENT_TYPE, NO_ACTION_ACTION_TYPE
 from src.environment import environment_for_day, sync_calendar_state
 from src.event_selector import choose_leadership_action, choose_world_event
 from src.mechanics import apply_day
@@ -47,8 +48,15 @@ def run_day() -> dict[str, Any]:
     """Advance the colony by one day and persist the result."""
     state_before = sync_calendar_state(ensure_people_exist(load_state()))
     environment = environment_for_day(state_before["day"])
-    world_event = choose_world_event(state_before, environment=environment)
-    leadership_action = choose_leadership_action(state_before, world_event)
+    if state_before["population"] <= 0:
+        world_event = {
+            "world_event": EMPTY_COLONY_EVENT_TYPE,
+            "reasoning": "No colonists remain to experience events as a colony.",
+        }
+        leadership_action = NO_ACTION_ACTION_TYPE
+    else:
+        world_event = choose_world_event(state_before, environment=environment)
+        leadership_action = choose_leadership_action(state_before, world_event)
     state_after, event_record = apply_day(
         deepcopy(state_before),
         world_event,

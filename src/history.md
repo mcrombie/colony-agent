@@ -171,3 +171,15 @@ A gray sky pressed low over Blergen. A severity 4 storm tested the colony, and t
 
 Day 57 (Year 1, February 26) - Blergen:
 A winter storm threatened the colony's shelters and stores. A severity 4 storm tested the colony, and the president told the colonists to preserve resources; the day's changes reduced population by 82. Orin Dove, Zara Cairn, Galen Dove, and Kara Cairn bore the worst of the storm. Vera Aster, Rhea Bren, and Una Cairn, and 86 others went without full rations. Orin Aster, Dain Bren, and Kara Bren, and 79 others died. The loss of people is beginning to define the settlement's future.
+
+Day 58 (Year 1, February 27) - Blergen:
+Snow made paths and work crews slower. A severity 5 storm tested the colony, and the president ordered tighter food rationing; the day's changes reduced population by 7, and reduced health by 1. Cora Cairn, Soren Dove, Rhea Dove, Rhea Bren, and Vera Aster bore the worst of the storm. Cora Cairn, Una Cairn, Quin Dove, and Rhea Dove felt the tighter rations first. Cora Cairn, Una Cairn, and Quin Dove, and 4 others died. The loss of people is beginning to define the settlement's future.
+
+Day 59 (Year 1, February 28) - Blergen:
+Snow made paths and work crews slower. A severity 4 storm tested the colony, and the president told the colonists to preserve resources. The loss of people is beginning to define the settlement's future.
+
+Day 60 (Year 1, March 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 61 (Year 1, March 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.

@@ -321,6 +321,7 @@ def _state_for_leadership_prompt(
             "Food is consumed every day regardless of your action.",
             "Each living colonist needs 1 food per day.",
             "Missed rations increase personal hunger; severe hunger can kill colonists.",
+            "Food gains and major food costs scale with living population.",
             "strengthen_defenses requires at least 10 wood.",
             "hold_festival costs extra food.",
             "strengthen_defenses can reduce damage from wolf attacks.",

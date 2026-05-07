@@ -137,6 +137,16 @@ living colonist needs 1 food per day. If there is not enough food, named
 colonists miss rations and their hunger rises. Severe hunger causes named
 starvation deaths, reducing population.
 
+Food-producing events and actions scale with the current living population.
+`good_harvest` produces about five days of food, while `expand_fields` produces
+about three days of food, with small-colony minimums so a diminished settlement
+can still recover. Food-costing actions such as `hold_festival` and
+`tend_the_sick` also scale with population.
+
+If population reaches 0, the colony becomes inert. Daily runs no longer ask the
+deity or president selectors for choices; the event log records an
+`empty_colony` day with `no_action` until future mechanics add new colonists.
+
 ## Run tests
 
 Install dependencies if needed:

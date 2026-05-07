@@ -8,7 +8,9 @@ from typing import Any
 from src.constants import (
     ALLOWED_LEADERSHIP_ACTION_TYPES,
     ALLOWED_WORLD_EVENT_TYPES,
+    EMPTY_COLONY_EVENT_TYPE,
     FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE,
+    NO_ACTION_ACTION_TYPE,
 )
 from src.environment import environment_for_day, sync_calendar_state
 from src.people import (
@@ -153,6 +155,7 @@ def summarize_day(
             f"A severity {event_details.get('severity', 3)} wolf attack hit the settlement."
         ),
         "chaos_gods": "The chaos gods struck the colony when the oracle went silent.",
+        "empty_colony": "No colonists remained in Blergen.",
     }
     action_summaries = {
         "preserve_resources": "The president ordered the colony to preserve resources.",
@@ -167,6 +170,7 @@ def summarize_day(
         "mediate_dispute": "The president worked to mediate local tensions.",
         "send_scouts": "The president sent scouts beyond the settlement.",
         "hold_festival": "The president called a festival to steady morale.",
+        "no_action": "No one remained to give orders or carry them out.",
     }
 
     if world_event == "discovery":
@@ -184,6 +188,15 @@ def summarize_day(
 def daily_food_needed(population: int, leadership_action: str = "preserve_resources") -> int:
     """Return how much food the colony needs to eat today."""
     return max(0, population)
+
+
+def _food_for_population_days(
+    state: dict[str, Any],
+    days: int,
+    *,
+    minimum: int,
+) -> int:
+    return max(minimum, daily_food_needed(state["population"]) * days)
 
 
 def _normalize_world_event(world_event: str | dict[str, Any]) -> dict[str, Any]:
@@ -246,10 +259,10 @@ def _effects_for_world_event(
     leadership_action: str,
 ) -> dict[str, int]:
     if world_event == "good_harvest":
-        return {"food": 15, "morale": 1}
+        return {"food": _food_for_population_days(state, 5, minimum=35), "morale": 1}
 
     if world_event == "poor_harvest":
-        return {"food": -10, "morale": -1}
+        return {"food": -_food_for_population_days(state, 1, minimum=10), "morale": -1}
 
     if world_event == "illness":
         effects = {"health": -1, "morale": -1}
@@ -278,6 +291,9 @@ def _effects_for_world_event(
 
     if world_event == "chaos_gods":
         return {"health": -1, "security": -1, "morale": -1}
+
+    if world_event == EMPTY_COLONY_EVENT_TYPE:
+        return {}
 
     raise ValueError(f"Unknown world event: {world_event}")
 
@@ -335,7 +351,7 @@ def _effects_for_leadership_action(
         return {"wood": 10}
 
     if leadership_action == "expand_fields":
-        return {"food": 8}
+        return {"food": _food_for_population_days(state, 3, minimum=21)}
 
     if leadership_action == "strengthen_defenses":
         return {"wood": -10, "security": 1, "morale": 1}
@@ -344,7 +360,8 @@ def _effects_for_leadership_action(
         return {}
 
     if leadership_action == "tend_the_sick":
-        return {"food": -3, "health": 1, "morale": 1}
+        care_food = max(3, daily_food_needed(state["population"]) // 2)
+        return {"food": -care_food, "health": 1, "morale": 1}
 
     if leadership_action == "mediate_dispute":
         return {"morale": 1, "security": 1}
@@ -353,7 +370,10 @@ def _effects_for_leadership_action(
         return {"wood": 5, "morale": 1}
 
     if leadership_action == "hold_festival":
-        return {"food": -8, "morale": 2}
+        return {"food": -_food_for_population_days(state, 1, minimum=8), "morale": 2}
+
+    if leadership_action == NO_ACTION_ACTION_TYPE:
+        return {}
 
     raise ValueError(f"Unknown leadership action: {leadership_action}")
 

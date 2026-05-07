@@ -1,13 +1,13 @@
 {
-  "day": 58,
+  "day": 62,
   "year": 1,
   "colony_name": "Blergen",
-  "population": 7,
+  "population": 0,
   "food": 0,
   "wood": 0,
   "morale": 0,
   "security": 7,
-  "health": 1,
+  "health": 0,
   "known_threats": [
     "wolves",
     "winter"
@@ -2895,6 +2895,260 @@
         ]
       },
       "summary": "A severity 4 storm struck Blergen. Weather: A winter storm threatened the colony's shelters and stores. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 58,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 58,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 27,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "snow",
+        "severity": 2,
+        "summary": "Snow made paths and work crews slower."
+      },
+      "weather_effects": {
+        "wood": -1
+      },
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 5
+      },
+      "leadership_action": "ration_food",
+      "effects": {
+        "population": -7,
+        "health": -1
+      },
+      "survival_effects": {
+        "missed_rations": 6
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 5,
+            "people": [
+              {
+                "id": "person_055",
+                "name": "Cora Cairn"
+              },
+              {
+                "id": "person_097",
+                "name": "Soren Dove"
+              },
+              {
+                "id": "person_096",
+                "name": "Rhea Dove"
+              },
+              {
+                "id": "person_044",
+                "name": "Rhea Bren"
+              },
+              {
+                "id": "person_022",
+                "name": "Vera Aster"
+              }
+            ],
+            "summary": "Cora Cairn, Soren Dove, Rhea Dove, Rhea Bren, and Vera Aster bore the worst of the storm."
+          },
+          {
+            "type": "rationed_food",
+            "people": [
+              {
+                "id": "person_055",
+                "name": "Cora Cairn"
+              },
+              {
+                "id": "person_073",
+                "name": "Una Cairn"
+              },
+              {
+                "id": "person_095",
+                "name": "Quin Dove"
+              },
+              {
+                "id": "person_096",
+                "name": "Rhea Dove"
+              }
+            ],
+            "summary": "Cora Cairn, Una Cairn, Quin Dove, and Rhea Dove felt the tighter rations first."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 6,
+            "people": [
+              {
+                "id": "person_073",
+                "name": "Una Cairn"
+              },
+              {
+                "id": "person_095",
+                "name": "Quin Dove"
+              },
+              {
+                "id": "person_022",
+                "name": "Vera Aster"
+              },
+              {
+                "id": "person_044",
+                "name": "Rhea Bren"
+              },
+              {
+                "id": "person_097",
+                "name": "Soren Dove"
+              },
+              {
+                "id": "person_096",
+                "name": "Rhea Dove"
+              }
+            ],
+            "summary": "Una Cairn, Quin Dove, and Vera Aster, and 3 others went without full rations."
+          }
+        ],
+        "deaths": [
+          {
+            "id": "person_055",
+            "name": "Cora Cairn",
+            "cause": "storm",
+            "summary": "Cora Cairn died during a storm on day 58."
+          },
+          {
+            "id": "person_073",
+            "name": "Una Cairn",
+            "cause": "starvation",
+            "summary": "Una Cairn died of starvation on day 58."
+          },
+          {
+            "id": "person_095",
+            "name": "Quin Dove",
+            "cause": "starvation",
+            "summary": "Quin Dove died of starvation on day 58."
+          },
+          {
+            "id": "person_022",
+            "name": "Vera Aster",
+            "cause": "starvation",
+            "summary": "Vera Aster died of starvation on day 58."
+          },
+          {
+            "id": "person_044",
+            "name": "Rhea Bren",
+            "cause": "starvation",
+            "summary": "Rhea Bren died of starvation on day 58."
+          },
+          {
+            "id": "person_097",
+            "name": "Soren Dove",
+            "cause": "starvation",
+            "summary": "Soren Dove died of starvation on day 58."
+          },
+          {
+            "id": "person_096",
+            "name": "Rhea Dove",
+            "cause": "starvation",
+            "summary": "Rhea Dove died of starvation on day 58."
+          }
+        ]
+      },
+      "summary": "A severity 5 storm struck Blergen. Weather: Snow made paths and work crews slower. The president ordered tighter food rationing."
+    },
+    {
+      "day": 59,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 59,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 28,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "snow",
+        "severity": 2,
+        "summary": "Snow made paths and work crews slower."
+      },
+      "weather_effects": {
+        "wood": -1
+      },
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 4
+      },
+      "leadership_action": "preserve_resources",
+      "effects": {},
+      "survival_effects": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "A severity 4 storm struck Blergen. Weather: Snow made paths and work crews slower. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 60,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 60,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 1,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "effects": {},
+      "survival_effects": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Clear skies left the day's work mostly to the colony. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 61,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 61,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 2,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "effects": {},
+      "survival_effects": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Clear skies left the day's work mostly to the colony. No one remained to give orders or carry them out."
     }
   ],
   "people": [
@@ -3654,17 +3908,20 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 4
       },
       "story": {
         "notable_events": [
           "Vera Aster endured a severity 4 storm on day 50.",
           "Vera Aster received care from the sick ward on day 51.",
           "Vera Aster went without a full ration on day 56.",
-          "Vera Aster went without a full ration on day 57."
+          "Vera Aster went without a full ration on day 57.",
+          "Vera Aster endured a severity 5 storm on day 58.",
+          "Vera Aster went without a full ration on day 58.",
+          "Vera Aster died of starvation on day 58."
         ]
       }
     },
@@ -4423,17 +4680,20 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 4
       },
       "story": {
         "notable_events": [
           "Rhea Bren endured a severity 4 storm on day 50.",
           "Rhea Bren received care from the sick ward on day 51.",
           "Rhea Bren went without a full ration on day 56.",
-          "Rhea Bren went without a full ration on day 57."
+          "Rhea Bren went without a full ration on day 57.",
+          "Rhea Bren endured a severity 5 storm on day 58.",
+          "Rhea Bren went without a full ration on day 58.",
+          "Rhea Bren died of starvation on day 58."
         ]
       }
     },
@@ -4820,16 +5080,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 4
       },
       "story": {
         "notable_events": [
           "Cora Cairn endured tighter rations on day 54.",
           "Cora Cairn went without a full ration on day 56.",
-          "Cora Cairn went without a full ration on day 57."
+          "Cora Cairn went without a full ration on day 57.",
+          "Cora Cairn endured a severity 5 storm on day 58.",
+          "Cora Cairn endured tighter rations on day 58.",
+          "Cora Cairn died during a storm on day 58."
         ]
       }
     },
@@ -5458,17 +5721,20 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 4
       },
       "story": {
         "notable_events": [
           "Una Cairn endured a severity 4 storm on day 50.",
           "Una Cairn received care from the sick ward on day 51.",
           "Una Cairn went without a full ration on day 56.",
-          "Una Cairn went without a full ration on day 57."
+          "Una Cairn went without a full ration on day 57.",
+          "Una Cairn endured tighter rations on day 58.",
+          "Una Cairn went without a full ration on day 58.",
+          "Una Cairn died of starvation on day 58."
         ]
       }
     },
@@ -6237,17 +6503,20 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 4
       },
       "story": {
         "notable_events": [
           "Quin Dove endured a severity 4 storm on day 50.",
           "Quin Dove received care from the sick ward on day 51.",
           "Quin Dove went without a full ration on day 56.",
-          "Quin Dove went without a full ration on day 57."
+          "Quin Dove went without a full ration on day 57.",
+          "Quin Dove endured tighter rations on day 58.",
+          "Quin Dove went without a full ration on day 58.",
+          "Quin Dove died of starvation on day 58."
         ]
       }
     },
@@ -6272,15 +6541,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 5
       },
       "story": {
         "notable_events": [
           "Rhea Dove went without a full ration on day 56.",
-          "Rhea Dove went without a full ration on day 57."
+          "Rhea Dove went without a full ration on day 57.",
+          "Rhea Dove endured a severity 5 storm on day 58.",
+          "Rhea Dove endured tighter rations on day 58.",
+          "Rhea Dove went without a full ration on day 58.",
+          "Rhea Dove died of starvation on day 58."
         ]
       }
     },
@@ -6304,15 +6577,18 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 4
       },
       "story": {
         "notable_events": [
           "Soren Dove went without a full ration on day 56.",
-          "Soren Dove went without a full ration on day 57."
+          "Soren Dove went without a full ration on day 57.",
+          "Soren Dove endured a severity 5 storm on day 58.",
+          "Soren Dove went without a full ration on day 58.",
+          "Soren Dove died of starvation on day 58."
         ]
       }
     }

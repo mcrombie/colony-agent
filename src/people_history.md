@@ -452,3 +452,27 @@ Day 57 - Blergen Personal Stories:
 - Zara Cairn (teacher) died of starvation. health 1->0; morale 1->0; hunger 2->4; died.
 - Galen Dove (healer) died of starvation. health 1->0; morale 1->0; hunger 2->4; died.
 - Orin Dove (scout) died of starvation. health 1->0; hunger 2->4; died.
+
+Day 58 - Blergen Personal Stories:
+- Cora Cairn (healer) bore the worst of the storm. health 1->0; hunger 2->4; died.
+- Soren Dove (guard) bore the worst of the storm. health 1->0; hunger 2->4; died.
+- Rhea Dove (cook) bore the worst of the storm. health 1->0; hunger 2->5; died.
+- Rhea Bren (builder) bore the worst of the storm. health 2->0; hunger 2->4; died.
+- Vera Aster (woodcutter) bore the worst of the storm. health 2->0; hunger 2->4; died.
+- Cora Cairn (healer) endured tighter rations. health 1->0; hunger 2->4; died.
+- Una Cairn (scout) endured tighter rations. health 3->0; hunger 2->4; died.
+- Quin Dove (healer) endured tighter rations. health 3->0; hunger 2->4; died.
+- Rhea Dove (cook) endured tighter rations. health 1->0; hunger 2->5; died.
+- Una Cairn (scout) went without a full ration. health 3->0; hunger 2->4; died.
+- Quin Dove (healer) went without a full ration. health 3->0; hunger 2->4; died.
+- Vera Aster (woodcutter) went without a full ration. health 2->0; hunger 2->4; died.
+- Rhea Bren (builder) went without a full ration. health 2->0; hunger 2->4; died.
+- Soren Dove (guard) went without a full ration. health 1->0; hunger 2->4; died.
+- Rhea Dove (cook) went without a full ration. health 1->0; hunger 2->5; died.
+- Cora Cairn (healer) died of storm. health 1->0; hunger 2->4; died.
+- Una Cairn (scout) died of starvation. health 3->0; hunger 2->4; died.
+- Quin Dove (healer) died of starvation. health 3->0; hunger 2->4; died.
+- Vera Aster (woodcutter) died of starvation. health 2->0; hunger 2->4; died.
+- Rhea Bren (builder) died of starvation. health 2->0; hunger 2->4; died.
+- Soren Dove (guard) died of starvation. health 1->0; hunger 2->4; died.
+- Rhea Dove (cook) died of starvation. health 1->0; hunger 2->5; died.

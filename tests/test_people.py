@@ -311,6 +311,17 @@ def test_history_entry_includes_date_weather_and_severity():
     assert "severity 2 wolf attack" in entry
 
 
+def test_history_entry_for_empty_colony_has_no_president():
+    state_before = ensure_people_exist(state_with(population=0))
+    state_after, event_record = apply_day(state_before, "empty_colony", "no_action")
+
+    entry = write_daily_entry(state_before, event_record, state_after)
+
+    assert "president" not in entry
+    assert "No colonists remained" in entry
+    assert "No colonists remain in Blergen." in entry
+
+
 def test_personal_history_entry_records_individual_status_changes():
     state_before = ensure_people_exist(state_with(population=12))
     state_after, event_record = apply_day(state_before, "illness", "preserve_resources")

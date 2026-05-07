@@ -14,6 +14,7 @@ EVENT_OPENINGS = {
     "wolf_attack": "Wolves came against the colony",
     "quiet_day": "No major world event overtook Blergen",
     "chaos_gods": "The chaos gods struck the colony",
+    "empty_colony": "No colonists remained in Blergen",
 }
 
 ACTION_PHRASES = {
@@ -29,6 +30,7 @@ ACTION_PHRASES = {
     "mediate_dispute": "the president worked to mediate the tension",
     "send_scouts": "the president sent scouts beyond the settlement",
     "hold_festival": "the president called a festival to steady morale",
+    "no_action": "no one remained to give orders or carry them out",
 }
 
 
@@ -45,11 +47,16 @@ def write_daily_entry(
     leadership_action = event_record["leadership_action"]
     effects_text = _describe_effects(event_record["effects"])
 
+    weather_text = _weather_text(event_record.get("weather"))
+    if state_before["population"] <= 0:
+        body = _empty_colony_body(weather_text, effects_text)
+        closing = _closing_sentence(state_after)
+        return f"Day {day}{date_text} - {colony_name}:\n{body} {closing}\n"
+
     body = (
         f"{_event_opening(world_event, event_record.get('event_details', {}))}, and "
         f"{ACTION_PHRASES[leadership_action]}"
     )
-    weather_text = _weather_text(event_record.get("weather"))
     if weather_text:
         body = f"{weather_text} {body}"
 
@@ -123,6 +130,18 @@ def _describe_people_events(people_events: dict[str, Any]) -> str:
             pieces.append(f"{shown_names}, and {remaining} others died.")
 
     return " ".join(pieces)
+
+
+def _empty_colony_body(weather_text: str, effects_text: str) -> str:
+    weather_prefix = f"{weather_text} " if weather_text else ""
+    body = (
+        f"{weather_prefix}No colonists remained to give orders, work the fields, "
+        "or answer the day's dangers"
+    )
+    if effects_text:
+        return f"{body}; the abandoned settlement's state {effects_text}."
+
+    return f"{body}."
 
 
 def _personal_history_lines(
@@ -333,6 +352,9 @@ def _join_names(names: list[str]) -> str:
 
 
 def _closing_sentence(state: dict[str, Any]) -> str:
+    if state["population"] <= 0:
+        return "No colonists remain in Blergen."
+
     if state["population"] < 80:
         return "The loss of people is beginning to define the settlement's future."
 
