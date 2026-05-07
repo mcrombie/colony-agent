@@ -1,11 +1,11 @@
 {
-  "day": 66,
+  "day": 67,
   "year": 1,
   "colony_name": "Blergen",
   "population": 100,
-  "food": 298,
-  "wood": 15,
-  "morale": 8,
+  "food": 196,
+  "wood": 5,
+  "morale": 7,
   "security": 9,
   "health": 5,
   "known_threats": [
@@ -3861,6 +3861,84 @@
         "deaths": []
       },
       "summary": "A severity 2 wolf attack hit the settlement. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement."
+    },
+    {
+      "day": 66,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 66,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 7,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "wolf_attack",
+      "world_event": "wolf_attack",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_169",
+        "name": "Mara Graye",
+        "since_day": 64
+      },
+      "effects": {
+        "food": -102,
+        "wood": -10,
+        "morale": -1
+      },
+      "survival_effects": {
+        "food": -100
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "defended_wolf_attack",
+            "severity": 3,
+            "people": [
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              },
+              {
+                "id": "person_167",
+                "name": "Kara Graye"
+              },
+              {
+                "id": "person_173",
+                "name": "Quin Graye"
+              }
+            ],
+            "summary": "Hana Graye, Kara Graye, and Quin Graye met the wolf attack at the edge of camp."
+          },
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              },
+              {
+                "id": "person_167",
+                "name": "Kara Graye"
+              }
+            ],
+            "summary": "Hana Graye, and Kara Graye helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 3 wolf attack hit the settlement. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement."
     }
   ],
   "people": [
@@ -9502,7 +9580,7 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
+        "health": 4,
         "morale": 8,
         "hunger": 0
       },
@@ -9513,7 +9591,9 @@
           "Hana Graye faced a severity 3 wolf attack on day 63.",
           "Hana Graye helped strengthen the settlement on day 63.",
           "Hana Graye faced a severity 2 wolf attack on day 65.",
-          "Hana Graye helped strengthen the settlement on day 65."
+          "Hana Graye helped strengthen the settlement on day 65.",
+          "Hana Graye faced a severity 3 wolf attack on day 66.",
+          "Hana Graye helped strengthen the settlement on day 66."
         ]
       }
     },
@@ -9605,7 +9685,7 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
+        "health": 4,
         "morale": 9,
         "hunger": 0
       },
@@ -9615,7 +9695,9 @@
           "Kara Graye went without a full ration on day 62.",
           "Kara Graye faced a severity 3 wolf attack on day 63.",
           "Kara Graye helped strengthen the settlement on day 63.",
-          "Kara Graye helped strengthen the settlement on day 65."
+          "Kara Graye helped strengthen the settlement on day 65.",
+          "Kara Graye faced a severity 3 wolf attack on day 66.",
+          "Kara Graye helped strengthen the settlement on day 66."
         ]
       }
     },
@@ -9809,14 +9891,15 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 8,
+        "health": 5,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Quin Graye arrived with a Blergen Company settler convoy.",
-          "Quin Graye went without a full ration on day 62."
+          "Quin Graye went without a full ration on day 62.",
+          "Quin Graye faced a severity 3 wolf attack on day 66."
         ]
       }
     },

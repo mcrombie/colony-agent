@@ -12,6 +12,7 @@ EVENT_OPENINGS = {
     "discovery": "A discovery gave the colony something new to discuss",
     "storm": "A storm tested the colony",
     "wolf_attack": "Wolves came against the colony",
+    "undead_rising": "The dead rose against the colony",
     "quiet_day": "No major world event overtook Blergen",
     "chaos_gods": "The chaos gods struck the colony",
     "empty_colony": "No colonists remained in Blergen",
@@ -30,6 +31,8 @@ ACTION_PHRASES = {
     "mediate_dispute": "{president} worked to mediate the tension",
     "send_scouts": "{president} sent scouts beyond the settlement",
     "hold_festival": "{president} called a festival to steady morale",
+    "fight_undead": "{president} ordered the undead destroyed",
+    "contain_undead": "{president} ordered the undead contained",
     "no_action": "no one remained to give orders or carry them out",
 }
 
@@ -318,6 +321,9 @@ def _action_history_summary(action_type: str) -> str:
         "shaken_by_chaos": "was shaken by the silent oracle",
         "weathered_storm": "bore the worst of the storm",
         "defended_wolf_attack": "defended the camp from wolves",
+        "undead_rose": "rose as undead",
+        "undead_destroyed": "was destroyed as undead",
+        "undead_contained": "was contained as undead",
         "rationed_food": "endured tighter rations",
         "gathered_wood": "joined the wood crews",
         "expanded_fields": "worked the field expansion",
@@ -338,6 +344,9 @@ def _event_opening(world_event: str, event_details: dict[str, Any]) -> str:
 
     if world_event == "wolf_attack":
         return f"A severity {event_details.get('severity', 3)} wolf attack hit the colony"
+
+    if world_event == "undead_rising":
+        return f"A severity {event_details.get('severity', 3)} undead rising threatened the colony"
 
     return EVENT_OPENINGS[world_event]
 

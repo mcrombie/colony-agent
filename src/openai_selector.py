@@ -44,6 +44,7 @@ def choose_world_event_with_openai(
             "discovery",
             "storm",
             "wolf_attack",
+            "undead_rising",
             "quiet_day",
         ]
         severity: int | None = None
@@ -61,11 +62,13 @@ def choose_world_event_with_openai(
                 "of the time, and less often when severe weather or known "
                 "threats suggest danger. Wolves are an active threat and may "
                 "produce wolf_attack. Winter is a season, not an event, but "
-                "winter weather can produce storm. For wolf_attack and storm, "
-                "set severity from 1 to 5. Do not apply mechanics and do not "
-                "invent new event types. Named colonists are context for fate "
-                "and story pressure, but your structured response must still "
-                "choose only one allowed world event."
+                "winter weather can produce storm. undead_rising is rare and "
+                "should normally require either known undead trouble or named "
+                "dead colonists who could rise. For wolf_attack, storm, and "
+                "undead_rising, set severity from 1 to 5. Do not apply "
+                "mechanics and do not invent new event types. Named colonists "
+                "are context for fate and story pressure, but your structured "
+                "response must still choose only one allowed world event."
             ),
         },
         {
@@ -116,6 +119,8 @@ def choose_leadership_action_with_openai(
             "mediate_dispute",
             "send_scouts",
             "hold_festival",
+            "fight_undead",
+            "contain_undead",
         ]
         reasoning: str
 
@@ -132,7 +137,9 @@ def choose_leadership_action_with_openai(
                 "not apply mechanics and do not invent new action types. "
                 "Named colonists are context for priorities, not extra output "
                 "fields. Storms and wolf attacks can be severe; consider "
-                "defense, sickness, food, and morale accordingly."
+                "defense, sickness, food, and morale accordingly. If the dead "
+                "rise, fight_undead destroys them while contain_undead tries "
+                "to isolate them before the infection spreads."
             ),
         },
         {
@@ -243,7 +250,7 @@ def _normalize_world_event_decision(
         "world_event": world_event,
         "reasoning": decision.get("reasoning", ""),
     }
-    if world_event in {"storm", "wolf_attack"}:
+    if world_event in {"storm", "wolf_attack", "undead_rising"}:
         default_severity = 3
         if world_event == "storm" and environment:
             default_severity = environment.get("weather", {}).get("severity", 3)
@@ -278,13 +285,16 @@ def _state_for_world_prompt(
             "security": state["security"],
             "health": state["health"],
             "known_threats": state["known_threats"],
+            "dead_population": _dead_population(state),
+            "undead_threat": state.get("undead_threat", {}),
         },
         "environment": environment or {},
         "threat_rules": [
             "known_threats containing wolves means wolf_attack is available.",
             "known_threats containing winter means winter weather should increase storm danger.",
+            "undead_rising is rare; use it mainly when dead colonists or active undead are present.",
             "Winter is a season and period, not a world_event label.",
-            "For wolf_attack and storm, severity must be an integer from 1 to 5.",
+            "For wolf_attack, storm, and undead_rising, severity must be an integer from 1 to 5.",
         ],
         "character_context": character_context_for_prompt(state),
         "recent_events": state.get("event_log", [])[-5:],
@@ -313,6 +323,8 @@ def _state_for_leadership_prompt(
             "security": state["security"],
             "health": state["health"],
             "known_threats": state["known_threats"],
+            "dead_population": _dead_population(state),
+            "undead_threat": state.get("undead_threat", {}),
         },
         "character_context": character_context_for_prompt(
             state,
@@ -327,6 +339,8 @@ def _state_for_leadership_prompt(
             "strengthen_defenses requires at least 10 wood.",
             "hold_festival costs extra food.",
             "strengthen_defenses can reduce damage from wolf attacks.",
+            "For undead_rising, fight_undead can destroy zombies and contain_undead can stop spread.",
+            "If undead are not killed or contained, the infection can kill colonists and create more zombies.",
             "send_scouts can help track threats but still costs the day's action.",
             "Named colonists can inform priorities, but choose only one allowed action label.",
         ],
@@ -336,3 +350,11 @@ def _state_for_leadership_prompt(
 def _state_for_prompt(state: dict[str, Any]) -> dict[str, Any]:
     """Backward-compatible prompt helper for older tests and callers."""
     return _state_for_world_prompt(state)
+
+
+def _dead_population(state: dict[str, Any]) -> int:
+    return sum(
+        1
+        for person in state.get("people", [])
+        if not person.get("status", {}).get("alive", True)
+    )

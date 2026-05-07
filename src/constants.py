@@ -8,6 +8,7 @@ WORLD_EVENT_TYPES = (
     "discovery",
     "storm",
     "wolf_attack",
+    "undead_rising",
     "quiet_day",
 )
 
@@ -21,6 +22,8 @@ LEADERSHIP_ACTION_TYPES = (
     "mediate_dispute",
     "send_scouts",
     "hold_festival",
+    "fight_undead",
+    "contain_undead",
 )
 
 CHAOS_GODS_EVENT_TYPE = "chaos_gods"

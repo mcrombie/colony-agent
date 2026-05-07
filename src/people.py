@@ -390,6 +390,7 @@ def apply_daily_people_events(
     day: int,
     event_details: dict[str, Any] | None = None,
     discovery_detail: str | None = None,
+    undead_outcome: dict[str, Any] | None = None,
 ) -> dict[str, list[dict[str, Any]]]:
     """Apply person-level story effects for the day's event and action."""
     people_events: dict[str, list[dict[str, Any]]] = {
@@ -406,6 +407,7 @@ def apply_daily_people_events(
         day=day,
         event_details=event_details or {},
         discovery_detail=discovery_detail,
+        undead_outcome=undead_outcome,
     )
     _apply_leadership_action_to_people(
         state,
@@ -576,6 +578,16 @@ def _featured_people_for_prompt(
                 day=state.get("day", 0),
             )
         )
+    elif world_event == "undead_rising":
+        selected.extend(
+            _select_people_by_role(
+                state,
+                ("guard", "healer", "builder"),
+                max_people,
+                day=state.get("day", 0),
+            )
+        )
+        selected.extend(_select_vulnerable_people(state, max(1, max_people // 2)))
     elif world_event == "storm":
         selected.extend(_select_vulnerable_people(state, max_people))
     elif world_event == "poor_harvest":
@@ -733,6 +745,7 @@ def _apply_world_event_to_people(
     day: int,
     event_details: dict[str, Any],
     discovery_detail: str | None,
+    undead_outcome: dict[str, Any] | None,
 ) -> None:
     if world_event == "illness":
         _apply_illness_to_people(state, people_events=people_events, day=day)
@@ -766,6 +779,15 @@ def _apply_world_event_to_people(
             people_events=people_events,
             day=day,
             severity=event_details.get("severity", 3),
+        )
+        return
+
+    if world_event == "undead_rising":
+        _apply_undead_rising_to_people(
+            state,
+            people_events=people_events,
+            day=day,
+            outcome=undead_outcome or {},
         )
         return
 
@@ -1075,6 +1097,72 @@ def _apply_wolf_attack_to_people(
     )
 
 
+def _apply_undead_rising_to_people(
+    state: dict[str, Any],
+    *,
+    people_events: dict[str, list[dict[str, Any]]],
+    day: int,
+    outcome: dict[str, Any],
+) -> None:
+    newly_risen = _select_rising_dead(state, outcome.get("newly_risen", 0))
+    for person in newly_risen:
+        status = person.setdefault("status", {})
+        status["undead"] = True
+        status["undead_contained"] = False
+        status["undead_destroyed"] = False
+        _add_story_note(person, f"{person['name']} rose as undead on day {day}.")
+
+    if newly_risen:
+        people_events["actions"].append(
+            {
+                "type": "undead_rose",
+                "people": _people_refs(newly_risen),
+                "summary": (
+                    f"{_join_names([person['name'] for person in newly_risen])} "
+                    "rose from the dead."
+                ),
+            }
+        )
+
+    killed = _select_active_undead(state, outcome.get("killed_zombies", 0))
+    for person in killed:
+        status = person.setdefault("status", {})
+        status["undead"] = False
+        status["undead_destroyed"] = True
+        _add_story_note(person, f"{person['name']}'s undead body was destroyed on day {day}.")
+
+    if killed:
+        people_events["actions"].append(
+            {
+                "type": "undead_destroyed",
+                "people": _people_refs(killed),
+                "summary": (
+                    f"{_join_names([person['name'] for person in killed])} "
+                    "was destroyed before the infection could spread."
+                ),
+            }
+        )
+
+    contained = _select_active_undead(state, outcome.get("contained_zombies", 0))
+    for person in contained:
+        status = person.setdefault("status", {})
+        status["undead"] = False
+        status["undead_contained"] = True
+        _add_story_note(person, f"{person['name']}'s undead body was contained on day {day}.")
+
+    if contained:
+        people_events["actions"].append(
+            {
+                "type": "undead_contained",
+                "people": _people_refs(contained),
+                "summary": (
+                    f"{_join_names([person['name'] for person in contained])} "
+                    "was contained before the infection could spread."
+                ),
+            }
+        )
+
+
 def _apply_tend_the_sick_to_people(
     state: dict[str, Any],
     *,
@@ -1256,6 +1344,48 @@ def _select_vulnerable_people(
     )[:count]
 
 
+def _select_rising_dead(
+    state: dict[str, Any],
+    count: int,
+) -> list[dict[str, Any]]:
+    if count <= 0:
+        return []
+
+    eligible_dead = [
+        person
+        for person in state.get("people", [])
+        if not person.get("status", {}).get("alive", True)
+        and not person.get("status", {}).get("undead")
+        and not person.get("status", {}).get("undead_contained")
+        and not person.get("status", {}).get("undead_destroyed")
+    ]
+    return sorted(
+        eligible_dead,
+        key=lambda person: (
+            -person.get("age", 0),
+            person["id"],
+        ),
+    )[:count]
+
+
+def _select_active_undead(
+    state: dict[str, Any],
+    count: int,
+) -> list[dict[str, Any]]:
+    if count <= 0:
+        return []
+
+    active_undead = [
+        person
+        for person in state.get("people", [])
+        if not person.get("status", {}).get("alive", True)
+        and person.get("status", {}).get("undead")
+        and not person.get("status", {}).get("undead_contained")
+        and not person.get("status", {}).get("undead_destroyed")
+    ]
+    return sorted(active_undead, key=lambda person: person["id"])[:count]
+
+
 def _rotated_living_people(state: dict[str, Any], day: int) -> list[dict[str, Any]]:
     people = living_people(state)
     if not people:
@@ -1343,6 +1473,8 @@ def _missed_rations_summary(people: list[dict[str, Any]]) -> str:
 def _mark_person_dead(person: dict[str, Any], *, day: int, cause: str) -> dict[str, str]:
     person["status"]["alive"] = False
     person["status"]["health"] = 0
+    if cause == "undead_rising":
+        person["status"]["undead"] = True
 
     note = _death_note(person["name"], day, cause)
     person.setdefault("story", {}).setdefault("notable_events", []).append(note)
@@ -1366,5 +1498,8 @@ def _death_note(name: str, day: int, cause: str) -> str:
 
     if cause == "storm":
         return f"{name} died during a storm on day {day}."
+
+    if cause == "undead_rising":
+        return f"{name} was taken by the undead infection on day {day}."
 
     return f"{name} died during colony hardship on day {day}."

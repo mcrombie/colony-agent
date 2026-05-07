@@ -189,6 +189,8 @@ def test_world_prompt_includes_bounded_character_context():
     assert prompt["environment"] == environment
     assert "wolf_attack" in prompt["allowed_world_events"]
     assert "storm" in prompt["allowed_world_events"]
+    assert "undead_rising" in prompt["allowed_world_events"]
+    assert prompt["current_state"]["dead_population"] == 0
     assert "people" not in prompt
     assert {
         "id",
@@ -227,6 +229,7 @@ def test_leadership_prompt_selects_event_relevant_colonists():
     assert prompt["president"]["name"] == state["people"][0]["name"]
     assert prompt["today_world_event"] == "discovery"
     assert prompt["today_event_details"]["severity"] == 1
+    assert "fight_undead" in prompt["allowed_leadership_actions"]
     assert "Named colonists can inform priorities" in prompt["important_rules"][-1]
 
 
@@ -261,3 +264,15 @@ def test_storm_decision_defaults_to_weather_severity():
     )
 
     assert decision["severity"] == 4
+
+
+def test_undead_rising_decision_normalizes_severity():
+    decision = _normalize_world_event_decision(
+        {"world_event": "undead_rising", "severity": 9, "reasoning": "old dead"},
+    )
+
+    assert decision == {
+        "world_event": "undead_rising",
+        "severity": 5,
+        "reasoning": "old dead",
+    }

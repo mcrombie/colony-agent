@@ -599,3 +599,10 @@ Day 65 - Blergen Personal Stories:
 - Hana Graye (builder) defended the camp from wolves. Status unchanged.
 - Hana Graye (builder) helped strengthen the settlement. Status unchanged.
 - Kara Graye (guard) helped strengthen the settlement. morale 8->9.
+
+Day 66 - Blergen Personal Stories:
+- Hana Graye (builder) defended the camp from wolves. health 5->4.
+- Kara Graye (guard) defended the camp from wolves. health 5->4.
+- Quin Graye (scout) defended the camp from wolves. health 6->5; morale 8->7.
+- Hana Graye (builder) helped strengthen the settlement. health 5->4.
+- Kara Graye (guard) helped strengthen the settlement. health 5->4.

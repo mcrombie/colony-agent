@@ -274,6 +274,67 @@ def test_strengthen_defenses_reduces_wolf_attack_damage():
     assert "population" not in event_record["effects"]
 
 
+def test_fighting_undead_can_destroy_risen_dead_without_spread():
+    people = generate_people(5, colony_health=6, colony_morale=7)
+    people[0]["status"]["alive"] = False
+    people[0]["status"]["health"] = 0
+    state = state_with(population=4, people=people, security=6, food=20)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "undead_rising", "severity": 3},
+        "fight_undead",
+    )
+
+    assert after["population"] == 4
+    assert after["undead_threat"]["active"] is False
+    assert after["undead_threat"]["zombies"] == 0
+    assert "undead" in after["known_threats"]
+    assert event_record["undead_outcome"]["newly_risen"] == 1
+    assert event_record["undead_outcome"]["killed_zombies"] == 1
+    assert event_record["people_events"]["actions"][0]["type"] == "undead_rose"
+    assert event_record["people_events"]["actions"][1]["type"] == "undead_destroyed"
+
+
+def test_uncontained_undead_spread_creates_new_zombies():
+    people = generate_people(5, colony_health=6, colony_morale=7)
+    people[0]["status"]["alive"] = False
+    people[0]["status"]["health"] = 0
+    state = state_with(population=4, people=people, security=6, food=20)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "undead_rising", "severity": 3},
+        "preserve_resources",
+    )
+
+    assert after["population"] == 3
+    assert after["undead_threat"]["active"] is True
+    assert after["undead_threat"]["zombies"] == 2
+    assert event_record["undead_outcome"]["new_infections"] == 1
+    assert event_record["people_events"]["deaths"][0]["cause"] == "undead_rising"
+
+
+def test_containing_undead_stops_spread_and_costs_wood():
+    people = generate_people(5, colony_health=6, colony_morale=7)
+    people[0]["status"]["alive"] = False
+    people[0]["status"]["health"] = 0
+    state = state_with(population=4, people=people, security=6, wood=20, food=20)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "undead_rising", "severity": 3},
+        "contain_undead",
+    )
+
+    assert after["population"] == 4
+    assert after["wood"] == 15
+    assert after["undead_threat"]["active"] is False
+    assert after["undead_threat"]["contained_zombies"] == 1
+    assert event_record["undead_outcome"]["contained_zombies"] == 1
+    assert event_record["people_events"]["actions"][1]["type"] == "undead_contained"
+
+
 def test_storm_uses_severity_and_weather_context():
     environment = {
         "date": {

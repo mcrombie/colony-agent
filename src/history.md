@@ -195,3 +195,6 @@ Clear skies left the day's work mostly to the colony. A discovery gave the colon
 
 Day 65 (Year 1, March 6) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 2 wolf attack hit the colony, and Mara Graye spent wood to strengthen the settlement; the day's changes reduced food by 100, and reduced wood by 10. Galen Graye, and Hana Graye met the wolf attack at the edge of camp. Hana Graye, and Kara Graye helped strengthen the settlement. The settlement endures into another morning.
+
+Day 66 (Year 1, March 7) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 wolf attack hit the colony, and Mara Graye spent wood to strengthen the settlement; the day's changes reduced food by 102, reduced wood by 10, and reduced morale by 1. Hana Graye, Kara Graye, and Quin Graye met the wolf attack at the edge of camp. Hana Graye, and Kara Graye helped strengthen the settlement. The settlement endures into another morning.

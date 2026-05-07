@@ -66,9 +66,10 @@ costing wood, hard freezes hurting health, or severe winter weather lowering
 morale.
 
 `known_threats` now affects what events are available to the selector. `wolves`
-can become a `wolf_attack`, and `winter` raises the importance of winter weather
-and storm danger. Winter itself is not an event; it is a season that shapes the
-weather table and the prompt context.
+can become a `wolf_attack`, `winter` raises the importance of winter weather
+and storm danger, and discovered undead trouble is tracked as `undead`. Winter
+itself is not an event; it is a season that shapes the weather table and the
+prompt context.
 
 The OpenAI selectors receive a bounded `character_context` section with role
 counts, status summaries, and a small set of relevant named colonists. The deity
@@ -112,21 +113,23 @@ The deity selector is prompted as a deity deciding what event, if any, should be
 
 ```text
 good_harvest, poor_harvest, illness, dispute, discovery,
-storm, wolf_attack, quiet_day
+storm, wolf_attack, undead_rising, quiet_day
 ```
 
 The prompt asks the deity to favor impactful events and choose `quiet_day` only
-about 15 to 25 percent of the time. `storm` and `wolf_attack` include a
-severity from 1 to 5. Stronger wolf attacks can kill colonists, especially when
-security is low. Stronger storms can damage stores, wood, health, morale, and in
-extreme sickly conditions, population.
+about 15 to 25 percent of the time. `storm`, `wolf_attack`, and `undead_rising`
+include a severity from 1 to 5. Stronger wolf attacks can kill colonists,
+especially when security is low. Stronger storms can damage stores, wood,
+health, morale, and in extreme sickly conditions, population. `undead_rising` is
+intended to be rare: one named dead colonist can rise, active zombies can attack
+the living, and uncontained infections create more zombies.
 
 The president selector is prompted as the president of Blergen deciding how to respond to the event. It can choose:
 
 ```text
 preserve_resources, ration_food, gather_wood, expand_fields,
 strengthen_defenses, tend_the_sick, mediate_dispute, send_scouts,
-hold_festival
+hold_festival, fight_undead, contain_undead
 ```
 
 If the deity API call fails after configuration is present, the simulation records `chaos_gods`: health -1, security -1, and morale -1.
@@ -137,6 +140,12 @@ If the president chooses `strengthen_defenses` when the colony has fewer than 10
 
 If the president chooses `strengthen_defenses` during a wolf attack and the
 colony has enough wood, the attack's effective severity is reduced by one level.
+
+If the dead rise, `fight_undead` can destroy active zombies while risking
+security and morale. `contain_undead` costs wood and can isolate zombies before
+the infection spreads. If the colony does not kill or contain active zombies,
+living colonists can die and become new active undead. The persistent
+`undead_threat` state tracks active and contained zombies.
 
 Food is consumed every day regardless of events or leadership actions. Each
 living colonist needs 1 food per day. If there is not enough food, named

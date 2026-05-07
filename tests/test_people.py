@@ -314,6 +314,49 @@ def test_storm_names_affected_colonists():
     assert all(person["story"]["notable_events"] for person in affected_people)
 
 
+def test_undead_rising_marks_named_dead_person_as_destroyed():
+    people = generate_people(12, colony_health=6, colony_morale=6)
+    people[0]["status"]["alive"] = False
+    people[0]["status"]["health"] = 0
+    state = state_with(population=11, people=people, security=6)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "undead_rising", "severity": 2},
+        "fight_undead",
+    )
+
+    risen = event_record["people_events"]["actions"][0]["people"][0]
+    destroyed = event_record["people_events"]["actions"][1]["people"][0]
+    dead_person = next(person for person in after["people"] if person["id"] == risen["id"])
+    assert risen == destroyed
+    assert dead_person["status"]["undead"] is False
+    assert dead_person["status"]["undead_destroyed"] is True
+    assert "rose as undead" in dead_person["story"]["notable_events"][-2]
+    assert "undead body was destroyed" in dead_person["story"]["notable_events"][-1]
+
+
+def test_undead_infection_death_becomes_active_undead():
+    people = generate_people(12, colony_health=6, colony_morale=6)
+    people[0]["status"]["alive"] = False
+    people[0]["status"]["health"] = 0
+    state = state_with(population=11, people=people, security=6)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "undead_rising", "severity": 3},
+        "preserve_resources",
+    )
+
+    death = event_record["people_events"]["deaths"][0]
+    infected = next(person for person in after["people"] if person["id"] == death["id"])
+    assert infected["status"]["alive"] is False
+    assert infected["status"]["undead"] is True
+    assert infected["story"]["notable_events"][-1] == (
+        f"{infected['name']} was taken by the undead infection on day 1."
+    )
+
+
 def test_history_entry_names_people_who_died():
     state_before = ensure_people_exist(state_with(population=12, food=11))
     for person in state_before["people"]:
@@ -360,6 +403,25 @@ def test_history_entry_includes_date_weather_and_severity():
     assert "Day 1 (Year 1, January 1) - Blergen:" in entry
     assert "A gray sky pressed low over Blergen." in entry
     assert "severity 2 wolf attack" in entry
+
+
+def test_history_entry_describes_undead_rising():
+    people = generate_people(12, colony_health=6, colony_morale=6)
+    people[0]["status"]["alive"] = False
+    people[0]["status"]["health"] = 0
+    state_before = ensure_people_exist(state_with(population=11, people=people, security=6))
+    ensure_president(state_before)
+    state_after, event_record = apply_day(
+        state_before,
+        {"world_event": "undead_rising", "severity": 2},
+        "fight_undead",
+    )
+
+    entry = write_daily_entry(state_before, event_record, state_after)
+
+    assert "severity 2 undead rising threatened the colony" in entry
+    assert "ordered the undead destroyed" in entry
+    assert "rose from the dead" in entry
 
 
 def test_history_entry_for_empty_colony_has_no_president():
