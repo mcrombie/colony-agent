@@ -1,11 +1,11 @@
 {
-  "day": 64,
+  "day": 66,
   "year": 1,
   "colony_name": "Blergen",
   "population": 100,
-  "food": 198,
-  "wood": 25,
-  "morale": 7,
+  "food": 298,
+  "wood": 15,
+  "morale": 8,
   "security": 9,
   "health": 5,
   "known_threats": [
@@ -3721,6 +3721,146 @@
           "summary": "Blergen Company sent supplies to Blergen: 30 wood and 2 security."
         }
       ]
+    },
+    {
+      "day": 64,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 64,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 5,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {},
+      "leadership_action": "expand_fields",
+      "president": {
+        "id": "person_169",
+        "name": "Mara Graye",
+        "since_day": 64
+      },
+      "effects": {
+        "food": 200,
+        "morale": 1
+      },
+      "survival_effects": {
+        "food": -100
+      },
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "useful clay near the riverbank",
+            "people": [
+              {
+                "id": "person_163",
+                "name": "Galen Graye"
+              }
+            ],
+            "summary": "Galen Graye discovered useful clay near the riverbank."
+          }
+        ],
+        "actions": [
+          {
+            "type": "expanded_fields",
+            "people": [
+              {
+                "id": "person_169",
+                "name": "Mara Graye"
+              },
+              {
+                "id": "person_171",
+                "name": "Orin Graye"
+              }
+            ],
+            "summary": "Mara Graye, and Orin Graye worked the field expansion."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered useful clay near the riverbank. Weather: Clear skies left the day's work mostly to the colony. The president directed labor toward the fields."
+    },
+    {
+      "day": 65,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 65,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 6,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "wolf_attack",
+      "world_event": "wolf_attack",
+      "event_details": {
+        "severity": 2
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_169",
+        "name": "Mara Graye",
+        "since_day": 64
+      },
+      "effects": {
+        "food": -100,
+        "wood": -10
+      },
+      "survival_effects": {
+        "food": -100
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "defended_wolf_attack",
+            "severity": 2,
+            "people": [
+              {
+                "id": "person_163",
+                "name": "Galen Graye"
+              },
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              }
+            ],
+            "summary": "Galen Graye, and Hana Graye met the wolf attack at the edge of camp."
+          },
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              },
+              {
+                "id": "person_167",
+                "name": "Kara Graye"
+              }
+            ],
+            "summary": "Hana Graye, and Kara Graye helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 2 wolf attack hit the settlement. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement."
     }
   ],
   "people": [
@@ -9334,7 +9474,9 @@
           "Galen Graye discovered old trail markers beyond the fields on day 62.",
           "Galen Graye scouted beyond the settlement on day 62.",
           "Galen Graye went without a full ration on day 62.",
-          "Galen Graye faced a severity 3 wolf attack on day 63."
+          "Galen Graye faced a severity 3 wolf attack on day 63.",
+          "Galen Graye discovered useful clay near the riverbank on day 64.",
+          "Galen Graye faced a severity 2 wolf attack on day 65."
         ]
       }
     },
@@ -9369,7 +9511,9 @@
           "Hana Graye arrived with a Blergen Company settler convoy.",
           "Hana Graye went without a full ration on day 62.",
           "Hana Graye faced a severity 3 wolf attack on day 63.",
-          "Hana Graye helped strengthen the settlement on day 63."
+          "Hana Graye helped strengthen the settlement on day 63.",
+          "Hana Graye faced a severity 2 wolf attack on day 65.",
+          "Hana Graye helped strengthen the settlement on day 65."
         ]
       }
     },
@@ -9462,7 +9606,7 @@
       "status": {
         "alive": true,
         "health": 5,
-        "morale": 8,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -9470,7 +9614,8 @@
           "Kara Graye arrived with a Blergen Company settler convoy.",
           "Kara Graye went without a full ration on day 62.",
           "Kara Graye faced a severity 3 wolf attack on day 63.",
-          "Kara Graye helped strengthen the settlement on day 63."
+          "Kara Graye helped strengthen the settlement on day 63.",
+          "Kara Graye helped strengthen the settlement on day 65."
         ]
       }
     },
@@ -9536,7 +9681,9 @@
         "notable_events": [
           "Mara Graye arrived with a Blergen Company settler convoy.",
           "Mara Graye scouted beyond the settlement on day 62.",
-          "Mara Graye went without a full ration on day 62."
+          "Mara Graye went without a full ration on day 62.",
+          "Mara Graye became president of Blergen on day 64.",
+          "Mara Graye worked the field expansion on day 64."
         ]
       }
     },
@@ -9602,7 +9749,8 @@
       "story": {
         "notable_events": [
           "Orin Graye arrived with a Blergen Company settler convoy.",
-          "Orin Graye went without a full ration on day 62."
+          "Orin Graye went without a full ration on day 62.",
+          "Orin Graye worked the field expansion on day 64."
         ]
       }
     },
@@ -10461,5 +10609,10 @@
         ]
       }
     }
-  ]
+  ],
+  "president": {
+    "id": "person_169",
+    "name": "Mara Graye",
+    "since_day": 64
+  }
 }

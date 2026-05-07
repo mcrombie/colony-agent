@@ -9,7 +9,7 @@ from typing import Any, Literal
 
 from src.constants import LEADERSHIP_ACTION_TYPES, WORLD_EVENT_TYPES
 from src.environment import year_for_day
-from src.people import character_context_for_prompt
+from src.people import character_context_for_prompt, president_context_for_prompt
 
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
 OPENAI_MAX_ATTEMPTS = 3
@@ -123,13 +123,14 @@ def choose_leadership_action_with_openai(
         {
             "role": "system",
             "content": (
-                "You are the president of the Blergen colony. A report has "
-                "arrived describing today's circumstance, which may be a "
-                "major event or a quiet day. Choose exactly one allowed "
-                "leadership action for the colony. Respond practically in "
-                "light of the event and the current state. Do not apply "
-                "mechanics and do not invent new action types. Named "
-                "colonists are context for priorities, not extra output "
+                "You are the current president of the Blergen colony. The "
+                "user payload identifies the specific colonist holding that "
+                "office. A report has arrived describing today's circumstance, "
+                "which may be a major event or a quiet day. Choose exactly "
+                "one allowed leadership action for the colony. Respond "
+                "practically in light of the event and the current state. Do "
+                "not apply mechanics and do not invent new action types. "
+                "Named colonists are context for priorities, not extra output "
                 "fields. Storms and wolf attacks can be severe; consider "
                 "defense, sickness, food, and morale accordingly."
             ),
@@ -300,6 +301,7 @@ def _state_for_leadership_prompt(
         "today_world_event": world_event_type,
         "today_event_details": world_event if isinstance(world_event, dict) else {},
         "allowed_leadership_actions": list(LEADERSHIP_ACTION_TYPES),
+        "president": president_context_for_prompt(state),
         "current_state": {
             "day": state["day"],
             "year": state.get("year", year_for_day(state["day"])),

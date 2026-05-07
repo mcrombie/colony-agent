@@ -20,7 +20,7 @@ from src.interventions import (
 )
 from src.mechanics import apply_day
 from src.narrative import write_daily_entry, write_personal_history_entry
-from src.people import ensure_people_exist
+from src.people import ensure_people_exist, ensure_president
 
 PROJECT_DIR = Path(__file__).resolve().parent
 STATE_PATH = PROJECT_DIR / "state.json"
@@ -61,6 +61,7 @@ def run_day(
         state_before,
         additional_interventions=company_intervention_requests,
     )
+    ensure_president(state_before)
     environment = environment_for_day(state_before["day"])
     if state_before["population"] <= 0:
         world_event = {

@@ -189,3 +189,9 @@ Blergen Company sent 100 new settlers to Blergen. Clear skies left the day's wor
 
 Day 63 (Year 1, March 4) - Blergen:
 Blergen Company sent 300 food to Blergen. Blergen Company sent supplies to Blergen: 30 wood and 2 security. Clear skies left the day's work mostly to the colony. A severity 3 wolf attack hit the colony, and the president spent wood to strengthen the settlement; the day's changes reduced food by 102, reduced wood by 10, reduced morale by 1, and reduced health by 1. Galen Graye, Hana Graye, and Kara Graye met the wolf attack at the edge of camp. Hana Graye, and Kara Graye helped strengthen the settlement. The settlement endures into another morning.
+
+Day 64 (Year 1, March 5) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and Mara Graye directed labor toward the fields; the day's changes increased food by 200, and increased morale by 1. Galen Graye discovered useful clay near the riverbank. Mara Graye, and Orin Graye worked the field expansion. The settlement endures into another morning.
+
+Day 65 (Year 1, March 6) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 wolf attack hit the colony, and Mara Graye spent wood to strengthen the settlement; the day's changes reduced food by 100, and reduced wood by 10. Galen Graye, and Hana Graye met the wolf attack at the edge of camp. Hana Graye, and Kara Graye helped strengthen the settlement. The settlement endures into another morning.

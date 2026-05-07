@@ -4,10 +4,13 @@ from src.mechanics import apply_day
 from src.narrative import write_daily_entry, write_personal_history_entry
 from src.people import (
     character_context_for_prompt,
+    current_president,
     derived_colony_stats,
     ensure_people_exist,
+    ensure_president,
     generate_people,
     living_population,
+    president_context_for_prompt,
     sync_derived_colony_stats,
 )
 
@@ -75,6 +78,43 @@ def test_people_drive_aggregate_population_health_and_morale():
         "health": 4,
         "morale": 5,
     }
+
+
+def test_ensure_president_assigns_specific_living_colonist():
+    state = ensure_people_exist(state_with(people=generate_people(4)))
+    state["people"][2]["status"]["morale"] = 9
+    state["people"][2]["status"]["health"] = 8
+
+    ensure_president(state)
+
+    assert state["president"] == {
+        "id": state["people"][2]["id"],
+        "name": state["people"][2]["name"],
+        "since_day": 1,
+    }
+    assert current_president(state)["id"] == state["people"][2]["id"]
+    assert president_context_for_prompt(state)["id"] == state["people"][2]["id"]
+
+
+def test_ensure_president_replaces_dead_president():
+    state = ensure_people_exist(state_with(people=generate_people(3)))
+    state["president"] = {"id": "person_001", "name": "Ada Aster", "since_day": 1}
+    state["people"][0]["status"]["alive"] = False
+    state["people"][0]["status"]["health"] = 0
+
+    ensure_president(state)
+
+    assert state["president"]["id"] != "person_001"
+    assert current_president(state)["id"] == state["president"]["id"]
+
+
+def test_ensure_president_removes_president_when_colony_empty():
+    state = ensure_people_exist(state_with(population=0, people=[]))
+    state["president"] = {"id": "person_001", "name": "Ada Aster", "since_day": 1}
+
+    ensure_president(state)
+
+    assert "president" not in state
 
 
 def test_character_context_for_prompt_is_bounded_and_compact():
@@ -294,6 +334,17 @@ def test_history_entry_includes_person_level_story_beat():
 
     discovery_summary = event_record["people_events"]["discoveries"][0]["summary"]
     assert discovery_summary in entry
+
+
+def test_history_entry_names_specific_president():
+    state_before = ensure_people_exist(state_with(population=12))
+    ensure_president(state_before)
+    president_name = state_before["president"]["name"]
+    state_after, event_record = apply_day(state_before, "quiet_day", "gather_wood")
+
+    entry = write_daily_entry(state_before, event_record, state_after)
+
+    assert f"{president_name} sent crews out to gather wood" in entry
 
 
 def test_history_entry_includes_date_weather_and_severity():

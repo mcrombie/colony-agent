@@ -588,3 +588,14 @@ Day 63 - Blergen Personal Stories:
 - Kara Graye (guard) defended the camp from wolves. health 6->5; hunger 1->0.
 - Hana Graye (builder) helped strengthen the settlement. health 6->5; hunger 1->0.
 - Kara Graye (guard) helped strengthen the settlement. health 6->5; hunger 1->0.
+
+Day 64 - Blergen Personal Stories:
+- Galen Graye (scout) discovered useful clay near the riverbank. morale 9->10.
+- Mara Graye (forager) worked the field expansion. Status unchanged.
+- Orin Graye (farmer) worked the field expansion. Status unchanged.
+
+Day 65 - Blergen Personal Stories:
+- Galen Graye (scout) defended the camp from wolves. morale 10->9.
+- Hana Graye (builder) defended the camp from wolves. Status unchanged.
+- Hana Graye (builder) helped strengthen the settlement. Status unchanged.
+- Kara Graye (guard) helped strengthen the settlement. morale 8->9.

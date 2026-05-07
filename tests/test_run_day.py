@@ -123,8 +123,10 @@ def test_run_day_company_settlers_revive_before_selectors(monkeypatch):
 
     assert calls == {"world": 1, "leadership": 1}
     assert saved["population"] == 3
+    assert saved["president"]["id"] == "person_003"
     assert "company_interventions" not in saved
     assert event_record["company_interventions"][0]["effects"] == {"population": 3}
+    assert event_record["president"]["id"] == "person_003"
 
 
 def test_run_day_accepts_cli_company_interventions(monkeypatch):

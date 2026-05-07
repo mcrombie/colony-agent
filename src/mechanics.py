@@ -110,6 +110,7 @@ def apply_day(
         "world_event": world_event_type,
         "event_details": event_details,
         "leadership_action": leadership_action,
+        "president": deepcopy(before.get("president")),
         "effects": _actual_effects(before, after),
         "survival_effects": survival_effects,
         "people_events": people_events,

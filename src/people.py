@@ -200,6 +200,58 @@ def sync_derived_colony_stats(state: dict[str, Any]) -> dict[str, Any]:
     return state
 
 
+def ensure_president(state: dict[str, Any]) -> dict[str, Any]:
+    """Ensure the colony's president is a specific living colonist."""
+    if "people" not in state:
+        return state
+
+    people = living_people(state)
+    if not people:
+        state.pop("president", None)
+        return state
+
+    president = current_president(state)
+    if president:
+        state["president"]["name"] = president["name"]
+        return state
+
+    new_president = _select_president(people)
+    state["president"] = {
+        "id": new_president["id"],
+        "name": new_president["name"],
+        "since_day": state.get("day", 1),
+    }
+    _add_story_note(
+        new_president,
+        f"{new_president['name']} became president of Blergen on day {state.get('day', 1)}.",
+    )
+    return state
+
+
+def current_president(state: dict[str, Any]) -> dict[str, Any] | None:
+    """Return the living president record, if one exists."""
+    president_id = state.get("president", {}).get("id")
+    if not president_id:
+        return None
+
+    for person in living_people(state):
+        if person.get("id") == president_id:
+            return person
+
+    return None
+
+
+def president_context_for_prompt(state: dict[str, Any]) -> dict[str, Any] | None:
+    """Return compact current-president context for selector prompts."""
+    president = current_president(state)
+    if not president:
+        return None
+
+    context = _person_prompt_summary(president)
+    context["since_day"] = state.get("president", {}).get("since_day")
+    return context
+
+
 def add_new_people(
     state: dict[str, Any],
     count: int,
@@ -436,6 +488,18 @@ def _next_person_index(people: list[dict[str, Any]]) -> int:
             continue
 
     return max_index
+
+
+def _select_president(people: list[dict[str, Any]]) -> dict[str, Any]:
+    return sorted(
+        people,
+        key=lambda person: (
+            -person.get("status", {}).get("morale", 0),
+            -person.get("status", {}).get("health", 0),
+            -person.get("age", 0),
+            person["id"],
+        ),
+    )[0]
 
 
 def _select_casualties(

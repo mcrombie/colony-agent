@@ -18,18 +18,18 @@ EVENT_OPENINGS = {
 }
 
 ACTION_PHRASES = {
-    "preserve_resources": "the president told the colonists to preserve resources",
-    "ration_food": "the president ordered tighter food rationing",
-    "gather_wood": "the president sent crews out to gather wood",
-    "expand_fields": "the president directed labor toward the fields",
-    "strengthen_defenses": "the president spent wood to strengthen the settlement",
+    "preserve_resources": "{president} told the colonists to preserve resources",
+    "ration_food": "{president} ordered tighter food rationing",
+    "gather_wood": "{president} sent crews out to gather wood",
+    "expand_fields": "{president} directed labor toward the fields",
+    "strengthen_defenses": "{president} spent wood to strengthen the settlement",
     "failed_strengthen_defenses": (
-        "the president tried to strengthen the settlement, but there was not enough wood"
+        "{president} tried to strengthen the settlement, but there was not enough wood"
     ),
-    "tend_the_sick": "the president organized care for the sick",
-    "mediate_dispute": "the president worked to mediate the tension",
-    "send_scouts": "the president sent scouts beyond the settlement",
-    "hold_festival": "the president called a festival to steady morale",
+    "tend_the_sick": "{president} organized care for the sick",
+    "mediate_dispute": "{president} worked to mediate the tension",
+    "send_scouts": "{president} sent scouts beyond the settlement",
+    "hold_festival": "{president} called a festival to steady morale",
     "no_action": "no one remained to give orders or carry them out",
 }
 
@@ -60,7 +60,7 @@ def write_daily_entry(
 
     body = (
         f"{_event_opening(world_event, event_record.get('event_details', {}))}, and "
-        f"{ACTION_PHRASES[leadership_action]}"
+        f"{_action_phrase(leadership_action, event_record)}"
     )
     if weather_text:
         body = f"{weather_text} {body}"
@@ -147,6 +147,16 @@ def _describe_company_interventions(interventions: list[dict[str, Any]]) -> str:
         if intervention.get("summary")
     ]
     return " ".join(summaries)
+
+
+def _action_phrase(leadership_action: str, event_record: dict[str, Any]) -> str:
+    template = ACTION_PHRASES[leadership_action]
+    return template.format(president=_president_name(event_record))
+
+
+def _president_name(event_record: dict[str, Any]) -> str:
+    president = event_record.get("president") or {}
+    return president.get("name") or "the president"
 
 
 def _empty_colony_body(weather_text: str, effects_text: str) -> str:

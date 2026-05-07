@@ -37,6 +37,12 @@ credits a scout or forager, and work orders name the colonists who took part.
 These personal consequences are saved in each colonist's story notes and in the
 day's `people_events` record.
 
+The colony president is also a specific living colonist. The saved state tracks
+their `id`, `name`, and first day in office. If no living president exists, the
+simulation deterministically selects one from the living colonists before asking
+for a leadership action. If the colony has no living people, the office is
+removed until new settlers arrive.
+
 `population`, `health`, and `morale` are derived from the living colonists.
 Population is the count of living people, while health and morale are integer
 averages of living colonists' personal status values. Food, wood, security, and

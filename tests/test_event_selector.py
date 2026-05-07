@@ -207,6 +207,11 @@ def test_world_prompt_includes_bounded_character_context():
 
 def test_leadership_prompt_selects_event_relevant_colonists():
     state = state_with_people(count=12)
+    state["president"] = {
+        "id": state["people"][0]["id"],
+        "name": state["people"][0]["name"],
+        "since_day": 1,
+    }
 
     prompt = _state_for_leadership_prompt(
         state,
@@ -218,6 +223,8 @@ def test_leadership_prompt_selects_event_relevant_colonists():
     }
 
     assert featured_roles == {"scout", "forager"}
+    assert prompt["president"]["id"] == state["people"][0]["id"]
+    assert prompt["president"]["name"] == state["people"][0]["name"]
     assert prompt["today_world_event"] == "discovery"
     assert prompt["today_event_details"]["severity"] == 1
     assert "Named colonists can inform priorities" in prompt["important_rules"][-1]
