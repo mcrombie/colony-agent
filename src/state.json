@@ -1,11 +1,12 @@
 {
-  "day": 51,
+  "day": 54,
+  "year": 1,
   "colony_name": "Blergen",
-  "population": 97,
-  "food": 52,
-  "wood": 11,
-  "morale": 1,
-  "security": 8,
+  "population": 96,
+  "food": 29,
+  "wood": 0,
+  "morale": 0,
+  "security": 7,
   "health": 1,
   "known_threats": [
     "wolves",
@@ -737,6 +738,230 @@
         "deaths": []
       },
       "summary": "A severity 4 storm struck Blergen. Weather: Cold clear air settled over the camp. The president spent wood to strengthen the settlement."
+    },
+    {
+      "day": 51,
+      "date": {
+        "year": 1,
+        "day_of_year": 51,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 20,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "overcast",
+        "severity": 1,
+        "summary": "A gray sky pressed low over Blergen."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {},
+      "leadership_action": "tend_the_sick",
+      "effects": {
+        "food": -7,
+        "morale": 2,
+        "health": 1
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "fresh water north of camp",
+            "people": [
+              {
+                "id": "person_053",
+                "name": "Ada Cairn"
+              }
+            ],
+            "summary": "Ada Cairn discovered fresh water north of camp."
+          }
+        ],
+        "actions": [
+          {
+            "type": "tended_the_sick",
+            "people": [
+              {
+                "id": "person_044",
+                "name": "Rhea Bren"
+              },
+              {
+                "id": "person_095",
+                "name": "Quin Dove"
+              },
+              {
+                "id": "person_022",
+                "name": "Vera Aster"
+              },
+              {
+                "id": "person_073",
+                "name": "Una Cairn"
+              }
+            ],
+            "summary": "Rhea Bren, Quin Dove, Vera Aster, and Una Cairn received care."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered fresh water north of camp. Weather: A gray sky pressed low over Blergen. The president organized care for the sick."
+    },
+    {
+      "day": 52,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 52,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 21,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "winter_storm",
+        "severity": 4,
+        "summary": "A winter storm threatened the colony's shelters and stores."
+      },
+      "weather_effects": {
+        "wood": -2,
+        "morale": -1
+      },
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 5
+      },
+      "leadership_action": "strengthen_defenses",
+      "effects": {
+        "population": -1,
+        "food": -12,
+        "wood": -11,
+        "morale": -2,
+        "security": 1,
+        "health": -1
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 5,
+            "people": [
+              {
+                "id": "person_080",
+                "name": "Bram Dove"
+              },
+              {
+                "id": "person_087",
+                "name": "Iris Dove"
+              },
+              {
+                "id": "person_094",
+                "name": "Pia Dove"
+              },
+              {
+                "id": "person_079",
+                "name": "Ada Dove"
+              },
+              {
+                "id": "person_086",
+                "name": "Hana Dove"
+              }
+            ],
+            "summary": "Bram Dove, Iris Dove, Pia Dove, Ada Dove, and Hana Dove bore the worst of the storm."
+          },
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_054",
+                "name": "Bram Cairn"
+              },
+              {
+                "id": "person_057",
+                "name": "Elia Cairn"
+              }
+            ],
+            "summary": "Bram Cairn, and Elia Cairn helped strengthen the settlement."
+          }
+        ],
+        "deaths": [
+          {
+            "id": "person_080",
+            "name": "Bram Dove",
+            "cause": "storm",
+            "summary": "Bram Dove died during a storm on day 52."
+          }
+        ]
+      },
+      "summary": "A severity 5 storm struck Blergen. Weather: A winter storm threatened the colony's shelters and stores. The president spent wood to strengthen the settlement."
+    },
+    {
+      "day": 53,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 53,
+        "month": "February",
+        "month_number": 2,
+        "day_of_month": 22,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "snow",
+        "severity": 2,
+        "summary": "Snow made paths and work crews slower."
+      },
+      "weather_effects": {
+        "wood": -1
+      },
+      "event_type": "wolf_attack",
+      "world_event": "wolf_attack",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "failed_strengthen_defenses",
+      "effects": {
+        "food": -4,
+        "morale": -1,
+        "security": -2
+      },
+      "survival_effects": {
+        "food": -4
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "defended_wolf_attack",
+            "severity": 3,
+            "people": [
+              {
+                "id": "person_054",
+                "name": "Bram Cairn"
+              },
+              {
+                "id": "person_057",
+                "name": "Elia Cairn"
+              },
+              {
+                "id": "person_063",
+                "name": "Kara Cairn"
+              }
+            ],
+            "summary": "Bram Cairn, Elia Cairn, and Kara Cairn met the wolf attack at the edge of camp."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 3 wolf attack hit the settlement. Weather: Snow made paths and work crews slower. The president tried to strengthen the settlement, but there was not enough wood."
     }
   ],
   "people": [
@@ -763,7 +988,7 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -793,7 +1018,7 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -822,8 +1047,8 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 2,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -852,8 +1077,8 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 2,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -882,8 +1107,8 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 2,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -912,8 +1137,8 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 2,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -941,8 +1166,8 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 2,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -971,8 +1196,8 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
-        "morale": 2,
+        "health": 4,
+        "morale": 1,
         "hunger": 0
       },
       "story": {
@@ -1003,8 +1228,8 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
-        "morale": 1,
+        "health": 2,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -1033,7 +1258,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1063,7 +1288,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1093,7 +1318,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1123,7 +1348,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1153,7 +1378,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1183,7 +1408,7 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
+        "health": 4,
         "morale": 2,
         "hunger": 0
       },
@@ -1214,7 +1439,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1244,7 +1469,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1274,7 +1499,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1304,7 +1529,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1334,7 +1559,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1364,7 +1589,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1394,13 +1619,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 3,
         "morale": 0,
         "hunger": 1
       },
       "story": {
         "notable_events": [
-          "Vera Aster endured a severity 4 storm on day 50."
+          "Vera Aster endured a severity 4 storm on day 50.",
+          "Vera Aster received care from the sick ward on day 51."
         ]
       }
     },
@@ -1426,7 +1652,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1456,7 +1682,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1485,7 +1711,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1515,7 +1741,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1545,7 +1771,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1575,7 +1801,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1605,7 +1831,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1635,7 +1861,7 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
+        "health": 4,
         "morale": 2,
         "hunger": 0
       },
@@ -1667,7 +1893,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1697,7 +1923,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1727,7 +1953,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1756,7 +1982,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1786,7 +2012,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1816,7 +2042,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1846,7 +2072,7 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
+        "health": 4,
         "morale": 2,
         "hunger": 0
       },
@@ -1878,7 +2104,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1908,7 +2134,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1938,7 +2164,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1968,7 +2194,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -1998,7 +2224,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2027,7 +2253,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2057,13 +2283,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 3,
         "morale": 0,
         "hunger": 1
       },
       "story": {
         "notable_events": [
-          "Rhea Bren endured a severity 4 storm on day 50."
+          "Rhea Bren endured a severity 4 storm on day 50.",
+          "Rhea Bren received care from the sick ward on day 51."
         ]
       }
     },
@@ -2089,7 +2316,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2119,7 +2346,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2149,7 +2376,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2179,7 +2406,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2209,7 +2436,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 3,
         "hunger": 0
       },
@@ -2245,7 +2472,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2275,7 +2502,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2308,7 +2535,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2339,12 +2566,13 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 2,
+        "morale": 1,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Ada Cairn scouted beyond the settlement on day 44."
+          "Ada Cairn scouted beyond the settlement on day 44.",
+          "Ada Cairn discovered fresh water north of camp on day 51."
         ]
       }
     },
@@ -2371,12 +2599,14 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 2,
+        "morale": 4,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Bram Cairn helped strengthen the settlement on day 50."
+          "Bram Cairn helped strengthen the settlement on day 50.",
+          "Bram Cairn helped strengthen the settlement on day 52.",
+          "Bram Cairn faced a severity 3 wolf attack on day 53."
         ]
       }
     },
@@ -2402,7 +2632,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2432,7 +2662,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2463,12 +2693,14 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 2,
+        "morale": 4,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Elia Cairn helped strengthen the settlement on day 50."
+          "Elia Cairn helped strengthen the settlement on day 50.",
+          "Elia Cairn helped strengthen the settlement on day 52.",
+          "Elia Cairn faced a severity 3 wolf attack on day 53."
         ]
       }
     },
@@ -2494,7 +2726,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2524,7 +2756,7 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
+        "health": 4,
         "morale": 2,
         "hunger": 0
       },
@@ -2556,7 +2788,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2585,7 +2817,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2615,7 +2847,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2650,7 +2882,9 @@
         "hunger": 0
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Kara Cairn faced a severity 3 wolf attack on day 53."
+        ]
       }
     },
     {
@@ -2675,7 +2909,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2705,7 +2939,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2735,7 +2969,7 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
+        "health": 4,
         "morale": 2,
         "hunger": 0
       },
@@ -2767,7 +3001,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2797,7 +3031,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2827,7 +3061,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2856,7 +3090,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2886,7 +3120,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2916,7 +3150,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -2946,13 +3180,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 3,
         "morale": 0,
         "hunger": 1
       },
       "story": {
         "notable_events": [
-          "Una Cairn endured a severity 4 storm on day 50."
+          "Una Cairn endured a severity 4 storm on day 50.",
+          "Una Cairn received care from the sick ward on day 51."
         ]
       }
     },
@@ -2978,7 +3213,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -3008,7 +3243,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -3038,7 +3273,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -3068,7 +3303,7 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 2,
         "morale": 1,
         "hunger": 0
       },
@@ -3129,10 +3364,12 @@
         "alive": true,
         "health": 1,
         "morale": 1,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Ada Dove endured a severity 5 storm on day 52."
+        ]
       }
     },
     {
@@ -3156,13 +3393,16 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "alive": false,
+        "health": 0,
+        "morale": 2,
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Bram Dove endured a severity 5 storm on day 52.",
+          "Bram Dove died during a storm on day 52."
+        ]
       }
     },
     {
@@ -3341,10 +3581,12 @@
         "alive": true,
         "health": 1,
         "morale": 1,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Hana Dove endured a severity 5 storm on day 52."
+        ]
       }
     },
     {
@@ -3371,10 +3613,12 @@
         "alive": true,
         "health": 1,
         "morale": 1,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Iris Dove endured a severity 5 storm on day 52."
+        ]
       }
     },
     {
@@ -3551,7 +3795,7 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -3581,11 +3825,13 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
-        "hunger": 0
+        "morale": 0,
+        "hunger": 1
       },
       "story": {
-        "notable_events": []
+        "notable_events": [
+          "Pia Dove endured a severity 5 storm on day 52."
+        ]
       }
     },
     {
@@ -3610,13 +3856,14 @@
       },
       "status": {
         "alive": true,
-        "health": 1,
+        "health": 3,
         "morale": 0,
         "hunger": 1
       },
       "story": {
         "notable_events": [
-          "Quin Dove endured a severity 4 storm on day 50."
+          "Quin Dove endured a severity 4 storm on day 50.",
+          "Quin Dove received care from the sick ward on day 51."
         ]
       }
     },
@@ -3643,7 +3890,7 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
+        "morale": 0,
         "hunger": 0
       },
       "story": {
@@ -3672,7 +3919,7 @@
       "status": {
         "alive": true,
         "health": 1,
-        "morale": 1,
+        "morale": 0,
         "hunger": 0
       },
       "story": {

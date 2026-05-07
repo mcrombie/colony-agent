@@ -184,6 +184,7 @@ def test_world_prompt_includes_bounded_character_context():
 
     assert character_context["living_population"] == 12
     assert character_context["role_counts"]["scout"] == 1
+    assert prompt["current_state"]["year"] == 1
     assert len(character_context["featured_colonists"]) <= 8
     assert prompt["environment"] == environment
     assert "wolf_attack" in prompt["allowed_world_events"]

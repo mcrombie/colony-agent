@@ -122,6 +122,17 @@ def date_for_day(day: int) -> dict[str, Any]:
     raise RuntimeError("calendar calculation fell outside a 365-day year")
 
 
+def year_for_day(day: int) -> int:
+    """Return the colony year for a simulation day, starting with year 1."""
+    return date_for_day(day)["year"]
+
+
+def sync_calendar_state(state: dict[str, Any]) -> dict[str, Any]:
+    """Mutate state so its top-level calendar fields match its day."""
+    state["year"] = year_for_day(state["day"])
+    return state
+
+
 def weather_for_day(day: int) -> dict[str, Any]:
     """Return deterministic daily weather for the given simulation day."""
     date = date_for_day(day)

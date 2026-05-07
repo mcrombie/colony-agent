@@ -44,8 +44,10 @@ known threats remain colony-level fields.
 
 ## Seasons, weather, and threats
 
-Day 1 is January 1 in the colony calendar. Dates are derived from the saved day
-number, so day 50 is February 19. The simulation uses four seasons:
+Day 1 is January 1 of year 1 in the colony calendar. The saved state tracks the
+current year, and dates are derived from the saved day number, so day 50 is
+February 19 of year 1 and day 366 is January 1 of year 2. The simulation uses
+four seasons:
 
 - Winter: December, January, February
 - Spring: March, April, May

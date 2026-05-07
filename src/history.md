@@ -150,3 +150,12 @@ No great outside event disturbed Blergen, and the president told the colonists t
 
 Day 50 (February 19) - Blergen:
 Cold clear air settled over the camp. A severity 4 storm tested the colony, and the president spent wood to strengthen the settlement; the day's changes reduced food by 10, reduced wood by 14, and increased security by 1. Rhea Bren, Quin Dove, Vera Aster, and Una Cairn bore the worst of the storm. Bram Cairn, and Elia Cairn helped strengthen the settlement. The settlement survives, but sickness is wearing people down.
+
+Day 51 (February 20) - Blergen:
+A gray sky pressed low over Blergen. A discovery gave the colony something new to discuss, and the president organized care for the sick; the day's changes reduced food by 7, increased morale by 2, and increased health by 1. Ada Cairn discovered fresh water north of camp. Rhea Bren, Quin Dove, Vera Aster, and Una Cairn received care. The settlement survives, but sickness is wearing people down.
+
+Day 52 (February 21) - Blergen:
+A winter storm threatened the colony's shelters and stores. A severity 5 storm tested the colony, and the president spent wood to strengthen the settlement; the day's changes reduced population by 1, reduced food by 12, reduced wood by 11, reduced morale by 2, increased security by 1, and reduced health by 1. Bram Dove, Iris Dove, Pia Dove, Ada Dove, and Hana Dove bore the worst of the storm. Bram Cairn, and Elia Cairn helped strengthen the settlement. Bram Dove died. The settlement survives, but sickness is wearing people down.
+
+Day 53 (Year 1, February 22) - Blergen:
+Snow made paths and work crews slower. A severity 3 wolf attack hit the colony, and the president tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 4, reduced morale by 1, and reduced security by 2. Bram Cairn, Elia Cairn, and Kara Cairn met the wolf attack at the edge of camp. Hunger is becoming the settlement's most urgent worry.

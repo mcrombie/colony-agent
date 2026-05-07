@@ -8,6 +8,7 @@ import time
 from typing import Any, Literal
 
 from src.constants import LEADERSHIP_ACTION_TYPES, WORLD_EVENT_TYPES
+from src.environment import year_for_day
 from src.people import character_context_for_prompt
 
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
@@ -267,6 +268,7 @@ def _state_for_world_prompt(
         "allowed_world_events": list(WORLD_EVENT_TYPES),
         "current_state": {
             "day": state["day"],
+            "year": state.get("year", year_for_day(state["day"])),
             "colony_name": state["colony_name"],
             "population": state["population"],
             "food": state["food"],
@@ -300,6 +302,7 @@ def _state_for_leadership_prompt(
         "allowed_leadership_actions": list(LEADERSHIP_ACTION_TYPES),
         "current_state": {
             "day": state["day"],
+            "year": state.get("year", year_for_day(state["day"])),
             "colony_name": state["colony_name"],
             "population": state["population"],
             "food": state["food"],

@@ -58,6 +58,18 @@ def test_day_increments():
     after, _ = apply_day(state, "good_harvest", "preserve_resources")
 
     assert after["day"] == 10
+    assert after["year"] == 1
+
+
+def test_year_updates_when_day_rolls_into_next_year():
+    state = state_with(day=365)
+
+    after, event_record = apply_day(state, "quiet_day", "preserve_resources")
+
+    assert event_record["day"] == 365
+    assert event_record["year"] == 1
+    assert after["day"] == 366
+    assert after["year"] == 2
 
 
 def test_daily_food_is_consumed_regardless_of_event():

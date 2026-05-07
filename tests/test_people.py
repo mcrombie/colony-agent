@@ -281,7 +281,7 @@ def test_history_entry_includes_date_weather_and_severity():
 
     entry = write_daily_entry(state_before, event_record, state_after)
 
-    assert "Day 1 (January 1) - Blergen:" in entry
+    assert "Day 1 (Year 1, January 1) - Blergen:" in entry
     assert "A gray sky pressed low over Blergen." in entry
     assert "severity 2 wolf attack" in entry
 

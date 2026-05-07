@@ -39,3 +39,25 @@ Day 50 - Blergen Personal Stories:
 - Una Cairn (scout) bore the worst of the storm. morale 1->0; hunger 0->1.
 - Bram Cairn (builder) helped strengthen the settlement. morale 1->2.
 - Elia Cairn (guard) helped strengthen the settlement. morale 1->2.
+
+Day 51 - Blergen Personal Stories:
+- Ada Cairn (scout) discovered fresh water north of camp. morale 2->3.
+- Rhea Bren (builder) received care. health 1->3; morale 0->1.
+- Quin Dove (healer) received care. health 1->3; morale 0->1.
+- Vera Aster (woodcutter) received care. health 1->3; morale 0->1.
+- Una Cairn (scout) received care. health 1->3; morale 0->1.
+
+Day 52 - Blergen Personal Stories:
+- Bram Dove (carpenter) bore the worst of the storm. health 1->0; morale 3->2; hunger 0->1; died.
+- Iris Dove (guard) bore the worst of the storm. morale 3->2; hunger 0->1.
+- Pia Dove (builder) bore the worst of the storm. morale 2->1; hunger 0->1.
+- Ada Dove (forager) bore the worst of the storm. morale 3->2; hunger 0->1.
+- Hana Dove (cook) bore the worst of the storm. morale 3->2; hunger 0->1.
+- Bram Cairn (builder) helped strengthen the settlement. morale 4->5.
+- Elia Cairn (guard) helped strengthen the settlement. morale 4->5.
+- Bram Dove (carpenter) died of storm. health 1->0; morale 3->2; hunger 0->1; died.
+
+Day 53 - Blergen Personal Stories:
+- Bram Cairn (builder) defended the camp from wolves. health 2->1; morale 5->4.
+- Elia Cairn (guard) defended the camp from wolves. health 2->1; morale 5->4.
+- Kara Cairn (scout) defended the camp from wolves. health 2->1; morale 2->1.

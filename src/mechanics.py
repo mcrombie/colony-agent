@@ -10,7 +10,7 @@ from src.constants import (
     ALLOWED_WORLD_EVENT_TYPES,
     FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE,
 )
-from src.environment import environment_for_day
+from src.environment import environment_for_day, sync_calendar_state
 from src.people import (
     apply_daily_people_events,
     apply_population_loss_to_people,
@@ -51,7 +51,7 @@ def apply_day(
     if leadership_action not in ALLOWED_LEADERSHIP_ACTION_TYPES:
         raise ValueError(f"Unknown leadership action: {leadership_action}")
 
-    before = ensure_people_exist(state)
+    before = sync_calendar_state(ensure_people_exist(state))
     after = deepcopy(before)
     environment = environment or environment_for_day(before["day"])
     weather = environment["weather"]
@@ -95,9 +95,11 @@ def apply_day(
     )
     sync_derived_colony_stats(after)
     after["day"] = before["day"] + 1
+    sync_calendar_state(after)
 
     event_record = {
         "day": before["day"],
+        "year": before["year"],
         "date": environment["date"],
         "weather": weather,
         "weather_effects": weather_effects,

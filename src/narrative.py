@@ -299,6 +299,9 @@ def _date_text(date: dict[str, Any] | None) -> str:
     if not date:
         return ""
 
+    if "year" in date:
+        return f" (Year {date['year']}, {date['month']} {date['day_of_month']})"
+
     return f" ({date['month']} {date['day_of_month']})"
 
 
