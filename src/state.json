@@ -1,13 +1,13 @@
 {
-  "day": 62,
+  "day": 64,
   "year": 1,
   "colony_name": "Blergen",
-  "population": 0,
-  "food": 0,
-  "wood": 0,
-  "morale": 0,
-  "security": 7,
-  "health": 0,
+  "population": 100,
+  "food": 198,
+  "wood": 25,
+  "morale": 7,
+  "security": 9,
+  "health": 5,
   "known_threats": [
     "wolves",
     "winter"
@@ -3149,6 +3149,578 @@
         "deaths": []
       },
       "summary": "No colonists remained in Blergen. Weather: Clear skies left the day's work mostly to the colony. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 62,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 62,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 3,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {},
+      "leadership_action": "send_scouts",
+      "effects": {
+        "wood": 5,
+        "morale": 2
+      },
+      "survival_effects": {
+        "missed_rations": 100
+      },
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "old trail markers beyond the fields",
+            "people": [
+              {
+                "id": "person_163",
+                "name": "Galen Graye"
+              }
+            ],
+            "summary": "Galen Graye discovered old trail markers beyond the fields."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_163",
+                "name": "Galen Graye"
+              },
+              {
+                "id": "person_169",
+                "name": "Mara Graye"
+              }
+            ],
+            "summary": "Galen Graye, and Mara Graye scouted beyond the settlement."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 100,
+            "people": [
+              {
+                "id": "person_163",
+                "name": "Galen Graye"
+              },
+              {
+                "id": "person_169",
+                "name": "Mara Graye"
+              },
+              {
+                "id": "person_098",
+                "name": "Talia Dove"
+              },
+              {
+                "id": "person_099",
+                "name": "Una Dove"
+              },
+              {
+                "id": "person_100",
+                "name": "Vera Dove"
+              },
+              {
+                "id": "person_101",
+                "name": "Wynn Dove"
+              },
+              {
+                "id": "person_102",
+                "name": "Xara Dove"
+              },
+              {
+                "id": "person_103",
+                "name": "Yuri Dove"
+              },
+              {
+                "id": "person_104",
+                "name": "Zara Dove"
+              },
+              {
+                "id": "person_105",
+                "name": "Ada Ember"
+              },
+              {
+                "id": "person_106",
+                "name": "Bram Ember"
+              },
+              {
+                "id": "person_107",
+                "name": "Cora Ember"
+              },
+              {
+                "id": "person_108",
+                "name": "Dain Ember"
+              },
+              {
+                "id": "person_109",
+                "name": "Elia Ember"
+              },
+              {
+                "id": "person_110",
+                "name": "Finn Ember"
+              },
+              {
+                "id": "person_111",
+                "name": "Galen Ember"
+              },
+              {
+                "id": "person_112",
+                "name": "Hana Ember"
+              },
+              {
+                "id": "person_113",
+                "name": "Iris Ember"
+              },
+              {
+                "id": "person_114",
+                "name": "Jory Ember"
+              },
+              {
+                "id": "person_115",
+                "name": "Kara Ember"
+              },
+              {
+                "id": "person_116",
+                "name": "Lio Ember"
+              },
+              {
+                "id": "person_117",
+                "name": "Mara Ember"
+              },
+              {
+                "id": "person_118",
+                "name": "Niko Ember"
+              },
+              {
+                "id": "person_119",
+                "name": "Orin Ember"
+              },
+              {
+                "id": "person_120",
+                "name": "Pia Ember"
+              },
+              {
+                "id": "person_121",
+                "name": "Quin Ember"
+              },
+              {
+                "id": "person_122",
+                "name": "Rhea Ember"
+              },
+              {
+                "id": "person_123",
+                "name": "Soren Ember"
+              },
+              {
+                "id": "person_124",
+                "name": "Talia Ember"
+              },
+              {
+                "id": "person_125",
+                "name": "Una Ember"
+              },
+              {
+                "id": "person_126",
+                "name": "Vera Ember"
+              },
+              {
+                "id": "person_127",
+                "name": "Wynn Ember"
+              },
+              {
+                "id": "person_128",
+                "name": "Xara Ember"
+              },
+              {
+                "id": "person_129",
+                "name": "Yuri Ember"
+              },
+              {
+                "id": "person_130",
+                "name": "Zara Ember"
+              },
+              {
+                "id": "person_131",
+                "name": "Ada Fenn"
+              },
+              {
+                "id": "person_132",
+                "name": "Bram Fenn"
+              },
+              {
+                "id": "person_133",
+                "name": "Cora Fenn"
+              },
+              {
+                "id": "person_134",
+                "name": "Dain Fenn"
+              },
+              {
+                "id": "person_135",
+                "name": "Elia Fenn"
+              },
+              {
+                "id": "person_136",
+                "name": "Finn Fenn"
+              },
+              {
+                "id": "person_137",
+                "name": "Galen Fenn"
+              },
+              {
+                "id": "person_138",
+                "name": "Hana Fenn"
+              },
+              {
+                "id": "person_139",
+                "name": "Iris Fenn"
+              },
+              {
+                "id": "person_140",
+                "name": "Jory Fenn"
+              },
+              {
+                "id": "person_141",
+                "name": "Kara Fenn"
+              },
+              {
+                "id": "person_142",
+                "name": "Lio Fenn"
+              },
+              {
+                "id": "person_143",
+                "name": "Mara Fenn"
+              },
+              {
+                "id": "person_144",
+                "name": "Niko Fenn"
+              },
+              {
+                "id": "person_145",
+                "name": "Orin Fenn"
+              },
+              {
+                "id": "person_146",
+                "name": "Pia Fenn"
+              },
+              {
+                "id": "person_147",
+                "name": "Quin Fenn"
+              },
+              {
+                "id": "person_148",
+                "name": "Rhea Fenn"
+              },
+              {
+                "id": "person_149",
+                "name": "Soren Fenn"
+              },
+              {
+                "id": "person_150",
+                "name": "Talia Fenn"
+              },
+              {
+                "id": "person_151",
+                "name": "Una Fenn"
+              },
+              {
+                "id": "person_152",
+                "name": "Vera Fenn"
+              },
+              {
+                "id": "person_153",
+                "name": "Wynn Fenn"
+              },
+              {
+                "id": "person_154",
+                "name": "Xara Fenn"
+              },
+              {
+                "id": "person_155",
+                "name": "Yuri Fenn"
+              },
+              {
+                "id": "person_156",
+                "name": "Zara Fenn"
+              },
+              {
+                "id": "person_157",
+                "name": "Ada Graye"
+              },
+              {
+                "id": "person_158",
+                "name": "Bram Graye"
+              },
+              {
+                "id": "person_159",
+                "name": "Cora Graye"
+              },
+              {
+                "id": "person_160",
+                "name": "Dain Graye"
+              },
+              {
+                "id": "person_161",
+                "name": "Elia Graye"
+              },
+              {
+                "id": "person_162",
+                "name": "Finn Graye"
+              },
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              },
+              {
+                "id": "person_165",
+                "name": "Iris Graye"
+              },
+              {
+                "id": "person_166",
+                "name": "Jory Graye"
+              },
+              {
+                "id": "person_167",
+                "name": "Kara Graye"
+              },
+              {
+                "id": "person_168",
+                "name": "Lio Graye"
+              },
+              {
+                "id": "person_170",
+                "name": "Niko Graye"
+              },
+              {
+                "id": "person_171",
+                "name": "Orin Graye"
+              },
+              {
+                "id": "person_172",
+                "name": "Pia Graye"
+              },
+              {
+                "id": "person_173",
+                "name": "Quin Graye"
+              },
+              {
+                "id": "person_174",
+                "name": "Rhea Graye"
+              },
+              {
+                "id": "person_175",
+                "name": "Soren Graye"
+              },
+              {
+                "id": "person_176",
+                "name": "Talia Graye"
+              },
+              {
+                "id": "person_177",
+                "name": "Una Graye"
+              },
+              {
+                "id": "person_178",
+                "name": "Vera Graye"
+              },
+              {
+                "id": "person_179",
+                "name": "Wynn Graye"
+              },
+              {
+                "id": "person_180",
+                "name": "Xara Graye"
+              },
+              {
+                "id": "person_181",
+                "name": "Yuri Graye"
+              },
+              {
+                "id": "person_182",
+                "name": "Zara Graye"
+              },
+              {
+                "id": "person_183",
+                "name": "Ada Hale"
+              },
+              {
+                "id": "person_184",
+                "name": "Bram Hale"
+              },
+              {
+                "id": "person_185",
+                "name": "Cora Hale"
+              },
+              {
+                "id": "person_186",
+                "name": "Dain Hale"
+              },
+              {
+                "id": "person_187",
+                "name": "Elia Hale"
+              },
+              {
+                "id": "person_188",
+                "name": "Finn Hale"
+              },
+              {
+                "id": "person_189",
+                "name": "Galen Hale"
+              },
+              {
+                "id": "person_190",
+                "name": "Hana Hale"
+              },
+              {
+                "id": "person_191",
+                "name": "Iris Hale"
+              },
+              {
+                "id": "person_192",
+                "name": "Jory Hale"
+              },
+              {
+                "id": "person_193",
+                "name": "Kara Hale"
+              },
+              {
+                "id": "person_194",
+                "name": "Lio Hale"
+              },
+              {
+                "id": "person_195",
+                "name": "Mara Hale"
+              },
+              {
+                "id": "person_196",
+                "name": "Niko Hale"
+              },
+              {
+                "id": "person_197",
+                "name": "Orin Hale"
+              }
+            ],
+            "summary": "Galen Graye, Mara Graye, and Talia Dove, and 97 others went without full rations."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered old trail markers beyond the fields. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement.",
+      "company_interventions": [
+        {
+          "type": "send_settlers",
+          "source": "Blergen Company",
+          "effects": {
+            "population": 100
+          },
+          "summary": "Blergen Company sent 100 new settlers to Blergen."
+        }
+      ]
+    },
+    {
+      "day": 63,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 63,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 4,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "wolf_attack",
+      "world_event": "wolf_attack",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "strengthen_defenses",
+      "effects": {
+        "food": -102,
+        "wood": -10,
+        "morale": -1,
+        "health": -1
+      },
+      "survival_effects": {
+        "food": -100
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "defended_wolf_attack",
+            "severity": 3,
+            "people": [
+              {
+                "id": "person_163",
+                "name": "Galen Graye"
+              },
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              },
+              {
+                "id": "person_167",
+                "name": "Kara Graye"
+              }
+            ],
+            "summary": "Galen Graye, Hana Graye, and Kara Graye met the wolf attack at the edge of camp."
+          },
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              },
+              {
+                "id": "person_167",
+                "name": "Kara Graye"
+              }
+            ],
+            "summary": "Hana Graye, and Kara Graye helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 3 wolf attack hit the settlement. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement.",
+      "company_interventions": [
+        {
+          "type": "send_food",
+          "source": "Blergen Company",
+          "effects": {
+            "food": 300
+          },
+          "summary": "Blergen Company sent 300 food to Blergen."
+        },
+        {
+          "type": "send_supplies",
+          "source": "Blergen Company",
+          "effects": {
+            "wood": 30,
+            "security": 2
+          },
+          "summary": "Blergen Company sent supplies to Blergen: 30 wood and 2 security."
+        }
+      ]
     }
   ],
   "people": [
@@ -6589,6 +7161,3303 @@
           "Soren Dove endured a severity 5 storm on day 58.",
           "Soren Dove went without a full ration on day 58.",
           "Soren Dove died of starvation on day 58."
+        ]
+      }
+    },
+    {
+      "id": "person_098",
+      "name": "Talia Dove",
+      "age": 34,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Talia Dove arrived with a Blergen Company settler convoy.",
+          "Talia Dove went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_099",
+      "name": "Una Dove",
+      "age": 41,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Una Dove arrived with a Blergen Company settler convoy.",
+          "Una Dove went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_100",
+      "name": "Vera Dove",
+      "age": 48,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Vera Dove arrived with a Blergen Company settler convoy.",
+          "Vera Dove went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_101",
+      "name": "Wynn Dove",
+      "age": 55,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Wynn Dove arrived with a Blergen Company settler convoy.",
+          "Wynn Dove went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_102",
+      "name": "Xara Dove",
+      "age": 62,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Xara Dove arrived with a Blergen Company settler convoy.",
+          "Xara Dove went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_103",
+      "name": "Yuri Dove",
+      "age": 18,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Yuri Dove arrived with a Blergen Company settler convoy.",
+          "Yuri Dove went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_104",
+      "name": "Zara Dove",
+      "age": 25,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Zara Dove arrived with a Blergen Company settler convoy.",
+          "Zara Dove went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_105",
+      "name": "Ada Ember",
+      "age": 32,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Ada Ember arrived with a Blergen Company settler convoy.",
+          "Ada Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_106",
+      "name": "Bram Ember",
+      "age": 39,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Bram Ember arrived with a Blergen Company settler convoy.",
+          "Bram Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_107",
+      "name": "Cora Ember",
+      "age": 46,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Cora Ember arrived with a Blergen Company settler convoy.",
+          "Cora Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_108",
+      "name": "Dain Ember",
+      "age": 53,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Dain Ember arrived with a Blergen Company settler convoy.",
+          "Dain Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_109",
+      "name": "Elia Ember",
+      "age": 60,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Elia Ember arrived with a Blergen Company settler convoy.",
+          "Elia Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_110",
+      "name": "Finn Ember",
+      "age": 67,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Finn Ember arrived with a Blergen Company settler convoy.",
+          "Finn Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_111",
+      "name": "Galen Ember",
+      "age": 23,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Galen Ember arrived with a Blergen Company settler convoy.",
+          "Galen Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_112",
+      "name": "Hana Ember",
+      "age": 30,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Hana Ember arrived with a Blergen Company settler convoy.",
+          "Hana Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_113",
+      "name": "Iris Ember",
+      "age": 37,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Iris Ember arrived with a Blergen Company settler convoy.",
+          "Iris Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_114",
+      "name": "Jory Ember",
+      "age": 44,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Jory Ember arrived with a Blergen Company settler convoy.",
+          "Jory Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_115",
+      "name": "Kara Ember",
+      "age": 51,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Kara Ember arrived with a Blergen Company settler convoy.",
+          "Kara Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_116",
+      "name": "Lio Ember",
+      "age": 58,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Lio Ember arrived with a Blergen Company settler convoy.",
+          "Lio Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_117",
+      "name": "Mara Ember",
+      "age": 65,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Mara Ember arrived with a Blergen Company settler convoy.",
+          "Mara Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_118",
+      "name": "Niko Ember",
+      "age": 21,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Niko Ember arrived with a Blergen Company settler convoy.",
+          "Niko Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_119",
+      "name": "Orin Ember",
+      "age": 28,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Orin Ember arrived with a Blergen Company settler convoy.",
+          "Orin Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_120",
+      "name": "Pia Ember",
+      "age": 35,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Pia Ember arrived with a Blergen Company settler convoy.",
+          "Pia Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_121",
+      "name": "Quin Ember",
+      "age": 42,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Quin Ember arrived with a Blergen Company settler convoy.",
+          "Quin Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_122",
+      "name": "Rhea Ember",
+      "age": 49,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Rhea Ember arrived with a Blergen Company settler convoy.",
+          "Rhea Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_123",
+      "name": "Soren Ember",
+      "age": 56,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Soren Ember arrived with a Blergen Company settler convoy.",
+          "Soren Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_124",
+      "name": "Talia Ember",
+      "age": 63,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Talia Ember arrived with a Blergen Company settler convoy.",
+          "Talia Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_125",
+      "name": "Una Ember",
+      "age": 19,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Una Ember arrived with a Blergen Company settler convoy.",
+          "Una Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_126",
+      "name": "Vera Ember",
+      "age": 26,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Vera Ember arrived with a Blergen Company settler convoy.",
+          "Vera Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_127",
+      "name": "Wynn Ember",
+      "age": 33,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Wynn Ember arrived with a Blergen Company settler convoy.",
+          "Wynn Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_128",
+      "name": "Xara Ember",
+      "age": 40,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Xara Ember arrived with a Blergen Company settler convoy.",
+          "Xara Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_129",
+      "name": "Yuri Ember",
+      "age": 47,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Yuri Ember arrived with a Blergen Company settler convoy.",
+          "Yuri Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_130",
+      "name": "Zara Ember",
+      "age": 54,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Zara Ember arrived with a Blergen Company settler convoy.",
+          "Zara Ember went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_131",
+      "name": "Ada Fenn",
+      "age": 61,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Ada Fenn arrived with a Blergen Company settler convoy.",
+          "Ada Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_132",
+      "name": "Bram Fenn",
+      "age": 68,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Bram Fenn arrived with a Blergen Company settler convoy.",
+          "Bram Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_133",
+      "name": "Cora Fenn",
+      "age": 24,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Cora Fenn arrived with a Blergen Company settler convoy.",
+          "Cora Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_134",
+      "name": "Dain Fenn",
+      "age": 31,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Dain Fenn arrived with a Blergen Company settler convoy.",
+          "Dain Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_135",
+      "name": "Elia Fenn",
+      "age": 38,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Elia Fenn arrived with a Blergen Company settler convoy.",
+          "Elia Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_136",
+      "name": "Finn Fenn",
+      "age": 45,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Finn Fenn arrived with a Blergen Company settler convoy.",
+          "Finn Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_137",
+      "name": "Galen Fenn",
+      "age": 52,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Galen Fenn arrived with a Blergen Company settler convoy.",
+          "Galen Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_138",
+      "name": "Hana Fenn",
+      "age": 59,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Hana Fenn arrived with a Blergen Company settler convoy.",
+          "Hana Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_139",
+      "name": "Iris Fenn",
+      "age": 66,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Iris Fenn arrived with a Blergen Company settler convoy.",
+          "Iris Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_140",
+      "name": "Jory Fenn",
+      "age": 22,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Jory Fenn arrived with a Blergen Company settler convoy.",
+          "Jory Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_141",
+      "name": "Kara Fenn",
+      "age": 29,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Kara Fenn arrived with a Blergen Company settler convoy.",
+          "Kara Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_142",
+      "name": "Lio Fenn",
+      "age": 36,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Lio Fenn arrived with a Blergen Company settler convoy.",
+          "Lio Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_143",
+      "name": "Mara Fenn",
+      "age": 43,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Mara Fenn arrived with a Blergen Company settler convoy.",
+          "Mara Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_144",
+      "name": "Niko Fenn",
+      "age": 50,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Niko Fenn arrived with a Blergen Company settler convoy.",
+          "Niko Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_145",
+      "name": "Orin Fenn",
+      "age": 57,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Orin Fenn arrived with a Blergen Company settler convoy.",
+          "Orin Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_146",
+      "name": "Pia Fenn",
+      "age": 64,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Pia Fenn arrived with a Blergen Company settler convoy.",
+          "Pia Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_147",
+      "name": "Quin Fenn",
+      "age": 20,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Quin Fenn arrived with a Blergen Company settler convoy.",
+          "Quin Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_148",
+      "name": "Rhea Fenn",
+      "age": 27,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Rhea Fenn arrived with a Blergen Company settler convoy.",
+          "Rhea Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_149",
+      "name": "Soren Fenn",
+      "age": 34,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Soren Fenn arrived with a Blergen Company settler convoy.",
+          "Soren Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_150",
+      "name": "Talia Fenn",
+      "age": 41,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Talia Fenn arrived with a Blergen Company settler convoy.",
+          "Talia Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_151",
+      "name": "Una Fenn",
+      "age": 48,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Una Fenn arrived with a Blergen Company settler convoy.",
+          "Una Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_152",
+      "name": "Vera Fenn",
+      "age": 55,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Vera Fenn arrived with a Blergen Company settler convoy.",
+          "Vera Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_153",
+      "name": "Wynn Fenn",
+      "age": 62,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Wynn Fenn arrived with a Blergen Company settler convoy.",
+          "Wynn Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_154",
+      "name": "Xara Fenn",
+      "age": 18,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Xara Fenn arrived with a Blergen Company settler convoy.",
+          "Xara Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_155",
+      "name": "Yuri Fenn",
+      "age": 25,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Yuri Fenn arrived with a Blergen Company settler convoy.",
+          "Yuri Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_156",
+      "name": "Zara Fenn",
+      "age": 32,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Zara Fenn arrived with a Blergen Company settler convoy.",
+          "Zara Fenn went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_157",
+      "name": "Ada Graye",
+      "age": 39,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Ada Graye arrived with a Blergen Company settler convoy.",
+          "Ada Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_158",
+      "name": "Bram Graye",
+      "age": 46,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Bram Graye arrived with a Blergen Company settler convoy.",
+          "Bram Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_159",
+      "name": "Cora Graye",
+      "age": 53,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Cora Graye arrived with a Blergen Company settler convoy.",
+          "Cora Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_160",
+      "name": "Dain Graye",
+      "age": 60,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Dain Graye arrived with a Blergen Company settler convoy.",
+          "Dain Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_161",
+      "name": "Elia Graye",
+      "age": 67,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Elia Graye arrived with a Blergen Company settler convoy.",
+          "Elia Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_162",
+      "name": "Finn Graye",
+      "age": 23,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Finn Graye arrived with a Blergen Company settler convoy.",
+          "Finn Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_163",
+      "name": "Galen Graye",
+      "age": 30,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 5,
+        "morale": 9,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Galen Graye arrived with a Blergen Company settler convoy.",
+          "Galen Graye discovered old trail markers beyond the fields on day 62.",
+          "Galen Graye scouted beyond the settlement on day 62.",
+          "Galen Graye went without a full ration on day 62.",
+          "Galen Graye faced a severity 3 wolf attack on day 63."
+        ]
+      }
+    },
+    {
+      "id": "person_164",
+      "name": "Hana Graye",
+      "age": 37,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 5,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Hana Graye arrived with a Blergen Company settler convoy.",
+          "Hana Graye went without a full ration on day 62.",
+          "Hana Graye faced a severity 3 wolf attack on day 63.",
+          "Hana Graye helped strengthen the settlement on day 63."
+        ]
+      }
+    },
+    {
+      "id": "person_165",
+      "name": "Iris Graye",
+      "age": 44,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Iris Graye arrived with a Blergen Company settler convoy.",
+          "Iris Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_166",
+      "name": "Jory Graye",
+      "age": 51,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Jory Graye arrived with a Blergen Company settler convoy.",
+          "Jory Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_167",
+      "name": "Kara Graye",
+      "age": 58,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 5,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Kara Graye arrived with a Blergen Company settler convoy.",
+          "Kara Graye went without a full ration on day 62.",
+          "Kara Graye faced a severity 3 wolf attack on day 63.",
+          "Kara Graye helped strengthen the settlement on day 63."
+        ]
+      }
+    },
+    {
+      "id": "person_168",
+      "name": "Lio Graye",
+      "age": 65,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Lio Graye arrived with a Blergen Company settler convoy.",
+          "Lio Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_169",
+      "name": "Mara Graye",
+      "age": 21,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 9,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Mara Graye arrived with a Blergen Company settler convoy.",
+          "Mara Graye scouted beyond the settlement on day 62.",
+          "Mara Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_170",
+      "name": "Niko Graye",
+      "age": 28,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Niko Graye arrived with a Blergen Company settler convoy.",
+          "Niko Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_171",
+      "name": "Orin Graye",
+      "age": 35,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Orin Graye arrived with a Blergen Company settler convoy.",
+          "Orin Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_172",
+      "name": "Pia Graye",
+      "age": 42,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Pia Graye arrived with a Blergen Company settler convoy.",
+          "Pia Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_173",
+      "name": "Quin Graye",
+      "age": 49,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Quin Graye arrived with a Blergen Company settler convoy.",
+          "Quin Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_174",
+      "name": "Rhea Graye",
+      "age": 56,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Rhea Graye arrived with a Blergen Company settler convoy.",
+          "Rhea Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_175",
+      "name": "Soren Graye",
+      "age": 63,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Soren Graye arrived with a Blergen Company settler convoy.",
+          "Soren Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_176",
+      "name": "Talia Graye",
+      "age": 19,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Talia Graye arrived with a Blergen Company settler convoy.",
+          "Talia Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_177",
+      "name": "Una Graye",
+      "age": 26,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Una Graye arrived with a Blergen Company settler convoy.",
+          "Una Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_178",
+      "name": "Vera Graye",
+      "age": 33,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Vera Graye arrived with a Blergen Company settler convoy.",
+          "Vera Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_179",
+      "name": "Wynn Graye",
+      "age": 40,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Wynn Graye arrived with a Blergen Company settler convoy.",
+          "Wynn Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_180",
+      "name": "Xara Graye",
+      "age": 47,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Xara Graye arrived with a Blergen Company settler convoy.",
+          "Xara Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_181",
+      "name": "Yuri Graye",
+      "age": 54,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Yuri Graye arrived with a Blergen Company settler convoy.",
+          "Yuri Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_182",
+      "name": "Zara Graye",
+      "age": 61,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Zara Graye arrived with a Blergen Company settler convoy.",
+          "Zara Graye went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_183",
+      "name": "Ada Hale",
+      "age": 68,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Ada Hale arrived with a Blergen Company settler convoy.",
+          "Ada Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_184",
+      "name": "Bram Hale",
+      "age": 24,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Bram Hale arrived with a Blergen Company settler convoy.",
+          "Bram Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_185",
+      "name": "Cora Hale",
+      "age": 31,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Cora Hale arrived with a Blergen Company settler convoy.",
+          "Cora Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_186",
+      "name": "Dain Hale",
+      "age": 38,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Dain Hale arrived with a Blergen Company settler convoy.",
+          "Dain Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_187",
+      "name": "Elia Hale",
+      "age": 45,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Elia Hale arrived with a Blergen Company settler convoy.",
+          "Elia Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_188",
+      "name": "Finn Hale",
+      "age": 52,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Finn Hale arrived with a Blergen Company settler convoy.",
+          "Finn Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_189",
+      "name": "Galen Hale",
+      "age": 59,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Galen Hale arrived with a Blergen Company settler convoy.",
+          "Galen Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_190",
+      "name": "Hana Hale",
+      "age": 66,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Hana Hale arrived with a Blergen Company settler convoy.",
+          "Hana Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_191",
+      "name": "Iris Hale",
+      "age": 22,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Iris Hale arrived with a Blergen Company settler convoy.",
+          "Iris Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_192",
+      "name": "Jory Hale",
+      "age": 29,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Jory Hale arrived with a Blergen Company settler convoy.",
+          "Jory Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_193",
+      "name": "Kara Hale",
+      "age": 36,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Kara Hale arrived with a Blergen Company settler convoy.",
+          "Kara Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_194",
+      "name": "Lio Hale",
+      "age": 43,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Lio Hale arrived with a Blergen Company settler convoy.",
+          "Lio Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_195",
+      "name": "Mara Hale",
+      "age": 50,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 7,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Mara Hale arrived with a Blergen Company settler convoy.",
+          "Mara Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_196",
+      "name": "Niko Hale",
+      "age": 57,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 7,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Niko Hale arrived with a Blergen Company settler convoy.",
+          "Niko Hale went without a full ration on day 62."
+        ]
+      }
+    },
+    {
+      "id": "person_197",
+      "name": "Orin Hale",
+      "age": 64,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 7,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Orin Hale arrived with a Blergen Company settler convoy.",
+          "Orin Hale went without a full ration on day 62."
         ]
       }
     }

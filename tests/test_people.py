@@ -322,6 +322,23 @@ def test_history_entry_for_empty_colony_has_no_president():
     assert "No colonists remain in Blergen." in entry
 
 
+def test_history_entry_describes_blergen_company_intervention():
+    state_before = ensure_people_exist(state_with(population=12))
+    state_after, event_record = apply_day(state_before, "quiet_day", "preserve_resources")
+    event_record["company_interventions"] = [
+        {
+            "type": "send_food",
+            "source": "Blergen Company",
+            "effects": {"food": 25},
+            "summary": "Blergen Company sent 25 food to Blergen.",
+        }
+    ]
+
+    entry = write_daily_entry(state_before, event_record, state_after)
+
+    assert entry.splitlines()[1].startswith("Blergen Company sent 25 food")
+
+
 def test_personal_history_entry_records_individual_status_changes():
     state_before = ensure_people_exist(state_with(population=12))
     state_after, event_record = apply_day(state_before, "illness", "preserve_resources")

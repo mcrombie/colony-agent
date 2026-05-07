@@ -3,13 +3,21 @@
 from __future__ import annotations
 
 import json
+import argparse
 from copy import deepcopy
 from pathlib import Path
+from collections.abc import Sequence
 from typing import Any
 
 from src.constants import EMPTY_COLONY_EVENT_TYPE, NO_ACTION_ACTION_TYPE
 from src.environment import environment_for_day, sync_calendar_state
 from src.event_selector import choose_leadership_action, choose_world_event
+from src.interventions import (
+    DEFAULT_SETTLER_COUNT,
+    DEFAULT_SUPPLY_SECURITY,
+    DEFAULT_SUPPLY_WOOD,
+    apply_company_interventions,
+)
 from src.mechanics import apply_day
 from src.narrative import write_daily_entry, write_personal_history_entry
 from src.people import ensure_people_exist
@@ -44,9 +52,15 @@ def append_personal_history(entry: str, path: Path = PEOPLE_HISTORY_PATH) -> Non
         history_file.write("\n" + entry)
 
 
-def run_day() -> dict[str, Any]:
+def run_day(
+    company_intervention_requests: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
     """Advance the colony by one day and persist the result."""
     state_before = sync_calendar_state(ensure_people_exist(load_state()))
+    state_before, company_interventions = apply_company_interventions(
+        state_before,
+        additional_interventions=company_intervention_requests,
+    )
     environment = environment_for_day(state_before["day"])
     if state_before["population"] <= 0:
         world_event = {
@@ -63,6 +77,8 @@ def run_day() -> dict[str, Any]:
         leadership_action,
         environment=environment,
     )
+    if company_interventions:
+        event_record["company_interventions"] = company_interventions
     entry = write_daily_entry(state_before, event_record, state_after)
     personal_entry = write_personal_history_entry(
         state_before,
@@ -76,14 +92,79 @@ def run_day() -> dict[str, Any]:
     return event_record
 
 
-def main() -> None:
-    event_record = run_day()
+def main(argv: Sequence[str] | None = None) -> None:
+    args = _parse_args(argv)
+    event_record = run_day(_company_interventions_from_args(args))
     print(
         f"Day {event_record['day']}: "
         f"{event_record['world_event']} / "
         f"{event_record['leadership_action']} - "
         f"{event_record['summary']}"
     )
+
+
+def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Advance Blergen by one day.")
+    parser.add_argument(
+        "--send-settlers",
+        nargs="?",
+        const=DEFAULT_SETTLER_COUNT,
+        type=_non_negative_cli_int,
+        metavar="COUNT",
+        help=(
+            "Have Blergen Company send new settlers before the day runs. "
+            f"Defaults to {DEFAULT_SETTLER_COUNT}."
+        ),
+    )
+    parser.add_argument(
+        "--send-food",
+        type=_non_negative_cli_int,
+        metavar="AMOUNT",
+        help="Have Blergen Company send food before the day runs.",
+    )
+    parser.add_argument(
+        "--send-supplies",
+        nargs="*",
+        type=_non_negative_cli_int,
+        metavar=("WOOD", "SECURITY"),
+        help=(
+            "Have Blergen Company send supplies before the day runs. "
+            f"Defaults to {DEFAULT_SUPPLY_WOOD} wood and {DEFAULT_SUPPLY_SECURITY} security."
+        ),
+    )
+    args = parser.parse_args(argv)
+    if args.send_supplies is not None and len(args.send_supplies) > 2:
+        parser.error("--send-supplies accepts at most WOOD and SECURITY")
+
+    return args
+
+
+def _company_interventions_from_args(args: argparse.Namespace) -> list[dict[str, Any]]:
+    interventions = []
+    if args.send_settlers is not None:
+        interventions.append({"type": "send_settlers", "count": args.send_settlers})
+
+    if args.send_food is not None:
+        interventions.append({"type": "send_food", "amount": args.send_food})
+
+    if args.send_supplies is not None:
+        supplies = args.send_supplies
+        intervention = {"type": "send_supplies"}
+        if len(supplies) >= 1:
+            intervention["wood"] = supplies[0]
+        if len(supplies) == 2:
+            intervention["security"] = supplies[1]
+        interventions.append(intervention)
+
+    return interventions
+
+
+def _non_negative_cli_int(value: str) -> int:
+    parsed = int(value)
+    if parsed < 0:
+        raise argparse.ArgumentTypeError("must be non-negative")
+
+    return parsed
 
 
 if __name__ == "__main__":

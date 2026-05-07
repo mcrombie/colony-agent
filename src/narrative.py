@@ -46,10 +46,15 @@ def write_daily_entry(
     world_event = event_record["world_event"]
     leadership_action = event_record["leadership_action"]
     effects_text = _describe_effects(event_record["effects"])
+    company_text = _describe_company_interventions(
+        event_record.get("company_interventions", [])
+    )
 
     weather_text = _weather_text(event_record.get("weather"))
     if state_before["population"] <= 0:
         body = _empty_colony_body(weather_text, effects_text)
+        if company_text:
+            body = f"{company_text} {body}"
         closing = _closing_sentence(state_after)
         return f"Day {day}{date_text} - {colony_name}:\n{body} {closing}\n"
 
@@ -68,6 +73,9 @@ def write_daily_entry(
     people_text = _describe_people_events(event_record.get("people_events", {}))
     if people_text:
         body = f"{body} {people_text}"
+
+    if company_text:
+        body = f"{company_text} {body}"
 
     closing = _closing_sentence(state_after)
     return f"Day {day}{date_text} - {colony_name}:\n{body} {closing}\n"
@@ -130,6 +138,15 @@ def _describe_people_events(people_events: dict[str, Any]) -> str:
             pieces.append(f"{shown_names}, and {remaining} others died.")
 
     return " ".join(pieces)
+
+
+def _describe_company_interventions(interventions: list[dict[str, Any]]) -> str:
+    summaries = [
+        intervention["summary"]
+        for intervention in interventions
+        if intervention.get("summary")
+    ]
+    return " ".join(summaries)
 
 
 def _empty_colony_body(weather_text: str, effects_text: str) -> str:

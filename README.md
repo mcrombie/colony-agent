@@ -147,6 +147,51 @@ If population reaches 0, the colony becomes inert. Daily runs no longer ask the
 deity or president selectors for choices; the event log records an
 `empty_colony` day with `no_action` until future mechanics add new colonists.
 
+## Blergen Company interventions
+
+Blergen Company can intervene before the normal daily event and leadership
+choices by passing flags to the same command that advances the colony. The
+intervention is recorded in the day's event log.
+
+Send 100 new settlers:
+
+```powershell
+python -m src.run_day --send-settlers
+```
+
+Send a custom number of settlers:
+
+```powershell
+python -m src.run_day --send-settlers 25
+```
+
+Send food:
+
+```powershell
+python -m src.run_day --send-food 200
+```
+
+Send supplies. With no values, this defaults to 50 wood and 2 security:
+
+```powershell
+python -m src.run_day --send-supplies
+```
+
+Send custom supplies:
+
+```powershell
+python -m src.run_day --send-supplies 80 3
+```
+
+Multiple interventions can be combined and are applied in order:
+
+```powershell
+python -m src.run_day --send-settlers --send-food 300 --send-supplies
+```
+
+The lower-level top-level `company_interventions` queue in `src/state.json` is
+still supported for scripts, but CLI flags are the intended manual interface.
+
 ## Run tests
 
 Install dependencies if needed:

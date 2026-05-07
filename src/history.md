@@ -183,3 +183,9 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 61 (Year 1, March 2) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 62 (Year 1, March 3) - Blergen:
+Blergen Company sent 100 new settlers to Blergen. Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and the president sent scouts beyond the settlement; the day's changes increased wood by 5, and increased morale by 2. Galen Graye discovered old trail markers beyond the fields. Galen Graye, and Mara Graye scouted beyond the settlement. Galen Graye, Mara Graye, and Talia Dove, and 97 others went without full rations. With the stores empty, hunger is now the colony's ruling fact.
+
+Day 63 (Year 1, March 4) - Blergen:
+Blergen Company sent 300 food to Blergen. Blergen Company sent supplies to Blergen: 30 wood and 2 security. Clear skies left the day's work mostly to the colony. A severity 3 wolf attack hit the colony, and the president spent wood to strengthen the settlement; the day's changes reduced food by 102, reduced wood by 10, reduced morale by 1, and reduced health by 1. Galen Graye, Hana Graye, and Kara Graye met the wolf attack at the edge of camp. Hana Graye, and Kara Graye helped strengthen the settlement. The settlement endures into another morning.

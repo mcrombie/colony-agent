@@ -144,6 +144,7 @@ def generate_people(
     *,
     colony_health: int = 5,
     colony_morale: int = 5,
+    start_index: int = 0,
 ) -> list[dict[str, Any]]:
     """Generate a deterministic starter cast with distinct names."""
     return [
@@ -152,7 +153,7 @@ def generate_people(
             colony_health=colony_health,
             colony_morale=colony_morale,
         )
-        for index in range(count)
+        for index in range(start_index, start_index + count)
     ]
 
 
@@ -197,6 +198,35 @@ def sync_derived_colony_stats(state: dict[str, Any]) -> dict[str, Any]:
 
     state.update(derived_colony_stats(state))
     return state
+
+
+def add_new_people(
+    state: dict[str, Any],
+    count: int,
+    *,
+    colony_health: int = 6,
+    colony_morale: int = 6,
+    story_note: str | None = None,
+) -> list[dict[str, Any]]:
+    """Append new living colonists without reusing old person IDs."""
+    if count <= 0:
+        return []
+
+    state.setdefault("people", [])
+    start_index = _next_person_index(state["people"])
+    new_people = generate_people(
+        count,
+        colony_health=colony_health,
+        colony_morale=colony_morale,
+        start_index=start_index,
+    )
+    if story_note:
+        for person in new_people:
+            _add_story_note(person, story_note.format(name=person["name"]))
+
+    state["people"].extend(new_people)
+    sync_derived_colony_stats(state)
+    return new_people
 
 
 def character_context_for_prompt(
@@ -392,6 +422,20 @@ def _traits_for_index(index: int) -> list[str]:
             traits.append(trait)
 
     return traits
+
+
+def _next_person_index(people: list[dict[str, Any]]) -> int:
+    max_index = 0
+    for person in people:
+        person_id = person.get("id", "")
+        if not person_id.startswith("person_"):
+            continue
+        try:
+            max_index = max(max_index, int(person_id.removeprefix("person_")))
+        except ValueError:
+            continue
+
+    return max_index
 
 
 def _select_casualties(
