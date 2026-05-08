@@ -293,8 +293,31 @@ def test_wolf_attack_names_defenders():
     defenders = [person for person in after["people"] if person["id"] in defender_ids]
     assert action["type"] == "defended_wolf_attack"
     assert action["severity"] == 3
-    assert {"guard", "scout", "builder"} >= {person["role"] for person in defenders}
+    assert {"guard", "scout", "builder"} <= {person["role"] for person in defenders}
     assert all("wolf attack" in person["story"]["notable_events"][0] for person in defenders)
+
+
+def test_severe_wolf_attack_wounds_defenders_and_kills_named_colonist():
+    state = state_with(
+        population=12,
+        security=6,
+        people=generate_people(12, colony_health=6, colony_morale=6),
+    )
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "wolf_attack", "severity": 4},
+        "preserve_resources",
+    )
+
+    action = event_record["people_events"]["actions"][0]
+    defender_ids = {person["id"] for person in action["people"]}
+    defenders = [person for person in after["people"] if person["id"] in defender_ids]
+
+    assert "wounded" in action["summary"]
+    assert any(person["status"]["health"] < 6 for person in defenders)
+    assert event_record["people_events"]["deaths"][0]["cause"] == "wolf_attack"
+    assert after["population"] == 11
 
 
 def test_storm_names_affected_colonists():

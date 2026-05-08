@@ -204,3 +204,6 @@ Clear skies left the day's work mostly to the colony. A severity 2 wolf attack h
 
 Day 68 (Year 1, March 9) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 4 wolf attack hit the colony, and President Mara Graye tried to strengthen the settlement, but there was not enough wood; the day's changes reduced population by 1, reduced food by 94, reduced morale by 2, reduced security by 2, and reduced health by 1. Kara Graye, Quin Graye, Rhea Graye, and Una Graye met the wolf attack at the edge of camp. Mara Graye, Talia Dove, and Una Dove, and 2 others went without full rations. Kara Graye died. With the stores empty, hunger is now the colony's ruling fact.
+
+Day 69 (Year 1, March 10) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 storm tested the colony, and President Mara Graye ordered tighter food rationing; the day's changes reduced population by 1, reduced wood by 2, reduced morale by 1, and reduced health by 1. Hana Graye, Xara Dove, and Quin Graye bore the worst of the storm. Lio Graye, Mara Graye, Niko Graye, and Orin Graye felt the tighter rations first. Mara Graye died. With the stores empty, hunger is now the colony's ruling fact.

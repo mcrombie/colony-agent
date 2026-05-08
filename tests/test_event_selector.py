@@ -52,6 +52,48 @@ def test_choose_world_event_uses_openai_selector(monkeypatch):
     assert world_event["world_event"] == "discovery"
 
 
+def test_recent_wolf_attack_cools_down_moderate_wolf_selection(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    state["day"] = 12
+    state["event_log"] = [{"day": 8, "world_event": "wolf_attack"}]
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_world_event_with_openai",
+        lambda current_state, environment=None: {
+            "world_event": "wolf_attack",
+            "severity": 4,
+            "reasoning": "wolves near the fields",
+        },
+    )
+
+    world_event = event_selector.choose_world_event(state)
+
+    assert world_event["world_event"] == "quiet_day"
+    assert "Wolves attacked recently" in world_event["reasoning"]
+
+
+def test_extreme_wolf_attack_bypasses_cooldown(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    state["day"] = 12
+    state["event_log"] = [{"day": 8, "world_event": "wolf_attack"}]
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_world_event_with_openai",
+        lambda current_state, environment=None: {
+            "world_event": "wolf_attack",
+            "severity": 5,
+            "reasoning": "a starving pack broke through",
+        },
+    )
+
+    world_event = event_selector.choose_world_event(state)
+
+    assert world_event["world_event"] == "wolf_attack"
+    assert world_event["severity"] == 5
+
+
 def test_choose_leadership_action_uses_openai_selector(monkeypatch):
     state = deepcopy(BASE_STATE)
     monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
@@ -190,6 +232,7 @@ def test_world_prompt_includes_bounded_character_context():
     assert "wolf_attack" in prompt["allowed_world_events"]
     assert "storm" in prompt["allowed_world_events"]
     assert "undead_rising" in prompt["allowed_world_events"]
+    assert any("full pack attacks should be rare" in rule for rule in prompt["threat_rules"])
     assert prompt["current_state"]["dead_population"] == 0
     assert "people" not in prompt
     assert {

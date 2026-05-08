@@ -1,13 +1,13 @@
 {
-  "day": 69,
+  "day": 70,
   "year": 1,
   "colony_name": "Blergen",
-  "population": 99,
+  "population": 98,
   "food": 0,
-  "wood": 5,
-  "morale": 4,
+  "wood": 3,
+  "morale": 3,
   "security": 6,
-  "health": 4,
+  "health": 3,
   "known_threats": [
     "wolves",
     "winter"
@@ -4104,6 +4104,503 @@
         ]
       },
       "summary": "A severity 4 wolf attack hit the settlement. Weather: Clear skies left the day's work mostly to the colony. The president tried to strengthen the settlement, but there was not enough wood."
+    },
+    {
+      "day": 69,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 69,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 10,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "ration_food",
+      "president": {
+        "id": "person_169",
+        "name": "Mara Graye",
+        "since_day": 64
+      },
+      "effects": {
+        "population": -1,
+        "wood": -2,
+        "morale": -1,
+        "health": -1
+      },
+      "survival_effects": {
+        "missed_rations": 99
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 3,
+            "people": [
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              },
+              {
+                "id": "person_102",
+                "name": "Xara Dove"
+              },
+              {
+                "id": "person_173",
+                "name": "Quin Graye"
+              }
+            ],
+            "summary": "Hana Graye, Xara Dove, and Quin Graye bore the worst of the storm."
+          },
+          {
+            "type": "rationed_food",
+            "people": [
+              {
+                "id": "person_168",
+                "name": "Lio Graye"
+              },
+              {
+                "id": "person_169",
+                "name": "Mara Graye"
+              },
+              {
+                "id": "person_170",
+                "name": "Niko Graye"
+              },
+              {
+                "id": "person_171",
+                "name": "Orin Graye"
+              }
+            ],
+            "summary": "Lio Graye, Mara Graye, Niko Graye, and Orin Graye felt the tighter rations first."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 99,
+            "people": [
+              {
+                "id": "person_174",
+                "name": "Rhea Graye"
+              },
+              {
+                "id": "person_177",
+                "name": "Una Graye"
+              },
+              {
+                "id": "person_114",
+                "name": "Jory Ember"
+              },
+              {
+                "id": "person_115",
+                "name": "Kara Ember"
+              },
+              {
+                "id": "person_116",
+                "name": "Lio Ember"
+              },
+              {
+                "id": "person_117",
+                "name": "Mara Ember"
+              },
+              {
+                "id": "person_118",
+                "name": "Niko Ember"
+              },
+              {
+                "id": "person_119",
+                "name": "Orin Ember"
+              },
+              {
+                "id": "person_120",
+                "name": "Pia Ember"
+              },
+              {
+                "id": "person_121",
+                "name": "Quin Ember"
+              },
+              {
+                "id": "person_122",
+                "name": "Rhea Ember"
+              },
+              {
+                "id": "person_123",
+                "name": "Soren Ember"
+              },
+              {
+                "id": "person_124",
+                "name": "Talia Ember"
+              },
+              {
+                "id": "person_125",
+                "name": "Una Ember"
+              },
+              {
+                "id": "person_126",
+                "name": "Vera Ember"
+              },
+              {
+                "id": "person_127",
+                "name": "Wynn Ember"
+              },
+              {
+                "id": "person_128",
+                "name": "Xara Ember"
+              },
+              {
+                "id": "person_129",
+                "name": "Yuri Ember"
+              },
+              {
+                "id": "person_130",
+                "name": "Zara Ember"
+              },
+              {
+                "id": "person_131",
+                "name": "Ada Fenn"
+              },
+              {
+                "id": "person_132",
+                "name": "Bram Fenn"
+              },
+              {
+                "id": "person_133",
+                "name": "Cora Fenn"
+              },
+              {
+                "id": "person_134",
+                "name": "Dain Fenn"
+              },
+              {
+                "id": "person_135",
+                "name": "Elia Fenn"
+              },
+              {
+                "id": "person_136",
+                "name": "Finn Fenn"
+              },
+              {
+                "id": "person_137",
+                "name": "Galen Fenn"
+              },
+              {
+                "id": "person_138",
+                "name": "Hana Fenn"
+              },
+              {
+                "id": "person_139",
+                "name": "Iris Fenn"
+              },
+              {
+                "id": "person_140",
+                "name": "Jory Fenn"
+              },
+              {
+                "id": "person_141",
+                "name": "Kara Fenn"
+              },
+              {
+                "id": "person_142",
+                "name": "Lio Fenn"
+              },
+              {
+                "id": "person_143",
+                "name": "Mara Fenn"
+              },
+              {
+                "id": "person_144",
+                "name": "Niko Fenn"
+              },
+              {
+                "id": "person_145",
+                "name": "Orin Fenn"
+              },
+              {
+                "id": "person_146",
+                "name": "Pia Fenn"
+              },
+              {
+                "id": "person_147",
+                "name": "Quin Fenn"
+              },
+              {
+                "id": "person_148",
+                "name": "Rhea Fenn"
+              },
+              {
+                "id": "person_149",
+                "name": "Soren Fenn"
+              },
+              {
+                "id": "person_150",
+                "name": "Talia Fenn"
+              },
+              {
+                "id": "person_151",
+                "name": "Una Fenn"
+              },
+              {
+                "id": "person_152",
+                "name": "Vera Fenn"
+              },
+              {
+                "id": "person_153",
+                "name": "Wynn Fenn"
+              },
+              {
+                "id": "person_154",
+                "name": "Xara Fenn"
+              },
+              {
+                "id": "person_155",
+                "name": "Yuri Fenn"
+              },
+              {
+                "id": "person_156",
+                "name": "Zara Fenn"
+              },
+              {
+                "id": "person_157",
+                "name": "Ada Graye"
+              },
+              {
+                "id": "person_158",
+                "name": "Bram Graye"
+              },
+              {
+                "id": "person_159",
+                "name": "Cora Graye"
+              },
+              {
+                "id": "person_160",
+                "name": "Dain Graye"
+              },
+              {
+                "id": "person_161",
+                "name": "Elia Graye"
+              },
+              {
+                "id": "person_162",
+                "name": "Finn Graye"
+              },
+              {
+                "id": "person_165",
+                "name": "Iris Graye"
+              },
+              {
+                "id": "person_166",
+                "name": "Jory Graye"
+              },
+              {
+                "id": "person_172",
+                "name": "Pia Graye"
+              },
+              {
+                "id": "person_175",
+                "name": "Soren Graye"
+              },
+              {
+                "id": "person_176",
+                "name": "Talia Graye"
+              },
+              {
+                "id": "person_178",
+                "name": "Vera Graye"
+              },
+              {
+                "id": "person_179",
+                "name": "Wynn Graye"
+              },
+              {
+                "id": "person_180",
+                "name": "Xara Graye"
+              },
+              {
+                "id": "person_181",
+                "name": "Yuri Graye"
+              },
+              {
+                "id": "person_182",
+                "name": "Zara Graye"
+              },
+              {
+                "id": "person_183",
+                "name": "Ada Hale"
+              },
+              {
+                "id": "person_184",
+                "name": "Bram Hale"
+              },
+              {
+                "id": "person_185",
+                "name": "Cora Hale"
+              },
+              {
+                "id": "person_186",
+                "name": "Dain Hale"
+              },
+              {
+                "id": "person_187",
+                "name": "Elia Hale"
+              },
+              {
+                "id": "person_188",
+                "name": "Finn Hale"
+              },
+              {
+                "id": "person_189",
+                "name": "Galen Hale"
+              },
+              {
+                "id": "person_190",
+                "name": "Hana Hale"
+              },
+              {
+                "id": "person_191",
+                "name": "Iris Hale"
+              },
+              {
+                "id": "person_192",
+                "name": "Jory Hale"
+              },
+              {
+                "id": "person_193",
+                "name": "Kara Hale"
+              },
+              {
+                "id": "person_194",
+                "name": "Lio Hale"
+              },
+              {
+                "id": "person_104",
+                "name": "Zara Dove"
+              },
+              {
+                "id": "person_105",
+                "name": "Ada Ember"
+              },
+              {
+                "id": "person_106",
+                "name": "Bram Ember"
+              },
+              {
+                "id": "person_107",
+                "name": "Cora Ember"
+              },
+              {
+                "id": "person_108",
+                "name": "Dain Ember"
+              },
+              {
+                "id": "person_109",
+                "name": "Elia Ember"
+              },
+              {
+                "id": "person_110",
+                "name": "Finn Ember"
+              },
+              {
+                "id": "person_111",
+                "name": "Galen Ember"
+              },
+              {
+                "id": "person_112",
+                "name": "Hana Ember"
+              },
+              {
+                "id": "person_113",
+                "name": "Iris Ember"
+              },
+              {
+                "id": "person_195",
+                "name": "Mara Hale"
+              },
+              {
+                "id": "person_196",
+                "name": "Niko Hale"
+              },
+              {
+                "id": "person_197",
+                "name": "Orin Hale"
+              },
+              {
+                "id": "person_163",
+                "name": "Galen Graye"
+              },
+              {
+                "id": "person_103",
+                "name": "Yuri Dove"
+              },
+              {
+                "id": "person_173",
+                "name": "Quin Graye"
+              },
+              {
+                "id": "person_102",
+                "name": "Xara Dove"
+              },
+              {
+                "id": "person_164",
+                "name": "Hana Graye"
+              },
+              {
+                "id": "person_098",
+                "name": "Talia Dove"
+              },
+              {
+                "id": "person_099",
+                "name": "Una Dove"
+              },
+              {
+                "id": "person_100",
+                "name": "Vera Dove"
+              },
+              {
+                "id": "person_101",
+                "name": "Wynn Dove"
+              },
+              {
+                "id": "person_168",
+                "name": "Lio Graye"
+              },
+              {
+                "id": "person_170",
+                "name": "Niko Graye"
+              },
+              {
+                "id": "person_171",
+                "name": "Orin Graye"
+              },
+              {
+                "id": "person_169",
+                "name": "Mara Graye"
+              }
+            ],
+            "summary": "Rhea Graye, Una Graye, and Jory Ember, and 96 others went without full rations."
+          }
+        ],
+        "deaths": [
+          {
+            "id": "person_169",
+            "name": "Mara Graye",
+            "cause": "starvation",
+            "summary": "Mara Graye died of starvation on day 69."
+          }
+        ]
+      },
+      "summary": "A severity 3 storm struck Blergen. Weather: Clear skies left the day's work mostly to the colony. The president ordered tighter food rationing."
     }
   ],
   "people": [
@@ -7569,15 +8066,16 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 7,
-        "hunger": 1
+        "health": 5,
+        "morale": 6,
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Talia Dove arrived with a Blergen Company settler convoy.",
           "Talia Dove went without a full ration on day 62.",
-          "Talia Dove went without a full ration on day 68."
+          "Talia Dove went without a full ration on day 68.",
+          "Talia Dove went without a full ration on day 69."
         ]
       }
     },
@@ -7603,15 +8101,16 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 7,
-        "hunger": 1
+        "health": 5,
+        "morale": 6,
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Una Dove arrived with a Blergen Company settler convoy.",
           "Una Dove went without a full ration on day 62.",
-          "Una Dove went without a full ration on day 68."
+          "Una Dove went without a full ration on day 68.",
+          "Una Dove went without a full ration on day 69."
         ]
       }
     },
@@ -7637,15 +8136,16 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 7,
-        "hunger": 1
+        "health": 5,
+        "morale": 6,
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Vera Dove arrived with a Blergen Company settler convoy.",
           "Vera Dove went without a full ration on day 62.",
-          "Vera Dove went without a full ration on day 68."
+          "Vera Dove went without a full ration on day 68.",
+          "Vera Dove went without a full ration on day 69."
         ]
       }
     },
@@ -7671,15 +8171,16 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 7,
-        "hunger": 1
+        "health": 5,
+        "morale": 6,
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Wynn Dove arrived with a Blergen Company settler convoy.",
           "Wynn Dove went without a full ration on day 62.",
-          "Wynn Dove went without a full ration on day 68."
+          "Wynn Dove went without a full ration on day 68.",
+          "Wynn Dove went without a full ration on day 69."
         ]
       }
     },
@@ -7705,14 +8206,16 @@
       },
       "status": {
         "alive": true,
-        "health": 4,
-        "morale": 4,
-        "hunger": 0
+        "health": 2,
+        "morale": 2,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Xara Dove arrived with a Blergen Company settler convoy.",
-          "Xara Dove went without a full ration on day 62."
+          "Xara Dove went without a full ration on day 62.",
+          "Xara Dove endured a severity 3 storm on day 69.",
+          "Xara Dove went without a full ration on day 69."
         ]
       }
     },
@@ -7738,14 +8241,15 @@
       },
       "status": {
         "alive": true,
-        "health": 4,
-        "morale": 4,
-        "hunger": 0
+        "health": 3,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Yuri Dove arrived with a Blergen Company settler convoy.",
-          "Yuri Dove went without a full ration on day 62."
+          "Yuri Dove went without a full ration on day 62.",
+          "Yuri Dove went without a full ration on day 69."
         ]
       }
     },
@@ -7771,14 +8275,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Zara Dove arrived with a Blergen Company settler convoy.",
-          "Zara Dove went without a full ration on day 62."
+          "Zara Dove went without a full ration on day 62.",
+          "Zara Dove went without a full ration on day 69."
         ]
       }
     },
@@ -7804,14 +8309,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Ada Ember arrived with a Blergen Company settler convoy.",
-          "Ada Ember went without a full ration on day 62."
+          "Ada Ember went without a full ration on day 62.",
+          "Ada Ember went without a full ration on day 69."
         ]
       }
     },
@@ -7836,14 +8342,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Bram Ember arrived with a Blergen Company settler convoy.",
-          "Bram Ember went without a full ration on day 62."
+          "Bram Ember went without a full ration on day 62.",
+          "Bram Ember went without a full ration on day 69."
         ]
       }
     },
@@ -7869,14 +8376,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Cora Ember arrived with a Blergen Company settler convoy.",
-          "Cora Ember went without a full ration on day 62."
+          "Cora Ember went without a full ration on day 62.",
+          "Cora Ember went without a full ration on day 69."
         ]
       }
     },
@@ -7902,14 +8410,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Dain Ember arrived with a Blergen Company settler convoy.",
-          "Dain Ember went without a full ration on day 62."
+          "Dain Ember went without a full ration on day 62.",
+          "Dain Ember went without a full ration on day 69."
         ]
       }
     },
@@ -7935,14 +8444,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Elia Ember arrived with a Blergen Company settler convoy.",
-          "Elia Ember went without a full ration on day 62."
+          "Elia Ember went without a full ration on day 62.",
+          "Elia Ember went without a full ration on day 69."
         ]
       }
     },
@@ -7968,14 +8478,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Finn Ember arrived with a Blergen Company settler convoy.",
-          "Finn Ember went without a full ration on day 62."
+          "Finn Ember went without a full ration on day 62.",
+          "Finn Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8001,14 +8512,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Galen Ember arrived with a Blergen Company settler convoy.",
-          "Galen Ember went without a full ration on day 62."
+          "Galen Ember went without a full ration on day 62.",
+          "Galen Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8034,14 +8546,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Hana Ember arrived with a Blergen Company settler convoy.",
-          "Hana Ember went without a full ration on day 62."
+          "Hana Ember went without a full ration on day 62.",
+          "Hana Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8067,14 +8580,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 4,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Iris Ember arrived with a Blergen Company settler convoy.",
-          "Iris Ember went without a full ration on day 62."
+          "Iris Ember went without a full ration on day 62.",
+          "Iris Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8100,14 +8614,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Jory Ember arrived with a Blergen Company settler convoy.",
-          "Jory Ember went without a full ration on day 62."
+          "Jory Ember went without a full ration on day 62.",
+          "Jory Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8132,14 +8647,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Kara Ember arrived with a Blergen Company settler convoy.",
-          "Kara Ember went without a full ration on day 62."
+          "Kara Ember went without a full ration on day 62.",
+          "Kara Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8165,14 +8681,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Lio Ember arrived with a Blergen Company settler convoy.",
-          "Lio Ember went without a full ration on day 62."
+          "Lio Ember went without a full ration on day 62.",
+          "Lio Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8198,14 +8715,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Mara Ember arrived with a Blergen Company settler convoy.",
-          "Mara Ember went without a full ration on day 62."
+          "Mara Ember went without a full ration on day 62.",
+          "Mara Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8231,14 +8749,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Niko Ember arrived with a Blergen Company settler convoy.",
-          "Niko Ember went without a full ration on day 62."
+          "Niko Ember went without a full ration on day 62.",
+          "Niko Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8264,14 +8783,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Orin Ember arrived with a Blergen Company settler convoy.",
-          "Orin Ember went without a full ration on day 62."
+          "Orin Ember went without a full ration on day 62.",
+          "Orin Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8297,14 +8817,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Pia Ember arrived with a Blergen Company settler convoy.",
-          "Pia Ember went without a full ration on day 62."
+          "Pia Ember went without a full ration on day 62.",
+          "Pia Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8330,14 +8851,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Quin Ember arrived with a Blergen Company settler convoy.",
-          "Quin Ember went without a full ration on day 62."
+          "Quin Ember went without a full ration on day 62.",
+          "Quin Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8363,14 +8885,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Rhea Ember arrived with a Blergen Company settler convoy.",
-          "Rhea Ember went without a full ration on day 62."
+          "Rhea Ember went without a full ration on day 62.",
+          "Rhea Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8396,14 +8919,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Soren Ember arrived with a Blergen Company settler convoy.",
-          "Soren Ember went without a full ration on day 62."
+          "Soren Ember went without a full ration on day 62.",
+          "Soren Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8428,14 +8952,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Talia Ember arrived with a Blergen Company settler convoy.",
-          "Talia Ember went without a full ration on day 62."
+          "Talia Ember went without a full ration on day 62.",
+          "Talia Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8461,14 +8986,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Una Ember arrived with a Blergen Company settler convoy.",
-          "Una Ember went without a full ration on day 62."
+          "Una Ember went without a full ration on day 62.",
+          "Una Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8494,14 +9020,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Vera Ember arrived with a Blergen Company settler convoy.",
-          "Vera Ember went without a full ration on day 62."
+          "Vera Ember went without a full ration on day 62.",
+          "Vera Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8527,14 +9054,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Wynn Ember arrived with a Blergen Company settler convoy.",
-          "Wynn Ember went without a full ration on day 62."
+          "Wynn Ember went without a full ration on day 62.",
+          "Wynn Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8560,14 +9088,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Xara Ember arrived with a Blergen Company settler convoy.",
-          "Xara Ember went without a full ration on day 62."
+          "Xara Ember went without a full ration on day 62.",
+          "Xara Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8593,14 +9122,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Yuri Ember arrived with a Blergen Company settler convoy.",
-          "Yuri Ember went without a full ration on day 62."
+          "Yuri Ember went without a full ration on day 62.",
+          "Yuri Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8626,14 +9156,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Zara Ember arrived with a Blergen Company settler convoy.",
-          "Zara Ember went without a full ration on day 62."
+          "Zara Ember went without a full ration on day 62.",
+          "Zara Ember went without a full ration on day 69."
         ]
       }
     },
@@ -8659,14 +9190,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Ada Fenn arrived with a Blergen Company settler convoy.",
-          "Ada Fenn went without a full ration on day 62."
+          "Ada Fenn went without a full ration on day 62.",
+          "Ada Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8692,14 +9224,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Bram Fenn arrived with a Blergen Company settler convoy.",
-          "Bram Fenn went without a full ration on day 62."
+          "Bram Fenn went without a full ration on day 62.",
+          "Bram Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8724,14 +9257,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Cora Fenn arrived with a Blergen Company settler convoy.",
-          "Cora Fenn went without a full ration on day 62."
+          "Cora Fenn went without a full ration on day 62.",
+          "Cora Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8757,14 +9291,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Dain Fenn arrived with a Blergen Company settler convoy.",
-          "Dain Fenn went without a full ration on day 62."
+          "Dain Fenn went without a full ration on day 62.",
+          "Dain Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8790,14 +9325,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Elia Fenn arrived with a Blergen Company settler convoy.",
-          "Elia Fenn went without a full ration on day 62."
+          "Elia Fenn went without a full ration on day 62.",
+          "Elia Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8823,14 +9359,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Finn Fenn arrived with a Blergen Company settler convoy.",
-          "Finn Fenn went without a full ration on day 62."
+          "Finn Fenn went without a full ration on day 62.",
+          "Finn Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8856,14 +9393,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Galen Fenn arrived with a Blergen Company settler convoy.",
-          "Galen Fenn went without a full ration on day 62."
+          "Galen Fenn went without a full ration on day 62.",
+          "Galen Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8889,14 +9427,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Hana Fenn arrived with a Blergen Company settler convoy.",
-          "Hana Fenn went without a full ration on day 62."
+          "Hana Fenn went without a full ration on day 62.",
+          "Hana Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8922,14 +9461,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Iris Fenn arrived with a Blergen Company settler convoy.",
-          "Iris Fenn went without a full ration on day 62."
+          "Iris Fenn went without a full ration on day 62.",
+          "Iris Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8955,14 +9495,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Jory Fenn arrived with a Blergen Company settler convoy.",
-          "Jory Fenn went without a full ration on day 62."
+          "Jory Fenn went without a full ration on day 62.",
+          "Jory Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -8988,14 +9529,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Kara Fenn arrived with a Blergen Company settler convoy.",
-          "Kara Fenn went without a full ration on day 62."
+          "Kara Fenn went without a full ration on day 62.",
+          "Kara Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9020,14 +9562,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Lio Fenn arrived with a Blergen Company settler convoy.",
-          "Lio Fenn went without a full ration on day 62."
+          "Lio Fenn went without a full ration on day 62.",
+          "Lio Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9053,14 +9596,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Mara Fenn arrived with a Blergen Company settler convoy.",
-          "Mara Fenn went without a full ration on day 62."
+          "Mara Fenn went without a full ration on day 62.",
+          "Mara Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9086,14 +9630,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Niko Fenn arrived with a Blergen Company settler convoy.",
-          "Niko Fenn went without a full ration on day 62."
+          "Niko Fenn went without a full ration on day 62.",
+          "Niko Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9119,14 +9664,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Orin Fenn arrived with a Blergen Company settler convoy.",
-          "Orin Fenn went without a full ration on day 62."
+          "Orin Fenn went without a full ration on day 62.",
+          "Orin Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9152,14 +9698,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Pia Fenn arrived with a Blergen Company settler convoy.",
-          "Pia Fenn went without a full ration on day 62."
+          "Pia Fenn went without a full ration on day 62.",
+          "Pia Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9185,14 +9732,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Quin Fenn arrived with a Blergen Company settler convoy.",
-          "Quin Fenn went without a full ration on day 62."
+          "Quin Fenn went without a full ration on day 62.",
+          "Quin Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9218,14 +9766,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Rhea Fenn arrived with a Blergen Company settler convoy.",
-          "Rhea Fenn went without a full ration on day 62."
+          "Rhea Fenn went without a full ration on day 62.",
+          "Rhea Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9251,14 +9800,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Soren Fenn arrived with a Blergen Company settler convoy.",
-          "Soren Fenn went without a full ration on day 62."
+          "Soren Fenn went without a full ration on day 62.",
+          "Soren Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9284,14 +9834,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Talia Fenn arrived with a Blergen Company settler convoy.",
-          "Talia Fenn went without a full ration on day 62."
+          "Talia Fenn went without a full ration on day 62.",
+          "Talia Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9316,14 +9867,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Una Fenn arrived with a Blergen Company settler convoy.",
-          "Una Fenn went without a full ration on day 62."
+          "Una Fenn went without a full ration on day 62.",
+          "Una Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9349,14 +9901,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Vera Fenn arrived with a Blergen Company settler convoy.",
-          "Vera Fenn went without a full ration on day 62."
+          "Vera Fenn went without a full ration on day 62.",
+          "Vera Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9382,14 +9935,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Wynn Fenn arrived with a Blergen Company settler convoy.",
-          "Wynn Fenn went without a full ration on day 62."
+          "Wynn Fenn went without a full ration on day 62.",
+          "Wynn Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9415,14 +9969,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Xara Fenn arrived with a Blergen Company settler convoy.",
-          "Xara Fenn went without a full ration on day 62."
+          "Xara Fenn went without a full ration on day 62.",
+          "Xara Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9448,14 +10003,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Yuri Fenn arrived with a Blergen Company settler convoy.",
-          "Yuri Fenn went without a full ration on day 62."
+          "Yuri Fenn went without a full ration on day 62.",
+          "Yuri Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9481,14 +10037,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Zara Fenn arrived with a Blergen Company settler convoy.",
-          "Zara Fenn went without a full ration on day 62."
+          "Zara Fenn went without a full ration on day 62.",
+          "Zara Fenn went without a full ration on day 69."
         ]
       }
     },
@@ -9514,14 +10071,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Ada Graye arrived with a Blergen Company settler convoy.",
-          "Ada Graye went without a full ration on day 62."
+          "Ada Graye went without a full ration on day 62.",
+          "Ada Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9547,14 +10105,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Bram Graye arrived with a Blergen Company settler convoy.",
-          "Bram Graye went without a full ration on day 62."
+          "Bram Graye went without a full ration on day 62.",
+          "Bram Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9580,14 +10139,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Cora Graye arrived with a Blergen Company settler convoy.",
-          "Cora Graye went without a full ration on day 62."
+          "Cora Graye went without a full ration on day 62.",
+          "Cora Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9612,14 +10172,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Dain Graye arrived with a Blergen Company settler convoy.",
-          "Dain Graye went without a full ration on day 62."
+          "Dain Graye went without a full ration on day 62.",
+          "Dain Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9645,14 +10206,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Elia Graye arrived with a Blergen Company settler convoy.",
-          "Elia Graye went without a full ration on day 62."
+          "Elia Graye went without a full ration on day 62.",
+          "Elia Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9678,14 +10240,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Finn Graye arrived with a Blergen Company settler convoy.",
-          "Finn Graye went without a full ration on day 62."
+          "Finn Graye went without a full ration on day 62.",
+          "Finn Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9711,9 +10274,9 @@
       },
       "status": {
         "alive": true,
-        "health": 4,
-        "morale": 6,
-        "hunger": 0
+        "health": 3,
+        "morale": 5,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -9723,7 +10286,8 @@
           "Galen Graye went without a full ration on day 62.",
           "Galen Graye faced a severity 3 wolf attack on day 63.",
           "Galen Graye discovered useful clay near the riverbank on day 64.",
-          "Galen Graye faced a severity 2 wolf attack on day 65."
+          "Galen Graye faced a severity 2 wolf attack on day 65.",
+          "Galen Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9749,9 +10313,9 @@
       },
       "status": {
         "alive": true,
-        "health": 3,
-        "morale": 5,
-        "hunger": 0
+        "health": 1,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -9762,7 +10326,9 @@
           "Hana Graye faced a severity 2 wolf attack on day 65.",
           "Hana Graye helped strengthen the settlement on day 65.",
           "Hana Graye faced a severity 3 wolf attack on day 66.",
-          "Hana Graye helped strengthen the settlement on day 66."
+          "Hana Graye helped strengthen the settlement on day 66.",
+          "Hana Graye endured a severity 3 storm on day 69.",
+          "Hana Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9788,14 +10354,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Iris Graye arrived with a Blergen Company settler convoy.",
-          "Iris Graye went without a full ration on day 62."
+          "Iris Graye went without a full ration on day 62.",
+          "Iris Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9821,14 +10388,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Jory Graye arrived with a Blergen Company settler convoy.",
-          "Jory Graye went without a full ration on day 62."
+          "Jory Graye went without a full ration on day 62.",
+          "Jory Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9895,14 +10463,16 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Lio Graye arrived with a Blergen Company settler convoy.",
-          "Lio Graye went without a full ration on day 62."
+          "Lio Graye went without a full ration on day 62.",
+          "Lio Graye endured tighter rations on day 69.",
+          "Lio Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9926,10 +10496,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 6,
-        "morale": 8,
-        "hunger": 1
+        "alive": false,
+        "health": 0,
+        "morale": 7,
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -9938,7 +10508,10 @@
           "Mara Graye went without a full ration on day 62.",
           "Mara Graye became president of Blergen on day 64.",
           "Mara Graye worked the field expansion on day 64.",
-          "Mara Graye went without a full ration on day 68."
+          "Mara Graye went without a full ration on day 68.",
+          "Mara Graye endured tighter rations on day 69.",
+          "Mara Graye went without a full ration on day 69.",
+          "Mara Graye died of starvation on day 69."
         ]
       }
     },
@@ -9964,14 +10537,16 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Niko Graye arrived with a Blergen Company settler convoy.",
-          "Niko Graye went without a full ration on day 62."
+          "Niko Graye went without a full ration on day 62.",
+          "Niko Graye endured tighter rations on day 69.",
+          "Niko Graye went without a full ration on day 69."
         ]
       }
     },
@@ -9997,15 +10572,17 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 3,
+        "hunger": 2
       },
       "story": {
         "notable_events": [
           "Orin Graye arrived with a Blergen Company settler convoy.",
           "Orin Graye went without a full ration on day 62.",
-          "Orin Graye worked the field expansion on day 64."
+          "Orin Graye worked the field expansion on day 64.",
+          "Orin Graye endured tighter rations on day 69.",
+          "Orin Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10031,14 +10608,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Pia Graye arrived with a Blergen Company settler convoy.",
-          "Pia Graye went without a full ration on day 62."
+          "Pia Graye went without a full ration on day 62.",
+          "Pia Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10064,9 +10642,9 @@
       },
       "status": {
         "alive": true,
-        "health": 4,
-        "morale": 5,
-        "hunger": 0
+        "health": 2,
+        "morale": 3,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -10074,7 +10652,9 @@
           "Quin Graye went without a full ration on day 62.",
           "Quin Graye faced a severity 3 wolf attack on day 66.",
           "Quin Graye faced a severity 2 wolf attack on day 67.",
-          "Quin Graye faced a severity 4 wolf attack on day 68."
+          "Quin Graye faced a severity 4 wolf attack on day 68.",
+          "Quin Graye endured a severity 3 storm on day 69.",
+          "Quin Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10100,15 +10680,16 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 6,
-        "hunger": 0
+        "health": 4,
+        "morale": 5,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Rhea Graye arrived with a Blergen Company settler convoy.",
           "Rhea Graye went without a full ration on day 62.",
-          "Rhea Graye faced a severity 4 wolf attack on day 68."
+          "Rhea Graye faced a severity 4 wolf attack on day 68.",
+          "Rhea Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10134,14 +10715,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Soren Graye arrived with a Blergen Company settler convoy.",
-          "Soren Graye went without a full ration on day 62."
+          "Soren Graye went without a full ration on day 62.",
+          "Soren Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10167,14 +10749,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Talia Graye arrived with a Blergen Company settler convoy.",
-          "Talia Graye went without a full ration on day 62."
+          "Talia Graye went without a full ration on day 62.",
+          "Talia Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10200,15 +10783,16 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 6,
-        "hunger": 0
+        "health": 4,
+        "morale": 5,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Una Graye arrived with a Blergen Company settler convoy.",
           "Una Graye went without a full ration on day 62.",
-          "Una Graye faced a severity 4 wolf attack on day 68."
+          "Una Graye faced a severity 4 wolf attack on day 68.",
+          "Una Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10233,14 +10817,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Vera Graye arrived with a Blergen Company settler convoy.",
-          "Vera Graye went without a full ration on day 62."
+          "Vera Graye went without a full ration on day 62.",
+          "Vera Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10266,14 +10851,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Wynn Graye arrived with a Blergen Company settler convoy.",
-          "Wynn Graye went without a full ration on day 62."
+          "Wynn Graye went without a full ration on day 62.",
+          "Wynn Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10299,14 +10885,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Xara Graye arrived with a Blergen Company settler convoy.",
-          "Xara Graye went without a full ration on day 62."
+          "Xara Graye went without a full ration on day 62.",
+          "Xara Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10332,14 +10919,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Yuri Graye arrived with a Blergen Company settler convoy.",
-          "Yuri Graye went without a full ration on day 62."
+          "Yuri Graye went without a full ration on day 62.",
+          "Yuri Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10365,14 +10953,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Zara Graye arrived with a Blergen Company settler convoy.",
-          "Zara Graye went without a full ration on day 62."
+          "Zara Graye went without a full ration on day 62.",
+          "Zara Graye went without a full ration on day 69."
         ]
       }
     },
@@ -10398,14 +10987,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Ada Hale arrived with a Blergen Company settler convoy.",
-          "Ada Hale went without a full ration on day 62."
+          "Ada Hale went without a full ration on day 62.",
+          "Ada Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10431,14 +11021,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Bram Hale arrived with a Blergen Company settler convoy.",
-          "Bram Hale went without a full ration on day 62."
+          "Bram Hale went without a full ration on day 62.",
+          "Bram Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10464,14 +11055,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Cora Hale arrived with a Blergen Company settler convoy.",
-          "Cora Hale went without a full ration on day 62."
+          "Cora Hale went without a full ration on day 62.",
+          "Cora Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10497,14 +11089,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Dain Hale arrived with a Blergen Company settler convoy.",
-          "Dain Hale went without a full ration on day 62."
+          "Dain Hale went without a full ration on day 62.",
+          "Dain Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10529,14 +11122,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Elia Hale arrived with a Blergen Company settler convoy.",
-          "Elia Hale went without a full ration on day 62."
+          "Elia Hale went without a full ration on day 62.",
+          "Elia Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10562,14 +11156,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
-        "morale": 5,
-        "hunger": 0
+        "health": 4,
+        "morale": 4,
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Finn Hale arrived with a Blergen Company settler convoy.",
-          "Finn Hale went without a full ration on day 62."
+          "Finn Hale went without a full ration on day 62.",
+          "Finn Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10595,14 +11190,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
+        "health": 4,
         "morale": 5,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Galen Hale arrived with a Blergen Company settler convoy.",
-          "Galen Hale went without a full ration on day 62."
+          "Galen Hale went without a full ration on day 62.",
+          "Galen Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10628,14 +11224,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
+        "health": 4,
         "morale": 5,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Hana Hale arrived with a Blergen Company settler convoy.",
-          "Hana Hale went without a full ration on day 62."
+          "Hana Hale went without a full ration on day 62.",
+          "Hana Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10661,14 +11258,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
+        "health": 4,
         "morale": 5,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Iris Hale arrived with a Blergen Company settler convoy.",
-          "Iris Hale went without a full ration on day 62."
+          "Iris Hale went without a full ration on day 62.",
+          "Iris Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10694,14 +11292,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
+        "health": 4,
         "morale": 5,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Jory Hale arrived with a Blergen Company settler convoy.",
-          "Jory Hale went without a full ration on day 62."
+          "Jory Hale went without a full ration on day 62.",
+          "Jory Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10727,14 +11326,15 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
+        "health": 4,
         "morale": 5,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Kara Hale arrived with a Blergen Company settler convoy.",
-          "Kara Hale went without a full ration on day 62."
+          "Kara Hale went without a full ration on day 62.",
+          "Kara Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10762,12 +11362,13 @@
         "alive": true,
         "health": 5,
         "morale": 5,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Lio Hale arrived with a Blergen Company settler convoy.",
-          "Lio Hale went without a full ration on day 62."
+          "Lio Hale went without a full ration on day 62.",
+          "Lio Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10795,12 +11396,13 @@
         "alive": true,
         "health": 5,
         "morale": 4,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Mara Hale arrived with a Blergen Company settler convoy.",
-          "Mara Hale went without a full ration on day 62."
+          "Mara Hale went without a full ration on day 62.",
+          "Mara Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10827,12 +11429,13 @@
         "alive": true,
         "health": 5,
         "morale": 4,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Niko Hale arrived with a Blergen Company settler convoy.",
-          "Niko Hale went without a full ration on day 62."
+          "Niko Hale went without a full ration on day 62.",
+          "Niko Hale went without a full ration on day 69."
         ]
       }
     },
@@ -10860,12 +11463,13 @@
         "alive": true,
         "health": 5,
         "morale": 4,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
           "Orin Hale arrived with a Blergen Company settler convoy.",
-          "Orin Hale went without a full ration on day 62."
+          "Orin Hale went without a full ration on day 62.",
+          "Orin Hale went without a full ration on day 69."
         ]
       }
     }

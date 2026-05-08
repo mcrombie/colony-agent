@@ -1069,13 +1069,20 @@ def _apply_wolf_attack_to_people(
     defenders = _select_people_by_role(
         state,
         ("guard", "scout", "builder"),
-        max(1, min(5, severity)),
+        max(2, min(6, severity + 1)),
         day=day,
     )
     if not defenders:
         return
 
-    health_delta = -1 if severity >= 3 else 0
+    health_delta_by_severity = {
+        1: 0,
+        2: -1,
+        3: -2,
+        4: -3,
+        5: -4,
+    }
+    health_delta = health_delta_by_severity[severity]
     morale_delta = -1 if severity >= 2 else 0
     for person in defenders:
         _change_status(person, health_delta=health_delta, morale_delta=morale_delta)
@@ -1084,15 +1091,22 @@ def _apply_wolf_attack_to_people(
             f"{person['name']} faced a severity {severity} wolf attack on day {day}.",
         )
 
+    if health_delta < 0:
+        names = _join_names([person["name"] for person in defenders])
+        verb = "was" if len(defenders) == 1 else "were"
+        summary = f"{names} {verb} wounded holding the edge of camp against the wolves."
+    else:
+        summary = (
+            f"{_join_names([person['name'] for person in defenders])} "
+            "met the wolf attack at the edge of camp."
+        )
+
     people_events["actions"].append(
         {
             "type": "defended_wolf_attack",
             "severity": severity,
             "people": _people_refs(defenders),
-            "summary": (
-                f"{_join_names([person['name'] for person in defenders])} "
-                f"met the wolf attack at the edge of camp."
-            ),
+            "summary": summary,
         }
     )
 

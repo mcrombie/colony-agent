@@ -254,6 +254,7 @@ def test_wolf_attack_uses_severity_and_records_details():
     )
 
     assert after["security"] == 2
+    assert after["health"] == 4
     assert after["population"] == 99
     assert event_record["event_details"] == {"severity": 3}
     assert event_record["people_events"]["deaths"][0]["cause"] == "wolf_attack"
@@ -270,6 +271,7 @@ def test_strengthen_defenses_reduces_wolf_attack_damage():
 
     assert after["wood"] == 10
     assert after["security"] == 4
+    assert after["health"] == 5
     assert after["population"] == 100
     assert "population" not in event_record["effects"]
 

@@ -344,13 +344,13 @@ def _effects_for_wolf_attack(
 
     effects_by_severity = {
         1: {"security": -1, "morale": -1},
-        2: {"security": -1, "morale": -1, "food": -2},
-        3: {"security": -2, "morale": -2, "health": -1},
-        4: {"security": -2, "morale": -2, "health": -1, "population": -1},
-        5: {"security": -3, "morale": -3, "health": -2, "population": -2},
+        2: {"security": -1, "morale": -1, "health": -1},
+        3: {"security": -2, "morale": -2, "health": -2},
+        4: {"security": -3, "morale": -2, "health": -2, "population": -1},
+        5: {"security": -4, "morale": -3, "health": -3, "population": -3},
     }
     effects = deepcopy(effects_by_severity[severity])
-    if severity == 3 and state["security"] <= 4:
+    if severity == 3 and state["security"] <= 5:
         effects["population"] = -1
 
     return effects

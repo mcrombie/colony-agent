@@ -622,3 +622,112 @@ Day 68 - Blergen Personal Stories:
 - Vera Dove (carpenter) went without a full ration. hunger 0->1.
 - Wynn Dove (farmer) went without a full ration. hunger 0->1.
 - Kara Graye (guard) died of wolf attack. health 4->0; morale 8->7; died.
+
+Day 69 - Blergen Personal Stories:
+- Hana Graye (builder) bore the worst of the storm. health 3->1; morale 5->3; hunger 0->1.
+- Xara Dove (woodcutter) bore the worst of the storm. health 4->2; morale 4->2; hunger 0->1.
+- Quin Graye (scout) bore the worst of the storm. health 4->2; morale 5->3; hunger 0->1.
+- Lio Graye (teacher) endured tighter rations. health 5->4; morale 5->3; hunger 0->2.
+- Mara Graye (forager) endured tighter rations. health 6->0; morale 8->7; hunger 1->3; died.
+- Niko Graye (carpenter) endured tighter rations. health 5->4; morale 5->3; hunger 0->2.
+- Orin Graye (farmer) endured tighter rations. health 5->4; morale 5->3; hunger 0->2.
+- Rhea Graye (builder) went without a full ration. health 5->4; morale 6->5; hunger 0->1.
+- Una Graye (guard) went without a full ration. health 5->4; morale 6->5; hunger 0->1.
+- Jory Ember (builder) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Kara Ember (healer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Lio Ember (cook) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Mara Ember (guard) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Niko Ember (teacher) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Orin Ember (forager) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Pia Ember (carpenter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Quin Ember (farmer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Rhea Ember (woodcutter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Soren Ember (scout) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Talia Ember (builder) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Una Ember (healer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Vera Ember (cook) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Wynn Ember (guard) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Xara Ember (teacher) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Yuri Ember (forager) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Zara Ember (carpenter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Ada Fenn (farmer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Bram Fenn (woodcutter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Cora Fenn (scout) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Dain Fenn (builder) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Elia Fenn (healer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Finn Fenn (cook) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Galen Fenn (guard) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Hana Fenn (teacher) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Iris Fenn (forager) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Jory Fenn (carpenter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Kara Fenn (farmer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Lio Fenn (woodcutter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Mara Fenn (scout) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Niko Fenn (builder) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Orin Fenn (healer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Pia Fenn (cook) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Quin Fenn (guard) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Rhea Fenn (teacher) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Soren Fenn (forager) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Talia Fenn (carpenter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Una Fenn (farmer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Vera Fenn (woodcutter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Wynn Fenn (scout) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Xara Fenn (builder) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Yuri Fenn (healer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Zara Fenn (cook) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Ada Graye (guard) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Bram Graye (teacher) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Cora Graye (forager) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Dain Graye (carpenter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Elia Graye (farmer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Finn Graye (woodcutter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Iris Graye (healer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Jory Graye (cook) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Pia Graye (woodcutter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Soren Graye (healer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Talia Graye (cook) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Vera Graye (teacher) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Wynn Graye (forager) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Xara Graye (carpenter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Yuri Graye (farmer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Zara Graye (woodcutter) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Ada Hale (scout) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Bram Hale (builder) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Cora Hale (healer) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Dain Hale (cook) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Elia Hale (guard) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Finn Hale (teacher) went without a full ration. health 5->4; morale 5->4; hunger 0->1.
+- Galen Hale (forager) went without a full ration. health 5->4; hunger 0->1.
+- Hana Hale (carpenter) went without a full ration. health 5->4; hunger 0->1.
+- Iris Hale (farmer) went without a full ration. health 5->4; hunger 0->1.
+- Jory Hale (woodcutter) went without a full ration. health 5->4; hunger 0->1.
+- Kara Hale (scout) went without a full ration. health 5->4; hunger 0->1.
+- Lio Hale (builder) went without a full ration. hunger 0->1.
+- Zara Dove (builder) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Ada Ember (healer) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Bram Ember (cook) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Cora Ember (guard) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Dain Ember (teacher) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Elia Ember (forager) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Finn Ember (carpenter) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Galen Ember (farmer) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Hana Ember (woodcutter) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Iris Ember (scout) went without a full ration. health 5->4; morale 4->3; hunger 0->1.
+- Mara Hale (healer) went without a full ration. hunger 0->1.
+- Niko Hale (cook) went without a full ration. hunger 0->1.
+- Orin Hale (guard) went without a full ration. hunger 0->1.
+- Galen Graye (scout) went without a full ration. health 4->3; morale 6->5; hunger 0->1.
+- Yuri Dove (scout) went without a full ration. health 4->3; morale 4->3; hunger 0->1.
+- Quin Graye (scout) went without a full ration. health 4->2; morale 5->3; hunger 0->1.
+- Xara Dove (woodcutter) went without a full ration. health 4->2; morale 4->2; hunger 0->1.
+- Hana Graye (builder) went without a full ration. health 3->1; morale 5->3; hunger 0->1.
+- Talia Dove (teacher) went without a full ration. health 6->5; morale 7->6; hunger 1->2.
+- Una Dove (forager) went without a full ration. health 6->5; morale 7->6; hunger 1->2.
+- Vera Dove (carpenter) went without a full ration. health 6->5; morale 7->6; hunger 1->2.
+- Wynn Dove (farmer) went without a full ration. health 6->5; morale 7->6; hunger 1->2.
+- Lio Graye (teacher) went without a full ration. health 5->4; morale 5->3; hunger 0->2.
+- Niko Graye (carpenter) went without a full ration. health 5->4; morale 5->3; hunger 0->2.
+- Orin Graye (farmer) went without a full ration. health 5->4; morale 5->3; hunger 0->2.
+- Mara Graye (forager) went without a full ration. health 6->0; morale 8->7; hunger 1->3; died.
+- Mara Graye (forager) died of starvation. health 6->0; morale 8->7; hunger 1->3; died.

@@ -60,15 +60,17 @@ def choose_world_event_with_openai(
                 "the colony's leadership decisions. Favor impactful events, "
                 "good and bad. Choose quiet_day only about 15 to 25 percent "
                 "of the time, and less often when severe weather or known "
-                "threats suggest danger. Wolves are an active threat and may "
-                "produce wolf_attack. Winter is a season, not an event, but "
-                "winter weather can produce storm. undead_rising is rare and "
-                "should normally require either known undead trouble or named "
-                "dead colonists who could rise. For wolf_attack, storm, and "
-                "undead_rising, set severity from 1 to 5. Do not apply "
-                "mechanics and do not invent new event types. Named colonists "
-                "are context for fate and story pressure, but your structured "
-                "response must still choose only one allowed world event."
+                "threats suggest danger. Wolves are an active threat, but a "
+                "full wolf_attack should be rare: choose it only when the pack "
+                "has a strong opening, and prefer severity 3 to 5 when it does "
+                "happen. Winter is a season, not an event, but winter weather "
+                "can produce storm. undead_rising is rare and should normally "
+                "require either known undead trouble or named dead colonists "
+                "who could rise. For wolf_attack, storm, and undead_rising, "
+                "set severity from 1 to 5. Do not apply mechanics and do not "
+                "invent new event types. Named colonists are context for fate "
+                "and story pressure, but your structured response must still "
+                "choose only one allowed world event."
             ),
         },
         {
@@ -290,7 +292,8 @@ def _state_for_world_prompt(
         },
         "environment": environment or {},
         "threat_rules": [
-            "known_threats containing wolves means wolf_attack is available.",
+            "known_threats containing wolves means wolf_attack is available, but full pack attacks should be rare.",
+            "Avoid wolf_attack if wolves attacked within the recent event log unless today's severity is extreme.",
             "known_threats containing winter means winter weather should increase storm danger.",
             "undead_rising is rare; use it mainly when dead colonists or active undead are present.",
             "Winter is a season and period, not a world_event label.",

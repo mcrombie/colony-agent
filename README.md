@@ -66,10 +66,10 @@ costing wood, hard freezes hurting health, or severe winter weather lowering
 morale.
 
 `known_threats` now affects what events are available to the selector. `wolves`
-can become a `wolf_attack`, `winter` raises the importance of winter weather
-and storm danger, and discovered undead trouble is tracked as `undead`. Winter
-itself is not an event; it is a season that shapes the weather table and the
-prompt context.
+can become a rare but dangerous `wolf_attack`, `winter` raises the importance
+of winter weather and storm danger, and discovered undead trouble is tracked as
+`undead`. Winter itself is not an event; it is a season that shapes the weather
+table and the prompt context.
 
 The OpenAI selectors receive a bounded `character_context` section with role
 counts, status summaries, and a small set of relevant named colonists. The deity
@@ -118,11 +118,13 @@ storm, wolf_attack, undead_rising, quiet_day
 
 The prompt asks the deity to favor impactful events and choose `quiet_day` only
 about 15 to 25 percent of the time. `storm`, `wolf_attack`, and `undead_rising`
-include a severity from 1 to 5. Stronger wolf attacks can kill colonists,
-especially when security is low. Stronger storms can damage stores, wood,
-health, morale, and in extreme sickly conditions, population. `undead_rising` is
-intended to be rare: one named dead colonist can rise, active zombies can attack
-the living, and uncontained infections create more zombies.
+include a severity from 1 to 5. Wolf attacks are cooled down after a recent pack
+attack unless the new attack is severity 5. When they do happen, severity 2 and
+higher can injure defenders, severity 3 can kill if security is weak, and
+severity 4 and 5 attacks kill colonists outright. Stronger storms can damage
+stores, wood, health, morale, and in extreme sickly conditions, population.
+`undead_rising` is intended to be rare: one named dead colonist can rise, active
+zombies can attack the living, and uncontained infections create more zombies.
 
 The president selector is prompted as the president of Blergen deciding how to respond to the event. It can choose:
 
