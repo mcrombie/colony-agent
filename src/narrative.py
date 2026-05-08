@@ -159,7 +159,11 @@ def _action_phrase(leadership_action: str, event_record: dict[str, Any]) -> str:
 
 def _president_name(event_record: dict[str, Any]) -> str:
     president = event_record.get("president") or {}
-    return president.get("name") or "the president"
+    name = president.get("name")
+    if name:
+        return f"President {name}"
+
+    return "the president"
 
 
 def _empty_colony_body(weather_text: str, effects_text: str) -> str:

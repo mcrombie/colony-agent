@@ -75,6 +75,7 @@ def test_run_day_empty_colony_skips_openai_selectors(monkeypatch):
 
     assert event_record["world_event"] == "empty_colony"
     assert event_record["leadership_action"] == "no_action"
+    assert event_record["history_entry"] == history_entries[0]
     assert saved["population"] == 0
     assert saved["day"] == 2
     assert "president" not in history_entries[0]
@@ -209,3 +210,19 @@ def test_cli_args_default_settlers_and_supplies():
         {"type": "send_settlers", "count": 100},
         {"type": "send_supplies"},
     ]
+
+
+def test_main_prints_history_entry(monkeypatch, capsys):
+    history_entry = (
+        "Day 1 (Year 1, January 1) - Blergen:\n"
+        "President Ada Aster told the colonists to preserve resources.\n"
+    )
+    monkeypatch.setattr(
+        run_day_module,
+        "run_day",
+        lambda interventions: {"history_entry": history_entry},
+    )
+
+    run_day_module.main([])
+
+    assert capsys.readouterr().out == history_entry

@@ -606,3 +606,19 @@ Day 66 - Blergen Personal Stories:
 - Quin Graye (scout) defended the camp from wolves. health 6->5; morale 8->7.
 - Hana Graye (builder) helped strengthen the settlement. health 5->4.
 - Kara Graye (guard) helped strengthen the settlement. health 5->4.
+
+Day 67 - Blergen Personal Stories:
+- Kara Graye (guard) defended the camp from wolves. morale 9->8.
+- Quin Graye (scout) defended the camp from wolves. morale 7->6.
+
+Day 68 - Blergen Personal Stories:
+- Kara Graye (guard) defended the camp from wolves. health 4->0; morale 8->7; died.
+- Quin Graye (scout) defended the camp from wolves. health 5->4; morale 6->5.
+- Rhea Graye (builder) defended the camp from wolves. health 6->5; morale 7->6.
+- Una Graye (guard) defended the camp from wolves. health 6->5; morale 7->6.
+- Mara Graye (forager) went without a full ration. hunger 0->1.
+- Talia Dove (teacher) went without a full ration. hunger 0->1.
+- Una Dove (forager) went without a full ration. hunger 0->1.
+- Vera Dove (carpenter) went without a full ration. hunger 0->1.
+- Wynn Dove (farmer) went without a full ration. hunger 0->1.
+- Kara Graye (guard) died of wolf attack. health 4->0; morale 8->7; died.

@@ -387,7 +387,7 @@ def test_history_entry_names_specific_president():
 
     entry = write_daily_entry(state_before, event_record, state_after)
 
-    assert f"{president_name} sent crews out to gather wood" in entry
+    assert f"President {president_name} sent crews out to gather wood" in entry
 
 
 def test_history_entry_includes_date_weather_and_severity():

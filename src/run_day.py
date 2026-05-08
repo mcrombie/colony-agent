@@ -90,18 +90,13 @@ def run_day(
     append_history(entry)
     append_personal_history(personal_entry)
     save_state(state_after)
-    return event_record
+    return {**event_record, "history_entry": entry}
 
 
 def main(argv: Sequence[str] | None = None) -> None:
     args = _parse_args(argv)
     event_record = run_day(_company_interventions_from_args(args))
-    print(
-        f"Day {event_record['day']}: "
-        f"{event_record['world_event']} / "
-        f"{event_record['leadership_action']} - "
-        f"{event_record['summary']}"
-    )
+    print(event_record["history_entry"], end="")
 
 
 def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:

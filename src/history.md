@@ -198,3 +198,9 @@ Clear skies left the day's work mostly to the colony. A severity 2 wolf attack h
 
 Day 66 (Year 1, March 7) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 3 wolf attack hit the colony, and Mara Graye spent wood to strengthen the settlement; the day's changes reduced food by 102, reduced wood by 10, and reduced morale by 1. Hana Graye, Kara Graye, and Quin Graye met the wolf attack at the edge of camp. Hana Graye, and Kara Graye helped strengthen the settlement. The settlement endures into another morning.
+
+Day 67 (Year 1, March 8) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 wolf attack hit the colony, and Mara Graye told the colonists to preserve resources; the day's changes reduced food by 102, reduced morale by 1, and reduced security by 1. Kara Graye, and Quin Graye met the wolf attack at the edge of camp. The settlement endures into another morning.
+
+Day 68 (Year 1, March 9) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 wolf attack hit the colony, and President Mara Graye tried to strengthen the settlement, but there was not enough wood; the day's changes reduced population by 1, reduced food by 94, reduced morale by 2, reduced security by 2, and reduced health by 1. Kara Graye, Quin Graye, Rhea Graye, and Una Graye met the wolf attack at the edge of camp. Mara Graye, Talia Dove, and Una Dove, and 2 others went without full rations. Kara Graye died. With the stores empty, hunger is now the colony's ruling fact.
