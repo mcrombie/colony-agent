@@ -207,3 +207,6 @@ Clear skies left the day's work mostly to the colony. A severity 4 wolf attack h
 
 Day 69 (Year 1, March 10) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 3 storm tested the colony, and President Mara Graye ordered tighter food rationing; the day's changes reduced population by 1, reduced wood by 2, reduced morale by 1, and reduced health by 1. Hana Graye, Xara Dove, and Quin Graye bore the worst of the storm. Lio Graye, Mara Graye, Niko Graye, and Orin Graye felt the tighter rations first. Mara Graye died. With the stores empty, hunger is now the colony's ruling fact.
+
+Day 70 (Year 1, March 11) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 storm tested the colony, and President Wynn Dove told the colonists to preserve resources; the day's changes reduced population by 11, reduced wood by 3, reduced morale by 1, and reduced health by 1. Hana Graye, Xara Dove, Quin Graye, and Galen Graye bore the worst of the storm. Lio Hale, Mara Hale, and Niko Hale, and 95 others went without full rations. Talia Dove, Una Dove, and Vera Dove, and 8 others died. With the stores empty, hunger is now the colony's ruling fact.
