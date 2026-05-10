@@ -210,3 +210,6 @@ Clear skies left the day's work mostly to the colony. A severity 3 storm tested 
 
 Day 70 (Year 1, March 11) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 4 storm tested the colony, and President Wynn Dove told the colonists to preserve resources; the day's changes reduced population by 11, reduced wood by 3, reduced morale by 1, and reduced health by 1. Hana Graye, Xara Dove, Quin Graye, and Galen Graye bore the worst of the storm. Lio Hale, Mara Hale, and Niko Hale, and 95 others went without full rations. Talia Dove, Una Dove, and Vera Dove, and 8 others died. With the stores empty, hunger is now the colony's ruling fact.
+
+Day 71 (Year 1, March 12) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 undead rising threatened the colony, and President Orin Hale ordered the undead destroyed; the day's changes reduced population by 87, reduced morale by 2, reduced security by 1, and reduced health by 2. Dain Bren rose from the dead. Dain Bren was destroyed before the infection could spread. Lio Hale, Niko Hale, and Orin Hale, and 84 others died. No colonists remain in Blergen.

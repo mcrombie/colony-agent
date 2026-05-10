@@ -1,16 +1,17 @@
 {
-  "day": 71,
+  "day": 72,
   "year": 1,
   "colony_name": "Blergen",
-  "population": 87,
+  "population": 0,
   "food": 0,
   "wood": 0,
-  "morale": 2,
-  "security": 6,
-  "health": 2,
+  "morale": 0,
+  "security": 5,
+  "health": 0,
   "known_threats": [
     "wolves",
-    "winter"
+    "winter",
+    "undead"
   ],
   "event_log": [
     {
@@ -5136,6 +5137,965 @@
         ]
       },
       "summary": "A severity 4 storm struck Blergen. Weather: Clear skies left the day's work mostly to the colony. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 71,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 71,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 12,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "undead_rising",
+      "world_event": "undead_rising",
+      "event_details": {
+        "severity": 4
+      },
+      "leadership_action": "fight_undead",
+      "president": {
+        "id": "person_197",
+        "name": "Orin Hale",
+        "since_day": 71
+      },
+      "effects": {
+        "population": -87,
+        "morale": -2,
+        "security": -1,
+        "health": -2
+      },
+      "survival_effects": {
+        "missed_rations": 87
+      },
+      "undead_outcome": {
+        "severity": 4,
+        "existing_zombies": 0,
+        "newly_risen": 1,
+        "zombies_present": 1,
+        "killed_zombies": 1,
+        "contained_zombies": 0,
+        "escaped_zombies": 0,
+        "new_infections": 0,
+        "zombies_after": 0,
+        "effects": {
+          "security": -1,
+          "morale": -1
+        },
+        "resolution": "destroyed"
+      },
+      "people_events": {
+        "actions": [
+          {
+            "type": "undead_rose",
+            "people": [
+              {
+                "id": "person_030",
+                "name": "Dain Bren"
+              }
+            ],
+            "summary": "Dain Bren rose from the dead."
+          },
+          {
+            "type": "undead_destroyed",
+            "people": [
+              {
+                "id": "person_030",
+                "name": "Dain Bren"
+              }
+            ],
+            "summary": "Dain Bren was destroyed before the infection could spread."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 87,
+            "people": [
+              {
+                "id": "person_194",
+                "name": "Lio Hale"
+              },
+              {
+                "id": "person_196",
+                "name": "Niko Hale"
+              },
+              {
+                "id": "person_197",
+                "name": "Orin Hale"
+              },
+              {
+                "id": "person_195",
+                "name": "Mara Hale"
+              },
+              {
+                "id": "person_174",
+                "name": "Rhea Graye"
+              },
+              {
+                "id": "person_177",
+                "name": "Una Graye"
+              },
+              {
+                "id": "person_189",
+                "name": "Galen Hale"
+              },
+              {
+                "id": "person_190",
+                "name": "Hana Hale"
+              },
+              {
+                "id": "person_191",
+                "name": "Iris Hale"
+              },
+              {
+                "id": "person_192",
+                "name": "Jory Hale"
+              },
+              {
+                "id": "person_193",
+                "name": "Kara Hale"
+              },
+              {
+                "id": "person_114",
+                "name": "Jory Ember"
+              },
+              {
+                "id": "person_115",
+                "name": "Kara Ember"
+              },
+              {
+                "id": "person_116",
+                "name": "Lio Ember"
+              },
+              {
+                "id": "person_117",
+                "name": "Mara Ember"
+              },
+              {
+                "id": "person_118",
+                "name": "Niko Ember"
+              },
+              {
+                "id": "person_119",
+                "name": "Orin Ember"
+              },
+              {
+                "id": "person_120",
+                "name": "Pia Ember"
+              },
+              {
+                "id": "person_121",
+                "name": "Quin Ember"
+              },
+              {
+                "id": "person_122",
+                "name": "Rhea Ember"
+              },
+              {
+                "id": "person_123",
+                "name": "Soren Ember"
+              },
+              {
+                "id": "person_124",
+                "name": "Talia Ember"
+              },
+              {
+                "id": "person_125",
+                "name": "Una Ember"
+              },
+              {
+                "id": "person_126",
+                "name": "Vera Ember"
+              },
+              {
+                "id": "person_127",
+                "name": "Wynn Ember"
+              },
+              {
+                "id": "person_128",
+                "name": "Xara Ember"
+              },
+              {
+                "id": "person_129",
+                "name": "Yuri Ember"
+              },
+              {
+                "id": "person_130",
+                "name": "Zara Ember"
+              },
+              {
+                "id": "person_131",
+                "name": "Ada Fenn"
+              },
+              {
+                "id": "person_132",
+                "name": "Bram Fenn"
+              },
+              {
+                "id": "person_133",
+                "name": "Cora Fenn"
+              },
+              {
+                "id": "person_134",
+                "name": "Dain Fenn"
+              },
+              {
+                "id": "person_135",
+                "name": "Elia Fenn"
+              },
+              {
+                "id": "person_136",
+                "name": "Finn Fenn"
+              },
+              {
+                "id": "person_137",
+                "name": "Galen Fenn"
+              },
+              {
+                "id": "person_138",
+                "name": "Hana Fenn"
+              },
+              {
+                "id": "person_139",
+                "name": "Iris Fenn"
+              },
+              {
+                "id": "person_140",
+                "name": "Jory Fenn"
+              },
+              {
+                "id": "person_141",
+                "name": "Kara Fenn"
+              },
+              {
+                "id": "person_142",
+                "name": "Lio Fenn"
+              },
+              {
+                "id": "person_143",
+                "name": "Mara Fenn"
+              },
+              {
+                "id": "person_144",
+                "name": "Niko Fenn"
+              },
+              {
+                "id": "person_145",
+                "name": "Orin Fenn"
+              },
+              {
+                "id": "person_146",
+                "name": "Pia Fenn"
+              },
+              {
+                "id": "person_147",
+                "name": "Quin Fenn"
+              },
+              {
+                "id": "person_148",
+                "name": "Rhea Fenn"
+              },
+              {
+                "id": "person_149",
+                "name": "Soren Fenn"
+              },
+              {
+                "id": "person_150",
+                "name": "Talia Fenn"
+              },
+              {
+                "id": "person_151",
+                "name": "Una Fenn"
+              },
+              {
+                "id": "person_152",
+                "name": "Vera Fenn"
+              },
+              {
+                "id": "person_153",
+                "name": "Wynn Fenn"
+              },
+              {
+                "id": "person_154",
+                "name": "Xara Fenn"
+              },
+              {
+                "id": "person_155",
+                "name": "Yuri Fenn"
+              },
+              {
+                "id": "person_156",
+                "name": "Zara Fenn"
+              },
+              {
+                "id": "person_157",
+                "name": "Ada Graye"
+              },
+              {
+                "id": "person_158",
+                "name": "Bram Graye"
+              },
+              {
+                "id": "person_159",
+                "name": "Cora Graye"
+              },
+              {
+                "id": "person_160",
+                "name": "Dain Graye"
+              },
+              {
+                "id": "person_161",
+                "name": "Elia Graye"
+              },
+              {
+                "id": "person_162",
+                "name": "Finn Graye"
+              },
+              {
+                "id": "person_165",
+                "name": "Iris Graye"
+              },
+              {
+                "id": "person_166",
+                "name": "Jory Graye"
+              },
+              {
+                "id": "person_172",
+                "name": "Pia Graye"
+              },
+              {
+                "id": "person_175",
+                "name": "Soren Graye"
+              },
+              {
+                "id": "person_176",
+                "name": "Talia Graye"
+              },
+              {
+                "id": "person_178",
+                "name": "Vera Graye"
+              },
+              {
+                "id": "person_179",
+                "name": "Wynn Graye"
+              },
+              {
+                "id": "person_180",
+                "name": "Xara Graye"
+              },
+              {
+                "id": "person_181",
+                "name": "Yuri Graye"
+              },
+              {
+                "id": "person_182",
+                "name": "Zara Graye"
+              },
+              {
+                "id": "person_183",
+                "name": "Ada Hale"
+              },
+              {
+                "id": "person_184",
+                "name": "Bram Hale"
+              },
+              {
+                "id": "person_185",
+                "name": "Cora Hale"
+              },
+              {
+                "id": "person_186",
+                "name": "Dain Hale"
+              },
+              {
+                "id": "person_187",
+                "name": "Elia Hale"
+              },
+              {
+                "id": "person_188",
+                "name": "Finn Hale"
+              },
+              {
+                "id": "person_107",
+                "name": "Cora Ember"
+              },
+              {
+                "id": "person_108",
+                "name": "Dain Ember"
+              },
+              {
+                "id": "person_109",
+                "name": "Elia Ember"
+              },
+              {
+                "id": "person_110",
+                "name": "Finn Ember"
+              },
+              {
+                "id": "person_111",
+                "name": "Galen Ember"
+              },
+              {
+                "id": "person_112",
+                "name": "Hana Ember"
+              },
+              {
+                "id": "person_113",
+                "name": "Iris Ember"
+              },
+              {
+                "id": "person_104",
+                "name": "Zara Dove"
+              },
+              {
+                "id": "person_105",
+                "name": "Ada Ember"
+              },
+              {
+                "id": "person_106",
+                "name": "Bram Ember"
+              },
+              {
+                "id": "person_103",
+                "name": "Yuri Dove"
+              }
+            ],
+            "summary": "Lio Hale, Niko Hale, and Orin Hale, and 84 others went without full rations."
+          }
+        ],
+        "deaths": [
+          {
+            "id": "person_194",
+            "name": "Lio Hale",
+            "cause": "starvation",
+            "summary": "Lio Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_196",
+            "name": "Niko Hale",
+            "cause": "starvation",
+            "summary": "Niko Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_197",
+            "name": "Orin Hale",
+            "cause": "starvation",
+            "summary": "Orin Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_195",
+            "name": "Mara Hale",
+            "cause": "starvation",
+            "summary": "Mara Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_174",
+            "name": "Rhea Graye",
+            "cause": "starvation",
+            "summary": "Rhea Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_177",
+            "name": "Una Graye",
+            "cause": "starvation",
+            "summary": "Una Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_189",
+            "name": "Galen Hale",
+            "cause": "starvation",
+            "summary": "Galen Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_190",
+            "name": "Hana Hale",
+            "cause": "starvation",
+            "summary": "Hana Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_191",
+            "name": "Iris Hale",
+            "cause": "starvation",
+            "summary": "Iris Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_192",
+            "name": "Jory Hale",
+            "cause": "starvation",
+            "summary": "Jory Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_193",
+            "name": "Kara Hale",
+            "cause": "starvation",
+            "summary": "Kara Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_114",
+            "name": "Jory Ember",
+            "cause": "starvation",
+            "summary": "Jory Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_115",
+            "name": "Kara Ember",
+            "cause": "starvation",
+            "summary": "Kara Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_116",
+            "name": "Lio Ember",
+            "cause": "starvation",
+            "summary": "Lio Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_117",
+            "name": "Mara Ember",
+            "cause": "starvation",
+            "summary": "Mara Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_118",
+            "name": "Niko Ember",
+            "cause": "starvation",
+            "summary": "Niko Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_119",
+            "name": "Orin Ember",
+            "cause": "starvation",
+            "summary": "Orin Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_120",
+            "name": "Pia Ember",
+            "cause": "starvation",
+            "summary": "Pia Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_121",
+            "name": "Quin Ember",
+            "cause": "starvation",
+            "summary": "Quin Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_122",
+            "name": "Rhea Ember",
+            "cause": "starvation",
+            "summary": "Rhea Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_123",
+            "name": "Soren Ember",
+            "cause": "starvation",
+            "summary": "Soren Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_124",
+            "name": "Talia Ember",
+            "cause": "starvation",
+            "summary": "Talia Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_125",
+            "name": "Una Ember",
+            "cause": "starvation",
+            "summary": "Una Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_126",
+            "name": "Vera Ember",
+            "cause": "starvation",
+            "summary": "Vera Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_127",
+            "name": "Wynn Ember",
+            "cause": "starvation",
+            "summary": "Wynn Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_128",
+            "name": "Xara Ember",
+            "cause": "starvation",
+            "summary": "Xara Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_129",
+            "name": "Yuri Ember",
+            "cause": "starvation",
+            "summary": "Yuri Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_130",
+            "name": "Zara Ember",
+            "cause": "starvation",
+            "summary": "Zara Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_131",
+            "name": "Ada Fenn",
+            "cause": "starvation",
+            "summary": "Ada Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_132",
+            "name": "Bram Fenn",
+            "cause": "starvation",
+            "summary": "Bram Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_133",
+            "name": "Cora Fenn",
+            "cause": "starvation",
+            "summary": "Cora Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_134",
+            "name": "Dain Fenn",
+            "cause": "starvation",
+            "summary": "Dain Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_135",
+            "name": "Elia Fenn",
+            "cause": "starvation",
+            "summary": "Elia Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_136",
+            "name": "Finn Fenn",
+            "cause": "starvation",
+            "summary": "Finn Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_137",
+            "name": "Galen Fenn",
+            "cause": "starvation",
+            "summary": "Galen Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_138",
+            "name": "Hana Fenn",
+            "cause": "starvation",
+            "summary": "Hana Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_139",
+            "name": "Iris Fenn",
+            "cause": "starvation",
+            "summary": "Iris Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_140",
+            "name": "Jory Fenn",
+            "cause": "starvation",
+            "summary": "Jory Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_141",
+            "name": "Kara Fenn",
+            "cause": "starvation",
+            "summary": "Kara Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_142",
+            "name": "Lio Fenn",
+            "cause": "starvation",
+            "summary": "Lio Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_143",
+            "name": "Mara Fenn",
+            "cause": "starvation",
+            "summary": "Mara Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_144",
+            "name": "Niko Fenn",
+            "cause": "starvation",
+            "summary": "Niko Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_145",
+            "name": "Orin Fenn",
+            "cause": "starvation",
+            "summary": "Orin Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_146",
+            "name": "Pia Fenn",
+            "cause": "starvation",
+            "summary": "Pia Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_147",
+            "name": "Quin Fenn",
+            "cause": "starvation",
+            "summary": "Quin Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_148",
+            "name": "Rhea Fenn",
+            "cause": "starvation",
+            "summary": "Rhea Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_149",
+            "name": "Soren Fenn",
+            "cause": "starvation",
+            "summary": "Soren Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_150",
+            "name": "Talia Fenn",
+            "cause": "starvation",
+            "summary": "Talia Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_151",
+            "name": "Una Fenn",
+            "cause": "starvation",
+            "summary": "Una Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_152",
+            "name": "Vera Fenn",
+            "cause": "starvation",
+            "summary": "Vera Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_153",
+            "name": "Wynn Fenn",
+            "cause": "starvation",
+            "summary": "Wynn Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_154",
+            "name": "Xara Fenn",
+            "cause": "starvation",
+            "summary": "Xara Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_155",
+            "name": "Yuri Fenn",
+            "cause": "starvation",
+            "summary": "Yuri Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_156",
+            "name": "Zara Fenn",
+            "cause": "starvation",
+            "summary": "Zara Fenn died of starvation on day 71."
+          },
+          {
+            "id": "person_157",
+            "name": "Ada Graye",
+            "cause": "starvation",
+            "summary": "Ada Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_158",
+            "name": "Bram Graye",
+            "cause": "starvation",
+            "summary": "Bram Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_159",
+            "name": "Cora Graye",
+            "cause": "starvation",
+            "summary": "Cora Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_160",
+            "name": "Dain Graye",
+            "cause": "starvation",
+            "summary": "Dain Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_161",
+            "name": "Elia Graye",
+            "cause": "starvation",
+            "summary": "Elia Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_162",
+            "name": "Finn Graye",
+            "cause": "starvation",
+            "summary": "Finn Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_165",
+            "name": "Iris Graye",
+            "cause": "starvation",
+            "summary": "Iris Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_166",
+            "name": "Jory Graye",
+            "cause": "starvation",
+            "summary": "Jory Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_172",
+            "name": "Pia Graye",
+            "cause": "starvation",
+            "summary": "Pia Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_175",
+            "name": "Soren Graye",
+            "cause": "starvation",
+            "summary": "Soren Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_176",
+            "name": "Talia Graye",
+            "cause": "starvation",
+            "summary": "Talia Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_178",
+            "name": "Vera Graye",
+            "cause": "starvation",
+            "summary": "Vera Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_179",
+            "name": "Wynn Graye",
+            "cause": "starvation",
+            "summary": "Wynn Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_180",
+            "name": "Xara Graye",
+            "cause": "starvation",
+            "summary": "Xara Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_181",
+            "name": "Yuri Graye",
+            "cause": "starvation",
+            "summary": "Yuri Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_182",
+            "name": "Zara Graye",
+            "cause": "starvation",
+            "summary": "Zara Graye died of starvation on day 71."
+          },
+          {
+            "id": "person_183",
+            "name": "Ada Hale",
+            "cause": "starvation",
+            "summary": "Ada Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_184",
+            "name": "Bram Hale",
+            "cause": "starvation",
+            "summary": "Bram Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_185",
+            "name": "Cora Hale",
+            "cause": "starvation",
+            "summary": "Cora Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_186",
+            "name": "Dain Hale",
+            "cause": "starvation",
+            "summary": "Dain Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_187",
+            "name": "Elia Hale",
+            "cause": "starvation",
+            "summary": "Elia Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_188",
+            "name": "Finn Hale",
+            "cause": "starvation",
+            "summary": "Finn Hale died of starvation on day 71."
+          },
+          {
+            "id": "person_107",
+            "name": "Cora Ember",
+            "cause": "starvation",
+            "summary": "Cora Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_108",
+            "name": "Dain Ember",
+            "cause": "starvation",
+            "summary": "Dain Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_109",
+            "name": "Elia Ember",
+            "cause": "starvation",
+            "summary": "Elia Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_110",
+            "name": "Finn Ember",
+            "cause": "starvation",
+            "summary": "Finn Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_111",
+            "name": "Galen Ember",
+            "cause": "starvation",
+            "summary": "Galen Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_112",
+            "name": "Hana Ember",
+            "cause": "starvation",
+            "summary": "Hana Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_113",
+            "name": "Iris Ember",
+            "cause": "starvation",
+            "summary": "Iris Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_104",
+            "name": "Zara Dove",
+            "cause": "starvation",
+            "summary": "Zara Dove died of starvation on day 71."
+          },
+          {
+            "id": "person_105",
+            "name": "Ada Ember",
+            "cause": "starvation",
+            "summary": "Ada Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_106",
+            "name": "Bram Ember",
+            "cause": "starvation",
+            "summary": "Bram Ember died of starvation on day 71."
+          },
+          {
+            "id": "person_103",
+            "name": "Yuri Dove",
+            "cause": "starvation",
+            "summary": "Yuri Dove died of starvation on day 71."
+          }
+        ]
+      },
+      "summary": "The dead stirred under a spreading undead infection. Weather: Clear skies left the day's work mostly to the colony. The president ordered the colonists to destroy the undead."
     }
   ],
   "people": [
@@ -6180,7 +7140,10 @@
         "alive": false,
         "health": 0,
         "morale": 2,
-        "hunger": 3
+        "hunger": 3,
+        "undead": false,
+        "undead_contained": false,
+        "undead_destroyed": true
       },
       "story": {
         "notable_events": [
@@ -6188,7 +7151,9 @@
           "Dain Bren went without a full ration on day 55.",
           "Dain Bren went without a full ration on day 56.",
           "Dain Bren went without a full ration on day 57.",
-          "Dain Bren died of starvation on day 57."
+          "Dain Bren died of starvation on day 57.",
+          "Dain Bren rose as undead on day 71.",
+          "Dain Bren's undead body was destroyed on day 71."
         ]
       }
     },
@@ -8787,17 +9752,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Yuri Dove arrived with a Blergen Company settler convoy.",
           "Yuri Dove went without a full ration on day 62.",
           "Yuri Dove went without a full ration on day 69.",
-          "Yuri Dove went without a full ration on day 70."
+          "Yuri Dove went without a full ration on day 70.",
+          "Yuri Dove went without a full ration on day 71.",
+          "Yuri Dove died of starvation on day 71."
         ]
       }
     },
@@ -8822,17 +9789,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Zara Dove arrived with a Blergen Company settler convoy.",
           "Zara Dove went without a full ration on day 62.",
           "Zara Dove went without a full ration on day 69.",
-          "Zara Dove went without a full ration on day 70."
+          "Zara Dove went without a full ration on day 70.",
+          "Zara Dove went without a full ration on day 71.",
+          "Zara Dove died of starvation on day 71."
         ]
       }
     },
@@ -8857,17 +9826,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Ada Ember arrived with a Blergen Company settler convoy.",
           "Ada Ember went without a full ration on day 62.",
           "Ada Ember went without a full ration on day 69.",
-          "Ada Ember went without a full ration on day 70."
+          "Ada Ember went without a full ration on day 70.",
+          "Ada Ember went without a full ration on day 71.",
+          "Ada Ember died of starvation on day 71."
         ]
       }
     },
@@ -8891,17 +9862,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 2,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Bram Ember arrived with a Blergen Company settler convoy.",
           "Bram Ember went without a full ration on day 62.",
           "Bram Ember went without a full ration on day 69.",
-          "Bram Ember went without a full ration on day 70."
+          "Bram Ember went without a full ration on day 70.",
+          "Bram Ember went without a full ration on day 71.",
+          "Bram Ember died of starvation on day 71."
         ]
       }
     },
@@ -8926,17 +9899,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Cora Ember arrived with a Blergen Company settler convoy.",
           "Cora Ember went without a full ration on day 62.",
           "Cora Ember went without a full ration on day 69.",
-          "Cora Ember went without a full ration on day 70."
+          "Cora Ember went without a full ration on day 70.",
+          "Cora Ember went without a full ration on day 71.",
+          "Cora Ember died of starvation on day 71."
         ]
       }
     },
@@ -8961,17 +9936,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Dain Ember arrived with a Blergen Company settler convoy.",
           "Dain Ember went without a full ration on day 62.",
           "Dain Ember went without a full ration on day 69.",
-          "Dain Ember went without a full ration on day 70."
+          "Dain Ember went without a full ration on day 70.",
+          "Dain Ember went without a full ration on day 71.",
+          "Dain Ember died of starvation on day 71."
         ]
       }
     },
@@ -8996,17 +9973,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Elia Ember arrived with a Blergen Company settler convoy.",
           "Elia Ember went without a full ration on day 62.",
           "Elia Ember went without a full ration on day 69.",
-          "Elia Ember went without a full ration on day 70."
+          "Elia Ember went without a full ration on day 70.",
+          "Elia Ember went without a full ration on day 71.",
+          "Elia Ember died of starvation on day 71."
         ]
       }
     },
@@ -9031,17 +10010,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Finn Ember arrived with a Blergen Company settler convoy.",
           "Finn Ember went without a full ration on day 62.",
           "Finn Ember went without a full ration on day 69.",
-          "Finn Ember went without a full ration on day 70."
+          "Finn Ember went without a full ration on day 70.",
+          "Finn Ember went without a full ration on day 71.",
+          "Finn Ember died of starvation on day 71."
         ]
       }
     },
@@ -9066,17 +10047,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Galen Ember arrived with a Blergen Company settler convoy.",
           "Galen Ember went without a full ration on day 62.",
           "Galen Ember went without a full ration on day 69.",
-          "Galen Ember went without a full ration on day 70."
+          "Galen Ember went without a full ration on day 70.",
+          "Galen Ember went without a full ration on day 71.",
+          "Galen Ember died of starvation on day 71."
         ]
       }
     },
@@ -9101,17 +10084,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Hana Ember arrived with a Blergen Company settler convoy.",
           "Hana Ember went without a full ration on day 62.",
           "Hana Ember went without a full ration on day 69.",
-          "Hana Ember went without a full ration on day 70."
+          "Hana Ember went without a full ration on day 70.",
+          "Hana Ember went without a full ration on day 71.",
+          "Hana Ember died of starvation on day 71."
         ]
       }
     },
@@ -9136,17 +10121,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 2,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Iris Ember arrived with a Blergen Company settler convoy.",
           "Iris Ember went without a full ration on day 62.",
           "Iris Ember went without a full ration on day 69.",
-          "Iris Ember went without a full ration on day 70."
+          "Iris Ember went without a full ration on day 70.",
+          "Iris Ember went without a full ration on day 71.",
+          "Iris Ember died of starvation on day 71."
         ]
       }
     },
@@ -9171,17 +10158,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Jory Ember arrived with a Blergen Company settler convoy.",
           "Jory Ember went without a full ration on day 62.",
           "Jory Ember went without a full ration on day 69.",
-          "Jory Ember went without a full ration on day 70."
+          "Jory Ember went without a full ration on day 70.",
+          "Jory Ember went without a full ration on day 71.",
+          "Jory Ember died of starvation on day 71."
         ]
       }
     },
@@ -9205,17 +10194,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Kara Ember arrived with a Blergen Company settler convoy.",
           "Kara Ember went without a full ration on day 62.",
           "Kara Ember went without a full ration on day 69.",
-          "Kara Ember went without a full ration on day 70."
+          "Kara Ember went without a full ration on day 70.",
+          "Kara Ember went without a full ration on day 71.",
+          "Kara Ember died of starvation on day 71."
         ]
       }
     },
@@ -9240,17 +10231,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Lio Ember arrived with a Blergen Company settler convoy.",
           "Lio Ember went without a full ration on day 62.",
           "Lio Ember went without a full ration on day 69.",
-          "Lio Ember went without a full ration on day 70."
+          "Lio Ember went without a full ration on day 70.",
+          "Lio Ember went without a full ration on day 71.",
+          "Lio Ember died of starvation on day 71."
         ]
       }
     },
@@ -9275,17 +10268,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Mara Ember arrived with a Blergen Company settler convoy.",
           "Mara Ember went without a full ration on day 62.",
           "Mara Ember went without a full ration on day 69.",
-          "Mara Ember went without a full ration on day 70."
+          "Mara Ember went without a full ration on day 70.",
+          "Mara Ember went without a full ration on day 71.",
+          "Mara Ember died of starvation on day 71."
         ]
       }
     },
@@ -9310,17 +10305,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Niko Ember arrived with a Blergen Company settler convoy.",
           "Niko Ember went without a full ration on day 62.",
           "Niko Ember went without a full ration on day 69.",
-          "Niko Ember went without a full ration on day 70."
+          "Niko Ember went without a full ration on day 70.",
+          "Niko Ember went without a full ration on day 71.",
+          "Niko Ember died of starvation on day 71."
         ]
       }
     },
@@ -9345,17 +10342,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Orin Ember arrived with a Blergen Company settler convoy.",
           "Orin Ember went without a full ration on day 62.",
           "Orin Ember went without a full ration on day 69.",
-          "Orin Ember went without a full ration on day 70."
+          "Orin Ember went without a full ration on day 70.",
+          "Orin Ember went without a full ration on day 71.",
+          "Orin Ember died of starvation on day 71."
         ]
       }
     },
@@ -9380,17 +10379,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Pia Ember arrived with a Blergen Company settler convoy.",
           "Pia Ember went without a full ration on day 62.",
           "Pia Ember went without a full ration on day 69.",
-          "Pia Ember went without a full ration on day 70."
+          "Pia Ember went without a full ration on day 70.",
+          "Pia Ember went without a full ration on day 71.",
+          "Pia Ember died of starvation on day 71."
         ]
       }
     },
@@ -9415,17 +10416,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Quin Ember arrived with a Blergen Company settler convoy.",
           "Quin Ember went without a full ration on day 62.",
           "Quin Ember went without a full ration on day 69.",
-          "Quin Ember went without a full ration on day 70."
+          "Quin Ember went without a full ration on day 70.",
+          "Quin Ember went without a full ration on day 71.",
+          "Quin Ember died of starvation on day 71."
         ]
       }
     },
@@ -9450,17 +10453,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Rhea Ember arrived with a Blergen Company settler convoy.",
           "Rhea Ember went without a full ration on day 62.",
           "Rhea Ember went without a full ration on day 69.",
-          "Rhea Ember went without a full ration on day 70."
+          "Rhea Ember went without a full ration on day 70.",
+          "Rhea Ember went without a full ration on day 71.",
+          "Rhea Ember died of starvation on day 71."
         ]
       }
     },
@@ -9485,17 +10490,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Soren Ember arrived with a Blergen Company settler convoy.",
           "Soren Ember went without a full ration on day 62.",
           "Soren Ember went without a full ration on day 69.",
-          "Soren Ember went without a full ration on day 70."
+          "Soren Ember went without a full ration on day 70.",
+          "Soren Ember went without a full ration on day 71.",
+          "Soren Ember died of starvation on day 71."
         ]
       }
     },
@@ -9519,17 +10526,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Talia Ember arrived with a Blergen Company settler convoy.",
           "Talia Ember went without a full ration on day 62.",
           "Talia Ember went without a full ration on day 69.",
-          "Talia Ember went without a full ration on day 70."
+          "Talia Ember went without a full ration on day 70.",
+          "Talia Ember went without a full ration on day 71.",
+          "Talia Ember died of starvation on day 71."
         ]
       }
     },
@@ -9554,17 +10563,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Una Ember arrived with a Blergen Company settler convoy.",
           "Una Ember went without a full ration on day 62.",
           "Una Ember went without a full ration on day 69.",
-          "Una Ember went without a full ration on day 70."
+          "Una Ember went without a full ration on day 70.",
+          "Una Ember went without a full ration on day 71.",
+          "Una Ember died of starvation on day 71."
         ]
       }
     },
@@ -9589,17 +10600,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Vera Ember arrived with a Blergen Company settler convoy.",
           "Vera Ember went without a full ration on day 62.",
           "Vera Ember went without a full ration on day 69.",
-          "Vera Ember went without a full ration on day 70."
+          "Vera Ember went without a full ration on day 70.",
+          "Vera Ember went without a full ration on day 71.",
+          "Vera Ember died of starvation on day 71."
         ]
       }
     },
@@ -9624,17 +10637,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Wynn Ember arrived with a Blergen Company settler convoy.",
           "Wynn Ember went without a full ration on day 62.",
           "Wynn Ember went without a full ration on day 69.",
-          "Wynn Ember went without a full ration on day 70."
+          "Wynn Ember went without a full ration on day 70.",
+          "Wynn Ember went without a full ration on day 71.",
+          "Wynn Ember died of starvation on day 71."
         ]
       }
     },
@@ -9659,17 +10674,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Xara Ember arrived with a Blergen Company settler convoy.",
           "Xara Ember went without a full ration on day 62.",
           "Xara Ember went without a full ration on day 69.",
-          "Xara Ember went without a full ration on day 70."
+          "Xara Ember went without a full ration on day 70.",
+          "Xara Ember went without a full ration on day 71.",
+          "Xara Ember died of starvation on day 71."
         ]
       }
     },
@@ -9694,17 +10711,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Yuri Ember arrived with a Blergen Company settler convoy.",
           "Yuri Ember went without a full ration on day 62.",
           "Yuri Ember went without a full ration on day 69.",
-          "Yuri Ember went without a full ration on day 70."
+          "Yuri Ember went without a full ration on day 70.",
+          "Yuri Ember went without a full ration on day 71.",
+          "Yuri Ember died of starvation on day 71."
         ]
       }
     },
@@ -9729,17 +10748,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Zara Ember arrived with a Blergen Company settler convoy.",
           "Zara Ember went without a full ration on day 62.",
           "Zara Ember went without a full ration on day 69.",
-          "Zara Ember went without a full ration on day 70."
+          "Zara Ember went without a full ration on day 70.",
+          "Zara Ember went without a full ration on day 71.",
+          "Zara Ember died of starvation on day 71."
         ]
       }
     },
@@ -9764,17 +10785,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Ada Fenn arrived with a Blergen Company settler convoy.",
           "Ada Fenn went without a full ration on day 62.",
           "Ada Fenn went without a full ration on day 69.",
-          "Ada Fenn went without a full ration on day 70."
+          "Ada Fenn went without a full ration on day 70.",
+          "Ada Fenn went without a full ration on day 71.",
+          "Ada Fenn died of starvation on day 71."
         ]
       }
     },
@@ -9799,17 +10822,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Bram Fenn arrived with a Blergen Company settler convoy.",
           "Bram Fenn went without a full ration on day 62.",
           "Bram Fenn went without a full ration on day 69.",
-          "Bram Fenn went without a full ration on day 70."
+          "Bram Fenn went without a full ration on day 70.",
+          "Bram Fenn went without a full ration on day 71.",
+          "Bram Fenn died of starvation on day 71."
         ]
       }
     },
@@ -9833,17 +10858,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Cora Fenn arrived with a Blergen Company settler convoy.",
           "Cora Fenn went without a full ration on day 62.",
           "Cora Fenn went without a full ration on day 69.",
-          "Cora Fenn went without a full ration on day 70."
+          "Cora Fenn went without a full ration on day 70.",
+          "Cora Fenn went without a full ration on day 71.",
+          "Cora Fenn died of starvation on day 71."
         ]
       }
     },
@@ -9868,17 +10895,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Dain Fenn arrived with a Blergen Company settler convoy.",
           "Dain Fenn went without a full ration on day 62.",
           "Dain Fenn went without a full ration on day 69.",
-          "Dain Fenn went without a full ration on day 70."
+          "Dain Fenn went without a full ration on day 70.",
+          "Dain Fenn went without a full ration on day 71.",
+          "Dain Fenn died of starvation on day 71."
         ]
       }
     },
@@ -9903,17 +10932,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Elia Fenn arrived with a Blergen Company settler convoy.",
           "Elia Fenn went without a full ration on day 62.",
           "Elia Fenn went without a full ration on day 69.",
-          "Elia Fenn went without a full ration on day 70."
+          "Elia Fenn went without a full ration on day 70.",
+          "Elia Fenn went without a full ration on day 71.",
+          "Elia Fenn died of starvation on day 71."
         ]
       }
     },
@@ -9938,17 +10969,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Finn Fenn arrived with a Blergen Company settler convoy.",
           "Finn Fenn went without a full ration on day 62.",
           "Finn Fenn went without a full ration on day 69.",
-          "Finn Fenn went without a full ration on day 70."
+          "Finn Fenn went without a full ration on day 70.",
+          "Finn Fenn went without a full ration on day 71.",
+          "Finn Fenn died of starvation on day 71."
         ]
       }
     },
@@ -9973,17 +11006,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Galen Fenn arrived with a Blergen Company settler convoy.",
           "Galen Fenn went without a full ration on day 62.",
           "Galen Fenn went without a full ration on day 69.",
-          "Galen Fenn went without a full ration on day 70."
+          "Galen Fenn went without a full ration on day 70.",
+          "Galen Fenn went without a full ration on day 71.",
+          "Galen Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10008,17 +11043,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Hana Fenn arrived with a Blergen Company settler convoy.",
           "Hana Fenn went without a full ration on day 62.",
           "Hana Fenn went without a full ration on day 69.",
-          "Hana Fenn went without a full ration on day 70."
+          "Hana Fenn went without a full ration on day 70.",
+          "Hana Fenn went without a full ration on day 71.",
+          "Hana Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10043,17 +11080,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Iris Fenn arrived with a Blergen Company settler convoy.",
           "Iris Fenn went without a full ration on day 62.",
           "Iris Fenn went without a full ration on day 69.",
-          "Iris Fenn went without a full ration on day 70."
+          "Iris Fenn went without a full ration on day 70.",
+          "Iris Fenn went without a full ration on day 71.",
+          "Iris Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10078,17 +11117,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Jory Fenn arrived with a Blergen Company settler convoy.",
           "Jory Fenn went without a full ration on day 62.",
           "Jory Fenn went without a full ration on day 69.",
-          "Jory Fenn went without a full ration on day 70."
+          "Jory Fenn went without a full ration on day 70.",
+          "Jory Fenn went without a full ration on day 71.",
+          "Jory Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10113,17 +11154,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Kara Fenn arrived with a Blergen Company settler convoy.",
           "Kara Fenn went without a full ration on day 62.",
           "Kara Fenn went without a full ration on day 69.",
-          "Kara Fenn went without a full ration on day 70."
+          "Kara Fenn went without a full ration on day 70.",
+          "Kara Fenn went without a full ration on day 71.",
+          "Kara Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10147,17 +11190,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Lio Fenn arrived with a Blergen Company settler convoy.",
           "Lio Fenn went without a full ration on day 62.",
           "Lio Fenn went without a full ration on day 69.",
-          "Lio Fenn went without a full ration on day 70."
+          "Lio Fenn went without a full ration on day 70.",
+          "Lio Fenn went without a full ration on day 71.",
+          "Lio Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10182,17 +11227,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Mara Fenn arrived with a Blergen Company settler convoy.",
           "Mara Fenn went without a full ration on day 62.",
           "Mara Fenn went without a full ration on day 69.",
-          "Mara Fenn went without a full ration on day 70."
+          "Mara Fenn went without a full ration on day 70.",
+          "Mara Fenn went without a full ration on day 71.",
+          "Mara Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10217,17 +11264,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Niko Fenn arrived with a Blergen Company settler convoy.",
           "Niko Fenn went without a full ration on day 62.",
           "Niko Fenn went without a full ration on day 69.",
-          "Niko Fenn went without a full ration on day 70."
+          "Niko Fenn went without a full ration on day 70.",
+          "Niko Fenn went without a full ration on day 71.",
+          "Niko Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10252,17 +11301,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Orin Fenn arrived with a Blergen Company settler convoy.",
           "Orin Fenn went without a full ration on day 62.",
           "Orin Fenn went without a full ration on day 69.",
-          "Orin Fenn went without a full ration on day 70."
+          "Orin Fenn went without a full ration on day 70.",
+          "Orin Fenn went without a full ration on day 71.",
+          "Orin Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10287,17 +11338,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Pia Fenn arrived with a Blergen Company settler convoy.",
           "Pia Fenn went without a full ration on day 62.",
           "Pia Fenn went without a full ration on day 69.",
-          "Pia Fenn went without a full ration on day 70."
+          "Pia Fenn went without a full ration on day 70.",
+          "Pia Fenn went without a full ration on day 71.",
+          "Pia Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10322,17 +11375,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Quin Fenn arrived with a Blergen Company settler convoy.",
           "Quin Fenn went without a full ration on day 62.",
           "Quin Fenn went without a full ration on day 69.",
-          "Quin Fenn went without a full ration on day 70."
+          "Quin Fenn went without a full ration on day 70.",
+          "Quin Fenn went without a full ration on day 71.",
+          "Quin Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10357,17 +11412,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Rhea Fenn arrived with a Blergen Company settler convoy.",
           "Rhea Fenn went without a full ration on day 62.",
           "Rhea Fenn went without a full ration on day 69.",
-          "Rhea Fenn went without a full ration on day 70."
+          "Rhea Fenn went without a full ration on day 70.",
+          "Rhea Fenn went without a full ration on day 71.",
+          "Rhea Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10392,17 +11449,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Soren Fenn arrived with a Blergen Company settler convoy.",
           "Soren Fenn went without a full ration on day 62.",
           "Soren Fenn went without a full ration on day 69.",
-          "Soren Fenn went without a full ration on day 70."
+          "Soren Fenn went without a full ration on day 70.",
+          "Soren Fenn went without a full ration on day 71.",
+          "Soren Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10427,17 +11486,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Talia Fenn arrived with a Blergen Company settler convoy.",
           "Talia Fenn went without a full ration on day 62.",
           "Talia Fenn went without a full ration on day 69.",
-          "Talia Fenn went without a full ration on day 70."
+          "Talia Fenn went without a full ration on day 70.",
+          "Talia Fenn went without a full ration on day 71.",
+          "Talia Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10461,17 +11522,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Una Fenn arrived with a Blergen Company settler convoy.",
           "Una Fenn went without a full ration on day 62.",
           "Una Fenn went without a full ration on day 69.",
-          "Una Fenn went without a full ration on day 70."
+          "Una Fenn went without a full ration on day 70.",
+          "Una Fenn went without a full ration on day 71.",
+          "Una Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10496,17 +11559,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Vera Fenn arrived with a Blergen Company settler convoy.",
           "Vera Fenn went without a full ration on day 62.",
           "Vera Fenn went without a full ration on day 69.",
-          "Vera Fenn went without a full ration on day 70."
+          "Vera Fenn went without a full ration on day 70.",
+          "Vera Fenn went without a full ration on day 71.",
+          "Vera Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10531,17 +11596,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Wynn Fenn arrived with a Blergen Company settler convoy.",
           "Wynn Fenn went without a full ration on day 62.",
           "Wynn Fenn went without a full ration on day 69.",
-          "Wynn Fenn went without a full ration on day 70."
+          "Wynn Fenn went without a full ration on day 70.",
+          "Wynn Fenn went without a full ration on day 71.",
+          "Wynn Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10566,17 +11633,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Xara Fenn arrived with a Blergen Company settler convoy.",
           "Xara Fenn went without a full ration on day 62.",
           "Xara Fenn went without a full ration on day 69.",
-          "Xara Fenn went without a full ration on day 70."
+          "Xara Fenn went without a full ration on day 70.",
+          "Xara Fenn went without a full ration on day 71.",
+          "Xara Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10601,17 +11670,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Yuri Fenn arrived with a Blergen Company settler convoy.",
           "Yuri Fenn went without a full ration on day 62.",
           "Yuri Fenn went without a full ration on day 69.",
-          "Yuri Fenn went without a full ration on day 70."
+          "Yuri Fenn went without a full ration on day 70.",
+          "Yuri Fenn went without a full ration on day 71.",
+          "Yuri Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10636,17 +11707,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Zara Fenn arrived with a Blergen Company settler convoy.",
           "Zara Fenn went without a full ration on day 62.",
           "Zara Fenn went without a full ration on day 69.",
-          "Zara Fenn went without a full ration on day 70."
+          "Zara Fenn went without a full ration on day 70.",
+          "Zara Fenn went without a full ration on day 71.",
+          "Zara Fenn died of starvation on day 71."
         ]
       }
     },
@@ -10671,17 +11744,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Ada Graye arrived with a Blergen Company settler convoy.",
           "Ada Graye went without a full ration on day 62.",
           "Ada Graye went without a full ration on day 69.",
-          "Ada Graye went without a full ration on day 70."
+          "Ada Graye went without a full ration on day 70.",
+          "Ada Graye went without a full ration on day 71.",
+          "Ada Graye died of starvation on day 71."
         ]
       }
     },
@@ -10706,17 +11781,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Bram Graye arrived with a Blergen Company settler convoy.",
           "Bram Graye went without a full ration on day 62.",
           "Bram Graye went without a full ration on day 69.",
-          "Bram Graye went without a full ration on day 70."
+          "Bram Graye went without a full ration on day 70.",
+          "Bram Graye went without a full ration on day 71.",
+          "Bram Graye died of starvation on day 71."
         ]
       }
     },
@@ -10741,17 +11818,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Cora Graye arrived with a Blergen Company settler convoy.",
           "Cora Graye went without a full ration on day 62.",
           "Cora Graye went without a full ration on day 69.",
-          "Cora Graye went without a full ration on day 70."
+          "Cora Graye went without a full ration on day 70.",
+          "Cora Graye went without a full ration on day 71.",
+          "Cora Graye died of starvation on day 71."
         ]
       }
     },
@@ -10775,17 +11854,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Dain Graye arrived with a Blergen Company settler convoy.",
           "Dain Graye went without a full ration on day 62.",
           "Dain Graye went without a full ration on day 69.",
-          "Dain Graye went without a full ration on day 70."
+          "Dain Graye went without a full ration on day 70.",
+          "Dain Graye went without a full ration on day 71.",
+          "Dain Graye died of starvation on day 71."
         ]
       }
     },
@@ -10810,17 +11891,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Elia Graye arrived with a Blergen Company settler convoy.",
           "Elia Graye went without a full ration on day 62.",
           "Elia Graye went without a full ration on day 69.",
-          "Elia Graye went without a full ration on day 70."
+          "Elia Graye went without a full ration on day 70.",
+          "Elia Graye went without a full ration on day 71.",
+          "Elia Graye died of starvation on day 71."
         ]
       }
     },
@@ -10845,17 +11928,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Finn Graye arrived with a Blergen Company settler convoy.",
           "Finn Graye went without a full ration on day 62.",
           "Finn Graye went without a full ration on day 69.",
-          "Finn Graye went without a full ration on day 70."
+          "Finn Graye went without a full ration on day 70.",
+          "Finn Graye went without a full ration on day 71.",
+          "Finn Graye died of starvation on day 71."
         ]
       }
     },
@@ -10966,17 +12051,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Iris Graye arrived with a Blergen Company settler convoy.",
           "Iris Graye went without a full ration on day 62.",
           "Iris Graye went without a full ration on day 69.",
-          "Iris Graye went without a full ration on day 70."
+          "Iris Graye went without a full ration on day 70.",
+          "Iris Graye went without a full ration on day 71.",
+          "Iris Graye died of starvation on day 71."
         ]
       }
     },
@@ -11001,17 +12088,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Jory Graye arrived with a Blergen Company settler convoy.",
           "Jory Graye went without a full ration on day 62.",
           "Jory Graye went without a full ration on day 69.",
-          "Jory Graye went without a full ration on day 70."
+          "Jory Graye went without a full ration on day 70.",
+          "Jory Graye went without a full ration on day 71.",
+          "Jory Graye died of starvation on day 71."
         ]
       }
     },
@@ -11228,17 +12317,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Pia Graye arrived with a Blergen Company settler convoy.",
           "Pia Graye went without a full ration on day 62.",
           "Pia Graye went without a full ration on day 69.",
-          "Pia Graye went without a full ration on day 70."
+          "Pia Graye went without a full ration on day 70.",
+          "Pia Graye went without a full ration on day 71.",
+          "Pia Graye died of starvation on day 71."
         ]
       }
     },
@@ -11304,10 +12395,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -11315,7 +12406,9 @@
           "Rhea Graye went without a full ration on day 62.",
           "Rhea Graye faced a severity 4 wolf attack on day 68.",
           "Rhea Graye went without a full ration on day 69.",
-          "Rhea Graye went without a full ration on day 70."
+          "Rhea Graye went without a full ration on day 70.",
+          "Rhea Graye went without a full ration on day 71.",
+          "Rhea Graye died of starvation on day 71."
         ]
       }
     },
@@ -11340,17 +12433,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Soren Graye arrived with a Blergen Company settler convoy.",
           "Soren Graye went without a full ration on day 62.",
           "Soren Graye went without a full ration on day 69.",
-          "Soren Graye went without a full ration on day 70."
+          "Soren Graye went without a full ration on day 70.",
+          "Soren Graye went without a full ration on day 71.",
+          "Soren Graye died of starvation on day 71."
         ]
       }
     },
@@ -11375,17 +12470,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Talia Graye arrived with a Blergen Company settler convoy.",
           "Talia Graye went without a full ration on day 62.",
           "Talia Graye went without a full ration on day 69.",
-          "Talia Graye went without a full ration on day 70."
+          "Talia Graye went without a full ration on day 70.",
+          "Talia Graye went without a full ration on day 71.",
+          "Talia Graye died of starvation on day 71."
         ]
       }
     },
@@ -11410,10 +12507,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -11421,7 +12518,9 @@
           "Una Graye went without a full ration on day 62.",
           "Una Graye faced a severity 4 wolf attack on day 68.",
           "Una Graye went without a full ration on day 69.",
-          "Una Graye went without a full ration on day 70."
+          "Una Graye went without a full ration on day 70.",
+          "Una Graye went without a full ration on day 71.",
+          "Una Graye died of starvation on day 71."
         ]
       }
     },
@@ -11445,17 +12544,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Vera Graye arrived with a Blergen Company settler convoy.",
           "Vera Graye went without a full ration on day 62.",
           "Vera Graye went without a full ration on day 69.",
-          "Vera Graye went without a full ration on day 70."
+          "Vera Graye went without a full ration on day 70.",
+          "Vera Graye went without a full ration on day 71.",
+          "Vera Graye died of starvation on day 71."
         ]
       }
     },
@@ -11480,17 +12581,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Wynn Graye arrived with a Blergen Company settler convoy.",
           "Wynn Graye went without a full ration on day 62.",
           "Wynn Graye went without a full ration on day 69.",
-          "Wynn Graye went without a full ration on day 70."
+          "Wynn Graye went without a full ration on day 70.",
+          "Wynn Graye went without a full ration on day 71.",
+          "Wynn Graye died of starvation on day 71."
         ]
       }
     },
@@ -11515,17 +12618,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Xara Graye arrived with a Blergen Company settler convoy.",
           "Xara Graye went without a full ration on day 62.",
           "Xara Graye went without a full ration on day 69.",
-          "Xara Graye went without a full ration on day 70."
+          "Xara Graye went without a full ration on day 70.",
+          "Xara Graye went without a full ration on day 71.",
+          "Xara Graye died of starvation on day 71."
         ]
       }
     },
@@ -11550,17 +12655,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Yuri Graye arrived with a Blergen Company settler convoy.",
           "Yuri Graye went without a full ration on day 62.",
           "Yuri Graye went without a full ration on day 69.",
-          "Yuri Graye went without a full ration on day 70."
+          "Yuri Graye went without a full ration on day 70.",
+          "Yuri Graye went without a full ration on day 71.",
+          "Yuri Graye died of starvation on day 71."
         ]
       }
     },
@@ -11585,17 +12692,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Zara Graye arrived with a Blergen Company settler convoy.",
           "Zara Graye went without a full ration on day 62.",
           "Zara Graye went without a full ration on day 69.",
-          "Zara Graye went without a full ration on day 70."
+          "Zara Graye went without a full ration on day 70.",
+          "Zara Graye went without a full ration on day 71.",
+          "Zara Graye died of starvation on day 71."
         ]
       }
     },
@@ -11620,17 +12729,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Ada Hale arrived with a Blergen Company settler convoy.",
           "Ada Hale went without a full ration on day 62.",
           "Ada Hale went without a full ration on day 69.",
-          "Ada Hale went without a full ration on day 70."
+          "Ada Hale went without a full ration on day 70.",
+          "Ada Hale went without a full ration on day 71.",
+          "Ada Hale died of starvation on day 71."
         ]
       }
     },
@@ -11655,17 +12766,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Bram Hale arrived with a Blergen Company settler convoy.",
           "Bram Hale went without a full ration on day 62.",
           "Bram Hale went without a full ration on day 69.",
-          "Bram Hale went without a full ration on day 70."
+          "Bram Hale went without a full ration on day 70.",
+          "Bram Hale went without a full ration on day 71.",
+          "Bram Hale died of starvation on day 71."
         ]
       }
     },
@@ -11690,17 +12803,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Cora Hale arrived with a Blergen Company settler convoy.",
           "Cora Hale went without a full ration on day 62.",
           "Cora Hale went without a full ration on day 69.",
-          "Cora Hale went without a full ration on day 70."
+          "Cora Hale went without a full ration on day 70.",
+          "Cora Hale went without a full ration on day 71.",
+          "Cora Hale died of starvation on day 71."
         ]
       }
     },
@@ -11725,17 +12840,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Dain Hale arrived with a Blergen Company settler convoy.",
           "Dain Hale went without a full ration on day 62.",
           "Dain Hale went without a full ration on day 69.",
-          "Dain Hale went without a full ration on day 70."
+          "Dain Hale went without a full ration on day 70.",
+          "Dain Hale went without a full ration on day 71.",
+          "Dain Hale died of starvation on day 71."
         ]
       }
     },
@@ -11759,17 +12876,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Elia Hale arrived with a Blergen Company settler convoy.",
           "Elia Hale went without a full ration on day 62.",
           "Elia Hale went without a full ration on day 69.",
-          "Elia Hale went without a full ration on day 70."
+          "Elia Hale went without a full ration on day 70.",
+          "Elia Hale went without a full ration on day 71.",
+          "Elia Hale died of starvation on day 71."
         ]
       }
     },
@@ -11794,17 +12913,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Finn Hale arrived with a Blergen Company settler convoy.",
           "Finn Hale went without a full ration on day 62.",
           "Finn Hale went without a full ration on day 69.",
-          "Finn Hale went without a full ration on day 70."
+          "Finn Hale went without a full ration on day 70.",
+          "Finn Hale went without a full ration on day 71.",
+          "Finn Hale died of starvation on day 71."
         ]
       }
     },
@@ -11829,17 +12950,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Galen Hale arrived with a Blergen Company settler convoy.",
           "Galen Hale went without a full ration on day 62.",
           "Galen Hale went without a full ration on day 69.",
-          "Galen Hale went without a full ration on day 70."
+          "Galen Hale went without a full ration on day 70.",
+          "Galen Hale went without a full ration on day 71.",
+          "Galen Hale died of starvation on day 71."
         ]
       }
     },
@@ -11864,17 +12987,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Hana Hale arrived with a Blergen Company settler convoy.",
           "Hana Hale went without a full ration on day 62.",
           "Hana Hale went without a full ration on day 69.",
-          "Hana Hale went without a full ration on day 70."
+          "Hana Hale went without a full ration on day 70.",
+          "Hana Hale went without a full ration on day 71.",
+          "Hana Hale died of starvation on day 71."
         ]
       }
     },
@@ -11899,17 +13024,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Iris Hale arrived with a Blergen Company settler convoy.",
           "Iris Hale went without a full ration on day 62.",
           "Iris Hale went without a full ration on day 69.",
-          "Iris Hale went without a full ration on day 70."
+          "Iris Hale went without a full ration on day 70.",
+          "Iris Hale went without a full ration on day 71.",
+          "Iris Hale died of starvation on day 71."
         ]
       }
     },
@@ -11934,17 +13061,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Jory Hale arrived with a Blergen Company settler convoy.",
           "Jory Hale went without a full ration on day 62.",
           "Jory Hale went without a full ration on day 69.",
-          "Jory Hale went without a full ration on day 70."
+          "Jory Hale went without a full ration on day 70.",
+          "Jory Hale went without a full ration on day 71.",
+          "Jory Hale died of starvation on day 71."
         ]
       }
     },
@@ -11969,17 +13098,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 3,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Kara Hale arrived with a Blergen Company settler convoy.",
           "Kara Hale went without a full ration on day 62.",
           "Kara Hale went without a full ration on day 69.",
-          "Kara Hale went without a full ration on day 70."
+          "Kara Hale went without a full ration on day 70.",
+          "Kara Hale went without a full ration on day 71.",
+          "Kara Hale died of starvation on day 71."
         ]
       }
     },
@@ -12004,17 +13135,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Lio Hale arrived with a Blergen Company settler convoy.",
           "Lio Hale went without a full ration on day 62.",
           "Lio Hale went without a full ration on day 69.",
-          "Lio Hale went without a full ration on day 70."
+          "Lio Hale went without a full ration on day 70.",
+          "Lio Hale went without a full ration on day 71.",
+          "Lio Hale died of starvation on day 71."
         ]
       }
     },
@@ -12039,17 +13172,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 3,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Mara Hale arrived with a Blergen Company settler convoy.",
           "Mara Hale went without a full ration on day 62.",
           "Mara Hale went without a full ration on day 69.",
-          "Mara Hale went without a full ration on day 70."
+          "Mara Hale went without a full ration on day 70.",
+          "Mara Hale went without a full ration on day 71.",
+          "Mara Hale died of starvation on day 71."
         ]
       }
     },
@@ -12073,17 +13208,19 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Niko Hale arrived with a Blergen Company settler convoy.",
           "Niko Hale went without a full ration on day 62.",
           "Niko Hale went without a full ration on day 69.",
-          "Niko Hale went without a full ration on day 70."
+          "Niko Hale went without a full ration on day 70.",
+          "Niko Hale went without a full ration on day 71.",
+          "Niko Hale died of starvation on day 71."
         ]
       }
     },
@@ -12108,24 +13245,33 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 4,
+        "alive": false,
+        "health": 0,
         "morale": 4,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
           "Orin Hale arrived with a Blergen Company settler convoy.",
           "Orin Hale went without a full ration on day 62.",
           "Orin Hale went without a full ration on day 69.",
-          "Orin Hale went without a full ration on day 70."
+          "Orin Hale went without a full ration on day 70.",
+          "Orin Hale became president of Blergen on day 71.",
+          "Orin Hale went without a full ration on day 71.",
+          "Orin Hale died of starvation on day 71."
         ]
       }
     }
   ],
   "president": {
-    "id": "person_101",
-    "name": "Wynn Dove",
-    "since_day": 70
+    "id": "person_197",
+    "name": "Orin Hale",
+    "since_day": 71
+  },
+  "undead_threat": {
+    "active": false,
+    "zombies": 0,
+    "contained_zombies": 0,
+    "last_event_day": 71
   }
 }

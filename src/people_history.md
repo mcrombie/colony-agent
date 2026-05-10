@@ -846,3 +846,181 @@ Day 70 - Blergen Personal Stories:
 - Hana Graye (builder) died of starvation. health 1->0; morale 3->2; hunger 1->3; died.
 - Quin Graye (scout) died of starvation. health 2->0; morale 3->2; hunger 1->3; died.
 - Xara Dove (woodcutter) died of starvation. health 2->0; morale 2->1; hunger 1->3; died.
+
+Day 71 - Blergen Personal Stories:
+- Dain Bren (carpenter) rose as undead. Status unchanged.
+- Dain Bren (carpenter) was destroyed as undead. Status unchanged.
+- Lio Hale (builder) went without a full ration. health 4->0; hunger 2->3; died.
+- Niko Hale (cook) went without a full ration. health 4->0; hunger 2->3; died.
+- Orin Hale (guard) went without a full ration. health 4->0; hunger 2->3; died.
+- Mara Hale (healer) went without a full ration. health 4->0; hunger 2->3; died.
+- Rhea Graye (builder) went without a full ration. health 3->0; hunger 2->3; died.
+- Una Graye (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Galen Hale (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Hana Hale (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Iris Hale (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Jory Hale (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Kara Hale (scout) went without a full ration. health 3->0; hunger 2->3; died.
+- Jory Ember (builder) went without a full ration. health 3->0; hunger 2->3; died.
+- Kara Ember (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Lio Ember (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Mara Ember (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Niko Ember (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Orin Ember (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Pia Ember (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Quin Ember (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Rhea Ember (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Soren Ember (scout) went without a full ration. health 3->0; hunger 2->3; died.
+- Talia Ember (builder) went without a full ration. health 3->0; hunger 2->3; died.
+- Una Ember (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Vera Ember (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Wynn Ember (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Xara Ember (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Yuri Ember (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Zara Ember (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Ada Fenn (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Bram Fenn (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Cora Fenn (scout) went without a full ration. health 3->0; hunger 2->3; died.
+- Dain Fenn (builder) went without a full ration. health 3->0; hunger 2->3; died.
+- Elia Fenn (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Finn Fenn (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Galen Fenn (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Hana Fenn (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Iris Fenn (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Jory Fenn (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Kara Fenn (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Lio Fenn (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Mara Fenn (scout) went without a full ration. health 3->0; hunger 2->3; died.
+- Niko Fenn (builder) went without a full ration. health 3->0; hunger 2->3; died.
+- Orin Fenn (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Pia Fenn (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Quin Fenn (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Rhea Fenn (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Soren Fenn (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Talia Fenn (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Una Fenn (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Vera Fenn (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Wynn Fenn (scout) went without a full ration. health 3->0; hunger 2->3; died.
+- Xara Fenn (builder) went without a full ration. health 3->0; hunger 2->3; died.
+- Yuri Fenn (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Zara Fenn (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Ada Graye (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Bram Graye (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Cora Graye (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Dain Graye (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Elia Graye (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Finn Graye (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Iris Graye (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Jory Graye (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Pia Graye (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Soren Graye (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Talia Graye (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Vera Graye (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Wynn Graye (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Xara Graye (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Yuri Graye (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Zara Graye (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Ada Hale (scout) went without a full ration. health 3->0; hunger 2->3; died.
+- Bram Hale (builder) went without a full ration. health 3->0; hunger 2->3; died.
+- Cora Hale (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Dain Hale (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Elia Hale (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Finn Hale (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Cora Ember (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Dain Ember (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Elia Ember (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Finn Ember (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Galen Ember (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Hana Ember (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Iris Ember (scout) went without a full ration. health 3->0; hunger 2->3; died.
+- Zara Dove (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Ada Ember (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Bram Ember (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Yuri Dove (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Lio Hale (builder) died of starvation. health 4->0; hunger 2->3; died.
+- Niko Hale (cook) died of starvation. health 4->0; hunger 2->3; died.
+- Orin Hale (guard) died of starvation. health 4->0; hunger 2->3; died.
+- Mara Hale (healer) died of starvation. health 4->0; hunger 2->3; died.
+- Rhea Graye (builder) died of starvation. health 3->0; hunger 2->3; died.
+- Una Graye (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Galen Hale (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Hana Hale (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Iris Hale (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Jory Hale (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Kara Hale (scout) died of starvation. health 3->0; hunger 2->3; died.
+- Jory Ember (builder) died of starvation. health 3->0; hunger 2->3; died.
+- Kara Ember (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Lio Ember (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Mara Ember (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Niko Ember (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Orin Ember (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Pia Ember (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Quin Ember (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Rhea Ember (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Soren Ember (scout) died of starvation. health 3->0; hunger 2->3; died.
+- Talia Ember (builder) died of starvation. health 3->0; hunger 2->3; died.
+- Una Ember (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Vera Ember (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Wynn Ember (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Xara Ember (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Yuri Ember (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Zara Ember (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Ada Fenn (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Bram Fenn (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Cora Fenn (scout) died of starvation. health 3->0; hunger 2->3; died.
+- Dain Fenn (builder) died of starvation. health 3->0; hunger 2->3; died.
+- Elia Fenn (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Finn Fenn (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Galen Fenn (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Hana Fenn (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Iris Fenn (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Jory Fenn (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Kara Fenn (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Lio Fenn (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Mara Fenn (scout) died of starvation. health 3->0; hunger 2->3; died.
+- Niko Fenn (builder) died of starvation. health 3->0; hunger 2->3; died.
+- Orin Fenn (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Pia Fenn (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Quin Fenn (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Rhea Fenn (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Soren Fenn (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Talia Fenn (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Una Fenn (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Vera Fenn (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Wynn Fenn (scout) died of starvation. health 3->0; hunger 2->3; died.
+- Xara Fenn (builder) died of starvation. health 3->0; hunger 2->3; died.
+- Yuri Fenn (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Zara Fenn (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Ada Graye (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Bram Graye (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Cora Graye (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Dain Graye (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Elia Graye (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Finn Graye (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Iris Graye (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Jory Graye (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Pia Graye (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Soren Graye (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Talia Graye (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Vera Graye (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Wynn Graye (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Xara Graye (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Yuri Graye (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Zara Graye (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Ada Hale (scout) died of starvation. health 3->0; hunger 2->3; died.
+- Bram Hale (builder) died of starvation. health 3->0; hunger 2->3; died.
+- Cora Hale (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Dain Hale (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Elia Hale (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Finn Hale (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Cora Ember (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Dain Ember (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Elia Ember (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Finn Ember (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Galen Ember (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Hana Ember (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Iris Ember (scout) died of starvation. health 3->0; hunger 2->3; died.
+- Zara Dove (builder) died of starvation. health 2->0; hunger 2->3; died.
+- Ada Ember (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Bram Ember (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Yuri Dove (scout) died of starvation. health 1->0; hunger 2->3; died.
