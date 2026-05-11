@@ -213,3 +213,6 @@ Clear skies left the day's work mostly to the colony. A severity 4 storm tested 
 
 Day 71 (Year 1, March 12) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 4 undead rising threatened the colony, and President Orin Hale ordered the undead destroyed; the day's changes reduced population by 87, reduced morale by 2, reduced security by 1, and reduced health by 2. Dain Bren rose from the dead. Dain Bren was destroyed before the infection could spread. Lio Hale, Niko Hale, and Orin Hale, and 84 others died. No colonists remain in Blergen.
+
+Day 72 (Year 1, March 13) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
