@@ -216,3 +216,6 @@ Clear skies left the day's work mostly to the colony. A severity 4 undead rising
 
 Day 72 (Year 1, March 13) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 73 (Year 1, March 14) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
