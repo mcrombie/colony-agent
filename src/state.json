@@ -1,13 +1,13 @@
 {
-  "day": 76,
+  "day": 77,
   "year": 1,
   "colony_name": "Blergen",
-  "population": 0,
-  "food": 0,
-  "wood": 0,
-  "morale": 0,
-  "security": 5,
-  "health": 0,
+  "population": 25,
+  "food": 275,
+  "wood": 8,
+  "morale": 6,
+  "security": 7,
+  "health": 6,
   "known_threats": [
     "wolves",
     "winter",
@@ -6220,6 +6220,72 @@
         "deaths": []
       },
       "summary": "No colonists remained in Blergen. Weather: Clear skies left the day's work mostly to the colony. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 76,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 76,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 17,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {},
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president ordered the colony to preserve resources.",
+      "company_interventions": [
+        {
+          "type": "send_settlers",
+          "source": "Blergen Company",
+          "effects": {
+            "population": 25
+          },
+          "summary": "Blergen Company sent 25 new settlers to Blergen."
+        },
+        {
+          "type": "send_food",
+          "source": "Blergen Company",
+          "effects": {
+            "food": 300
+          },
+          "summary": "Blergen Company sent 300 food to Blergen."
+        },
+        {
+          "type": "send_supplies",
+          "source": "Blergen Company",
+          "effects": {
+            "wood": 8,
+            "security": 2
+          },
+          "summary": "Blergen Company sent supplies to Blergen: 8 wood and 2 security."
+        }
+      ]
     }
   ],
   "people": [
@@ -13385,6 +13451,805 @@
           "Orin Hale died of starvation on day 71."
         ]
       }
+    },
+    {
+      "id": "person_198",
+      "name": "Pia Hale",
+      "age": 20,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Pia Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_199",
+      "name": "Quin Hale",
+      "age": 27,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Quin Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_200",
+      "name": "Rhea Hale",
+      "age": 34,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Rhea Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_201",
+      "name": "Soren Hale",
+      "age": 41,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Soren Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_202",
+      "name": "Talia Hale",
+      "age": 48,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Talia Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_203",
+      "name": "Una Hale",
+      "age": 55,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Una Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_204",
+      "name": "Vera Hale",
+      "age": 62,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Vera Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_205",
+      "name": "Wynn Hale",
+      "age": 18,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Wynn Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_206",
+      "name": "Xara Hale",
+      "age": 25,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Xara Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_207",
+      "name": "Yuri Hale",
+      "age": 32,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Yuri Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_208",
+      "name": "Zara Hale",
+      "age": 39,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Zara Hale arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_209",
+      "name": "Ada Ivory",
+      "age": 46,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Ada Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_210",
+      "name": "Bram Ivory",
+      "age": 53,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Bram Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_211",
+      "name": "Cora Ivory",
+      "age": 60,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Cora Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_212",
+      "name": "Dain Ivory",
+      "age": 67,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Dain Ivory arrived with a Blergen Company settler convoy.",
+          "Dain Ivory became president of Blergen on day 76."
+        ]
+      }
+    },
+    {
+      "id": "person_213",
+      "name": "Elia Ivory",
+      "age": 23,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Elia Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_214",
+      "name": "Finn Ivory",
+      "age": 30,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Finn Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_215",
+      "name": "Galen Ivory",
+      "age": 37,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Galen Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_216",
+      "name": "Hana Ivory",
+      "age": 44,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "observant",
+          "patient",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Hana Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_217",
+      "name": "Iris Ivory",
+      "age": 51,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "practical",
+          "restless",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Iris Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_218",
+      "name": "Jory Ivory",
+      "age": 58,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "stubborn",
+          "wry",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Jory Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_219",
+      "name": "Kara Ivory",
+      "age": 65,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "protective",
+          "gentle",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Kara Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_220",
+      "name": "Lio Ivory",
+      "age": 21,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "curious",
+          "bold",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Lio Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_221",
+      "name": "Mara Ivory",
+      "age": 28,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "patient",
+          "cautious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Mara Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
+    },
+    {
+      "id": "person_222",
+      "name": "Niko Ivory",
+      "age": 35,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 6,
+        "morale": 6,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Niko Ivory arrived with a Blergen Company settler convoy."
+        ]
+      }
     }
   ],
   "undead_threat": {
@@ -13392,5 +14257,10 @@
     "zombies": 0,
     "contained_zombies": 0,
     "last_event_day": 71
+  },
+  "president": {
+    "id": "person_212",
+    "name": "Dain Ivory",
+    "since_day": 76
   }
 }

@@ -225,3 +225,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 75 (Year 1, March 16) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 76 (Year 1, March 17) - Blergen:
+Blergen Company sent 25 new settlers to Blergen. Blergen Company sent 300 food to Blergen. Blergen Company sent supplies to Blergen: 8 wood and 2 security. Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Dain Ivory told the colonists to preserve resources; the day's changes reduced food by 25. The loss of people is beginning to define the settlement's future.

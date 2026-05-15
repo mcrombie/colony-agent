@@ -113,12 +113,13 @@ The deity selector is prompted as a deity deciding what event, if any, should be
 
 ```text
 good_harvest, poor_harvest, illness, dispute, discovery,
-storm, wolf_attack, undead_rising, quiet_day
+foraging, storm, wolf_attack, undead_rising, quiet_day
 ```
 
 The prompt asks the deity to favor impactful events and choose `quiet_day` only
-about 15 to 25 percent of the time. `storm`, `wolf_attack`, and `undead_rising`
-include a severity from 1 to 5. Wolf attacks are cooled down after a recent pack
+about 15 to 25 percent of the time. `foraging`, `storm`, `wolf_attack`, and
+`undead_rising` include a severity from 1 to 5. Foraging severity represents
+success, with sharply lower yields in winter. Wolf attacks are cooled down after a recent pack
 attack unless the new attack is severity 5. When they do happen, severity 2 and
 higher can injure defenders, severity 3 can kill if security is weak, and
 severity 4 and 5 attacks kill colonists outright. Stronger storms can damage
@@ -150,14 +151,18 @@ living colonists can die and become new active undead. The persistent
 `undead_threat` state tracks active and contained zombies.
 
 Food is consumed every day regardless of events or leadership actions. Each
-living colonist needs 1 food per day. If there is not enough food, named
+living colonist normally needs 1 food per day. `ration_food` lowers daily food
+need by roughly a quarter, but costs morale and makes a few colonists feel the
+strain. If there is not enough food, named
 colonists miss rations and their hunger rises. Severe hunger causes named
 starvation deaths, reducing population.
 
 Food-producing events and actions scale with the current living population.
 `good_harvest` produces about five days of food, while `expand_fields` produces
 about three days of food, with small-colony minimums so a diminished settlement
-can still recover. Food-costing actions such as `hold_festival` and
+can still recover. `foraging` produces variable food from about a quarter-day to
+two days of current population needs, with sharply lower winter yields.
+Food-costing actions such as `hold_festival` and
 `tend_the_sick` also scale with population.
 
 If population reaches 0, the colony becomes inert. Daily runs no longer ask the

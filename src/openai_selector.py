@@ -42,6 +42,7 @@ def choose_world_event_with_openai(
             "illness",
             "dispute",
             "discovery",
+            "foraging",
             "storm",
             "wolf_attack",
             "undead_rising",
@@ -64,9 +65,11 @@ def choose_world_event_with_openai(
                 "full wolf_attack should be rare: choose it only when the pack "
                 "has a strong opening, and prefer severity 3 to 5 when it does "
                 "happen. Winter is a season, not an event, but winter weather "
-                "can produce storm. undead_rising is rare and should normally "
+                "can produce storm. Foraging can bring in food with variable "
+                "success, but winter should make forage yields scarcer. "
+                "undead_rising is rare and should normally "
                 "require either known undead trouble or named dead colonists "
-                "who could rise. For wolf_attack, storm, and undead_rising, "
+                "who could rise. For foraging, wolf_attack, storm, and undead_rising, "
                 "set severity from 1 to 5. Do not apply mechanics and do not "
                 "invent new event types. Named colonists are context for fate "
                 "and story pressure, but your structured response must still "
@@ -252,11 +255,13 @@ def _normalize_world_event_decision(
         "world_event": world_event,
         "reasoning": decision.get("reasoning", ""),
     }
-    if world_event in {"storm", "wolf_attack", "undead_rising"}:
+    if world_event in {"foraging", "storm", "wolf_attack", "undead_rising"}:
         default_severity = 3
         if world_event == "storm" and environment:
             default_severity = environment.get("weather", {}).get("severity", 3)
-        normalized["severity"] = max(1, min(5, int(decision.get("severity") or default_severity)))
+        raw_severity = decision.get("severity")
+        severity = default_severity if raw_severity is None else raw_severity
+        normalized["severity"] = max(1, min(5, int(severity)))
 
     return normalized
 
@@ -295,9 +300,10 @@ def _state_for_world_prompt(
             "known_threats containing wolves means wolf_attack is available, but full pack attacks should be rare.",
             "Avoid wolf_attack if wolves attacked within the recent event log unless today's severity is extreme.",
             "known_threats containing winter means winter weather should increase storm danger.",
+            "foraging can help food shortages; lower its severity in winter unless conditions are unusually favorable.",
             "undead_rising is rare; use it mainly when dead colonists or active undead are present.",
             "Winter is a season and period, not a world_event label.",
-            "For wolf_attack, storm, and undead_rising, severity must be an integer from 1 to 5.",
+            "For foraging, wolf_attack, storm, and undead_rising, severity must be an integer from 1 to 5.",
         ],
         "character_context": character_context_for_prompt(state),
         "recent_events": state.get("event_log", [])[-5:],

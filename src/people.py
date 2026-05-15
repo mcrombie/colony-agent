@@ -569,6 +569,16 @@ def _featured_people_for_prompt(
                 day=state.get("day", 0),
             )
         )
+    elif world_event == "foraging":
+        selected.extend(
+            _select_people_by_role(
+                state,
+                ("forager", "scout", "farmer"),
+                max_people,
+                day=state.get("day", 0),
+            )
+        )
+        selected.extend(_hungriest_people(state, max(1, max_people // 2)))
     elif world_event == "wolf_attack":
         selected.extend(
             _select_people_by_role(
@@ -761,6 +771,21 @@ def _apply_world_event_to_people(
             people_events=people_events,
             day=day,
             detail=discovery_detail or "something useful beyond camp",
+        )
+        return
+
+    if world_event == "foraging":
+        _record_role_work(
+            state,
+            people_events=people_events,
+            day=day,
+            roles=("forager", "scout", "farmer"),
+            action_type="foraged_food",
+            count=max(1, min(4, event_details.get("severity", 3))),
+            health_delta=0,
+            morale_delta=0,
+            note_template="{name} searched for forage on day {day}.",
+            summary_template="{names} searched for edible stores beyond camp.",
         )
         return
 

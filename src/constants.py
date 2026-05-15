@@ -6,6 +6,7 @@ WORLD_EVENT_TYPES = (
     "illness",
     "dispute",
     "discovery",
+    "foraging",
     "storm",
     "wolf_attack",
     "undead_rising",

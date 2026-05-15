@@ -10,6 +10,7 @@ EVENT_OPENINGS = {
     "illness": "Illness moved through the colony",
     "dispute": "A dispute unsettled the day's work",
     "discovery": "A discovery gave the colony something new to discuss",
+    "foraging": "Foragers searched beyond the settlement",
     "storm": "A storm tested the colony",
     "wolf_attack": "Wolves came against the colony",
     "undead_rising": "The dead rose against the colony",
@@ -321,6 +322,7 @@ def _status_change_text(
 def _action_history_summary(action_type: str) -> str:
     summaries = {
         "harvest": "helped bring in the harvest",
+        "foraged_food": "searched for forage",
         "strained_by_harvest": "felt the harvest strain",
         "shaken_by_chaos": "was shaken by the silent oracle",
         "weathered_storm": "bore the worst of the storm",
@@ -351,6 +353,9 @@ def _event_opening(world_event: str, event_details: dict[str, Any]) -> str:
 
     if world_event == "undead_rising":
         return f"A severity {event_details.get('severity', 3)} undead rising threatened the colony"
+
+    if world_event == "foraging":
+        return f"A severity {event_details.get('severity', 3)} foraging effort searched for food"
 
     return EVENT_OPENINGS[world_event]
 

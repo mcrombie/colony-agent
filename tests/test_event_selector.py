@@ -231,6 +231,7 @@ def test_world_prompt_includes_bounded_character_context():
     assert prompt["environment"] == environment
     assert "wolf_attack" in prompt["allowed_world_events"]
     assert "storm" in prompt["allowed_world_events"]
+    assert "foraging" in prompt["allowed_world_events"]
     assert "undead_rising" in prompt["allowed_world_events"]
     assert any("full pack attacks should be rare" in rule for rule in prompt["threat_rules"])
     assert prompt["current_state"]["dead_population"] == 0
@@ -318,4 +319,16 @@ def test_undead_rising_decision_normalizes_severity():
         "world_event": "undead_rising",
         "severity": 5,
         "reasoning": "old dead",
+    }
+
+
+def test_foraging_decision_normalizes_severity():
+    decision = _normalize_world_event_decision(
+        {"world_event": "foraging", "severity": 0, "reasoning": "thin winter forage"},
+    )
+
+    assert decision == {
+        "world_event": "foraging",
+        "severity": 1,
+        "reasoning": "thin winter forage",
     }

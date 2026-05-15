@@ -138,16 +138,103 @@ def test_daily_food_is_consumed_regardless_of_event():
     assert event_record["weather"]["condition"] == "overcast"
 
 
-def test_rationing_does_not_reduce_minimum_food_need_and_costs_morale():
+def test_rationing_reduces_food_need_and_costs_morale():
     state = state_with(food=120, population=100, morale=7)
 
     after, event_record = apply_day(state, "quiet_day", "ration_food")
 
-    assert daily_food_needed(100, "ration_food") == 100
-    assert after["food"] == 20
+    assert daily_food_needed(100, "ration_food") == 75
+    assert after["food"] == 45
     assert after["morale"] == 6
-    assert event_record["effects"]["food"] == -100
+    assert event_record["effects"]["food"] == -75
     assert event_record["effects"]["morale"] == -1
+
+
+def test_rationing_rounds_up_for_small_colonies():
+    assert daily_food_needed(3, "ration_food") == 3
+    assert daily_food_needed(4, "ration_food") == 3
+
+
+def test_foraging_adds_variable_food_before_daily_consumption():
+    environment = {
+        "date": {
+            "year": 1,
+            "day_of_year": 170,
+            "month": "June",
+            "month_number": 6,
+            "day_of_month": 19,
+            "season": "summer",
+        },
+        "weather": {
+            "season": "summer",
+            "condition": "clear",
+            "severity": 1,
+            "summary": "Clear skies left the day's work mostly to the colony.",
+        },
+    }
+    state = state_with(food=0, population=100)
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "foraging", "severity": 4},
+        "preserve_resources",
+        environment=environment,
+    )
+
+    assert after["food"] == 50
+    assert event_record["effects"]["food"] == 50
+    assert event_record["survival_effects"] == {"food": -100}
+
+
+def test_foraging_yields_less_food_in_winter():
+    winter = {
+        "date": {
+            "year": 1,
+            "day_of_year": 15,
+            "month": "January",
+            "month_number": 1,
+            "day_of_month": 15,
+            "season": "winter",
+        },
+        "weather": {
+            "season": "winter",
+            "condition": "snow",
+            "severity": 2,
+            "summary": "Snow made paths and work crews slower.",
+        },
+    }
+    summer = {
+        "date": {
+            "year": 1,
+            "day_of_year": 170,
+            "month": "June",
+            "month_number": 6,
+            "day_of_month": 19,
+            "season": "summer",
+        },
+        "weather": {
+            "season": "summer",
+            "condition": "clear",
+            "severity": 1,
+            "summary": "Clear skies left the day's work mostly to the colony.",
+        },
+    }
+
+    winter_after, _ = apply_day(
+        state_with(food=0, population=100),
+        {"world_event": "foraging", "severity": 4},
+        "preserve_resources",
+        environment=winter,
+    )
+    summer_after, _ = apply_day(
+        state_with(food=0, population=100),
+        {"world_event": "foraging", "severity": 4},
+        "preserve_resources",
+        environment=summer,
+    )
+
+    assert winter_after["food"] == 0
+    assert summer_after["food"] == 50
 
 
 def test_morale_effects_are_preserved_when_people_drive_stats():

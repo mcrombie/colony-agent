@@ -77,6 +77,7 @@ def apply_day(
             world_event_type,
             event_details=event_details,
             leadership_action=leadership_action,
+            environment=environment,
         )
     for stat, amount in world_effects.items():
         after[stat] += amount
@@ -163,6 +164,7 @@ def summarize_day(
         "illness": "Illness spread through several homes.",
         "dispute": "A dispute unsettled the colony.",
         "quiet_day": "No major world event overtook the colony.",
+        "foraging": f"A severity {event_details.get('severity', 3)} foraging effort searched for food.",
         "storm": f"A severity {event_details.get('severity', 3)} storm struck Blergen.",
         "wolf_attack": (
             f"A severity {event_details.get('severity', 3)} wolf attack hit the settlement."
@@ -203,6 +205,9 @@ def summarize_day(
 
 def daily_food_needed(population: int, leadership_action: str = "preserve_resources") -> int:
     """Return how much food the colony needs to eat today."""
+    if leadership_action == "ration_food":
+        return max(0, (population * 3 + 3) // 4)
+
     return max(0, population)
 
 
@@ -228,7 +233,7 @@ def _event_details(event_decision: dict[str, Any]) -> dict[str, Any]:
         for key, value in event_decision.items()
         if key not in {"world_event", "reasoning"} and value is not None
     }
-    if event_decision["world_event"] in {"storm", "wolf_attack", "undead_rising"}:
+    if event_decision["world_event"] in {"foraging", "storm", "wolf_attack", "undead_rising"}:
         details["severity"] = max(1, min(5, int(details.get("severity", 3))))
 
     return details
@@ -273,6 +278,7 @@ def _effects_for_world_event(
     *,
     event_details: dict[str, Any],
     leadership_action: str,
+    environment: dict[str, Any],
 ) -> dict[str, int]:
     if world_event == "good_harvest":
         return {"food": _food_for_population_days(state, 5, minimum=35), "morale": 1}
@@ -291,6 +297,15 @@ def _effects_for_world_event(
 
     if world_event == "discovery":
         return {"morale": 1}
+
+    if world_event == "foraging":
+        return {
+            "food": _foraging_food_yield(
+                state,
+                event_details.get("severity", 3),
+                environment,
+            )
+        }
 
     if world_event == "storm":
         return _effects_for_storm(event_details.get("severity", 3), state)
@@ -421,6 +436,36 @@ def _apply_daily_food_consumption(
         effects["missed_rations"] = missed_rations
 
     return effects
+
+
+def _foraging_food_yield(
+    state: dict[str, Any],
+    severity: int,
+    environment: dict[str, Any],
+) -> int:
+    severity = max(1, min(5, severity))
+    population = daily_food_needed(state["population"])
+    if population <= 0:
+        return 0
+
+    success_days = {
+        1: 0.25,
+        2: 0.5,
+        3: 1.0,
+        4: 1.5,
+        5: 2.0,
+    }
+    season = (environment.get("date", {}) or {}).get(
+        "season",
+        environment.get("weather", {}).get("season", "spring"),
+    )
+    season_multiplier = {
+        "winter": 0.35,
+        "spring": 0.85,
+        "summer": 1.0,
+        "autumn": 0.75,
+    }.get(season, 0.85)
+    return max(3, int(population * success_days[severity] * season_multiplier))
 
 
 def _changed_status_targets(
