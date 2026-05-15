@@ -1024,3 +1024,9 @@ Day 71 - Blergen Personal Stories:
 - Ada Ember (healer) died of starvation. health 2->0; hunger 2->3; died.
 - Bram Ember (cook) died of starvation. health 2->0; hunger 2->3; died.
 - Yuri Dove (scout) died of starvation. health 1->0; hunger 2->3; died.
+
+Day 77 - Blergen Personal Stories:
+- Soren Hale (farmer) searched for forage. Status unchanged.
+- Una Hale (scout) searched for forage. Status unchanged.
+- Rhea Hale (carpenter) joined the wood crews. Status unchanged.
+- Talia Hale (woodcutter) joined the wood crews. Status unchanged.
