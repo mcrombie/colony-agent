@@ -1,10 +1,10 @@
 {
-  "day": 78,
+  "day": 79,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 260,
-  "wood": 18,
+  "food": 245,
+  "wood": 28,
   "morale": 6,
   "security": 7,
   "health": 6,
@@ -6353,6 +6353,78 @@
               }
             ],
             "summary": "Rhea Hale, and Talia Hale joined the wood crews."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 2 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president sent work crews to gather wood."
+    },
+    {
+      "day": 78,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 78,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 19,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "foraging",
+      "world_event": "foraging",
+      "event_details": {
+        "severity": 2
+      },
+      "leadership_action": "gather_wood",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -15,
+        "wood": 10
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "foraged_food",
+            "people": [
+              {
+                "id": "person_201",
+                "name": "Soren Hale"
+              },
+              {
+                "id": "person_203",
+                "name": "Una Hale"
+              }
+            ],
+            "summary": "Soren Hale, and Una Hale searched for edible stores beyond camp."
+          },
+          {
+            "type": "gathered_wood",
+            "people": [
+              {
+                "id": "person_202",
+                "name": "Talia Hale"
+              },
+              {
+                "id": "person_210",
+                "name": "Bram Ivory"
+              }
+            ],
+            "summary": "Talia Hale, and Bram Ivory joined the wood crews."
           }
         ],
         "deaths": []
@@ -13650,7 +13722,8 @@
       "story": {
         "notable_events": [
           "Soren Hale arrived with a Blergen Company settler convoy.",
-          "Soren Hale searched for forage on day 77."
+          "Soren Hale searched for forage on day 77.",
+          "Soren Hale searched for forage on day 78."
         ]
       }
     },
@@ -13683,7 +13756,8 @@
       "story": {
         "notable_events": [
           "Talia Hale arrived with a Blergen Company settler convoy.",
-          "Talia Hale joined the wood crews on day 77."
+          "Talia Hale joined the wood crews on day 77.",
+          "Talia Hale joined the wood crews on day 78."
         ]
       }
     },
@@ -13716,7 +13790,8 @@
       "story": {
         "notable_events": [
           "Una Hale arrived with a Blergen Company settler convoy.",
-          "Una Hale searched for forage on day 77."
+          "Una Hale searched for forage on day 77.",
+          "Una Hale searched for forage on day 78."
         ]
       }
     },
@@ -13939,7 +14014,8 @@
       },
       "story": {
         "notable_events": [
-          "Bram Ivory arrived with a Blergen Company settler convoy."
+          "Bram Ivory arrived with a Blergen Company settler convoy.",
+          "Bram Ivory joined the wood crews on day 78."
         ]
       }
     },

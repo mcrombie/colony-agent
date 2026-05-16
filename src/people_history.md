@@ -1030,3 +1030,9 @@ Day 77 - Blergen Personal Stories:
 - Una Hale (scout) searched for forage. Status unchanged.
 - Rhea Hale (carpenter) joined the wood crews. Status unchanged.
 - Talia Hale (woodcutter) joined the wood crews. Status unchanged.
+
+Day 78 - Blergen Personal Stories:
+- Soren Hale (farmer) searched for forage. Status unchanged.
+- Una Hale (scout) searched for forage. Status unchanged.
+- Talia Hale (woodcutter) joined the wood crews. Status unchanged.
+- Bram Ivory (carpenter) joined the wood crews. Status unchanged.
