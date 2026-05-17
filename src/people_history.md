@@ -1036,3 +1036,9 @@ Day 78 - Blergen Personal Stories:
 - Una Hale (scout) searched for forage. Status unchanged.
 - Talia Hale (woodcutter) joined the wood crews. Status unchanged.
 - Bram Ivory (carpenter) joined the wood crews. Status unchanged.
+
+Day 79 - Blergen Personal Stories:
+- Ada Ivory (forager) helped bring in the harvest. morale 6->7.
+- Cora Ivory (farmer) helped bring in the harvest. morale 6->7.
+- Ada Ivory (forager) worked the field expansion. morale 6->7.
+- Cora Ivory (farmer) worked the field expansion. morale 6->7.

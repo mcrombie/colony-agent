@@ -234,3 +234,6 @@ Clear skies left the day's work mostly to the colony. A severity 2 foraging effo
 
 Day 78 (Year 1, March 19) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 2 foraging effort searched for food, and President Dain Ivory sent crews out to gather wood; the day's changes reduced food by 15, and increased wood by 10. Soren Hale, and Una Hale searched for edible stores beyond camp. Talia Hale, and Bram Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 79 (Year 1, March 20) - Blergen:
+Clear skies left the day's work mostly to the colony. A good harvest lifted the colony's spirits, and President Dain Ivory directed labor toward the fields; the day's changes increased food by 175, and increased morale by 1. Ada Ivory, and Cora Ivory helped bring in the strong harvest. Ada Ivory, and Cora Ivory worked the field expansion. The loss of people is beginning to define the settlement's future.

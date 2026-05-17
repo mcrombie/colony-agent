@@ -1,11 +1,11 @@
 {
-  "day": 79,
+  "day": 80,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 245,
+  "food": 420,
   "wood": 28,
-  "morale": 6,
+  "morale": 7,
   "security": 7,
   "health": 6,
   "known_threats": [
@@ -6430,6 +6430,76 @@
         "deaths": []
       },
       "summary": "A severity 2 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president sent work crews to gather wood."
+    },
+    {
+      "day": 79,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 79,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 20,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "good_harvest",
+      "world_event": "good_harvest",
+      "event_details": {},
+      "leadership_action": "expand_fields",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": 175,
+        "morale": 1
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "harvest",
+            "people": [
+              {
+                "id": "person_209",
+                "name": "Ada Ivory"
+              },
+              {
+                "id": "person_211",
+                "name": "Cora Ivory"
+              }
+            ],
+            "summary": "Ada Ivory, and Cora Ivory helped bring in the strong harvest."
+          },
+          {
+            "type": "expanded_fields",
+            "people": [
+              {
+                "id": "person_209",
+                "name": "Ada Ivory"
+              },
+              {
+                "id": "person_211",
+                "name": "Cora Ivory"
+              }
+            ],
+            "summary": "Ada Ivory, and Cora Ivory worked the field expansion."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A strong harvest favored Blergen. Weather: Clear skies left the day's work mostly to the colony. The president directed labor toward the fields."
     }
   ],
   "people": [
@@ -13619,7 +13689,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13651,7 +13721,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13683,7 +13753,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13716,7 +13786,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13750,7 +13820,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13784,7 +13854,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13818,7 +13888,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13849,7 +13919,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13881,7 +13951,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13913,7 +13983,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13945,7 +14015,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -13977,12 +14047,14 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Ada Ivory arrived with a Blergen Company settler convoy."
+          "Ada Ivory arrived with a Blergen Company settler convoy.",
+          "Ada Ivory helped bring in the strong harvest on day 79.",
+          "Ada Ivory worked the field expansion on day 79."
         ]
       }
     },
@@ -14009,7 +14081,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14042,12 +14114,14 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Cora Ivory arrived with a Blergen Company settler convoy."
+          "Cora Ivory arrived with a Blergen Company settler convoy.",
+          "Cora Ivory helped bring in the strong harvest on day 79.",
+          "Cora Ivory worked the field expansion on day 79."
         ]
       }
     },
@@ -14074,7 +14148,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14107,7 +14181,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14138,7 +14212,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14170,7 +14244,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14202,7 +14276,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14234,7 +14308,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14266,7 +14340,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14298,7 +14372,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14330,7 +14404,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14362,7 +14436,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
@@ -14394,7 +14468,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 6,
+        "morale": 7,
         "hunger": 0
       },
       "story": {
