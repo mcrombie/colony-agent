@@ -1,9 +1,9 @@
 {
-  "day": 80,
+  "day": 81,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 420,
+  "food": 395,
   "wood": 28,
   "morale": 7,
   "security": 7,
@@ -6500,6 +6500,45 @@
         "deaths": []
       },
       "summary": "A strong harvest favored Blergen. Weather: Clear skies left the day's work mostly to the colony. The president directed labor toward the fields."
+    },
+    {
+      "day": 80,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 80,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 21,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {},
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
