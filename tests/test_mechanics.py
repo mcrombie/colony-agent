@@ -23,6 +23,38 @@ def state_with(**overrides):
     return state
 
 
+def environment_for_season(season):
+    day_by_season = {
+        "spring": 100,
+        "summer": 170,
+        "autumn": 275,
+        "winter": 15,
+    }
+    month_by_season = {
+        "spring": "April",
+        "summer": "June",
+        "autumn": "October",
+        "winter": "January",
+    }
+    day = day_by_season[season]
+    return {
+        "date": {
+            "year": 1,
+            "day_of_year": day,
+            "month": month_by_season[season],
+            "month_number": 1,
+            "day_of_month": 1,
+            "season": season,
+        },
+        "weather": {
+            "season": season,
+            "condition": "clear",
+            "severity": 1,
+            "summary": "Clear skies left the day's work mostly to the colony.",
+        },
+    }
+
+
 def test_stat_clamping():
     state = state_with(morale=12, security=-3, health=15)
 
@@ -91,28 +123,85 @@ def test_empty_colony_takes_no_action_and_consumes_no_food():
     assert event_record["people_events"] == {"deaths": []}
 
 
-def test_good_harvest_creates_population_scaled_food_buffer():
-    state = state_with(food=0, population=7, people=generate_people(7))
+def test_good_harvest_turns_prepared_summer_crops_into_food():
+    state = state_with(
+        food=7,
+        population=7,
+        people=generate_people(7),
+        agriculture={"crop_fields": 35},
+    )
 
-    after, event_record = apply_day(state, "good_harvest", "preserve_resources")
+    after, event_record = apply_day(
+        state,
+        "good_harvest",
+        "preserve_resources",
+        environment=environment_for_season("summer"),
+    )
 
-    assert after["food"] == 28
-    assert event_record["effects"]["food"] == 28
+    assert after["food"] == 43
+    assert after["agriculture"]["crop_fields"] == 0
+    assert event_record["effects"]["food"] == 36
+    assert event_record["effects"]["crop_fields"] == -35
     assert event_record["survival_effects"] == {"food": -7}
 
 
-def test_expand_fields_can_rescue_a_small_starving_colony():
-    people = generate_people(7, colony_health=2, colony_morale=0)
-    for person in people:
-        person["status"]["hunger"] = 2
-    state = state_with(food=0, population=7, people=people)
+def test_expand_fields_prepares_food_without_feeding_the_colony_today():
+    state = state_with(food=7, population=7, people=generate_people(7))
 
-    after, event_record = apply_day(state, "quiet_day", "expand_fields")
+    after, event_record = apply_day(
+        state,
+        "quiet_day",
+        "expand_fields",
+        environment=environment_for_season("spring"),
+    )
 
-    assert after["food"] == 14
+    assert after["food"] == 0
     assert after["population"] == 7
-    assert event_record["effects"]["food"] == 14
-    assert all(person["status"]["hunger"] == 1 for person in after["people"])
+    assert after["agriculture"]["crop_fields"] == 21
+    assert event_record["effects"] == {"food": -7, "crop_fields": 21}
+    assert all(person["status"]["hunger"] == 0 for person in after["people"])
+
+
+def test_harvest_crops_action_converts_autumn_crop_fields_to_food():
+    state = state_with(
+        food=7,
+        population=7,
+        people=generate_people(7),
+        agriculture={"crop_fields": 35},
+    )
+
+    after, event_record = apply_day(
+        state,
+        "quiet_day",
+        "harvest_crops",
+        environment=environment_for_season("autumn"),
+    )
+
+    assert after["food"] == 35
+    assert after["agriculture"]["crop_fields"] == 0
+    assert event_record["effects"] == {"food": 28, "crop_fields": -35}
+    assert event_record["survival_effects"] == {"food": -7}
+
+
+def test_harvest_crops_does_not_work_in_winter():
+    state = state_with(
+        food=7,
+        population=7,
+        people=generate_people(7),
+        agriculture={"crop_fields": 35},
+    )
+
+    after, event_record = apply_day(
+        state,
+        "quiet_day",
+        "harvest_crops",
+        environment=environment_for_season("winter"),
+    )
+
+    assert after["food"] == 0
+    assert after["agriculture"]["crop_fields"] == 35
+    assert event_record["leadership_action"] == "failed_harvest_crops"
+    assert event_record["effects"] == {"food": -7}
 
 
 def test_year_updates_when_day_rolls_into_next_year():
@@ -240,10 +329,16 @@ def test_foraging_yields_less_food_in_winter():
 def test_morale_effects_are_preserved_when_people_drive_stats():
     state = state_with(
         morale=5,
+        agriculture={"crop_fields": 500},
         people=generate_people(100, colony_health=6, colony_morale=5),
     )
 
-    after, event_record = apply_day(state, "good_harvest", "preserve_resources")
+    after, event_record = apply_day(
+        state,
+        "good_harvest",
+        "preserve_resources",
+        environment=environment_for_season("summer"),
+    )
 
     assert after["morale"] == 6
     assert after["morale"] == derived_colony_stats(after)["morale"]

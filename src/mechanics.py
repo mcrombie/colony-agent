@@ -9,6 +9,7 @@ from src.constants import (
     ALLOWED_LEADERSHIP_ACTION_TYPES,
     ALLOWED_WORLD_EVENT_TYPES,
     EMPTY_COLONY_EVENT_TYPE,
+    FAILED_HARVEST_CROPS_ACTION_TYPE,
     FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE,
     NO_ACTION_ACTION_TYPE,
 )
@@ -23,17 +24,26 @@ from src.people import (
 
 LIMITED_STATS = ("morale", "security", "health")
 NON_NEGATIVE_STATS = ("population", "food", "wood")
+CROP_FIELDS_STAT = "crop_fields"
+AGRICULTURE_FIELD = "agriculture"
+HARVEST_SEASONS = {"summer", "autumn"}
 
 
 def clamp_state(state: dict[str, Any]) -> dict[str, Any]:
     """Clamp state values to their allowed ranges."""
     clamped = deepcopy(state)
+    _ensure_agriculture_state(clamped)
 
     for stat in LIMITED_STATS:
         clamped[stat] = max(0, min(10, clamped[stat]))
 
     for stat in NON_NEGATIVE_STATS:
         clamped[stat] = max(0, clamped[stat])
+
+    clamped[AGRICULTURE_FIELD][CROP_FIELDS_STAT] = max(
+        0,
+        int(clamped[AGRICULTURE_FIELD].get(CROP_FIELDS_STAT, 0)),
+    )
 
     return clamped
 
@@ -54,11 +64,15 @@ def apply_day(
     if leadership_action not in ALLOWED_LEADERSHIP_ACTION_TYPES:
         raise ValueError(f"Unknown leadership action: {leadership_action}")
 
-    before = sync_calendar_state(ensure_people_exist(state))
+    before = _ensure_agriculture_state(sync_calendar_state(ensure_people_exist(state)))
     after = deepcopy(before)
     environment = environment or environment_for_day(before["day"])
     weather = environment["weather"]
-    leadership_action = _resolve_leadership_action(before, leadership_action)
+    leadership_action = _resolve_leadership_action(
+        before,
+        leadership_action,
+        environment=environment,
+    )
     undead_outcome = _resolve_undead_outcome(
         before,
         event_details=event_details,
@@ -66,8 +80,7 @@ def apply_day(
     ) if world_event_type == "undead_rising" else None
 
     weather_effects = _effects_for_weather(weather)
-    for stat, amount in weather_effects.items():
-        after[stat] += amount
+    _apply_effects(after, weather_effects)
 
     if undead_outcome:
         world_effects = undead_outcome["effects"]
@@ -79,12 +92,14 @@ def apply_day(
             leadership_action=leadership_action,
             environment=environment,
         )
-    for stat, amount in world_effects.items():
-        after[stat] += amount
+    _apply_effects(after, world_effects)
 
-    leadership_effects = _effects_for_leadership_action(before, leadership_action)
-    for stat, amount in leadership_effects.items():
-        after[stat] += amount
+    leadership_effects = _effects_for_leadership_action(
+        before,
+        leadership_action,
+        environment=environment,
+    )
+    _apply_effects(after, leadership_effects)
 
     after = clamp_state(after)
     if undead_outcome:
@@ -160,7 +175,7 @@ def summarize_day(
     event_details = event_details or {}
     event_summaries = {
         "good_harvest": "A strong harvest favored Blergen.",
-        "poor_harvest": "A poor harvest strained Blergen's stores.",
+        "poor_harvest": "A poor harvest strained Blergen's fields.",
         "illness": "Illness spread through several homes.",
         "dispute": "A dispute unsettled the colony.",
         "quiet_day": "No major world event overtook the colony.",
@@ -177,11 +192,13 @@ def summarize_day(
         "preserve_resources": "The president ordered the colony to preserve resources.",
         "ration_food": "The president ordered tighter food rationing.",
         "gather_wood": "The president sent work crews to gather wood.",
-        "expand_fields": "The president directed labor toward the fields.",
+        "expand_fields": "The president directed labor toward preparing the fields.",
+        "harvest_crops": "The president ordered the ready crops harvested.",
         "strengthen_defenses": "The president spent wood to strengthen the settlement.",
         "failed_strengthen_defenses": (
             "The president tried to strengthen the settlement, but there was not enough wood."
         ),
+        "failed_harvest_crops": "The president looked for harvestable crops, but none were ready.",
         "tend_the_sick": "The president organized care for the sick.",
         "mediate_dispute": "The president worked to mediate local tensions.",
         "send_scouts": "The president sent scouts beyond the settlement.",
@@ -211,6 +228,32 @@ def daily_food_needed(population: int, leadership_action: str = "preserve_resour
     return max(0, population)
 
 
+def food_days_remaining(state: dict[str, Any]) -> int:
+    """Return how many full days of food the colony has stored."""
+    population = daily_food_needed(state.get("population", 0))
+    if population <= 0:
+        return 0
+
+    return state.get("food", 0) // population
+
+
+def _ensure_agriculture_state(state: dict[str, Any]) -> dict[str, Any]:
+    agriculture = state.setdefault(AGRICULTURE_FIELD, {})
+    agriculture[CROP_FIELDS_STAT] = max(0, int(agriculture.get(CROP_FIELDS_STAT, 0)))
+    return state
+
+
+def _crop_fields(state: dict[str, Any]) -> int:
+    return int(state.get(AGRICULTURE_FIELD, {}).get(CROP_FIELDS_STAT, 0))
+
+
+def _season(environment: dict[str, Any]) -> str:
+    return (environment.get("date", {}) or {}).get(
+        "season",
+        environment.get("weather", {}).get("season", "spring"),
+    )
+
+
 def _food_for_population_days(
     state: dict[str, Any],
     days: int,
@@ -218,6 +261,62 @@ def _food_for_population_days(
     minimum: int,
 ) -> int:
     return max(minimum, daily_food_needed(state["population"]) * days)
+
+
+def _crop_work_for_population_days(
+    state: dict[str, Any],
+    environment: dict[str, Any],
+) -> int:
+    """Return crop potential created by working fields today."""
+    days_by_season = {
+        "spring": 3,
+        "summer": 2,
+        "autumn": 1,
+        "winter": 0,
+    }
+    crop_days = days_by_season.get(_season(environment), 1)
+    if crop_days <= 0 or state["population"] <= 0:
+        return 0
+
+    return _food_for_population_days(state, crop_days, minimum=12)
+
+
+def _harvest_effects(
+    state: dict[str, Any],
+    environment: dict[str, Any],
+    *,
+    quality: str,
+) -> dict[str, int]:
+    """Convert prepared crop fields into stored food during harvest seasons."""
+    if _season(environment) not in HARVEST_SEASONS:
+        return {}
+
+    crop_fields = _crop_fields(state)
+    if crop_fields <= 0:
+        return {}
+
+    multiplier = {
+        "poor": 0.55,
+        "normal": 1.0,
+        "good": 1.25,
+    }[quality]
+    food = max(1, int(crop_fields * multiplier))
+    effects = {"food": food, CROP_FIELDS_STAT: -crop_fields}
+    if quality == "good":
+        effects["morale"] = 1
+    elif quality == "poor":
+        effects["morale"] = -1
+
+    return effects
+
+
+def _apply_effects(state: dict[str, Any], effects: dict[str, int]) -> None:
+    _ensure_agriculture_state(state)
+    for stat, amount in effects.items():
+        if stat == CROP_FIELDS_STAT:
+            state[AGRICULTURE_FIELD][CROP_FIELDS_STAT] += amount
+        else:
+            state[stat] += amount
 
 
 def _normalize_world_event(world_event: str | dict[str, Any]) -> dict[str, Any]:
@@ -281,10 +380,17 @@ def _effects_for_world_event(
     environment: dict[str, Any],
 ) -> dict[str, int]:
     if world_event == "good_harvest":
-        return {"food": _food_for_population_days(state, 5, minimum=35), "morale": 1}
+        return _harvest_effects(state, environment, quality="good")
 
     if world_event == "poor_harvest":
-        return {"food": -_food_for_population_days(state, 1, minimum=10), "morale": -1}
+        effects = _harvest_effects(state, environment, quality="poor")
+        if effects:
+            return effects
+
+        crop_loss = min(_crop_fields(state), _food_for_population_days(state, 1, minimum=10))
+        if crop_loss:
+            return {CROP_FIELDS_STAT: -crop_loss, "morale": -1}
+        return {"morale": -1}
 
     if world_event == "illness":
         effects = {"health": -1, "morale": -1}
@@ -374,6 +480,8 @@ def _effects_for_wolf_attack(
 def _effects_for_leadership_action(
     state: dict[str, Any],
     leadership_action: str,
+    *,
+    environment: dict[str, Any],
 ) -> dict[str, int]:
     if leadership_action == "preserve_resources":
         return {}
@@ -385,12 +493,19 @@ def _effects_for_leadership_action(
         return {"wood": 10}
 
     if leadership_action == "expand_fields":
-        return {"food": _food_for_population_days(state, 3, minimum=21)}
+        crop_work = _crop_work_for_population_days(state, environment)
+        return {CROP_FIELDS_STAT: crop_work} if crop_work else {}
+
+    if leadership_action == "harvest_crops":
+        return _harvest_effects(state, environment, quality="normal")
 
     if leadership_action == "strengthen_defenses":
         return {"wood": -10, "security": 1, "morale": 1}
 
     if leadership_action == "failed_strengthen_defenses":
+        return {}
+
+    if leadership_action == "failed_harvest_crops":
         return {}
 
     if leadership_action == "tend_the_sick":
@@ -673,9 +788,17 @@ def _population_loss_cause(world_event: str) -> str:
 def _resolve_leadership_action(
     state: dict[str, Any],
     leadership_action: str,
+    *,
+    environment: dict[str, Any],
 ) -> str:
     if leadership_action == "strengthen_defenses" and state["wood"] < 10:
         return FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE
+
+    if (
+        leadership_action == "harvest_crops"
+        and (_season(environment) not in HARVEST_SEASONS or _crop_fields(state) <= 0)
+    ):
+        return FAILED_HARVEST_CROPS_ACTION_TYPE
 
     return leadership_action
 
@@ -832,8 +955,13 @@ def _actual_effects(
     after: dict[str, Any],
 ) -> dict[str, int]:
     """Report effects after clamping so the event log matches the saved state."""
-    return {
+    effects = {
         stat: after[stat] - before[stat]
         for stat in ("population", "food", "wood", "morale", "security", "health")
         if after[stat] - before[stat] != 0
     }
+    crop_delta = _crop_fields(after) - _crop_fields(before)
+    if crop_delta:
+        effects[CROP_FIELDS_STAT] = crop_delta
+
+    return effects

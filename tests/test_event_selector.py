@@ -227,6 +227,8 @@ def test_world_prompt_includes_bounded_character_context():
     assert character_context["living_population"] == 12
     assert character_context["role_counts"]["scout"] == 1
     assert prompt["current_state"]["year"] == 1
+    assert prompt["current_state"]["food_days_remaining"] == 10
+    assert prompt["current_state"]["agriculture"] == {"crop_fields": 0}
     assert len(character_context["featured_colonists"]) <= 8
     assert prompt["environment"] == environment
     assert "wolf_attack" in prompt["allowed_world_events"]
@@ -274,6 +276,9 @@ def test_leadership_prompt_selects_event_relevant_colonists():
     assert prompt["today_world_event"] == "discovery"
     assert prompt["today_event_details"]["severity"] == 1
     assert "fight_undead" in prompt["allowed_leadership_actions"]
+    assert "harvest_crops" in prompt["allowed_leadership_actions"]
+    assert any("expand_fields prepares crop_fields" in rule for rule in prompt["important_rules"])
+    assert any("summer and autumn harvests" in rule for rule in prompt["important_rules"])
     assert "Named colonists can inform priorities" in prompt["important_rules"][-1]
 
 

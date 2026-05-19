@@ -9,6 +9,7 @@ from typing import Any, Literal
 
 from src.constants import LEADERSHIP_ACTION_TYPES, WORLD_EVENT_TYPES
 from src.environment import year_for_day
+from src.mechanics import food_days_remaining
 from src.people import character_context_for_prompt, president_context_for_prompt
 
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
@@ -67,6 +68,8 @@ def choose_world_event_with_openai(
                 "happen. Winter is a season, not an event, but winter weather "
                 "can produce storm. Foraging can bring in food with variable "
                 "success, but winter should make forage yields scarcer. "
+                "Harvests should normally happen only in summer or autumn "
+                "when prepared crop fields exist. "
                 "undead_rising is rare and should normally "
                 "require either known undead trouble or named dead colonists "
                 "who could rise. For foraging, wolf_attack, storm, and undead_rising, "
@@ -119,6 +122,7 @@ def choose_leadership_action_with_openai(
             "ration_food",
             "gather_wood",
             "expand_fields",
+            "harvest_crops",
             "strengthen_defenses",
             "tend_the_sick",
             "mediate_dispute",
@@ -141,7 +145,10 @@ def choose_leadership_action_with_openai(
                 "practically in light of the event and the current state. Do "
                 "not apply mechanics and do not invent new action types. "
                 "Named colonists are context for priorities, not extra output "
-                "fields. Storms and wolf attacks can be severe; consider "
+                "fields. Crops are seasonal: expand_fields prepares future "
+                "crop potential instead of producing immediate food, and "
+                "harvest_crops is useful only in summer or autumn when crops "
+                "are ready. Storms and wolf attacks can be severe; consider "
                 "defense, sickness, food, and morale accordingly. If the dead "
                 "rise, fight_undead destroys them while contain_undead tries "
                 "to isolate them before the infection spreads."
@@ -287,6 +294,7 @@ def _state_for_world_prompt(
             "colony_name": state["colony_name"],
             "population": state["population"],
             "food": state["food"],
+            "food_days_remaining": food_days_remaining(state),
             "wood": state["wood"],
             "morale": state["morale"],
             "security": state["security"],
@@ -294,6 +302,7 @@ def _state_for_world_prompt(
             "known_threats": state["known_threats"],
             "dead_population": _dead_population(state),
             "undead_threat": state.get("undead_threat", {}),
+            "agriculture": _agriculture_context(state),
         },
         "environment": environment or {},
         "threat_rules": [
@@ -301,6 +310,7 @@ def _state_for_world_prompt(
             "Avoid wolf_attack if wolves attacked within the recent event log unless today's severity is extreme.",
             "known_threats containing winter means winter weather should increase storm danger.",
             "foraging can help food shortages; lower its severity in winter unless conditions are unusually favorable.",
+            "good_harvest and poor_harvest should normally happen only in summer or autumn when crop_fields exist.",
             "undead_rising is rare; use it mainly when dead colonists or active undead are present.",
             "Winter is a season and period, not a world_event label.",
             "For foraging, wolf_attack, storm, and undead_rising, severity must be an integer from 1 to 5.",
@@ -327,6 +337,7 @@ def _state_for_leadership_prompt(
             "colony_name": state["colony_name"],
             "population": state["population"],
             "food": state["food"],
+            "food_days_remaining": food_days_remaining(state),
             "wood": state["wood"],
             "morale": state["morale"],
             "security": state["security"],
@@ -334,6 +345,7 @@ def _state_for_leadership_prompt(
             "known_threats": state["known_threats"],
             "dead_population": _dead_population(state),
             "undead_threat": state.get("undead_threat", {}),
+            "agriculture": _agriculture_context(state),
         },
         "character_context": character_context_for_prompt(
             state,
@@ -345,6 +357,9 @@ def _state_for_leadership_prompt(
             "Each living colonist needs 1 food per day.",
             "Missed rations increase personal hunger; severe hunger can kill colonists.",
             "Food gains and major food costs scale with living population.",
+            "expand_fields prepares crop_fields for later; it does not add edible food today.",
+            "harvest_crops converts prepared crop_fields into food only in summer or autumn.",
+            "Plan for winter and spring by building reserves during summer and autumn harvests.",
             "strengthen_defenses requires at least 10 wood.",
             "hold_festival costs extra food.",
             "strengthen_defenses can reduce damage from wolf attacks.",
@@ -367,3 +382,10 @@ def _dead_population(state: dict[str, Any]) -> int:
         for person in state.get("people", [])
         if not person.get("status", {}).get("alive", True)
     )
+
+
+def _agriculture_context(state: dict[str, Any]) -> dict[str, int]:
+    agriculture = state.get("agriculture", {})
+    return {
+        "crop_fields": int(agriculture.get("crop_fields", 0)),
+    }

@@ -6,7 +6,7 @@ from typing import Any
 
 EVENT_OPENINGS = {
     "good_harvest": "A good harvest lifted the colony's spirits",
-    "poor_harvest": "A poor harvest strained the colony's stores",
+    "poor_harvest": "A poor harvest strained the colony's fields",
     "illness": "Illness moved through the colony",
     "dispute": "A dispute unsettled the day's work",
     "discovery": "A discovery gave the colony something new to discuss",
@@ -23,11 +23,13 @@ ACTION_PHRASES = {
     "preserve_resources": "{president} told the colonists to preserve resources",
     "ration_food": "{president} ordered tighter food rationing",
     "gather_wood": "{president} sent crews out to gather wood",
-    "expand_fields": "{president} directed labor toward the fields",
+    "expand_fields": "{president} directed labor toward preparing the fields",
+    "harvest_crops": "{president} ordered the ready crops harvested",
     "strengthen_defenses": "{president} spent wood to strengthen the settlement",
     "failed_strengthen_defenses": (
         "{president} tried to strengthen the settlement, but there was not enough wood"
     ),
+    "failed_harvest_crops": "{president} found no ready crops to harvest",
     "tend_the_sick": "{president} organized care for the sick",
     "mediate_dispute": "{president} worked to mediate the tension",
     "send_scouts": "{president} sent scouts beyond the settlement",
@@ -112,12 +114,19 @@ def _describe_effects(effects: dict[str, int]) -> str:
     pieces = []
     for stat, amount in effects.items():
         direction = "increased" if amount > 0 else "reduced"
-        pieces.append(f"{direction} {stat} by {abs(amount)}")
+        pieces.append(f"{direction} {_effect_label(stat)} by {abs(amount)}")
 
     if len(pieces) == 1:
         return pieces[0]
 
     return ", ".join(pieces[:-1]) + f", and {pieces[-1]}"
+
+
+def _effect_label(stat: str) -> str:
+    labels = {
+        "crop_fields": "prepared crop fields",
+    }
+    return labels.get(stat, stat)
 
 
 def _describe_people_events(people_events: dict[str, Any]) -> str:
@@ -322,6 +331,7 @@ def _status_change_text(
 def _action_history_summary(action_type: str) -> str:
     summaries = {
         "harvest": "helped bring in the harvest",
+        "harvested_crops": "harvested the ready crops",
         "foraged_food": "searched for forage",
         "strained_by_harvest": "felt the harvest strain",
         "shaken_by_chaos": "was shaken by the silent oracle",

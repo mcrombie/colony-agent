@@ -131,8 +131,8 @@ The president selector is prompted as the president of Blergen deciding how to r
 
 ```text
 preserve_resources, ration_food, gather_wood, expand_fields,
-strengthen_defenses, tend_the_sick, mediate_dispute, send_scouts,
-hold_festival, fight_undead, contain_undead
+harvest_crops, strengthen_defenses, tend_the_sick, mediate_dispute,
+send_scouts, hold_festival, fight_undead, contain_undead
 ```
 
 If the deity API call fails after configuration is present, the simulation records `chaos_gods`: health -1, security -1, and morale -1.
@@ -157,13 +157,23 @@ strain. If there is not enough food, named
 colonists miss rations and their hunger rises. Severe hunger causes named
 starvation deaths, reducing population.
 
-Food-producing events and actions scale with the current living population.
-`good_harvest` produces about five days of food, while `expand_fields` produces
-about three days of food, with small-colony minimums so a diminished settlement
-can still recover. `foraging` produces variable food from about a quarter-day to
-two days of current population needs, with sharply lower winter yields.
-Food-costing actions such as `hold_festival` and
-`tend_the_sick` also scale with population.
+Food production is seasonal and must be planned ahead. `expand_fields` does not
+produce edible food. It prepares `agriculture.crop_fields`, representing crops
+in the ground that can feed the colony later. Field work is strongest in spring,
+still useful in summer, limited in autumn, and ineffective in winter.
+
+Prepared crop fields become stored food only during summer and autumn harvests.
+The `harvest_crops` action converts ready crop fields into food in those seasons.
+`good_harvest` and `poor_harvest` are seasonal harvest events: they only create
+food from existing crop fields, with good harvests yielding more and poor
+harvests yielding less or damaging crops. This means Blergen has to spend spring
+and summer building future food, then save the abundant summer and autumn stores
+for winter and spring.
+
+`foraging` remains an emergency food source that produces variable food from
+about a quarter-day to two days of current population needs, with sharply lower
+winter yields. Food-costing actions such as `hold_festival` and `tend_the_sick`
+also scale with population.
 
 If population reaches 0, the colony becomes inert. Daily runs no longer ask the
 deity or president selectors for choices; the event log records an

@@ -913,6 +913,21 @@ def _apply_leadership_action_to_people(
         )
         return
 
+    if leadership_action == "harvest_crops":
+        _record_role_work(
+            state,
+            people_events=people_events,
+            day=day,
+            roles=("farmer", "forager", "cook"),
+            action_type="harvested_crops",
+            count=3,
+            health_delta=0,
+            morale_delta=0,
+            note_template="{name} harvested ready crops on day {day}.",
+            summary_template="{names} harvested the ready crops.",
+        )
+        return
+
     if leadership_action == "strengthen_defenses":
         _record_role_work(
             state,

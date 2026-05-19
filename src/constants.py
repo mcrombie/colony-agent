@@ -18,6 +18,7 @@ LEADERSHIP_ACTION_TYPES = (
     "ration_food",
     "gather_wood",
     "expand_fields",
+    "harvest_crops",
     "strengthen_defenses",
     "tend_the_sick",
     "mediate_dispute",
@@ -31,6 +32,7 @@ CHAOS_GODS_EVENT_TYPE = "chaos_gods"
 EMPTY_COLONY_EVENT_TYPE = "empty_colony"
 PRESERVE_RESOURCES_ACTION_TYPE = "preserve_resources"
 FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE = "failed_strengthen_defenses"
+FAILED_HARVEST_CROPS_ACTION_TYPE = "failed_harvest_crops"
 NO_ACTION_ACTION_TYPE = "no_action"
 
 ALLOWED_WORLD_EVENT_TYPES = WORLD_EVENT_TYPES + (
@@ -39,5 +41,6 @@ ALLOWED_WORLD_EVENT_TYPES = WORLD_EVENT_TYPES + (
 )
 ALLOWED_LEADERSHIP_ACTION_TYPES = LEADERSHIP_ACTION_TYPES + (
     FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE,
+    FAILED_HARVEST_CROPS_ACTION_TYPE,
     NO_ACTION_ACTION_TYPE,
 )
