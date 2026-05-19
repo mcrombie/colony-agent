@@ -1,13 +1,13 @@
 {
-  "day": 84,
+  "day": 85,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 320,
-  "wood": 38,
-  "morale": 10,
-  "security": 7,
-  "health": 6,
+  "food": 291,
+  "wood": 26,
+  "morale": 9,
+  "security": 8,
+  "health": 5,
   "known_threats": [
     "wolves",
     "winter",
@@ -6748,6 +6748,86 @@
         "deaths": []
       },
       "summary": "Scouts discovered old trail markers beyond the fields. Weather: Clear skies left the day's work mostly to the colony. The president directed labor toward preparing the fields."
+    },
+    {
+      "day": 84,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 84,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 25,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -29,
+        "wood": -12,
+        "morale": -1,
+        "security": 1,
+        "health": -1
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 3,
+            "people": [
+              {
+                "id": "person_212",
+                "name": "Dain Ivory"
+              },
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              },
+              {
+                "id": "person_204",
+                "name": "Vera Hale"
+              }
+            ],
+            "summary": "Dain Ivory, Kara Ivory, and Vera Hale bore the worst of the storm."
+          },
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_207",
+                "name": "Yuri Hale"
+              },
+              {
+                "id": "person_210",
+                "name": "Bram Ivory"
+              }
+            ],
+            "summary": "Yuri Hale, and Bram Ivory helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 3 storm struck Blergen. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement."
     }
   ],
   "people": [
@@ -14135,13 +14215,14 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 10,
+        "health": 5,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Vera Hale arrived with a Blergen Company settler convoy."
+          "Vera Hale arrived with a Blergen Company settler convoy.",
+          "Vera Hale endured a severity 3 storm on day 84."
         ]
       }
     },
@@ -14236,7 +14317,8 @@
       },
       "story": {
         "notable_events": [
-          "Yuri Hale arrived with a Blergen Company settler convoy."
+          "Yuri Hale arrived with a Blergen Company settler convoy.",
+          "Yuri Hale helped strengthen the settlement on day 84."
         ]
       }
     },
@@ -14341,7 +14423,8 @@
       "story": {
         "notable_events": [
           "Bram Ivory arrived with a Blergen Company settler convoy.",
-          "Bram Ivory joined the wood crews on day 78."
+          "Bram Ivory joined the wood crews on day 78.",
+          "Bram Ivory helped strengthen the settlement on day 84."
         ]
       }
     },
@@ -14402,14 +14485,15 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 10,
+        "health": 5,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Dain Ivory arrived with a Blergen Company settler convoy.",
-          "Dain Ivory became president of Blergen on day 76."
+          "Dain Ivory became president of Blergen on day 76.",
+          "Dain Ivory endured a severity 3 storm on day 84."
         ]
       }
     },
@@ -14628,13 +14712,14 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 10,
+        "health": 5,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Kara Ivory arrived with a Blergen Company settler convoy."
+          "Kara Ivory arrived with a Blergen Company settler convoy.",
+          "Kara Ivory endured a severity 3 storm on day 84."
         ]
       }
     },

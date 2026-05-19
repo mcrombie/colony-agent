@@ -249,3 +249,6 @@ Clear skies left the day's work mostly to the colony. A discovery gave the colon
 
 Day 83 (Year 1, March 24) - Blergen:
 Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Dain Ivory directed labor toward preparing the fields; the day's changes reduced food by 25, and increased prepared crop fields by 75. Ada Ivory discovered old trail markers beyond the fields. Ada Ivory, and Cora Ivory worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 84 (Year 1, March 25) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 storm tested the colony, and President Dain Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, reduced morale by 1, increased security by 1, and reduced health by 1. Dain Ivory, Kara Ivory, and Vera Hale bore the worst of the storm. Yuri Hale, and Bram Ivory helped strengthen the settlement. The loss of people is beginning to define the settlement's future.

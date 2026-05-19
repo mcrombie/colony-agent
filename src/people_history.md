@@ -1057,3 +1057,10 @@ Day 83 - Blergen Personal Stories:
 - Ada Ivory (forager) discovered old trail markers beyond the fields. Status unchanged.
 - Ada Ivory (forager) worked the field expansion. Status unchanged.
 - Cora Ivory (farmer) worked the field expansion. Status unchanged.
+
+Day 84 - Blergen Personal Stories:
+- Dain Ivory (woodcutter) bore the worst of the storm. health 6->5; morale 10->9.
+- Kara Ivory (forager) bore the worst of the storm. health 6->5; morale 10->9.
+- Vera Hale (builder) bore the worst of the storm. health 6->5; morale 10->9.
+- Yuri Hale (guard) helped strengthen the settlement. Status unchanged.
+- Bram Ivory (carpenter) helped strengthen the settlement. Status unchanged.
