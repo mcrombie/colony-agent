@@ -1052,3 +1052,8 @@ Day 82 - Blergen Personal Stories:
 - Ada Ivory (forager) discovered useful clay near the riverbank. morale 9->10.
 - Ada Ivory (forager) scouted beyond the settlement. morale 9->10.
 - Elia Ivory (scout) scouted beyond the settlement. morale 8->10.
+
+Day 83 - Blergen Personal Stories:
+- Ada Ivory (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Ada Ivory (forager) worked the field expansion. Status unchanged.
+- Cora Ivory (farmer) worked the field expansion. Status unchanged.

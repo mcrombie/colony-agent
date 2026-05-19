@@ -246,3 +246,6 @@ Clear skies left the day's work mostly to the colony. A discovery gave the colon
 
 Day 82 (Year 1, March 23) - Blergen:
 Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Dain Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Ada Ivory discovered useful clay near the riverbank. Ada Ivory, and Elia Ivory scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 83 (Year 1, March 24) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Dain Ivory directed labor toward preparing the fields; the day's changes reduced food by 25, and increased prepared crop fields by 75. Ada Ivory discovered old trail markers beyond the fields. Ada Ivory, and Cora Ivory worked the field expansion. The loss of people is beginning to define the settlement's future.
