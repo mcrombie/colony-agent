@@ -1,11 +1,11 @@
 {
-  "day": 81,
+  "day": 82,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 395,
-  "wood": 28,
-  "morale": 7,
+  "food": 370,
+  "wood": 33,
+  "morale": 9,
   "security": 7,
   "health": 6,
   "known_threats": [
@@ -6539,6 +6539,76 @@
         "deaths": []
       },
       "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 81,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 81,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 22,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {},
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5,
+        "morale": 2
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "fresh water north of camp",
+            "people": [
+              {
+                "id": "person_209",
+                "name": "Ada Ivory"
+              }
+            ],
+            "summary": "Ada Ivory discovered fresh water north of camp."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_209",
+                "name": "Ada Ivory"
+              },
+              {
+                "id": "person_213",
+                "name": "Elia Ivory"
+              }
+            ],
+            "summary": "Ada Ivory, and Elia Ivory scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered fresh water north of camp. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -13728,7 +13798,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -13760,7 +13830,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -13792,7 +13862,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -13825,7 +13895,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -13859,7 +13929,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -13893,7 +13963,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -13927,7 +13997,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -13958,7 +14028,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -13990,7 +14060,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14022,7 +14092,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14054,7 +14124,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14086,14 +14156,16 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Ada Ivory arrived with a Blergen Company settler convoy.",
           "Ada Ivory helped bring in the strong harvest on day 79.",
-          "Ada Ivory worked the field expansion on day 79."
+          "Ada Ivory worked the field expansion on day 79.",
+          "Ada Ivory discovered fresh water north of camp on day 81.",
+          "Ada Ivory scouted beyond the settlement on day 81."
         ]
       }
     },
@@ -14120,7 +14192,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14153,7 +14225,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14187,7 +14259,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14220,12 +14292,13 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Elia Ivory arrived with a Blergen Company settler convoy."
+          "Elia Ivory arrived with a Blergen Company settler convoy.",
+          "Elia Ivory scouted beyond the settlement on day 81."
         ]
       }
     },
@@ -14251,7 +14324,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14283,7 +14356,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14315,7 +14388,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14347,7 +14420,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14379,7 +14452,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14411,7 +14484,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14443,7 +14516,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14475,7 +14548,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14507,7 +14580,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -14527,5 +14600,8 @@
     "id": "person_212",
     "name": "Dain Ivory",
     "since_day": 76
+  },
+  "agriculture": {
+    "crop_fields": 0
   }
 }

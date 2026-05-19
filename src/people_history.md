@@ -1042,3 +1042,8 @@ Day 79 - Blergen Personal Stories:
 - Cora Ivory (farmer) helped bring in the harvest. morale 6->7.
 - Ada Ivory (forager) worked the field expansion. morale 6->7.
 - Cora Ivory (farmer) worked the field expansion. morale 6->7.
+
+Day 81 - Blergen Personal Stories:
+- Ada Ivory (forager) discovered fresh water north of camp. morale 7->9.
+- Ada Ivory (forager) scouted beyond the settlement. morale 7->9.
+- Elia Ivory (scout) scouted beyond the settlement. morale 7->8.

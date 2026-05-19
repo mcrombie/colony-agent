@@ -240,3 +240,6 @@ Clear skies left the day's work mostly to the colony. A good harvest lifted the 
 
 Day 80 (Year 1, March 21) - Blergen:
 Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Dain Ivory told the colonists to preserve resources; the day's changes reduced food by 25. The loss of people is beginning to define the settlement's future.
+
+Day 81 (Year 1, March 22) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Dain Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 2. Ada Ivory discovered fresh water north of camp. Ada Ivory, and Elia Ivory scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
