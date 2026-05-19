@@ -1047,3 +1047,8 @@ Day 81 - Blergen Personal Stories:
 - Ada Ivory (forager) discovered fresh water north of camp. morale 7->9.
 - Ada Ivory (forager) scouted beyond the settlement. morale 7->9.
 - Elia Ivory (scout) scouted beyond the settlement. morale 7->8.
+
+Day 82 - Blergen Personal Stories:
+- Ada Ivory (forager) discovered useful clay near the riverbank. morale 9->10.
+- Ada Ivory (forager) scouted beyond the settlement. morale 9->10.
+- Elia Ivory (scout) scouted beyond the settlement. morale 8->10.
