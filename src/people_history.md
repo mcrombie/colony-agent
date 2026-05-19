@@ -1074,3 +1074,8 @@ Day 86 - Blergen Personal Stories:
 - Ada Ivory (forager) discovered old trail markers beyond the fields. Status unchanged.
 - Ada Ivory (forager) scouted beyond the settlement. Status unchanged.
 - Elia Ivory (scout) scouted beyond the settlement. Status unchanged.
+
+Day 87 - Blergen Personal Stories:
+- Elia Ivory (scout) discovered fresh water north of camp. Status unchanged.
+- Elia Ivory (scout) scouted beyond the settlement. Status unchanged.
+- Kara Ivory (forager) scouted beyond the settlement. Status unchanged.

@@ -1,10 +1,10 @@
 {
-  "day": 87,
+  "day": 88,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 241,
-  "wood": 36,
+  "food": 216,
+  "wood": 41,
   "morale": 10,
   "security": 8,
   "health": 5,
@@ -6967,6 +6967,75 @@
         "deaths": []
       },
       "summary": "Scouts discovered old trail markers beyond the fields. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 87,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 87,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 28,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {},
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "fresh water north of camp",
+            "people": [
+              {
+                "id": "person_213",
+                "name": "Elia Ivory"
+              }
+            ],
+            "summary": "Elia Ivory discovered fresh water north of camp."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_213",
+                "name": "Elia Ivory"
+              },
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              }
+            ],
+            "summary": "Elia Ivory, and Kara Ivory scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered fresh water north of camp. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -14672,7 +14741,9 @@
           "Elia Ivory scouted beyond the settlement on day 81.",
           "Elia Ivory scouted beyond the settlement on day 82.",
           "Elia Ivory scouted beyond the settlement on day 85.",
-          "Elia Ivory scouted beyond the settlement on day 86."
+          "Elia Ivory scouted beyond the settlement on day 86.",
+          "Elia Ivory discovered fresh water north of camp on day 87.",
+          "Elia Ivory scouted beyond the settlement on day 87."
         ]
       }
     },
@@ -14864,7 +14935,8 @@
       "story": {
         "notable_events": [
           "Kara Ivory arrived with a Blergen Company settler convoy.",
-          "Kara Ivory endured a severity 3 storm on day 84."
+          "Kara Ivory endured a severity 3 storm on day 84.",
+          "Kara Ivory scouted beyond the settlement on day 87."
         ]
       }
     },
