@@ -1064,3 +1064,8 @@ Day 84 - Blergen Personal Stories:
 - Vera Hale (builder) bore the worst of the storm. health 6->5; morale 10->9.
 - Yuri Hale (guard) helped strengthen the settlement. Status unchanged.
 - Bram Ivory (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 85 - Blergen Personal Stories:
+- Ada Ivory (forager) discovered useful clay near the riverbank. Status unchanged.
+- Ada Ivory (forager) scouted beyond the settlement. Status unchanged.
+- Elia Ivory (scout) scouted beyond the settlement. Status unchanged.

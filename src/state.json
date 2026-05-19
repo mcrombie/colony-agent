@@ -1,11 +1,11 @@
 {
-  "day": 85,
+  "day": 86,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 291,
-  "wood": 26,
-  "morale": 9,
+  "food": 266,
+  "wood": 31,
+  "morale": 10,
   "security": 8,
   "health": 5,
   "known_threats": [
@@ -6828,6 +6828,76 @@
         "deaths": []
       },
       "summary": "A severity 3 storm struck Blergen. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement."
+    },
+    {
+      "day": 85,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 85,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 26,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {},
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5,
+        "morale": 1
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "useful clay near the riverbank",
+            "people": [
+              {
+                "id": "person_209",
+                "name": "Ada Ivory"
+              }
+            ],
+            "summary": "Ada Ivory discovered useful clay near the riverbank."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_209",
+                "name": "Ada Ivory"
+              },
+              {
+                "id": "person_213",
+                "name": "Elia Ivory"
+              }
+            ],
+            "summary": "Ada Ivory, and Elia Ivory scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered useful clay near the riverbank. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -14216,7 +14286,7 @@
       "status": {
         "alive": true,
         "health": 5,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -14390,7 +14460,9 @@
           "Ada Ivory discovered useful clay near the riverbank on day 82.",
           "Ada Ivory scouted beyond the settlement on day 82.",
           "Ada Ivory discovered old trail markers beyond the fields on day 83.",
-          "Ada Ivory worked the field expansion on day 83."
+          "Ada Ivory worked the field expansion on day 83.",
+          "Ada Ivory discovered useful clay near the riverbank on day 85.",
+          "Ada Ivory scouted beyond the settlement on day 85."
         ]
       }
     },
@@ -14486,7 +14558,7 @@
       "status": {
         "alive": true,
         "health": 5,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -14527,7 +14599,8 @@
         "notable_events": [
           "Elia Ivory arrived with a Blergen Company settler convoy.",
           "Elia Ivory scouted beyond the settlement on day 81.",
-          "Elia Ivory scouted beyond the settlement on day 82."
+          "Elia Ivory scouted beyond the settlement on day 82.",
+          "Elia Ivory scouted beyond the settlement on day 85."
         ]
       }
     },
@@ -14713,7 +14786,7 @@
       "status": {
         "alive": true,
         "health": 5,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
