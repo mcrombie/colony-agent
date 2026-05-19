@@ -1,10 +1,10 @@
 {
-  "day": 86,
+  "day": 87,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 266,
-  "wood": 31,
+  "food": 241,
+  "wood": 36,
   "morale": 10,
   "security": 8,
   "health": 5,
@@ -6898,6 +6898,75 @@
         "deaths": []
       },
       "summary": "Scouts discovered useful clay near the riverbank. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 86,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 86,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 27,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {},
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "old trail markers beyond the fields",
+            "people": [
+              {
+                "id": "person_209",
+                "name": "Ada Ivory"
+              }
+            ],
+            "summary": "Ada Ivory discovered old trail markers beyond the fields."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_209",
+                "name": "Ada Ivory"
+              },
+              {
+                "id": "person_213",
+                "name": "Elia Ivory"
+              }
+            ],
+            "summary": "Ada Ivory, and Elia Ivory scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered old trail markers beyond the fields. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -14462,7 +14531,9 @@
           "Ada Ivory discovered old trail markers beyond the fields on day 83.",
           "Ada Ivory worked the field expansion on day 83.",
           "Ada Ivory discovered useful clay near the riverbank on day 85.",
-          "Ada Ivory scouted beyond the settlement on day 85."
+          "Ada Ivory scouted beyond the settlement on day 85.",
+          "Ada Ivory discovered old trail markers beyond the fields on day 86.",
+          "Ada Ivory scouted beyond the settlement on day 86."
         ]
       }
     },
@@ -14600,7 +14671,8 @@
           "Elia Ivory arrived with a Blergen Company settler convoy.",
           "Elia Ivory scouted beyond the settlement on day 81.",
           "Elia Ivory scouted beyond the settlement on day 82.",
-          "Elia Ivory scouted beyond the settlement on day 85."
+          "Elia Ivory scouted beyond the settlement on day 85.",
+          "Elia Ivory scouted beyond the settlement on day 86."
         ]
       }
     },

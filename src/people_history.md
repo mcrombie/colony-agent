@@ -1069,3 +1069,8 @@ Day 85 - Blergen Personal Stories:
 - Ada Ivory (forager) discovered useful clay near the riverbank. Status unchanged.
 - Ada Ivory (forager) scouted beyond the settlement. Status unchanged.
 - Elia Ivory (scout) scouted beyond the settlement. Status unchanged.
+
+Day 86 - Blergen Personal Stories:
+- Ada Ivory (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Ada Ivory (forager) scouted beyond the settlement. Status unchanged.
+- Elia Ivory (scout) scouted beyond the settlement. Status unchanged.
