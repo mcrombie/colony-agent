@@ -255,7 +255,7 @@ python -m pytest
 
 ## GitHub Actions
 
-The workflow in `.github/workflows/advance-colony.yml` runs once per day and can also be started manually from the Actions tab.
+The workflow in `.github/workflows/advance-colony.yml` can be started manually from the Actions tab. Scheduled repeating runs are disabled.
 
 Before enabling it on GitHub, add this repository secret:
 
@@ -269,15 +269,7 @@ Optionally add this repository variable to override the default model:
 OPENAI_MODEL
 ```
 
-Each run installs dependencies, runs tests, advances the colony once, and commits changes to `src/state.json`, `src/history.md`, and `src/people_history.md`.
-
-The daily schedule is:
-
-```yaml
-- cron: "17 11 * * *"
-```
-
-GitHub cron uses UTC, so this is about 7:17 AM Eastern during daylight time and 6:17 AM Eastern during standard time. GitHub can delay scheduled runs during busy periods, so the exact start time may drift a little. Manual runs still advance immediately.
+Each manual run installs dependencies, runs tests, advances the colony once, and commits changes to `src/state.json`, `src/history.md`, and `src/people_history.md`.
 
 ## Roadmap
 

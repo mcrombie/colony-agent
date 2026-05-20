@@ -1,9 +1,6 @@
 name: Advance Colony
 
 on:
-  schedule:
-    # Hourly run. GitHub cron uses UTC.
-    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
