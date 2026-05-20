@@ -1085,3 +1085,7 @@ Day 88 - Blergen Personal Stories:
 - Elia Ivory (scout) searched for forage. Status unchanged.
 - Dain Ivory (woodcutter) joined the wood crews. Status unchanged.
 - Lio Ivory (carpenter) joined the wood crews. Status unchanged.
+
+Day 89 - Blergen Personal Stories:
+- Dain Ivory (woodcutter) joined the wood crews. Status unchanged.
+- Lio Ivory (carpenter) joined the wood crews. Status unchanged.

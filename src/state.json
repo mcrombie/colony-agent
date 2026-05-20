@@ -1,10 +1,10 @@
 {
-  "day": 89,
+  "day": 90,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 201,
-  "wood": 51,
+  "food": 176,
+  "wood": 61,
   "morale": 10,
   "security": 8,
   "health": 5,
@@ -7108,6 +7108,62 @@
         "deaths": []
       },
       "summary": "A severity 2 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president sent work crews to gather wood."
+    },
+    {
+      "day": 89,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 89,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 30,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {},
+      "leadership_action": "gather_wood",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25,
+        "wood": 10
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "gathered_wood",
+            "people": [
+              {
+                "id": "person_212",
+                "name": "Dain Ivory"
+              },
+              {
+                "id": "person_220",
+                "name": "Lio Ivory"
+              }
+            ],
+            "summary": "Dain Ivory, and Lio Ivory joined the wood crews."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president sent work crews to gather wood."
     }
   ],
   "people": [
@@ -14779,7 +14835,8 @@
           "Dain Ivory arrived with a Blergen Company settler convoy.",
           "Dain Ivory became president of Blergen on day 76.",
           "Dain Ivory endured a severity 3 storm on day 84.",
-          "Dain Ivory joined the wood crews on day 88."
+          "Dain Ivory joined the wood crews on day 88.",
+          "Dain Ivory joined the wood crews on day 89."
         ]
       }
     },
@@ -15044,7 +15101,8 @@
       "story": {
         "notable_events": [
           "Lio Ivory arrived with a Blergen Company settler convoy.",
-          "Lio Ivory joined the wood crews on day 88."
+          "Lio Ivory joined the wood crews on day 88.",
+          "Lio Ivory joined the wood crews on day 89."
         ]
       }
     },

@@ -264,3 +264,6 @@ Clear skies left the day's work mostly to the colony. A discovery gave the colon
 
 Day 88 (Year 1, March 29) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 2 foraging effort searched for food, and President Dain Ivory sent crews out to gather wood; the day's changes reduced food by 15, and increased wood by 10. Cora Ivory, and Elia Ivory searched for edible stores beyond camp. Dain Ivory, and Lio Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 89 (Year 1, March 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Dain Ivory sent crews out to gather wood; the day's changes reduced food by 25, and increased wood by 10. Dain Ivory, and Lio Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
