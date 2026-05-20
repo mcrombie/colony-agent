@@ -1094,3 +1094,8 @@ Day 90 - Blergen Personal Stories:
 - Elia Ivory (scout) and Finn Ivory (builder) became rivals. Elia Ivory: Status unchanged. Finn Ivory: Status unchanged.
 - Elia Ivory (scout) stepped back from rivalry. Status unchanged.
 - Finn Ivory (builder) stepped back from rivalry. Status unchanged.
+
+Day 91 - Blergen Personal Stories:
+- Kara Ivory (forager) discovered useful clay near the riverbank. Status unchanged.
+- Kara Ivory (forager) scouted beyond the settlement. Status unchanged.
+- Quin Hale (forager) scouted beyond the settlement. Status unchanged.

@@ -1,11 +1,11 @@
 {
-  "day": 91,
+  "day": 92,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 151,
-  "wood": 61,
-  "morale": 9,
+  "food": 126,
+  "wood": 66,
+  "morale": 10,
   "security": 8,
   "health": 5,
   "known_threats": [
@@ -7236,6 +7236,76 @@
         "deaths": []
       },
       "summary": "A dispute unsettled the colony. Weather: Clear skies left the day's work mostly to the colony. The president worked to mediate local tensions."
+    },
+    {
+      "day": 91,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 91,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 1,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {},
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5,
+        "morale": 1
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "useful clay near the riverbank",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              }
+            ],
+            "summary": "Kara Ivory discovered useful clay near the riverbank."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              },
+              {
+                "id": "person_199",
+                "name": "Quin Hale"
+              }
+            ],
+            "summary": "Kara Ivory, and Quin Hale scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered useful clay near the riverbank. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -14425,7 +14495,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -14462,7 +14532,8 @@
       },
       "story": {
         "notable_events": [
-          "Quin Hale arrived with a Blergen Company settler convoy."
+          "Quin Hale arrived with a Blergen Company settler convoy.",
+          "Quin Hale scouted beyond the settlement on day 91."
         ]
       }
     },
@@ -15144,7 +15215,9 @@
         "notable_events": [
           "Kara Ivory arrived with a Blergen Company settler convoy.",
           "Kara Ivory endured a severity 3 storm on day 84.",
-          "Kara Ivory scouted beyond the settlement on day 87."
+          "Kara Ivory scouted beyond the settlement on day 87.",
+          "Kara Ivory discovered useful clay near the riverbank on day 91.",
+          "Kara Ivory scouted beyond the settlement on day 91."
         ]
       }
     },
