@@ -1106,3 +1106,13 @@ Day 92 - Blergen Personal Stories:
 - Quin Hale (forager) searched for forage. Status unchanged.
 - Kara Ivory (forager) scouted beyond the settlement. Status unchanged.
 - Quin Hale (forager) scouted beyond the settlement. Status unchanged.
+
+Day 93 - Blergen Personal Stories:
+- Kara Ivory (forager) searched for forage. morale 10->9.
+- Mara Ivory (farmer) searched for forage. Status unchanged.
+- Quin Hale (forager) searched for forage. Status unchanged.
+- Soren Hale (farmer) searched for forage. Status unchanged.
+- Hana Ivory (cook) endured tighter rations. morale 10->9.
+- Iris Ivory (guard) endured tighter rations. morale 10->9.
+- Jory Ivory (teacher) endured tighter rations. morale 10->9.
+- Kara Ivory (forager) endured tighter rations. morale 10->9.

@@ -1,11 +1,11 @@
 {
-  "day": 93,
+  "day": 94,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 122,
+  "food": 134,
   "wood": 71,
-  "morale": 10,
+  "morale": 9,
   "security": 8,
   "health": 5,
   "known_threats": [
@@ -7382,6 +7382,94 @@
         "deaths": []
       },
       "summary": "A severity 3 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 93,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 93,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 3,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "foraging",
+      "world_event": "foraging",
+      "event_details": {
+        "severity": 4
+      },
+      "leadership_action": "ration_food",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": 12,
+        "morale": -1
+      },
+      "survival_effects": {
+        "food": -19
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "foraged_food",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              },
+              {
+                "id": "person_221",
+                "name": "Mara Ivory"
+              },
+              {
+                "id": "person_199",
+                "name": "Quin Hale"
+              },
+              {
+                "id": "person_201",
+                "name": "Soren Hale"
+              }
+            ],
+            "summary": "Kara Ivory, Mara Ivory, Quin Hale, and Soren Hale searched for edible stores beyond camp."
+          },
+          {
+            "type": "rationed_food",
+            "people": [
+              {
+                "id": "person_216",
+                "name": "Hana Ivory"
+              },
+              {
+                "id": "person_217",
+                "name": "Iris Ivory"
+              },
+              {
+                "id": "person_218",
+                "name": "Jory Ivory"
+              },
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              }
+            ],
+            "summary": "Hana Ivory, Iris Ivory, Jory Ivory, and Kara Ivory felt the tighter rations first."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 4 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president ordered tighter food rationing."
     }
   ],
   "people": [
@@ -14611,7 +14699,8 @@
           "Quin Hale arrived with a Blergen Company settler convoy.",
           "Quin Hale scouted beyond the settlement on day 91.",
           "Quin Hale searched for forage on day 92.",
-          "Quin Hale scouted beyond the settlement on day 92."
+          "Quin Hale scouted beyond the settlement on day 92.",
+          "Quin Hale searched for forage on day 93."
         ]
       }
     },
@@ -14678,7 +14767,8 @@
         "notable_events": [
           "Soren Hale arrived with a Blergen Company settler convoy.",
           "Soren Hale searched for forage on day 77.",
-          "Soren Hale searched for forage on day 78."
+          "Soren Hale searched for forage on day 78.",
+          "Soren Hale searched for forage on day 93."
         ]
       }
     },
@@ -15190,12 +15280,13 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 10,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Hana Ivory arrived with a Blergen Company settler convoy."
+          "Hana Ivory arrived with a Blergen Company settler convoy.",
+          "Hana Ivory endured tighter rations on day 93."
         ]
       }
     },
@@ -15222,12 +15313,13 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 10,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Iris Ivory arrived with a Blergen Company settler convoy."
+          "Iris Ivory arrived with a Blergen Company settler convoy.",
+          "Iris Ivory endured tighter rations on day 93."
         ]
       }
     },
@@ -15254,12 +15346,13 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 10,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Jory Ivory arrived with a Blergen Company settler convoy."
+          "Jory Ivory arrived with a Blergen Company settler convoy.",
+          "Jory Ivory endured tighter rations on day 93."
         ]
       }
     },
@@ -15286,7 +15379,7 @@
       "status": {
         "alive": true,
         "health": 5,
-        "morale": 10,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -15297,7 +15390,9 @@
           "Kara Ivory discovered useful clay near the riverbank on day 91.",
           "Kara Ivory scouted beyond the settlement on day 91.",
           "Kara Ivory searched for forage on day 92.",
-          "Kara Ivory scouted beyond the settlement on day 92."
+          "Kara Ivory scouted beyond the settlement on day 92.",
+          "Kara Ivory searched for forage on day 93.",
+          "Kara Ivory endured tighter rations on day 93."
         ]
       }
     },
@@ -15364,7 +15459,8 @@
       "story": {
         "notable_events": [
           "Mara Ivory arrived with a Blergen Company settler convoy.",
-          "Mara Ivory searched for forage on day 92."
+          "Mara Ivory searched for forage on day 92.",
+          "Mara Ivory searched for forage on day 93."
         ]
       }
     },
