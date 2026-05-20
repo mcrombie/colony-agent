@@ -2145,3 +2145,910 @@ Day 545 - Blergen Personal Stories:
 Day 546 - Blergen Personal Stories:
 - Rhea Ivory (cook) bore the worst of the storm. health 1->0; hunger 4->5; died.
 - Rhea Ivory (cook) died of storm. health 1->0; hunger 4->5; died.
+
+Day 824 - Blergen Personal Stories:
+- Orin Joss (forager) discovered old trail markers beyond the fields. morale 6->8.
+- Orin Joss (forager) scouted beyond the settlement. morale 6->8.
+- Soren Joss (scout) scouted beyond the settlement. morale 6->7.
+
+Day 825 - Blergen Personal Stories:
+- Orin Joss (forager) discovered fresh water north of camp. morale 8->10.
+- Orin Joss (forager) scouted beyond the settlement. morale 8->10.
+- Soren Joss (scout) scouted beyond the settlement. morale 7->8.
+
+Day 826 - Blergen Personal Stories:
+- Orin Joss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Orin Joss (forager) scouted beyond the settlement. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. morale 8->9.
+
+Day 827 - Blergen Personal Stories:
+- Soren Joss (scout) discovered old trail markers beyond the fields. morale 9->10.
+- Soren Joss (scout) scouted beyond the settlement. morale 9->10.
+- Yuri Joss (forager) scouted beyond the settlement. morale 9->10.
+
+Day 828 - Blergen Personal Stories:
+- Cora Kest (scout) bore the worst of the storm. health 6->5; morale 10->9.
+- Jory Kest (carpenter) bore the worst of the storm. health 6->5; morale 10->9.
+- Niko Joss (teacher) bore the worst of the storm. health 6->5; morale 10->9.
+- Talia Joss (builder) helped strengthen the settlement. Status unchanged.
+- Wynn Joss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 830 - Blergen Personal Stories:
+- Soren Joss (scout) discovered old trail markers beyond the fields. morale 9->10.
+- Soren Joss (scout) scouted beyond the settlement. morale 9->10.
+- Yuri Joss (forager) scouted beyond the settlement. morale 9->10.
+
+Day 831 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered fresh water north of camp. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. morale 8->10.
+
+Day 832 - Blergen Personal Stories:
+- Una Joss (healer) joined the mediation circle. Status unchanged.
+- Vera Joss (cook) joined the mediation circle. Status unchanged.
+
+Day 833 - Blergen Personal Stories:
+- Yuri Joss (forager) worked the clay deposit. Status unchanged.
+- Cora Kest (scout) worked the clay deposit. Status unchanged.
+
+Day 835 - Blergen Personal Stories:
+- Cora Kest (scout) bore the worst of the storm. health 5->4; morale 9->8.
+- Jory Kest (carpenter) bore the worst of the storm. health 5->4; morale 9->8.
+- Niko Joss (teacher) bore the worst of the storm. health 5->4; morale 8->7.
+- Zara Joss (carpenter) helped strengthen the settlement. morale 9->10.
+- Dain Kest (builder) helped strengthen the settlement. morale 9->10.
+
+Day 836 - Blergen Personal Stories:
+- Zara Joss (carpenter) helped strengthen the settlement. Status unchanged.
+- Dain Kest (builder) helped strengthen the settlement. Status unchanged.
+
+Day 837 - Blergen Personal Stories:
+- Cora Kest (scout) discovered fresh water north of camp. morale 8->10.
+- Cora Kest (scout) scouted beyond the settlement. morale 8->10.
+- Iris Kest (forager) scouted beyond the settlement. morale 9->10.
+
+Day 838 - Blergen Personal Stories:
+- Ada Kest (farmer) searched for forage. Status unchanged.
+- Cora Kest (scout) searched for forage. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. Status unchanged.
+- Iris Kest (forager) scouted beyond the settlement. Status unchanged.
+
+Day 840 - Blergen Personal Stories:
+- Cora Kest (scout) worked the clay deposit. Status unchanged.
+- Dain Kest (builder) worked the clay deposit. Status unchanged.
+
+Day 843 - Blergen Personal Stories:
+- Iris Kest (forager) discovered fresh water north of camp. morale 7->8.
+- Iris Kest (forager) worked the field expansion. morale 7->8.
+- Kara Kest (farmer) worked the field expansion. Status unchanged.
+
+Day 844 - Blergen Personal Stories:
+- Iris Kest (forager) worked the clay deposit. Status unchanged.
+- Orin Joss (forager) worked the clay deposit. Status unchanged.
+
+Day 846 - Blergen Personal Stories:
+- Jory Kest (carpenter) shaped clay storage pottery. morale 4->5.
+- Pia Joss (carpenter) shaped clay storage pottery. morale 5->6.
+
+Day 847 - Blergen Personal Stories:
+- Jory Kest (carpenter) joined the wood crews. Status unchanged.
+- Lio Kest (woodcutter) joined the wood crews. Status unchanged.
+
+Day 848 - Blergen Personal Stories:
+- Orin Joss (forager) discovered old trail markers beyond the fields. morale 0->2.
+- Orin Joss (forager) scouted beyond the settlement. morale 0->2.
+- Soren Joss (scout) scouted beyond the settlement. morale 2->3.
+
+Day 849 - Blergen Personal Stories:
+- Lio Kest (woodcutter) found relief at the festival. morale 4->6.
+- Niko Joss (teacher) found relief at the festival. morale 0->2.
+- Orin Joss (forager) found relief at the festival. morale 2->4.
+- Pia Joss (carpenter) found relief at the festival. morale 4->6.
+- Quin Joss (farmer) found relief at the festival. morale 1->3.
+
+Day 851 - Blergen Personal Stories:
+- Orin Joss (forager) discovered old trail markers beyond the fields. morale 4->6.
+- Orin Joss (forager) scouted beyond the settlement. morale 4->6.
+- Soren Joss (scout) scouted beyond the settlement. morale 4->5.
+
+Day 852 - Blergen Personal Stories:
+- Pia Joss (carpenter) found relief at the festival. morale 6->8.
+- Quin Joss (farmer) found relief at the festival. morale 3->5.
+- Rhea Joss (woodcutter) found relief at the festival. morale 2->4.
+- Soren Joss (scout) found relief at the festival. morale 5->7.
+- Talia Joss (builder) found relief at the festival. morale 3->5.
+
+Day 853 - Blergen Personal Stories:
+- Soren Joss (scout) discovered useful clay near the riverbank. morale 7->9.
+- Soren Joss (scout) scouted beyond the settlement. morale 7->9.
+- Yuri Joss (forager) scouted beyond the settlement. morale 5->6.
+
+Day 854 - Blergen Personal Stories:
+- Soren Joss (scout) worked the clay deposit. Status unchanged.
+- Talia Joss (builder) worked the clay deposit. Status unchanged.
+
+Day 855 - Blergen Personal Stories:
+- Zara Joss (carpenter) joined the wood crews. Status unchanged.
+- Bram Kest (woodcutter) joined the wood crews. Status unchanged.
+
+Day 856 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered useful clay near the riverbank. morale 5->7.
+- Yuri Joss (forager) scouted beyond the settlement. morale 5->7.
+- Cora Kest (scout) scouted beyond the settlement. morale 7->8.
+
+Day 857 - Blergen Personal Stories:
+- Wynn Joss (guard) helped strengthen the settlement. morale 5->6.
+- Zara Joss (carpenter) helped strengthen the settlement. morale 7->8.
+
+Day 858 - Blergen Personal Stories:
+- Cora Kest (scout) bore the worst of the storm. health 4->3; morale 8->7.
+- Jory Kest (carpenter) bore the worst of the storm. health 4->3; morale 5->4.
+- Niko Joss (teacher) bore the worst of the storm. health 4->3.
+
+Day 859 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered useful clay near the riverbank. morale 7->9.
+- Yuri Joss (forager) scouted beyond the settlement. morale 7->9.
+- Cora Kest (scout) scouted beyond the settlement. morale 7->8.
+
+Day 860 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered old trail markers beyond the fields. morale 9->10.
+- Yuri Joss (forager) worked the clay deposit. morale 9->10.
+- Cora Kest (scout) worked the clay deposit. Status unchanged.
+
+Day 861 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered fresh water north of camp. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. morale 8->9.
+
+Day 863 - Blergen Personal Stories:
+- Dain Kest (builder) helped strengthen the settlement. morale 8->9.
+- Galen Kest (guard) helped strengthen the settlement. morale 4->5.
+
+Day 864 - Blergen Personal Stories:
+- Dain Kest (builder) helped strengthen the settlement. morale 9->10.
+- Galen Kest (guard) helped strengthen the settlement. morale 5->6.
+
+Day 865 - Blergen Personal Stories:
+- Cora Kest (scout) searched for forage. morale 9->10.
+- Iris Kest (forager) searched for forage. morale 6->7.
+- Kara Kest (farmer) searched for forage. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. morale 9->10.
+- Iris Kest (forager) scouted beyond the settlement. morale 6->7.
+
+Day 866 - Blergen Personal Stories:
+- Iris Kest (forager) discovered old trail markers beyond the fields. morale 7->9.
+- Iris Kest (forager) scouted beyond the settlement. morale 7->9.
+- Orin Joss (forager) scouted beyond the settlement. morale 6->7.
+
+Day 867 - Blergen Personal Stories:
+- Cora Kest (scout) bore the worst of the storm. health 3->2; morale 10->9.
+- Jory Kest (carpenter) bore the worst of the storm. health 3->2.
+- Niko Joss (teacher) bore the worst of the storm. health 3->2; morale 1->0.
+- Galen Kest (guard) helped strengthen the settlement. morale 7->8.
+- Jory Kest (carpenter) helped strengthen the settlement. health 3->2.
+
+Day 868 - Blergen Personal Stories:
+- Cora Kest (scout) received care. health 2->4; morale 9->10.
+- Jory Kest (carpenter) received care. health 2->4; morale 5->6.
+- Niko Joss (teacher) received care. health 2->4; morale 0->1.
+
+Day 869 - Blergen Personal Stories:
+- Orin Joss (forager) fell ill. health 2->3.
+- Orin Joss (forager) received care. health 2->3.
+- Una Joss (healer) received care. health 3->5; morale 7->8.
+- Bram Kest (woodcutter) received care. health 3->5; morale 8->9.
+- Iris Kest (forager) died of illness. health 3->0; died.
+
+Day 870 - Blergen Personal Stories:
+- Talia Joss (builder) received care. health 3->5; morale 7->8.
+- Ada Kest (farmer) received care. health 3->5; morale 7->8.
+- Hana Kest (teacher) received care. health 3->5; morale 5->6.
+
+Day 871 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 872 - Blergen Personal Stories:
+- Yuri Joss (forager) received care. health 3->5.
+- Finn Kest (cook) received care. health 3->5; morale 6->7.
+- Xara Joss (teacher) received care. health 3->5; morale 8->9.
+
+Day 873 - Blergen Personal Stories:
+- Wynn Joss (guard) helped strengthen the settlement. morale 9->10.
+- Zara Joss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 874 - Blergen Personal Stories:
+- Yuri Joss (forager) worked the field expansion. Status unchanged.
+- Ada Kest (farmer) worked the field expansion. Status unchanged.
+
+Day 875 - Blergen Personal Stories:
+- Yuri Joss (forager) worked the clay deposit. Status unchanged.
+- Cora Kest (scout) worked the clay deposit. Status unchanged.
+
+Day 876 - Blergen Personal Stories:
+- Zara Joss (carpenter) joined the mediation circle. morale 9->10.
+- Ada Kest (farmer) joined the mediation circle. morale 8->9.
+
+Day 877 - Blergen Personal Stories:
+- Cora Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. Status unchanged.
+- Orin Joss (forager) scouted beyond the settlement. morale 6->7.
+
+Day 880 - Blergen Personal Stories:
+- Dain Kest (builder) helped strengthen the settlement. morale 9->10.
+- Galen Kest (guard) helped strengthen the settlement. morale 8->9.
+
+Day 881 - Blergen Personal Stories:
+- Jory Kest (carpenter) joined the wood crews. Status unchanged.
+- Lio Kest (woodcutter) joined the wood crews. Status unchanged.
+
+Day 882 - Blergen Personal Stories:
+- Kara Kest (farmer) searched for forage. Status unchanged.
+- Orin Joss (forager) searched for forage. Status unchanged.
+- Quin Joss (farmer) searched for forage. Status unchanged.
+- Jory Kest (carpenter) joined the wood crews. Status unchanged.
+- Lio Kest (woodcutter) joined the wood crews. Status unchanged.
+
+Day 883 - Blergen Personal Stories:
+- Kara Kest (farmer) harvested the ready crops. Status unchanged.
+- Orin Joss (forager) harvested the ready crops. Status unchanged.
+- Quin Joss (farmer) harvested the ready crops. Status unchanged.
+
+Day 884 - Blergen Personal Stories:
+- Kara Kest (farmer) searched for forage. Status unchanged.
+- Orin Joss (forager) searched for forage. Status unchanged.
+- Orin Joss (forager) worked the clay deposit. Status unchanged.
+- Soren Joss (scout) worked the clay deposit. Status unchanged.
+
+Day 885 - Blergen Personal Stories:
+- Orin Joss (forager) discovered fresh water north of camp. morale 5->7.
+- Orin Joss (forager) scouted beyond the settlement. morale 5->7.
+- Soren Joss (scout) scouted beyond the settlement. morale 9->10.
+
+Day 886 - Blergen Personal Stories:
+- Orin Joss (forager) discovered useful clay near the riverbank. morale 7->10.
+- Orin Joss (forager) scouted beyond the settlement. morale 7->10.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 887 - Blergen Personal Stories:
+- Orin Joss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Jory Kest (carpenter) received care. health 1->3.
+- Niko Joss (teacher) received care. health 1->3.
+- Rhea Joss (woodcutter) received care. health 1->3.
+
+Day 888 - Blergen Personal Stories:
+- Orin Joss (forager) searched for forage. Status unchanged.
+- Quin Joss (farmer) searched for forage. Status unchanged.
+- Soren Joss (scout) searched for forage. Status unchanged.
+- Orin Joss (forager) scouted beyond the settlement. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 889 - Blergen Personal Stories:
+- Orin Joss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Orin Joss (forager) scouted beyond the settlement. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 890 - Blergen Personal Stories:
+- Talia Joss (builder) bore the worst of the storm. morale 10->9.
+- Zara Joss (carpenter) bore the worst of the storm. morale 10->9.
+- Yuri Joss (forager) bore the worst of the storm. morale 10->9.
+
+Day 891 - Blergen Personal Stories:
+- Soren Joss (scout) discovered fresh water north of camp. Status unchanged.
+- Talia Joss (builder) received care. health 1->3; morale 9->10.
+- Zara Joss (carpenter) received care. health 1->3; morale 9->10.
+- Yuri Joss (forager) received care. health 1->3; morale 9->10.
+
+Day 892 - Blergen Personal Stories:
+- Soren Joss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 893 - Blergen Personal Stories:
+- Soren Joss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Soren Joss (scout) worked the clay deposit. Status unchanged.
+- Talia Joss (builder) worked the clay deposit. Status unchanged.
+
+Day 894 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered fresh water north of camp. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 896 - Blergen Personal Stories:
+- Yuri Joss (forager) searched for forage. Status unchanged.
+- Ada Kest (farmer) searched for forage. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 897 - Blergen Personal Stories:
+- Niko Joss (teacher) bore the worst of the storm. morale 10->9.
+- Una Joss (healer) bore the worst of the storm. morale 10->9.
+- Rhea Joss (woodcutter) bore the worst of the storm. morale 10->9.
+- Wynn Joss (guard) helped strengthen the settlement. Status unchanged.
+- Zara Joss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 898 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 899 - Blergen Personal Stories:
+- Yuri Joss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Yuri Joss (forager) worked the field expansion. Status unchanged.
+- Ada Kest (farmer) worked the field expansion. Status unchanged.
+
+Day 900 - Blergen Personal Stories:
+- Cora Kest (scout) discovered fresh water north of camp. Status unchanged.
+- Ada Kest (farmer) harvested the ready crops. Status unchanged.
+- Finn Kest (cook) harvested the ready crops. Status unchanged.
+- Kara Kest (farmer) harvested the ready crops. Status unchanged.
+
+Day 901 - Blergen Personal Stories:
+- Ada Kest (farmer) searched for forage. Status unchanged.
+- Cora Kest (scout) searched for forage. Status unchanged.
+- Cora Kest (scout) worked the clay deposit. Status unchanged.
+- Dain Kest (builder) worked the clay deposit. Status unchanged.
+
+Day 902 - Blergen Personal Stories:
+- Cora Kest (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Cora Kest (scout) scouted beyond the settlement. Status unchanged.
+- Orin Joss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 903 - Blergen Personal Stories:
+- Niko Joss (teacher) received care. health 1->3.
+- Una Joss (healer) received care. health 1->3.
+- Rhea Joss (woodcutter) received care. health 1->3.
+
+Day 904 - Blergen Personal Stories:
+- Orin Joss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Orin Joss (forager) scouted beyond the settlement. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 905 - Blergen Personal Stories:
+- Talia Joss (builder) received care. health 1->3.
+- Zara Joss (carpenter) received care. health 1->3.
+- Quin Joss (farmer) received care. health 1->3.
+
+Day 906 - Blergen Personal Stories:
+- Orin Joss (forager) discovered fresh water north of camp. Status unchanged.
+- Kara Kest (farmer) worked the field expansion. Status unchanged.
+- Orin Joss (forager) worked the field expansion. Status unchanged.
+
+Day 907 - Blergen Personal Stories:
+- Orin Joss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Orin Joss (forager) scouted beyond the settlement. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 908 - Blergen Personal Stories:
+- Orin Joss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Niko Joss (teacher) received care. health 1->3.
+- Una Joss (healer) received care. health 1->3.
+- Rhea Joss (woodcutter) received care. health 1->3.
+
+Day 909 - Blergen Personal Stories:
+- Xara Joss (teacher) received care. health 1->3.
+- Elia Kest (healer) received care. health 1->3.
+- Lio Kest (woodcutter) received care. health 1->3.
+
+Day 910 - Blergen Personal Stories:
+- Pia Joss (carpenter) received care. health 1->3.
+- Wynn Joss (guard) received care. health 1->3.
+- Vera Joss (cook) received care. health 1->3.
+
+Day 911 - Blergen Personal Stories:
+- Cora Kest (scout) received care. health 2->4.
+- Talia Joss (builder) received care. health 2->4.
+- Galen Kest (guard) received care. health 2->4.
+
+Day 912 - Blergen Personal Stories:
+- Orin Joss (forager) discovered fresh water north of camp. Status unchanged.
+- Orin Joss (forager) harvested the ready crops. Status unchanged.
+- Quin Joss (farmer) harvested the ready crops. Status unchanged.
+- Vera Joss (cook) harvested the ready crops. Status unchanged.
+
+Day 913 - Blergen Personal Stories:
+- Niko Joss (teacher) fell ill. health 1->3.
+- Niko Joss (teacher) received care. health 1->3.
+- Rhea Joss (woodcutter) received care. health 1->3.
+- Yuri Joss (forager) received care. health 1->3.
+- Finn Kest (cook) died of illness. health 1->0; died.
+
+Day 914 - Blergen Personal Stories:
+- Una Joss (healer) received care. health 1->3.
+- Soren Joss (scout) received care. health 1->3.
+- Quin Joss (farmer) received care. health 1->3.
+
+Day 915 - Blergen Personal Stories:
+- Kara Kest (farmer) searched for forage. Status unchanged.
+- Orin Joss (forager) searched for forage. Status unchanged.
+- Quin Joss (farmer) searched for forage. Status unchanged.
+- Pia Joss (carpenter) received care. health 1->3.
+- Wynn Joss (guard) received care. health 1->3.
+- Dain Kest (builder) received care. health 1->3.
+
+Day 916 - Blergen Personal Stories:
+- Orin Joss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Orin Joss (forager) scouted beyond the settlement. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 917 - Blergen Personal Stories:
+- Talia Joss (builder) received care. health 1->3.
+- Ada Kest (farmer) received care. health 1->3.
+- Zara Joss (carpenter) received care. health 1->3.
+
+Day 918 - Blergen Personal Stories:
+- Orin Joss (forager) discovered fresh water north of camp. Status unchanged.
+- Orin Joss (forager) worked the clay deposit. Status unchanged.
+- Soren Joss (scout) worked the clay deposit. Status unchanged.
+
+Day 919 - Blergen Personal Stories:
+- Niko Joss (teacher) received care. health 1->3.
+- Una Joss (healer) received care. health 1->3.
+- Rhea Joss (woodcutter) received care. health 1->3.
+
+Day 920 - Blergen Personal Stories:
+- Quin Joss (farmer) bore the worst of the storm. morale 10->9.
+- Xara Joss (teacher) bore the worst of the storm. morale 10->9.
+- Pia Joss (carpenter) helped strengthen the settlement. Status unchanged.
+- Talia Joss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 921 - Blergen Personal Stories:
+- Quin Joss (farmer) received care. health 1->3; morale 9->10.
+- Xara Joss (teacher) received care. health 1->3; morale 9->10.
+- Pia Joss (carpenter) received care. health 1->3.
+
+Day 922 - Blergen Personal Stories:
+- Soren Joss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 923 - Blergen Personal Stories:
+- Soren Joss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 924 - Blergen Personal Stories:
+- Soren Joss (scout) searched for forage. Status unchanged.
+- Yuri Joss (forager) searched for forage. Status unchanged.
+- Ada Kest (farmer) searched for forage. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 925 - Blergen Personal Stories:
+- Niko Joss (teacher) fell ill. health 1->3.
+- Niko Joss (teacher) received care. health 1->3.
+- Talia Joss (builder) received care. health 1->3.
+- Rhea Joss (woodcutter) received care. health 1->3.
+- Wynn Joss (guard) died of illness. health 1->0; died.
+
+Day 926 - Blergen Personal Stories:
+- Soren Joss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Soren Joss (scout) scouted beyond the settlement. Status unchanged.
+- Yuri Joss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 927 - Blergen Personal Stories:
+- Una Joss (healer) bore the worst of the storm. morale 10->9.
+- Soren Joss (scout) bore the worst of the storm. morale 10->8.
+- Quin Joss (farmer) endured tighter rations. morale 10->9.
+- Rhea Joss (woodcutter) endured tighter rations. morale 10->9.
+- Soren Joss (scout) endured tighter rations. morale 10->8.
+- Talia Joss (builder) endured tighter rations. morale 10->9.
+
+Day 928 - Blergen Personal Stories:
+- Una Joss (healer) received care. health 1->3; morale 9->10.
+- Soren Joss (scout) received care. health 1->3; morale 8->9.
+- Yuri Joss (forager) received care. health 1->3; morale 9->10.
+
+Day 929 - Blergen Personal Stories:
+- Quin Joss (farmer) fell ill. health 1->3.
+- Quin Joss (farmer) received care. health 1->3.
+- Pia Joss (carpenter) received care. health 1->3; morale 9->10.
+- Kara Kest (farmer) received care. health 1->3; morale 9->10.
+- Orin Joss (forager) died of illness. health 1->0; died.
+
+Day 930 - Blergen Personal Stories:
+- Bram Kest (woodcutter) fell ill. health 1->3.
+- Bram Kest (woodcutter) received care. health 1->3.
+- Zara Joss (carpenter) received care. health 1->3; morale 9->10.
+- Xara Joss (teacher) received care. health 1->3; morale 9->10.
+- Elia Kest (healer) died of illness. health 1->0; died.
+
+Day 931 - Blergen Personal Stories:
+- Cora Kest (scout) discovered useful clay near the riverbank. morale 9->10; hunger 0->1.
+- Xara Joss (teacher) went without a full ration. hunger 0->1.
+- Zara Joss (carpenter) went without a full ration. hunger 0->1.
+- Kara Kest (farmer) went without a full ration. hunger 0->1.
+- Bram Kest (woodcutter) went without a full ration. morale 9->10; hunger 0->1.
+- Galen Kest (guard) went without a full ration. morale 9->10; hunger 0->1.
+- Pia Joss (carpenter) went without a full ration. hunger 0->1.
+- Yuri Joss (forager) went without a full ration. hunger 0->1.
+- Cora Kest (scout) went without a full ration. morale 9->10; hunger 0->1.
+- Quin Joss (farmer) went without a full ration. morale 9->10; hunger 0->1.
+- Ada Kest (farmer) went without a full ration. morale 9->10; hunger 0->1.
+- Dain Kest (builder) went without a full ration. morale 9->10; hunger 0->1.
+- Hana Kest (teacher) went without a full ration. morale 9->10; hunger 0->1.
+- Jory Kest (carpenter) went without a full ration. morale 9->10; hunger 0->1.
+- Lio Kest (woodcutter) went without a full ration. morale 9->10; hunger 0->1.
+- Una Joss (healer) went without a full ration. hunger 0->1.
+
+Day 932 - Blergen Personal Stories:
+- Bram Kest (woodcutter) felt the harvest strain. morale 10->8; hunger 1->2.
+- Cora Kest (scout) felt the harvest strain. morale 10->8; hunger 1->2.
+- Dain Kest (builder) felt the harvest strain. morale 10->8; hunger 1->2.
+- Bram Kest (woodcutter) endured tighter rations. morale 10->8; hunger 1->2.
+- Cora Kest (scout) endured tighter rations. morale 10->8; hunger 1->2.
+- Dain Kest (builder) endured tighter rations. morale 10->8; hunger 1->2.
+- Galen Kest (guard) endured tighter rations. morale 10->9.
+- Niko Joss (teacher) went without a full ration. morale 10->9; hunger 0->1.
+- Rhea Joss (woodcutter) went without a full ration. morale 10->9; hunger 0->1.
+- Soren Joss (scout) went without a full ration. hunger 0->1.
+- Talia Joss (builder) went without a full ration. hunger 0->1.
+- Vera Joss (cook) went without a full ration. hunger 0->1.
+- Xara Joss (teacher) went without a full ration. hunger 1->2.
+- Zara Joss (carpenter) went without a full ration. hunger 1->2.
+- Kara Kest (farmer) went without a full ration. hunger 1->2.
+- Pia Joss (carpenter) went without a full ration. morale 10->9; hunger 1->2.
+- Quin Joss (farmer) went without a full ration. morale 10->9; hunger 1->2.
+- Yuri Joss (forager) went without a full ration. hunger 1->2.
+- Ada Kest (farmer) went without a full ration. hunger 1->2.
+- Hana Kest (teacher) went without a full ration. hunger 1->2.
+- Jory Kest (carpenter) went without a full ration. hunger 1->2.
+- Lio Kest (woodcutter) went without a full ration. hunger 1->2.
+
+Day 933 - Blergen Personal Stories:
+- Cora Kest (scout) discovered fresh water north of camp. health 2->0; morale 8->10; hunger 2->3; died.
+- Cora Kest (scout) scouted beyond the settlement. health 2->0; morale 8->10; hunger 2->3; died.
+- Soren Joss (scout) scouted beyond the settlement. hunger 1->2.
+- Una Joss (healer) went without a full ration. morale 0->10; hunger 0->1.
+- Galen Kest (guard) went without a full ration. morale 9->10; hunger 1->2.
+- Soren Joss (scout) went without a full ration. hunger 1->2.
+- Talia Joss (builder) went without a full ration. hunger 1->2.
+- Vera Joss (cook) went without a full ration. hunger 1->2.
+- Niko Joss (teacher) went without a full ration. morale 9->10; hunger 1->2.
+- Rhea Joss (woodcutter) went without a full ration. morale 9->10; hunger 1->2.
+- Xara Joss (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Zara Joss (carpenter) went without a full ration. health 3->0; hunger 2->3; died.
+- Kara Kest (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Bram Kest (woodcutter) went without a full ration. health 3->0; hunger 2->3; died.
+- Yuri Joss (forager) went without a full ration. health 2->0; hunger 2->3; died.
+- Ada Kest (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Cora Kest (scout) went without a full ration. health 2->0; morale 8->10; hunger 2->3; died.
+- Hana Kest (teacher) went without a full ration. health 2->0; hunger 2->3; died.
+- Jory Kest (carpenter) went without a full ration. health 2->0; hunger 2->3; died.
+- Lio Kest (woodcutter) went without a full ration. health 2->0; hunger 2->3; died.
+- Pia Joss (carpenter) went without a full ration. health 2->0; hunger 2->3; died.
+- Quin Joss (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Dain Kest (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Xara Joss (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Zara Joss (carpenter) died of starvation. health 3->0; hunger 2->3; died.
+- Kara Kest (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Bram Kest (woodcutter) died of starvation. health 3->0; hunger 2->3; died.
+- Yuri Joss (forager) died of starvation. health 2->0; hunger 2->3; died.
+- Ada Kest (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Cora Kest (scout) died of starvation. health 2->0; morale 8->10; hunger 2->3; died.
+- Hana Kest (teacher) died of starvation. health 2->0; hunger 2->3; died.
+- Jory Kest (carpenter) died of starvation. health 2->0; hunger 2->3; died.
+- Lio Kest (woodcutter) died of starvation. health 2->0; hunger 2->3; died.
+- Pia Joss (carpenter) died of starvation. health 2->0; hunger 2->3; died.
+- Quin Joss (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Dain Kest (builder) died of starvation. health 2->0; hunger 2->3; died.
+
+Day 934 - Blergen Personal Stories:
+- Soren Joss (scout) discovered useful clay near the riverbank. health 1->0; hunger 2->3; died.
+- Soren Joss (scout) scouted beyond the settlement. health 1->0; hunger 2->3; died.
+- Talia Joss (builder) scouted beyond the settlement. health 1->0; hunger 2->3; died.
+- Una Joss (healer) went without a full ration. hunger 1->2.
+- Galen Kest (guard) went without a full ration. health 3->0; hunger 2->3; died.
+- Niko Joss (teacher) went without a full ration. health 1->0; hunger 2->3; died.
+- Rhea Joss (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Soren Joss (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Talia Joss (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Vera Joss (cook) went without a full ration. health 1->0; hunger 2->3; died.
+- Galen Kest (guard) died of starvation. health 3->0; hunger 2->3; died.
+- Niko Joss (teacher) died of starvation. health 1->0; hunger 2->3; died.
+- Rhea Joss (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Soren Joss (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Talia Joss (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Vera Joss (cook) died of starvation. health 1->0; hunger 2->3; died.
+
+Day 935 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 10->9.
+- Una Joss (healer) endured tighter rations. morale 10->9.
+
+Day 936 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. hunger 2->1.
+- Una Joss (healer) joined the wood crews. hunger 2->1.
+
+Day 937 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 9->8.
+- Una Joss (healer) endured tighter rations. morale 9->8.
+
+Day 938 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 8->9; hunger 1->0.
+- Una Joss (healer) scouted beyond the settlement. morale 8->9; hunger 1->0.
+
+Day 939 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 9->10.
+- Una Joss (healer) scouted beyond the settlement. morale 9->10.
+
+Day 940 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 941 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+
+Day 942 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 943 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 944 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. Status unchanged.
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 945 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 947 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 948 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+
+Day 949 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+
+Day 950 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 951 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 952 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 953 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 954 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 955 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 956 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 957 - Blergen Personal Stories:
+- Una Joss (healer) bore the worst of the storm. Status unchanged.
+- Una Joss (healer) helped strengthen the settlement. Status unchanged.
+
+Day 958 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 959 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+
+Day 960 - Blergen Personal Stories:
+- Una Joss (healer) discovered fresh water north of camp. Status unchanged.
+- Una Joss (healer) worked the field expansion. Status unchanged.
+
+Day 961 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. Status unchanged.
+- Una Joss (healer) harvested the ready crops. Status unchanged.
+
+Day 962 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 963 - Blergen Personal Stories:
+- Una Joss (healer) discovered fresh water north of camp. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 964 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 965 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. Status unchanged.
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 966 - Blergen Personal Stories:
+- Una Joss (healer) discovered fresh water north of camp. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 967 - Blergen Personal Stories:
+- Una Joss (healer) bore the worst of the storm. Status unchanged.
+- Una Joss (healer) helped strengthen the settlement. Status unchanged.
+
+Day 968 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. Status unchanged.
+- Una Joss (healer) worked the field expansion. Status unchanged.
+
+Day 969 - Blergen Personal Stories:
+- Una Joss (healer) harvested the ready crops. Status unchanged.
+
+Day 971 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 972 - Blergen Personal Stories:
+- Una Joss (healer) received care. health 1->3.
+
+Day 973 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. health 3->2.
+- Una Joss (healer) scouted beyond the settlement. health 3->2.
+
+Day 974 - Blergen Personal Stories:
+- Una Joss (healer) helped strengthen the settlement. Status unchanged.
+
+Day 976 - Blergen Personal Stories:
+- Una Joss (healer) received care. health 2->3; morale 9->10.
+
+Day 977 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. Status unchanged.
+- Una Joss (healer) scouted beyond the settlement. Status unchanged.
+
+Day 978 - Blergen Personal Stories:
+- Una Joss (healer) received care. health 3->4.
+
+Day 981 - Blergen Personal Stories:
+- Una Joss (healer) worked the field expansion. morale 8->7.
+
+Day 982 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. morale 7->8.
+- Una Joss (healer) harvested the ready crops. morale 7->8.
+
+Day 983 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 8->7.
+- Una Joss (healer) worked the clay deposit. morale 8->7.
+
+Day 984 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 7->8.
+- Una Joss (healer) scouted beyond the settlement. morale 7->8.
+
+Day 985 - Blergen Personal Stories:
+- Una Joss (healer) helped strengthen the settlement. morale 8->9.
+
+Day 986 - Blergen Personal Stories:
+- Una Joss (healer) endured tighter rations. morale 9->7.
+
+Day 987 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 7->6.
+- Una Joss (healer) worked the clay deposit. morale 7->6.
+
+Day 988 - Blergen Personal Stories:
+- Una Joss (healer) bore the worst of the storm. health 4->3.
+- Una Joss (healer) helped strengthen the settlement. health 4->3.
+
+Day 991 - Blergen Personal Stories:
+- Una Joss (healer) worked the field expansion. morale 4->3.
+
+Day 992 - Blergen Personal Stories:
+- Una Joss (healer) harvested the ready crops. morale 3->2.
+
+Day 994 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. morale 1->2.
+- Una Joss (healer) scouted beyond the settlement. morale 1->2.
+
+Day 995 - Blergen Personal Stories:
+- Una Joss (healer) fired clay into bricks. morale 2->1.
+
+Day 996 - Blergen Personal Stories:
+- Una Joss (healer) built permanent brick shelters. morale 1->0.
+
+Day 997 - Blergen Personal Stories:
+- Una Joss (healer) bore the worst of the storm. health 3->2.
+
+Day 999 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 0->1.
+- Una Joss (healer) scouted beyond the settlement. morale 0->1.
+
+Day 1001 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. morale 0->1.
+- Una Joss (healer) worked the clay deposit. morale 0->1.
+
+Day 1002 - Blergen Personal Stories:
+- Una Joss (healer) received care. health 2->3; morale 1->2.
+
+Day 1003 - Blergen Personal Stories:
+- Una Joss (healer) helped strengthen the settlement. morale 2->3.
+
+Day 1006 - Blergen Personal Stories:
+- Una Joss (healer) discovered useful clay near the riverbank. morale 1->2.
+- Una Joss (healer) scouted beyond the settlement. morale 1->2.
+
+Day 1009 - Blergen Personal Stories:
+- Una Joss (healer) joined the wood crews. Status unchanged.
+
+Day 1011 - Blergen Personal Stories:
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 1012 - Blergen Personal Stories:
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 1013 - Blergen Personal Stories:
+- Una Joss (healer) received care. health 3->4; morale 0->1.
+
+Day 1014 - Blergen Personal Stories:
+- Una Joss (healer) endured tighter rations. morale 1->0.
+
+Day 1017 - Blergen Personal Stories:
+- Una Joss (healer) worked the clay deposit. Status unchanged.
+
+Day 1018 - Blergen Personal Stories:
+- Una Joss (healer) bore the worst of the storm. health 4->3; morale 0->1.
+- Una Joss (healer) helped strengthen the settlement. health 4->3; morale 0->1.
+
+Day 1019 - Blergen Personal Stories:
+- Una Joss (healer) worked the clay deposit. morale 1->0.
+
+Day 1020 - Blergen Personal Stories:
+- Una Joss (healer) discovered fresh water north of camp. morale 0->1.
+- Una Joss (healer) scouted beyond the settlement. morale 0->1.
+
+Day 1021 - Blergen Personal Stories:
+- Una Joss (healer) endured tighter rations. morale 1->0.
+
+Day 1022 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 0->1.
+- Una Joss (healer) scouted beyond the settlement. morale 0->1.
+
+Day 1023 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 1->2.
+- Una Joss (healer) scouted beyond the settlement. morale 1->2.
+
+Day 1024 - Blergen Personal Stories:
+- Una Joss (healer) endured tighter rations. morale 2->0.
+
+Day 1025 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. morale 0->1.
+- Una Joss (healer) scouted beyond the settlement. morale 0->1.
+
+Day 1026 - Blergen Personal Stories:
+- Una Joss (healer) searched for forage. morale 1->2.
+- Una Joss (healer) scouted beyond the settlement. morale 1->2.
+
+Day 1027 - Blergen Personal Stories:
+- Una Joss (healer) bore the worst of the storm. health 3->2; morale 2->0.
+- Una Joss (healer) endured tighter rations. health 3->2; morale 2->0.
+
+Day 1028 - Blergen Personal Stories:
+- Una Joss (healer) endured tighter rations. Status unchanged.
+
+Day 1029 - Blergen Personal Stories:
+- Una Joss (healer) endured tighter rations. Status unchanged.
+
+Day 1030 - Blergen Personal Stories:
+- Una Joss (healer) endured tighter rations. Status unchanged.
+
+Day 1031 - Blergen Personal Stories:
+- Una Joss (healer) discovered old trail markers beyond the fields. morale 0->1; hunger 0->1.
+- Una Joss (healer) scouted beyond the settlement. morale 0->1; hunger 0->1.
+- Una Joss (healer) went without a full ration. morale 0->1; hunger 0->1.
+
+Day 1032 - Blergen Personal Stories:
+- Una Joss (healer) discovered fresh water north of camp. health 2->0; hunger 1->3; died.
+- Una Joss (healer) endured tighter rations. health 2->0; hunger 1->3; died.
+- Una Joss (healer) went without a full ration. health 2->0; hunger 1->3; died.
+- Una Joss (healer) died of starvation. health 2->0; hunger 1->3; died.
+
+Day 1190 - Blergen Personal Stories:
+- Cora Lark (forager) discovered old trail markers beyond the fields. morale 6->8.
+- Cora Lark (forager) scouted beyond the settlement. morale 6->8.
+- Galen Lark (scout) scouted beyond the settlement. morale 6->7.

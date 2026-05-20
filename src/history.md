@@ -2469,3 +2469,1104 @@ Rain softened the paths and soaked the outer work sites. No colonists remained t
 
 Day 823 (Year 3, April 3) - Blergen:
 Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 824 (Year 3, April 4) - Blergen:
+Blergen Company sent 25 new settlers to Blergen. Blergen Company sent 2500 food to Blergen. Blergen Company sent supplies to Blergen: 80 wood and 4 security. Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased trail marker access by 1. Orin Joss discovered old trail markers beyond the fields. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 825 (Year 3, April 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased fresh water access by 1. Orin Joss discovered fresh water north of camp. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 826 (Year 3, April 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Orin Joss discovered useful clay near the riverbank. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 827 (Year 3, April 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased trail marker access by 1. Soren Joss discovered old trail markers beyond the fields. Soren Joss, and Yuri Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 828 (Year 3, April 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 28, reduced wood by 12, reduced morale by 1, increased security by 1, and reduced health by 1. Cora Kest, Jory Kest, and Niko Joss bore the worst of the storm. Talia Joss, and Wynn Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 829 (Year 3, April 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 830 (Year 3, April 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased trail marker access by 1. Soren Joss discovered old trail markers beyond the fields. Soren Joss, and Yuri Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 831 (Year 3, April 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased fresh water access by 1. Yuri Joss discovered fresh water north of camp. Yuri Joss, and Cora Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 832 (Year 3, April 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest worked to mediate the tension; the day's changes reduced food by 25, and increased security by 1. Una Joss, and Vera Joss joined the mediation circle. The loss of people is beginning to define the settlement's future.
+
+Day 833 (Year 3, April 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 25, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Yuri Joss, and Cora Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 834 (Year 3, April 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 835 (Year 3, April 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 28, reduced wood by 12, increased security by 1, and reduced health by 1. Cora Kest, Jory Kest, and Niko Joss bore the worst of the storm. Zara Joss, and Dain Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 836 (Year 3, April 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 25, reduced wood by 10, and increased security by 1. Zara Joss, and Dain Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 837 (Year 3, April 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased fresh water access by 1. Cora Kest discovered fresh water north of camp. Cora Kest, and Iris Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 838 (Year 3, April 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 2 foraging effort searched for food, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 15, and increased wood by 5. Ada Kest, and Cora Kest searched for edible stores beyond camp. Cora Kest, and Iris Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 839 (Year 3, April 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest told the colonists to preserve resources; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 840 (Year 3, April 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 25, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Cora Kest, and Dain Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 841 (Year 3, April 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 842 (Year 3, April 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest told the colonists to preserve resources; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 843 (Year 3, April 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest directed labor toward preparing the fields; the day's changes reduced food by 25, increased morale by 1, and increased prepared crop fields by 75. Iris Kest discovered fresh water north of camp. Iris Kest, and Kara Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 844 (Year 3, April 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 25, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Iris Kest, and Orin Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 845 (Year 3, April 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest told the colonists to preserve resources; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 846 (Year 3, April 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest ordered clay shaped into storage pottery; the day's changes reduced food by 25, reduced morale by 1, reduced clay by 8, and increased pottery by 1. Jory Kest, and Pia Joss shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 847 (Year 3, April 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest sent crews out to gather wood; the day's changes reduced food by 25, increased wood by 10, and reduced morale by 1. Jory Kest, and Lio Kest joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 848 (Year 3, April 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Orin Joss discovered old trail markers beyond the fields. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 849 (Year 3, April 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest called a festival to steady morale; the day's changes reduced food by 50, and increased morale by 1. Lio Kest, Niko Joss, Orin Joss, Pia Joss, and Quin Joss found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 850 (Year 3, April 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest told the colonists to preserve resources; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 851 (Year 3, May 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Orin Joss discovered old trail markers beyond the fields. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 852 (Year 3, May 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest called a festival to steady morale; the day's changes reduced food by 50, and increased morale by 1. Pia Joss, Quin Joss, Rhea Joss, Soren Joss, and Talia Joss found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 853 (Year 3, May 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Soren Joss discovered useful clay near the riverbank. Soren Joss, and Yuri Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 854 (Year 3, May 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 25, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Soren Joss, and Talia Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 855 (Year 3, May 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest sent crews out to gather wood; the day's changes reduced food by 25, increased wood by 10, and reduced morale by 1. Zara Joss, and Bram Kest joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 856 (Year 3, May 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Yuri Joss discovered useful clay near the riverbank. Yuri Joss, and Cora Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 857 (Year 3, May 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 25, reduced wood by 10, and increased security by 1. Wynn Joss, and Zara Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 858 (Year 3, May 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Cora Kest told the colonists to preserve resources; the day's changes reduced food by 27, reduced wood by 2, reduced morale by 1, and reduced health by 1. Cora Kest, Jory Kest, and Niko Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 859 (Year 3, May 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Yuri Joss discovered useful clay near the riverbank. Yuri Joss, and Cora Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 860 (Year 3, May 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 25, increased clay by 39, and reduced known clay deposit by 39. Yuri Joss discovered old trail markers beyond the fields. Yuri Joss, and Cora Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 861 (Year 3, May 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Yuri Joss discovered fresh water north of camp. Yuri Joss, and Cora Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 862 (Year 3, May 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest told the colonists to preserve resources; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 863 (Year 3, May 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 25, reduced wood by 10, increased morale by 1, and increased security by 1. Dain Kest, and Galen Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 864 (Year 3, May 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 25, and reduced wood by 10. Dain Kest, and Galen Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 865 (Year 3, May 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 foraging effort searched for food, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 4, and increased wood by 5. Cora Kest, Iris Kest, and Kara Kest searched for edible stores beyond camp. Cora Kest, and Iris Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 866 (Year 3, May 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Iris Kest discovered old trail markers beyond the fields. Iris Kest, and Orin Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 867 (Year 3, May 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 27, reduced wood by 12, reduced morale by 1, and reduced health by 1. Cora Kest, Jory Kest, and Niko Joss bore the worst of the storm. Galen Kest, and Jory Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 868 (Year 3, May 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 37, increased morale by 1, and increased health by 1. Cora Kest, Jory Kest, and Niko Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 869 (Year 3, May 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. Illness moved through the colony, and President Cora Kest organized care for the sick; the day's changes reduced population by 1, reduced food by 36, and reduced morale by 1. Orin Joss fell ill. Orin Joss, Una Joss, and Bram Kest received care. Iris Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 870 (Year 3, May 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 36, increased morale by 1, and increased health by 1. Talia Joss, Ada Kest, and Hana Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 871 (Year 3, May 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Yuri Joss discovered useful clay near the riverbank. Yuri Joss, and Cora Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 872 (Year 3, May 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Yuri Joss, Finn Kest, and Xara Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 873 (Year 3, May 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 24, and reduced wood by 10. Wynn Joss, and Zara Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 874 (Year 3, May 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest directed labor toward preparing the fields; the day's changes reduced food by 24, reduced morale by 1, and increased prepared crop fields by 72. Yuri Joss, and Ada Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 875 (Year 3, May 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 24, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Yuri Joss, and Cora Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 876 (Year 3, May 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest worked to mediate the tension; the day's changes reduced food by 24, and increased morale by 1. Zara Joss, and Ada Kest joined the mediation circle. The loss of people is beginning to define the settlement's future.
+
+Day 877 (Year 3, May 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Cora Kest discovered useful clay near the riverbank. Cora Kest, and Orin Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 878 (Year 3, May 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 24, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 879 (Year 3, May 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 24, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 880 (Year 3, May 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 24, reduced wood by 10, and increased morale by 1. Dain Kest, and Galen Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 881 (Year 3, May 31) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Cora Kest sent crews out to gather wood; the day's changes reduced food by 24, increased wood by 10, and reduced morale by 1. Jory Kest, and Lio Kest joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 882 (Year 3, June 1) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Cora Kest sent crews out to gather wood; the day's changes increased wood by 10, and reduced health by 1. Kara Kest, Orin Joss, and Quin Joss searched for edible stores beyond camp. Jory Kest, and Lio Kest joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 883 (Year 3, June 2) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest ordered the ready crops harvested; the day's changes increased food by 123, reduced health by 1, and reduced prepared crop fields by 147. Kara Kest, Orin Joss, and Quin Joss harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 884 (Year 3, June 3) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 12, reduced health by 1, increased clay by 39, and reduced known clay deposit by 39. Kara Kest, and Orin Joss searched for edible stores beyond camp. Orin Joss, and Soren Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 885 (Year 3, June 4) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, increased morale by 2, and reduced health by 1. Orin Joss discovered fresh water north of camp. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 886 (Year 3, June 5) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, increased morale by 2, and increased known clay deposit by 40. Orin Joss discovered useful clay near the riverbank. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 887 (Year 3, June 6) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Orin Joss discovered old trail markers beyond the fields. Jory Kest, Niko Joss, and Rhea Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 888 (Year 3, June 7) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Cora Kest sent scouts beyond the settlement; the day's changes increased wood by 5, and reduced health by 1. Orin Joss, Quin Joss, and Soren Joss searched for edible stores beyond camp. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 889 (Year 3, June 8) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased known clay deposit by 40. Orin Joss discovered useful clay near the riverbank. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 890 (Year 3, June 9) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Cora Kest told the colonists to preserve resources; the day's changes reduced food by 26, reduced wood by 2, and reduced morale by 1. Talia Joss, Zara Joss, and Yuri Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 891 (Year 3, June 10) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest organized care for the sick; the day's changes reduced food by 36, increased morale by 1, and increased health by 1. Soren Joss discovered fresh water north of camp. Talia Joss, Zara Joss, and Yuri Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 892 (Year 3, June 11) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, reduced health by 1, and increased known clay deposit by 40. Soren Joss discovered useful clay near the riverbank. Soren Joss, and Yuri Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 893 (Year 3, June 12) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 24, increased clay by 39, and reduced known clay deposit by 39. Soren Joss discovered old trail markers beyond the fields. Soren Joss, and Talia Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 894 (Year 3, June 13) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Yuri Joss discovered fresh water north of camp. Yuri Joss, and Cora Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 895 (Year 3, June 14) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest found no ready crops to harvest; the day's changes reduced food by 24. The loss of people is beginning to define the settlement's future.
+
+Day 896 (Year 3, June 15) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 12, and increased wood by 5. Yuri Joss, and Ada Kest searched for edible stores beyond camp. Yuri Joss, and Cora Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 897 (Year 3, June 16) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 26, reduced wood by 12, and reduced morale by 1. Niko Joss, Una Joss, and Rhea Joss bore the worst of the storm. Wynn Joss, and Zara Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 898 (Year 3, June 17) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Yuri Joss discovered useful clay near the riverbank. Yuri Joss, and Cora Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 899 (Year 3, June 18) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest directed labor toward preparing the fields; the day's changes reduced food by 24, and increased prepared crop fields by 48. Yuri Joss discovered old trail markers beyond the fields. Yuri Joss, and Ada Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 900 (Year 3, June 19) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest ordered the ready crops harvested; the day's changes increased food by 24, and reduced prepared crop fields by 48. Cora Kest discovered fresh water north of camp. Ada Kest, Finn Kest, and Kara Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 901 (Year 3, June 20) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 12, increased clay by 39, and reduced known clay deposit by 39. Ada Kest, and Cora Kest searched for edible stores beyond camp. Cora Kest, and Dain Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 902 (Year 3, June 21) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Cora Kest discovered old trail markers beyond the fields. Cora Kest, and Orin Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 903 (Year 3, June 22) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Niko Joss, Una Joss, and Rhea Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 904 (Year 3, June 23) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, reduced health by 1, and increased known clay deposit by 40. Orin Joss discovered useful clay near the riverbank. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 905 (Year 3, June 24) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Talia Joss, Zara Joss, and Quin Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 906 (Year 3, June 25) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest directed labor toward preparing the fields; the day's changes reduced food by 24, reduced health by 1, and increased prepared crop fields by 48. Orin Joss discovered fresh water north of camp. Kara Kest, and Orin Joss worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 907 (Year 3, June 26) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased known clay deposit by 40. Orin Joss discovered useful clay near the riverbank. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 908 (Year 3, June 27) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Orin Joss discovered old trail markers beyond the fields. Niko Joss, Una Joss, and Rhea Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 909 (Year 3, June 28) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 36. Xara Joss, Elia Kest, and Lio Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 910 (Year 3, June 29) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 36. Pia Joss, Wynn Joss, and Vera Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 911 (Year 3, June 30) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 36. Cora Kest, Talia Joss, and Galen Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 912 (Year 3, July 1) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest ordered the ready crops harvested; the day's changes increased food by 24, reduced health by 1, and reduced prepared crop fields by 48. Orin Joss discovered fresh water north of camp. Orin Joss, Quin Joss, and Vera Joss harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 913 (Year 3, July 2) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Cora Kest organized care for the sick; the day's changes reduced population by 1, and reduced food by 35. Niko Joss fell ill. Niko Joss, Rhea Joss, and Yuri Joss received care. Finn Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 914 (Year 3, July 3) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 34, and increased health by 1. Una Joss, Soren Joss, and Quin Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 915 (Year 3, July 4) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Cora Kest organized care for the sick; the day's changes reduced food by 11. Kara Kest, Orin Joss, and Quin Joss searched for edible stores beyond camp. Pia Joss, Wynn Joss, and Dain Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 916 (Year 3, July 5) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 23, increased wood by 5, reduced health by 1, and increased known clay deposit by 40. Orin Joss discovered useful clay near the riverbank. Orin Joss, and Soren Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 917 (Year 3, July 6) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 34, and increased health by 1. Talia Joss, Ada Kest, and Zara Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 918 (Year 3, July 7) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent crews to work the clay deposit; the day's changes reduced food by 23, reduced health by 1, increased clay by 38, and reduced known clay deposit by 38. Orin Joss discovered fresh water north of camp. Orin Joss, and Soren Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 919 (Year 3, July 8) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 34, and increased health by 1. Niko Joss, Una Joss, and Rhea Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 920 (Year 3, July 9) - Blergen:
+Heat made the day's work tiring. A severity 2 storm tested the colony, and President Cora Kest spent wood to strengthen the settlement; the day's changes reduced food by 23, reduced wood by 10, reduced morale by 1, and reduced health by 1. Quin Joss, and Xara Joss bore the worst of the storm. Pia Joss, and Talia Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 921 (Year 3, July 10) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 34, increased morale by 1, and increased health by 1. Quin Joss, Xara Joss, and Pia Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 922 (Year 3, July 11) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 23, increased wood by 5, reduced health by 1, and increased known clay deposit by 40. Soren Joss discovered useful clay near the riverbank. Soren Joss, and Yuri Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 923 (Year 3, July 12) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 23, and increased wood by 5. Soren Joss discovered old trail markers beyond the fields. Soren Joss, and Yuri Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 924 (Year 3, July 13) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Cora Kest sent scouts beyond the settlement; the day's changes increased wood by 5. Soren Joss, Yuri Joss, and Ada Kest searched for edible stores beyond camp. Soren Joss, and Yuri Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 925 (Year 3, July 14) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Cora Kest organized care for the sick; the day's changes reduced population by 1, and reduced food by 33. Niko Joss fell ill. Niko Joss, Talia Joss, and Rhea Joss received care. Wynn Joss died. The loss of people is beginning to define the settlement's future.
+
+Day 926 (Year 3, July 15) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced food by 22, and increased wood by 5. Soren Joss discovered old trail markers beyond the fields. Soren Joss, and Yuri Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 927 (Year 3, July 16) - Blergen:
+Heat made the day's work tiring. A severity 2 storm tested the colony, and President Cora Kest ordered tighter food rationing; the day's changes reduced food by 17, and reduced morale by 2. Una Joss, and Soren Joss bore the worst of the storm. Quin Joss, Rhea Joss, Soren Joss, and Talia Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 928 (Year 3, July 17) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Cora Kest organized care for the sick; the day's changes reduced food by 33, increased morale by 1, and increased health by 1. Una Joss, Soren Joss, and Yuri Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 929 (Year 3, July 18) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Cora Kest organized care for the sick; the day's changes reduced population by 1, reduced food by 32, and reduced health by 1. Quin Joss fell ill. Quin Joss, Pia Joss, and Kara Kest received care. Orin Joss died. The loss of people is beginning to define the settlement's future.
+
+Day 930 (Year 3, July 19) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Cora Kest organized care for the sick; the day's changes reduced population by 1, and reduced food by 30. Bram Kest fell ill. Bram Kest, Zara Joss, and Xara Joss received care. Elia Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 931 (Year 3, July 20) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest found no ready crops to harvest; the day's changes reduced food by 5, increased morale by 1, and increased known clay deposit by 40. Cora Kest discovered useful clay near the riverbank. Xara Joss, Zara Joss, and Kara Kest, and 12 others went without full rations. The loss of people is beginning to define the settlement's future.
+
+Day 932 (Year 3, July 21) - Blergen:
+Heat made the day's work tiring. A poor harvest strained the colony's fields, and President Cora Kest ordered tighter food rationing; the day's changes reduced morale by 2. Bram Kest, Cora Kest, and Dain Kest felt the poor harvest most sharply. Bram Kest, Cora Kest, Dain Kest, and Galen Kest felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 933 (Year 3, July 22) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Cora Kest sent scouts beyond the settlement; the day's changes reduced population by 13, increased wood by 5, and increased morale by 2. Cora Kest discovered fresh water north of camp. Cora Kest, and Soren Joss scouted beyond the settlement. Una Joss, Galen Kest, and Soren Joss, and 17 others went without full rations. Xara Joss, Zara Joss, and Kara Kest, and 10 others died. The loss of people is beginning to define the settlement's future.
+
+Day 934 (Year 3, July 23) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Galen Kest sent scouts beyond the settlement; the day's changes reduced population by 6, increased wood by 5, and increased known clay deposit by 40. Soren Joss discovered useful clay near the riverbank. Soren Joss, and Talia Joss scouted beyond the settlement. Una Joss, Galen Kest, and Niko Joss, and 4 others went without full rations. Galen Kest, Niko Joss, and Rhea Joss, and 3 others died. The loss of people is beginning to define the settlement's future.
+
+Day 935 (Year 3, July 24) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss ordered tighter food rationing; the day's changes increased food by 2, and reduced morale by 1. Una Joss searched for edible stores beyond camp. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 936 (Year 3, July 25) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Una Joss sent crews out to gather wood; the day's changes increased food by 2, and increased wood by 10. Una Joss searched for edible stores beyond camp. Una Joss joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 937 (Year 3, July 26) - Blergen:
+Heat made the day's work tiring. A severity 1 foraging effort searched for food, and President Una Joss ordered tighter food rationing; the day's changes increased food by 2, and reduced morale by 1. Una Joss searched for edible stores beyond camp. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 938 (Year 3, July 27) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 5, and increased morale by 1. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 939 (Year 3, July 28) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 5, and increased morale by 1. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 940 (Year 3, July 29) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 941 (Year 3, July 30) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss found no ready crops to harvest; the day's changes increased food by 2. Una Joss searched for edible stores beyond camp. The loss of people is beginning to define the settlement's future.
+
+Day 942 (Year 3, July 31) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 5. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 943 (Year 3, August 1) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 944 (Year 3, August 2) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent crews to work the clay deposit; the day's changes reduced food by 1, increased clay by 27, and reduced known clay deposit by 27. Una Joss discovered old trail markers beyond the fields. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 945 (Year 3, August 3) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 5. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 946 (Year 3, August 4) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1. The loss of people is beginning to define the settlement's future.
+
+Day 947 (Year 3, August 5) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss sent crews to work the clay deposit; the day's changes increased food by 2, increased clay by 27, and reduced known clay deposit by 27. Una Joss searched for edible stores beyond camp. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 948 (Year 3, August 6) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss found no ready crops to harvest; the day's changes increased food by 2. Una Joss searched for edible stores beyond camp. The loss of people is beginning to define the settlement's future.
+
+Day 949 (Year 3, August 7) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss found no ready crops to harvest; the day's changes increased food by 2. Una Joss searched for edible stores beyond camp. The loss of people is beginning to define the settlement's future.
+
+Day 950 (Year 3, August 8) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, and increased wood by 5. Una Joss discovered old trail markers beyond the fields. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 951 (Year 3, August 9) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 5. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 952 (Year 3, August 10) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 953 (Year 3, August 11) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, and increased wood by 5. Una Joss discovered old trail markers beyond the fields. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 954 (Year 3, August 12) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Una Joss sent crews to work the clay deposit; the day's changes increased food by 2, increased clay by 27, and reduced known clay deposit by 27. Una Joss searched for edible stores beyond camp. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 955 (Year 3, August 13) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 956 (Year 3, August 14) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss sent crews to work the clay deposit; the day's changes increased food by 2, increased clay by 27, and reduced known clay deposit by 27. Una Joss searched for edible stores beyond camp. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 957 (Year 3, August 15) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Una Joss spent wood to strengthen the settlement; the day's changes reduced food by 3, and reduced wood by 12. Una Joss bore the worst of the storm. Una Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 958 (Year 3, August 16) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 959 (Year 3, August 17) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Una Joss found no ready crops to harvest; the day's changes increased food by 2. Una Joss searched for edible stores beyond camp. The loss of people is beginning to define the settlement's future.
+
+Day 960 (Year 3, August 18) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss directed labor toward preparing the fields; the day's changes reduced food by 1, and increased prepared crop fields by 12. Una Joss discovered fresh water north of camp. Una Joss worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 961 (Year 3, August 19) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss ordered the ready crops harvested; the day's changes increased food by 11, reduced prepared crop fields by 12, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 962 (Year 3, August 20) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Una Joss sent crews to work the clay deposit; the day's changes increased food by 2, increased clay by 27, and reduced known clay deposit by 27. Una Joss searched for edible stores beyond camp. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 963 (Year 3, August 21) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, and increased wood by 5. Una Joss discovered fresh water north of camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 964 (Year 3, August 22) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 965 (Year 3, August 23) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Una Joss sent crews to work the clay deposit; the day's changes increased food by 2, increased clay by 27, and reduced known clay deposit by 27. Una Joss searched for edible stores beyond camp. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 966 (Year 3, August 24) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, and increased wood by 5. Una Joss discovered fresh water north of camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 967 (Year 3, August 25) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Una Joss spent wood to strengthen the settlement; the day's changes reduced food by 3, and reduced wood by 12. Una Joss bore the worst of the storm. Una Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 968 (Year 3, August 26) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss directed labor toward preparing the fields; the day's changes reduced food by 1, and increased prepared crop fields by 12. Una Joss discovered old trail markers beyond the fields. Una Joss worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 969 (Year 3, August 27) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Una Joss ordered the ready crops harvested; the day's changes increased food by 11, and reduced prepared crop fields by 12. Una Joss harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 970 (Year 3, August 28) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1. The loss of people is beginning to define the settlement's future.
+
+Day 971 (Year 3, August 29) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, and increased wood by 5. Una Joss discovered old trail markers beyond the fields. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 972 (Year 3, August 30) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Una Joss organized care for the sick; the day's changes reduced food by 4, and increased health by 2. Una Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 973 (Year 3, August 31) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 5, and reduced health by 1. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 974 (Year 3, September 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss spent wood to strengthen the settlement; the day's changes reduced food by 1, and reduced wood by 10. Una Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 975 (Year 3, September 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss found no ready crops to harvest; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 976 (Year 3, September 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss organized care for the sick; the day's changes reduced food by 4, increased morale by 1, and increased health by 1. Una Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 977 (Year 3, September 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, and increased wood by 5. Una Joss discovered old trail markers beyond the fields. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 978 (Year 3, September 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss organized care for the sick; the day's changes reduced food by 4, and increased health by 1. Una Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 979 (Year 3, September 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss found no ready crops to harvest; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 980 (Year 3, September 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss found no ready crops to harvest; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 981 (Year 3, September 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss directed labor toward preparing the fields; the day's changes reduced food by 1, reduced morale by 1, and increased prepared crop fields by 12. Una Joss worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 982 (Year 3, September 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss ordered the ready crops harvested; the day's changes increased food by 11, increased morale by 1, reduced prepared crop fields by 12, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 983 (Year 3, September 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 2 foraging effort searched for food, and President Una Joss sent crews to work the clay deposit; the day's changes increased food by 2, reduced morale by 1, increased clay by 27, and reduced known clay deposit by 27. Una Joss searched for edible stores beyond camp. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 984 (Year 3, September 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 5, and increased morale by 1. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 985 (Year 3, September 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss spent wood to strengthen the settlement; the day's changes reduced food by 1, reduced wood by 10, and increased morale by 1. Una Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 986 (Year 3, September 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered tighter food rationing; the day's changes reduced food by 1, and reduced morale by 2. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 987 (Year 3, September 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 2 foraging effort searched for food, and President Una Joss sent crews to work the clay deposit; the day's changes increased food by 2, reduced morale by 1, increased clay by 27, and reduced known clay deposit by 27. Una Joss searched for edible stores beyond camp. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 988 (Year 3, September 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Una Joss spent wood to strengthen the settlement; the day's changes reduced food by 3, reduced wood by 12, and reduced health by 1. Una Joss bore the worst of the storm. Una Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 989 (Year 3, September 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 990 (Year 3, September 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 991 (Year 3, September 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss directed labor toward preparing the fields; the day's changes reduced food by 1, reduced morale by 1, and increased prepared crop fields by 12. Una Joss worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 992 (Year 3, September 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered the ready crops harvested; the day's changes increased food by 11, reduced morale by 1, and reduced prepared crop fields by 12. Una Joss harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 993 (Year 3, September 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 994 (Year 3, September 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 995 (Year 3, September 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered clay fired into bricks; the day's changes reduced food by 1, reduced wood by 5, reduced morale by 1, reduced clay by 20, and increased bricks by 10. Una Joss fired clay into bricks. The loss of people is beginning to define the settlement's future.
+
+Day 996 (Year 3, September 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss put fired bricks into permanent shelter work; the day's changes reduced food by 1, reduced morale by 1, reduced bricks by 10, and increased brick shelters by 1. Una Joss raised permanent brick shelter work. The loss of people is beginning to define the settlement's future.
+
+Day 997 (Year 3, September 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 3, reduced wood by 1, and reduced health by 1. Una Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 998 (Year 3, September 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1. The loss of people is beginning to define the settlement's future.
+
+Day 999 (Year 3, September 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 2 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 5, and increased morale by 1. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1000 (Year 3, September 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1001 (Year 3, September 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss sent crews to work the clay deposit; the day's changes reduced food by 1, increased morale by 1, increased clay by 27, and reduced known clay deposit by 27. Una Joss discovered old trail markers beyond the fields. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1002 (Year 3, September 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss organized care for the sick; the day's changes reduced food by 4, increased morale by 1, and increased health by 1. Una Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1003 (Year 3, September 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss spent wood to strengthen the settlement; the day's changes reduced food by 1, reduced wood by 10, and increased morale by 1. Una Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1004 (Year 3, October 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1005 (Year 3, October 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1006 (Year 3, October 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Una Joss discovered useful clay near the riverbank. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1007 (Year 3, October 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss found no ready crops to harvest; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1008 (Year 3, October 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 1, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1009 (Year 3, October 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss sent crews out to gather wood; the day's changes reduced food by 1, and increased wood by 10. Una Joss joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1010 (Year 3, October 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1011 (Year 3, October 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss sent crews to work the clay deposit; the day's changes reduced food by 1, increased clay by 27, and reduced known clay deposit by 27. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1012 (Year 3, October 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss sent crews to work the clay deposit; the day's changes reduced food by 1, increased clay by 27, and reduced known clay deposit by 27. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1013 (Year 3, October 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss organized care for the sick; the day's changes reduced food by 4, increased morale by 1, and increased health by 1. Una Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1014 (Year 3, October 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered tighter food rationing; the day's changes reduced food by 1, and reduced morale by 1. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1015 (Year 3, October 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss found no ready crops to harvest; the day's changes reduced food by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1016 (Year 3, October 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss told the colonists to preserve resources; the day's changes reduced food by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1017 (Year 3, October 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss sent crews to work the clay deposit; the day's changes reduced food by 1, increased clay by 27, and reduced known clay deposit by 27. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1018 (Year 3, October 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Una Joss spent wood to strengthen the settlement; the day's changes reduced food by 3, reduced wood by 11, increased morale by 1, and reduced health by 1. Una Joss bore the worst of the storm. Una Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1019 (Year 3, October 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss sent crews to work the clay deposit; the day's changes reduced food by 1, reduced morale by 1, increased clay by 27, and reduced known clay deposit by 27. Una Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1020 (Year 3, October 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, and increased morale by 1. Una Joss discovered fresh water north of camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1021 (Year 3, October 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered tighter food rationing; the day's changes reduced food by 1, and reduced morale by 1. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1022 (Year 3, October 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 2 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 5, and increased morale by 1. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1023 (Year 3, October 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 5, and increased morale by 1. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1024 (Year 3, October 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered tighter food rationing; the day's changes reduced food by 1, and reduced morale by 2. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1025 (Year 3, October 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes reduced food by 1, increased wood by 5, and increased morale by 1. Una Joss discovered old trail markers beyond the fields. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1026 (Year 3, October 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 2 foraging effort searched for food, and President Una Joss sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 5, and increased morale by 1. Una Joss searched for edible stores beyond camp. Una Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1027 (Year 3, October 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Una Joss ordered tighter food rationing; the day's changes reduced food by 3, reduced wood by 1, reduced morale by 2, and reduced health by 1. Una Joss bore the worst of the storm. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1028 (Year 3, October 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered tighter food rationing; the day's changes reduced food by 1. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1029 (Year 3, October 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered tighter food rationing; the day's changes reduced food by 1. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1030 (Year 3, October 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Una Joss ordered tighter food rationing; the day's changes reduced food by 1. Una Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1031 (Year 3, October 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss sent scouts beyond the settlement; the day's changes increased wood by 5, and increased morale by 1. Una Joss discovered old trail markers beyond the fields. Una Joss scouted beyond the settlement. Una Joss went without full rations. The loss of people is beginning to define the settlement's future.
+
+Day 1032 (Year 3, October 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Una Joss ordered tighter food rationing; the day's changes reduced population by 1, reduced morale by 1, and reduced health by 2. Una Joss discovered fresh water north of camp. Una Joss felt the tighter rations first. Una Joss went without full rations. Una Joss died. No colonists remain in Blergen.
+
+Day 1033 (Year 3, October 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1034 (Year 3, October 31) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1035 (Year 3, November 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1036 (Year 3, November 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1037 (Year 3, November 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1038 (Year 3, November 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1039 (Year 3, November 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1040 (Year 3, November 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1041 (Year 3, November 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1042 (Year 3, November 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1043 (Year 3, November 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1044 (Year 3, November 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1045 (Year 3, November 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1046 (Year 3, November 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1047 (Year 3, November 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1048 (Year 3, November 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1049 (Year 3, November 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1050 (Year 3, November 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1051 (Year 3, November 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1052 (Year 3, November 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1053 (Year 3, November 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1054 (Year 3, November 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1055 (Year 3, November 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1056 (Year 3, November 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1057 (Year 3, November 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1058 (Year 3, November 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1059 (Year 3, November 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1060 (Year 3, November 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1061 (Year 3, November 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1062 (Year 3, November 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1063 (Year 3, November 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1064 (Year 3, November 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1065 (Year 3, December 1) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1066 (Year 3, December 2) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1067 (Year 3, December 3) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1068 (Year 3, December 4) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1069 (Year 3, December 5) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1070 (Year 3, December 6) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1071 (Year 3, December 7) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1072 (Year 3, December 8) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1073 (Year 3, December 9) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1074 (Year 3, December 10) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1075 (Year 3, December 11) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1076 (Year 3, December 12) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1077 (Year 3, December 13) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1078 (Year 3, December 14) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1079 (Year 3, December 15) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1080 (Year 3, December 16) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1081 (Year 3, December 17) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1082 (Year 3, December 18) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1083 (Year 3, December 19) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1084 (Year 3, December 20) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1085 (Year 3, December 21) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1086 (Year 3, December 22) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1087 (Year 3, December 23) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1088 (Year 3, December 24) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1089 (Year 3, December 25) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1090 (Year 3, December 26) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1091 (Year 3, December 27) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1092 (Year 3, December 28) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1093 (Year 3, December 29) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1094 (Year 3, December 30) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1095 (Year 3, December 31) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1096 (Year 4, January 1) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1097 (Year 4, January 2) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1098 (Year 4, January 3) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1099 (Year 4, January 4) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1100 (Year 4, January 5) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1101 (Year 4, January 6) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1102 (Year 4, January 7) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1103 (Year 4, January 8) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1104 (Year 4, January 9) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1105 (Year 4, January 10) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1106 (Year 4, January 11) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1107 (Year 4, January 12) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1108 (Year 4, January 13) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1109 (Year 4, January 14) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1110 (Year 4, January 15) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1111 (Year 4, January 16) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1112 (Year 4, January 17) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1113 (Year 4, January 18) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1114 (Year 4, January 19) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1115 (Year 4, January 20) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1116 (Year 4, January 21) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1117 (Year 4, January 22) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1118 (Year 4, January 23) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1119 (Year 4, January 24) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1120 (Year 4, January 25) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1121 (Year 4, January 26) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1122 (Year 4, January 27) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1123 (Year 4, January 28) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1124 (Year 4, January 29) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1125 (Year 4, January 30) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1126 (Year 4, January 31) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1127 (Year 4, February 1) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1128 (Year 4, February 2) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1129 (Year 4, February 3) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1130 (Year 4, February 4) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1131 (Year 4, February 5) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1132 (Year 4, February 6) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1133 (Year 4, February 7) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1134 (Year 4, February 8) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1135 (Year 4, February 9) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1136 (Year 4, February 10) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1137 (Year 4, February 11) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1138 (Year 4, February 12) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1139 (Year 4, February 13) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1140 (Year 4, February 14) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1141 (Year 4, February 15) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1142 (Year 4, February 16) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1143 (Year 4, February 17) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1144 (Year 4, February 18) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1145 (Year 4, February 19) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1146 (Year 4, February 20) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1147 (Year 4, February 21) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1148 (Year 4, February 22) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1149 (Year 4, February 23) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1150 (Year 4, February 24) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1151 (Year 4, February 25) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1152 (Year 4, February 26) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1153 (Year 4, February 27) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1154 (Year 4, February 28) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1155 (Year 4, March 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1156 (Year 4, March 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1157 (Year 4, March 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1158 (Year 4, March 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1159 (Year 4, March 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1160 (Year 4, March 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1161 (Year 4, March 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1162 (Year 4, March 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1163 (Year 4, March 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1164 (Year 4, March 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1165 (Year 4, March 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1166 (Year 4, March 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1167 (Year 4, March 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1168 (Year 4, March 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1169 (Year 4, March 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1170 (Year 4, March 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1171 (Year 4, March 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1172 (Year 4, March 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1173 (Year 4, March 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1174 (Year 4, March 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1175 (Year 4, March 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1176 (Year 4, March 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1177 (Year 4, March 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1178 (Year 4, March 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1179 (Year 4, March 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1180 (Year 4, March 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1181 (Year 4, March 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1182 (Year 4, March 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1183 (Year 4, March 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1184 (Year 4, March 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1185 (Year 4, March 31) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1186 (Year 4, April 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1187 (Year 4, April 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1188 (Year 4, April 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1189 (Year 4, April 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1190 (Year 4, April 5) - Blergen:
+Blergen Company sent 25 new settlers to Blergen. Blergen Company sent 5000 food to Blergen. Blergen Company sent supplies to Blergen: 80 wood and 0 security. Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Cora Lark discovered old trail markers beyond the fields. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
