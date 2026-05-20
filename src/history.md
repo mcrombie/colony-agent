@@ -3570,3 +3570,18 @@ Rain softened the paths and soaked the outer work sites. No colonists remained t
 
 Day 1190 (Year 4, April 5) - Blergen:
 Blergen Company sent 25 new settlers to Blergen. Blergen Company sent 5000 food to Blergen. Blergen Company sent supplies to Blergen: 80 wood and 0 security. Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Cora Lark discovered old trail markers beyond the fields. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1191 (Year 4, April 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Cora Lark discovered fresh water north of camp. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1192 (Year 4, April 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Galen Lark discovered useful clay near the riverbank. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1193 (Year 4, April 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 27, reduced wood by 1, reduced morale by 1, reduced health by 1, increased clay by 39, and reduced known clay deposit by 39. Yuri Kest, Finn Lark, and Quin Kest bore the worst of the storm. Galen Lark, and Hana Lark worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1194 (Year 4, April 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 25, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Galen Lark, and Hana Lark worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1195 (Year 4, April 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Galen Lark discovered useful clay near the riverbank. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.

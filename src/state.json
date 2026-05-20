@@ -1,13 +1,13 @@
 {
-  "day": 1191,
+  "day": 1196,
   "year": 4,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 4975,
-  "wood": 267,
-  "morale": 7,
+  "food": 4848,
+  "wood": 281,
+  "morale": 8,
   "security": 10,
-  "health": 6,
+  "health": 5,
   "known_threats": [
     "wolves",
     "winter",
@@ -56776,6 +56776,388 @@
           "summary": "Blergen Company sent supplies to Blergen: 80 wood and 0 security."
         }
       ]
+    },
+    {
+      "day": 1191,
+      "year": 4,
+      "date": {
+        "year": 4,
+        "day_of_year": 96,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 6,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "rain",
+        "severity": 2,
+        "summary": "Rain softened the paths and soaked the outer work sites."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {
+        "resource": "fresh_water",
+        "detail": "fresh water north of camp",
+        "quality": 3,
+        "abundance": 1000,
+        "access": 1,
+        "effect_key": "fresh_water_access"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_285",
+        "name": "Yuri Kest",
+        "since_day": 1190
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5,
+        "morale": 1
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "fresh water north of camp",
+            "people": [
+              {
+                "id": "person_289",
+                "name": "Cora Lark"
+              }
+            ],
+            "summary": "Cora Lark discovered fresh water north of camp."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_289",
+                "name": "Cora Lark"
+              },
+              {
+                "id": "person_293",
+                "name": "Galen Lark"
+              }
+            ],
+            "summary": "Cora Lark, and Galen Lark scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered fresh water north of camp. Weather: Rain softened the paths and soaked the outer work sites. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 1192,
+      "year": 4,
+      "date": {
+        "year": 4,
+        "day_of_year": 97,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 7,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "rain",
+        "severity": 2,
+        "summary": "Rain softened the paths and soaked the outer work sites."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {
+        "resource": "clay",
+        "detail": "useful clay near the riverbank",
+        "quality": 2,
+        "abundance": 40,
+        "access": 1,
+        "effect_key": "clay_deposit"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_285",
+        "name": "Yuri Kest",
+        "since_day": 1190
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5,
+        "morale": 1,
+        "clay_deposit": 40
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "useful clay near the riverbank",
+            "people": [
+              {
+                "id": "person_293",
+                "name": "Galen Lark"
+              }
+            ],
+            "summary": "Galen Lark discovered useful clay near the riverbank."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_293",
+                "name": "Galen Lark"
+              },
+              {
+                "id": "person_273",
+                "name": "Mara Kest"
+              }
+            ],
+            "summary": "Galen Lark, and Mara Kest scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered useful clay near the riverbank. Weather: Rain softened the paths and soaked the outer work sites. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 1193,
+      "year": 4,
+      "date": {
+        "year": 4,
+        "day_of_year": 98,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 8,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "rain",
+        "severity": 2,
+        "summary": "Rain softened the paths and soaked the outer work sites."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "storm",
+      "world_event": "storm",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "gather_clay",
+      "president": {
+        "id": "person_285",
+        "name": "Yuri Kest",
+        "since_day": 1190
+      },
+      "effects": {
+        "food": -27,
+        "wood": -1,
+        "morale": -1,
+        "health": -1,
+        "clay": 39,
+        "clay_deposit": -39
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "weathered_storm",
+            "severity": 3,
+            "people": [
+              {
+                "id": "person_285",
+                "name": "Yuri Kest"
+              },
+              {
+                "id": "person_292",
+                "name": "Finn Lark"
+              },
+              {
+                "id": "person_277",
+                "name": "Quin Kest"
+              }
+            ],
+            "summary": "Yuri Kest, Finn Lark, and Quin Kest bore the worst of the storm."
+          },
+          {
+            "type": "gathered_clay",
+            "people": [
+              {
+                "id": "person_293",
+                "name": "Galen Lark"
+              },
+              {
+                "id": "person_294",
+                "name": "Hana Lark"
+              }
+            ],
+            "summary": "Galen Lark, and Hana Lark worked the clay deposit."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 3 storm struck Blergen. Weather: Rain softened the paths and soaked the outer work sites. The president sent crews to work the clay deposit."
+    },
+    {
+      "day": 1194,
+      "year": 4,
+      "date": {
+        "year": 4,
+        "day_of_year": 99,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 9,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "rain",
+        "severity": 2,
+        "summary": "Rain softened the paths and soaked the outer work sites."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {},
+      "leadership_action": "gather_clay",
+      "president": {
+        "id": "person_285",
+        "name": "Yuri Kest",
+        "since_day": 1190
+      },
+      "effects": {
+        "food": -25,
+        "morale": -1,
+        "clay": 39,
+        "clay_deposit": -39
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "gathered_clay",
+            "people": [
+              {
+                "id": "person_293",
+                "name": "Galen Lark"
+              },
+              {
+                "id": "person_294",
+                "name": "Hana Lark"
+              }
+            ],
+            "summary": "Galen Lark, and Hana Lark worked the clay deposit."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Rain softened the paths and soaked the outer work sites. The president sent crews to work the clay deposit."
+    },
+    {
+      "day": 1195,
+      "year": 4,
+      "date": {
+        "year": 4,
+        "day_of_year": 100,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 10,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "rain",
+        "severity": 2,
+        "summary": "Rain softened the paths and soaked the outer work sites."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {
+        "resource": "clay",
+        "detail": "useful clay near the riverbank",
+        "quality": 2,
+        "abundance": 40,
+        "access": 1,
+        "effect_key": "clay_deposit"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_285",
+        "name": "Yuri Kest",
+        "since_day": 1190
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5,
+        "morale": 1,
+        "clay_deposit": 40
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "useful clay near the riverbank",
+            "people": [
+              {
+                "id": "person_293",
+                "name": "Galen Lark"
+              }
+            ],
+            "summary": "Galen Lark discovered useful clay near the riverbank."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_293",
+                "name": "Galen Lark"
+              },
+              {
+                "id": "person_273",
+                "name": "Mara Kest"
+              }
+            ],
+            "summary": "Galen Lark, and Mara Kest scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered useful clay near the riverbank. Weather: Rain softened the paths and soaked the outer work sites. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -67779,12 +68161,14 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Mara Kest arrived with a Blergen Company settler convoy."
+          "Mara Kest arrived with a Blergen Company settler convoy.",
+          "Mara Kest scouted beyond the settlement on day 1192.",
+          "Mara Kest scouted beyond the settlement on day 1195."
         ]
       }
     },
@@ -67811,7 +68195,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -67843,7 +68227,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -67875,7 +68259,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -67905,13 +68289,14 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 5,
         "morale": 7,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Quin Kest arrived with a Blergen Company settler convoy."
+          "Quin Kest arrived with a Blergen Company settler convoy.",
+          "Quin Kest endured a severity 3 storm on day 1193."
         ]
       }
     },
@@ -67938,7 +68323,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -67970,7 +68355,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68002,7 +68387,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68034,7 +68419,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68066,7 +68451,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68098,7 +68483,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68130,7 +68515,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68161,14 +68546,15 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 5,
         "morale": 7,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Yuri Kest arrived with a Blergen Company settler convoy.",
-          "Yuri Kest became president of Blergen on day 1190."
+          "Yuri Kest became president of Blergen on day 1190.",
+          "Yuri Kest endured a severity 3 storm on day 1193."
         ]
       }
     },
@@ -68194,7 +68580,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68226,7 +68612,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68258,7 +68644,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68290,14 +68676,16 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 8,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Cora Lark arrived with a Blergen Company settler convoy.",
           "Cora Lark discovered old trail markers beyond the fields on day 1190.",
-          "Cora Lark scouted beyond the settlement on day 1190."
+          "Cora Lark scouted beyond the settlement on day 1190.",
+          "Cora Lark discovered fresh water north of camp on day 1191.",
+          "Cora Lark scouted beyond the settlement on day 1191."
         ]
       }
     },
@@ -68324,7 +68712,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68356,7 +68744,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68387,13 +68775,14 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 5,
         "morale": 7,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Finn Lark arrived with a Blergen Company settler convoy."
+          "Finn Lark arrived with a Blergen Company settler convoy.",
+          "Finn Lark endured a severity 3 storm on day 1193."
         ]
       }
     },
@@ -68420,13 +68809,20 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Galen Lark arrived with a Blergen Company settler convoy.",
-          "Galen Lark scouted beyond the settlement on day 1190."
+          "Galen Lark scouted beyond the settlement on day 1190.",
+          "Galen Lark scouted beyond the settlement on day 1191.",
+          "Galen Lark discovered useful clay near the riverbank on day 1192.",
+          "Galen Lark scouted beyond the settlement on day 1192.",
+          "Galen Lark worked the clay deposit on day 1193.",
+          "Galen Lark worked the clay deposit on day 1194.",
+          "Galen Lark discovered useful clay near the riverbank on day 1195.",
+          "Galen Lark scouted beyond the settlement on day 1195."
         ]
       }
     },
@@ -68453,12 +68849,14 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Hana Lark arrived with a Blergen Company settler convoy."
+          "Hana Lark arrived with a Blergen Company settler convoy.",
+          "Hana Lark worked the clay deposit on day 1193.",
+          "Hana Lark worked the clay deposit on day 1194."
         ]
       }
     },
@@ -68484,7 +68882,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68516,7 +68914,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -68579,7 +68977,7 @@
       "clay": {
         "known": true,
         "quality": 2,
-        "abundance": 428,
+        "abundance": 430,
         "access": 6,
         "discovered_day": 25
       },
@@ -68592,7 +68990,7 @@
       }
     },
     "stockpiles": {
-      "clay": 896,
+      "clay": 974,
       "bricks": 0,
       "pottery": 2
     },

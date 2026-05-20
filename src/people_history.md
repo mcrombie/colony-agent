@@ -3052,3 +3052,29 @@ Day 1190 - Blergen Personal Stories:
 - Cora Lark (forager) discovered old trail markers beyond the fields. morale 6->8.
 - Cora Lark (forager) scouted beyond the settlement. morale 6->8.
 - Galen Lark (scout) scouted beyond the settlement. morale 6->7.
+
+Day 1191 - Blergen Personal Stories:
+- Cora Lark (forager) discovered fresh water north of camp. morale 8->10.
+- Cora Lark (forager) scouted beyond the settlement. morale 8->10.
+- Galen Lark (scout) scouted beyond the settlement. morale 7->8.
+
+Day 1192 - Blergen Personal Stories:
+- Galen Lark (scout) discovered useful clay near the riverbank. morale 8->10.
+- Galen Lark (scout) scouted beyond the settlement. morale 8->10.
+- Mara Kest (scout) scouted beyond the settlement. morale 8->9.
+
+Day 1193 - Blergen Personal Stories:
+- Yuri Kest (healer) bore the worst of the storm. health 6->5; morale 9->8.
+- Finn Lark (woodcutter) bore the worst of the storm. health 6->5; morale 9->8.
+- Quin Kest (guard) bore the worst of the storm. health 6->5; morale 9->8.
+- Galen Lark (scout) worked the clay deposit. Status unchanged.
+- Hana Lark (builder) worked the clay deposit. Status unchanged.
+
+Day 1194 - Blergen Personal Stories:
+- Galen Lark (scout) worked the clay deposit. Status unchanged.
+- Hana Lark (builder) worked the clay deposit. Status unchanged.
+
+Day 1195 - Blergen Personal Stories:
+- Galen Lark (scout) discovered useful clay near the riverbank. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. morale 8->9.
