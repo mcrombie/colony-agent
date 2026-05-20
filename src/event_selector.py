@@ -14,6 +14,13 @@ from src.openai_selector import (
 
 WOLF_ATTACK_COOLDOWN_DAYS = 7
 WOLF_ATTACK_COOLDOWN_BYPASS_SEVERITY = 5
+STORM_SEVERITY_BYPASS = 5
+STORM_RULES_BY_SEASON = {
+    "winter": {"cooldown_days": 3, "window_days": 14, "max_storms": 3},
+    "spring": {"cooldown_days": 6, "window_days": 30, "max_storms": 2},
+    "summer": {"cooldown_days": 6, "window_days": 30, "max_storms": 2},
+    "autumn": {"cooldown_days": 7, "window_days": 30, "max_storms": 2},
+}
 
 
 def choose_world_event(
@@ -23,10 +30,9 @@ def choose_world_event(
     """Choose a world event with OpenAI, failing loudly when config is missing."""
     load_local_env()
     try:
-        return _apply_wolf_attack_cooldown(
-            choose_world_event_with_openai(state, environment=environment),
-            state,
-        )
+        decision = choose_world_event_with_openai(state, environment=environment)
+        decision = _apply_storm_limits(decision, state, environment=environment)
+        return _apply_wolf_attack_cooldown(decision, state)
     except OpenAIAPICallError as exc:
         print(
             "::warning title=OpenAI deity selector failed::"
@@ -92,6 +98,83 @@ def _apply_wolf_attack_cooldown(
             f"Original selection was wolf_attack: {decision.get('reasoning', '')}"
         ),
     }
+
+
+def _apply_storm_limits(
+    decision: dict[str, Any],
+    state: dict[str, Any],
+    *,
+    environment: dict[str, Any] | None,
+) -> dict[str, Any]:
+    if decision.get("world_event") != "storm":
+        return decision
+
+    season = _season_for_storm_limits(state, environment)
+    rules = STORM_RULES_BY_SEASON.get(season, STORM_RULES_BY_SEASON["spring"])
+    current_day = state.get("day", 1)
+    recent_storm_days = _recent_storm_days(
+        state,
+        current_day=current_day,
+        window_days=rules["window_days"],
+    )
+    severity = int(decision.get("severity") or 3)
+    original_reasoning = decision.get("reasoning", "")
+
+    if len(recent_storm_days) >= rules["max_storms"]:
+        return {
+            "world_event": "quiet_day",
+            "reasoning": (
+                f"Storms are seasonally limited in {season}; "
+                f"{len(recent_storm_days)} storm events already occurred in the "
+                f"last {rules['window_days']} days. "
+                f"Original selection was storm: {original_reasoning}"
+            ),
+        }
+
+    recent_storm_day = recent_storm_days[-1] if recent_storm_days else None
+    if (
+        recent_storm_day is not None
+        and current_day - recent_storm_day <= rules["cooldown_days"]
+        and severity < STORM_SEVERITY_BYPASS
+    ):
+        return {
+            "world_event": "quiet_day",
+            "reasoning": (
+                f"A storm struck recently, so {season} weather does not produce "
+                "another major storm today. "
+                f"Original selection was storm: {original_reasoning}"
+            ),
+        }
+
+    return decision
+
+
+def _season_for_storm_limits(
+    state: dict[str, Any],
+    environment: dict[str, Any] | None,
+) -> str:
+    if environment:
+        date = environment.get("date", {})
+        weather = environment.get("weather", {})
+        return date.get("season") or weather.get("season") or "spring"
+
+    return state.get("date", {}).get("season", "spring")
+
+
+def _recent_storm_days(
+    state: dict[str, Any],
+    *,
+    current_day: int,
+    window_days: int,
+) -> list[int]:
+    lower_bound = current_day - window_days
+    return [
+        int(record["day"])
+        for record in state.get("event_log", [])
+        if (record.get("world_event") or record.get("event_type")) == "storm"
+        and int(record.get("day", 0)) > lower_bound
+        and int(record.get("day", 0)) < current_day
+    ]
 
 
 def _most_recent_wolf_attack_day(state: dict[str, Any]) -> int | None:

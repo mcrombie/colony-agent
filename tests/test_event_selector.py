@@ -94,6 +94,125 @@ def test_extreme_wolf_attack_bypasses_cooldown(monkeypatch):
     assert world_event["severity"] == 5
 
 
+def test_recent_summer_storm_cools_down_moderate_storm_selection(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    state["day"] = 205
+    state["event_log"] = [{"day": 202, "world_event": "storm"}]
+    environment = {"date": {"season": "summer"}, "weather": {"season": "summer"}}
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_world_event_with_openai",
+        lambda current_state, environment=None: {
+            "world_event": "storm",
+            "severity": 4,
+            "reasoning": "another thunderstorm line forms",
+        },
+    )
+
+    world_event = event_selector.choose_world_event(state, environment=environment)
+
+    assert world_event["world_event"] == "quiet_day"
+    assert "storm struck recently" in world_event["reasoning"]
+
+
+def test_extreme_storm_can_bypass_cooldown_when_seasonal_cap_has_room(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    state["day"] = 205
+    state["event_log"] = [{"day": 202, "world_event": "storm"}]
+    environment = {"date": {"season": "summer"}, "weather": {"season": "summer"}}
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_world_event_with_openai",
+        lambda current_state, environment=None: {
+            "world_event": "storm",
+            "severity": 5,
+            "reasoning": "a historic storm breaks the pattern",
+        },
+    )
+
+    world_event = event_selector.choose_world_event(state, environment=environment)
+
+    assert world_event["world_event"] == "storm"
+    assert world_event["severity"] == 5
+
+
+def test_summer_storm_seasonal_cap_blocks_even_extreme_storm(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    state["day"] = 220
+    state["event_log"] = [
+        {"day": 198, "world_event": "storm"},
+        {"day": 212, "world_event": "storm"},
+    ]
+    environment = {"date": {"season": "summer"}, "weather": {"season": "summer"}}
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_world_event_with_openai",
+        lambda current_state, environment=None: {
+            "world_event": "storm",
+            "severity": 5,
+            "reasoning": "yet another severe storm",
+        },
+    )
+
+    world_event = event_selector.choose_world_event(state, environment=environment)
+
+    assert world_event["world_event"] == "quiet_day"
+    assert "seasonally limited in summer" in world_event["reasoning"]
+
+
+def test_winter_allows_three_storms_per_two_week_window(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    state["day"] = 50
+    state["event_log"] = [
+        {"day": 37, "world_event": "storm"},
+        {"day": 42, "world_event": "storm"},
+    ]
+    environment = {"date": {"season": "winter"}, "weather": {"season": "winter"}}
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_world_event_with_openai",
+        lambda current_state, environment=None: {
+            "world_event": "storm",
+            "severity": 4,
+            "reasoning": "winter weather deepens",
+        },
+    )
+
+    world_event = event_selector.choose_world_event(state, environment=environment)
+
+    assert world_event["world_event"] == "storm"
+
+
+def test_winter_storm_seasonal_cap_blocks_fourth_recent_storm(monkeypatch):
+    state = deepcopy(BASE_STATE)
+    state["day"] = 50
+    state["event_log"] = [
+        {"day": 37, "world_event": "storm"},
+        {"day": 42, "world_event": "storm"},
+        {"day": 46, "world_event": "storm"},
+    ]
+    environment = {"date": {"season": "winter"}, "weather": {"season": "winter"}}
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
+    monkeypatch.setattr(
+        event_selector,
+        "choose_world_event_with_openai",
+        lambda current_state, environment=None: {
+            "world_event": "storm",
+            "severity": 5,
+            "reasoning": "winter tries to stack another storm",
+        },
+    )
+
+    world_event = event_selector.choose_world_event(state, environment=environment)
+
+    assert world_event["world_event"] == "quiet_day"
+    assert "seasonally limited in winter" in world_event["reasoning"]
+
+
 def test_choose_leadership_action_uses_openai_selector(monkeypatch):
     state = deepcopy(BASE_STATE)
     monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
