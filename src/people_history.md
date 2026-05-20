@@ -1089,3 +1089,8 @@ Day 88 - Blergen Personal Stories:
 Day 89 - Blergen Personal Stories:
 - Dain Ivory (woodcutter) joined the wood crews. Status unchanged.
 - Lio Ivory (carpenter) joined the wood crews. Status unchanged.
+
+Day 90 - Blergen Personal Stories:
+- Elia Ivory (scout) and Finn Ivory (builder) became rivals. Elia Ivory: Status unchanged. Finn Ivory: Status unchanged.
+- Elia Ivory (scout) stepped back from rivalry. Status unchanged.
+- Finn Ivory (builder) stepped back from rivalry. Status unchanged.

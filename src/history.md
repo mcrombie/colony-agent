@@ -267,3 +267,6 @@ Clear skies left the day's work mostly to the colony. A severity 2 foraging effo
 
 Day 89 (Year 1, March 30) - Blergen:
 Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Dain Ivory sent crews out to gather wood; the day's changes reduced food by 25, and increased wood by 10. Dain Ivory, and Lio Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 90 (Year 1, March 31) - Blergen:
+Clear skies left the day's work mostly to the colony. A dispute unsettled the day's work, and President Dain Ivory worked to mediate the tension; the day's changes reduced food by 25, and reduced morale by 1. Elia Ivory and Finn Ivory became rivals. Elia Ivory and Finn Ivory stepped back from rivalry. The loss of people is beginning to define the settlement's future.
