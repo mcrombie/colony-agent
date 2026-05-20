@@ -1079,3 +1079,9 @@ Day 87 - Blergen Personal Stories:
 - Elia Ivory (scout) discovered fresh water north of camp. Status unchanged.
 - Elia Ivory (scout) scouted beyond the settlement. Status unchanged.
 - Kara Ivory (forager) scouted beyond the settlement. Status unchanged.
+
+Day 88 - Blergen Personal Stories:
+- Cora Ivory (farmer) searched for forage. Status unchanged.
+- Elia Ivory (scout) searched for forage. Status unchanged.
+- Dain Ivory (woodcutter) joined the wood crews. Status unchanged.
+- Lio Ivory (carpenter) joined the wood crews. Status unchanged.

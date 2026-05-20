@@ -1,10 +1,10 @@
 {
-  "day": 88,
+  "day": 89,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 216,
-  "wood": 41,
+  "food": 201,
+  "wood": 51,
   "morale": 10,
   "security": 8,
   "health": 5,
@@ -7036,6 +7036,78 @@
         "deaths": []
       },
       "summary": "Scouts discovered fresh water north of camp. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 88,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 88,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 29,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "foraging",
+      "world_event": "foraging",
+      "event_details": {
+        "severity": 2
+      },
+      "leadership_action": "gather_wood",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -15,
+        "wood": 10
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "foraged_food",
+            "people": [
+              {
+                "id": "person_211",
+                "name": "Cora Ivory"
+              },
+              {
+                "id": "person_213",
+                "name": "Elia Ivory"
+              }
+            ],
+            "summary": "Cora Ivory, and Elia Ivory searched for edible stores beyond camp."
+          },
+          {
+            "type": "gathered_wood",
+            "people": [
+              {
+                "id": "person_212",
+                "name": "Dain Ivory"
+              },
+              {
+                "id": "person_220",
+                "name": "Lio Ivory"
+              }
+            ],
+            "summary": "Dain Ivory, and Lio Ivory joined the wood crews."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 2 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president sent work crews to gather wood."
     }
   ],
   "people": [
@@ -14671,7 +14743,8 @@
           "Cora Ivory arrived with a Blergen Company settler convoy.",
           "Cora Ivory helped bring in the strong harvest on day 79.",
           "Cora Ivory worked the field expansion on day 79.",
-          "Cora Ivory worked the field expansion on day 83."
+          "Cora Ivory worked the field expansion on day 83.",
+          "Cora Ivory searched for forage on day 88."
         ]
       }
     },
@@ -14705,7 +14778,8 @@
         "notable_events": [
           "Dain Ivory arrived with a Blergen Company settler convoy.",
           "Dain Ivory became president of Blergen on day 76.",
-          "Dain Ivory endured a severity 3 storm on day 84."
+          "Dain Ivory endured a severity 3 storm on day 84.",
+          "Dain Ivory joined the wood crews on day 88."
         ]
       }
     },
@@ -14743,7 +14817,8 @@
           "Elia Ivory scouted beyond the settlement on day 85.",
           "Elia Ivory scouted beyond the settlement on day 86.",
           "Elia Ivory discovered fresh water north of camp on day 87.",
-          "Elia Ivory scouted beyond the settlement on day 87."
+          "Elia Ivory scouted beyond the settlement on day 87.",
+          "Elia Ivory searched for forage on day 88."
         ]
       }
     },
@@ -14968,7 +15043,8 @@
       },
       "story": {
         "notable_events": [
-          "Lio Ivory arrived with a Blergen Company settler convoy."
+          "Lio Ivory arrived with a Blergen Company settler convoy.",
+          "Lio Ivory joined the wood crews on day 88."
         ]
       }
     },
