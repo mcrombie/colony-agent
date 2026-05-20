@@ -130,7 +130,8 @@ zombies can attack the living, and uncontained infections create more zombies.
 The president selector is prompted as the president of Blergen deciding how to respond to the event. It can choose:
 
 ```text
-preserve_resources, ration_food, gather_wood, expand_fields,
+preserve_resources, ration_food, gather_wood, gather_clay,
+make_pottery, fire_bricks, build_with_brick, expand_fields,
 harvest_crops, strengthen_defenses, tend_the_sick, mediate_dispute,
 send_scouts, hold_festival, fight_undead, contain_undead
 ```
@@ -174,6 +175,20 @@ for winter and spring.
 about a quarter-day to two days of current population needs, with sharply lower
 winter yields. Food-costing actions such as `hold_festival` and `tend_the_sick`
 also scale with population.
+
+Discoveries can now become durable colony resources instead of one-day flavor.
+The saved `resources` state tracks known deposits, gathered stockpiles, and
+permanent improvements. Older saves without a `resources` section are migrated
+from prior discovery entries in the event log, so clay already found in the
+history can become usable after the next run.
+
+The first worked resource is clay. `discovery` can reveal or improve a known
+clay deposit. `gather_clay` converts deposit abundance into stored clay.
+`make_pottery` turns clay into storage pottery that reduces food losses during
+storms. `fire_bricks` turns clay and wood into bricks. `build_with_brick` turns
+bricks into permanent shelter work, improving security and reducing some storm
+wood and health damage. Discovery records can also preserve other useful sites,
+such as fresh water and trail markers, for future mechanics.
 
 If population reaches 0, the colony becomes inert. Daily runs no longer ask the
 deity or president selectors for choices; the event log records an

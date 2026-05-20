@@ -18,7 +18,7 @@ from src.interventions import (
     DEFAULT_SUPPLY_WOOD,
     apply_company_interventions,
 )
-from src.mechanics import apply_day
+from src.mechanics import apply_day, clamp_state
 from src.narrative import write_daily_entry, write_personal_history_entry
 from src.people import ensure_people_exist, ensure_president
 
@@ -62,6 +62,7 @@ def run_day(
         additional_interventions=company_intervention_requests,
     )
     ensure_president(state_before)
+    state_before = clamp_state(state_before)
     environment = environment_for_day(state_before["day"])
     if state_before["population"] <= 0:
         world_event = {

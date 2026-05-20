@@ -23,6 +23,10 @@ ACTION_PHRASES = {
     "preserve_resources": "{president} told the colonists to preserve resources",
     "ration_food": "{president} ordered tighter food rationing",
     "gather_wood": "{president} sent crews out to gather wood",
+    "gather_clay": "{president} sent crews to work the clay deposit",
+    "make_pottery": "{president} ordered clay shaped into storage pottery",
+    "fire_bricks": "{president} ordered clay fired into bricks",
+    "build_with_brick": "{president} put fired bricks into permanent shelter work",
     "expand_fields": "{president} directed labor toward preparing the fields",
     "harvest_crops": "{president} ordered the ready crops harvested",
     "strengthen_defenses": "{president} spent wood to strengthen the settlement",
@@ -30,6 +34,10 @@ ACTION_PHRASES = {
         "{president} tried to strengthen the settlement, but there was not enough wood"
     ),
     "failed_harvest_crops": "{president} found no ready crops to harvest",
+    "failed_gather_clay": "{president} found no usable clay deposit to work",
+    "failed_make_pottery": "{president} wanted pottery, but there was not enough clay",
+    "failed_fire_bricks": "{president} wanted bricks, but lacked enough clay or wood",
+    "failed_build_with_brick": "{president} wanted brick shelters, but there were not enough bricks",
     "tend_the_sick": "{president} organized care for the sick",
     "mediate_dispute": "{president} worked to mediate the tension",
     "send_scouts": "{president} sent scouts beyond the settlement",
@@ -125,6 +133,12 @@ def _describe_effects(effects: dict[str, int]) -> str:
 def _effect_label(stat: str) -> str:
     labels = {
         "crop_fields": "prepared crop fields",
+        "clay_deposit": "known clay deposit",
+        "clay_access": "clay access",
+        "fresh_water_access": "fresh water access",
+        "trail_markers_access": "trail marker access",
+        "brick_shelters": "brick shelters",
+        "clay_storehouses": "clay storehouses",
     }
     return labels.get(stat, stat)
 
@@ -342,6 +356,10 @@ def _action_history_summary(action_type: str) -> str:
         "undead_contained": "was contained as undead",
         "rationed_food": "endured tighter rations",
         "gathered_wood": "joined the wood crews",
+        "gathered_clay": "worked the clay deposit",
+        "made_pottery": "shaped clay storage pottery",
+        "fired_bricks": "fired clay into bricks",
+        "built_with_brick": "built permanent brick shelters",
         "expanded_fields": "worked the field expansion",
         "strengthened_defenses": "helped strengthen the settlement",
         "tended_the_sick": "received care",

@@ -121,6 +121,10 @@ def choose_leadership_action_with_openai(
             "preserve_resources",
             "ration_food",
             "gather_wood",
+            "gather_clay",
+            "make_pottery",
+            "fire_bricks",
+            "build_with_brick",
             "expand_fields",
             "harvest_crops",
             "strengthen_defenses",
@@ -151,7 +155,9 @@ def choose_leadership_action_with_openai(
                 "are ready. Storms and wolf attacks can be severe; consider "
                 "defense, sickness, food, and morale accordingly. If the dead "
                 "rise, fight_undead destroys them while contain_undead tries "
-                "to isolate them before the infection spreads."
+                "to isolate them before the infection spreads. Useful resources "
+                "such as clay can be gathered and converted into pottery, bricks, "
+                "and permanent shelter work when the colony has enough stock."
             ),
         },
         {
@@ -303,6 +309,7 @@ def _state_for_world_prompt(
             "dead_population": _dead_population(state),
             "undead_threat": state.get("undead_threat", {}),
             "agriculture": _agriculture_context(state),
+            "resources": _resources_context(state),
         },
         "environment": environment or {},
         "threat_rules": [
@@ -311,6 +318,7 @@ def _state_for_world_prompt(
             "known_threats containing winter means winter weather should increase storm danger.",
             "foraging can help food shortages; lower its severity in winter unless conditions are unusually favorable.",
             "good_harvest and poor_harvest should normally happen only in summer or autumn when crop_fields exist.",
+            "discovery can reveal useful resources or improve known sites such as clay, water, and trails.",
             "undead_rising is rare; use it mainly when dead colonists or active undead are present.",
             "Winter is a season and period, not a world_event label.",
             "For foraging, wolf_attack, storm, and undead_rising, severity must be an integer from 1 to 5.",
@@ -346,6 +354,7 @@ def _state_for_leadership_prompt(
             "dead_population": _dead_population(state),
             "undead_threat": state.get("undead_threat", {}),
             "agriculture": _agriculture_context(state),
+            "resources": _resources_context(state),
         },
         "character_context": character_context_for_prompt(
             state,
@@ -361,6 +370,10 @@ def _state_for_leadership_prompt(
             "harvest_crops converts prepared crop_fields into food only in summer or autumn.",
             "Plan for winter and spring by building reserves during summer and autumn harvests.",
             "strengthen_defenses requires at least 10 wood.",
+            "gather_clay requires a known clay deposit with remaining abundance.",
+            "make_pottery turns clay into storage pottery that protects food in storms.",
+            "fire_bricks turns clay and wood into bricks.",
+            "build_with_brick turns bricks into permanent shelters that improve security and reduce storm damage.",
             "hold_festival costs extra food.",
             "strengthen_defenses can reduce damage from wolf attacks.",
             "For undead_rising, fight_undead can destroy zombies and contain_undead can stop spread.",
@@ -388,4 +401,28 @@ def _agriculture_context(state: dict[str, Any]) -> dict[str, int]:
     agriculture = state.get("agriculture", {})
     return {
         "crop_fields": int(agriculture.get("crop_fields", 0)),
+    }
+
+
+def _resources_context(state: dict[str, Any]) -> dict[str, Any]:
+    resources = state.get("resources", {})
+    deposits = resources.get("deposits", {})
+    return {
+        "known_deposits": {
+            name: {
+                "quality": int(deposit.get("quality", 0)),
+                "abundance": int(deposit.get("abundance", 0)),
+                "access": int(deposit.get("access", 0)),
+            }
+            for name, deposit in sorted(deposits.items())
+            if deposit.get("known", True)
+        },
+        "stockpiles": {
+            key: int(value)
+            for key, value in sorted(resources.get("stockpiles", {}).items())
+        },
+        "improvements": {
+            key: int(value)
+            for key, value in sorted(resources.get("improvements", {}).items())
+        },
     }

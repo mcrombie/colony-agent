@@ -1,10 +1,10 @@
 {
-  "day": 92,
+  "day": 93,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 126,
-  "wood": 66,
+  "food": 122,
+  "wood": 71,
   "morale": 10,
   "security": 8,
   "health": 5,
@@ -7306,6 +7306,82 @@
         "deaths": []
       },
       "summary": "Scouts discovered useful clay near the riverbank. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 92,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 92,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 2,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "foraging",
+      "world_event": "foraging",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -4,
+        "wood": 5
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "foraged_food",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              },
+              {
+                "id": "person_221",
+                "name": "Mara Ivory"
+              },
+              {
+                "id": "person_199",
+                "name": "Quin Hale"
+              }
+            ],
+            "summary": "Kara Ivory, Mara Ivory, and Quin Hale searched for edible stores beyond camp."
+          },
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              },
+              {
+                "id": "person_199",
+                "name": "Quin Hale"
+              }
+            ],
+            "summary": "Kara Ivory, and Quin Hale scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 3 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -14533,7 +14609,9 @@
       "story": {
         "notable_events": [
           "Quin Hale arrived with a Blergen Company settler convoy.",
-          "Quin Hale scouted beyond the settlement on day 91."
+          "Quin Hale scouted beyond the settlement on day 91.",
+          "Quin Hale searched for forage on day 92.",
+          "Quin Hale scouted beyond the settlement on day 92."
         ]
       }
     },
@@ -15217,7 +15295,9 @@
           "Kara Ivory endured a severity 3 storm on day 84.",
           "Kara Ivory scouted beyond the settlement on day 87.",
           "Kara Ivory discovered useful clay near the riverbank on day 91.",
-          "Kara Ivory scouted beyond the settlement on day 91."
+          "Kara Ivory scouted beyond the settlement on day 91.",
+          "Kara Ivory searched for forage on day 92.",
+          "Kara Ivory scouted beyond the settlement on day 92."
         ]
       }
     },
@@ -15283,7 +15363,8 @@
       },
       "story": {
         "notable_events": [
-          "Mara Ivory arrived with a Blergen Company settler convoy."
+          "Mara Ivory arrived with a Blergen Company settler convoy.",
+          "Mara Ivory searched for forage on day 92."
         ]
       }
     },
@@ -15333,5 +15414,40 @@
   },
   "agriculture": {
     "crop_fields": 75
+  },
+  "resources": {
+    "deposits": {
+      "fresh_water": {
+        "known": true,
+        "quality": 3,
+        "abundance": 4000,
+        "access": 4,
+        "discovered_day": 18
+      },
+      "clay": {
+        "known": true,
+        "quality": 2,
+        "abundance": 240,
+        "access": 6,
+        "discovered_day": 25
+      },
+      "trail_markers": {
+        "known": true,
+        "quality": 2,
+        "abundance": 4,
+        "access": 4,
+        "discovered_day": 44
+      }
+    },
+    "stockpiles": {
+      "clay": 0,
+      "bricks": 0,
+      "pottery": 0
+    },
+    "improvements": {
+      "kiln": 0,
+      "clay_storehouses": 0,
+      "brick_shelters": 0
+    }
   }
 }

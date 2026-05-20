@@ -795,6 +795,7 @@ def _apply_world_event_to_people(
             people_events=people_events,
             day=day,
             severity=event_details.get("severity", 3),
+            health_protected=bool(event_details.get("shelter_health_protected")),
         )
         return
 
@@ -895,6 +896,66 @@ def _apply_leadership_action_to_people(
             morale_delta=0,
             note_template="{name} joined the wood crews on day {day}.",
             summary_template="{names} joined the wood crews.",
+        )
+        return
+
+    if leadership_action == "gather_clay":
+        _record_role_work(
+            state,
+            people_events=people_events,
+            day=day,
+            roles=("forager", "builder", "scout"),
+            action_type="gathered_clay",
+            count=2,
+            health_delta=0,
+            morale_delta=0,
+            note_template="{name} worked the clay deposit on day {day}.",
+            summary_template="{names} worked the clay deposit.",
+        )
+        return
+
+    if leadership_action == "make_pottery":
+        _record_role_work(
+            state,
+            people_events=people_events,
+            day=day,
+            roles=("cook", "carpenter", "builder"),
+            action_type="made_pottery",
+            count=2,
+            health_delta=0,
+            morale_delta=1,
+            note_template="{name} shaped clay storage pottery on day {day}.",
+            summary_template="{names} shaped clay into storage pottery.",
+        )
+        return
+
+    if leadership_action == "fire_bricks":
+        _record_role_work(
+            state,
+            people_events=people_events,
+            day=day,
+            roles=("builder", "carpenter", "woodcutter"),
+            action_type="fired_bricks",
+            count=2,
+            health_delta=0,
+            morale_delta=0,
+            note_template="{name} helped fire bricks on day {day}.",
+            summary_template="{names} fired clay into bricks.",
+        )
+        return
+
+    if leadership_action == "build_with_brick":
+        _record_role_work(
+            state,
+            people_events=people_events,
+            day=day,
+            roles=("builder", "carpenter", "guard"),
+            action_type="built_with_brick",
+            count=3,
+            health_delta=0,
+            morale_delta=1,
+            note_template="{name} helped build permanent brick shelters on day {day}.",
+            summary_template="{names} raised permanent brick shelter work.",
         )
         return
 
@@ -1064,13 +1125,14 @@ def _apply_storm_to_people(
     people_events: dict[str, list[dict[str, Any]]],
     day: int,
     severity: int,
+    health_protected: bool = False,
 ) -> None:
     severity = max(1, min(5, severity))
     affected_people = _select_vulnerable_people(state, max(1, min(5, severity)))
     if not affected_people:
         return
 
-    health_delta = -1 if severity >= 3 else 0
+    health_delta = -1 if severity >= 3 and not health_protected else 0
     morale_delta = -1 if severity >= 2 else 0
     hunger_delta = 1 if severity >= 4 else 0
     for person in affected_people:

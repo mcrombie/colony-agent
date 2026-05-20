@@ -229,6 +229,11 @@ def test_world_prompt_includes_bounded_character_context():
     assert prompt["current_state"]["year"] == 1
     assert prompt["current_state"]["food_days_remaining"] == 10
     assert prompt["current_state"]["agriculture"] == {"crop_fields": 0}
+    assert prompt["current_state"]["resources"] == {
+        "known_deposits": {},
+        "stockpiles": {},
+        "improvements": {},
+    }
     assert len(character_context["featured_colonists"]) <= 8
     assert prompt["environment"] == environment
     assert "wolf_attack" in prompt["allowed_world_events"]
@@ -277,9 +282,39 @@ def test_leadership_prompt_selects_event_relevant_colonists():
     assert prompt["today_event_details"]["severity"] == 1
     assert "fight_undead" in prompt["allowed_leadership_actions"]
     assert "harvest_crops" in prompt["allowed_leadership_actions"]
+    assert "gather_clay" in prompt["allowed_leadership_actions"]
+    assert "make_pottery" in prompt["allowed_leadership_actions"]
     assert any("expand_fields prepares crop_fields" in rule for rule in prompt["important_rules"])
+    assert any("make_pottery turns clay" in rule for rule in prompt["important_rules"])
     assert any("summer and autumn harvests" in rule for rule in prompt["important_rules"])
     assert "Named colonists can inform priorities" in prompt["important_rules"][-1]
+
+
+def test_leadership_prompt_includes_resource_context():
+    state = state_with_people(count=12)
+    state["resources"] = {
+        "deposits": {
+            "clay": {
+                "known": True,
+                "quality": 2,
+                "abundance": 40,
+                "access": 1,
+                "discovered_day": 5,
+            }
+        },
+        "stockpiles": {"clay": 12, "bricks": 0, "pottery": 1},
+        "improvements": {"kiln": 0, "clay_storehouses": 0, "brick_shelters": 0},
+    }
+
+    prompt = _state_for_leadership_prompt(state, "quiet_day")
+
+    assert prompt["current_state"]["resources"]["known_deposits"]["clay"] == {
+        "quality": 2,
+        "abundance": 40,
+        "access": 1,
+    }
+    assert prompt["current_state"]["resources"]["stockpiles"]["clay"] == 12
+    assert prompt["current_state"]["resources"]["stockpiles"]["pottery"] == 1
 
 
 def test_illness_leadership_prompt_prioritizes_fragile_colonists():

@@ -65,6 +65,44 @@ def test_stat_clamping():
     assert clamped["health"] == 10
 
 
+def test_clamp_state_initializes_resource_state():
+    clamped = clamp_state(state_with())
+
+    assert clamped["resources"] == {
+        "deposits": {},
+        "stockpiles": {"clay": 0, "bricks": 0, "pottery": 0},
+        "improvements": {"kiln": 0, "clay_storehouses": 0, "brick_shelters": 0},
+    }
+
+
+def test_resource_state_infers_old_clay_discoveries_from_log():
+    state = state_with(
+        event_log=[
+            {
+                "day": 25,
+                "world_event": "discovery",
+                "people_events": {
+                    "discoveries": [
+                        {"detail": "useful clay near the riverbank"},
+                    ],
+                },
+            },
+            {
+                "day": 34,
+                "world_event": "discovery",
+                "summary": "Scouts discovered useful clay near the riverbank.",
+            },
+        ]
+    )
+
+    clamped = clamp_state(state)
+    clay = clamped["resources"]["deposits"]["clay"]
+
+    assert clay["known"] is True
+    assert clay["abundance"] == 80
+    assert clay["access"] == 2
+
+
 def test_food_never_below_zero():
     state = state_with(food=3)
 
@@ -324,6 +362,148 @@ def test_foraging_yields_less_food_in_winter():
 
     assert winter_after["food"] == 0
     assert summer_after["food"] == 50
+
+
+def test_discovery_adds_durable_clay_deposit():
+    state = state_with(day=1, food=10, population=5, people=generate_people(5))
+
+    after, event_record = apply_day(state, "discovery", "preserve_resources")
+
+    clay = after["resources"]["deposits"]["clay"]
+    assert event_record["event_details"]["resource"] == "clay"
+    assert clay["abundance"] == 40
+    assert clay["access"] == 1
+    assert event_record["effects"]["clay_deposit"] == 40
+    assert event_record["effects"]["morale"] == 1
+
+
+def test_gather_clay_turns_deposit_abundance_into_stockpile():
+    state = state_with(
+        food=20,
+        population=10,
+        people=generate_people(10),
+        resources={
+            "deposits": {
+                "clay": {
+                    "known": True,
+                    "quality": 2,
+                    "abundance": 50,
+                    "access": 1,
+                    "discovered_day": 1,
+                }
+            },
+            "stockpiles": {"clay": 0, "bricks": 0, "pottery": 0},
+            "improvements": {"kiln": 0, "clay_storehouses": 0, "brick_shelters": 0},
+        },
+    )
+
+    after, event_record = apply_day(state, "quiet_day", "gather_clay")
+
+    assert after["resources"]["stockpiles"]["clay"] == 12
+    assert after["resources"]["deposits"]["clay"]["abundance"] == 38
+    assert event_record["effects"]["clay"] == 12
+    assert event_record["effects"]["clay_deposit"] == -12
+    assert event_record["people_events"]["actions"][0]["type"] == "gathered_clay"
+
+
+def test_gather_clay_without_deposit_logs_failure():
+    state = state_with(food=20, population=10, people=generate_people(10))
+
+    after, event_record = apply_day(state, "quiet_day", "gather_clay")
+
+    assert event_record["leadership_action"] == "failed_gather_clay"
+    assert after["resources"]["stockpiles"]["clay"] == 0
+    assert event_record["effects"] == {"food": -10}
+
+
+def test_clay_can_be_turned_into_pottery_bricks_and_shelter():
+    state = state_with(
+        food=60,
+        population=5,
+        people=generate_people(5),
+        wood=20,
+        security=4,
+        resources={
+            "deposits": {},
+            "stockpiles": {"clay": 30, "bricks": 0, "pottery": 0},
+            "improvements": {"kiln": 0, "clay_storehouses": 0, "brick_shelters": 0},
+        },
+    )
+
+    clear = environment_for_season("spring")
+    after_pottery, pottery_record = apply_day(
+        state,
+        "quiet_day",
+        "make_pottery",
+        environment=clear,
+    )
+    after_bricks, bricks_record = apply_day(
+        after_pottery,
+        "quiet_day",
+        "fire_bricks",
+        environment=clear,
+    )
+    after_shelter, shelter_record = apply_day(
+        after_bricks,
+        "quiet_day",
+        "build_with_brick",
+        environment=clear,
+    )
+
+    assert after_pottery["resources"]["stockpiles"]["pottery"] == 1
+    assert pottery_record["effects"]["clay"] == -8
+    assert pottery_record["effects"]["pottery"] == 1
+    assert after_bricks["resources"]["stockpiles"]["bricks"] == 10
+    assert bricks_record["effects"]["wood"] == -5
+    assert bricks_record["effects"]["bricks"] == 10
+    assert after_shelter["resources"]["improvements"]["brick_shelters"] == 1
+    assert after_shelter["security"] == 5
+    assert shelter_record["effects"]["brick_shelters"] == 1
+
+
+def test_pottery_and_brick_shelters_reduce_storm_damage():
+    state = state_with(
+        day=50,
+        food=120,
+        wood=60,
+        health=6,
+        morale=7,
+        resources={
+            "deposits": {},
+            "stockpiles": {"clay": 0, "bricks": 0, "pottery": 2},
+            "improvements": {"kiln": 0, "clay_storehouses": 0, "brick_shelters": 1},
+        },
+    )
+    environment = {
+        "date": {
+            "year": 1,
+            "day_of_year": 50,
+            "month": "February",
+            "month_number": 2,
+            "day_of_month": 19,
+            "season": "winter",
+        },
+        "weather": {
+            "season": "winter",
+            "condition": "clear",
+            "severity": 1,
+            "summary": "Cold clear air settled over the camp.",
+        },
+    }
+
+    after, event_record = apply_day(
+        state,
+        {"world_event": "storm", "severity": 4},
+        "preserve_resources",
+        environment=environment,
+    )
+
+    assert after["food"] == 16
+    assert after["wood"] == 57
+    assert after["health"] == 6
+    assert event_record["effects"]["food"] == -104
+    assert event_record["effects"]["wood"] == -3
+    assert "health" not in event_record["effects"]
 
 
 def test_morale_effects_are_preserved_when_people_drive_stats():

@@ -9,7 +9,11 @@ from src.constants import (
     ALLOWED_LEADERSHIP_ACTION_TYPES,
     ALLOWED_WORLD_EVENT_TYPES,
     EMPTY_COLONY_EVENT_TYPE,
+    FAILED_BUILD_WITH_BRICK_ACTION_TYPE,
+    FAILED_FIRE_BRICKS_ACTION_TYPE,
+    FAILED_GATHER_CLAY_ACTION_TYPE,
     FAILED_HARVEST_CROPS_ACTION_TYPE,
+    FAILED_MAKE_POTTERY_ACTION_TYPE,
     FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE,
     NO_ACTION_ACTION_TYPE,
 )
@@ -27,12 +31,45 @@ NON_NEGATIVE_STATS = ("population", "food", "wood")
 CROP_FIELDS_STAT = "crop_fields"
 AGRICULTURE_FIELD = "agriculture"
 HARVEST_SEASONS = {"summer", "autumn"}
+RESOURCES_FIELD = "resources"
+RESOURCE_DEPOSITS_FIELD = "deposits"
+RESOURCE_STOCKPILES_FIELD = "stockpiles"
+RESOURCE_IMPROVEMENTS_FIELD = "improvements"
+RESOURCE_STOCKPILES = ("clay", "bricks", "pottery")
+RESOURCE_IMPROVEMENTS = ("kiln", "clay_storehouses", "brick_shelters")
+DISCOVERY_CATALOG = (
+    {
+        "resource": "fresh_water",
+        "detail": "fresh water north of camp",
+        "abundance": 1000,
+        "quality": 3,
+        "access": 1,
+        "effect_key": "fresh_water_access",
+    },
+    {
+        "resource": "clay",
+        "detail": "useful clay near the riverbank",
+        "abundance": 40,
+        "quality": 2,
+        "access": 1,
+        "effect_key": "clay_deposit",
+    },
+    {
+        "resource": "trail_markers",
+        "detail": "old trail markers beyond the fields",
+        "abundance": 1,
+        "quality": 2,
+        "access": 1,
+        "effect_key": "trail_markers_access",
+    },
+)
 
 
 def clamp_state(state: dict[str, Any]) -> dict[str, Any]:
     """Clamp state values to their allowed ranges."""
     clamped = deepcopy(state)
     _ensure_agriculture_state(clamped)
+    _ensure_resources_state(clamped)
 
     for stat in LIMITED_STATS:
         clamped[stat] = max(0, min(10, clamped[stat]))
@@ -44,6 +81,7 @@ def clamp_state(state: dict[str, Any]) -> dict[str, Any]:
         0,
         int(clamped[AGRICULTURE_FIELD].get(CROP_FIELDS_STAT, 0)),
     )
+    _clamp_resources_state(clamped)
 
     return clamped
 
@@ -64,7 +102,11 @@ def apply_day(
     if leadership_action not in ALLOWED_LEADERSHIP_ACTION_TYPES:
         raise ValueError(f"Unknown leadership action: {leadership_action}")
 
-    before = _ensure_agriculture_state(sync_calendar_state(ensure_people_exist(state)))
+    before = _ensure_resources_state(
+        _ensure_agriculture_state(sync_calendar_state(ensure_people_exist(state)))
+    )
+    if world_event_type == "discovery":
+        event_details = _discovery_details(before, event_details)
     after = deepcopy(before)
     environment = environment or environment_for_day(before["day"])
     weather = environment["weather"]
@@ -92,6 +134,8 @@ def apply_day(
             leadership_action=leadership_action,
             environment=environment,
         )
+    if world_event_type == "storm" and "health" not in world_effects:
+        event_details["shelter_health_protected"] = True
     _apply_effects(after, world_effects)
 
     leadership_effects = _effects_for_leadership_action(
@@ -192,6 +236,10 @@ def summarize_day(
         "preserve_resources": "The president ordered the colony to preserve resources.",
         "ration_food": "The president ordered tighter food rationing.",
         "gather_wood": "The president sent work crews to gather wood.",
+        "gather_clay": "The president sent crews to work the clay deposit.",
+        "make_pottery": "The president ordered clay shaped into storage pottery.",
+        "fire_bricks": "The president ordered clay fired into bricks.",
+        "build_with_brick": "The president put fired bricks into permanent shelter work.",
         "expand_fields": "The president directed labor toward preparing the fields.",
         "harvest_crops": "The president ordered the ready crops harvested.",
         "strengthen_defenses": "The president spent wood to strengthen the settlement.",
@@ -199,6 +247,10 @@ def summarize_day(
             "The president tried to strengthen the settlement, but there was not enough wood."
         ),
         "failed_harvest_crops": "The president looked for harvestable crops, but none were ready.",
+        "failed_gather_clay": "The president looked for clay work, but no known deposit was usable.",
+        "failed_make_pottery": "The president wanted pottery, but the colony lacked enough clay.",
+        "failed_fire_bricks": "The president wanted bricks, but the colony lacked enough clay or wood.",
+        "failed_build_with_brick": "The president wanted brick shelters, but the colony lacked enough bricks.",
         "tend_the_sick": "The president organized care for the sick.",
         "mediate_dispute": "The president worked to mediate local tensions.",
         "send_scouts": "The president sent scouts beyond the settlement.",
@@ -209,7 +261,7 @@ def summarize_day(
     }
 
     if world_event == "discovery":
-        event_summary = f"Scouts discovered {_discovery_detail(state)}."
+        event_summary = f"Scouts discovered {_discovery_detail(state, event_details)}."
     else:
         event_summary = event_summaries[world_event]
 
@@ -243,8 +295,140 @@ def _ensure_agriculture_state(state: dict[str, Any]) -> dict[str, Any]:
     return state
 
 
+def _ensure_resources_state(state: dict[str, Any]) -> dict[str, Any]:
+    resources = state.setdefault(RESOURCES_FIELD, {})
+    resources.setdefault(RESOURCE_DEPOSITS_FIELD, {})
+    stockpiles = resources.setdefault(RESOURCE_STOCKPILES_FIELD, {})
+    improvements = resources.setdefault(RESOURCE_IMPROVEMENTS_FIELD, {})
+    for resource in RESOURCE_STOCKPILES:
+        stockpiles[resource] = max(0, int(stockpiles.get(resource, 0)))
+    for improvement in RESOURCE_IMPROVEMENTS:
+        improvements[improvement] = max(0, int(improvements.get(improvement, 0)))
+
+    for key, deposit in list(resources[RESOURCE_DEPOSITS_FIELD].items()):
+        resources[RESOURCE_DEPOSITS_FIELD][key] = _normalized_deposit(
+            deposit,
+            discovered_day=state.get("day", 1),
+        )
+
+    if not resources[RESOURCE_DEPOSITS_FIELD]:
+        _infer_resource_discoveries_from_log(state)
+
+    return state
+
+
+def _clamp_resources_state(state: dict[str, Any]) -> None:
+    resources = state[RESOURCES_FIELD]
+    for resource in RESOURCE_STOCKPILES:
+        stockpiles = resources[RESOURCE_STOCKPILES_FIELD]
+        stockpiles[resource] = max(0, int(stockpiles.get(resource, 0)))
+    for improvement in RESOURCE_IMPROVEMENTS:
+        improvements = resources[RESOURCE_IMPROVEMENTS_FIELD]
+        improvements[improvement] = max(0, int(improvements.get(improvement, 0)))
+    for key, deposit in list(resources[RESOURCE_DEPOSITS_FIELD].items()):
+        resources[RESOURCE_DEPOSITS_FIELD][key] = _normalized_deposit(
+            deposit,
+            discovered_day=state.get("day", 1),
+        )
+
+
+def _normalized_deposit(
+    deposit: dict[str, Any],
+    *,
+    discovered_day: int,
+) -> dict[str, Any]:
+    return {
+        "known": bool(deposit.get("known", True)),
+        "quality": max(1, min(5, int(deposit.get("quality", 1)))),
+        "abundance": max(0, int(deposit.get("abundance", 0))),
+        "access": max(0, min(10, int(deposit.get("access", 0)))),
+        "discovered_day": int(deposit.get("discovered_day", discovered_day)),
+    }
+
+
+def _infer_resource_discoveries_from_log(state: dict[str, Any]) -> None:
+    for record in state.get("event_log", []):
+        if (record.get("world_event") or record.get("event_type")) != "discovery":
+            continue
+        detail = _record_discovery_detail(record)
+        if not detail:
+            continue
+        discovery = _discovery_by_detail(detail)
+        if discovery:
+            _add_discovered_resource(
+                state,
+                discovery,
+                discovered_day=int(record.get("day", state.get("day", 1))),
+            )
+
+
+def _record_discovery_detail(record: dict[str, Any]) -> str:
+    details = record.get("event_details", {})
+    if details.get("detail"):
+        return str(details["detail"])
+    for discovery in record.get("people_events", {}).get("discoveries", []):
+        if discovery.get("detail"):
+            return str(discovery["detail"])
+    return str(record.get("summary", ""))
+
+
+def _discovery_by_detail(detail: str) -> dict[str, Any] | None:
+    normalized = detail.lower()
+    for discovery in DISCOVERY_CATALOG:
+        if discovery["detail"] in normalized or discovery["detail"] == detail:
+            return discovery
+    for discovery in DISCOVERY_CATALOG:
+        if discovery["resource"].replace("_", " ") in normalized:
+            return discovery
+    return None
+
+
+def _add_discovered_resource(
+    state: dict[str, Any],
+    discovery: dict[str, Any],
+    *,
+    discovered_day: int,
+) -> None:
+    resources = state[RESOURCES_FIELD]
+    deposits = resources[RESOURCE_DEPOSITS_FIELD]
+    key = discovery["resource"]
+    if key not in deposits:
+        deposits[key] = {
+            "known": True,
+            "quality": discovery["quality"],
+            "abundance": discovery["abundance"],
+            "access": discovery["access"],
+            "discovered_day": discovered_day,
+        }
+        return
+
+    deposit = deposits[key]
+    deposit["known"] = True
+    deposit["abundance"] = max(0, int(deposit.get("abundance", 0))) + discovery[
+        "abundance"
+    ]
+    deposit["quality"] = max(int(deposit.get("quality", 1)), discovery["quality"])
+    deposit["access"] = min(10, int(deposit.get("access", 0)) + discovery["access"])
+
+
 def _crop_fields(state: dict[str, Any]) -> int:
     return int(state.get(AGRICULTURE_FIELD, {}).get(CROP_FIELDS_STAT, 0))
+
+
+def _resources(state: dict[str, Any]) -> dict[str, Any]:
+    return _ensure_resources_state(state)[RESOURCES_FIELD]
+
+
+def _stockpile(state: dict[str, Any], resource: str) -> int:
+    return int(_resources(state)[RESOURCE_STOCKPILES_FIELD].get(resource, 0))
+
+
+def _improvement_level(state: dict[str, Any], improvement: str) -> int:
+    return int(_resources(state)[RESOURCE_IMPROVEMENTS_FIELD].get(improvement, 0))
+
+
+def _deposit(state: dict[str, Any], resource: str) -> dict[str, Any]:
+    return _resources(state)[RESOURCE_DEPOSITS_FIELD].get(resource, {})
 
 
 def _season(environment: dict[str, Any]) -> str:
@@ -312,11 +496,84 @@ def _harvest_effects(
 
 def _apply_effects(state: dict[str, Any], effects: dict[str, int]) -> None:
     _ensure_agriculture_state(state)
+    _ensure_resources_state(state)
     for stat, amount in effects.items():
         if stat == CROP_FIELDS_STAT:
             state[AGRICULTURE_FIELD][CROP_FIELDS_STAT] += amount
+        elif stat in RESOURCE_STOCKPILES:
+            state[RESOURCES_FIELD][RESOURCE_STOCKPILES_FIELD][stat] += amount
+        elif stat in RESOURCE_IMPROVEMENTS:
+            state[RESOURCES_FIELD][RESOURCE_IMPROVEMENTS_FIELD][stat] += amount
+        elif stat == "clay_deposit":
+            _apply_deposit_abundance_effect(state, "clay", amount)
+        elif stat == "clay_access":
+            _apply_deposit_access_effect(state, "clay", amount)
+        elif stat == "fresh_water_access":
+            _apply_deposit_access_effect(state, "fresh_water", amount)
+        elif stat == "trail_markers_access":
+            _apply_deposit_access_effect(state, "trail_markers", amount)
         else:
             state[stat] += amount
+
+
+def _apply_deposit_abundance_effect(
+    state: dict[str, Any],
+    resource: str,
+    amount: int,
+) -> None:
+    discovery = _discovery_by_resource(resource)
+    if discovery and resource not in state[RESOURCES_FIELD][RESOURCE_DEPOSITS_FIELD]:
+        custom_discovery = {**discovery, "abundance": max(0, amount)}
+        _add_discovered_resource(
+            state,
+            custom_discovery,
+            discovered_day=state.get("day", 1),
+        )
+        return
+
+    deposit = state[RESOURCES_FIELD][RESOURCE_DEPOSITS_FIELD].setdefault(
+        resource,
+        {
+            "known": True,
+            "quality": 1,
+            "abundance": 0,
+            "access": 1,
+            "discovered_day": state.get("day", 1),
+        },
+    )
+    deposit["known"] = True
+    deposit["abundance"] = max(0, int(deposit.get("abundance", 0)) + amount)
+
+
+def _apply_deposit_access_effect(
+    state: dict[str, Any],
+    resource: str,
+    amount: int,
+) -> None:
+    discovery = _discovery_by_resource(resource)
+    if discovery and resource not in state[RESOURCES_FIELD][RESOURCE_DEPOSITS_FIELD]:
+        _add_discovered_resource(state, discovery, discovered_day=state.get("day", 1))
+        return
+
+    deposit = state[RESOURCES_FIELD][RESOURCE_DEPOSITS_FIELD].setdefault(
+        resource,
+        {
+            "known": True,
+            "quality": 1,
+            "abundance": 0,
+            "access": 0,
+            "discovered_day": state.get("day", 1),
+        },
+    )
+    deposit["known"] = True
+    deposit["access"] = max(0, min(10, int(deposit.get("access", 0)) + amount))
+
+
+def _discovery_by_resource(resource: str) -> dict[str, Any] | None:
+    for discovery in DISCOVERY_CATALOG:
+        if discovery["resource"] == resource:
+            return discovery
+    return None
 
 
 def _normalize_world_event(world_event: str | dict[str, Any]) -> dict[str, Any]:
@@ -336,6 +593,36 @@ def _event_details(event_decision: dict[str, Any]) -> dict[str, Any]:
         details["severity"] = max(1, min(5, int(details.get("severity", 3))))
 
     return details
+
+
+def _discovery_details(
+    state: dict[str, Any],
+    event_details: dict[str, Any],
+) -> dict[str, Any]:
+    if event_details.get("resource"):
+        discovery = _discovery_by_resource(str(event_details["resource"]))
+    elif event_details.get("detail"):
+        discovery = _discovery_by_detail(str(event_details["detail"]))
+    else:
+        discovery = _discovery_for_day(state)
+
+    if not discovery:
+        return event_details
+
+    merged = {
+        "resource": discovery["resource"],
+        "detail": discovery["detail"],
+        "quality": discovery["quality"],
+        "abundance": discovery["abundance"],
+        "access": discovery["access"],
+        "effect_key": discovery["effect_key"],
+    }
+    merged.update(event_details)
+    return merged
+
+
+def _discovery_for_day(state: dict[str, Any]) -> dict[str, Any]:
+    return DISCOVERY_CATALOG[state["day"] % len(DISCOVERY_CATALOG)]
 
 
 def _effects_for_weather(weather: dict[str, Any]) -> dict[str, int]:
@@ -402,7 +689,7 @@ def _effects_for_world_event(
         return {"morale": -2, "security": -1}
 
     if world_event == "discovery":
-        return {"morale": 1}
+        return _effects_for_discovery(event_details)
 
     if world_event == "foraging":
         return {
@@ -448,8 +735,54 @@ def _effects_for_storm(severity: int, state: dict[str, Any]) -> dict[str, int]:
         5: {"food": -8, "wood": -6, "health": -2, "morale": -2},
     }
     effects = deepcopy(effects_by_severity[severity])
+    _apply_resource_storm_mitigation(effects, state, severity)
     if severity == 5 and state["health"] <= 3:
         effects["population"] = -1
+
+    return effects
+
+
+def _apply_resource_storm_mitigation(
+    effects: dict[str, int],
+    state: dict[str, Any],
+    severity: int,
+) -> None:
+    pottery = _stockpile(state, "pottery")
+    storehouses = _improvement_level(state, "clay_storehouses")
+    brick_shelters = _improvement_level(state, "brick_shelters")
+
+    if effects.get("food", 0) < 0:
+        protection = pottery + (storehouses * 2)
+        effects["food"] = min(0, effects["food"] + min(abs(effects["food"]), protection))
+        if effects["food"] == 0:
+            effects.pop("food")
+
+    if effects.get("wood", 0) < 0 and brick_shelters:
+        effects["wood"] = min(0, effects["wood"] + min(abs(effects["wood"]), brick_shelters))
+        if effects["wood"] == 0:
+            effects.pop("wood")
+
+    if severity >= 4 and brick_shelters and effects.get("health", 0) < 0:
+        effects["health"] += 1
+        if effects["health"] == 0:
+            effects.pop("health")
+
+    if severity >= 5 and brick_shelters >= 2 and effects.get("morale", 0) < 0:
+        effects["morale"] += 1
+        if effects["morale"] == 0:
+            effects.pop("morale")
+
+
+def _effects_for_discovery(event_details: dict[str, Any]) -> dict[str, int]:
+    effects = {"morale": 1}
+    effect_key = event_details.get("effect_key")
+    if not effect_key:
+        return effects
+
+    if effect_key == "clay_deposit":
+        effects["clay_deposit"] = int(event_details.get("abundance", 40))
+    elif effect_key in {"fresh_water_access", "trail_markers_access"}:
+        effects[effect_key] = int(event_details.get("access", 1))
 
     return effects
 
@@ -492,6 +825,18 @@ def _effects_for_leadership_action(
     if leadership_action == "gather_wood":
         return {"wood": 10}
 
+    if leadership_action == "gather_clay":
+        return _gather_clay_effects(state)
+
+    if leadership_action == "make_pottery":
+        return {"clay": -8, "pottery": 1}
+
+    if leadership_action == "fire_bricks":
+        return {"clay": -20, "wood": -5, "bricks": 10}
+
+    if leadership_action == "build_with_brick":
+        return {"bricks": -10, "security": 1, "brick_shelters": 1}
+
     if leadership_action == "expand_fields":
         crop_work = _crop_work_for_population_days(state, environment)
         return {CROP_FIELDS_STAT: crop_work} if crop_work else {}
@@ -506,6 +851,14 @@ def _effects_for_leadership_action(
         return {}
 
     if leadership_action == "failed_harvest_crops":
+        return {}
+
+    if leadership_action in {
+        FAILED_GATHER_CLAY_ACTION_TYPE,
+        FAILED_MAKE_POTTERY_ACTION_TYPE,
+        FAILED_FIRE_BRICKS_ACTION_TYPE,
+        FAILED_BUILD_WITH_BRICK_ACTION_TYPE,
+    }:
         return {}
 
     if leadership_action == "tend_the_sick":
@@ -581,6 +934,21 @@ def _foraging_food_yield(
         "autumn": 0.75,
     }.get(season, 0.85)
     return max(3, int(population * success_days[severity] * season_multiplier))
+
+
+def _gather_clay_effects(state: dict[str, Any]) -> dict[str, int]:
+    clay = _deposit(state, "clay")
+    abundance = int(clay.get("abundance", 0))
+    if abundance <= 0:
+        return {}
+
+    access = int(clay.get("access", 1))
+    quality = int(clay.get("quality", 1))
+    route_bonus = int(_deposit(state, "trail_markers").get("access", 0))
+    yield_amount = max(5, (state["population"] // 2) + (access * 3) + (quality * 2))
+    yield_amount += min(5, route_bonus)
+    gathered = min(abundance, yield_amount)
+    return {"clay_deposit": -gathered, "clay": gathered}
 
 
 def _changed_status_targets(
@@ -737,7 +1105,7 @@ def _apply_people_effects(
         day=before["day"],
         event_details=event_details,
         discovery_detail=(
-            _discovery_detail(before) if world_event == "discovery" else None
+            _discovery_detail(before, event_details) if world_event == "discovery" else None
         ),
         undead_outcome=undead_outcome,
     )
@@ -794,6 +1162,20 @@ def _resolve_leadership_action(
     if leadership_action == "strengthen_defenses" and state["wood"] < 10:
         return FAILED_STRENGTHEN_DEFENSES_ACTION_TYPE
 
+    if leadership_action == "gather_clay" and int(_deposit(state, "clay").get("abundance", 0)) <= 0:
+        return FAILED_GATHER_CLAY_ACTION_TYPE
+
+    if leadership_action == "make_pottery" and _stockpile(state, "clay") < 8:
+        return FAILED_MAKE_POTTERY_ACTION_TYPE
+
+    if leadership_action == "fire_bricks" and (
+        _stockpile(state, "clay") < 20 or state["wood"] < 5
+    ):
+        return FAILED_FIRE_BRICKS_ACTION_TYPE
+
+    if leadership_action == "build_with_brick" and _stockpile(state, "bricks") < 10:
+        return FAILED_BUILD_WITH_BRICK_ACTION_TYPE
+
     if (
         leadership_action == "harvest_crops"
         and (_season(environment) not in HARVEST_SEASONS or _crop_fields(state) <= 0)
@@ -803,13 +1185,14 @@ def _resolve_leadership_action(
     return leadership_action
 
 
-def _discovery_detail(state: dict[str, Any]) -> str:
-    details = [
-        "fresh water north of camp",
-        "useful clay near the riverbank",
-        "old trail markers beyond the fields",
-    ]
-    return details[state["day"] % len(details)]
+def _discovery_detail(
+    state: dict[str, Any],
+    event_details: dict[str, Any] | None = None,
+) -> str:
+    if event_details and event_details.get("detail"):
+        return str(event_details["detail"])
+
+    return _discovery_for_day(state)["detail"]
 
 
 def _resolve_undead_outcome(
@@ -963,5 +1346,48 @@ def _actual_effects(
     crop_delta = _crop_fields(after) - _crop_fields(before)
     if crop_delta:
         effects[CROP_FIELDS_STAT] = crop_delta
+    effects.update(_actual_resource_effects(before, after))
 
     return effects
+
+
+def _actual_resource_effects(
+    before: dict[str, Any],
+    after: dict[str, Any],
+) -> dict[str, int]:
+    resource_effects = {}
+    before_resources = _resources(before)
+    after_resources = _resources(after)
+    before_stockpiles = before_resources[RESOURCE_STOCKPILES_FIELD]
+    after_stockpiles = after_resources[RESOURCE_STOCKPILES_FIELD]
+    for resource in RESOURCE_STOCKPILES:
+        delta = int(after_stockpiles.get(resource, 0)) - int(
+            before_stockpiles.get(resource, 0)
+        )
+        if delta:
+            resource_effects[resource] = delta
+
+    before_improvements = before_resources[RESOURCE_IMPROVEMENTS_FIELD]
+    after_improvements = after_resources[RESOURCE_IMPROVEMENTS_FIELD]
+    for improvement in RESOURCE_IMPROVEMENTS:
+        delta = int(after_improvements.get(improvement, 0)) - int(
+            before_improvements.get(improvement, 0)
+        )
+        if delta:
+            resource_effects[improvement] = delta
+
+    for resource in sorted(after_resources[RESOURCE_DEPOSITS_FIELD]):
+        before_deposit = before_resources[RESOURCE_DEPOSITS_FIELD].get(resource, {})
+        after_deposit = after_resources[RESOURCE_DEPOSITS_FIELD].get(resource, {})
+        abundance_delta = int(after_deposit.get("abundance", 0)) - int(
+            before_deposit.get("abundance", 0)
+        )
+        access_delta = int(after_deposit.get("access", 0)) - int(
+            before_deposit.get("access", 0)
+        )
+        if resource == "clay" and abundance_delta:
+            resource_effects["clay_deposit"] = abundance_delta
+        elif access_delta:
+            resource_effects[f"{resource}_access"] = access_delta
+
+    return resource_effects

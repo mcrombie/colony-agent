@@ -1099,3 +1099,10 @@ Day 91 - Blergen Personal Stories:
 - Kara Ivory (forager) discovered useful clay near the riverbank. Status unchanged.
 - Kara Ivory (forager) scouted beyond the settlement. Status unchanged.
 - Quin Hale (forager) scouted beyond the settlement. Status unchanged.
+
+Day 92 - Blergen Personal Stories:
+- Kara Ivory (forager) searched for forage. Status unchanged.
+- Mara Ivory (farmer) searched for forage. Status unchanged.
+- Quin Hale (forager) searched for forage. Status unchanged.
+- Kara Ivory (forager) scouted beyond the settlement. Status unchanged.
+- Quin Hale (forager) scouted beyond the settlement. Status unchanged.
