@@ -1,10 +1,10 @@
 {
-  "day": 95,
+  "day": 96,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 109,
-  "wood": 76,
+  "food": 94,
+  "wood": 81,
   "morale": 10,
   "security": 8,
   "health": 5,
@@ -7548,6 +7548,78 @@
         "deaths": []
       },
       "summary": "Scouts discovered useful clay near the riverbank. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
+    },
+    {
+      "day": 95,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 95,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 5,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "foraging",
+      "world_event": "foraging",
+      "event_details": {
+        "severity": 2
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -15,
+        "wood": 5
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "foraged_food",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              },
+              {
+                "id": "person_221",
+                "name": "Mara Ivory"
+              }
+            ],
+            "summary": "Kara Ivory, and Mara Ivory searched for edible stores beyond camp."
+          },
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              },
+              {
+                "id": "person_199",
+                "name": "Quin Hale"
+              }
+            ],
+            "summary": "Kara Ivory, and Quin Hale scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 2 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -14779,7 +14851,8 @@
           "Quin Hale searched for forage on day 92.",
           "Quin Hale scouted beyond the settlement on day 92.",
           "Quin Hale searched for forage on day 93.",
-          "Quin Hale scouted beyond the settlement on day 94."
+          "Quin Hale scouted beyond the settlement on day 94.",
+          "Quin Hale scouted beyond the settlement on day 95."
         ]
       }
     },
@@ -15473,7 +15546,9 @@
           "Kara Ivory searched for forage on day 93.",
           "Kara Ivory endured tighter rations on day 93.",
           "Kara Ivory discovered useful clay near the riverbank on day 94.",
-          "Kara Ivory scouted beyond the settlement on day 94."
+          "Kara Ivory scouted beyond the settlement on day 94.",
+          "Kara Ivory searched for forage on day 95.",
+          "Kara Ivory scouted beyond the settlement on day 95."
         ]
       }
     },
@@ -15541,7 +15616,8 @@
         "notable_events": [
           "Mara Ivory arrived with a Blergen Company settler convoy.",
           "Mara Ivory searched for forage on day 92.",
-          "Mara Ivory searched for forage on day 93."
+          "Mara Ivory searched for forage on day 93.",
+          "Mara Ivory searched for forage on day 95."
         ]
       }
     },
