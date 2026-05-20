@@ -279,3 +279,6 @@ Clear skies left the day's work mostly to the colony. A severity 3 foraging effo
 
 Day 93 (Year 1, April 3) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Dain Ivory ordered tighter food rationing; the day's changes increased food by 12, and reduced morale by 1. Kara Ivory, Mara Ivory, Quin Hale, and Soren Hale searched for edible stores beyond camp. Hana Ivory, Iris Ivory, Jory Ivory, and Kara Ivory felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 94 (Year 1, April 4) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Dain Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Kara Ivory discovered useful clay near the riverbank. Kara Ivory, and Quin Hale scouted beyond the settlement. The loss of people is beginning to define the settlement's future.

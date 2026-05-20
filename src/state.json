@@ -1,11 +1,11 @@
 {
-  "day": 94,
+  "day": 95,
   "year": 1,
   "colony_name": "Blergen",
   "population": 25,
-  "food": 134,
-  "wood": 71,
-  "morale": 9,
+  "food": 109,
+  "wood": 76,
+  "morale": 10,
   "security": 8,
   "health": 5,
   "known_threats": [
@@ -7470,6 +7470,84 @@
         "deaths": []
       },
       "summary": "A severity 4 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president ordered tighter food rationing."
+    },
+    {
+      "day": 94,
+      "year": 1,
+      "date": {
+        "year": 1,
+        "day_of_year": 94,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 4,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {
+        "resource": "clay",
+        "detail": "useful clay near the riverbank",
+        "quality": 2,
+        "abundance": 40,
+        "access": 1,
+        "effect_key": "clay_deposit"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_212",
+        "name": "Dain Ivory",
+        "since_day": 76
+      },
+      "effects": {
+        "food": -25,
+        "wood": 5,
+        "morale": 1,
+        "clay_deposit": 40
+      },
+      "survival_effects": {
+        "food": -25
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "useful clay near the riverbank",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              }
+            ],
+            "summary": "Kara Ivory discovered useful clay near the riverbank."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_219",
+                "name": "Kara Ivory"
+              },
+              {
+                "id": "person_199",
+                "name": "Quin Hale"
+              }
+            ],
+            "summary": "Kara Ivory, and Quin Hale scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered useful clay near the riverbank. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement."
     }
   ],
   "people": [
@@ -14700,7 +14778,8 @@
           "Quin Hale scouted beyond the settlement on day 91.",
           "Quin Hale searched for forage on day 92.",
           "Quin Hale scouted beyond the settlement on day 92.",
-          "Quin Hale searched for forage on day 93."
+          "Quin Hale searched for forage on day 93.",
+          "Quin Hale scouted beyond the settlement on day 94."
         ]
       }
     },
@@ -15280,7 +15359,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -15313,7 +15392,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -15346,7 +15425,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -15379,7 +15458,7 @@
       "status": {
         "alive": true,
         "health": 5,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -15392,7 +15471,9 @@
           "Kara Ivory searched for forage on day 92.",
           "Kara Ivory scouted beyond the settlement on day 92.",
           "Kara Ivory searched for forage on day 93.",
-          "Kara Ivory endured tighter rations on day 93."
+          "Kara Ivory endured tighter rations on day 93.",
+          "Kara Ivory discovered useful clay near the riverbank on day 94.",
+          "Kara Ivory scouted beyond the settlement on day 94."
         ]
       }
     },
@@ -15523,7 +15604,7 @@
       "clay": {
         "known": true,
         "quality": 2,
-        "abundance": 240,
+        "abundance": 280,
         "access": 6,
         "discovered_day": 25
       },

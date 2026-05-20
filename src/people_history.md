@@ -1116,3 +1116,8 @@ Day 93 - Blergen Personal Stories:
 - Iris Ivory (guard) endured tighter rations. morale 10->9.
 - Jory Ivory (teacher) endured tighter rations. morale 10->9.
 - Kara Ivory (forager) endured tighter rations. morale 10->9.
+
+Day 94 - Blergen Personal Stories:
+- Kara Ivory (forager) discovered useful clay near the riverbank. morale 9->10.
+- Kara Ivory (forager) scouted beyond the settlement. morale 9->10.
+- Quin Hale (forager) scouted beyond the settlement. Status unchanged.
