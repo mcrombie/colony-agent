@@ -1106,3 +1106,1042 @@ Day 92 - Blergen Personal Stories:
 - Quin Hale (forager) searched for forage. Status unchanged.
 - Kara Ivory (forager) scouted beyond the settlement. Status unchanged.
 - Quin Hale (forager) scouted beyond the settlement. Status unchanged.
+
+Day 93 - Blergen Personal Stories:
+- Hana Ivory (cook) was shaken by the silent oracle. health 6->5; morale 10->9.
+- Iris Ivory (guard) was shaken by the silent oracle. health 6->5; morale 10->9.
+- Jory Ivory (teacher) was shaken by the silent oracle. health 6->5; morale 10->9.
+
+Day 94 - Blergen Personal Stories:
+- Iris Ivory (guard) was shaken by the silent oracle. health 5->4; morale 9->8.
+- Jory Ivory (teacher) was shaken by the silent oracle. health 5->4; morale 9->8.
+- Kara Ivory (forager) was shaken by the silent oracle. health 4->3; morale 10->9.
+
+Day 95 - Blergen Personal Stories:
+- Kara Ivory (forager) discovered old trail markers beyond the fields. morale 9->10.
+- Kara Ivory (forager) scouted beyond the settlement. morale 9->10.
+- Quin Hale (forager) scouted beyond the settlement. morale 9->10.
+
+Day 96 - Blergen Personal Stories:
+- Kara Ivory (forager) searched for forage. morale 10->9.
+- Mara Ivory (farmer) searched for forage. morale 10->9.
+- Quin Hale (forager) searched for forage. Status unchanged.
+- Soren Hale (farmer) searched for forage. Status unchanged.
+- Kara Ivory (forager) endured tighter rations. morale 10->9.
+- Lio Ivory (carpenter) endured tighter rations. morale 10->9.
+- Mara Ivory (farmer) endured tighter rations. morale 10->9.
+- Niko Ivory (woodcutter) endured tighter rations. morale 10->9.
+
+Day 97 - Blergen Personal Stories:
+- Dain Ivory (woodcutter) fell ill. health 3->0; died.
+- Dain Ivory (woodcutter) received care. health 3->0; died.
+- Kara Ivory (forager) received care. health 3->5; morale 9->10.
+- Vera Hale (builder) received care. health 3->5.
+- Dain Ivory (woodcutter) died of illness. health 3->0; died.
+
+Day 98 - Blergen Personal Stories:
+- Soren Hale (farmer) searched for forage. Status unchanged.
+- Una Hale (scout) searched for forage. Status unchanged.
+- Ada Ivory (forager) searched for forage. Status unchanged.
+- Una Hale (scout) scouted beyond the settlement. Status unchanged.
+- Ada Ivory (forager) scouted beyond the settlement. Status unchanged.
+
+Day 99 - Blergen Personal Stories:
+- Cora Dove (farmer) rose as undead. Status unchanged.
+- Cora Dove (farmer) was destroyed as undead. Status unchanged.
+- Vera Hale (builder) went without a full ration. hunger 0->1.
+- Kara Ivory (forager) went without a full ration. hunger 0->1.
+- Mara Ivory (farmer) went without a full ration. hunger 0->1.
+- Niko Ivory (woodcutter) went without a full ration. hunger 0->1.
+- Pia Hale (teacher) went without a full ration. hunger 0->1.
+
+Day 100 - Blergen Personal Stories:
+- Una Hale (scout) searched for forage. morale 10->9.
+- Ada Ivory (forager) searched for forage. hunger 0->1.
+- Talia Hale (woodcutter) endured tighter rations. morale 10->9.
+- Una Hale (scout) endured tighter rations. morale 10->9.
+- Vera Hale (builder) endured tighter rations. morale 10->9.
+- Wynn Hale (healer) endured tighter rations. morale 10->9.
+- Rhea Hale (carpenter) went without a full ration. hunger 0->1.
+- Soren Hale (farmer) went without a full ration. hunger 0->1.
+- Xara Hale (cook) went without a full ration. hunger 0->1.
+- Yuri Hale (guard) went without a full ration. hunger 0->1.
+- Zara Hale (teacher) went without a full ration. hunger 0->1.
+- Ada Ivory (forager) went without a full ration. hunger 0->1.
+- Bram Ivory (carpenter) went without a full ration. hunger 0->1.
+- Cora Ivory (farmer) went without a full ration. hunger 0->1.
+
+Day 101 - Blergen Personal Stories:
+- Una Hale (scout) searched for forage. morale 9->10; hunger 0->1.
+- Ada Ivory (forager) searched for forage. hunger 1->0.
+- Cora Ivory (farmer) searched for forage. hunger 1->0.
+- Una Hale (scout) scouted beyond the settlement. morale 9->10; hunger 0->1.
+- Ada Ivory (forager) scouted beyond the settlement. hunger 1->0.
+- Kara Ivory (forager) went without a full ration. hunger 0->1.
+- Mara Ivory (farmer) went without a full ration. hunger 0->1.
+- Niko Ivory (woodcutter) went without a full ration. hunger 0->1.
+- Una Hale (scout) went without a full ration. morale 9->10; hunger 0->1.
+
+Day 102 - Blergen Personal Stories:
+- Una Hale (scout) bore the worst of the storm. health 4->3; morale 10->9; hunger 1->2.
+- Cora Ivory (farmer) bore the worst of the storm. health 4->3; morale 10->9; hunger 0->1.
+- Jory Ivory (teacher) bore the worst of the storm. health 4->3; morale 8->7; hunger 0->1.
+- Vera Hale (builder) went without a full ration. hunger 0->1.
+- Rhea Hale (carpenter) went without a full ration. hunger 0->1.
+- Soren Hale (farmer) went without a full ration. hunger 0->1.
+- Xara Hale (cook) went without a full ration. hunger 0->1.
+- Yuri Hale (guard) went without a full ration. hunger 0->1.
+- Zara Hale (teacher) went without a full ration. hunger 0->1.
+- Ada Ivory (forager) went without a full ration. hunger 0->1.
+- Bram Ivory (carpenter) went without a full ration. hunger 0->1.
+- Talia Hale (woodcutter) went without a full ration. hunger 0->1.
+- Wynn Hale (healer) went without a full ration. hunger 0->1.
+- Lio Ivory (carpenter) went without a full ration. hunger 0->1.
+- Pia Hale (teacher) went without a full ration. health 4->3; hunger 0->1.
+- Elia Ivory (scout) went without a full ration. hunger 0->1.
+- Finn Ivory (builder) went without a full ration. hunger 0->1.
+- Galen Ivory (healer) went without a full ration. hunger 0->1.
+- Hana Ivory (cook) went without a full ration. hunger 0->1.
+- Iris Ivory (guard) went without a full ration. hunger 0->1.
+- Quin Hale (forager) went without a full ration. health 4->3; hunger 0->1.
+- Cora Ivory (farmer) went without a full ration. health 4->3; morale 10->9; hunger 0->1.
+- Jory Ivory (teacher) went without a full ration. health 4->3; morale 8->7; hunger 0->1.
+- Kara Ivory (forager) went without a full ration. hunger 1->2.
+- Mara Ivory (farmer) went without a full ration. hunger 1->2.
+- Niko Ivory (woodcutter) went without a full ration. hunger 1->2.
+- Una Hale (scout) went without a full ration. health 4->3; morale 10->9; hunger 1->2.
+
+Day 103 - Blergen Personal Stories:
+- Ada Ivory (forager) searched for forage. hunger 1->0.
+- Cora Ivory (farmer) searched for forage. hunger 1->0.
+- Elia Ivory (scout) searched for forage. morale 8->9; hunger 1->0.
+- Kara Ivory (forager) searched for forage. hunger 2->1.
+- Ada Ivory (forager) scouted beyond the settlement. hunger 1->0.
+- Elia Ivory (scout) scouted beyond the settlement. morale 8->9; hunger 1->0.
+
+Day 104 - Blergen Personal Stories:
+- Una Hale (scout) bore the worst of the storm. health 3->0; morale 9->8; hunger 1->3; died.
+- Cora Ivory (farmer) bore the worst of the storm. health 3->1; morale 9->8; hunger 0->2.
+- Jory Ivory (teacher) bore the worst of the storm. health 3->1; morale 7->6; hunger 0->2.
+- Quin Hale (forager) bore the worst of the storm. health 3->1; morale 8->7; hunger 0->2.
+- Yuri Hale (guard) helped strengthen the settlement. health 4->3; hunger 0->1.
+- Bram Ivory (carpenter) helped strengthen the settlement. health 4->3; hunger 0->1.
+- Vera Hale (builder) went without a full ration. health 5->4; hunger 0->1.
+- Rhea Hale (carpenter) went without a full ration. health 4->3; hunger 0->1.
+- Soren Hale (farmer) went without a full ration. health 4->3; hunger 0->1.
+- Xara Hale (cook) went without a full ration. health 4->3; hunger 0->1.
+- Yuri Hale (guard) went without a full ration. health 4->3; hunger 0->1.
+- Zara Hale (teacher) went without a full ration. health 4->3; hunger 0->1.
+- Ada Ivory (forager) went without a full ration. health 4->3; hunger 0->1.
+- Bram Ivory (carpenter) went without a full ration. health 4->3; hunger 0->1.
+- Talia Hale (woodcutter) went without a full ration. health 4->3; hunger 0->1.
+- Wynn Hale (healer) went without a full ration. health 4->3; hunger 0->1.
+- Elia Ivory (scout) went without a full ration. health 4->3; hunger 0->1.
+- Lio Ivory (carpenter) went without a full ration. health 4->3; hunger 0->1.
+- Finn Ivory (builder) went without a full ration. health 4->3; hunger 0->1.
+- Galen Ivory (healer) went without a full ration. health 4->3; hunger 0->1.
+- Hana Ivory (cook) went without a full ration. health 4->3; hunger 0->1.
+- Iris Ivory (guard) went without a full ration. health 4->3; hunger 0->1.
+- Pia Hale (teacher) went without a full ration. health 3->2; hunger 0->1.
+- Kara Ivory (forager) went without a full ration. health 5->4; hunger 1->2.
+- Mara Ivory (farmer) went without a full ration. hunger 1->2.
+- Niko Ivory (woodcutter) went without a full ration. hunger 1->2.
+- Cora Ivory (farmer) went without a full ration. health 3->1; morale 9->8; hunger 0->2.
+- Quin Hale (forager) went without a full ration. health 3->1; morale 8->7; hunger 0->2.
+- Jory Ivory (teacher) went without a full ration. health 3->1; morale 7->6; hunger 0->2.
+- Una Hale (scout) went without a full ration. health 3->0; morale 9->8; hunger 1->3; died.
+- Una Hale (scout) died of starvation. health 3->0; morale 9->8; hunger 1->3; died.
+
+Day 105 - Blergen Personal Stories:
+- Elia Ivory (scout) searched for forage. morale 9->10; hunger 1->0.
+- Kara Ivory (forager) searched for forage. morale 9->10; hunger 2->1.
+- Mara Ivory (farmer) searched for forage. hunger 2->1.
+- Elia Ivory (scout) scouted beyond the settlement. morale 9->10; hunger 1->0.
+- Kara Ivory (forager) scouted beyond the settlement. morale 9->10; hunger 2->1.
+- Vera Hale (builder) went without a full ration. hunger 1->2.
+- Rhea Hale (carpenter) went without a full ration. hunger 1->2.
+- Soren Hale (farmer) went without a full ration. hunger 1->2.
+- Xara Hale (cook) went without a full ration. hunger 1->2.
+
+Day 106 - Blergen Personal Stories:
+- Kara Ivory (forager) searched for forage. hunger 1->0.
+- Mara Ivory (farmer) searched for forage. morale 9->10; hunger 1->0.
+- Quin Hale (forager) searched for forage. morale 7->10; hunger 1->0.
+- Soren Hale (farmer) searched for forage. hunger 2->1.
+- Kara Ivory (forager) scouted beyond the settlement. hunger 1->0.
+- Quin Hale (forager) scouted beyond the settlement. morale 7->10; hunger 1->0.
+
+Day 107 - Blergen Personal Stories:
+- Cora Ivory (farmer) bore the worst of the storm. morale 10->9; hunger 0->1.
+- Jory Ivory (teacher) bore the worst of the storm. morale 10->8.
+- Quin Hale (forager) bore the worst of the storm. morale 10->9; hunger 0->1.
+- Galen Ivory (healer) endured tighter rations. health 3->2; morale 10->9.
+- Hana Ivory (cook) endured tighter rations. health 3->2; morale 10->9.
+- Iris Ivory (guard) endured tighter rations. health 3->2; morale 10->9.
+- Jory Ivory (teacher) endured tighter rations. morale 10->8.
+- Mara Ivory (farmer) went without a full ration. health 5->4; hunger 0->1.
+- Niko Ivory (woodcutter) went without a full ration. health 5->4; hunger 0->1.
+- Kara Ivory (forager) went without a full ration. health 4->3; hunger 0->1.
+- Talia Hale (woodcutter) went without a full ration. health 3->2; hunger 0->1.
+- Wynn Hale (healer) went without a full ration. health 3->2; hunger 0->1.
+- Yuri Hale (guard) went without a full ration. health 3->2; hunger 0->1.
+- Zara Hale (teacher) went without a full ration. health 3->2; hunger 0->1.
+- Ada Ivory (forager) went without a full ration. health 3->2; hunger 0->1.
+- Bram Ivory (carpenter) went without a full ration. health 3->2; hunger 0->1.
+- Elia Ivory (scout) went without a full ration. health 3->2; hunger 0->1.
+- Finn Ivory (builder) went without a full ration. health 3->2; hunger 0->1.
+- Lio Ivory (carpenter) went without a full ration. health 3->2; hunger 0->1.
+- Pia Hale (teacher) went without a full ration. health 2->1; hunger 0->1.
+- Quin Hale (forager) went without a full ration. morale 10->9; hunger 0->1.
+- Cora Ivory (farmer) went without a full ration. morale 10->9; hunger 0->1.
+- Vera Hale (builder) went without a full ration. health 4->3; hunger 1->2.
+
+Day 108 - Blergen Personal Stories:
+- Kara Ivory (forager) searched for forage. hunger 1->0.
+- Mara Ivory (farmer) searched for forage. hunger 1->0.
+- Quin Hale (forager) searched for forage. morale 9->10; hunger 1->0.
+- Soren Hale (farmer) searched for forage. Status unchanged.
+- Kara Ivory (forager) scouted beyond the settlement. hunger 1->0.
+- Quin Hale (forager) scouted beyond the settlement. morale 9->10; hunger 1->0.
+
+Day 109 - Blergen Personal Stories:
+- Kara Ivory (forager) discovered useful clay near the riverbank. hunger 0->1.
+- Kara Ivory (forager) scouted beyond the settlement. hunger 0->1.
+- Quin Hale (forager) scouted beyond the settlement. hunger 0->1.
+- Mara Ivory (farmer) went without a full ration. hunger 0->1.
+- Niko Ivory (woodcutter) went without a full ration. hunger 0->1.
+- Kara Ivory (forager) went without a full ration. hunger 0->1.
+- Talia Hale (woodcutter) went without a full ration. hunger 0->1.
+- Wynn Hale (healer) went without a full ration. hunger 0->1.
+- Yuri Hale (guard) went without a full ration. hunger 0->1.
+- Zara Hale (teacher) went without a full ration. hunger 0->1.
+- Ada Ivory (forager) went without a full ration. hunger 0->1.
+- Bram Ivory (carpenter) went without a full ration. hunger 0->1.
+- Elia Ivory (scout) went without a full ration. hunger 0->1.
+- Finn Ivory (builder) went without a full ration. hunger 0->1.
+- Galen Ivory (healer) went without a full ration. hunger 0->1.
+- Hana Ivory (cook) went without a full ration. hunger 0->1.
+- Iris Ivory (guard) went without a full ration. hunger 0->1.
+- Lio Ivory (carpenter) went without a full ration. hunger 0->1.
+- Pia Hale (teacher) went without a full ration. hunger 0->1.
+- Quin Hale (forager) went without a full ration. hunger 0->1.
+
+Day 110 - Blergen Personal Stories:
+- Kara Ivory (forager) searched for forage. hunger 1->0.
+- Mara Ivory (farmer) searched for forage. hunger 1->0.
+- Quin Hale (forager) searched for forage. hunger 1->0.
+- Soren Hale (farmer) searched for forage. Status unchanged.
+- Kara Ivory (forager) scouted beyond the settlement. hunger 1->0.
+- Quin Hale (forager) scouted beyond the settlement. hunger 1->0.
+
+Day 111 - Blergen Personal Stories:
+- Cora Ivory (farmer) fell ill. health 1->3; hunger 0->1.
+- Cora Ivory (farmer) received care. health 1->3; hunger 0->1.
+- Jory Ivory (teacher) received care. health 1->3; hunger 0->1.
+- Soren Hale (farmer) received care. health 1->3; hunger 0->1.
+- Mara Ivory (farmer) went without a full ration. hunger 0->1.
+- Niko Ivory (woodcutter) went without a full ration. hunger 0->1.
+- Soren Hale (farmer) went without a full ration. health 1->3; hunger 0->1.
+- Vera Hale (builder) went without a full ration. hunger 0->1.
+- Cora Ivory (farmer) went without a full ration. health 1->3; hunger 0->1.
+- Jory Ivory (teacher) went without a full ration. health 1->3; hunger 0->1.
+- Kara Ivory (forager) went without a full ration. hunger 0->1.
+- Talia Hale (woodcutter) went without a full ration. hunger 0->1.
+- Wynn Hale (healer) went without a full ration. hunger 0->1.
+- Yuri Hale (guard) went without a full ration. hunger 0->1.
+- Zara Hale (teacher) went without a full ration. hunger 0->1.
+- Ada Ivory (forager) went without a full ration. hunger 0->1.
+- Bram Ivory (carpenter) went without a full ration. hunger 0->1.
+- Elia Ivory (scout) went without a full ration. hunger 0->1.
+- Finn Ivory (builder) went without a full ration. hunger 0->1.
+- Galen Ivory (healer) went without a full ration. hunger 0->1.
+- Hana Ivory (cook) went without a full ration. hunger 0->1.
+- Iris Ivory (guard) went without a full ration. hunger 0->1.
+- Lio Ivory (carpenter) went without a full ration. hunger 0->1.
+- Pia Hale (teacher) went without a full ration. hunger 0->1.
+- Quin Hale (forager) went without a full ration. hunger 0->1.
+- Xara Hale (cook) went without a full ration. hunger 0->1.
+- Rhea Hale (carpenter) died of illness. health 1->0; died.
+
+Day 112 - Blergen Personal Stories:
+- Quin Hale (forager) bore the worst of the storm. health 1->0; morale 10->9; hunger 1->3; died.
+- Xara Hale (cook) bore the worst of the storm. health 1->0; morale 10->9; hunger 1->3; died.
+- Pia Hale (teacher) bore the worst of the storm. health 1->0; morale 10->9; hunger 1->3; died.
+- Bram Ivory (carpenter) bore the worst of the storm. health 2->0; morale 10->9; hunger 1->3; died.
+- Vera Hale (builder) helped strengthen the settlement. health 3->2; hunger 1->2.
+- Yuri Hale (guard) helped strengthen the settlement. health 2->1; hunger 1->2.
+- Mara Ivory (farmer) went without a full ration. hunger 1->2.
+- Niko Ivory (woodcutter) went without a full ration. hunger 1->2.
+- Soren Hale (farmer) went without a full ration. health 3->2; hunger 1->2.
+- Vera Hale (builder) went without a full ration. health 3->2; hunger 1->2.
+- Cora Ivory (farmer) went without a full ration. health 3->2; hunger 1->2.
+- Jory Ivory (teacher) went without a full ration. hunger 1->2.
+- Kara Ivory (forager) went without a full ration. hunger 1->2.
+- Talia Hale (woodcutter) went without a full ration. health 2->1; hunger 1->2.
+- Wynn Hale (healer) went without a full ration. health 2->1; hunger 1->2.
+- Yuri Hale (guard) went without a full ration. health 2->1; hunger 1->2.
+- Zara Hale (teacher) went without a full ration. health 2->1; hunger 1->2.
+- Ada Ivory (forager) went without a full ration. health 2->1; hunger 1->2.
+- Elia Ivory (scout) went without a full ration. health 2->1; hunger 1->2.
+- Finn Ivory (builder) went without a full ration. health 2->1; hunger 1->2.
+- Galen Ivory (healer) went without a full ration. hunger 1->2.
+- Hana Ivory (cook) went without a full ration. hunger 1->2.
+- Iris Ivory (guard) went without a full ration. hunger 1->2.
+- Lio Ivory (carpenter) went without a full ration. hunger 1->2.
+- Pia Hale (teacher) went without a full ration. health 1->0; morale 10->9; hunger 1->3; died.
+- Quin Hale (forager) went without a full ration. health 1->0; morale 10->9; hunger 1->3; died.
+- Xara Hale (cook) went without a full ration. health 1->0; morale 10->9; hunger 1->3; died.
+- Bram Ivory (carpenter) went without a full ration. health 2->0; morale 10->9; hunger 1->3; died.
+- Pia Hale (teacher) died of starvation. health 1->0; morale 10->9; hunger 1->3; died.
+- Quin Hale (forager) died of starvation. health 1->0; morale 10->9; hunger 1->3; died.
+- Xara Hale (cook) died of starvation. health 1->0; morale 10->9; hunger 1->3; died.
+- Bram Ivory (carpenter) died of starvation. health 2->0; morale 10->9; hunger 1->3; died.
+
+Day 113 - Blergen Personal Stories:
+- Ada Ivory (forager) discovered old trail markers beyond the fields. health 1->0; hunger 2->3; died.
+- Ada Ivory (forager) worked the clay deposit. health 1->0; hunger 2->3; died.
+- Elia Ivory (scout) worked the clay deposit. health 1->0; hunger 2->3; died.
+- Mara Ivory (farmer) went without a full ration. health 4->0; hunger 2->3; died.
+- Niko Ivory (woodcutter) went without a full ration. health 4->0; hunger 2->3; died.
+- Jory Ivory (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Kara Ivory (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Soren Hale (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Vera Hale (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Cora Ivory (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Galen Ivory (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Hana Ivory (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Iris Ivory (guard) went without a full ration. health 2->0; hunger 2->3; died.
+- Lio Ivory (carpenter) went without a full ration. health 2->0; hunger 2->3; died.
+- Talia Hale (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Wynn Hale (healer) went without a full ration. health 1->0; hunger 2->3; died.
+- Yuri Hale (guard) went without a full ration. health 1->0; hunger 2->3; died.
+- Zara Hale (teacher) went without a full ration. health 1->0; hunger 2->3; died.
+- Ada Ivory (forager) went without a full ration. health 1->0; hunger 2->3; died.
+- Elia Ivory (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Finn Ivory (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Mara Ivory (farmer) died of starvation. health 4->0; hunger 2->3; died.
+- Niko Ivory (woodcutter) died of starvation. health 4->0; hunger 2->3; died.
+- Jory Ivory (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Kara Ivory (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Soren Hale (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Vera Hale (builder) died of starvation. health 2->0; hunger 2->3; died.
+- Cora Ivory (farmer) died of starvation. health 2->0; hunger 2->3; died.
+- Galen Ivory (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Hana Ivory (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Iris Ivory (guard) died of starvation. health 2->0; hunger 2->3; died.
+- Lio Ivory (carpenter) died of starvation. health 2->0; hunger 2->3; died.
+- Talia Hale (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Wynn Hale (healer) died of starvation. health 1->0; hunger 2->3; died.
+- Yuri Hale (guard) died of starvation. health 1->0; hunger 2->3; died.
+- Zara Hale (teacher) died of starvation. health 1->0; hunger 2->3; died.
+- Ada Ivory (forager) died of starvation. health 1->0; hunger 2->3; died.
+- Elia Ivory (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Finn Ivory (builder) died of starvation. health 1->0; hunger 2->3; died.
+
+Day 458 - Blergen Personal Stories:
+- Yuri Ivory (scout) discovered old trail markers beyond the fields. morale 6->8.
+- Yuri Ivory (scout) scouted beyond the settlement. morale 6->8.
+- Elia Joss (forager) scouted beyond the settlement. morale 6->7.
+
+Day 459 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. health 6->5.
+- Galen Joss (farmer) bore the worst of the storm. health 6->5; morale 8->7.
+- Rhea Ivory (cook) bore the worst of the storm. health 6->5; morale 8->7.
+- Zara Ivory (builder) helped strengthen the settlement. health 6->5.
+- Cora Joss (guard) helped strengthen the settlement. morale 8->9.
+
+Day 460 - Blergen Personal Stories:
+- Yuri Ivory (scout) discovered useful clay near the riverbank. morale 9->10.
+- Yuri Ivory (scout) scouted beyond the settlement. morale 9->10.
+- Elia Joss (forager) scouted beyond the settlement. morale 8->10.
+
+Day 461 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. health 5->4.
+- Galen Joss (farmer) bore the worst of the storm. health 5->4; morale 10->9.
+- Rhea Ivory (cook) bore the worst of the storm. health 5->4; morale 10->9.
+- Yuri Ivory (scout) bore the worst of the storm. health 6->5; morale 10->9.
+- Zara Ivory (builder) helped strengthen the settlement. health 5->4.
+- Cora Joss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 462 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. health 4->3.
+- Galen Joss (farmer) bore the worst of the storm. health 4->3; morale 9->10.
+- Rhea Ivory (cook) bore the worst of the storm. health 4->3; morale 9->10.
+- Cora Joss (guard) helped strengthen the settlement. Status unchanged.
+- Finn Joss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 463 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. health 3->2; morale 10->9.
+- Galen Joss (farmer) bore the worst of the storm. health 3->2; morale 10->9.
+- Rhea Ivory (cook) bore the worst of the storm. health 3->2; morale 10->9.
+- Cora Joss (guard) helped strengthen the settlement. Status unchanged.
+- Finn Joss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 464 - Blergen Personal Stories:
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Zara Ivory (builder) bore the worst of the storm. health 2->1; morale 9->10.
+- Cora Joss (guard) helped strengthen the settlement. Status unchanged.
+- Finn Joss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 465 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 10->9.
+- Galen Joss (farmer) bore the worst of the storm. morale 10->9.
+- Rhea Ivory (cook) bore the worst of the storm. morale 10->9.
+- Quin Ivory (healer) bore the worst of the storm. morale 10->9.
+- Finn Joss (carpenter) helped strengthen the settlement. Status unchanged.
+- Jory Joss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 466 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 9->8.
+- Galen Joss (farmer) bore the worst of the storm. morale 9->8.
+- Rhea Ivory (cook) bore the worst of the storm. morale 9->8.
+- Quin Ivory (healer) bore the worst of the storm. morale 9->8.
+- Finn Joss (carpenter) helped strengthen the settlement. Status unchanged.
+- Jory Joss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 467 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 8->10.
+- Galen Joss (farmer) bore the worst of the storm. morale 8->10.
+- Rhea Ivory (cook) bore the worst of the storm. morale 8->10.
+- Finn Joss (carpenter) helped strengthen the settlement. Status unchanged.
+- Jory Joss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 468 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 10->9.
+- Galen Joss (farmer) bore the worst of the storm. morale 10->9.
+- Rhea Ivory (cook) bore the worst of the storm. morale 10->9.
+
+Day 469 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 9->8.
+- Galen Joss (farmer) bore the worst of the storm. morale 9->8.
+- Rhea Ivory (cook) bore the worst of the storm. morale 9->8.
+- Hana Joss (woodcutter) joined the wood crews. Status unchanged.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+
+Day 470 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 8->7.
+- Galen Joss (farmer) bore the worst of the storm. morale 8->7.
+- Rhea Ivory (cook) bore the worst of the storm. morale 8->7.
+
+Day 471 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 7->6.
+- Galen Joss (farmer) bore the worst of the storm. morale 7->6.
+- Rhea Ivory (cook) bore the worst of the storm. morale 7->6.
+
+Day 472 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 6->5.
+- Galen Joss (farmer) bore the worst of the storm. morale 6->5.
+- Rhea Ivory (cook) bore the worst of the storm. morale 6->5.
+- Quin Ivory (healer) bore the worst of the storm. morale 10->9.
+- Orin Ivory (scout) worked the clay deposit. Status unchanged.
+- Pia Ivory (builder) worked the clay deposit. Status unchanged.
+
+Day 473 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 5->4.
+- Galen Joss (farmer) bore the worst of the storm. morale 5->4.
+- Rhea Ivory (cook) bore the worst of the storm. morale 5->4.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 474 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 4->3.
+- Galen Joss (farmer) bore the worst of the storm. morale 4->3.
+- Rhea Ivory (cook) bore the worst of the storm. morale 4->3.
+- Quin Ivory (healer) bore the worst of the storm. morale 9->8.
+
+Day 475 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 3->2.
+- Galen Joss (farmer) bore the worst of the storm. morale 3->2.
+- Rhea Ivory (cook) bore the worst of the storm. morale 3->2.
+
+Day 476 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 2->1.
+- Galen Joss (farmer) bore the worst of the storm. morale 2->1.
+- Rhea Ivory (cook) bore the worst of the storm. morale 2->1.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 477 - Blergen Personal Stories:
+- Una Ivory (forager) discovered fresh water north of camp. morale 8->10.
+- Una Ivory (forager) scouted beyond the settlement. morale 8->10.
+- Yuri Ivory (scout) scouted beyond the settlement. morale 8->9.
+
+Day 478 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 3->10.
+- Galen Joss (farmer) bore the worst of the storm. morale 2->10.
+- Rhea Ivory (cook) bore the worst of the storm. morale 3->10.
+- Soren Ivory (guard) helped strengthen the settlement. Status unchanged.
+- Vera Ivory (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 479 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 10->9.
+- Galen Joss (farmer) bore the worst of the storm. morale 10->9.
+- Rhea Ivory (cook) bore the worst of the storm. morale 10->9.
+- Quin Ivory (healer) bore the worst of the storm. morale 10->9.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 480 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 9->8.
+- Galen Joss (farmer) bore the worst of the storm. morale 9->8.
+- Rhea Ivory (cook) bore the worst of the storm. morale 9->8.
+
+Day 481 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 8->7.
+- Galen Joss (farmer) bore the worst of the storm. morale 8->7.
+- Rhea Ivory (cook) bore the worst of the storm. morale 8->7.
+- Quin Ivory (healer) bore the worst of the storm. morale 9->8.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 482 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 7->6.
+- Galen Joss (farmer) bore the worst of the storm. morale 7->6.
+- Rhea Ivory (cook) bore the worst of the storm. morale 7->6.
+
+Day 483 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. morale 6->5.
+- Rhea Ivory (cook) bore the worst of the storm. morale 6->5.
+- Quin Ivory (healer) bore the worst of the storm. morale 8->7.
+- Zara Ivory (builder) helped strengthen the settlement. Status unchanged.
+- Cora Joss (guard) helped strengthen the settlement. morale 9->10.
+
+Day 484 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 6->5.
+- Galen Joss (farmer) bore the worst of the storm. morale 5->4.
+- Rhea Ivory (cook) bore the worst of the storm. morale 5->4.
+- Quin Ivory (healer) bore the worst of the storm. morale 7->6.
+- Yuri Ivory (scout) worked the clay deposit. Status unchanged.
+- Zara Ivory (builder) worked the clay deposit. morale 6->5.
+
+Day 485 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 5->4.
+- Galen Joss (farmer) bore the worst of the storm. morale 4->3.
+- Rhea Ivory (cook) bore the worst of the storm. morale 4->3.
+
+Day 486 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 4->3.
+- Galen Joss (farmer) bore the worst of the storm. morale 3->2.
+- Rhea Ivory (cook) bore the worst of the storm. morale 3->2.
+- Quin Ivory (healer) bore the worst of the storm. morale 6->5.
+
+Day 487 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 3->2.
+- Galen Joss (farmer) bore the worst of the storm. morale 2->1.
+- Rhea Ivory (cook) bore the worst of the storm. morale 2->1.
+
+Day 488 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 2->1.
+- Galen Joss (farmer) bore the worst of the storm. morale 1->0.
+- Rhea Ivory (cook) bore the worst of the storm. morale 1->0.
+- Quin Ivory (healer) bore the worst of the storm. morale 5->4.
+
+Day 489 - Blergen Personal Stories:
+- Elia Joss (forager) discovered fresh water north of camp. morale 6->8.
+- Elia Joss (forager) scouted beyond the settlement. morale 6->8.
+- Iris Joss (scout) scouted beyond the settlement. morale 6->7.
+
+Day 490 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 2->1.
+- Galen Joss (farmer) bore the worst of the storm. morale 1->0.
+- Rhea Ivory (cook) bore the worst of the storm. morale 1->0.
+
+Day 491 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. morale 1->0.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Quin Ivory (healer) bore the worst of the storm. morale 6->5.
+- Finn Joss (carpenter) joined the wood crews. Status unchanged.
+- Hana Joss (woodcutter) joined the wood crews. Status unchanged.
+
+Day 492 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Finn Joss (carpenter) joined the wood crews. Status unchanged.
+- Hana Joss (woodcutter) joined the wood crews. Status unchanged.
+
+Day 493 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Quin Ivory (healer) bore the worst of the storm. morale 5->4.
+- Hana Joss (woodcutter) joined the wood crews. Status unchanged.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+
+Day 494 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Hana Joss (woodcutter) joined the wood crews. Status unchanged.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+
+Day 495 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Jory Joss (builder) helped strengthen the settlement. morale 7->8.
+- Mara Joss (guard) helped strengthen the settlement. morale 8->9.
+
+Day 496 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Jory Joss (builder) helped strengthen the settlement. morale 8->9.
+- Mara Joss (guard) helped strengthen the settlement. morale 9->10.
+
+Day 497 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Quin Ivory (healer) bore the worst of the storm. morale 5->4.
+
+Day 498 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+
+Day 499 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Quin Ivory (healer) bore the worst of the storm. morale 4->3.
+- Orin Ivory (scout) worked the clay deposit. Status unchanged.
+- Pia Ivory (builder) worked the clay deposit. Status unchanged.
+
+Day 500 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. Status unchanged.
+- Quin Ivory (healer) bore the worst of the storm. morale 3->2.
+
+Day 501 - Blergen Personal Stories:
+- Zara Ivory (builder) received care. health 1->3; morale 0->1.
+- Galen Joss (farmer) received care. health 1->3; morale 0->1.
+- Rhea Ivory (cook) received care. health 1->3; morale 0->1.
+
+Day 502 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. morale 2->1.
+- Pia Ivory (builder) bore the worst of the storm. morale 4->3.
+- Orin Ivory (scout) bore the worst of the storm. morale 4->3.
+
+Day 503 - Blergen Personal Stories:
+- Yuri Ivory (scout) bore the worst of the storm. health 1->3.
+- Quin Ivory (healer) bore the worst of the storm. health 1->3.
+- Xara Ivory (woodcutter) bore the worst of the storm. health 1->3.
+- Pia Ivory (builder) bore the worst of the storm. morale 3->2.
+- Yuri Ivory (scout) received care. health 1->3.
+- Quin Ivory (healer) received care. health 1->3.
+- Xara Ivory (woodcutter) received care. health 1->3.
+
+Day 504 - Blergen Personal Stories:
+- Pia Ivory (builder) bore the worst of the storm. health 1->3.
+- Wynn Ivory (farmer) bore the worst of the storm. health 1->3.
+- Orin Ivory (scout) bore the worst of the storm. health 1->3.
+- Pia Ivory (builder) received care. health 1->3.
+- Wynn Ivory (farmer) received care. health 1->3.
+- Orin Ivory (scout) received care. health 1->3.
+
+Day 505 - Blergen Personal Stories:
+- Vera Ivory (carpenter) bore the worst of the storm. health 1->3.
+- Una Ivory (forager) bore the worst of the storm. health 1->3.
+- Talia Ivory (teacher) bore the worst of the storm. health 1->3.
+- Vera Ivory (carpenter) received care. health 1->3.
+- Una Ivory (forager) received care. health 1->3.
+- Talia Ivory (teacher) received care. health 1->3.
+
+Day 506 - Blergen Personal Stories:
+- Soren Ivory (guard) bore the worst of the storm. morale 2->1.
+- Zara Ivory (builder) bore the worst of the storm. health 2->1; morale 2->1.
+- Rhea Ivory (cook) bore the worst of the storm. health 2->1; morale 3->2.
+
+Day 507 - Blergen Personal Stories:
+- Zara Ivory (builder) bore the worst of the storm. health 1->3.
+- Rhea Ivory (cook) bore the worst of the storm. health 1->3.
+- Elia Joss (forager) bore the worst of the storm. health 1->3.
+- Zara Ivory (builder) received care. health 1->3.
+- Rhea Ivory (cook) received care. health 1->3.
+- Elia Joss (forager) received care. health 1->3.
+
+Day 508 - Blergen Personal Stories:
+- Dain Joss (teacher) bore the worst of the storm. morale 5->4.
+- Bram Joss (cook) bore the worst of the storm. morale 5->4.
+- Ada Joss (healer) bore the worst of the storm. morale 5->4.
+- Soren Ivory (guard) bore the worst of the storm. morale 1->0.
+
+Day 509 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. morale 5->4.
+- Pia Ivory (builder) bore the worst of the storm. morale 5->4.
+- Dain Joss (teacher) bore the worst of the storm. morale 4->3.
+- Zara Ivory (builder) shaped clay storage pottery. morale 1->2.
+- Bram Joss (cook) shaped clay storage pottery. morale 4->5.
+
+Day 510 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. morale 4->3.
+- Pia Ivory (builder) bore the worst of the storm. morale 4->3.
+- Dain Joss (teacher) bore the worst of the storm. morale 3->2.
+- Orin Ivory (scout) bore the worst of the storm. morale 6->5.
+
+Day 511 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. morale 3->2.
+- Pia Ivory (builder) bore the worst of the storm. morale 3->2.
+- Dain Joss (teacher) bore the worst of the storm. morale 2->1.
+- Orin Ivory (scout) bore the worst of the storm. morale 5->4.
+- Zara Ivory (builder) joined the mediation circle. morale 1->2.
+- Ada Joss (healer) joined the mediation circle. morale 3->4.
+
+Day 512 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. morale 2->1.
+- Pia Ivory (builder) bore the worst of the storm. morale 2->1.
+- Dain Joss (teacher) bore the worst of the storm. morale 1->0.
+
+Day 513 - Blergen Personal Stories:
+- Elia Joss (forager) discovered fresh water north of camp. morale 5->7.
+- Elia Joss (forager) scouted beyond the settlement. morale 5->7.
+- Iris Joss (scout) scouted beyond the settlement. morale 4->5.
+
+Day 514 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. morale 3->2.
+- Pia Ivory (builder) bore the worst of the storm. morale 3->2.
+- Dain Joss (teacher) bore the worst of the storm. morale 1->0.
+
+Day 515 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. morale 2->1.
+- Pia Ivory (builder) bore the worst of the storm. morale 2->1.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. morale 6->5.
+- Finn Joss (carpenter) joined the wood crews. Status unchanged.
+- Hana Joss (woodcutter) joined the wood crews. Status unchanged.
+
+Day 516 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. morale 1->0.
+- Pia Ivory (builder) bore the worst of the storm. morale 1->0.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+
+Day 517 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. morale 5->4.
+
+Day 518 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+
+Day 519 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. morale 4->3.
+
+Day 520 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. morale 3->2.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 521 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. morale 2->1.
+
+Day 522 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. morale 1->0.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 523 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+
+Day 524 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+
+Day 525 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. hunger 0->1.
+- Pia Ivory (builder) bore the worst of the storm. hunger 0->1.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. hunger 0->1.
+- Orin Ivory (scout) endured tighter rations. hunger 0->1.
+- Pia Ivory (builder) endured tighter rations. hunger 0->1.
+- Quin Ivory (healer) endured tighter rations. hunger 0->1.
+- Rhea Ivory (cook) endured tighter rations. Status unchanged.
+
+Day 526 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 527 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 528 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Soren Ivory (guard) helped strengthen the settlement. morale 0->1.
+- Vera Ivory (carpenter) helped strengthen the settlement. morale 0->1.
+
+Day 529 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Soren Ivory (guard) endured tighter rations. morale 1->0.
+- Talia Ivory (teacher) endured tighter rations. Status unchanged.
+- Una Ivory (forager) endured tighter rations. Status unchanged.
+- Vera Ivory (carpenter) endured tighter rations. morale 1->0.
+
+Day 530 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+
+Day 531 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 532 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Vera Ivory (carpenter) joined the wood crews. Status unchanged.
+- Xara Ivory (woodcutter) joined the wood crews. Status unchanged.
+
+Day 533 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Zara Ivory (builder) helped strengthen the settlement. morale 0->1.
+- Cora Joss (guard) helped strengthen the settlement. morale 0->1.
+
+Day 534 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+
+Day 535 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. Status unchanged.
+- Pia Ivory (builder) bore the worst of the storm. Status unchanged.
+- Orin Ivory (scout) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Bram Joss (cook) harvested the ready crops. Status unchanged.
+- Elia Joss (forager) harvested the ready crops. Status unchanged.
+- Galen Joss (farmer) harvested the ready crops. Status unchanged.
+
+Day 536 - Blergen Personal Stories:
+- Quin Ivory (healer) bore the worst of the storm. health 1->3; morale 0->1.
+- Pia Ivory (builder) bore the worst of the storm. health 1->3; morale 0->1.
+- Orin Ivory (scout) bore the worst of the storm. health 1->3; morale 0->1.
+- Dain Joss (teacher) bore the worst of the storm. Status unchanged.
+- Quin Ivory (healer) received care. health 1->3; morale 0->1.
+- Pia Ivory (builder) received care. health 1->3; morale 0->1.
+- Orin Ivory (scout) received care. health 1->3; morale 0->1.
+
+Day 537 - Blergen Personal Stories:
+- Dain Joss (teacher) bore the worst of the storm. health 1->3; morale 0->1.
+- Una Ivory (forager) bore the worst of the storm. health 1->3; morale 0->1.
+- Bram Joss (cook) bore the worst of the storm. health 1->3; morale 0->1.
+- Talia Ivory (teacher) bore the worst of the storm. Status unchanged.
+- Dain Joss (teacher) received care. health 1->3; morale 0->1.
+- Una Ivory (forager) received care. health 1->3; morale 0->1.
+- Bram Joss (cook) received care. health 1->3; morale 0->1.
+
+Day 538 - Blergen Personal Stories:
+- Talia Ivory (teacher) bore the worst of the storm. health 1->3; morale 0->1.
+- Ada Joss (healer) bore the worst of the storm. health 1->3; morale 0->1.
+- Soren Ivory (guard) bore the worst of the storm. Status unchanged.
+- Galen Joss (farmer) bore the worst of the storm. health 2->3; morale 0->1.
+- Galen Joss (farmer) received care. health 2->3; morale 0->1.
+- Talia Ivory (teacher) received care. health 1->3; morale 0->1.
+- Ada Joss (healer) received care. health 1->3; morale 0->1.
+
+Day 539 - Blergen Personal Stories:
+- Soren Ivory (guard) bore the worst of the storm. Status unchanged.
+- Rhea Ivory (cook) bore the worst of the storm. health 2->3; morale 0->1.
+- Yuri Ivory (scout) bore the worst of the storm. health 2->3; morale 0->1.
+- Xara Ivory (woodcutter) bore the worst of the storm. health 2->3.
+- Rhea Ivory (cook) received care. health 2->3; morale 0->1.
+- Yuri Ivory (scout) received care. health 2->3; morale 0->1.
+- Xara Ivory (woodcutter) received care. health 2->3.
+
+Day 540 - Blergen Personal Stories:
+- Soren Ivory (guard) bore the worst of the storm. Status unchanged.
+- Lio Joss (cook) bore the worst of the storm. health 2->1; morale 4->3.
+- Wynn Ivory (farmer) bore the worst of the storm. health 2->1.
+- Kara Joss (healer) bore the worst of the storm. health 2->1; morale 4->3.
+- Dain Joss (teacher) endured tighter rations. morale 1->0.
+- Elia Joss (forager) endured tighter rations. Status unchanged.
+- Finn Joss (carpenter) endured tighter rations. morale 1->0.
+- Galen Joss (farmer) endured tighter rations. morale 1->0.
+
+Day 541 - Blergen Personal Stories:
+- Lio Joss (cook) bore the worst of the storm. morale 3->2.
+- Wynn Ivory (farmer) bore the worst of the storm. Status unchanged.
+- Kara Joss (healer) bore the worst of the storm. morale 3->2.
+- Vera Ivory (carpenter) bore the worst of the storm. Status unchanged.
+- Elia Joss (forager) worked the clay deposit. Status unchanged.
+- Iris Joss (scout) worked the clay deposit. Status unchanged.
+
+Day 542 - Blergen Personal Stories:
+- Lio Joss (cook) bore the worst of the storm. health 1->3; hunger 0->2.
+- Wynn Ivory (farmer) bore the worst of the storm. health 1->3; morale 0->1; hunger 0->2.
+- Kara Joss (healer) bore the worst of the storm. health 1->3; hunger 0->2.
+- Vera Ivory (carpenter) bore the worst of the storm. hunger 0->2.
+- Lio Joss (cook) received care. health 1->3; hunger 0->2.
+- Wynn Ivory (farmer) received care. health 1->3; morale 0->1; hunger 0->2.
+- Kara Joss (healer) received care. health 1->3; hunger 0->2.
+- Cora Joss (guard) went without a full ration. hunger 0->1.
+- Finn Joss (carpenter) went without a full ration. hunger 0->1.
+- Dain Joss (teacher) went without a full ration. hunger 0->1.
+- Elia Joss (forager) went without a full ration. hunger 0->1.
+- Galen Joss (farmer) went without a full ration. hunger 0->1.
+- Mara Joss (guard) went without a full ration. hunger 0->1.
+- Xara Ivory (woodcutter) went without a full ration. hunger 0->1.
+- Yuri Ivory (scout) went without a full ration. hunger 0->1.
+- Zara Ivory (builder) went without a full ration. hunger 0->1.
+- Ada Joss (healer) went without a full ration. hunger 0->1.
+- Bram Joss (cook) went without a full ration. hunger 0->1.
+- Orin Ivory (scout) went without a full ration. hunger 0->1.
+- Pia Ivory (builder) went without a full ration. hunger 0->1.
+- Quin Ivory (healer) went without a full ration. hunger 0->1.
+- Rhea Ivory (cook) went without a full ration. hunger 0->1.
+- Talia Ivory (teacher) went without a full ration. hunger 0->1.
+- Una Ivory (forager) went without a full ration. hunger 0->1.
+- Hana Joss (woodcutter) went without a full ration. hunger 0->1.
+- Jory Joss (builder) went without a full ration. hunger 0->1.
+- Soren Ivory (guard) went without a full ration. hunger 0->1.
+- Iris Joss (scout) went without a full ration. hunger 0->1.
+- Kara Joss (healer) went without a full ration. health 1->3; hunger 0->2.
+- Lio Joss (cook) went without a full ration. health 1->3; hunger 0->2.
+- Wynn Ivory (farmer) went without a full ration. health 1->3; morale 0->1; hunger 0->2.
+- Vera Ivory (carpenter) went without a full ration. hunger 0->2.
+
+Day 543 - Blergen Personal Stories:
+- Vera Ivory (carpenter) bore the worst of the storm. health 1->0; morale 0->1; hunger 2->4; died.
+- Jory Joss (builder) bore the worst of the storm. health 1->0; hunger 1->3; died.
+- Iris Joss (scout) bore the worst of the storm. health 1->0; morale 0->1; hunger 1->3; died.
+- Hana Joss (woodcutter) bore the worst of the storm. health 1->0; morale 3->2; hunger 1->2; died.
+- Soren Ivory (guard) bore the worst of the storm. health 1->0; hunger 1->3; died.
+- Vera Ivory (carpenter) received care. health 1->0; morale 0->1; hunger 2->4; died.
+- Jory Joss (builder) received care. health 1->0; hunger 1->3; died.
+- Iris Joss (scout) received care. health 1->0; morale 0->1; hunger 1->3; died.
+- Cora Joss (guard) went without a full ration. hunger 1->2.
+- Finn Joss (carpenter) went without a full ration. hunger 1->2.
+- Dain Joss (teacher) went without a full ration. hunger 1->2.
+- Elia Joss (forager) went without a full ration. hunger 1->2.
+- Galen Joss (farmer) went without a full ration. hunger 1->2.
+- Mara Joss (guard) went without a full ration. hunger 1->2.
+- Xara Ivory (woodcutter) went without a full ration. health 2->1; hunger 1->2.
+- Yuri Ivory (scout) went without a full ration. health 2->1; hunger 1->2.
+- Zara Ivory (builder) went without a full ration. hunger 1->2.
+- Ada Joss (healer) went without a full ration. hunger 1->2.
+- Bram Joss (cook) went without a full ration. hunger 1->2.
+- Orin Ivory (scout) went without a full ration. health 2->1; hunger 1->2.
+- Pia Ivory (builder) went without a full ration. health 2->1; hunger 1->2.
+- Quin Ivory (healer) went without a full ration. health 2->1; hunger 1->2.
+- Rhea Ivory (cook) went without a full ration. health 2->1; hunger 1->2.
+- Talia Ivory (teacher) went without a full ration. health 2->1; hunger 1->2.
+- Una Ivory (forager) went without a full ration. health 2->1; hunger 1->2.
+- Jory Joss (builder) went without a full ration. health 1->0; hunger 1->3; died.
+- Kara Joss (healer) went without a full ration. health 3->0; hunger 2->3; died.
+- Lio Joss (cook) went without a full ration. health 3->0; hunger 2->3; died.
+- Wynn Ivory (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Iris Joss (scout) went without a full ration. health 1->0; morale 0->1; hunger 1->3; died.
+- Soren Ivory (guard) went without a full ration. health 1->0; hunger 1->3; died.
+- Vera Ivory (carpenter) went without a full ration. health 1->0; morale 0->1; hunger 2->4; died.
+- Hana Joss (woodcutter) died of storm. health 1->0; morale 3->2; hunger 1->2; died.
+- Jory Joss (builder) died of starvation. health 1->0; hunger 1->3; died.
+- Kara Joss (healer) died of starvation. health 3->0; hunger 2->3; died.
+- Lio Joss (cook) died of starvation. health 3->0; hunger 2->3; died.
+- Wynn Ivory (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Iris Joss (scout) died of starvation. health 1->0; morale 0->1; hunger 1->3; died.
+- Soren Ivory (guard) died of starvation. health 1->0; hunger 1->3; died.
+- Vera Ivory (carpenter) died of starvation. health 1->0; morale 0->1; hunger 2->4; died.
+
+Day 544 - Blergen Personal Stories:
+- Rhea Ivory (cook) bore the worst of the storm. hunger 2->3.
+- Yuri Ivory (scout) bore the worst of the storm. morale 1->0.
+- Quin Ivory (healer) bore the worst of the storm. hunger 2->3.
+- Xara Ivory (woodcutter) bore the worst of the storm. health 1->0; morale 2->1; hunger 2->4; died.
+- Orin Ivory (scout) endured tighter rations. health 1->0; hunger 2->4; died.
+- Pia Ivory (builder) endured tighter rations. Status unchanged.
+- Quin Ivory (healer) endured tighter rations. hunger 2->3.
+- Rhea Ivory (cook) endured tighter rations. hunger 2->3.
+- Cora Joss (guard) went without a full ration. health 4->0; hunger 2->3; died.
+- Finn Joss (carpenter) went without a full ration. health 4->0; hunger 2->3; died.
+- Dain Joss (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Elia Joss (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Galen Joss (farmer) went without a full ration. health 3->0; hunger 2->3; died.
+- Mara Joss (guard) went without a full ration. health 2->0; hunger 2->3; died.
+- Zara Ivory (builder) went without a full ration. health 2->0; hunger 2->3; died.
+- Ada Joss (healer) went without a full ration. health 2->0; hunger 2->3; died.
+- Bram Joss (cook) went without a full ration. health 2->0; hunger 2->3; died.
+- Talia Ivory (teacher) went without a full ration. health 1->0; hunger 2->3; died.
+- Una Ivory (forager) went without a full ration. health 1->0; hunger 2->3; died.
+- Xara Ivory (woodcutter) went without a full ration. health 1->0; morale 2->1; hunger 2->4; died.
+- Orin Ivory (scout) went without a full ration. health 1->0; hunger 2->4; died.
+- Cora Joss (guard) died of starvation. health 4->0; hunger 2->3; died.
+- Finn Joss (carpenter) died of starvation. health 4->0; hunger 2->3; died.
+- Dain Joss (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Elia Joss (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Galen Joss (farmer) died of starvation. health 3->0; hunger 2->3; died.
+- Mara Joss (guard) died of starvation. health 2->0; hunger 2->3; died.
+- Zara Ivory (builder) died of starvation. health 2->0; hunger 2->3; died.
+- Ada Joss (healer) died of starvation. health 2->0; hunger 2->3; died.
+- Bram Joss (cook) died of starvation. health 2->0; hunger 2->3; died.
+- Talia Ivory (teacher) died of starvation. health 1->0; hunger 2->3; died.
+- Una Ivory (forager) died of starvation. health 1->0; hunger 2->3; died.
+- Xara Ivory (woodcutter) died of starvation. health 1->0; morale 2->1; hunger 2->4; died.
+- Orin Ivory (scout) died of starvation. health 1->0; hunger 2->4; died.
+
+Day 545 - Blergen Personal Stories:
+- Rhea Ivory (cook) bore the worst of the storm. hunger 3->4.
+- Quin Ivory (healer) bore the worst of the storm. health 1->0; hunger 3->6; died.
+- Yuri Ivory (scout) bore the worst of the storm. health 1->0; hunger 2->5; died.
+- Pia Ivory (builder) bore the worst of the storm. health 1->0; hunger 2->5; died.
+- Quin Ivory (healer) endured tighter rations. health 1->0; hunger 3->6; died.
+- Rhea Ivory (cook) endured tighter rations. hunger 3->4.
+- Yuri Ivory (scout) endured tighter rations. health 1->0; hunger 2->5; died.
+- Pia Ivory (builder) endured tighter rations. health 1->0; hunger 2->5; died.
+- Pia Ivory (builder) went without a full ration. health 1->0; hunger 2->5; died.
+- Yuri Ivory (scout) went without a full ration. health 1->0; hunger 2->5; died.
+- Quin Ivory (healer) went without a full ration. health 1->0; hunger 3->6; died.
+- Pia Ivory (builder) died of starvation. health 1->0; hunger 2->5; died.
+- Yuri Ivory (scout) died of starvation. health 1->0; hunger 2->5; died.
+- Quin Ivory (healer) died of starvation. health 1->0; hunger 3->6; died.
+
+Day 546 - Blergen Personal Stories:
+- Rhea Ivory (cook) bore the worst of the storm. health 1->0; hunger 4->5; died.
+- Rhea Ivory (cook) died of storm. health 1->0; hunger 4->5; died.

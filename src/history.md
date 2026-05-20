@@ -276,3 +276,2196 @@ Clear skies left the day's work mostly to the colony. A discovery gave the colon
 
 Day 92 (Year 1, April 2) - Blergen:
 Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Dain Ivory sent scouts beyond the settlement; the day's changes reduced food by 4, and increased wood by 5. Kara Ivory, Mara Ivory, and Quin Hale searched for edible stores beyond camp. Kara Ivory, and Quin Hale scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 93 (Year 1, April 3) - Blergen:
+Clear skies left the day's work mostly to the colony. The chaos gods struck the colony, and President Dain Ivory told the colonists to preserve resources; the day's changes reduced food by 25, reduced morale by 1, reduced security by 1, and reduced health by 1. Hana Ivory, Iris Ivory, and Jory Ivory were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 94 (Year 1, April 4) - Blergen:
+Clear skies left the day's work mostly to the colony. The chaos gods struck the colony, and President Dain Ivory told the colonists to preserve resources; the day's changes reduced food by 25, reduced morale by 1, reduced security by 1, and reduced health by 1. Iris Ivory, Jory Ivory, and Kara Ivory were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 95 (Year 1, April 5) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Dain Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 2, and increased trail marker access by 1. Kara Ivory discovered old trail markers beyond the fields. Kara Ivory, and Quin Hale scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 96 (Year 1, April 6) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Dain Ivory ordered tighter food rationing; the day's changes increased food by 12, and reduced morale by 1. Kara Ivory, Mara Ivory, Quin Hale, and Soren Hale searched for edible stores beyond camp. Kara Ivory, Lio Ivory, Mara Ivory, and Niko Ivory felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 97 (Year 1, April 7) - Blergen:
+Clear skies left the day's work mostly to the colony. Illness moved through the colony, and President Dain Ivory organized care for the sick; the day's changes reduced population by 1, reduced food by 36, and increased health by 1. Dain Ivory fell ill. Dain Ivory, Kara Ivory, and Vera Hale received care. Dain Ivory died. The loss of people is beginning to define the settlement's future.
+
+Day 98 (Year 1, April 8) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Kara Ivory sent scouts beyond the settlement; the day's changes reduced food by 4, increased wood by 5, and increased morale by 1. Soren Hale, Una Hale, and Ada Ivory searched for edible stores beyond camp. Una Hale, and Ada Ivory scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 99 (Year 1, April 9) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 undead rising threatened the colony, and President Kara Ivory ordered the undead destroyed; the day's changes reduced food by 19, reduced morale by 1, and reduced security by 1. Cora Dove rose from the dead. Cora Dove was destroyed before the infection could spread. The loss of people is beginning to define the settlement's future.
+
+Day 100 (Year 1, April 10) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 foraging effort searched for food, and President Kara Ivory ordered tighter food rationing; the day's changes reduced morale by 1. Una Hale, and Ada Ivory searched for edible stores beyond camp. Talia Hale, Una Hale, Vera Hale, and Wynn Hale felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 101 (Year 1, April 11) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Kara Ivory sent scouts beyond the settlement; the day's changes increased wood by 5, and increased morale by 1. Una Hale, Ada Ivory, and Cora Ivory searched for edible stores beyond camp. Una Hale, and Ada Ivory scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 102 (Year 1, April 12) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 storm tested the colony, and President Kara Ivory told the colonists to preserve resources; the day's changes reduced wood by 2, reduced morale by 1, and reduced health by 1. Una Hale, Cora Ivory, and Jory Ivory bore the worst of the storm. Vera Hale, Rhea Hale, and Soren Hale, and 21 others went without full rations. The loss of people is beginning to define the settlement's future.
+
+Day 103 (Year 1, April 13) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Kara Ivory sent scouts beyond the settlement; the day's changes increased food by 6, increased wood by 5, and increased morale by 1. Ada Ivory, Cora Ivory, Elia Ivory, and Kara Ivory searched for edible stores beyond camp. Ada Ivory, and Elia Ivory scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 104 (Year 1, April 14) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 storm tested the colony, and President Kara Ivory spent wood to strengthen the settlement; the day's changes reduced population by 1, reduced food by 6, reduced wood by 14, reduced morale by 1, increased security by 1, and reduced health by 1. Una Hale, Cora Ivory, Jory Ivory, and Quin Hale bore the worst of the storm. Yuri Hale, and Bram Ivory helped strengthen the settlement. Una Hale died. The loss of people is beginning to define the settlement's future.
+
+Day 105 (Year 1, April 15) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Kara Ivory sent scouts beyond the settlement; the day's changes increased wood by 5, and increased morale by 1. Elia Ivory, Kara Ivory, and Mara Ivory searched for edible stores beyond camp. Elia Ivory, and Kara Ivory scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 106 (Year 1, April 16) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Kara Ivory sent scouts beyond the settlement; the day's changes increased food by 6, increased wood by 5, and increased morale by 1. Kara Ivory, Mara Ivory, Quin Hale, and Soren Hale searched for edible stores beyond camp. Kara Ivory, and Quin Hale scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 107 (Year 1, April 17) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 storm tested the colony, and President Kara Ivory ordered tighter food rationing; the day's changes reduced food by 6, reduced wood by 2, reduced morale by 1, and reduced health by 1. Cora Ivory, Jory Ivory, and Quin Hale bore the worst of the storm. Galen Ivory, Hana Ivory, Iris Ivory, and Jory Ivory felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 108 (Year 1, April 18) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Kara Ivory sent scouts beyond the settlement; the day's changes increased food by 6, increased wood by 5, and increased morale by 1. Kara Ivory, Mara Ivory, Quin Hale, and Soren Hale searched for edible stores beyond camp. Kara Ivory, and Quin Hale scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 109 (Year 1, April 19) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Kara Ivory sent scouts beyond the settlement; the day's changes reduced food by 6, increased wood by 5, and increased known clay deposit by 40. Kara Ivory discovered useful clay near the riverbank. Kara Ivory, and Quin Hale scouted beyond the settlement. Mara Ivory, Niko Ivory, and Kara Ivory, and 14 others went without full rations. The loss of people is beginning to define the settlement's future.
+
+Day 110 (Year 1, April 20) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Kara Ivory sent scouts beyond the settlement; the day's changes increased food by 6, and increased wood by 5. Kara Ivory, Mara Ivory, Quin Hale, and Soren Hale searched for edible stores beyond camp. Kara Ivory, and Quin Hale scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 111 (Year 1, April 21) - Blergen:
+Clear skies left the day's work mostly to the colony. Illness moved through the colony, and President Kara Ivory organized care for the sick; the day's changes reduced population by 1, reduced food by 6, and increased health by 1. Cora Ivory fell ill. Cora Ivory, Jory Ivory, and Soren Hale received care. Mara Ivory, Niko Ivory, and Soren Hale, and 19 others went without full rations. Rhea Hale died. The loss of people is beginning to define the settlement's future.
+
+Day 112 (Year 1, April 22) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 storm tested the colony, and President Kara Ivory spent wood to strengthen the settlement; the day's changes reduced population by 4, reduced wood by 14, increased security by 1, and reduced health by 1. Quin Hale, Xara Hale, Pia Hale, and Bram Ivory bore the worst of the storm. Vera Hale, and Yuri Hale helped strengthen the settlement. Pia Hale, Quin Hale, and Xara Hale, and 1 others died. The loss of people is beginning to define the settlement's future.
+
+Day 113 (Year 1, April 23) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Kara Ivory sent crews to work the clay deposit; the day's changes reduced population by 18, reduced morale by 10, reduced health by 1, increased clay by 36, reduced known clay deposit by 36, and increased trail marker access by 1. Ada Ivory discovered old trail markers beyond the fields. Ada Ivory, and Elia Ivory worked the clay deposit. Mara Ivory, Niko Ivory, and Jory Ivory, and 15 others went without full rations. Mara Ivory, Niko Ivory, and Jory Ivory, and 15 others died. No colonists remain in Blergen.
+
+Day 114 (Year 1, April 24) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 115 (Year 1, April 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 116 (Year 1, April 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 117 (Year 1, April 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 118 (Year 1, April 28) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 119 (Year 1, April 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 120 (Year 1, April 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 121 (Year 1, May 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 122 (Year 1, May 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 123 (Year 1, May 3) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 124 (Year 1, May 4) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 125 (Year 1, May 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 126 (Year 1, May 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 127 (Year 1, May 7) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 128 (Year 1, May 8) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 129 (Year 1, May 9) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 130 (Year 1, May 10) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 131 (Year 1, May 11) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 132 (Year 1, May 12) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 133 (Year 1, May 13) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 134 (Year 1, May 14) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 135 (Year 1, May 15) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 136 (Year 1, May 16) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 137 (Year 1, May 17) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 138 (Year 1, May 18) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 139 (Year 1, May 19) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 140 (Year 1, May 20) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 141 (Year 1, May 21) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 142 (Year 1, May 22) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 143 (Year 1, May 23) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 144 (Year 1, May 24) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 145 (Year 1, May 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 146 (Year 1, May 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 147 (Year 1, May 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 148 (Year 1, May 28) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 149 (Year 1, May 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 150 (Year 1, May 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 151 (Year 1, May 31) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 152 (Year 1, June 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 153 (Year 1, June 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 154 (Year 1, June 3) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 155 (Year 1, June 4) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 156 (Year 1, June 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 157 (Year 1, June 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 158 (Year 1, June 7) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 159 (Year 1, June 8) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 160 (Year 1, June 9) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 161 (Year 1, June 10) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 162 (Year 1, June 11) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 163 (Year 1, June 12) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 164 (Year 1, June 13) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 165 (Year 1, June 14) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 166 (Year 1, June 15) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 167 (Year 1, June 16) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 168 (Year 1, June 17) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 169 (Year 1, June 18) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 170 (Year 1, June 19) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 171 (Year 1, June 20) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 172 (Year 1, June 21) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 173 (Year 1, June 22) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 174 (Year 1, June 23) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 175 (Year 1, June 24) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 176 (Year 1, June 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 177 (Year 1, June 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 178 (Year 1, June 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 179 (Year 1, June 28) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 180 (Year 1, June 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 181 (Year 1, June 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 182 (Year 1, July 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 183 (Year 1, July 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 184 (Year 1, July 3) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 185 (Year 1, July 4) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 186 (Year 1, July 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 187 (Year 1, July 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 188 (Year 1, July 7) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 189 (Year 1, July 8) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 190 (Year 1, July 9) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 191 (Year 1, July 10) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 192 (Year 1, July 11) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 193 (Year 1, July 12) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 194 (Year 1, July 13) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 195 (Year 1, July 14) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 196 (Year 1, July 15) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 197 (Year 1, July 16) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 198 (Year 1, July 17) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 199 (Year 1, July 18) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 200 (Year 1, July 19) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 201 (Year 1, July 20) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 202 (Year 1, July 21) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 203 (Year 1, July 22) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 204 (Year 1, July 23) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 205 (Year 1, July 24) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 206 (Year 1, July 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 207 (Year 1, July 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 208 (Year 1, July 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 209 (Year 1, July 28) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 210 (Year 1, July 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 211 (Year 1, July 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 212 (Year 1, July 31) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 213 (Year 1, August 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 214 (Year 1, August 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 215 (Year 1, August 3) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 216 (Year 1, August 4) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 217 (Year 1, August 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 218 (Year 1, August 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 219 (Year 1, August 7) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 220 (Year 1, August 8) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 221 (Year 1, August 9) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 222 (Year 1, August 10) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 223 (Year 1, August 11) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 224 (Year 1, August 12) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 225 (Year 1, August 13) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 226 (Year 1, August 14) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 227 (Year 1, August 15) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 228 (Year 1, August 16) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 229 (Year 1, August 17) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 230 (Year 1, August 18) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 231 (Year 1, August 19) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 232 (Year 1, August 20) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 233 (Year 1, August 21) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 234 (Year 1, August 22) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 235 (Year 1, August 23) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 236 (Year 1, August 24) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 237 (Year 1, August 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 238 (Year 1, August 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 239 (Year 1, August 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 240 (Year 1, August 28) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 241 (Year 1, August 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 242 (Year 1, August 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 243 (Year 1, August 31) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 244 (Year 1, September 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 245 (Year 1, September 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 246 (Year 1, September 3) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 247 (Year 1, September 4) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 248 (Year 1, September 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 249 (Year 1, September 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 250 (Year 1, September 7) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 251 (Year 1, September 8) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 252 (Year 1, September 9) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 253 (Year 1, September 10) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 254 (Year 1, September 11) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 255 (Year 1, September 12) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 256 (Year 1, September 13) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 257 (Year 1, September 14) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 258 (Year 1, September 15) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 259 (Year 1, September 16) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 260 (Year 1, September 17) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 261 (Year 1, September 18) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 262 (Year 1, September 19) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 263 (Year 1, September 20) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 264 (Year 1, September 21) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 265 (Year 1, September 22) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 266 (Year 1, September 23) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 267 (Year 1, September 24) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 268 (Year 1, September 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 269 (Year 1, September 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 270 (Year 1, September 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 271 (Year 1, September 28) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 272 (Year 1, September 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 273 (Year 1, September 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 274 (Year 1, October 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 275 (Year 1, October 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 276 (Year 1, October 3) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 277 (Year 1, October 4) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 278 (Year 1, October 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 279 (Year 1, October 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 280 (Year 1, October 7) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 281 (Year 1, October 8) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 282 (Year 1, October 9) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 283 (Year 1, October 10) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 284 (Year 1, October 11) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 285 (Year 1, October 12) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 286 (Year 1, October 13) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 287 (Year 1, October 14) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 288 (Year 1, October 15) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 289 (Year 1, October 16) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 290 (Year 1, October 17) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 291 (Year 1, October 18) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 292 (Year 1, October 19) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 293 (Year 1, October 20) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 294 (Year 1, October 21) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 295 (Year 1, October 22) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 296 (Year 1, October 23) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 297 (Year 1, October 24) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 298 (Year 1, October 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 299 (Year 1, October 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 300 (Year 1, October 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 301 (Year 1, October 28) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 302 (Year 1, October 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 303 (Year 1, October 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 304 (Year 1, October 31) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 305 (Year 1, November 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 306 (Year 1, November 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 307 (Year 1, November 3) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 308 (Year 1, November 4) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 309 (Year 1, November 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 310 (Year 1, November 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 311 (Year 1, November 7) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 312 (Year 1, November 8) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 313 (Year 1, November 9) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 314 (Year 1, November 10) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 315 (Year 1, November 11) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 316 (Year 1, November 12) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 317 (Year 1, November 13) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 318 (Year 1, November 14) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 319 (Year 1, November 15) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 320 (Year 1, November 16) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 321 (Year 1, November 17) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 322 (Year 1, November 18) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 323 (Year 1, November 19) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 324 (Year 1, November 20) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 325 (Year 1, November 21) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 326 (Year 1, November 22) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 327 (Year 1, November 23) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 328 (Year 1, November 24) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 329 (Year 1, November 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 330 (Year 1, November 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 331 (Year 1, November 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 332 (Year 1, November 28) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 333 (Year 1, November 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 334 (Year 1, November 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 335 (Year 1, December 1) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 336 (Year 1, December 2) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 337 (Year 1, December 3) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 338 (Year 1, December 4) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 339 (Year 1, December 5) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 340 (Year 1, December 6) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 341 (Year 1, December 7) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 342 (Year 1, December 8) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 343 (Year 1, December 9) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 344 (Year 1, December 10) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 345 (Year 1, December 11) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 346 (Year 1, December 12) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 347 (Year 1, December 13) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 348 (Year 1, December 14) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 349 (Year 1, December 15) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 350 (Year 1, December 16) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 351 (Year 1, December 17) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 352 (Year 1, December 18) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 353 (Year 1, December 19) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 354 (Year 1, December 20) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 355 (Year 1, December 21) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 356 (Year 1, December 22) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 357 (Year 1, December 23) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 358 (Year 1, December 24) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 359 (Year 1, December 25) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 360 (Year 1, December 26) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 361 (Year 1, December 27) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 362 (Year 1, December 28) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 363 (Year 1, December 29) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 364 (Year 1, December 30) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 365 (Year 1, December 31) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 366 (Year 2, January 1) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 367 (Year 2, January 2) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 368 (Year 2, January 3) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 369 (Year 2, January 4) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 370 (Year 2, January 5) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 371 (Year 2, January 6) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 372 (Year 2, January 7) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 373 (Year 2, January 8) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 374 (Year 2, January 9) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 375 (Year 2, January 10) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 376 (Year 2, January 11) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 377 (Year 2, January 12) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 378 (Year 2, January 13) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 379 (Year 2, January 14) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 380 (Year 2, January 15) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 381 (Year 2, January 16) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 382 (Year 2, January 17) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 383 (Year 2, January 18) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 384 (Year 2, January 19) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 385 (Year 2, January 20) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 386 (Year 2, January 21) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 387 (Year 2, January 22) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 388 (Year 2, January 23) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 389 (Year 2, January 24) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 390 (Year 2, January 25) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 391 (Year 2, January 26) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 392 (Year 2, January 27) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 393 (Year 2, January 28) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 394 (Year 2, January 29) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 395 (Year 2, January 30) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 396 (Year 2, January 31) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 397 (Year 2, February 1) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 398 (Year 2, February 2) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 399 (Year 2, February 3) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 400 (Year 2, February 4) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 401 (Year 2, February 5) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 402 (Year 2, February 6) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 403 (Year 2, February 7) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 404 (Year 2, February 8) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 405 (Year 2, February 9) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 406 (Year 2, February 10) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 407 (Year 2, February 11) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 408 (Year 2, February 12) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 409 (Year 2, February 13) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 410 (Year 2, February 14) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 411 (Year 2, February 15) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 412 (Year 2, February 16) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 413 (Year 2, February 17) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 414 (Year 2, February 18) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 415 (Year 2, February 19) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 416 (Year 2, February 20) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 417 (Year 2, February 21) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 418 (Year 2, February 22) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 419 (Year 2, February 23) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 420 (Year 2, February 24) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 421 (Year 2, February 25) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 422 (Year 2, February 26) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 423 (Year 2, February 27) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 424 (Year 2, February 28) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 425 (Year 2, March 1) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 426 (Year 2, March 2) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 427 (Year 2, March 3) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 428 (Year 2, March 4) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 429 (Year 2, March 5) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 430 (Year 2, March 6) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 431 (Year 2, March 7) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 432 (Year 2, March 8) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 433 (Year 2, March 9) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 434 (Year 2, March 10) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 435 (Year 2, March 11) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 436 (Year 2, March 12) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 437 (Year 2, March 13) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 438 (Year 2, March 14) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 439 (Year 2, March 15) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 440 (Year 2, March 16) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 441 (Year 2, March 17) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 442 (Year 2, March 18) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 443 (Year 2, March 19) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 444 (Year 2, March 20) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 445 (Year 2, March 21) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 446 (Year 2, March 22) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 447 (Year 2, March 23) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 448 (Year 2, March 24) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 449 (Year 2, March 25) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 450 (Year 2, March 26) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 451 (Year 2, March 27) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 452 (Year 2, March 28) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 453 (Year 2, March 29) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 454 (Year 2, March 30) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 455 (Year 2, March 31) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 456 (Year 2, April 1) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 457 (Year 2, April 2) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 458 (Year 2, April 3) - Blergen:
+Blergen Company sent 25 new settlers to Blergen. Blergen Company sent 2500 food to Blergen. Blergen Company sent supplies to Blergen: 80 wood and 4 security. Strong wind worried the roofs and watch posts. A discovery gave the colony something new to discuss, and President Zara Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 2, reduced security by 1, and increased trail marker access by 1. Yuri Ivory discovered old trail markers beyond the fields. Yuri Ivory, and Elia Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 459 (Year 2, April 4) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, increased morale by 1, and reduced health by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Zara Ivory, and Cora Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 460 (Year 2, April 5) - Blergen:
+Strong wind worried the roofs and watch posts. A discovery gave the colony something new to discuss, and President Zara Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, reduced security by 1, and increased known clay deposit by 40. Yuri Ivory discovered useful clay near the riverbank. Yuri Ivory, and Elia Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 461 (Year 2, April 6) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 31, reduced wood by 14, reduced morale by 1, and reduced health by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Yuri Ivory bore the worst of the storm. Zara Ivory, and Cora Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 462 (Year 2, April 7) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, increased morale by 1, and reduced health by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Cora Joss, and Finn Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 463 (Year 2, April 8) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, reduced morale by 1, and reduced health by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Cora Joss, and Finn Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 464 (Year 2, April 9) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, increased morale by 1, and reduced health by 1. Pia Ivory, Orin Ivory, and Zara Ivory bore the worst of the storm. Cora Joss, and Finn Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 465 (Year 2, April 10) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 31, reduced wood by 14, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Finn Joss, and Jory Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 466 (Year 2, April 11) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 31, and reduced wood by 14. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Finn Joss, and Jory Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 467 (Year 2, April 12) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, and increased morale by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Finn Joss, and Jory Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 468 (Year 2, April 13) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29, reduced morale by 1, and reduced security by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 469 (Year 2, April 14) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 29, increased wood by 8, and reduced security by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Hana Joss, and Vera Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 470 (Year 2, April 15) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 29, and reduced wood by 2. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 471 (Year 2, April 16) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29, and reduced wood by 2. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 472 (Year 2, April 17) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory sent crews to work the clay deposit; the day's changes reduced food by 31, reduced wood by 4, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Orin Ivory, and Pia Ivory worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 473 (Year 2, April 18) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 29, and increased wood by 8. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 474 (Year 2, April 19) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 31, reduced wood by 4, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 475 (Year 2, April 20) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29, and reduced wood by 2. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 476 (Year 2, April 21) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 29, and increased wood by 8. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 477 (Year 2, April 22) - Blergen:
+Strong wind worried the roofs and watch posts. A discovery gave the colony something new to discuss, and President Zara Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 2, and increased fresh water access by 1. Una Ivory discovered fresh water north of camp. Una Ivory, and Yuri Ivory scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 478 (Year 2, April 23) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, and increased morale by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Soren Ivory, and Vera Ivory helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 479 (Year 2, April 24) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 31, increased wood by 6, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 480 (Year 2, April 25) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29, and reduced wood by 2. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 481 (Year 2, April 26) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 31, increased wood by 6, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 482 (Year 2, April 27) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29, and reduced wood by 2. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 483 (Year 2, April 28) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 31, and reduced wood by 11. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Zara Ivory, and Cora Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 484 (Year 2, April 29) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory sent crews to work the clay deposit; the day's changes reduced food by 31, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Yuri Ivory, and Zara Ivory worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 485 (Year 2, April 30) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 486 (Year 2, May 1) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 31, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 487 (Year 2, May 2) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 29. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 488 (Year 2, May 3) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 31, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 489 (Year 2, May 4) - Blergen:
+Strong wind worried the roofs and watch posts. A discovery gave the colony something new to discuss, and President Zara Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 2, and increased fresh water access by 1. Elia Joss discovered fresh water north of camp. Elia Joss, and Iris Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 490 (Year 2, May 5) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29, reduced wood by 2, and reduced morale by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 491 (Year 2, May 6) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 31, increased wood by 6, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Finn Joss, and Hana Joss joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 492 (Year 2, May 7) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 29, and increased wood by 8. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Finn Joss, and Hana Joss joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 493 (Year 2, May 8) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 31, increased wood by 6, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Hana Joss, and Vera Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 494 (Year 2, May 9) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 29, and increased wood by 8. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Hana Joss, and Vera Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 495 (Year 2, May 10) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, and increased morale by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Jory Joss, and Mara Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 496 (Year 2, May 11) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 29, reduced wood by 12, and increased morale by 1. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. Jory Joss, and Mara Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 497 (Year 2, May 12) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 31, reduced wood by 4, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 498 (Year 2, May 13) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29, and reduced wood by 2. Zara Ivory, Galen Joss, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 499 (Year 2, May 14) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory sent crews to work the clay deposit; the day's changes reduced food by 31, reduced wood by 1, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. Orin Ivory, and Pia Ivory worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 500 (Year 2, May 15) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 31, and reduced morale by 1. Zara Ivory, Galen Joss, Rhea Ivory, and Quin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 501 (Year 2, May 16) - Blergen:
+Strong wind worried the roofs and watch posts. No major world event overtook Blergen, and President Zara Ivory organized care for the sick; the day's changes reduced food by 37, increased morale by 1, and increased health by 1. Zara Ivory, Galen Joss, and Rhea Ivory received care. The loss of people is beginning to define the settlement's future.
+
+Day 502 (Year 2, May 17) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 29, reduced morale by 1, and reduced health by 1. Quin Ivory, Pia Ivory, and Orin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 503 (Year 2, May 18) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 43, and increased health by 1. Yuri Ivory, Quin Ivory, Xara Ivory, and Pia Ivory bore the worst of the storm. Yuri Ivory, Quin Ivory, and Xara Ivory received care. The loss of people is beginning to define the settlement's future.
+
+Day 504 (Year 2, May 19) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 41, and increased morale by 1. Pia Ivory, Wynn Ivory, and Orin Ivory bore the worst of the storm. Pia Ivory, Wynn Ivory, and Orin Ivory received care. The loss of people is beginning to define the settlement's future.
+
+Day 505 (Year 2, May 20) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 41, and increased morale by 1. Vera Ivory, Una Ivory, and Talia Ivory bore the worst of the storm. Vera Ivory, Una Ivory, and Talia Ivory received care. The loss of people is beginning to define the settlement's future.
+
+Day 506 (Year 2, May 21) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 29, reduced morale by 1, and reduced health by 1. Soren Ivory, Zara Ivory, and Rhea Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 507 (Year 2, May 22) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 41, increased morale by 1, and increased health by 1. Zara Ivory, Rhea Ivory, and Elia Joss bore the worst of the storm. Zara Ivory, Rhea Ivory, and Elia Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 508 (Year 2, May 23) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 31, reduced morale by 1, and reduced health by 1. Dain Joss, Bram Joss, Ada Joss, and Soren Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 509 (Year 2, May 24) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory ordered clay shaped into storage pottery; the day's changes reduced food by 29, reduced clay by 8, and increased pottery by 1. Quin Ivory, Pia Ivory, and Dain Joss bore the worst of the storm. Zara Ivory, and Bram Joss shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 510 (Year 2, May 25) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 30, and reduced morale by 1. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 511 (Year 2, May 26) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory worked to mediate the tension; the day's changes reduced food by 30. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. Zara Ivory, and Ada Joss joined the mediation circle. The loss of people is beginning to define the settlement's future.
+
+Day 512 (Year 2, May 27) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 28. Quin Ivory, Pia Ivory, and Dain Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 513 (Year 2, May 28) - Blergen:
+Strong wind worried the roofs and watch posts. A discovery gave the colony something new to discuss, and President Zara Ivory sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 2, and increased fresh water access by 1. Elia Joss discovered fresh water north of camp. Elia Joss, and Iris Joss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 514 (Year 2, May 29) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 28, reduced wood by 2, and reduced morale by 1. Quin Ivory, Pia Ivory, and Dain Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 515 (Year 2, May 30) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 30, increased wood by 6, and reduced morale by 1. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. Finn Joss, and Hana Joss joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 516 (Year 2, May 31) - Blergen:
+Strong wind worried the roofs and watch posts. A severity 3 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 28, and reduced wood by 2. Quin Ivory, Pia Ivory, and Dain Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 517 (Year 2, June 1) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 30, reduced wood by 4, and reduced morale by 1. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 518 (Year 2, June 2) - Blergen:
+A thunderstorm rolled over the settlement. A severity 3 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 28, and reduced wood by 2. Quin Ivory, Pia Ivory, and Dain Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 519 (Year 2, June 3) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 30, reduced wood by 1, and reduced morale by 1. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 520 (Year 2, June 4) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 30, increased wood by 6, and reduced morale by 1. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 521 (Year 2, June 5) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 30, and reduced wood by 4. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 522 (Year 2, June 6) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 30, and increased wood by 6. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 523 (Year 2, June 7) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 30, and reduced wood by 4. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 524 (Year 2, June 8) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 30, and reduced wood by 4. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 525 (Year 2, June 9) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory ordered tighter food rationing; the day's changes reduced food by 24. Quin Ivory, Pia Ivory, Dain Joss, and Orin Ivory bore the worst of the storm. Orin Ivory, Pia Ivory, Quin Ivory, and Rhea Ivory felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 526 (Year 2, June 10) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 30, and increased wood by 6. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 527 (Year 2, June 11) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 30, and increased wood by 6. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 528 (Year 2, June 12) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 30, and reduced wood by 12. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Soren Ivory, and Vera Ivory helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 529 (Year 2, June 13) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory ordered tighter food rationing; the day's changes reduced food by 24. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Soren Ivory, Talia Ivory, Una Ivory, and Vera Ivory felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 530 (Year 2, June 14) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory tried to strengthen the settlement, but there was not enough wood; the day's changes reduced food by 30. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 531 (Year 2, June 15) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 30, and increased wood by 6. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 532 (Year 2, June 16) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory sent crews out to gather wood; the day's changes reduced food by 30, and increased wood by 6. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Vera Ivory, and Xara Ivory joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 533 (Year 2, June 17) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory spent wood to strengthen the settlement; the day's changes reduced food by 30, and reduced wood by 12. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Zara Ivory, and Cora Joss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 534 (Year 2, June 18) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory told the colonists to preserve resources; the day's changes reduced food by 30. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 535 (Year 2, June 19) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory ordered the ready crops harvested; the day's changes increased food by 45, and reduced prepared crop fields by 75. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Bram Joss, Elia Joss, and Galen Joss harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 536 (Year 2, June 20) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 42, increased morale by 1, and increased health by 1. Quin Ivory, Pia Ivory, Orin Ivory, and Dain Joss bore the worst of the storm. Quin Ivory, Pia Ivory, and Orin Ivory received care. The loss of people is beginning to define the settlement's future.
+
+Day 537 (Year 2, June 21) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 42. Dain Joss, Una Ivory, Bram Joss, and Talia Ivory bore the worst of the storm. Dain Joss, Una Ivory, and Bram Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 538 (Year 2, June 22) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 42. Talia Ivory, Ada Joss, Soren Ivory, and Galen Joss bore the worst of the storm. Galen Joss, Talia Ivory, and Ada Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 539 (Year 2, June 23) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 42. Soren Ivory, Rhea Ivory, Yuri Ivory, and Xara Ivory bore the worst of the storm. Rhea Ivory, Yuri Ivory, and Xara Ivory received care. The loss of people is beginning to define the settlement's future.
+
+Day 540 (Year 2, June 24) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory ordered tighter food rationing; the day's changes reduced food by 24, reduced morale by 1, and reduced health by 1. Soren Ivory, Lio Joss, Wynn Ivory, and Kara Joss bore the worst of the storm. Dain Joss, Elia Joss, Finn Joss, and Galen Joss felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 541 (Year 2, June 25) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory sent crews to work the clay deposit; the day's changes reduced food by 30, increased clay by 39, and reduced known clay deposit by 39. Lio Joss, Wynn Ivory, Kara Joss, and Vera Ivory bore the worst of the storm. Elia Joss, and Iris Joss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 542 (Year 2, June 26) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced food by 14, and increased health by 1. Lio Joss, Wynn Ivory, Kara Joss, and Vera Ivory bore the worst of the storm. Lio Joss, Wynn Ivory, and Kara Joss received care. The loss of people is beginning to define the settlement's future.
+
+Day 543 (Year 2, June 27) - Blergen:
+A thunderstorm rolled over the settlement. A severity 5 storm tested the colony, and President Zara Ivory organized care for the sick; the day's changes reduced population by 8, and reduced health by 1. Vera Ivory, Jory Joss, Iris Joss, Hana Joss, and Soren Ivory bore the worst of the storm. Vera Ivory, Jory Joss, and Iris Joss received care. Hana Joss, Jory Joss, and Kara Joss, and 5 others died. The loss of people is beginning to define the settlement's future.
+
+Day 544 (Year 2, June 28) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Zara Ivory ordered tighter food rationing; the day's changes reduced population by 13. Rhea Ivory, Yuri Ivory, Quin Ivory, and Xara Ivory bore the worst of the storm. Orin Ivory, Pia Ivory, Quin Ivory, and Rhea Ivory felt the tighter rations first. Cora Joss, Finn Joss, and Dain Joss, and 10 others died. The loss of people is beginning to define the settlement's future.
+
+Day 545 (Year 2, June 29) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Rhea Ivory ordered tighter food rationing; the day's changes reduced population by 3. Rhea Ivory, Quin Ivory, Yuri Ivory, and Pia Ivory bore the worst of the storm. Quin Ivory, Rhea Ivory, Yuri Ivory, and Pia Ivory felt the tighter rations first. Pia Ivory, Yuri Ivory, and Quin Ivory died. The loss of people is beginning to define the settlement's future.
+
+Day 546 (Year 2, June 30) - Blergen:
+A thunderstorm rolled over the settlement. A severity 5 storm tested the colony, and President Rhea Ivory told the colonists to preserve resources; the day's changes reduced population by 1, and reduced health by 1. Rhea Ivory bore the worst of the storm. Rhea Ivory died. No colonists remain in Blergen.
+
+Day 547 (Year 2, July 1) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 548 (Year 2, July 2) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 549 (Year 2, July 3) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 550 (Year 2, July 4) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 551 (Year 2, July 5) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 552 (Year 2, July 6) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 553 (Year 2, July 7) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 554 (Year 2, July 8) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 555 (Year 2, July 9) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 556 (Year 2, July 10) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 557 (Year 2, July 11) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 558 (Year 2, July 12) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 559 (Year 2, July 13) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 560 (Year 2, July 14) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 561 (Year 2, July 15) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 562 (Year 2, July 16) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 563 (Year 2, July 17) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 564 (Year 2, July 18) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 565 (Year 2, July 19) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 566 (Year 2, July 20) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 567 (Year 2, July 21) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 568 (Year 2, July 22) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 569 (Year 2, July 23) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 570 (Year 2, July 24) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 571 (Year 2, July 25) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 572 (Year 2, July 26) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 573 (Year 2, July 27) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 574 (Year 2, July 28) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 575 (Year 2, July 29) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 576 (Year 2, July 30) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 577 (Year 2, July 31) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 578 (Year 2, August 1) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 579 (Year 2, August 2) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 580 (Year 2, August 3) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 581 (Year 2, August 4) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 582 (Year 2, August 5) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 583 (Year 2, August 6) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 584 (Year 2, August 7) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 585 (Year 2, August 8) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 586 (Year 2, August 9) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 587 (Year 2, August 10) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 588 (Year 2, August 11) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 589 (Year 2, August 12) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 590 (Year 2, August 13) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 591 (Year 2, August 14) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 592 (Year 2, August 15) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 593 (Year 2, August 16) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 594 (Year 2, August 17) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 595 (Year 2, August 18) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 596 (Year 2, August 19) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 597 (Year 2, August 20) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 598 (Year 2, August 21) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 599 (Year 2, August 22) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 600 (Year 2, August 23) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 601 (Year 2, August 24) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 602 (Year 2, August 25) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 603 (Year 2, August 26) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 604 (Year 2, August 27) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 605 (Year 2, August 28) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 606 (Year 2, August 29) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 607 (Year 2, August 30) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 608 (Year 2, August 31) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 609 (Year 2, September 1) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 610 (Year 2, September 2) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 611 (Year 2, September 3) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 612 (Year 2, September 4) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 613 (Year 2, September 5) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 614 (Year 2, September 6) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 615 (Year 2, September 7) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 616 (Year 2, September 8) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 617 (Year 2, September 9) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 618 (Year 2, September 10) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 619 (Year 2, September 11) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 620 (Year 2, September 12) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 621 (Year 2, September 13) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 622 (Year 2, September 14) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 623 (Year 2, September 15) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 624 (Year 2, September 16) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 625 (Year 2, September 17) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 626 (Year 2, September 18) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 627 (Year 2, September 19) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 628 (Year 2, September 20) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 629 (Year 2, September 21) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 630 (Year 2, September 22) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 631 (Year 2, September 23) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 632 (Year 2, September 24) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 633 (Year 2, September 25) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 634 (Year 2, September 26) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 635 (Year 2, September 27) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 636 (Year 2, September 28) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 637 (Year 2, September 29) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 638 (Year 2, September 30) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 639 (Year 2, October 1) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 640 (Year 2, October 2) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 641 (Year 2, October 3) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 642 (Year 2, October 4) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 643 (Year 2, October 5) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 644 (Year 2, October 6) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 645 (Year 2, October 7) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 646 (Year 2, October 8) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 647 (Year 2, October 9) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 648 (Year 2, October 10) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 649 (Year 2, October 11) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 650 (Year 2, October 12) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 651 (Year 2, October 13) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 652 (Year 2, October 14) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 653 (Year 2, October 15) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 654 (Year 2, October 16) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 655 (Year 2, October 17) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 656 (Year 2, October 18) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 657 (Year 2, October 19) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 658 (Year 2, October 20) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 659 (Year 2, October 21) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 660 (Year 2, October 22) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 661 (Year 2, October 23) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 662 (Year 2, October 24) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 663 (Year 2, October 25) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 664 (Year 2, October 26) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 665 (Year 2, October 27) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 666 (Year 2, October 28) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 667 (Year 2, October 29) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 668 (Year 2, October 30) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 669 (Year 2, October 31) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 670 (Year 2, November 1) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 671 (Year 2, November 2) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 672 (Year 2, November 3) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 673 (Year 2, November 4) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 674 (Year 2, November 5) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 675 (Year 2, November 6) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 676 (Year 2, November 7) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 677 (Year 2, November 8) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 678 (Year 2, November 9) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 679 (Year 2, November 10) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 680 (Year 2, November 11) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 681 (Year 2, November 12) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 682 (Year 2, November 13) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 683 (Year 2, November 14) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 684 (Year 2, November 15) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 685 (Year 2, November 16) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 686 (Year 2, November 17) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 687 (Year 2, November 18) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 688 (Year 2, November 19) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 689 (Year 2, November 20) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 690 (Year 2, November 21) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 691 (Year 2, November 22) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 692 (Year 2, November 23) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 693 (Year 2, November 24) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 694 (Year 2, November 25) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 695 (Year 2, November 26) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 696 (Year 2, November 27) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 697 (Year 2, November 28) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 698 (Year 2, November 29) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 699 (Year 2, November 30) - Blergen:
+Strong wind worried the roofs and watch posts. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 700 (Year 2, December 1) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 701 (Year 2, December 2) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 702 (Year 2, December 3) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 703 (Year 2, December 4) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 704 (Year 2, December 5) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 705 (Year 2, December 6) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 706 (Year 2, December 7) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 707 (Year 2, December 8) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 708 (Year 2, December 9) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 709 (Year 2, December 10) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 710 (Year 2, December 11) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 711 (Year 2, December 12) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 712 (Year 2, December 13) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 713 (Year 2, December 14) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 714 (Year 2, December 15) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 715 (Year 2, December 16) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 716 (Year 2, December 17) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 717 (Year 2, December 18) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 718 (Year 2, December 19) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 719 (Year 2, December 20) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 720 (Year 2, December 21) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 721 (Year 2, December 22) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 722 (Year 2, December 23) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 723 (Year 2, December 24) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 724 (Year 2, December 25) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 725 (Year 2, December 26) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 726 (Year 2, December 27) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 727 (Year 2, December 28) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 728 (Year 2, December 29) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 729 (Year 2, December 30) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 730 (Year 2, December 31) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 731 (Year 3, January 1) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 732 (Year 3, January 2) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 733 (Year 3, January 3) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 734 (Year 3, January 4) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 735 (Year 3, January 5) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 736 (Year 3, January 6) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 737 (Year 3, January 7) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 738 (Year 3, January 8) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 739 (Year 3, January 9) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 740 (Year 3, January 10) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 741 (Year 3, January 11) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 742 (Year 3, January 12) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 743 (Year 3, January 13) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 744 (Year 3, January 14) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 745 (Year 3, January 15) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 746 (Year 3, January 16) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 747 (Year 3, January 17) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 748 (Year 3, January 18) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 749 (Year 3, January 19) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 750 (Year 3, January 20) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 751 (Year 3, January 21) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 752 (Year 3, January 22) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 753 (Year 3, January 23) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 754 (Year 3, January 24) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 755 (Year 3, January 25) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 756 (Year 3, January 26) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 757 (Year 3, January 27) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 758 (Year 3, January 28) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 759 (Year 3, January 29) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 760 (Year 3, January 30) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 761 (Year 3, January 31) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 762 (Year 3, February 1) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 763 (Year 3, February 2) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 764 (Year 3, February 3) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 765 (Year 3, February 4) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 766 (Year 3, February 5) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 767 (Year 3, February 6) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 768 (Year 3, February 7) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 769 (Year 3, February 8) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 770 (Year 3, February 9) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 771 (Year 3, February 10) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 772 (Year 3, February 11) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 773 (Year 3, February 12) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 774 (Year 3, February 13) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 775 (Year 3, February 14) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 776 (Year 3, February 15) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 777 (Year 3, February 16) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 778 (Year 3, February 17) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 779 (Year 3, February 18) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 780 (Year 3, February 19) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 781 (Year 3, February 20) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 782 (Year 3, February 21) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 783 (Year 3, February 22) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 784 (Year 3, February 23) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 785 (Year 3, February 24) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 786 (Year 3, February 25) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 787 (Year 3, February 26) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 788 (Year 3, February 27) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 789 (Year 3, February 28) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 790 (Year 3, March 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 791 (Year 3, March 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 792 (Year 3, March 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 793 (Year 3, March 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 794 (Year 3, March 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 795 (Year 3, March 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 796 (Year 3, March 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 797 (Year 3, March 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 798 (Year 3, March 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 799 (Year 3, March 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 800 (Year 3, March 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 801 (Year 3, March 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 802 (Year 3, March 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 803 (Year 3, March 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 804 (Year 3, March 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 805 (Year 3, March 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 806 (Year 3, March 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 807 (Year 3, March 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 808 (Year 3, March 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 809 (Year 3, March 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 810 (Year 3, March 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 811 (Year 3, March 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 812 (Year 3, March 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 813 (Year 3, March 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 814 (Year 3, March 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 815 (Year 3, March 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 816 (Year 3, March 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 817 (Year 3, March 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 818 (Year 3, March 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 819 (Year 3, March 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 820 (Year 3, March 31) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 821 (Year 3, April 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 822 (Year 3, April 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 823 (Year 3, April 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
