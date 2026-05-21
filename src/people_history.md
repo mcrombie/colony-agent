@@ -3078,3 +3078,1166 @@ Day 1195 - Blergen Personal Stories:
 - Galen Lark (scout) discovered useful clay near the riverbank. Status unchanged.
 - Galen Lark (scout) scouted beyond the settlement. Status unchanged.
 - Mara Kest (scout) scouted beyond the settlement. morale 8->9.
+
+Day 1197 - Blergen Personal Stories:
+- Mara Kest (scout) discovered fresh water north of camp. morale 8->10.
+- Mara Kest (scout) scouted beyond the settlement. morale 8->10.
+- Soren Kest (forager) scouted beyond the settlement. morale 8->9.
+
+Day 1199 - Blergen Personal Stories:
+- Mara Kest (scout) worked the clay deposit. Status unchanged.
+- Niko Kest (builder) worked the clay deposit. Status unchanged.
+
+Day 1200 - Blergen Personal Stories:
+- Yuri Kest (healer) bore the worst of the storm. health 5->4; morale 6->5.
+- Finn Lark (woodcutter) bore the worst of the storm. health 5->4; morale 6->5.
+- Quin Kest (guard) bore the worst of the storm. health 5->4; morale 6->5.
+- Niko Kest (builder) shaped clay storage pottery. morale 7->8.
+- Pia Kest (cook) shaped clay storage pottery. morale 6->7.
+
+Day 1201 - Blergen Personal Stories:
+- Soren Kest (forager) discovered useful clay near the riverbank. morale 6->8.
+- Soren Kest (forager) scouted beyond the settlement. morale 6->8.
+- Wynn Kest (scout) scouted beyond the settlement. morale 6->7.
+
+Day 1203 - Blergen Personal Stories:
+- Pia Kest (cook) shaped clay storage pottery. morale 7->8.
+- Talia Kest (carpenter) shaped clay storage pottery. morale 6->7.
+
+Day 1204 - Blergen Personal Stories:
+- Soren Kest (forager) discovered useful clay near the riverbank. morale 7->9.
+- Soren Kest (forager) scouted beyond the settlement. morale 7->9.
+- Wynn Kest (scout) scouted beyond the settlement. morale 6->7.
+
+Day 1205 - Blergen Personal Stories:
+- Talia Kest (carpenter) shaped clay storage pottery. morale 7->8.
+- Xara Kest (builder) shaped clay storage pottery. morale 5->6.
+
+Day 1207 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. morale 6->8.
+- Wynn Kest (scout) scouted beyond the settlement. morale 6->8.
+- Cora Lark (forager) scouted beyond the settlement. morale 5->6.
+
+Day 1208 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered old trail markers beyond the fields. morale 8->10.
+- Wynn Kest (scout) scouted beyond the settlement. morale 8->10.
+- Cora Lark (forager) scouted beyond the settlement. morale 6->7.
+
+Day 1209 - Blergen Personal Stories:
+- Yuri Kest (healer) received care. health 4->6; morale 4->5.
+- Finn Lark (woodcutter) received care. health 4->6; morale 4->5.
+- Quin Kest (guard) received care. health 4->6; morale 2->3.
+
+Day 1210 - Blergen Personal Stories:
+- Cora Lark (forager) worked the field expansion. Status unchanged.
+- Elia Lark (farmer) worked the field expansion. Status unchanged.
+
+Day 1211 - Blergen Personal Stories:
+- Xara Kest (builder) helped strengthen the settlement. morale 6->7.
+- Ada Lark (guard) helped strengthen the settlement. morale 5->6.
+
+Day 1212 - Blergen Personal Stories:
+- Yuri Kest (healer) found relief at the festival. morale 5->7.
+- Zara Kest (cook) found relief at the festival. morale 5->7.
+- Ada Lark (guard) found relief at the festival. morale 6->8.
+- Bram Lark (teacher) found relief at the festival. morale 5->7.
+- Cora Lark (forager) found relief at the festival. morale 7->9.
+
+Day 1213 - Blergen Personal Stories:
+- Cora Lark (forager) worked the clay deposit. Status unchanged.
+- Galen Lark (scout) worked the clay deposit. Status unchanged.
+
+Day 1214 - Blergen Personal Stories:
+- Cora Lark (forager) discovered old trail markers beyond the fields. morale 9->10.
+- Cora Lark (forager) scouted beyond the settlement. morale 9->10.
+- Galen Lark (scout) scouted beyond the settlement. morale 7->8.
+
+Day 1215 - Blergen Personal Stories:
+- Xara Kest (builder) fell ill. Status unchanged.
+- Xara Kest (builder) received care. Status unchanged.
+- Elia Lark (farmer) received care. health 5->7; morale 6->7.
+- Wynn Kest (scout) received care. health 5->7.
+
+Day 1216 - Blergen Personal Stories:
+- Cora Lark (forager) discovered useful clay near the riverbank. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. morale 8->9.
+
+Day 1217 - Blergen Personal Stories:
+- Galen Lark (scout) discovered old trail markers beyond the fields. morale 9->10.
+- Galen Lark (scout) scouted beyond the settlement. morale 9->10.
+- Mara Kest (scout) scouted beyond the settlement. morale 0->1.
+
+Day 1218 - Blergen Personal Stories:
+- Elia Lark (farmer) worked the field expansion. Status unchanged.
+- Soren Kest (forager) worked the field expansion. Status unchanged.
+
+Day 1219 - Blergen Personal Stories:
+- Galen Lark (scout) discovered useful clay near the riverbank. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. morale 0->1.
+
+Day 1220 - Blergen Personal Stories:
+- Galen Lark (scout) worked the clay deposit. Status unchanged.
+- Hana Lark (builder) worked the clay deposit. Status unchanged.
+
+Day 1222 - Blergen Personal Stories:
+- Mara Kest (scout) discovered useful clay near the riverbank. morale 0->2.
+- Mara Kest (scout) scouted beyond the settlement. morale 0->2.
+- Soren Kest (forager) scouted beyond the settlement. morale 9->10.
+
+Day 1223 - Blergen Personal Stories:
+- Mara Kest (scout) discovered old trail markers beyond the fields. morale 2->3.
+- Mara Kest (scout) worked the clay deposit. morale 2->3.
+- Niko Kest (builder) worked the clay deposit. Status unchanged.
+
+Day 1224 - Blergen Personal Stories:
+- Mara Kest (scout) discovered fresh water north of camp. morale 3->5.
+- Mara Kest (scout) scouted beyond the settlement. morale 3->5.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1225 - Blergen Personal Stories:
+- Xara Kest (builder) bore the worst of the storm. health 5->4; morale 9->8.
+- Dain Lark (carpenter) bore the worst of the storm. health 5->4; morale 7->6.
+- Kara Lark (guard) bore the worst of the storm. health 5->4; morale 2->1.
+- Niko Kest (builder) helped strengthen the settlement. morale 4->5.
+- Quin Kest (guard) helped strengthen the settlement. morale 5->6.
+
+Day 1226 - Blergen Personal Stories:
+- Soren Kest (forager) searched for forage. Status unchanged.
+- Una Kest (farmer) searched for forage. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1227 - Blergen Personal Stories:
+- Soren Kest (forager) discovered fresh water north of camp. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1228 - Blergen Personal Stories:
+- Soren Kest (forager) discovered useful clay near the riverbank. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1231 - Blergen Personal Stories:
+- Soren Kest (forager) discovered useful clay near the riverbank. morale 9->10.
+- Soren Kest (forager) scouted beyond the settlement. morale 9->10.
+- Wynn Kest (scout) scouted beyond the settlement. morale 9->10.
+
+Day 1232 - Blergen Personal Stories:
+- Xara Kest (builder) bore the worst of the storm. health 4->3.
+- Dain Lark (carpenter) bore the worst of the storm. health 4->3; morale 6->5.
+- Kara Lark (guard) bore the worst of the storm. health 4->3; morale 1->0.
+- Talia Kest (carpenter) helped strengthen the settlement. morale 9->10.
+- Xara Kest (builder) helped strengthen the settlement. health 4->3.
+
+Day 1233 - Blergen Personal Stories:
+- Mara Kest (scout) fell ill. health 2->3.
+- Mara Kest (scout) received care. health 2->3.
+- Xara Kest (builder) received care. health 3->5; morale 8->9.
+- Dain Lark (carpenter) received care. health 3->5; morale 5->6.
+- Kara Lark (guard) died of illness. health 3->0; died.
+
+Day 1234 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. morale 9->10.
+- Wynn Kest (scout) scouted beyond the settlement. morale 9->10.
+- Cora Lark (forager) scouted beyond the settlement. morale 9->10.
+
+Day 1235 - Blergen Personal Stories:
+- Orin Kest (healer) received care. health 3->5; morale 2->3.
+- Una Kest (farmer) received care. health 3->5; morale 6->7.
+- Mara Kest (scout) received care. health 3->5; morale 6->7.
+
+Day 1237 - Blergen Personal Stories:
+- Cora Lark (forager) worked the clay deposit. Status unchanged.
+- Galen Lark (scout) worked the clay deposit. Status unchanged.
+
+Day 1238 - Blergen Personal Stories:
+- Cora Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. morale 9->10.
+
+Day 1239 - Blergen Personal Stories:
+- Dain Lark (carpenter) helped strengthen the settlement. morale 5->6.
+- Hana Lark (builder) helped strengthen the settlement. morale 6->7.
+
+Day 1241 - Blergen Personal Stories:
+- Elia Lark (farmer) worked the field expansion. Status unchanged.
+- Soren Kest (forager) worked the field expansion. Status unchanged.
+
+Day 1242 - Blergen Personal Stories:
+- Galen Lark (scout) worked the clay deposit. Status unchanged.
+- Hana Lark (builder) worked the clay deposit. Status unchanged.
+
+Day 1243 - Blergen Personal Stories:
+- Finn Lark (woodcutter) found relief at the festival. morale 4->6.
+- Galen Lark (scout) found relief at the festival. morale 9->10.
+- Hana Lark (builder) found relief at the festival. morale 6->8.
+- Iris Lark (healer) found relief at the festival. morale 1->3.
+- Jory Lark (cook) found relief at the festival. morale 1->3.
+
+Day 1244 - Blergen Personal Stories:
+- Galen Lark (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. morale 0->1.
+
+Day 1245 - Blergen Personal Stories:
+- Hana Lark (builder) shaped clay storage pottery. morale 8->9.
+- Jory Lark (cook) shaped clay storage pottery. morale 3->4.
+
+Day 1246 - Blergen Personal Stories:
+- Talia Kest (carpenter) joined the wood crews. Status unchanged.
+- Vera Kest (woodcutter) joined the wood crews. Status unchanged.
+
+Day 1247 - Blergen Personal Stories:
+- Mara Kest (scout) searched for forage. morale 0->1.
+- Soren Kest (forager) searched for forage. morale 5->6.
+- Una Kest (farmer) searched for forage. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. morale 0->1.
+- Soren Kest (forager) scouted beyond the settlement. morale 5->6.
+
+Day 1248 - Blergen Personal Stories:
+- Mara Kest (scout) discovered fresh water north of camp. morale 1->2.
+- Pia Kest (cook) harvested the ready crops. Status unchanged.
+- Soren Kest (forager) harvested the ready crops. Status unchanged.
+- Una Kest (farmer) harvested the ready crops. Status unchanged.
+
+Day 1249 - Blergen Personal Stories:
+- Soren Kest (forager) discovered useful clay near the riverbank. morale 6->8.
+- Soren Kest (forager) scouted beyond the settlement. morale 6->8.
+- Wynn Kest (scout) scouted beyond the settlement. morale 7->8.
+
+Day 1250 - Blergen Personal Stories:
+- Quin Kest (guard) helped strengthen the settlement. morale 3->4.
+- Talia Kest (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1251 - Blergen Personal Stories:
+- Soren Kest (forager) discovered fresh water north of camp. morale 9->10.
+- Soren Kest (forager) scouted beyond the settlement. morale 9->10.
+- Wynn Kest (scout) scouted beyond the settlement. morale 9->10.
+
+Day 1253 - Blergen Personal Stories:
+- Soren Kest (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1254 - Blergen Personal Stories:
+- Soren Kest (forager) discovered fresh water north of camp. Status unchanged.
+- Soren Kest (forager) worked the field expansion. Status unchanged.
+- Una Kest (farmer) worked the field expansion. Status unchanged.
+
+Day 1255 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+- Una Kest (farmer) harvested the ready crops. Status unchanged.
+- Zara Kest (cook) harvested the ready crops. Status unchanged.
+- Cora Lark (forager) harvested the ready crops. Status unchanged.
+
+Day 1256 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1257 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered fresh water north of camp. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1258 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+- Cora Lark (forager) worked the field expansion. Status unchanged.
+- Elia Lark (farmer) worked the field expansion. Status unchanged.
+
+Day 1259 - Blergen Personal Stories:
+- Cora Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1260 - Blergen Personal Stories:
+- Cora Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Zara Kest (cook) harvested the ready crops. Status unchanged.
+- Cora Lark (forager) harvested the ready crops. Status unchanged.
+- Elia Lark (farmer) harvested the ready crops. Status unchanged.
+
+Day 1261 - Blergen Personal Stories:
+- Cora Lark (forager) discovered useful clay near the riverbank. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1262 - Blergen Personal Stories:
+- Cora Lark (forager) searched for forage. Status unchanged.
+- Elia Lark (farmer) searched for forage. Status unchanged.
+- Galen Lark (scout) searched for forage. Status unchanged.
+- Mara Kest (scout) searched for forage. Status unchanged.
+- Cora Lark (forager) worked the clay deposit. Status unchanged.
+- Galen Lark (scout) worked the clay deposit. Status unchanged.
+
+Day 1263 - Blergen Personal Stories:
+- Cora Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1264 - Blergen Personal Stories:
+- Cora Lark (forager) discovered useful clay near the riverbank. Status unchanged.
+- Cora Lark (forager) worked the field expansion. Status unchanged.
+- Elia Lark (farmer) worked the field expansion. Status unchanged.
+
+Day 1265 - Blergen Personal Stories:
+- Galen Lark (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Elia Lark (farmer) harvested the ready crops. Status unchanged.
+- Jory Lark (cook) harvested the ready crops. Status unchanged.
+- Pia Kest (cook) harvested the ready crops. Status unchanged.
+
+Day 1266 - Blergen Personal Stories:
+- Orin Kest (healer) bore the worst of the storm. morale 10->9.
+- Cora Lark (forager) bore the worst of the storm. morale 10->9.
+- Jory Lark (cook) bore the worst of the storm. morale 10->9.
+- Hana Lark (builder) helped strengthen the settlement. Status unchanged.
+- Niko Kest (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1267 - Blergen Personal Stories:
+- Galen Lark (scout) discovered useful clay near the riverbank. Status unchanged.
+- Soren Kest (forager) worked the field expansion. Status unchanged.
+- Una Kest (farmer) worked the field expansion. Status unchanged.
+
+Day 1268 - Blergen Personal Stories:
+- Galen Lark (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1269 - Blergen Personal Stories:
+- Mara Kest (scout) discovered fresh water north of camp. Status unchanged.
+- Hana Lark (builder) shaped clay storage pottery. Status unchanged.
+- Jory Lark (cook) shaped clay storage pottery. Status unchanged.
+
+Day 1271 - Blergen Personal Stories:
+- Mara Kest (scout) searched for forage. Status unchanged.
+- Soren Kest (forager) searched for forage. Status unchanged.
+- Una Kest (farmer) searched for forage. Status unchanged.
+- Mara Kest (scout) worked the clay deposit. Status unchanged.
+- Niko Kest (builder) worked the clay deposit. Status unchanged.
+
+Day 1272 - Blergen Personal Stories:
+- Mara Kest (scout) discovered fresh water north of camp. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1273 - Blergen Personal Stories:
+- Orin Kest (healer) bore the worst of the storm. health 1->3.
+- Cora Lark (forager) bore the worst of the storm. health 1->3.
+- Jory Lark (cook) bore the worst of the storm. health 1->3.
+- Orin Kest (healer) received care. health 1->3.
+- Cora Lark (forager) received care. health 1->3.
+- Jory Lark (cook) received care. health 1->3.
+
+Day 1274 - Blergen Personal Stories:
+- Soren Kest (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1275 - Blergen Personal Stories:
+- Soren Kest (forager) discovered fresh water north of camp. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1276 - Blergen Personal Stories:
+- Soren Kest (forager) searched for forage. Status unchanged.
+- Una Kest (farmer) searched for forage. Status unchanged.
+- Soren Kest (forager) harvested the ready crops. Status unchanged.
+- Una Kest (farmer) harvested the ready crops. Status unchanged.
+- Zara Kest (cook) harvested the ready crops. Status unchanged.
+
+Day 1277 - Blergen Personal Stories:
+- Pia Kest (cook) received care. health 1->3.
+- Vera Kest (woodcutter) received care. health 1->3.
+- Niko Kest (builder) received care. health 1->3.
+
+Day 1278 - Blergen Personal Stories:
+- Soren Kest (forager) searched for forage. Status unchanged.
+- Una Kest (farmer) searched for forage. health 1->3.
+- Wynn Kest (scout) searched for forage. Status unchanged.
+- Una Kest (farmer) received care. health 1->3.
+- Iris Lark (healer) received care. health 1->3.
+- Mara Kest (scout) received care. health 1->3.
+
+Day 1279 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+- Hana Lark (builder) received care. health 1->3.
+- Soren Kest (forager) received care. health 1->3.
+- Galen Lark (scout) received care. health 1->3.
+
+Day 1280 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1281 - Blergen Personal Stories:
+- Wynn Kest (scout) searched for forage. Status unchanged.
+- Cora Lark (forager) searched for forage. Status unchanged.
+- Finn Lark (woodcutter) received care. health 1->3.
+- Quin Kest (guard) received care. health 1->3.
+- Dain Lark (carpenter) received care. health 1->3.
+
+Day 1282 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+
+Day 1283 - Blergen Personal Stories:
+- Pia Kest (cook) received care. health 1->3.
+- Orin Kest (healer) received care. health 1->3.
+- Niko Kest (builder) received care. health 1->3.
+
+Day 1284 - Blergen Personal Stories:
+- Cora Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1285 - Blergen Personal Stories:
+- Quin Kest (guard) received care. health 1->3.
+- Vera Kest (woodcutter) received care. health 1->3.
+- Una Kest (farmer) received care. health 1->3.
+
+Day 1286 - Blergen Personal Stories:
+- Ada Lark (guard) helped strengthen the settlement. Status unchanged.
+- Dain Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1287 - Blergen Personal Stories:
+- Pia Kest (cook) received care. health 1->3.
+- Orin Kest (healer) received care. health 1->3.
+- Niko Kest (builder) received care. health 1->3.
+
+Day 1288 - Blergen Personal Stories:
+- Cora Lark (forager) discovered useful clay near the riverbank. Status unchanged.
+- Cora Lark (forager) worked the field expansion. Status unchanged.
+- Elia Lark (farmer) worked the field expansion. Status unchanged.
+
+Day 1289 - Blergen Personal Stories:
+- Quin Kest (guard) received care. health 1->3.
+- Vera Kest (woodcutter) received care. health 1->3.
+- Una Kest (farmer) received care. health 1->3.
+
+Day 1290 - Blergen Personal Stories:
+- Galen Lark (scout) discovered fresh water north of camp. Status unchanged.
+- Elia Lark (farmer) harvested the ready crops. Status unchanged.
+- Jory Lark (cook) harvested the ready crops. Status unchanged.
+- Pia Kest (cook) harvested the ready crops. Status unchanged.
+
+Day 1291 - Blergen Personal Stories:
+- Galen Lark (scout) discovered useful clay near the riverbank. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1292 - Blergen Personal Stories:
+- Galen Lark (scout) searched for forage. Status unchanged.
+- Mara Kest (scout) searched for forage. Status unchanged.
+- Soren Kest (forager) searched for forage. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1293 - Blergen Personal Stories:
+- Mara Kest (scout) discovered fresh water north of camp. Status unchanged.
+- Hana Lark (builder) worked the clay deposit. Status unchanged.
+- Mara Kest (scout) worked the clay deposit. Status unchanged.
+
+Day 1295 - Blergen Personal Stories:
+- Mara Kest (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1296 - Blergen Personal Stories:
+- Mara Kest (scout) discovered fresh water north of camp. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1297 - Blergen Personal Stories:
+- Soren Kest (forager) discovered useful clay near the riverbank. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1298 - Blergen Personal Stories:
+- Orin Kest (healer) bore the worst of the storm. morale 10->9.
+- Niko Kest (builder) bore the worst of the storm. morale 10->9.
+- Bram Lark (teacher) bore the worst of the storm. morale 10->9.
+- Quin Kest (guard) helped strengthen the settlement. Status unchanged.
+- Talia Kest (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1299 - Blergen Personal Stories:
+- Soren Kest (forager) discovered fresh water north of camp. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1300 - Blergen Personal Stories:
+- Orin Kest (healer) received care. health 1->3.
+- Niko Kest (builder) received care. health 1->3.
+- Bram Lark (teacher) received care. health 1->3.
+
+Day 1301 - Blergen Personal Stories:
+- Mara Kest (scout) received care. health 1->3.
+- Talia Kest (carpenter) received care. health 1->3.
+- Ada Lark (guard) received care. health 1->3.
+
+Day 1302 - Blergen Personal Stories:
+- Soren Kest (forager) received care. health 1->3.
+- Zara Kest (cook) received care. health 1->3.
+- Rhea Kest (teacher) received care. health 1->3.
+
+Day 1303 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1304 - Blergen Personal Stories:
+- Yuri Kest (healer) fell ill. health 1->3.
+- Yuri Kest (healer) received care. health 1->3.
+- Quin Kest (guard) received care. health 1->3.
+- Xara Kest (builder) received care. health 1->3.
+- Elia Lark (farmer) died of illness. health 1->0; died.
+
+Day 1305 - Blergen Personal Stories:
+- Pia Kest (cook) fell ill. health 1->3.
+- Pia Kest (cook) received care. health 1->3.
+- Orin Kest (healer) received care. health 1->3.
+- Vera Kest (woodcutter) received care. health 1->3.
+- Niko Kest (builder) died of illness. health 1->0; died.
+
+Day 1306 - Blergen Personal Stories:
+- Una Kest (farmer) fell ill. health 1->3.
+- Una Kest (farmer) received care. health 1->3.
+- Bram Lark (teacher) received care. health 1->3.
+- Mara Kest (scout) received care. health 1->3.
+- Talia Kest (carpenter) died of illness. health 1->0; died.
+
+Day 1307 - Blergen Personal Stories:
+- Soren Kest (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Yuri Kest (healer) received care. health 1->3.
+- Quin Kest (guard) received care. health 1->3.
+- Xara Kest (builder) received care. health 1->3.
+
+Day 1308 - Blergen Personal Stories:
+- Wynn Kest (scout) bore the worst of the storm. morale 10->9.
+- Ada Lark (guard) bore the worst of the storm. Status unchanged.
+- Soren Kest (forager) bore the worst of the storm. morale 10->9.
+- Xara Kest (builder) helped strengthen the settlement. Status unchanged.
+- Ada Lark (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1309 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. morale 9->10.
+- Cora Lark (forager) worked the field expansion. Status unchanged.
+- Soren Kest (forager) worked the field expansion. morale 9->10.
+
+Day 1310 - Blergen Personal Stories:
+- Wynn Kest (scout) searched for forage. Status unchanged.
+- Cora Lark (forager) searched for forage. Status unchanged.
+- Wynn Kest (scout) worked the clay deposit. Status unchanged.
+- Xara Kest (builder) worked the clay deposit. Status unchanged.
+
+Day 1311 - Blergen Personal Stories:
+- Pia Kest (cook) received care. health 1->3.
+- Wynn Kest (scout) received care. health 1->3.
+- Orin Kest (healer) received care. health 1->3.
+
+Day 1312 - Blergen Personal Stories:
+- Vera Kest (woodcutter) fell ill. health 1->3.
+- Vera Kest (woodcutter) received care. health 1->3.
+- Ada Lark (guard) received care. health 1->3.
+- Soren Kest (forager) received care. health 1->3.
+- Zara Kest (cook) died of illness. health 1->0; died.
+
+Day 1313 - Blergen Personal Stories:
+- Finn Lark (woodcutter) received care. health 1->3.
+- Quin Kest (guard) received care. health 1->3.
+- Dain Lark (carpenter) received care. health 1->3.
+
+Day 1314 - Blergen Personal Stories:
+- Una Kest (farmer) fell ill. health 1->3.
+- Una Kest (farmer) received care. health 1->3.
+- Mara Kest (scout) received care. health 1->3.
+- Galen Lark (scout) received care. health 1->3.
+- Rhea Kest (teacher) died of illness. health 1->0; died.
+
+Day 1315 - Blergen Personal Stories:
+- Soren Kest (forager) discovered useful clay near the riverbank. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1316 - Blergen Personal Stories:
+- Una Kest (farmer) and Vera Kest (woodcutter) became rivals. Una Kest: Status unchanged. Vera Kest: Status unchanged.
+- Una Kest (farmer) stepped back from rivalry. Status unchanged.
+- Vera Kest (woodcutter) stepped back from rivalry. Status unchanged.
+
+Day 1317 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered fresh water north of camp. Status unchanged.
+- Wynn Kest (scout) worked the clay deposit. Status unchanged.
+- Xara Kest (builder) worked the clay deposit. Status unchanged.
+
+Day 1318 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1319 - Blergen Personal Stories:
+- Cora Lark (forager) worked the field expansion. Status unchanged.
+- Soren Kest (forager) worked the field expansion. Status unchanged.
+
+Day 1320 - Blergen Personal Stories:
+- Cora Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Cora Lark (forager) harvested the ready crops. Status unchanged.
+- Jory Lark (cook) harvested the ready crops. Status unchanged.
+- Pia Kest (cook) harvested the ready crops. Status unchanged.
+
+Day 1321 - Blergen Personal Stories:
+- Ada Lark (guard) helped strengthen the settlement. Status unchanged.
+- Dain Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1322 - Blergen Personal Stories:
+- Cora Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1323 - Blergen Personal Stories:
+- Cora Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1324 - Blergen Personal Stories:
+- Galen Lark (scout) discovered useful clay near the riverbank. Status unchanged.
+- Yuri Kest (healer) received care. health 1->3.
+- Xara Kest (builder) received care. health 1->3.
+- Pia Kest (cook) received care. health 1->3.
+
+Day 1325 - Blergen Personal Stories:
+- Galen Lark (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1326 - Blergen Personal Stories:
+- Galen Lark (scout) discovered fresh water north of camp. Status unchanged.
+- Soren Kest (forager) worked the field expansion. Status unchanged.
+- Una Kest (farmer) worked the field expansion. Status unchanged.
+
+Day 1327 - Blergen Personal Stories:
+- Mara Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+- Jory Lark (cook) harvested the ready crops. Status unchanged.
+- Pia Kest (cook) harvested the ready crops. Status unchanged.
+- Soren Kest (forager) harvested the ready crops. Status unchanged.
+
+Day 1328 - Blergen Personal Stories:
+- Mara Kest (scout) searched for forage. Status unchanged.
+- Soren Kest (forager) searched for forage. Status unchanged.
+- Una Kest (farmer) searched for forage. Status unchanged.
+- Mara Kest (scout) scouted beyond the settlement. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1329 - Blergen Personal Stories:
+- Quin Kest (guard) bore the worst of the storm. morale 10->9.
+- Wynn Kest (scout) bore the worst of the storm. morale 10->9.
+- Orin Kest (healer) bore the worst of the storm. morale 10->9.
+
+Day 1330 - Blergen Personal Stories:
+- Mara Kest (scout) discovered useful clay near the riverbank. Status unchanged.
+- Mara Kest (scout) worked the clay deposit. Status unchanged.
+- Soren Kest (forager) worked the clay deposit. Status unchanged.
+
+Day 1331 - Blergen Personal Stories:
+- Quin Kest (guard) helped strengthen the settlement. Status unchanged.
+- Xara Kest (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1332 - Blergen Personal Stories:
+- Soren Kest (forager) discovered fresh water north of camp. Status unchanged.
+- Soren Kest (forager) worked the clay deposit. Status unchanged.
+- Wynn Kest (scout) worked the clay deposit. Status unchanged.
+
+Day 1333 - Blergen Personal Stories:
+- Soren Kest (forager) searched for forage. Status unchanged.
+- Una Kest (farmer) searched for forage. Status unchanged.
+- Soren Kest (forager) scouted beyond the settlement. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1334 - Blergen Personal Stories:
+- Soren Kest (forager) discovered old trail markers beyond the fields. Status unchanged.
+
+Day 1335 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered fresh water north of camp. Status unchanged.
+- Wynn Kest (scout) scouted beyond the settlement. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1336 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. health 1->3.
+- Quin Kest (guard) received care. health 1->3.
+- Wynn Kest (scout) received care. health 1->3.
+- Orin Kest (healer) received care. health 1->3.
+
+Day 1337 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Vera Kest (woodcutter) received care. health 1->3.
+- Cora Lark (forager) received care. health 1->3.
+- Bram Lark (teacher) received care. health 1->3.
+
+Day 1338 - Blergen Personal Stories:
+- Cora Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1339 - Blergen Personal Stories:
+- Xara Kest (builder) bore the worst of the storm. morale 10->9.
+- Pia Kest (cook) bore the worst of the storm. morale 10->9.
+- Dain Lark (carpenter) bore the worst of the storm. morale 10->9.
+
+Day 1340 - Blergen Personal Stories:
+- Cora Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1341 - Blergen Personal Stories:
+- Xara Kest (builder) received care. health 1->3.
+- Pia Kest (cook) received care. health 1->3.
+- Dain Lark (carpenter) received care. health 1->3.
+
+Day 1342 - Blergen Personal Stories:
+- Cora Lark (forager) searched for forage. Status unchanged.
+- Galen Lark (scout) searched for forage. Status unchanged.
+- Mara Kest (scout) searched for forage. Status unchanged.
+- Cora Lark (forager) scouted beyond the settlement. Status unchanged.
+- Galen Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1343 - Blergen Personal Stories:
+- Dain Lark (carpenter) helped strengthen the settlement. Status unchanged.
+- Hana Lark (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1346 - Blergen Personal Stories:
+- Mara Kest (scout) discovered old trail markers beyond the fields. morale 8->10.
+- Mara Kest (scout) scouted beyond the settlement. morale 8->10.
+- Soren Kest (forager) scouted beyond the settlement. morale 9->10.
+
+Day 1347 - Blergen Personal Stories:
+- Quin Kest (guard) helped strengthen the settlement. morale 9->10.
+- Xara Kest (builder) helped strengthen the settlement. morale 9->10.
+
+Day 1348 - Blergen Personal Stories:
+- Quin Kest (guard) helped strengthen the settlement. Status unchanged.
+- Xara Kest (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1351 - Blergen Personal Stories:
+- Soren Kest (forager) discovered useful clay near the riverbank. morale 8->10.
+- Soren Kest (forager) scouted beyond the settlement. morale 8->10.
+- Wynn Kest (scout) scouted beyond the settlement. morale 8->9.
+
+Day 1352 - Blergen Personal Stories:
+- Soren Kest (forager) worked the clay deposit. Status unchanged.
+- Wynn Kest (scout) worked the clay deposit. Status unchanged.
+
+Day 1355 - Blergen Personal Stories:
+- Xara Kest (builder) shaped clay storage pottery. morale 7->8.
+- Dain Lark (carpenter) shaped clay storage pottery. morale 6->7.
+
+Day 1356 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered fresh water north of camp. morale 6->8.
+- Wynn Kest (scout) scouted beyond the settlement. morale 6->8.
+- Cora Lark (forager) scouted beyond the settlement. morale 5->6.
+
+Day 1357 - Blergen Personal Stories:
+- Xara Kest (builder) helped strengthen the settlement. morale 8->9.
+- Ada Lark (guard) helped strengthen the settlement. morale 5->6.
+
+Day 1358 - Blergen Personal Stories:
+- Una Kest (farmer) received care. health 1->3; morale 5->6.
+- Ada Lark (guard) received care. health 1->3; morale 6->7.
+- Soren Kest (forager) received care. health 1->3; morale 7->8.
+
+Day 1359 - Blergen Personal Stories:
+- Finn Lark (woodcutter) bore the worst of the storm. health 2->1; morale 5->4.
+- Bram Lark (teacher) bore the worst of the storm. health 2->1; morale 5->4.
+- Yuri Kest (healer) bore the worst of the storm. health 3->2; morale 5->4.
+- Ada Lark (guard) helped strengthen the settlement. morale 7->8.
+- Dain Lark (carpenter) helped strengthen the settlement. morale 7->8.
+
+Day 1361 - Blergen Personal Stories:
+- Finn Lark (woodcutter) received care. health 1->3; morale 4->5.
+- Bram Lark (teacher) received care. health 1->3; morale 4->5.
+- Yuri Kest (healer) received care. health 2->4; morale 4->5.
+
+Day 1362 - Blergen Personal Stories:
+- Galen Lark (scout) discovered fresh water north of camp. morale 5->7.
+- Galen Lark (scout) scouted beyond the settlement. morale 5->7.
+- Mara Kest (scout) scouted beyond the settlement. morale 2->3.
+
+Day 1363 - Blergen Personal Stories:
+- Finn Lark (woodcutter) received care. health 3->5; morale 6->7.
+- Quin Kest (guard) received care. health 3->5; morale 4->5.
+- Wynn Kest (scout) received care. health 3->5; morale 9->10.
+
+Day 1364 - Blergen Personal Stories:
+- Dain Lark (carpenter) received care. health 3->5; morale 9->10.
+- Cora Lark (forager) received care. health 3->5; morale 7->8.
+- Jory Lark (cook) received care. health 3->5; morale 5->6.
+
+Day 1365 - Blergen Personal Stories:
+- Iris Lark (healer) received care. health 3->5; morale 5->6.
+- Hana Lark (builder) received care. health 3->5; morale 5->6.
+- Galen Lark (scout) received care. health 3->5; morale 7->8.
+
+Day 1366 - Blergen Personal Stories:
+- Quin Kest (guard) helped strengthen the settlement. morale 5->6.
+- Xara Kest (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1368 - Blergen Personal Stories:
+- Pia Kest (cook) shaped clay storage pottery. morale 1->2.
+- Xara Kest (builder) shaped clay storage pottery. morale 9->10.
+
+Day 1369 - Blergen Personal Stories:
+- Dain Lark (carpenter) bore the worst of the storm. health 5->4; morale 9->8.
+- Jory Lark (cook) bore the worst of the storm. health 5->4; morale 5->4.
+- Iris Lark (healer) bore the worst of the storm. health 5->4; morale 5->4.
+- Quin Kest (guard) helped strengthen the settlement. morale 3->4.
+- Xara Kest (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1370 - Blergen Personal Stories:
+- Soren Kest (forager) discovered old trail markers beyond the fields. morale 5->7.
+- Soren Kest (forager) scouted beyond the settlement. morale 5->7.
+- Wynn Kest (scout) scouted beyond the settlement. morale 8->9.
+
+Day 1371 - Blergen Personal Stories:
+- Soren Kest (forager) worked the clay deposit. Status unchanged.
+- Wynn Kest (scout) worked the clay deposit. Status unchanged.
+
+Day 1372 - Blergen Personal Stories:
+- Soren Kest (forager) endured tighter rations. morale 7->6.
+- Una Kest (farmer) endured tighter rations. morale 3->2.
+- Vera Kest (woodcutter) endured tighter rations. morale 3->2.
+- Wynn Kest (scout) endured tighter rations. morale 9->8.
+
+Day 1373 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered old trail markers beyond the fields. morale 8->10.
+- Wynn Kest (scout) scouted beyond the settlement. morale 8->10.
+- Cora Lark (forager) scouted beyond the settlement. morale 4->5.
+
+Day 1375 - Blergen Personal Stories:
+- Xara Kest (builder) helped strengthen the settlement. morale 7->8.
+- Ada Lark (guard) helped strengthen the settlement. morale 4->5.
+
+Day 1377 - Blergen Personal Stories:
+- Cora Lark (forager) discovered fresh water north of camp. morale 5->8.
+- Yuri Kest (healer) found relief at the festival. morale 1->3.
+- Ada Lark (guard) found relief at the festival. morale 5->7.
+- Bram Lark (teacher) found relief at the festival. morale 2->4.
+- Cora Lark (forager) found relief at the festival. morale 5->8.
+- Dain Lark (carpenter) found relief at the festival. morale 5->7.
+
+Day 1378 - Blergen Personal Stories:
+- Cora Lark (forager) worked the clay deposit. Status unchanged.
+- Galen Lark (scout) worked the clay deposit. Status unchanged.
+
+Day 1380 - Blergen Personal Stories:
+- Dain Lark (carpenter) helped strengthen the settlement. morale 6->7.
+- Hana Lark (builder) helped strengthen the settlement. morale 2->3.
+
+Day 1381 - Blergen Personal Stories:
+- Dain Lark (carpenter) shaped clay storage pottery. morale 7->8.
+- Hana Lark (builder) shaped clay storage pottery. morale 3->4.
+
+Day 1382 - Blergen Personal Stories:
+- Finn Lark (woodcutter) joined the mediation circle. morale 3->4.
+- Galen Lark (scout) joined the mediation circle. morale 3->4.
+
+Day 1383 - Blergen Personal Stories:
+- Galen Lark (scout) discovered fresh water north of camp. morale 4->6.
+- Galen Lark (scout) scouted beyond the settlement. morale 4->6.
+- Mara Kest (scout) scouted beyond the settlement. morale 0->1.
+
+Day 1386 - Blergen Personal Stories:
+- Mara Kest (scout) discovered fresh water north of camp. morale 0->2.
+- Mara Kest (scout) scouted beyond the settlement. morale 0->2.
+- Soren Kest (forager) scouted beyond the settlement. morale 1->2.
+
+Day 1388 - Blergen Personal Stories:
+- Soren Kest (forager) discovered old trail markers beyond the fields. morale 1->3.
+- Soren Kest (forager) scouted beyond the settlement. morale 1->3.
+- Wynn Kest (scout) scouted beyond the settlement. morale 8->9.
+
+Day 1389 - Blergen Personal Stories:
+- Dain Lark (carpenter) bore the worst of the storm. health 4->3; morale 8->7.
+- Jory Lark (cook) bore the worst of the storm. health 4->3.
+- Iris Lark (healer) bore the worst of the storm. health 4->3.
+- Quin Kest (guard) helped strengthen the settlement. morale 0->1.
+- Xara Kest (builder) helped strengthen the settlement. morale 7->8.
+
+Day 1391 - Blergen Personal Stories:
+- Soren Kest (forager) discovered old trail markers beyond the fields. morale 2->4.
+- Soren Kest (forager) scouted beyond the settlement. morale 2->4.
+- Wynn Kest (scout) scouted beyond the settlement. morale 8->9.
+
+Day 1392 - Blergen Personal Stories:
+- Dain Lark (carpenter) received care. health 3->5; morale 7->8.
+- Jory Lark (cook) received care. health 3->5; morale 0->1.
+- Iris Lark (healer) received care. health 3->5; morale 0->1.
+
+Day 1393 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered useful clay near the riverbank. morale 9->10.
+- Wynn Kest (scout) scouted beyond the settlement. morale 9->10.
+- Cora Lark (forager) scouted beyond the settlement. morale 7->8.
+
+Day 1394 - Blergen Personal Stories:
+- Wynn Kest (scout) worked the clay deposit. Status unchanged.
+- Xara Kest (builder) worked the clay deposit. Status unchanged.
+
+Day 1396 - Blergen Personal Stories:
+- Dain Lark (carpenter) shaped clay storage pottery. morale 8->9.
+- Hana Lark (builder) shaped clay storage pottery. morale 3->4.
+
+Day 1397 - Blergen Personal Stories:
+- Ada Lark (guard) found relief at the festival. morale 4->6.
+- Bram Lark (teacher) found relief at the festival. morale 1->3.
+- Cora Lark (forager) found relief at the festival. morale 5->7.
+- Dain Lark (carpenter) found relief at the festival. morale 9->10.
+- Finn Lark (woodcutter) found relief at the festival. morale 1->3.
+
+Day 1398 - Blergen Personal Stories:
+- Bram Lark (teacher) joined the mediation circle. morale 3->4.
+- Cora Lark (forager) joined the mediation circle. morale 7->8.
+
+Day 1399 - Blergen Personal Stories:
+- Hana Lark (builder) bore the worst of the storm. health 4->3.
+- Galen Lark (scout) bore the worst of the storm. health 4->3; morale 2->1.
+- Finn Lark (woodcutter) bore the worst of the storm. health 5->4; morale 3->2.
+- Dain Lark (carpenter) helped strengthen the settlement. Status unchanged.
+- Hana Lark (builder) helped strengthen the settlement. health 4->3.
+
+Day 1401 - Blergen Personal Stories:
+- Hana Lark (builder) helped strengthen the settlement. morale 3->4.
+- Quin Kest (guard) helped strengthen the settlement. morale 0->1.
+
+Day 1403 - Blergen Personal Stories:
+- Mara Kest (scout) discovered old trail markers beyond the fields. morale 0->2.
+- Mara Kest (scout) scouted beyond the settlement. morale 0->2.
+- Soren Kest (forager) scouted beyond the settlement. morale 0->1.
+
+Day 1404 - Blergen Personal Stories:
+- Quin Kest (guard) helped strengthen the settlement. morale 0->1.
+- Xara Kest (builder) helped strengthen the settlement. morale 4->5.
+
+Day 1405 - Blergen Personal Stories:
+- Hana Lark (builder) received care. health 3->5; morale 4->5.
+- Galen Lark (scout) received care. health 3->5; morale 0->1.
+- Finn Lark (woodcutter) received care. health 4->6; morale 1->2.
+
+Day 1406 - Blergen Personal Stories:
+- Mara Kest (scout) endured tighter rations. morale 2->1.
+- Orin Kest (healer) endured tighter rations. Status unchanged.
+- Pia Kest (cook) endured tighter rations. Status unchanged.
+- Quin Kest (guard) endured tighter rations. morale 1->0.
+
+Day 1408 - Blergen Personal Stories:
+- Pia Kest (cook) found relief at the festival. morale 0->2.
+- Quin Kest (guard) found relief at the festival. morale 0->2.
+- Soren Kest (forager) found relief at the festival. morale 0->2.
+- Una Kest (farmer) found relief at the festival. morale 0->2.
+- Vera Kest (woodcutter) found relief at the festival. morale 0->2.
+
+Day 1411 - Blergen Personal Stories:
+- Una Kest (farmer) worked the field expansion. Status unchanged.
+- Cora Lark (forager) worked the field expansion. Status unchanged.
+
+Day 1412 - Blergen Personal Stories:
+- Cora Lark (forager) harvested the ready crops. Status unchanged.
+- Jory Lark (cook) harvested the ready crops. Status unchanged.
+- Pia Kest (cook) harvested the ready crops. Status unchanged.
+
+Day 1413 - Blergen Personal Stories:
+- Xara Kest (builder) helped strengthen the settlement. morale 1->2.
+- Ada Lark (guard) helped strengthen the settlement. morale 1->2.
+
+Day 1414 - Blergen Personal Stories:
+- Xara Kest (builder) found relief at the festival. morale 2->4.
+- Yuri Kest (healer) found relief at the festival. morale 0->2.
+- Ada Lark (guard) found relief at the festival. morale 2->4.
+- Bram Lark (teacher) found relief at the festival. morale 0->2.
+- Cora Lark (forager) found relief at the festival. morale 3->5.
+
+Day 1415 - Blergen Personal Stories:
+- Cora Lark (forager) discovered old trail markers beyond the fields. morale 5->7.
+- Cora Lark (forager) scouted beyond the settlement. morale 5->7.
+- Galen Lark (scout) scouted beyond the settlement. morale 0->1.
+
+Day 1416 - Blergen Personal Stories:
+- Ada Lark (guard) endured tighter rations. morale 5->4.
+- Bram Lark (teacher) endured tighter rations. morale 3->2.
+- Cora Lark (forager) endured tighter rations. morale 7->6.
+- Dain Lark (carpenter) endured tighter rations. morale 7->6.
+
+Day 1418 - Blergen Personal Stories:
+- Cora Lark (forager) worked the field expansion. Status unchanged.
+- Soren Kest (forager) worked the field expansion. Status unchanged.
+
+Day 1419 - Blergen Personal Stories:
+- Orin Kest (healer) bore the worst of the storm. health 4->3.
+- Mara Kest (scout) bore the worst of the storm. health 4->3.
+- Pia Kest (cook) bore the worst of the storm. health 5->4.
+- Dain Lark (carpenter) helped strengthen the settlement. morale 5->6.
+- Hana Lark (builder) helped strengthen the settlement. morale 1->2.
+
+Day 1420 - Blergen Personal Stories:
+- Hana Lark (builder) helped strengthen the settlement. morale 2->3.
+- Quin Kest (guard) helped strengthen the settlement. morale 0->1.
+
+Day 1421 - Blergen Personal Stories:
+- Galen Lark (scout) found relief at the festival. morale 0->2.
+- Hana Lark (builder) found relief at the festival. morale 3->5.
+- Iris Lark (healer) found relief at the festival. morale 0->2.
+- Jory Lark (cook) found relief at the festival. morale 0->2.
+- Mara Kest (scout) found relief at the festival. morale 0->2.
+
+Day 1423 - Blergen Personal Stories:
+- Jory Lark (cook) harvested the ready crops. Status unchanged.
+- Pia Kest (cook) harvested the ready crops. Status unchanged.
+- Soren Kest (forager) harvested the ready crops. Status unchanged.
+
+Day 1425 - Blergen Personal Stories:
+- Mara Kest (scout) endured tighter rations. Status unchanged.
+- Orin Kest (healer) endured tighter rations. Status unchanged.
+- Pia Kest (cook) endured tighter rations. morale 1->0.
+- Quin Kest (guard) endured tighter rations. Status unchanged.
+
+Day 1427 - Blergen Personal Stories:
+- Orin Kest (healer) received care. health 3->5; morale 0->1.
+- Mara Kest (scout) received care. health 3->5; morale 0->1.
+- Pia Kest (cook) received care. health 4->6; morale 0->1.
+
+Day 1428 - Blergen Personal Stories:
+- Quin Kest (guard) found relief at the festival. morale 0->2.
+- Soren Kest (forager) found relief at the festival. morale 1->3.
+- Una Kest (farmer) found relief at the festival. morale 0->2.
+- Vera Kest (woodcutter) found relief at the festival. morale 0->2.
+- Wynn Kest (scout) found relief at the festival. morale 0->2.
+
+Day 1429 - Blergen Personal Stories:
+- Una Kest (farmer) bore the worst of the storm. health 4->3; morale 2->1.
+- Soren Kest (forager) bore the worst of the storm. health 4->3; morale 3->2.
+- Dain Lark (carpenter) bore the worst of the storm. health 5->4; morale 4->3.
+- Xara Kest (builder) helped strengthen the settlement. morale 1->2.
+- Ada Lark (guard) helped strengthen the settlement. morale 2->3.
+
+Day 1430 - Blergen Personal Stories:
+- Wynn Kest (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Una Kest (farmer) endured tighter rations. morale 1->0.
+- Vera Kest (woodcutter) endured tighter rations. morale 2->1.
+- Wynn Kest (scout) endured tighter rations. Status unchanged.
+- Xara Kest (builder) endured tighter rations. morale 2->1.
+
+Day 1431 - Blergen Personal Stories:
+- Vera Kest (woodcutter) endured tighter rations. morale 1->0.
+- Wynn Kest (scout) endured tighter rations. morale 2->1.
+- Xara Kest (builder) endured tighter rations. morale 1->0.
+- Yuri Kest (healer) endured tighter rations. morale 1->0.
+
+Day 1433 - Blergen Personal Stories:
+- Orin Kest (healer) bore the worst of the storm. health 2->0; morale 1->0; hunger 0->1; died.
+- Una Kest (farmer) bore the worst of the storm. health 2->1.
+- Mara Kest (scout) bore the worst of the storm. health 2->1; morale 1->0.
+- Soren Kest (forager) bore the worst of the storm. health 2->1; morale 1->0.
+- Pia Kest (cook) bore the worst of the storm. health 3->2; morale 1->0.
+- Xara Kest (builder) helped strengthen the settlement. morale 0->1.
+- Ada Lark (guard) helped strengthen the settlement. morale 2->3.
+- Orin Kest (healer) died of storm. health 2->0; morale 1->0; hunger 0->1; died.
+
+Day 1434 - Blergen Personal Stories:
+- Una Kest (farmer) received care. health 1->3; morale 0->1.
+- Mara Kest (scout) received care. health 1->3; morale 0->1.
+- Soren Kest (forager) received care. health 1->3; morale 0->1.
+
+Day 1435 - Blergen Personal Stories:
+- Galen Lark (scout) discovered useful clay near the riverbank. morale 0->2.
+- Galen Lark (scout) scouted beyond the settlement. morale 0->2.
+- Mara Kest (scout) scouted beyond the settlement. morale 1->2.
+- Xara Kest (builder) went without a full ration. hunger 0->1.
+- Ada Lark (guard) went without a full ration. hunger 0->1.
+- Wynn Kest (scout) went without a full ration. hunger 0->1.
+- Yuri Kest (healer) went without a full ration. hunger 0->1.
+- Finn Lark (woodcutter) went without a full ration. hunger 0->1.
+
+Day 1436 - Blergen Personal Stories:
+- Galen Lark (scout) endured tighter rations. morale 2->1.
+- Hana Lark (builder) endured tighter rations. morale 6->5.
+- Iris Lark (healer) endured tighter rations. morale 3->2.
+- Jory Lark (cook) endured tighter rations. morale 4->3.
+- Cora Lark (forager) went without a full ration. hunger 0->1.
+- Soren Kest (forager) went without a full ration. health 3->2; hunger 0->1.
+- Una Kest (farmer) went without a full ration. health 3->2; hunger 0->1.
+- Vera Kest (woodcutter) went without a full ration. health 3->2; hunger 0->1.
+- Bram Lark (teacher) went without a full ration. hunger 0->1.
+- Mara Kest (scout) went without a full ration. health 3->2; hunger 0->1.
+- Dain Lark (carpenter) went without a full ration. hunger 0->1.
+- Quin Kest (guard) went without a full ration. health 2->1; hunger 0->1.
+- Pia Kest (cook) went without a full ration. health 2->1; hunger 0->1.
+- Xara Kest (builder) went without a full ration. hunger 1->2.
+- Ada Lark (guard) went without a full ration. hunger 1->2.
+- Wynn Kest (scout) went without a full ration. hunger 1->2.
+- Yuri Kest (healer) went without a full ration. hunger 1->2.
+- Finn Lark (woodcutter) went without a full ration. hunger 1->2.
+
+Day 1437 - Blergen Personal Stories:
+- Quin Kest (guard) bore the worst of the storm. health 1->0; hunger 1->3; died.
+- Pia Kest (cook) bore the worst of the storm. health 1->0; morale 3->2; hunger 1->3; died.
+- Dain Lark (carpenter) bore the worst of the storm. health 2->0; morale 5->4; hunger 1->3; died.
+- Vera Kest (woodcutter) bore the worst of the storm. health 2->0; morale 3->2; hunger 1->3; died.
+- Hana Lark (builder) helped strengthen the settlement. morale 5->6; hunger 0->1.
+- Quin Kest (guard) helped strengthen the settlement. health 1->0; hunger 1->3; died.
+- Hana Lark (builder) went without a full ration. morale 5->6; hunger 0->1.
+- Jory Lark (cook) went without a full ration. hunger 0->1.
+- Iris Lark (healer) went without a full ration. hunger 0->1.
+- Galen Lark (scout) went without a full ration. hunger 0->1.
+- Cora Lark (forager) went without a full ration. hunger 1->2.
+- Bram Lark (teacher) went without a full ration. hunger 1->2.
+- Soren Kest (forager) went without a full ration. hunger 1->2.
+- Una Kest (farmer) went without a full ration. hunger 1->2.
+- Mara Kest (scout) went without a full ration. hunger 1->2.
+- Xara Kest (builder) went without a full ration. health 7->0; hunger 2->3; died.
+- Ada Lark (guard) went without a full ration. health 4->0; hunger 2->3; died.
+- Wynn Kest (scout) went without a full ration. health 4->0; hunger 2->3; died.
+- Yuri Kest (healer) went without a full ration. health 4->0; hunger 2->3; died.
+- Finn Lark (woodcutter) went without a full ration. health 4->0; hunger 2->3; died.
+- Dain Lark (carpenter) went without a full ration. health 2->0; morale 5->4; hunger 1->3; died.
+- Vera Kest (woodcutter) went without a full ration. health 2->0; morale 3->2; hunger 1->3; died.
+- Quin Kest (guard) went without a full ration. health 1->0; hunger 1->3; died.
+- Pia Kest (cook) went without a full ration. health 1->0; morale 3->2; hunger 1->3; died.
+- Xara Kest (builder) died of starvation. health 7->0; hunger 2->3; died.
+- Ada Lark (guard) died of starvation. health 4->0; hunger 2->3; died.
+- Wynn Kest (scout) died of starvation. health 4->0; hunger 2->3; died.
+- Yuri Kest (healer) died of starvation. health 4->0; hunger 2->3; died.
+- Finn Lark (woodcutter) died of starvation. health 4->0; hunger 2->3; died.
+- Dain Lark (carpenter) died of starvation. health 2->0; morale 5->4; hunger 1->3; died.
+- Vera Kest (woodcutter) died of starvation. health 2->0; morale 3->2; hunger 1->3; died.
+- Quin Kest (guard) died of starvation. health 1->0; hunger 1->3; died.
+- Pia Kest (cook) died of starvation. health 1->0; morale 3->2; hunger 1->3; died.
+
+Day 1438 - Blergen Personal Stories:
+- Iris Lark (healer) endured tighter rations. health 3->0; morale 2->1; hunger 1->3; died.
+- Jory Lark (cook) endured tighter rations. health 3->0; morale 3->2; hunger 1->3; died.
+- Mara Kest (scout) endured tighter rations. morale 2->0.
+- Soren Kest (forager) endured tighter rations. morale 4->2.
+- Hana Lark (builder) went without a full ration. morale 6->5; hunger 1->2.
+- Galen Lark (scout) went without a full ration. morale 1->0; hunger 1->2.
+- Cora Lark (forager) went without a full ration. health 3->0; hunger 2->3; died.
+- Bram Lark (teacher) went without a full ration. health 3->0; hunger 2->3; died.
+- Jory Lark (cook) went without a full ration. health 3->0; morale 3->2; hunger 1->3; died.
+- Iris Lark (healer) went without a full ration. health 3->0; morale 2->1; hunger 1->3; died.
+- Una Kest (farmer) went without a full ration. health 2->0; hunger 2->3; died.
+- Cora Lark (forager) died of starvation. health 3->0; hunger 2->3; died.
+- Bram Lark (teacher) died of starvation. health 3->0; hunger 2->3; died.
+- Jory Lark (cook) died of starvation. health 3->0; morale 3->2; hunger 1->3; died.
+- Iris Lark (healer) died of starvation. health 3->0; morale 2->1; hunger 1->3; died.
+- Una Kest (farmer) died of starvation. health 2->0; hunger 2->3; died.
+
+Day 1439 - Blergen Personal Stories:
+- Hana Lark (builder) endured tighter rations. health 3->0; morale 5->4; hunger 2->4; died.
+- Mara Kest (scout) endured tighter rations. Status unchanged.
+- Soren Kest (forager) endured tighter rations. health 2->0; morale 2->1; hunger 2->4; died.
+- Galen Lark (scout) endured tighter rations. health 3->0; hunger 2->4; died.
+- Hana Lark (builder) went without a full ration. health 3->0; morale 5->4; hunger 2->4; died.
+- Galen Lark (scout) went without a full ration. health 3->0; hunger 2->4; died.
+- Soren Kest (forager) went without a full ration. health 2->0; morale 2->1; hunger 2->4; died.
+- Hana Lark (builder) died of starvation. health 3->0; morale 5->4; hunger 2->4; died.
+- Galen Lark (scout) died of starvation. health 3->0; hunger 2->4; died.
+- Soren Kest (forager) died of starvation. health 2->0; morale 2->1; hunger 2->4; died.
+
+Day 1440 - Blergen Personal Stories:
+- Mara Kest (scout) endured tighter rations. health 2->0; hunger 2->4; died.
+- Mara Kest (scout) went without a full ration. health 2->0; hunger 2->4; died.
+- Mara Kest (scout) died of starvation. health 2->0; hunger 2->4; died.

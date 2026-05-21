@@ -1287,13 +1287,13 @@ def _apply_tend_the_sick_to_people(
 ) -> None:
     patients = _select_vulnerable_people(
         state,
-        max(3, min(6, (living_population(state) + 24) // 25)),
+        max(4, min(8, (living_population(state) + 14) // 15)),
     )
     if not patients:
         return
 
     for person in patients:
-        _change_status(person, health_delta=2, morale_delta=1)
+        _change_status(person, health_delta=3, morale_delta=1)
         _add_story_note(person, f"{person['name']} received care from the sick ward on day {day}.")
 
     people_events["actions"].append(

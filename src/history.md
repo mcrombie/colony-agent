@@ -3585,3 +3585,1098 @@ Rain softened the paths and soaked the outer work sites. No major world event ov
 
 Day 1195 (Year 4, April 10) - Blergen:
 Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Galen Lark discovered useful clay near the riverbank. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1196 (Year 4, April 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1197 (Year 4, April 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Mara Kest discovered fresh water north of camp. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1198 (Year 4, April 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1199 (Year 4, April 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 25, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Mara Kest, and Niko Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1200 (Year 4, April 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 27, reduced wood by 1, reduced morale by 1, reduced health by 1, reduced clay by 8, and increased pottery by 1. Yuri Kest, Finn Lark, and Quin Kest bore the worst of the storm. Niko Kest, and Pia Kest shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1201 (Year 4, April 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Soren Kest discovered useful clay near the riverbank. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1202 (Year 4, April 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1203 (Year 4, April 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 25, reduced morale by 1, reduced clay by 8, and increased pottery by 1. Pia Kest, and Talia Kest shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1204 (Year 4, April 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Soren Kest discovered useful clay near the riverbank. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1205 (Year 4, April 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 25, reduced morale by 1, reduced clay by 8, and increased pottery by 1. Talia Kest, and Xara Kest shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1206 (Year 4, April 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1207 (Year 4, April 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1208 (Year 4, April 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Wynn Kest discovered old trail markers beyond the fields. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1209 (Year 4, April 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 37, and increased health by 1. Yuri Kest, Finn Lark, and Quin Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1210 (Year 4, April 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 25, reduced morale by 1, and increased prepared crop fields by 75. Cora Lark, and Elia Lark worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1211 (Year 4, April 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 25, reduced wood by 10, and increased morale by 1. Xara Kest, and Ada Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1212 (Year 4, April 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest called a festival to steady morale; the day's changes reduced food by 50, and increased morale by 1. Yuri Kest, Zara Kest, Ada Lark, Bram Lark, and Cora Lark found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 1213 (Year 4, April 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 25, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Cora Lark, and Galen Lark worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1214 (Year 4, April 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Cora Lark discovered old trail markers beyond the fields. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1215 (Year 4, April 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. Illness moved through the colony, and President Yuri Kest organized care for the sick; the day's changes reduced food by 37, and reduced morale by 1. Xara Kest fell ill. Xara Kest, Elia Lark, and Wynn Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1216 (Year 4, May 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Cora Lark discovered useful clay near the riverbank. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1217 (Year 4, May 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Galen Lark discovered old trail markers beyond the fields. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1218 (Year 4, May 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 25, reduced morale by 1, and increased prepared crop fields by 75. Elia Lark, and Soren Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1219 (Year 4, May 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Galen Lark discovered useful clay near the riverbank. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1220 (Year 4, May 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 25, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Galen Lark, and Hana Lark worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1221 (Year 4, May 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1222 (Year 4, May 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Mara Kest discovered useful clay near the riverbank. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1223 (Year 4, May 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 25, increased clay by 39, and reduced known clay deposit by 39. Mara Kest discovered old trail markers beyond the fields. Mara Kest, and Niko Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1224 (Year 4, May 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Mara Kest discovered fresh water north of camp. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1225 (Year 4, May 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 25, reduced wood by 11, reduced morale by 1, and reduced health by 1. Xara Kest, Dain Lark, and Kara Lark bore the worst of the storm. Niko Kest, and Quin Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1226 (Year 4, May 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 2 foraging effort searched for food, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 15, and increased wood by 5. Soren Kest, and Una Kest searched for edible stores beyond camp. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1227 (Year 4, May 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, and increased morale by 1. Soren Kest discovered fresh water north of camp. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1228 (Year 4, May 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Soren Kest discovered useful clay near the riverbank. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1229 (Year 4, May 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1230 (Year 4, May 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 25, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1231 (Year 4, May 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 25, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Soren Kest discovered useful clay near the riverbank. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1232 (Year 4, May 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 25, reduced wood by 11, and reduced health by 1. Xara Kest, Dain Lark, and Kara Lark bore the worst of the storm. Talia Kest, and Xara Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1233 (Year 4, May 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. Illness moved through the colony, and President Yuri Kest organized care for the sick; the day's changes reduced population by 1, reduced food by 36, reduced morale by 1, and increased health by 1. Mara Kest fell ill. Mara Kest, Xara Kest, and Dain Lark received care. Kara Lark died. The loss of people is beginning to define the settlement's future.
+
+Day 1234 (Year 4, May 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1235 (Year 4, May 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Orin Kest, Una Kest, and Mara Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1236 (Year 4, May 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 24, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1237 (Year 4, May 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 24, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Cora Lark, and Galen Lark worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1238 (Year 4, May 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased morale by 1. Cora Lark discovered old trail markers beyond the fields. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1239 (Year 4, May 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 24, and reduced wood by 10. Dain Lark, and Hana Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1240 (Year 4, May 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 24, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1241 (Year 4, May 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 24, reduced morale by 1, and increased prepared crop fields by 72. Elia Lark, and Soren Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1242 (Year 4, May 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 24, reduced morale by 1, increased clay by 39, and reduced known clay deposit by 39. Galen Lark, and Hana Lark worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1243 (Year 4, May 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest called a festival to steady morale; the day's changes reduced food by 48, and increased morale by 1. Finn Lark, Galen Lark, Hana Lark, Iris Lark, and Jory Lark found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 1244 (Year 4, May 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased morale by 1. Galen Lark discovered old trail markers beyond the fields. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1245 (Year 4, May 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 24, reduced morale by 1, reduced clay by 8, and increased pottery by 1. Hana Lark, and Jory Lark shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1246 (Year 4, May 31) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews out to gather wood; the day's changes reduced food by 24, increased wood by 10, and reduced morale by 1. Talia Kest, and Vera Kest joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1247 (Year 4, June 1) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Yuri Kest sent scouts beyond the settlement; the day's changes increased wood by 5, increased morale by 1, and reduced health by 1. Mara Kest, Soren Kest, and Una Kest searched for edible stores beyond camp. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1248 (Year 4, June 2) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest ordered the ready crops harvested; the day's changes increased food by 198, increased morale by 1, reduced health by 1, and reduced prepared crop fields by 222. Mara Kest discovered fresh water north of camp. Pia Kest, Soren Kest, and Una Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1249 (Year 4, June 3) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, increased morale by 2, reduced health by 1, and increased known clay deposit by 40. Soren Kest discovered useful clay near the riverbank. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1250 (Year 4, June 4) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 24, reduced wood by 10, increased morale by 1, and reduced health by 1. Quin Kest, and Talia Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1251 (Year 4, June 5) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased morale by 2. Soren Kest discovered fresh water north of camp. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1252 (Year 4, June 6) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 24. The loss of people is beginning to define the settlement's future.
+
+Day 1253 (Year 4, June 7) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Soren Kest discovered old trail markers beyond the fields. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1254 (Year 4, June 8) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 24, and increased prepared crop fields by 48. Soren Kest discovered fresh water north of camp. Soren Kest, and Una Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1255 (Year 4, June 9) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest ordered the ready crops harvested; the day's changes increased food by 24, reduced prepared crop fields by 48, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Una Kest, Zara Kest, and Cora Lark harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1256 (Year 4, June 10) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Wynn Kest discovered old trail markers beyond the fields. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1257 (Year 4, June 11) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Wynn Kest discovered fresh water north of camp. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1258 (Year 4, June 12) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 24, increased prepared crop fields by 48, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Cora Lark, and Elia Lark worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1259 (Year 4, June 13) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Cora Lark discovered old trail markers beyond the fields. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1260 (Year 4, June 14) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest ordered the ready crops harvested; the day's changes increased food by 24, and reduced prepared crop fields by 48. Cora Lark discovered fresh water north of camp. Zara Kest, Cora Lark, and Elia Lark harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1261 (Year 4, June 15) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased known clay deposit by 40. Cora Lark discovered useful clay near the riverbank. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1262 (Year 4, June 16) - Blergen:
+Heat made the day's work tiring. A severity 4 foraging effort searched for food, and President Yuri Kest sent crews to work the clay deposit; the day's changes increased food by 12, increased clay by 39, and reduced known clay deposit by 39. Cora Lark, Elia Lark, Galen Lark, and Mara Kest searched for edible stores beyond camp. Cora Lark, and Galen Lark worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1263 (Year 4, June 17) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Cora Lark discovered fresh water north of camp. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1264 (Year 4, June 18) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 24, increased prepared crop fields by 48, and increased known clay deposit by 40. Cora Lark discovered useful clay near the riverbank. Cora Lark, and Elia Lark worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1265 (Year 4, June 19) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest ordered the ready crops harvested; the day's changes increased food by 24, and reduced prepared crop fields by 48. Galen Lark discovered old trail markers beyond the fields. Elia Lark, Jory Lark, and Pia Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1266 (Year 4, June 20) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 24, reduced wood by 11, and reduced morale by 1. Orin Kest, Cora Lark, and Jory Lark bore the worst of the storm. Hana Lark, and Niko Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1267 (Year 4, June 21) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 24, increased morale by 1, increased prepared crop fields by 48, and increased known clay deposit by 40. Galen Lark discovered useful clay near the riverbank. Soren Kest, and Una Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1268 (Year 4, June 22) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Galen Lark discovered old trail markers beyond the fields. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1269 (Year 4, June 23) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 24, reduced clay by 8, and increased pottery by 1. Mara Kest discovered fresh water north of camp. Hana Lark, and Jory Lark shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1270 (Year 4, June 24) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 24. The loss of people is beginning to define the settlement's future.
+
+Day 1271 (Year 4, June 25) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Yuri Kest sent crews to work the clay deposit; the day's changes increased clay by 39, and reduced known clay deposit by 39. Mara Kest, Soren Kest, and Una Kest searched for edible stores beyond camp. Mara Kest, and Niko Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1272 (Year 4, June 26) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Mara Kest discovered fresh water north of camp. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1273 (Year 4, June 27) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and reduced wood by 1. Orin Kest, Cora Lark, and Jory Lark bore the worst of the storm. Orin Kest, Cora Lark, and Jory Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1274 (Year 4, June 28) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Soren Kest discovered old trail markers beyond the fields. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1275 (Year 4, June 29) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Soren Kest discovered fresh water north of camp. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1276 (Year 4, June 30) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Yuri Kest ordered the ready crops harvested; the day's changes increased food by 36, and reduced prepared crop fields by 48. Soren Kest, and Una Kest searched for edible stores beyond camp. Soren Kest, Una Kest, and Zara Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1277 (Year 4, July 1) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Pia Kest, Vera Kest, and Niko Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1278 (Year 4, July 2) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Yuri Kest organized care for the sick; the day's changes reduced food by 12. Soren Kest, Una Kest, and Wynn Kest searched for edible stores beyond camp. Una Kest, Iris Lark, and Mara Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1279 (Year 4, July 3) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Hana Lark, Soren Kest, and Galen Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1280 (Year 4, July 4) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and reduced health by 1. Wynn Kest discovered old trail markers beyond the fields. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1281 (Year 4, July 5) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Yuri Kest organized care for the sick; the day's changes reduced food by 24, and increased health by 1. Wynn Kest, and Cora Lark searched for edible stores beyond camp. Finn Lark, Quin Kest, and Dain Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1282 (Year 4, July 6) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 24, reduced health by 1, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. The loss of people is beginning to define the settlement's future.
+
+Day 1283 (Year 4, July 7) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Pia Kest, Orin Kest, and Niko Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1284 (Year 4, July 8) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and reduced health by 1. Cora Lark discovered fresh water north of camp. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1285 (Year 4, July 9) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Quin Kest, Vera Kest, and Una Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1286 (Year 4, July 10) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 24, reduced wood by 10, and reduced health by 1. Ada Lark, and Dain Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1287 (Year 4, July 11) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Pia Kest, Orin Kest, and Niko Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1288 (Year 4, July 12) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 24, reduced health by 1, increased prepared crop fields by 48, and increased known clay deposit by 40. Cora Lark discovered useful clay near the riverbank. Cora Lark, and Elia Lark worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1289 (Year 4, July 13) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Quin Kest, Vera Kest, and Una Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1290 (Year 4, July 14) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest ordered the ready crops harvested; the day's changes increased food by 24, reduced health by 1, and reduced prepared crop fields by 48. Galen Lark discovered fresh water north of camp. Elia Lark, Jory Lark, and Pia Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1291 (Year 4, July 15) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased known clay deposit by 40. Galen Lark discovered useful clay near the riverbank. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1292 (Year 4, July 16) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Yuri Kest sent scouts beyond the settlement; the day's changes increased wood by 5. Galen Lark, Mara Kest, and Soren Kest searched for edible stores beyond camp. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1293 (Year 4, July 17) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 24, increased clay by 39, and reduced known clay deposit by 39. Mara Kest discovered fresh water north of camp. Hana Lark, and Mara Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1294 (Year 4, July 18) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 24. The loss of people is beginning to define the settlement's future.
+
+Day 1295 (Year 4, July 19) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Mara Kest discovered old trail markers beyond the fields. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1296 (Year 4, July 20) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, and increased wood by 5. Mara Kest discovered fresh water north of camp. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1297 (Year 4, July 21) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased known clay deposit by 40. Soren Kest discovered useful clay near the riverbank. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1298 (Year 4, July 22) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 24, reduced wood by 11, and reduced morale by 1. Orin Kest, Niko Kest, and Bram Lark bore the worst of the storm. Quin Kest, and Talia Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1299 (Year 4, July 23) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, and increased morale by 1. Soren Kest discovered fresh water north of camp. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1300 (Year 4, July 24) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36, and increased health by 1. Orin Kest, Niko Kest, and Bram Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1301 (Year 4, July 25) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36. Mara Kest, Talia Kest, and Ada Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1302 (Year 4, July 26) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 36. Soren Kest, Zara Kest, and Rhea Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1303 (Year 4, July 27) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 24, increased wood by 5, reduced health by 1, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1304 (Year 4, July 28) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Yuri Kest organized care for the sick; the day's changes reduced population by 1, and reduced food by 35. Yuri Kest fell ill. Yuri Kest, Quin Kest, and Xara Kest received care. Elia Lark died. The loss of people is beginning to define the settlement's future.
+
+Day 1305 (Year 4, July 29) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Yuri Kest organized care for the sick; the day's changes reduced population by 1, and reduced food by 33. Pia Kest fell ill. Pia Kest, Orin Kest, and Vera Kest received care. Niko Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 1306 (Year 4, July 30) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Yuri Kest organized care for the sick; the day's changes reduced population by 1, and reduced food by 32. Una Kest fell ill. Una Kest, Bram Lark, and Mara Kest received care. Talia Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 1307 (Year 4, July 31) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest organized care for the sick; the day's changes reduced food by 31, and increased health by 1. Soren Kest discovered old trail markers beyond the fields. Yuri Kest, Quin Kest, and Xara Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1308 (Year 4, August 1) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 21, reduced wood by 11, reduced morale by 1, and reduced health by 1. Wynn Kest, Ada Lark, and Soren Kest bore the worst of the storm. Xara Kest, and Ada Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1309 (Year 4, August 2) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 21, increased morale by 1, increased prepared crop fields by 42, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Cora Lark, and Soren Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1310 (Year 4, August 3) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 11, increased clay by 37, and reduced known clay deposit by 37. Wynn Kest, and Cora Lark searched for edible stores beyond camp. Wynn Kest, and Xara Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1311 (Year 4, August 4) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 31, and increased health by 1. Pia Kest, Wynn Kest, and Orin Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1312 (Year 4, August 5) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Yuri Kest organized care for the sick; the day's changes reduced population by 1, reduced food by 30, and reduced health by 1. Vera Kest fell ill. Vera Kest, Ada Lark, and Soren Kest received care. Zara Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 1313 (Year 4, August 6) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 30, and increased health by 1. Finn Lark, Quin Kest, and Dain Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1314 (Year 4, August 7) - Blergen:
+Heat made the day's work tiring. Illness moved through the colony, and President Yuri Kest organized care for the sick; the day's changes reduced population by 1, reduced food by 29, and reduced health by 1. Una Kest fell ill. Una Kest, Mara Kest, and Galen Lark received care. Rhea Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 1315 (Year 4, August 8) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased known clay deposit by 40. Soren Kest discovered useful clay near the riverbank. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1316 (Year 4, August 9) - Blergen:
+Heat made the day's work tiring. A dispute unsettled the day's work, and President Yuri Kest worked to mediate the tension; the day's changes reduced food by 19, and reduced morale by 1. Una Kest and Vera Kest became rivals. Una Kest and Vera Kest stepped back from rivalry. The loss of people is beginning to define the settlement's future.
+
+Day 1317 (Year 4, August 10) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 19, increased morale by 1, increased clay by 36, and reduced known clay deposit by 36. Wynn Kest discovered fresh water north of camp. Wynn Kest, and Xara Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1318 (Year 4, August 11) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1319 (Year 4, August 12) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 19, and increased prepared crop fields by 38. Cora Lark, and Soren Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1320 (Year 4, August 13) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest ordered the ready crops harvested; the day's changes increased food by 61, and reduced prepared crop fields by 80. Cora Lark discovered fresh water north of camp. Cora Lark, Jory Lark, and Pia Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1321 (Year 4, August 14) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Ada Lark, and Dain Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1322 (Year 4, August 15) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, and increased wood by 5. Cora Lark discovered old trail markers beyond the fields. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1323 (Year 4, August 16) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, and increased wood by 5. Cora Lark discovered fresh water north of camp. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1324 (Year 4, August 17) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, increased health by 1, and increased known clay deposit by 40. Galen Lark discovered useful clay near the riverbank. Yuri Kest, Xara Kest, and Pia Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1325 (Year 4, August 18) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and reduced health by 1. Galen Lark discovered old trail markers beyond the fields. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1326 (Year 4, August 19) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 19, and increased prepared crop fields by 38. Galen Lark discovered fresh water north of camp. Soren Kest, and Una Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1327 (Year 4, August 20) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest ordered the ready crops harvested; the day's changes increased food by 19, reduced prepared crop fields by 38, and increased known clay deposit by 40. Mara Kest discovered useful clay near the riverbank. Jory Lark, Pia Kest, and Soren Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1328 (Year 4, August 21) - Blergen:
+Heat made the day's work tiring. A severity 3 foraging effort searched for food, and President Yuri Kest sent scouts beyond the settlement; the day's changes increased wood by 5. Mara Kest, Soren Kest, and Una Kest searched for edible stores beyond camp. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1329 (Year 4, August 22) - Blergen:
+Heat made the day's work tiring. A severity 3 storm tested the colony, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, reduced wood by 1, and reduced morale by 1. Quin Kest, Wynn Kest, and Orin Kest bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 1330 (Year 4, August 23) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 19, increased morale by 1, increased clay by 36, and increased known clay deposit by 4. Mara Kest discovered useful clay near the riverbank. Mara Kest, and Soren Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1331 (Year 4, August 24) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Quin Kest, and Xara Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1332 (Year 4, August 25) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 19, increased clay by 36, and reduced known clay deposit by 36. Soren Kest discovered fresh water north of camp. Soren Kest, and Wynn Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1333 (Year 4, August 26) - Blergen:
+Heat made the day's work tiring. A severity 2 foraging effort searched for food, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 10, and increased wood by 5. Soren Kest, and Una Kest searched for edible stores beyond camp. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1334 (Year 4, August 27) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 19. Soren Kest discovered old trail markers beyond the fields. The loss of people is beginning to define the settlement's future.
+
+Day 1335 (Year 4, August 28) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, and increased wood by 5. Wynn Kest discovered fresh water north of camp. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1336 (Year 4, August 29) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, increased health by 1, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Quin Kest, Wynn Kest, and Orin Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1337 (Year 4, August 30) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28. Wynn Kest discovered old trail markers beyond the fields. Vera Kest, Cora Lark, and Bram Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1338 (Year 4, August 31) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and reduced health by 1. Cora Lark discovered fresh water north of camp. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1339 (Year 4, September 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, reduced wood by 1, and reduced morale by 1. Xara Kest, Pia Kest, and Dain Lark bore the worst of the storm. The loss of people is beginning to define the settlement's future.
+
+Day 1340 (Year 4, September 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Cora Lark discovered old trail markers beyond the fields. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1341 (Year 4, September 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, and increased health by 1. Xara Kest, Pia Kest, and Dain Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1342 (Year 4, September 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 foraging effort searched for food, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 5, and increased wood by 5. Cora Lark, Galen Lark, and Mara Kest searched for edible stores beyond camp. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1343 (Year 4, September 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Dain Lark, and Hana Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1344 (Year 4, September 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1345 (Year 4, September 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1346 (Year 4, September 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Mara Kest discovered old trail markers beyond the fields. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1347 (Year 4, September 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Quin Kest, and Xara Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1348 (Year 4, September 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Quin Kest, and Xara Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1349 (Year 4, September 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1350 (Year 4, September 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1351 (Year 4, September 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Soren Kest discovered useful clay near the riverbank. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1352 (Year 4, September 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 19, reduced morale by 1, increased clay by 36, and reduced known clay deposit by 36. Soren Kest, and Wynn Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1353 (Year 4, September 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1354 (Year 4, September 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1355 (Year 4, September 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 19, reduced morale by 1, reduced clay by 8, and increased pottery by 1. Xara Kest, and Dain Lark shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1356 (Year 4, September 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Wynn Kest discovered fresh water north of camp. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1357 (Year 4, September 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Xara Kest, and Ada Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1358 (Year 4, September 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, and increased health by 1. Una Kest, Ada Lark, and Soren Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1359 (Year 4, September 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 11, and reduced health by 1. Finn Lark, Bram Lark, and Yuri Kest bore the worst of the storm. Ada Lark, and Dain Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1360 (Year 4, September 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1361 (Year 4, September 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, increased morale by 1, and increased health by 1. Finn Lark, Bram Lark, and Yuri Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1362 (Year 4, September 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Galen Lark discovered fresh water north of camp. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1363 (Year 4, September 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, and increased health by 1. Finn Lark, Quin Kest, and Wynn Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1364 (Year 4, September 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, and increased health by 1. Dain Lark, Cora Lark, and Jory Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1365 (Year 4, September 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, and increased health by 1. Iris Lark, Hana Lark, and Galen Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1366 (Year 4, September 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Quin Kest, and Xara Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1367 (Year 4, September 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1368 (Year 4, September 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 19, reduced morale by 1, reduced clay by 8, and increased pottery by 1. Pia Kest, and Xara Kest shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1369 (Year 4, October 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 11, and reduced health by 1. Dain Lark, Jory Lark, and Iris Lark bore the worst of the storm. Quin Kest, and Xara Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1370 (Year 4, October 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Soren Kest discovered old trail markers beyond the fields. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1371 (Year 4, October 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 19, reduced morale by 1, increased clay by 36, and reduced known clay deposit by 36. Soren Kest, and Wynn Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1372 (Year 4, October 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered tighter food rationing; the day's changes reduced food by 15, and reduced morale by 2. Soren Kest, Una Kest, Vera Kest, and Wynn Kest felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1373 (Year 4, October 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Wynn Kest discovered old trail markers beyond the fields. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1374 (Year 4, October 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1375 (Year 4, October 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 10, and increased morale by 1. Xara Kest, and Ada Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1376 (Year 4, October 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1377 (Year 4, October 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest called a festival to steady morale; the day's changes reduced food by 38, and increased morale by 2. Cora Lark discovered fresh water north of camp. Yuri Kest, Ada Lark, Bram Lark, Cora Lark, and Dain Lark found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 1378 (Year 4, October 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 19, reduced morale by 1, increased clay by 36, and reduced known clay deposit by 36. Cora Lark, and Galen Lark worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1379 (Year 4, October 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1380 (Year 4, October 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 10, and increased morale by 1. Dain Lark, and Hana Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1381 (Year 4, October 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 19, reduced morale by 1, reduced clay by 8, and increased pottery by 1. Dain Lark, and Hana Lark shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1382 (Year 4, October 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest worked to mediate the tension; the day's changes reduced food by 19, and increased morale by 1. Finn Lark, and Galen Lark joined the mediation circle. The loss of people is beginning to define the settlement's future.
+
+Day 1383 (Year 4, October 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Galen Lark discovered fresh water north of camp. Galen Lark, and Mara Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1384 (Year 4, October 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1385 (Year 4, October 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1386 (Year 4, October 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Mara Kest discovered fresh water north of camp. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1387 (Year 4, October 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1388 (Year 4, October 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Soren Kest discovered old trail markers beyond the fields. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1389 (Year 4, October 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 11, and reduced health by 1. Dain Lark, Jory Lark, and Iris Lark bore the worst of the storm. Quin Kest, and Xara Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1390 (Year 4, October 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1391 (Year 4, October 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Soren Kest discovered old trail markers beyond the fields. Soren Kest, and Wynn Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1392 (Year 4, October 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, and increased health by 1. Dain Lark, Jory Lark, and Iris Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1393 (Year 4, October 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Wynn Kest discovered useful clay near the riverbank. Wynn Kest, and Cora Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1394 (Year 4, October 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest sent crews to work the clay deposit; the day's changes reduced food by 19, reduced morale by 1, increased clay by 36, and reduced known clay deposit by 36. Wynn Kest, and Xara Kest worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1395 (Year 4, October 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1396 (Year 4, October 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered clay shaped into storage pottery; the day's changes reduced food by 19, reduced morale by 1, reduced clay by 8, and increased pottery by 1. Dain Lark, and Hana Lark shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1397 (Year 4, October 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest called a festival to steady morale; the day's changes reduced food by 38, and increased morale by 1. Ada Lark, Bram Lark, Cora Lark, Dain Lark, and Finn Lark found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 1398 (Year 4, October 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest worked to mediate the tension; the day's changes reduced food by 19. Bram Lark, and Cora Lark joined the mediation circle. The loss of people is beginning to define the settlement's future.
+
+Day 1399 (Year 4, October 31) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 11, and reduced health by 1. Hana Lark, Galen Lark, and Finn Lark bore the worst of the storm. Dain Lark, and Hana Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1400 (Year 4, November 1) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1401 (Year 4, November 2) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 10, and increased morale by 1. Hana Lark, and Quin Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1402 (Year 4, November 3) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1403 (Year 4, November 4) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Mara Kest discovered old trail markers beyond the fields. Mara Kest, and Soren Kest scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1404 (Year 4, November 5) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Quin Kest, and Xara Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1405 (Year 4, November 6) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, and increased health by 1. Hana Lark, Galen Lark, and Finn Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1406 (Year 4, November 7) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered tighter food rationing; the day's changes reduced food by 15, and reduced morale by 2. Mara Kest, Orin Kest, Pia Kest, and Quin Kest felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1407 (Year 4, November 8) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 19. The loss of people is beginning to define the settlement's future.
+
+Day 1408 (Year 4, November 9) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest called a festival to steady morale; the day's changes reduced food by 38, and increased morale by 1. Pia Kest, Quin Kest, Soren Kest, Una Kest, and Vera Kest found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 1409 (Year 4, November 10) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1410 (Year 4, November 11) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest found no ready crops to harvest; the day's changes reduced food by 19. The loss of people is beginning to define the settlement's future.
+
+Day 1411 (Year 4, November 12) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 19, and increased prepared crop fields by 19. Una Kest, and Cora Lark worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1412 (Year 4, November 13) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered the ready crops harvested; the day's changes reduced prepared crop fields by 19. Cora Lark, Jory Lark, and Pia Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1413 (Year 4, November 14) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 10, and increased morale by 1. Xara Kest, and Ada Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1414 (Year 4, November 15) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest called a festival to steady morale; the day's changes reduced food by 38, and increased morale by 1. Xara Kest, Yuri Kest, Ada Lark, Bram Lark, and Cora Lark found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 1415 (Year 4, November 16) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 19, increased wood by 5, and increased morale by 1. Cora Lark discovered old trail markers beyond the fields. Cora Lark, and Galen Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1416 (Year 4, November 17) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered tighter food rationing; the day's changes reduced food by 15, and reduced morale by 2. Ada Lark, Bram Lark, Cora Lark, and Dain Lark felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1417 (Year 4, November 18) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1418 (Year 4, November 19) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest directed labor toward preparing the fields; the day's changes reduced food by 19, and increased prepared crop fields by 19. Cora Lark, and Soren Kest worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1419 (Year 4, November 20) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 11, increased morale by 1, and reduced health by 1. Orin Kest, Mara Kest, and Pia Kest bore the worst of the storm. Dain Lark, and Hana Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1420 (Year 4, November 21) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, and reduced wood by 10. Hana Lark, and Quin Kest helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1421 (Year 4, November 22) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest called a festival to steady morale; the day's changes reduced food by 38, and increased morale by 1. Galen Lark, Hana Lark, Iris Lark, Jory Lark, and Mara Kest found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 1422 (Year 4, November 23) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19, and reduced morale by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1423 (Year 4, November 24) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered the ready crops harvested; the day's changes reduced morale by 1, and reduced prepared crop fields by 19. Jory Lark, Pia Kest, and Soren Kest harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1424 (Year 4, November 25) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19. The loss of people is beginning to define the settlement's future.
+
+Day 1425 (Year 4, November 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest ordered tighter food rationing; the day's changes reduced food by 15. Mara Kest, Orin Kest, Pia Kest, and Quin Kest felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1426 (Year 4, November 27) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19. The loss of people is beginning to define the settlement's future.
+
+Day 1427 (Year 4, November 28) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 28, increased morale by 1, and increased health by 1. Orin Kest, Mara Kest, and Pia Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1428 (Year 4, November 29) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Yuri Kest called a festival to steady morale; the day's changes reduced food by 38, and increased morale by 1. Quin Kest, Soren Kest, Una Kest, Vera Kest, and Wynn Kest found a little relief at the festival. The loss of people is beginning to define the settlement's future.
+
+Day 1429 (Year 4, November 30) - Blergen:
+Rain softened the paths and soaked the outer work sites. A severity 3 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced food by 19, reduced wood by 11, reduced morale by 1, and reduced health by 1. Una Kest, Soren Kest, and Dain Lark bore the worst of the storm. Xara Kest, and Ada Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1430 (Year 4, December 1) - Blergen:
+Cold clear air settled over the camp. A discovery gave the colony something new to discuss, and President Yuri Kest ordered tighter food rationing; the day's changes reduced food by 15. Wynn Kest discovered old trail markers beyond the fields. Una Kest, Vera Kest, Wynn Kest, and Xara Kest felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1431 (Year 4, December 2) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No major world event overtook Blergen, and President Yuri Kest ordered tighter food rationing; the day's changes reduced food by 15, reduced morale by 1, and reduced health by 1. Vera Kest, Wynn Kest, Xara Kest, and Yuri Kest felt the tighter rations first. The loss of people is beginning to define the settlement's future.
+
+Day 1432 (Year 4, December 3) - Blergen:
+A gray sky pressed low over Blergen. No major world event overtook Blergen, and President Yuri Kest told the colonists to preserve resources; the day's changes reduced food by 19. The loss of people is beginning to define the settlement's future.
+
+Day 1433 (Year 4, December 4) - Blergen:
+A winter storm threatened the colony's shelters and stores. A severity 5 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced population by 1, reduced food by 18, reduced wood by 18, and reduced health by 1. Orin Kest, Una Kest, Mara Kest, Soren Kest, and Pia Kest bore the worst of the storm. Xara Kest, and Ada Lark helped strengthen the settlement. Orin Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 1434 (Year 4, December 5) - Blergen:
+Sleet made the paths slick and miserable. No major world event overtook Blergen, and President Yuri Kest organized care for the sick; the day's changes reduced food by 27, reduced wood by 1, increased morale by 1, and increased health by 1. Una Kest, Mara Kest, and Soren Kest received care. The loss of people is beginning to define the settlement's future.
+
+Day 1435 (Year 4, December 6) - Blergen:
+Cold clear air settled over the camp. A discovery gave the colony something new to discuss, and President Yuri Kest sent scouts beyond the settlement; the day's changes reduced food by 13, increased wood by 5, increased morale by 2, and increased known clay deposit by 40. Galen Lark discovered useful clay near the riverbank. Galen Lark, and Mara Kest scouted beyond the settlement. Xara Kest, Ada Lark, and Wynn Kest, and 2 others went without full rations. The loss of people is beginning to define the settlement's future.
+
+Day 1436 (Year 4, December 7) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No major world event overtook Blergen, and President Yuri Kest ordered tighter food rationing; the day's changes reduced morale by 1, and reduced health by 1. Galen Lark, Hana Lark, Iris Lark, and Jory Lark felt the tighter rations first. Cora Lark, Soren Kest, and Una Kest, and 11 others went without full rations. The loss of people is beginning to define the settlement's future.
+
+Day 1437 (Year 4, December 8) - Blergen:
+A gray sky pressed low over Blergen. A severity 4 storm tested the colony, and President Yuri Kest spent wood to strengthen the settlement; the day's changes reduced population by 9, reduced wood by 13, and increased morale by 1. Quin Kest, Pia Kest, Dain Lark, and Vera Kest bore the worst of the storm. Hana Lark, and Quin Kest helped strengthen the settlement. Xara Kest, Ada Lark, and Wynn Kest, and 6 others died. The loss of people is beginning to define the settlement's future.
+
+Day 1438 (Year 4, December 9) - Blergen:
+A winter storm threatened the colony's shelters and stores. No major world event overtook Blergen, and President Cora Lark ordered tighter food rationing; the day's changes reduced population by 5, reduced wood by 3, and reduced morale by 2. Iris Lark, Jory Lark, Mara Kest, and Soren Kest felt the tighter rations first. Hana Lark, Galen Lark, and Cora Lark, and 4 others went without full rations. Cora Lark, Bram Lark, and Jory Lark, and 2 others died. The loss of people is beginning to define the settlement's future.
+
+Day 1439 (Year 4, December 10) - Blergen:
+Sleet made the paths slick and miserable. No major world event overtook Blergen, and President Hana Lark ordered tighter food rationing; the day's changes reduced population by 3, reduced wood by 1, and reduced morale by 1. Hana Lark, Mara Kest, Soren Kest, and Galen Lark felt the tighter rations first. Hana Lark, Galen Lark, and Soren Kest went without full rations. Hana Lark, Galen Lark, and Soren Kest died. The loss of people is beginning to define the settlement's future.
+
+Day 1440 (Year 4, December 11) - Blergen:
+Cold clear air settled over the camp. No major world event overtook Blergen, and President Mara Kest ordered tighter food rationing; the day's changes reduced population by 1, and reduced health by 2. Mara Kest felt the tighter rations first. Mara Kest went without full rations. Mara Kest died. No colonists remain in Blergen.
+
+Day 1441 (Year 4, December 12) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1442 (Year 4, December 13) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1443 (Year 4, December 14) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1444 (Year 4, December 15) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1445 (Year 4, December 16) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1446 (Year 4, December 17) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1447 (Year 4, December 18) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1448 (Year 4, December 19) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1449 (Year 4, December 20) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1450 (Year 4, December 21) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1451 (Year 4, December 22) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1452 (Year 4, December 23) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1453 (Year 4, December 24) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1454 (Year 4, December 25) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1455 (Year 4, December 26) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1456 (Year 4, December 27) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1457 (Year 4, December 28) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1458 (Year 4, December 29) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1459 (Year 4, December 30) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1460 (Year 4, December 31) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1461 (Year 5, January 1) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1462 (Year 5, January 2) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1463 (Year 5, January 3) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1464 (Year 5, January 4) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1465 (Year 5, January 5) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1466 (Year 5, January 6) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1467 (Year 5, January 7) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1468 (Year 5, January 8) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1469 (Year 5, January 9) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1470 (Year 5, January 10) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1471 (Year 5, January 11) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1472 (Year 5, January 12) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1473 (Year 5, January 13) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1474 (Year 5, January 14) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1475 (Year 5, January 15) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1476 (Year 5, January 16) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1477 (Year 5, January 17) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1478 (Year 5, January 18) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1479 (Year 5, January 19) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1480 (Year 5, January 20) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1481 (Year 5, January 21) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1482 (Year 5, January 22) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1483 (Year 5, January 23) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1484 (Year 5, January 24) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1485 (Year 5, January 25) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1486 (Year 5, January 26) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1487 (Year 5, January 27) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1488 (Year 5, January 28) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1489 (Year 5, January 29) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1490 (Year 5, January 30) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1491 (Year 5, January 31) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1492 (Year 5, February 1) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1493 (Year 5, February 2) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1494 (Year 5, February 3) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1495 (Year 5, February 4) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1496 (Year 5, February 5) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1497 (Year 5, February 6) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1498 (Year 5, February 7) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1499 (Year 5, February 8) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1500 (Year 5, February 9) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1501 (Year 5, February 10) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1502 (Year 5, February 11) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1503 (Year 5, February 12) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1504 (Year 5, February 13) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1505 (Year 5, February 14) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1506 (Year 5, February 15) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1507 (Year 5, February 16) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1508 (Year 5, February 17) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1509 (Year 5, February 18) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1510 (Year 5, February 19) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1511 (Year 5, February 20) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1512 (Year 5, February 21) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1513 (Year 5, February 22) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1514 (Year 5, February 23) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1515 (Year 5, February 24) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1516 (Year 5, February 25) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1517 (Year 5, February 26) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
+
+Day 1518 (Year 5, February 27) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1519 (Year 5, February 28) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1520 (Year 5, March 1) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1521 (Year 5, March 2) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1522 (Year 5, March 3) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1523 (Year 5, March 4) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1524 (Year 5, March 5) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1525 (Year 5, March 6) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1526 (Year 5, March 7) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1527 (Year 5, March 8) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1528 (Year 5, March 9) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1529 (Year 5, March 10) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced security by 1. No colonists remain in Blergen.
+
+Day 1530 (Year 5, March 11) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1531 (Year 5, March 12) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1532 (Year 5, March 13) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1533 (Year 5, March 14) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1534 (Year 5, March 15) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1535 (Year 5, March 16) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1536 (Year 5, March 17) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1537 (Year 5, March 18) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1538 (Year 5, March 19) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1539 (Year 5, March 20) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1540 (Year 5, March 21) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1541 (Year 5, March 22) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1542 (Year 5, March 23) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1543 (Year 5, March 24) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1544 (Year 5, March 25) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1545 (Year 5, March 26) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1546 (Year 5, March 27) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1547 (Year 5, March 28) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1548 (Year 5, March 29) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1549 (Year 5, March 30) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1550 (Year 5, March 31) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1551 (Year 5, April 1) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1552 (Year 5, April 2) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1553 (Year 5, April 3) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1554 (Year 5, April 4) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1555 (Year 5, April 5) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1556 (Year 5, April 6) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1557 (Year 5, April 7) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1558 (Year 5, April 8) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1559 (Year 5, April 9) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1560 (Year 5, April 10) - Blergen:
+A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.

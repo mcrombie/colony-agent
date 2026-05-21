@@ -145,13 +145,23 @@ def apply_day(
     )
     _apply_effects(after, leadership_effects)
 
+    health_pressure = _net_effect(weather_effects, "health")
+    health_pressure += _net_effect(world_effects, "health")
+    health_pressure += _net_effect(leadership_effects, "health")
     after = clamp_state(after)
     if undead_outcome:
         _apply_undead_threat_state(after, undead_outcome)
-    status_targets = _changed_status_targets(before, after)
     population_before_survival = after["population"]
     survival_effects = _apply_daily_food_consumption(after, leadership_action)
     after = clamp_state(after)
+    _apply_daily_health_recovery(
+        after,
+        survival_effects=survival_effects,
+        health_pressure=health_pressure,
+        leadership_action=leadership_action,
+    )
+    after = clamp_state(after)
+    status_targets = _changed_status_targets(before, after)
     people_events = _apply_people_effects(
         before=before,
         after=after,
@@ -863,7 +873,7 @@ def _effects_for_leadership_action(
 
     if leadership_action == "tend_the_sick":
         care_food = max(3, daily_food_needed(state["population"]) // 2)
-        return {"food": -care_food, "health": 1, "morale": 1}
+        return {"food": -care_food, "health": 2, "morale": 1}
 
     if leadership_action == "mediate_dispute":
         return {"morale": 1, "security": 1}
@@ -904,6 +914,36 @@ def _apply_daily_food_consumption(
         effects["missed_rations"] = missed_rations
 
     return effects
+
+
+def _apply_daily_health_recovery(
+    state: dict[str, Any],
+    *,
+    survival_effects: dict[str, int],
+    health_pressure: int,
+    leadership_action: str,
+) -> None:
+    """Let a fed colony slowly recover from prior hardship."""
+    if state["population"] <= 0:
+        return
+
+    if state["health"] >= 5:
+        return
+
+    if survival_effects.get("missed_rations", 0) > 0:
+        return
+
+    if health_pressure != 0:
+        return
+
+    if leadership_action in {"ration_food", "hold_festival"}:
+        return
+
+    state["health"] += 1
+
+
+def _net_effect(effects: dict[str, int], stat: str) -> int:
+    return int(effects.get(stat, 0))
 
 
 def _foraging_food_yield(

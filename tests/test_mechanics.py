@@ -282,6 +282,34 @@ def test_rationing_rounds_up_for_small_colonies():
     assert daily_food_needed(4, "ration_food") == 3
 
 
+def test_fed_colony_recovers_health_on_calm_days():
+    state = state_with(food=120, population=100, health=4)
+
+    after, event_record = apply_day(state, "quiet_day", "preserve_resources")
+
+    assert after["health"] == 5
+    assert event_record["effects"]["health"] == 1
+
+
+def test_colony_does_not_recover_health_without_full_rations():
+    state = state_with(food=50, population=100, health=4)
+
+    after, event_record = apply_day(state, "quiet_day", "preserve_resources")
+
+    assert after["health"] == 4
+    assert "health" not in event_record["effects"]
+    assert event_record["survival_effects"]["missed_rations"] == 50
+
+
+def test_colony_does_not_passively_recover_while_rationing():
+    state = state_with(food=120, population=100, health=4)
+
+    after, event_record = apply_day(state, "quiet_day", "ration_food")
+
+    assert after["health"] == 4
+    assert "health" not in event_record["effects"]
+
+
 def test_foraging_adds_variable_food_before_daily_consumption():
     environment = {
         "date": {
@@ -588,9 +616,9 @@ def test_tending_sick_can_offset_illness_health_loss():
 
     after, event_record = apply_day(state, "illness", "tend_the_sick")
 
-    assert after["health"] == 6
+    assert after["health"] == 7
     assert event_record["leadership_action"] == "tend_the_sick"
-    assert "health" not in event_record["effects"]
+    assert event_record["effects"]["health"] == 1
 
 
 def test_chaos_gods_reduce_health_security_and_morale():
