@@ -4680,3 +4680,726 @@ A thunderstorm rolled over the settlement. No colonists remained to give orders,
 
 Day 1560 (Year 5, April 10) - Blergen:
 A thunderstorm rolled over the settlement. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1561 (Year 5, April 11) - Blergen:
+Blergen Company sent 25 new settlers to Blergen. Blergen Company sent 5000 food to Blergen. Blergen Company sent supplies to Blergen: 80 wood and 4 security. A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Bram Moss ordered clay shaped into storage pottery; the day's changes reduced food by 25, reduced wood by 3, reduced morale by 1, reduced security by 1, reduced clay by 8, and increased pottery by 1. Bram Moss, Iris Moss, Mara Lark, and Talia Lark bore the worst of the storm. Xara Lark, and Bram Moss shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1562 (Year 5, April 12) - Blergen:
+Blergen Company sent 25 new settlers to Blergen. Blergen Company sent 8000 food to Blergen. Blergen Company sent supplies to Blergen: 100 wood and 5 security. A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, and increased morale by 1. Xara Lark, and Bram Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1563 (Year 5, April 13) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, and increased morale by 1. Bram Moss, and Elia Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1564 (Year 5, April 14) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, and increased morale by 1. Bram Moss, and Elia Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1565 (Year 5, April 15) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, and increased morale by 1. Bram Moss, and Elia Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1566 (Year 5, April 16) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced security by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1567 (Year 5, April 17) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss sent crews to work the clay deposit; the day's changes reduced food by 50, reduced security by 1, increased clay by 52, and reduced known clay deposit by 52. Galen Moss, and Kara Moss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1568 (Year 5, April 18) - Blergen:
+A thunderstorm rolled over the settlement. A severity 3 storm tested the colony, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 11, increased morale by 1, and reduced health by 1. Xara Moss, Bram Moss, and Elia Nell bore the worst of the storm. Elia Moss, and Hana Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1569 (Year 5, April 19) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Elia Moss, and Hana Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1570 (Year 5, April 20) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Hana Moss, and Lio Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1571 (Year 5, April 21) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Hana Moss, and Lio Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1572 (Year 5, April 22) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Hana Moss, and Lio Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1573 (Year 5, April 23) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Lio Moss, and Orin Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1574 (Year 5, April 24) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Lio Moss, and Orin Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1575 (Year 5, April 25) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Lio Moss, and Orin Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1576 (Year 5, April 26) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Lio Moss, and Orin Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1577 (Year 5, April 27) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced security by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1578 (Year 5, April 28) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Orin Moss, and Rhea Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1579 (Year 5, April 29) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Orin Moss, and Rhea Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1580 (Year 5, April 30) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Rhea Moss, and Vera Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1581 (Year 5, May 1) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced security by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1582 (Year 5, May 2) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced security by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1583 (Year 5, May 3) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Vera Moss, and Yuri Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1584 (Year 5, May 4) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Vera Moss, and Yuri Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1585 (Year 5, May 5) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Vera Moss, and Yuri Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1586 (Year 5, May 6) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Vera Moss, and Yuri Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1587 (Year 5, May 7) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Yuri Moss, and Bram Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1588 (Year 5, May 8) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Yuri Moss, and Bram Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1589 (Year 5, May 9) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Yuri Moss, and Bram Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1590 (Year 5, May 10) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Bram Nell, and Finn Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1591 (Year 5, May 11) - Blergen:
+A thunderstorm rolled over the settlement. A severity 3 storm tested the colony, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 11, reduced morale by 1, and reduced health by 1. Xara Moss, Bram Moss, and Elia Nell bore the worst of the storm. Bram Nell, and Finn Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1592 (Year 5, May 12) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, increased morale by 1, and increased health by 1. Bram Nell, and Finn Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1593 (Year 5, May 13) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Finn Nell, and Iris Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1594 (Year 5, May 14) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Finn Nell, and Iris Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1595 (Year 5, May 15) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Finn Nell, and Iris Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1596 (Year 5, May 16) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Finn Nell, and Iris Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1597 (Year 5, May 17) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Iris Nell, and Niko Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1598 (Year 5, May 18) - Blergen:
+A thunderstorm rolled over the settlement. A severity 4 storm tested the colony, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 13, and reduced morale by 1. Xara Moss, Bram Moss, Elia Nell, and Iris Moss bore the worst of the storm. Iris Nell, and Niko Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1599 (Year 5, May 19) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, and increased morale by 1. Iris Nell, and Niko Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1600 (Year 5, May 20) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Niko Lark, and Rhea Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1601 (Year 5, May 21) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced security by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1602 (Year 5, May 22) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Niko Lark, and Rhea Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1603 (Year 5, May 23) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Rhea Lark, and Una Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1604 (Year 5, May 24) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Rhea Lark, and Una Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1605 (Year 5, May 25) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss sent crews out to gather wood; the day's changes reduced food by 50, increased wood by 10, and reduced security by 1. Xara Lark, and Zara Lark joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1606 (Year 5, May 26) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss sent crews out to gather wood; the day's changes reduced food by 50, increased wood by 10, and reduced security by 1. Xara Lark, and Zara Lark joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1607 (Year 5, May 27) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Una Lark, and Xara Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1608 (Year 5, May 28) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Una Lark, and Xara Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1609 (Year 5, May 29) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, and reduced wood by 10. Una Lark, and Xara Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1610 (Year 5, May 30) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss sent crews out to gather wood; the day's changes reduced food by 50, and increased wood by 10. Xara Lark, and Zara Lark joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1611 (Year 5, May 31) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Bram Moss sent crews out to gather wood; the day's changes reduced food by 50, and increased wood by 10. Xara Lark, and Zara Lark joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1612 (Year 5, June 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, and increased security by 1. Xara Lark, and Bram Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1613 (Year 5, June 2) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Ada Moss discovered old trail markers beyond the fields. Ada Moss, and Galen Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1614 (Year 5, June 3) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Bram Moss sent crews out to gather wood; the day's changes increased wood by 10. Ada Moss, Galen Moss, and Iris Moss searched for edible stores beyond camp. Zara Lark, and Hana Moss joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1615 (Year 5, June 4) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Ada Moss discovered useful clay near the riverbank. Ada Moss, and Galen Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1616 (Year 5, June 5) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 foraging effort searched for food, and President Bram Moss sent crews to work the clay deposit; the day's changes reduced food by 25, increased clay by 52, and reduced known clay deposit by 52. Galen Moss, and Iris Moss searched for edible stores beyond camp. Bram Moss, and Galen Moss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1617 (Year 5, June 6) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Galen Moss discovered fresh water north of camp. Galen Moss, and Kara Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1618 (Year 5, June 7) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Galen Moss discovered useful clay near the riverbank. Galen Moss, and Kara Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1619 (Year 5, June 8) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Galen Moss discovered old trail markers beyond the fields. Galen Moss, and Kara Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1620 (Year 5, June 9) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Galen Moss discovered fresh water north of camp. Galen Moss, and Kara Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1621 (Year 5, June 10) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 storm tested the colony, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, reduced morale by 1, and increased security by 1. Xara Moss, and Bram Moss bore the worst of the storm. Hana Moss, and Lio Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1622 (Year 5, June 11) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. The loss of people is beginning to define the settlement's future.
+
+Day 1623 (Year 5, June 12) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased morale by 1. Kara Moss discovered fresh water north of camp. Kara Moss, and Quin Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1624 (Year 5, June 13) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Kara Moss discovered useful clay near the riverbank. Kara Moss, and Quin Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1625 (Year 5, June 14) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Kara Moss discovered old trail markers beyond the fields. Kara Moss, and Quin Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1626 (Year 5, June 15) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Bram Moss sent crews out to gather wood; the day's changes increased wood by 10. Quin Moss, Soren Moss, and Una Moss searched for edible stores beyond camp. Rhea Moss, and Talia Moss joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1627 (Year 5, June 16) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Quin Moss discovered useful clay near the riverbank. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1628 (Year 5, June 17) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Quin Moss discovered old trail markers beyond the fields. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1629 (Year 5, June 18) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Quin Moss discovered fresh water north of camp. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1630 (Year 5, June 19) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Quin Moss discovered useful clay near the riverbank. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1631 (Year 5, June 20) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Quin Moss discovered old trail markers beyond the fields. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1632 (Year 5, June 21) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Una Moss discovered fresh water north of camp. Una Moss, and Ada Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1633 (Year 5, June 22) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Una Moss discovered useful clay near the riverbank. Una Moss, and Ada Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1634 (Year 5, June 23) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Una Moss discovered old trail markers beyond the fields. Una Moss, and Ada Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1635 (Year 5, June 24) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 storm tested the colony, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, reduced morale by 1, and increased security by 1. Xara Moss, and Bram Moss bore the worst of the storm. Vera Moss, and Yuri Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1636 (Year 5, June 25) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, increased morale by 1, and increased known clay deposit by 40. Ada Nell discovered useful clay near the riverbank. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1637 (Year 5, June 26) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, and increased security by 1. Yuri Moss, and Bram Nell helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1638 (Year 5, June 27) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Ada Nell discovered fresh water north of camp. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1639 (Year 5, June 28) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Ada Nell discovered useful clay near the riverbank. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1640 (Year 5, June 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. The loss of people is beginning to define the settlement's future.
+
+Day 1641 (Year 5, June 30) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Ada Nell discovered fresh water north of camp. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1642 (Year 5, July 1) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Elia Nell discovered useful clay near the riverbank. Elia Nell, and Mara Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1643 (Year 5, July 2) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Bram Moss sent crews to work the clay deposit; the day's changes increased clay by 52, and reduced known clay deposit by 52. Cora Nell, Elia Nell, and Mara Lark searched for edible stores beyond camp. Elia Nell, and Finn Nell worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1644 (Year 5, July 3) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Elia Nell discovered fresh water north of camp. Elia Nell, and Mara Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1645 (Year 5, July 4) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Elia Nell discovered useful clay near the riverbank. Elia Nell, and Mara Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1646 (Year 5, July 5) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Bram Moss sent crews out to gather wood; the day's changes increased food by 25, and increased wood by 10. Mara Lark, Orin Lark, Quin Lark, and Wynn Lark searched for edible stores beyond camp. Niko Lark, and Pia Lark joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1647 (Year 5, July 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Bram Moss wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 50. The loss of people is beginning to define the settlement's future.
+
+Day 1648 (Year 5, July 7) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Bram Moss directed labor toward preparing the fields; the day's changes increased food by 25, and increased prepared crop fields by 100. Mara Lark, Orin Lark, Quin Lark, and Wynn Lark searched for edible stores beyond camp. Mara Lark, and Orin Lark worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1649 (Year 5, July 8) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Mara Lark discovered old trail markers beyond the fields. Mara Lark, and Quin Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1650 (Year 5, July 9) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Bram Moss ordered the ready crops harvested; the day's changes increased food by 100, and reduced prepared crop fields by 100. Mara Lark, Orin Lark, and Quin Lark searched for edible stores beyond camp. Mara Lark, Orin Lark, and Talia Lark harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1651 (Year 5, July 10) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Bram Moss ordered clay shaped into storage pottery; the day's changes reduced food by 50, reduced clay by 8, and increased pottery by 1. Niko Lark, and Rhea Lark shaped clay into storage pottery. The loss of people is beginning to define the settlement's future.
+
+Day 1652 (Year 5, July 11) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Quin Lark discovered old trail markers beyond the fields. Quin Lark, and Wynn Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1653 (Year 5, July 12) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Quin Lark discovered fresh water north of camp. Quin Lark, and Wynn Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1654 (Year 5, July 13) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Quin Lark discovered useful clay near the riverbank. Quin Lark, and Wynn Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1655 (Year 5, July 14) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Quin Lark discovered old trail markers beyond the fields. Quin Lark, and Wynn Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1656 (Year 5, July 15) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Wynn Lark discovered fresh water north of camp. Wynn Lark, and Ada Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1657 (Year 5, July 16) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Wynn Lark discovered useful clay near the riverbank. Wynn Lark, and Ada Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1658 (Year 5, July 17) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Wynn Lark discovered old trail markers beyond the fields. Wynn Lark, and Ada Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1659 (Year 5, July 18) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss directed labor toward preparing the fields; the day's changes reduced food by 50, and increased prepared crop fields by 100. Wynn Lark discovered fresh water north of camp. Wynn Lark, and Yuri Lark worked the field expansion. The loss of people is beginning to define the settlement's future.
+
+Day 1660 (Year 5, July 19) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Wynn Lark discovered useful clay near the riverbank. Wynn Lark, and Ada Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1661 (Year 5, July 20) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Wynn Lark discovered old trail markers beyond the fields. Wynn Lark, and Ada Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1662 (Year 5, July 21) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent crews to work the clay deposit; the day's changes reduced food by 50, increased clay by 52, and reduced known clay deposit by 52. Ada Moss discovered fresh water north of camp. Ada Moss, and Bram Moss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1663 (Year 5, July 22) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Ada Moss discovered useful clay near the riverbank. Ada Moss, and Galen Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1664 (Year 5, July 23) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Ada Moss discovered old trail markers beyond the fields. Ada Moss, and Galen Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1665 (Year 5, July 24) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Ada Moss discovered fresh water north of camp. Ada Moss, and Galen Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1666 (Year 5, July 25) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Galen Moss discovered useful clay near the riverbank. Galen Moss, and Kara Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1667 (Year 5, July 26) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss ordered the ready crops harvested; the day's changes increased food by 50, and reduced prepared crop fields by 100. Galen Moss discovered old trail markers beyond the fields. Dain Moss, Galen Moss, and Iris Moss harvested the ready crops. The loss of people is beginning to define the settlement's future.
+
+Day 1668 (Year 5, July 27) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Bram Moss sent crews to work the clay deposit; the day's changes reduced food by 50, increased clay by 52, and reduced known clay deposit by 52. Galen Moss, and Kara Moss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1669 (Year 5, July 28) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Galen Moss discovered useful clay near the riverbank. Galen Moss, and Kara Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1670 (Year 5, July 29) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Galen Moss discovered old trail markers beyond the fields. Galen Moss, and Kara Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1671 (Year 5, July 30) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Galen Moss discovered fresh water north of camp. Galen Moss, and Kara Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1672 (Year 5, July 31) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Kara Moss discovered useful clay near the riverbank. Kara Moss, and Quin Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1673 (Year 5, August 1) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Kara Moss discovered old trail markers beyond the fields. Kara Moss, and Quin Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1674 (Year 5, August 2) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Kara Moss discovered fresh water north of camp. Kara Moss, and Quin Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1675 (Year 5, August 3) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Kara Moss discovered useful clay near the riverbank. Kara Moss, and Quin Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1676 (Year 5, August 4) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 storm tested the colony, and President Bram Moss sent crews to work the clay deposit; the day's changes reduced food by 50, reduced morale by 1, increased clay by 52, and reduced known clay deposit by 52. Xara Moss, and Bram Moss bore the worst of the storm. Lio Moss, and Quin Moss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1677 (Year 5, August 5) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased morale by 1. Quin Moss discovered fresh water north of camp. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1678 (Year 5, August 6) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Quin Moss discovered useful clay near the riverbank. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1679 (Year 5, August 7) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Quin Moss discovered old trail markers beyond the fields. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1680 (Year 5, August 8) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 3 foraging effort searched for food, and President Bram Moss sent scouts beyond the settlement; the day's changes increased wood by 5. Quin Moss, Soren Moss, and Una Moss searched for edible stores beyond camp. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1681 (Year 5, August 9) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Quin Moss discovered useful clay near the riverbank. Quin Moss, and Una Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1682 (Year 5, August 10) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Una Moss discovered old trail markers beyond the fields. Una Moss, and Ada Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1683 (Year 5, August 11) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Una Moss discovered fresh water north of camp. Una Moss, and Ada Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1684 (Year 5, August 12) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Una Moss discovered useful clay near the riverbank. Una Moss, and Ada Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1685 (Year 5, August 13) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Una Moss discovered old trail markers beyond the fields. Una Moss, and Ada Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1686 (Year 5, August 14) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Ada Nell discovered fresh water north of camp. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1687 (Year 5, August 15) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Ada Nell discovered useful clay near the riverbank. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1688 (Year 5, August 16) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 foraging effort searched for food, and President Bram Moss sent crews to work the clay deposit; the day's changes reduced food by 25, increased clay by 52, and reduced known clay deposit by 52. Ada Nell, and Cora Nell searched for edible stores beyond camp. Ada Nell, and Elia Nell worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1689 (Year 5, August 17) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Ada Nell discovered fresh water north of camp. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1690 (Year 5, August 18) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Ada Nell discovered useful clay near the riverbank. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1691 (Year 5, August 19) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Ada Nell discovered old trail markers beyond the fields. Ada Nell, and Elia Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1692 (Year 5, August 20) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Elia Nell discovered fresh water north of camp. Elia Nell, and Mara Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1693 (Year 5, August 21) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Elia Nell discovered useful clay near the riverbank. Elia Nell, and Mara Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1694 (Year 5, August 22) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Elia Nell discovered old trail markers beyond the fields. Elia Nell, and Mara Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1695 (Year 5, August 23) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Elia Nell discovered fresh water north of camp. Elia Nell, and Mara Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1696 (Year 5, August 24) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Mara Lark discovered useful clay near the riverbank. Mara Lark, and Quin Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1697 (Year 5, August 25) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Mara Lark discovered old trail markers beyond the fields. Mara Lark, and Quin Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1698 (Year 5, August 26) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Mara Lark discovered fresh water north of camp. Mara Lark, and Quin Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1699 (Year 5, August 27) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Mara Lark discovered useful clay near the riverbank. Mara Lark, and Quin Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1700 (Year 5, August 28) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss wanted brick shelters, but there were not enough bricks; the day's changes reduced food by 50. Mara Lark discovered old trail markers beyond the fields. The loss of people is beginning to define the settlement's future.
+
+Day 1701 (Year 5, August 29) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Mara Lark discovered fresh water north of camp. Mara Lark, and Quin Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1702 (Year 5, August 30) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and increased known clay deposit by 40. Quin Lark discovered useful clay near the riverbank. Quin Lark, and Wynn Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1703 (Year 5, August 31) - Blergen:
+Clear skies left the day's work mostly to the colony. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, and increased wood by 5. Quin Lark discovered old trail markers beyond the fields. Quin Lark, and Wynn Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1704 (Year 5, September 1) - Blergen:
+An early frost warned the fields to hurry. A severity 3 storm tested the colony, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 11, reduced morale by 1, increased security by 1, and reduced health by 2. Xara Moss, Bram Moss, and Elia Nell bore the worst of the storm. Rhea Lark, and Una Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1705 (Year 5, September 2) - Blergen:
+An early frost warned the fields to hurry. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, increased morale by 1, reduced health by 1, and increased known clay deposit by 40. Quin Lark discovered useful clay near the riverbank. Quin Lark, and Wynn Lark scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1706 (Year 5, September 3) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Mara Lark, Xara Moss, Bram Moss, and Elia Nell received care. The loss of people is beginning to define the settlement's future.
+
+Day 1707 (Year 5, September 4) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Lio Lark, Niko Lark, Iris Moss, and Pia Moss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1708 (Year 5, September 5) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Wynn Moss, Dain Nell, Vera Moss, and Cora Nell received care. The loss of people is beginning to define the settlement's future.
+
+Day 1709 (Year 5, September 6) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, increased security by 1, and reduced health by 1. Una Lark, and Xara Lark helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1710 (Year 5, September 7) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Iris Nell, Ada Nell, Hana Nell, and Zara Moss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1711 (Year 5, September 8) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss sent crews to work the clay deposit; the day's changes reduced food by 50, reduced health by 1, increased clay by 52, and reduced known clay deposit by 52. Wynn Lark, and Ada Moss worked the clay deposit. The loss of people is beginning to define the settlement's future.
+
+Day 1712 (Year 5, September 9) - Blergen:
+An early frost warned the fields to hurry. A severity 4 storm tested the colony, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 13, reduced morale by 1, increased security by 1, and reduced health by 1. Galen Nell, Talia Lark, Lio Lark, and Soren Lark bore the worst of the storm. Xara Lark, and Bram Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1713 (Year 5, September 10) - Blergen:
+An early frost warned the fields to hurry. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, increased morale by 1, and reduced health by 1. Ada Moss discovered fresh water north of camp. Ada Moss, and Galen Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1714 (Year 5, September 11) - Blergen:
+An early frost warned the fields to hurry. A severity 2 foraging effort searched for food, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 32, increased wood by 5, and reduced health by 1. Ada Moss, and Galen Moss searched for edible stores beyond camp. Ada Moss, and Galen Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1715 (Year 5, September 12) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Mara Lark, Talia Lark, Lio Lark, and Soren Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1716 (Year 5, September 13) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Rhea Lark, Una Moss, Bram Nell, and Quin Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1717 (Year 5, September 14) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Talia Moss, Soren Moss, Galen Nell, and Rhea Moss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1718 (Year 5, September 15) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Finn Nell, Elia Nell, Yuri Moss, and Quin Moss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1719 (Year 5, September 16) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Dain Nell, Cora Nell, Iris Nell, and Ada Nell received care. The loss of people is beginning to define the settlement's future.
+
+Day 1720 (Year 5, September 17) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Hana Nell, Bram Nell, Zara Moss, and Galen Nell received care. The loss of people is beginning to define the settlement's future.
+
+Day 1721 (Year 5, September 18) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, increased security by 1, and reduced health by 1. Hana Moss, and Lio Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1722 (Year 5, September 19) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced health by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1723 (Year 5, September 20) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Finn Nell, Xara Moss, Elia Nell, and Yuri Moss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1724 (Year 5, September 21) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss sent crews out to gather wood; the day's changes reduced food by 50, increased wood by 10, and reduced health by 1. Jory Moss, and Rhea Moss joined the wood crews. The loss of people is beginning to define the settlement's future.
+
+Day 1725 (Year 5, September 22) - Blergen:
+An early frost warned the fields to hurry. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, and reduced health by 1. Kara Moss discovered fresh water north of camp. Kara Moss, and Quin Moss scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1726 (Year 5, September 23) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Pia Lark, Orin Lark, Vera Lark, and Niko Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1727 (Year 5, September 24) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, increased security by 1, and reduced health by 1. Orin Moss, and Rhea Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1728 (Year 5, September 25) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced health by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1729 (Year 5, September 26) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Una Lark, Lio Lark, Wynn Lark, and Mara Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1730 (Year 5, September 27) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Dain Nell, Orin Moss, Cora Nell, and Rhea Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1731 (Year 5, September 28) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 10, increased security by 1, and reduced health by 1. Rhea Moss, and Vera Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1732 (Year 5, September 29) - Blergen:
+An early frost warned the fields to hurry. A discovery gave the colony something new to discuss, and President Bram Moss sent scouts beyond the settlement; the day's changes reduced food by 50, increased wood by 5, reduced health by 1, and increased known clay deposit by 40. Una Moss discovered useful clay near the riverbank. Una Moss, and Ada Nell scouted beyond the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1733 (Year 5, September 30) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Iris Nell, Hana Nell, Wynn Moss, and Lio Lark received care. The loss of people is beginning to define the settlement's future.
+
+Day 1734 (Year 5, October 1) - Blergen:
+An early frost warned the fields to hurry. A severity 4 storm tested the colony, and President Bram Moss spent wood to strengthen the settlement; the day's changes reduced food by 50, reduced wood by 13, reduced morale by 1, and reduced health by 1. Vera Moss, Niko Moss, Bram Nell, and Quin Lark bore the worst of the storm. Vera Moss, and Yuri Moss helped strengthen the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 1735 (Year 5, October 2) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, increased morale by 1, and increased health by 1. Xara Lark, Talia Lark, Soren Lark, and Vera Moss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1736 (Year 5, October 3) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss organized care for the sick; the day's changes reduced food by 75, and increased health by 1. Niko Moss, Bram Nell, Quin Lark, and Talia Moss received care. The loss of people is beginning to define the settlement's future.
+
+Day 1737 (Year 5, October 4) - Blergen:
+An early frost warned the fields to hurry. No major world event overtook Blergen, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced health by 1. The loss of people is beginning to define the settlement's future.
+
+Day 1738 (Year 5, October 5) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, reduced security by 1, and reduced health by 2. Xara Moss, Yuri Moss, and Zara Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1739 (Year 5, October 6) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, reduced security by 1, and reduced health by 1. Yuri Moss, Zara Moss, and Ada Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1740 (Year 5, October 7) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, and reduced security by 1. Zara Moss, Ada Nell, and Bram Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1741 (Year 5, October 8) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, and reduced security by 1. Ada Nell, Bram Nell, and Cora Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1742 (Year 5, October 9) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, and reduced security by 1. Bram Nell, Cora Nell, and Dain Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1743 (Year 5, October 10) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, and reduced security by 1. Cora Nell, Dain Nell, and Elia Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1744 (Year 5, October 11) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, and reduced security by 1. Dain Nell, Elia Nell, and Finn Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1745 (Year 5, October 12) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, and reduced security by 1. Elia Nell, Finn Nell, and Galen Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1746 (Year 5, October 13) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, and reduced security by 1. Finn Nell, Galen Nell, and Hana Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1747 (Year 5, October 14) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, reduced morale by 1, and reduced security by 1. Galen Nell, Hana Nell, and Iris Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1748 (Year 5, October 15) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Hana Nell, Iris Nell, and Lio Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1749 (Year 5, October 16) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Iris Nell, Lio Lark, and Mara Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1750 (Year 5, October 17) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Lio Lark, Mara Lark, and Niko Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1751 (Year 5, October 18) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Mara Lark, Niko Lark, and Orin Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1752 (Year 5, October 19) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Niko Lark, Orin Lark, and Pia Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1753 (Year 5, October 20) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Orin Lark, Pia Lark, and Quin Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1754 (Year 5, October 21) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Pia Lark, Quin Lark, and Rhea Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1755 (Year 5, October 22) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Quin Lark, Rhea Lark, and Soren Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1756 (Year 5, October 23) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Rhea Lark, Soren Lark, and Talia Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1757 (Year 5, October 24) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Soren Lark, Talia Lark, and Una Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1758 (Year 5, October 25) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Talia Lark, Una Lark, and Vera Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1759 (Year 5, October 26) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Una Lark, Vera Lark, and Wynn Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1760 (Year 5, October 27) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Vera Lark, Wynn Lark, and Xara Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1761 (Year 5, October 28) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Wynn Lark, Xara Lark, and Yuri Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1762 (Year 5, October 29) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Xara Lark, Yuri Lark, and Zara Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1763 (Year 5, October 30) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Yuri Lark, Zara Lark, and Ada Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1764 (Year 5, October 31) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Zara Lark, Ada Moss, and Bram Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1765 (Year 5, November 1) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Ada Moss, Bram Moss, and Cora Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1766 (Year 5, November 2) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Bram Moss, Cora Moss, and Dain Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1767 (Year 5, November 3) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Cora Moss, Dain Moss, and Elia Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1768 (Year 5, November 4) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Dain Moss, Elia Moss, and Finn Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1769 (Year 5, November 5) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Elia Moss, Finn Moss, and Galen Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1770 (Year 5, November 6) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Finn Moss, Galen Moss, and Hana Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1771 (Year 5, November 7) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Galen Moss, Hana Moss, and Iris Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1772 (Year 5, November 8) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Hana Moss, Iris Moss, and Jory Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1773 (Year 5, November 9) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Iris Moss, Jory Moss, and Kara Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1774 (Year 5, November 10) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Jory Moss, Kara Moss, and Lio Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1775 (Year 5, November 11) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Kara Moss, Lio Moss, and Mara Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1776 (Year 5, November 12) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Lio Moss, Mara Moss, and Niko Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1777 (Year 5, November 13) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Mara Moss, Niko Moss, and Orin Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1778 (Year 5, November 14) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Niko Moss, Orin Moss, and Pia Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1779 (Year 5, November 15) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Orin Moss, Pia Moss, and Quin Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1780 (Year 5, November 16) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Pia Moss, Quin Moss, and Rhea Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1781 (Year 5, November 17) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Quin Moss, Rhea Moss, and Soren Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1782 (Year 5, November 18) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Rhea Moss, Soren Moss, and Talia Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1783 (Year 5, November 19) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Soren Moss, Talia Moss, and Una Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1784 (Year 5, November 20) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Talia Moss, Una Moss, and Vera Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1785 (Year 5, November 21) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Una Moss, Vera Moss, and Wynn Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1786 (Year 5, November 22) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Vera Moss, Wynn Moss, and Xara Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1787 (Year 5, November 23) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Wynn Moss, Xara Moss, and Yuri Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1788 (Year 5, November 24) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Xara Moss, Yuri Moss, and Zara Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1789 (Year 5, November 25) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Yuri Moss, Zara Moss, and Ada Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1790 (Year 5, November 26) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Zara Moss, Ada Nell, and Bram Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1791 (Year 5, November 27) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Ada Nell, Bram Nell, and Cora Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1792 (Year 5, November 28) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Bram Nell, Cora Nell, and Dain Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1793 (Year 5, November 29) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Cora Nell, Dain Nell, and Elia Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1794 (Year 5, November 30) - Blergen:
+An early frost warned the fields to hurry. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Dain Nell, Elia Nell, and Finn Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1795 (Year 5, December 1) - Blergen:
+Cold clear air settled over the camp. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Elia Nell, Finn Nell, and Galen Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1796 (Year 5, December 2) - Blergen:
+A gray sky pressed low over Blergen. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Finn Nell, Galen Nell, and Hana Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1797 (Year 5, December 3) - Blergen:
+A winter storm threatened the colony's shelters and stores. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced wood by 2. Galen Nell, Hana Nell, and Iris Nell were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1798 (Year 5, December 4) - Blergen:
+Snow made paths and work crews slower. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced wood by 1. Hana Nell, Iris Nell, and Lio Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1799 (Year 5, December 5) - Blergen:
+Snow made paths and work crews slower. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced wood by 1. Iris Nell, Lio Lark, and Mara Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1800 (Year 5, December 6) - Blergen:
+Cold clear air settled over the camp. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Lio Lark, Mara Lark, and Niko Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1801 (Year 5, December 7) - Blergen:
+A gray sky pressed low over Blergen. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Mara Lark, Niko Lark, and Orin Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.

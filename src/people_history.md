@@ -4241,3 +4241,1158 @@ Day 1440 - Blergen Personal Stories:
 - Mara Kest (scout) endured tighter rations. health 2->0; hunger 2->4; died.
 - Mara Kest (scout) went without a full ration. health 2->0; hunger 2->4; died.
 - Mara Kest (scout) died of starvation. health 2->0; hunger 2->4; died.
+
+Day 1561 - Blergen Personal Stories:
+- Bram Moss (builder) bore the worst of the storm. Status unchanged.
+- Iris Moss (farmer) bore the worst of the storm. morale 6->5.
+- Mara Lark (forager) bore the worst of the storm. morale 6->5.
+- Talia Lark (cook) bore the worst of the storm. morale 6->5.
+- Xara Lark (carpenter) shaped clay storage pottery. morale 6->7.
+- Bram Moss (builder) shaped clay storage pottery. Status unchanged.
+
+Day 1562 - Blergen Personal Stories:
+- Xara Lark (carpenter) helped strengthen the settlement. morale 7->8.
+- Bram Moss (builder) helped strengthen the settlement. morale 6->7.
+
+Day 1563 - Blergen Personal Stories:
+- Bram Moss (builder) helped strengthen the settlement. morale 7->8.
+- Elia Moss (guard) helped strengthen the settlement. morale 6->7.
+
+Day 1564 - Blergen Personal Stories:
+- Bram Moss (builder) helped strengthen the settlement. morale 8->9.
+- Elia Moss (guard) helped strengthen the settlement. morale 7->8.
+
+Day 1565 - Blergen Personal Stories:
+- Bram Moss (builder) helped strengthen the settlement. morale 9->10.
+- Elia Moss (guard) helped strengthen the settlement. morale 8->9.
+
+Day 1567 - Blergen Personal Stories:
+- Galen Moss (forager) worked the clay deposit. Status unchanged.
+- Kara Moss (scout) worked the clay deposit. Status unchanged.
+
+Day 1568 - Blergen Personal Stories:
+- Xara Moss (cook) bore the worst of the storm. health 6->5; morale 9->10.
+- Bram Moss (builder) bore the worst of the storm. health 6->5.
+- Elia Nell (scout) bore the worst of the storm. health 6->5; morale 9->10.
+- Elia Moss (guard) helped strengthen the settlement. morale 9->10.
+- Hana Moss (carpenter) helped strengthen the settlement. morale 9->10.
+
+Day 1569 - Blergen Personal Stories:
+- Elia Moss (guard) helped strengthen the settlement. Status unchanged.
+- Hana Moss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1570 - Blergen Personal Stories:
+- Hana Moss (carpenter) helped strengthen the settlement. Status unchanged.
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1571 - Blergen Personal Stories:
+- Hana Moss (carpenter) helped strengthen the settlement. Status unchanged.
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1572 - Blergen Personal Stories:
+- Hana Moss (carpenter) helped strengthen the settlement. Status unchanged.
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1573 - Blergen Personal Stories:
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+- Orin Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1574 - Blergen Personal Stories:
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+- Orin Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1575 - Blergen Personal Stories:
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+- Orin Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1576 - Blergen Personal Stories:
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+- Orin Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1578 - Blergen Personal Stories:
+- Orin Moss (guard) helped strengthen the settlement. Status unchanged.
+- Rhea Moss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1579 - Blergen Personal Stories:
+- Orin Moss (guard) helped strengthen the settlement. Status unchanged.
+- Rhea Moss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1580 - Blergen Personal Stories:
+- Rhea Moss (carpenter) helped strengthen the settlement. Status unchanged.
+- Vera Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1583 - Blergen Personal Stories:
+- Vera Moss (builder) helped strengthen the settlement. Status unchanged.
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1584 - Blergen Personal Stories:
+- Vera Moss (builder) helped strengthen the settlement. Status unchanged.
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1585 - Blergen Personal Stories:
+- Vera Moss (builder) helped strengthen the settlement. Status unchanged.
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1586 - Blergen Personal Stories:
+- Vera Moss (builder) helped strengthen the settlement. Status unchanged.
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1587 - Blergen Personal Stories:
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+- Bram Nell (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1588 - Blergen Personal Stories:
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+- Bram Nell (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1589 - Blergen Personal Stories:
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+- Bram Nell (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1590 - Blergen Personal Stories:
+- Bram Nell (carpenter) helped strengthen the settlement. Status unchanged.
+- Finn Nell (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1591 - Blergen Personal Stories:
+- Xara Moss (cook) bore the worst of the storm. health 5->4; morale 10->9.
+- Bram Moss (builder) bore the worst of the storm. health 5->4; morale 10->9.
+- Elia Nell (scout) bore the worst of the storm. health 5->4; morale 10->9.
+- Bram Nell (carpenter) helped strengthen the settlement. Status unchanged.
+- Finn Nell (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1592 - Blergen Personal Stories:
+- Bram Nell (carpenter) helped strengthen the settlement. Status unchanged.
+- Finn Nell (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1593 - Blergen Personal Stories:
+- Finn Nell (builder) helped strengthen the settlement. Status unchanged.
+- Iris Nell (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1594 - Blergen Personal Stories:
+- Finn Nell (builder) helped strengthen the settlement. Status unchanged.
+- Iris Nell (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1595 - Blergen Personal Stories:
+- Finn Nell (builder) helped strengthen the settlement. Status unchanged.
+- Iris Nell (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1596 - Blergen Personal Stories:
+- Finn Nell (builder) helped strengthen the settlement. Status unchanged.
+- Iris Nell (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1597 - Blergen Personal Stories:
+- Iris Nell (guard) helped strengthen the settlement. Status unchanged.
+- Niko Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1598 - Blergen Personal Stories:
+- Xara Moss (cook) bore the worst of the storm. morale 10->9.
+- Bram Moss (builder) bore the worst of the storm. morale 10->9.
+- Elia Nell (scout) bore the worst of the storm. morale 10->9.
+- Iris Moss (farmer) bore the worst of the storm. morale 10->9.
+- Iris Nell (guard) helped strengthen the settlement. Status unchanged.
+- Niko Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1599 - Blergen Personal Stories:
+- Iris Nell (guard) helped strengthen the settlement. Status unchanged.
+- Niko Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1600 - Blergen Personal Stories:
+- Niko Lark (carpenter) helped strengthen the settlement. Status unchanged.
+- Rhea Lark (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1602 - Blergen Personal Stories:
+- Niko Lark (carpenter) helped strengthen the settlement. Status unchanged.
+- Rhea Lark (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1603 - Blergen Personal Stories:
+- Rhea Lark (builder) helped strengthen the settlement. Status unchanged.
+- Una Lark (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1604 - Blergen Personal Stories:
+- Rhea Lark (builder) helped strengthen the settlement. Status unchanged.
+- Una Lark (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1605 - Blergen Personal Stories:
+- Xara Lark (carpenter) joined the wood crews. Status unchanged.
+- Zara Lark (woodcutter) joined the wood crews. Status unchanged.
+
+Day 1606 - Blergen Personal Stories:
+- Xara Lark (carpenter) joined the wood crews. Status unchanged.
+- Zara Lark (woodcutter) joined the wood crews. Status unchanged.
+
+Day 1607 - Blergen Personal Stories:
+- Una Lark (guard) helped strengthen the settlement. Status unchanged.
+- Xara Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1608 - Blergen Personal Stories:
+- Una Lark (guard) helped strengthen the settlement. Status unchanged.
+- Xara Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1609 - Blergen Personal Stories:
+- Una Lark (guard) helped strengthen the settlement. Status unchanged.
+- Xara Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1610 - Blergen Personal Stories:
+- Xara Lark (carpenter) joined the wood crews. Status unchanged.
+- Zara Lark (woodcutter) joined the wood crews. Status unchanged.
+
+Day 1611 - Blergen Personal Stories:
+- Xara Lark (carpenter) joined the wood crews. Status unchanged.
+- Zara Lark (woodcutter) joined the wood crews. Status unchanged.
+
+Day 1612 - Blergen Personal Stories:
+- Xara Lark (carpenter) helped strengthen the settlement. Status unchanged.
+- Bram Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1613 - Blergen Personal Stories:
+- Ada Moss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1614 - Blergen Personal Stories:
+- Ada Moss (scout) searched for forage. Status unchanged.
+- Galen Moss (forager) searched for forage. Status unchanged.
+- Iris Moss (farmer) searched for forage. Status unchanged.
+- Zara Lark (woodcutter) joined the wood crews. Status unchanged.
+- Hana Moss (carpenter) joined the wood crews. Status unchanged.
+
+Day 1615 - Blergen Personal Stories:
+- Ada Moss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1616 - Blergen Personal Stories:
+- Galen Moss (forager) searched for forage. Status unchanged.
+- Iris Moss (farmer) searched for forage. Status unchanged.
+- Bram Moss (builder) worked the clay deposit. Status unchanged.
+- Galen Moss (forager) worked the clay deposit. Status unchanged.
+
+Day 1617 - Blergen Personal Stories:
+- Galen Moss (forager) discovered fresh water north of camp. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1618 - Blergen Personal Stories:
+- Galen Moss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1619 - Blergen Personal Stories:
+- Galen Moss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1620 - Blergen Personal Stories:
+- Galen Moss (forager) discovered fresh water north of camp. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1621 - Blergen Personal Stories:
+- Xara Moss (cook) bore the worst of the storm. morale 10->9.
+- Bram Moss (builder) bore the worst of the storm. morale 10->9.
+- Hana Moss (carpenter) helped strengthen the settlement. Status unchanged.
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1623 - Blergen Personal Stories:
+- Kara Moss (scout) discovered fresh water north of camp. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1624 - Blergen Personal Stories:
+- Kara Moss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1625 - Blergen Personal Stories:
+- Kara Moss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1626 - Blergen Personal Stories:
+- Quin Moss (forager) searched for forage. Status unchanged.
+- Soren Moss (farmer) searched for forage. Status unchanged.
+- Una Moss (scout) searched for forage. Status unchanged.
+- Rhea Moss (carpenter) joined the wood crews. Status unchanged.
+- Talia Moss (woodcutter) joined the wood crews. Status unchanged.
+
+Day 1627 - Blergen Personal Stories:
+- Quin Moss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1628 - Blergen Personal Stories:
+- Quin Moss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1629 - Blergen Personal Stories:
+- Quin Moss (forager) discovered fresh water north of camp. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1630 - Blergen Personal Stories:
+- Quin Moss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1631 - Blergen Personal Stories:
+- Quin Moss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1632 - Blergen Personal Stories:
+- Una Moss (scout) discovered fresh water north of camp. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1633 - Blergen Personal Stories:
+- Una Moss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1634 - Blergen Personal Stories:
+- Una Moss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1635 - Blergen Personal Stories:
+- Xara Moss (cook) bore the worst of the storm. morale 10->9.
+- Bram Moss (builder) bore the worst of the storm. morale 10->9.
+- Vera Moss (builder) helped strengthen the settlement. Status unchanged.
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1636 - Blergen Personal Stories:
+- Ada Nell (forager) discovered useful clay near the riverbank. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1637 - Blergen Personal Stories:
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+- Bram Nell (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1638 - Blergen Personal Stories:
+- Ada Nell (forager) discovered fresh water north of camp. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1639 - Blergen Personal Stories:
+- Ada Nell (forager) discovered useful clay near the riverbank. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1641 - Blergen Personal Stories:
+- Ada Nell (forager) discovered fresh water north of camp. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1642 - Blergen Personal Stories:
+- Elia Nell (scout) discovered useful clay near the riverbank. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1643 - Blergen Personal Stories:
+- Cora Nell (farmer) searched for forage. Status unchanged.
+- Elia Nell (scout) searched for forage. Status unchanged.
+- Mara Lark (forager) searched for forage. Status unchanged.
+- Elia Nell (scout) worked the clay deposit. Status unchanged.
+- Finn Nell (builder) worked the clay deposit. Status unchanged.
+
+Day 1644 - Blergen Personal Stories:
+- Elia Nell (scout) discovered fresh water north of camp. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1645 - Blergen Personal Stories:
+- Elia Nell (scout) discovered useful clay near the riverbank. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1646 - Blergen Personal Stories:
+- Mara Lark (forager) searched for forage. Status unchanged.
+- Orin Lark (farmer) searched for forage. Status unchanged.
+- Quin Lark (scout) searched for forage. Status unchanged.
+- Wynn Lark (forager) searched for forage. Status unchanged.
+- Niko Lark (carpenter) joined the wood crews. Status unchanged.
+- Pia Lark (woodcutter) joined the wood crews. Status unchanged.
+
+Day 1648 - Blergen Personal Stories:
+- Mara Lark (forager) searched for forage. Status unchanged.
+- Orin Lark (farmer) searched for forage. Status unchanged.
+- Quin Lark (scout) searched for forage. Status unchanged.
+- Wynn Lark (forager) searched for forage. Status unchanged.
+- Mara Lark (forager) worked the field expansion. Status unchanged.
+- Orin Lark (farmer) worked the field expansion. Status unchanged.
+
+Day 1649 - Blergen Personal Stories:
+- Mara Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1650 - Blergen Personal Stories:
+- Mara Lark (forager) searched for forage. Status unchanged.
+- Orin Lark (farmer) searched for forage. Status unchanged.
+- Quin Lark (scout) searched for forage. Status unchanged.
+- Mara Lark (forager) harvested the ready crops. Status unchanged.
+- Orin Lark (farmer) harvested the ready crops. Status unchanged.
+- Talia Lark (cook) harvested the ready crops. Status unchanged.
+
+Day 1651 - Blergen Personal Stories:
+- Niko Lark (carpenter) shaped clay storage pottery. Status unchanged.
+- Rhea Lark (builder) shaped clay storage pottery. Status unchanged.
+
+Day 1652 - Blergen Personal Stories:
+- Quin Lark (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1653 - Blergen Personal Stories:
+- Quin Lark (scout) discovered fresh water north of camp. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1654 - Blergen Personal Stories:
+- Quin Lark (scout) discovered useful clay near the riverbank. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1655 - Blergen Personal Stories:
+- Quin Lark (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1656 - Blergen Personal Stories:
+- Wynn Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1657 - Blergen Personal Stories:
+- Wynn Lark (forager) discovered useful clay near the riverbank. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1658 - Blergen Personal Stories:
+- Wynn Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1659 - Blergen Personal Stories:
+- Wynn Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Wynn Lark (forager) worked the field expansion. Status unchanged.
+- Yuri Lark (farmer) worked the field expansion. Status unchanged.
+
+Day 1660 - Blergen Personal Stories:
+- Wynn Lark (forager) discovered useful clay near the riverbank. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1661 - Blergen Personal Stories:
+- Wynn Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1662 - Blergen Personal Stories:
+- Ada Moss (scout) discovered fresh water north of camp. Status unchanged.
+- Ada Moss (scout) worked the clay deposit. Status unchanged.
+- Bram Moss (builder) worked the clay deposit. Status unchanged.
+
+Day 1663 - Blergen Personal Stories:
+- Ada Moss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1664 - Blergen Personal Stories:
+- Ada Moss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1665 - Blergen Personal Stories:
+- Ada Moss (scout) discovered fresh water north of camp. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1666 - Blergen Personal Stories:
+- Galen Moss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1667 - Blergen Personal Stories:
+- Galen Moss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Dain Moss (cook) harvested the ready crops. Status unchanged.
+- Galen Moss (forager) harvested the ready crops. Status unchanged.
+- Iris Moss (farmer) harvested the ready crops. Status unchanged.
+
+Day 1668 - Blergen Personal Stories:
+- Galen Moss (forager) worked the clay deposit. Status unchanged.
+- Kara Moss (scout) worked the clay deposit. Status unchanged.
+
+Day 1669 - Blergen Personal Stories:
+- Galen Moss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1670 - Blergen Personal Stories:
+- Galen Moss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1671 - Blergen Personal Stories:
+- Galen Moss (forager) discovered fresh water north of camp. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1672 - Blergen Personal Stories:
+- Kara Moss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1673 - Blergen Personal Stories:
+- Kara Moss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1674 - Blergen Personal Stories:
+- Kara Moss (scout) discovered fresh water north of camp. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1675 - Blergen Personal Stories:
+- Kara Moss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1676 - Blergen Personal Stories:
+- Xara Moss (cook) bore the worst of the storm. morale 10->9.
+- Bram Moss (builder) bore the worst of the storm. morale 10->9.
+- Lio Moss (builder) worked the clay deposit. Status unchanged.
+- Quin Moss (forager) worked the clay deposit. Status unchanged.
+
+Day 1677 - Blergen Personal Stories:
+- Quin Moss (forager) discovered fresh water north of camp. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1678 - Blergen Personal Stories:
+- Quin Moss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1679 - Blergen Personal Stories:
+- Quin Moss (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1680 - Blergen Personal Stories:
+- Quin Moss (forager) searched for forage. Status unchanged.
+- Soren Moss (farmer) searched for forage. Status unchanged.
+- Una Moss (scout) searched for forage. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1681 - Blergen Personal Stories:
+- Quin Moss (forager) discovered useful clay near the riverbank. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1682 - Blergen Personal Stories:
+- Una Moss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1683 - Blergen Personal Stories:
+- Una Moss (scout) discovered fresh water north of camp. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1684 - Blergen Personal Stories:
+- Una Moss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1685 - Blergen Personal Stories:
+- Una Moss (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1686 - Blergen Personal Stories:
+- Ada Nell (forager) discovered fresh water north of camp. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1687 - Blergen Personal Stories:
+- Ada Nell (forager) discovered useful clay near the riverbank. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1688 - Blergen Personal Stories:
+- Ada Nell (forager) searched for forage. Status unchanged.
+- Cora Nell (farmer) searched for forage. Status unchanged.
+- Ada Nell (forager) worked the clay deposit. Status unchanged.
+- Elia Nell (scout) worked the clay deposit. Status unchanged.
+
+Day 1689 - Blergen Personal Stories:
+- Ada Nell (forager) discovered fresh water north of camp. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1690 - Blergen Personal Stories:
+- Ada Nell (forager) discovered useful clay near the riverbank. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1691 - Blergen Personal Stories:
+- Ada Nell (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1692 - Blergen Personal Stories:
+- Elia Nell (scout) discovered fresh water north of camp. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1693 - Blergen Personal Stories:
+- Elia Nell (scout) discovered useful clay near the riverbank. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1694 - Blergen Personal Stories:
+- Elia Nell (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1695 - Blergen Personal Stories:
+- Elia Nell (scout) discovered fresh water north of camp. Status unchanged.
+- Elia Nell (scout) scouted beyond the settlement. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1696 - Blergen Personal Stories:
+- Mara Lark (forager) discovered useful clay near the riverbank. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1697 - Blergen Personal Stories:
+- Mara Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1698 - Blergen Personal Stories:
+- Mara Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1699 - Blergen Personal Stories:
+- Mara Lark (forager) discovered useful clay near the riverbank. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1700 - Blergen Personal Stories:
+- Mara Lark (forager) discovered old trail markers beyond the fields. Status unchanged.
+
+Day 1701 - Blergen Personal Stories:
+- Mara Lark (forager) discovered fresh water north of camp. Status unchanged.
+- Mara Lark (forager) scouted beyond the settlement. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+
+Day 1702 - Blergen Personal Stories:
+- Quin Lark (scout) discovered useful clay near the riverbank. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1703 - Blergen Personal Stories:
+- Quin Lark (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1704 - Blergen Personal Stories:
+- Xara Moss (cook) bore the worst of the storm. health 4->3; morale 10->9.
+- Bram Moss (builder) bore the worst of the storm. health 4->3; morale 10->9.
+- Elia Nell (scout) bore the worst of the storm. health 4->3; morale 10->9.
+- Rhea Lark (builder) helped strengthen the settlement. Status unchanged.
+- Una Lark (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1705 - Blergen Personal Stories:
+- Quin Lark (scout) discovered useful clay near the riverbank. Status unchanged.
+- Quin Lark (scout) scouted beyond the settlement. Status unchanged.
+- Wynn Lark (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1706 - Blergen Personal Stories:
+- Mara Lark (forager) received care. health 1->4.
+- Xara Moss (cook) received care. health 2->5.
+- Bram Moss (builder) received care. health 2->5.
+- Elia Nell (scout) received care. health 2->5.
+
+Day 1707 - Blergen Personal Stories:
+- Lio Lark (teacher) received care. health 2->5.
+- Niko Lark (carpenter) received care. health 2->5.
+- Iris Moss (farmer) received care. health 3->6.
+- Pia Moss (teacher) received care. health 3->6.
+
+Day 1708 - Blergen Personal Stories:
+- Wynn Moss (healer) received care. health 3->6.
+- Dain Nell (woodcutter) received care. health 3->6.
+- Vera Moss (builder) received care. health 3->6.
+- Cora Nell (farmer) received care. health 3->6.
+
+Day 1709 - Blergen Personal Stories:
+- Una Lark (guard) helped strengthen the settlement. Status unchanged.
+- Xara Lark (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1710 - Blergen Personal Stories:
+- Iris Nell (guard) received care. health 3->6.
+- Ada Nell (forager) received care. health 3->6.
+- Hana Nell (cook) received care. health 3->6.
+- Zara Moss (teacher) received care. health 3->6.
+
+Day 1711 - Blergen Personal Stories:
+- Wynn Lark (forager) worked the clay deposit. Status unchanged.
+- Ada Moss (scout) worked the clay deposit. Status unchanged.
+
+Day 1712 - Blergen Personal Stories:
+- Galen Nell (healer) bore the worst of the storm. morale 10->9.
+- Talia Lark (cook) bore the worst of the storm. morale 10->9.
+- Lio Lark (teacher) bore the worst of the storm. morale 10->9.
+- Soren Lark (healer) bore the worst of the storm. morale 10->9.
+- Xara Lark (carpenter) helped strengthen the settlement. Status unchanged.
+- Bram Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1713 - Blergen Personal Stories:
+- Ada Moss (scout) discovered fresh water north of camp. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1714 - Blergen Personal Stories:
+- Ada Moss (scout) searched for forage. Status unchanged.
+- Galen Moss (forager) searched for forage. Status unchanged.
+- Ada Moss (scout) scouted beyond the settlement. Status unchanged.
+- Galen Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1715 - Blergen Personal Stories:
+- Mara Lark (forager) received care. health 1->4.
+- Talia Lark (cook) received care. health 1->4.
+- Lio Lark (teacher) received care. health 1->4.
+- Soren Lark (healer) received care. health 1->4.
+
+Day 1716 - Blergen Personal Stories:
+- Rhea Lark (builder) received care. health 1->4.
+- Una Moss (scout) received care. health 1->4.
+- Bram Nell (carpenter) received care. health 1->4.
+- Quin Lark (scout) received care. health 1->4.
+
+Day 1717 - Blergen Personal Stories:
+- Talia Moss (woodcutter) received care. health 1->4.
+- Soren Moss (farmer) received care. health 1->4.
+- Galen Nell (healer) received care. health 1->4.
+- Rhea Moss (carpenter) received care. health 1->4.
+
+Day 1718 - Blergen Personal Stories:
+- Finn Nell (builder) received care. health 1->4.
+- Elia Nell (scout) received care. health 2->5.
+- Yuri Moss (guard) received care. health 2->5.
+- Quin Moss (forager) received care. health 2->5.
+
+Day 1719 - Blergen Personal Stories:
+- Dain Nell (woodcutter) received care. health 3->6.
+- Cora Nell (farmer) received care. health 3->6.
+- Iris Nell (guard) received care. health 3->6.
+- Ada Nell (forager) received care. health 3->6.
+
+Day 1720 - Blergen Personal Stories:
+- Hana Nell (cook) received care. health 3->6.
+- Bram Nell (carpenter) received care. health 4->7.
+- Zara Moss (teacher) received care. health 4->7.
+- Galen Nell (healer) received care. health 4->7.
+
+Day 1721 - Blergen Personal Stories:
+- Hana Moss (carpenter) helped strengthen the settlement. Status unchanged.
+- Lio Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1723 - Blergen Personal Stories:
+- Finn Nell (builder) received care. health 3->6.
+- Xara Moss (cook) received care. health 4->7.
+- Elia Nell (scout) received care. health 4->7.
+- Yuri Moss (guard) received care. health 4->7.
+
+Day 1724 - Blergen Personal Stories:
+- Jory Moss (woodcutter) joined the wood crews. Status unchanged.
+- Rhea Moss (carpenter) joined the wood crews. Status unchanged.
+
+Day 1725 - Blergen Personal Stories:
+- Kara Moss (scout) discovered fresh water north of camp. Status unchanged.
+- Kara Moss (scout) scouted beyond the settlement. Status unchanged.
+- Quin Moss (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1726 - Blergen Personal Stories:
+- Pia Lark (woodcutter) received care. health 3->6.
+- Orin Lark (farmer) received care. health 3->6.
+- Vera Lark (teacher) received care. health 3->6.
+- Niko Lark (carpenter) received care. health 3->6.
+
+Day 1727 - Blergen Personal Stories:
+- Orin Moss (guard) helped strengthen the settlement. Status unchanged.
+- Rhea Moss (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 1729 - Blergen Personal Stories:
+- Una Lark (guard) received care. health 1->4.
+- Lio Lark (teacher) received care. health 2->5.
+- Wynn Lark (forager) received care. health 2->5.
+- Mara Lark (forager) received care. health 3->6.
+
+Day 1730 - Blergen Personal Stories:
+- Dain Nell (woodcutter) received care. health 3->6.
+- Orin Moss (guard) received care. health 3->6.
+- Cora Nell (farmer) received care. health 3->6.
+- Rhea Lark (builder) received care. health 3->6.
+
+Day 1731 - Blergen Personal Stories:
+- Rhea Moss (carpenter) helped strengthen the settlement. Status unchanged.
+- Vera Moss (builder) helped strengthen the settlement. Status unchanged.
+
+Day 1732 - Blergen Personal Stories:
+- Una Moss (scout) discovered useful clay near the riverbank. Status unchanged.
+- Una Moss (scout) scouted beyond the settlement. Status unchanged.
+- Ada Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 1733 - Blergen Personal Stories:
+- Iris Nell (guard) received care. health 2->5.
+- Hana Nell (cook) received care. health 2->5.
+- Wynn Moss (healer) received care. health 3->6.
+- Lio Lark (teacher) received care. health 3->6.
+
+Day 1734 - Blergen Personal Stories:
+- Vera Moss (builder) bore the worst of the storm. Status unchanged.
+- Niko Moss (cook) bore the worst of the storm. morale 10->9.
+- Bram Nell (carpenter) bore the worst of the storm. morale 10->9.
+- Quin Lark (scout) bore the worst of the storm. morale 10->9.
+- Vera Moss (builder) helped strengthen the settlement. Status unchanged.
+- Yuri Moss (guard) helped strengthen the settlement. Status unchanged.
+
+Day 1735 - Blergen Personal Stories:
+- Xara Lark (carpenter) received care. health 2->5.
+- Talia Lark (cook) received care. health 3->6.
+- Soren Lark (healer) received care. health 3->6.
+- Vera Moss (builder) received care. health 3->6.
+
+Day 1736 - Blergen Personal Stories:
+- Niko Moss (cook) received care. health 3->6.
+- Bram Nell (carpenter) received care. health 3->6.
+- Quin Lark (scout) received care. health 3->6.
+- Talia Moss (woodcutter) received care. health 3->6.
+
+Day 1738 - Blergen Personal Stories:
+- Xara Moss (cook) was shaken by the silent oracle. health 4->3; morale 10->9.
+- Yuri Moss (guard) was shaken by the silent oracle. health 4->3; morale 10->9.
+- Zara Moss (teacher) was shaken by the silent oracle. health 3->2; morale 10->9.
+
+Day 1739 - Blergen Personal Stories:
+- Yuri Moss (guard) was shaken by the silent oracle. health 3->2; morale 9->8.
+- Zara Moss (teacher) was shaken by the silent oracle. health 2->1; morale 9->8.
+- Ada Nell (forager) was shaken by the silent oracle. morale 10->9.
+
+Day 1740 - Blergen Personal Stories:
+- Zara Moss (teacher) was shaken by the silent oracle. morale 8->7.
+- Ada Nell (forager) was shaken by the silent oracle. morale 9->8.
+- Bram Nell (carpenter) was shaken by the silent oracle. health 3->2; morale 9->8.
+
+Day 1741 - Blergen Personal Stories:
+- Ada Nell (forager) was shaken by the silent oracle. morale 8->7.
+- Bram Nell (carpenter) was shaken by the silent oracle. health 2->1; morale 8->7.
+- Cora Nell (farmer) was shaken by the silent oracle. health 2->1; morale 8->7.
+
+Day 1742 - Blergen Personal Stories:
+- Bram Nell (carpenter) was shaken by the silent oracle. morale 7->6.
+- Cora Nell (farmer) was shaken by the silent oracle. morale 7->6.
+- Dain Nell (woodcutter) was shaken by the silent oracle. health 2->1; morale 7->6.
+
+Day 1743 - Blergen Personal Stories:
+- Cora Nell (farmer) was shaken by the silent oracle. morale 6->5.
+- Dain Nell (woodcutter) was shaken by the silent oracle. morale 6->5.
+- Elia Nell (scout) was shaken by the silent oracle. morale 6->5.
+
+Day 1744 - Blergen Personal Stories:
+- Dain Nell (woodcutter) was shaken by the silent oracle. morale 5->4.
+- Elia Nell (scout) was shaken by the silent oracle. morale 5->4.
+- Finn Nell (builder) was shaken by the silent oracle. morale 5->4.
+
+Day 1745 - Blergen Personal Stories:
+- Elia Nell (scout) was shaken by the silent oracle. morale 4->3.
+- Finn Nell (builder) was shaken by the silent oracle. morale 4->3.
+- Galen Nell (healer) was shaken by the silent oracle. morale 4->3.
+
+Day 1746 - Blergen Personal Stories:
+- Finn Nell (builder) was shaken by the silent oracle. morale 3->2.
+- Galen Nell (healer) was shaken by the silent oracle. morale 3->2.
+- Hana Nell (cook) was shaken by the silent oracle. health 2->1; morale 4->3.
+
+Day 1747 - Blergen Personal Stories:
+- Galen Nell (healer) was shaken by the silent oracle. morale 2->1.
+- Hana Nell (cook) was shaken by the silent oracle. morale 3->2.
+- Iris Nell (guard) was shaken by the silent oracle. health 2->1; morale 3->2.
+
+Day 1748 - Blergen Personal Stories:
+- Hana Nell (cook) was shaken by the silent oracle. morale 2->1.
+- Iris Nell (guard) was shaken by the silent oracle. morale 2->1.
+- Lio Lark (teacher) was shaken by the silent oracle. morale 1->0.
+
+Day 1749 - Blergen Personal Stories:
+- Iris Nell (guard) was shaken by the silent oracle. morale 1->0.
+- Lio Lark (teacher) was shaken by the silent oracle. Status unchanged.
+- Mara Lark (forager) was shaken by the silent oracle. morale 1->0.
+
+Day 1750 - Blergen Personal Stories:
+- Lio Lark (teacher) was shaken by the silent oracle. Status unchanged.
+- Mara Lark (forager) was shaken by the silent oracle. Status unchanged.
+- Niko Lark (carpenter) was shaken by the silent oracle. morale 1->0.
+
+Day 1751 - Blergen Personal Stories:
+- Mara Lark (forager) was shaken by the silent oracle. Status unchanged.
+- Niko Lark (carpenter) was shaken by the silent oracle. Status unchanged.
+- Orin Lark (farmer) was shaken by the silent oracle. morale 1->0.
+
+Day 1752 - Blergen Personal Stories:
+- Niko Lark (carpenter) was shaken by the silent oracle. Status unchanged.
+- Orin Lark (farmer) was shaken by the silent oracle. Status unchanged.
+- Pia Lark (woodcutter) was shaken by the silent oracle. morale 1->0.
+
+Day 1753 - Blergen Personal Stories:
+- Orin Lark (farmer) was shaken by the silent oracle. Status unchanged.
+- Pia Lark (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Quin Lark (scout) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1754 - Blergen Personal Stories:
+- Pia Lark (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Quin Lark (scout) was shaken by the silent oracle. Status unchanged.
+- Rhea Lark (builder) was shaken by the silent oracle. morale 1->0.
+
+Day 1755 - Blergen Personal Stories:
+- Quin Lark (scout) was shaken by the silent oracle. Status unchanged.
+- Rhea Lark (builder) was shaken by the silent oracle. Status unchanged.
+- Soren Lark (healer) was shaken by the silent oracle. health 3->2; morale 1->0.
+
+Day 1756 - Blergen Personal Stories:
+- Rhea Lark (builder) was shaken by the silent oracle. Status unchanged.
+- Soren Lark (healer) was shaken by the silent oracle. health 2->1.
+- Talia Lark (cook) was shaken by the silent oracle. health 3->2; morale 1->0.
+
+Day 1757 - Blergen Personal Stories:
+- Soren Lark (healer) was shaken by the silent oracle. Status unchanged.
+- Talia Lark (cook) was shaken by the silent oracle. health 2->1.
+- Una Lark (guard) was shaken by the silent oracle. morale 1->0.
+
+Day 1758 - Blergen Personal Stories:
+- Talia Lark (cook) was shaken by the silent oracle. Status unchanged.
+- Una Lark (guard) was shaken by the silent oracle. Status unchanged.
+- Vera Lark (teacher) was shaken by the silent oracle. morale 1->0.
+
+Day 1759 - Blergen Personal Stories:
+- Una Lark (guard) was shaken by the silent oracle. Status unchanged.
+- Vera Lark (teacher) was shaken by the silent oracle. Status unchanged.
+- Wynn Lark (forager) was shaken by the silent oracle. morale 1->0.
+
+Day 1760 - Blergen Personal Stories:
+- Vera Lark (teacher) was shaken by the silent oracle. Status unchanged.
+- Wynn Lark (forager) was shaken by the silent oracle. Status unchanged.
+- Xara Lark (carpenter) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1761 - Blergen Personal Stories:
+- Wynn Lark (forager) was shaken by the silent oracle. Status unchanged.
+- Xara Lark (carpenter) was shaken by the silent oracle. Status unchanged.
+- Yuri Lark (farmer) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1762 - Blergen Personal Stories:
+- Xara Lark (carpenter) was shaken by the silent oracle. Status unchanged.
+- Yuri Lark (farmer) was shaken by the silent oracle. Status unchanged.
+- Zara Lark (woodcutter) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1763 - Blergen Personal Stories:
+- Yuri Lark (farmer) was shaken by the silent oracle. Status unchanged.
+- Zara Lark (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Ada Moss (scout) was shaken by the silent oracle. health 4->3; morale 1->0.
+
+Day 1764 - Blergen Personal Stories:
+- Zara Lark (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Ada Moss (scout) was shaken by the silent oracle. health 3->2.
+- Bram Moss (builder) was shaken by the silent oracle. health 5->4; morale 1->0.
+
+Day 1765 - Blergen Personal Stories:
+- Ada Moss (scout) was shaken by the silent oracle. health 2->1.
+- Bram Moss (builder) was shaken by the silent oracle. health 4->3.
+- Cora Moss (healer) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1766 - Blergen Personal Stories:
+- Bram Moss (builder) was shaken by the silent oracle. health 3->2.
+- Cora Moss (healer) was shaken by the silent oracle. Status unchanged.
+- Dain Moss (cook) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1767 - Blergen Personal Stories:
+- Cora Moss (healer) was shaken by the silent oracle. Status unchanged.
+- Dain Moss (cook) was shaken by the silent oracle. Status unchanged.
+- Elia Moss (guard) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1768 - Blergen Personal Stories:
+- Dain Moss (cook) was shaken by the silent oracle. Status unchanged.
+- Elia Moss (guard) was shaken by the silent oracle. Status unchanged.
+- Finn Moss (teacher) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1769 - Blergen Personal Stories:
+- Elia Moss (guard) was shaken by the silent oracle. Status unchanged.
+- Finn Moss (teacher) was shaken by the silent oracle. Status unchanged.
+- Galen Moss (forager) was shaken by the silent oracle. health 4->3; morale 1->0.
+
+Day 1770 - Blergen Personal Stories:
+- Finn Moss (teacher) was shaken by the silent oracle. Status unchanged.
+- Galen Moss (forager) was shaken by the silent oracle. health 3->2.
+- Hana Moss (carpenter) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1771 - Blergen Personal Stories:
+- Galen Moss (forager) was shaken by the silent oracle. health 2->1.
+- Hana Moss (carpenter) was shaken by the silent oracle. Status unchanged.
+- Iris Moss (farmer) was shaken by the silent oracle. health 4->3; morale 1->0.
+
+Day 1772 - Blergen Personal Stories:
+- Hana Moss (carpenter) was shaken by the silent oracle. Status unchanged.
+- Iris Moss (farmer) was shaken by the silent oracle. health 3->2.
+- Jory Moss (woodcutter) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1773 - Blergen Personal Stories:
+- Iris Moss (farmer) was shaken by the silent oracle. health 2->1.
+- Jory Moss (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Kara Moss (scout) was shaken by the silent oracle. health 3->2; morale 1->0.
+
+Day 1774 - Blergen Personal Stories:
+- Jory Moss (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Kara Moss (scout) was shaken by the silent oracle. health 2->1.
+- Lio Moss (builder) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1775 - Blergen Personal Stories:
+- Kara Moss (scout) was shaken by the silent oracle. Status unchanged.
+- Lio Moss (builder) was shaken by the silent oracle. Status unchanged.
+- Mara Moss (healer) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1776 - Blergen Personal Stories:
+- Lio Moss (builder) was shaken by the silent oracle. Status unchanged.
+- Mara Moss (healer) was shaken by the silent oracle. Status unchanged.
+- Niko Moss (cook) was shaken by the silent oracle. health 3->2; morale 1->0.
+
+Day 1777 - Blergen Personal Stories:
+- Mara Moss (healer) was shaken by the silent oracle. Status unchanged.
+- Niko Moss (cook) was shaken by the silent oracle. health 2->1.
+- Orin Moss (guard) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1778 - Blergen Personal Stories:
+- Niko Moss (cook) was shaken by the silent oracle. Status unchanged.
+- Orin Moss (guard) was shaken by the silent oracle. Status unchanged.
+- Pia Moss (teacher) was shaken by the silent oracle. morale 1->0.
+
+Day 1779 - Blergen Personal Stories:
+- Orin Moss (guard) was shaken by the silent oracle. Status unchanged.
+- Pia Moss (teacher) was shaken by the silent oracle. Status unchanged.
+- Quin Moss (forager) was shaken by the silent oracle. morale 1->0.
+
+Day 1780 - Blergen Personal Stories:
+- Pia Moss (teacher) was shaken by the silent oracle. Status unchanged.
+- Quin Moss (forager) was shaken by the silent oracle. Status unchanged.
+- Rhea Moss (carpenter) was shaken by the silent oracle. morale 1->0.
+
+Day 1781 - Blergen Personal Stories:
+- Quin Moss (forager) was shaken by the silent oracle. Status unchanged.
+- Rhea Moss (carpenter) was shaken by the silent oracle. Status unchanged.
+- Soren Moss (farmer) was shaken by the silent oracle. morale 1->0.
+
+Day 1782 - Blergen Personal Stories:
+- Rhea Moss (carpenter) was shaken by the silent oracle. Status unchanged.
+- Soren Moss (farmer) was shaken by the silent oracle. Status unchanged.
+- Talia Moss (woodcutter) was shaken by the silent oracle. health 3->2; morale 1->0.
+
+Day 1783 - Blergen Personal Stories:
+- Soren Moss (farmer) was shaken by the silent oracle. Status unchanged.
+- Talia Moss (woodcutter) was shaken by the silent oracle. health 2->1.
+- Una Moss (scout) was shaken by the silent oracle. health 2->1; morale 1->0.
+
+Day 1784 - Blergen Personal Stories:
+- Talia Moss (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Una Moss (scout) was shaken by the silent oracle. Status unchanged.
+- Vera Moss (builder) was shaken by the silent oracle. health 3->2; morale 1->0.
+
+Day 1785 - Blergen Personal Stories:
+- Una Moss (scout) was shaken by the silent oracle. Status unchanged.
+- Vera Moss (builder) was shaken by the silent oracle. health 2->1.
+- Wynn Moss (healer) was shaken by the silent oracle. health 3->2; morale 1->0.
+
+Day 1786 - Blergen Personal Stories:
+- Vera Moss (builder) was shaken by the silent oracle. Status unchanged.
+- Wynn Moss (healer) was shaken by the silent oracle. health 2->1.
+- Xara Moss (cook) was shaken by the silent oracle. health 2->1.
+
+Day 1787 - Blergen Personal Stories:
+- Wynn Moss (healer) was shaken by the silent oracle. Status unchanged.
+- Xara Moss (cook) was shaken by the silent oracle. Status unchanged.
+- Yuri Moss (guard) was shaken by the silent oracle. health 2->1.
+
+Day 1788 - Blergen Personal Stories:
+- Xara Moss (cook) was shaken by the silent oracle. Status unchanged.
+- Yuri Moss (guard) was shaken by the silent oracle. Status unchanged.
+- Zara Moss (teacher) was shaken by the silent oracle. Status unchanged.
+
+Day 1789 - Blergen Personal Stories:
+- Yuri Moss (guard) was shaken by the silent oracle. Status unchanged.
+- Zara Moss (teacher) was shaken by the silent oracle. Status unchanged.
+- Ada Nell (forager) was shaken by the silent oracle. morale 1->0.
+
+Day 1790 - Blergen Personal Stories:
+- Zara Moss (teacher) was shaken by the silent oracle. Status unchanged.
+- Ada Nell (forager) was shaken by the silent oracle. Status unchanged.
+- Bram Nell (carpenter) was shaken by the silent oracle. morale 1->0.
+
+Day 1791 - Blergen Personal Stories:
+- Ada Nell (forager) was shaken by the silent oracle. Status unchanged.
+- Bram Nell (carpenter) was shaken by the silent oracle. Status unchanged.
+- Cora Nell (farmer) was shaken by the silent oracle. morale 1->0.
+
+Day 1792 - Blergen Personal Stories:
+- Bram Nell (carpenter) was shaken by the silent oracle. Status unchanged.
+- Cora Nell (farmer) was shaken by the silent oracle. Status unchanged.
+- Dain Nell (woodcutter) was shaken by the silent oracle. morale 1->0.
+
+Day 1793 - Blergen Personal Stories:
+- Cora Nell (farmer) was shaken by the silent oracle. Status unchanged.
+- Dain Nell (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Elia Nell (scout) was shaken by the silent oracle. morale 1->0.
+
+Day 1794 - Blergen Personal Stories:
+- Dain Nell (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Elia Nell (scout) was shaken by the silent oracle. Status unchanged.
+- Finn Nell (builder) was shaken by the silent oracle. morale 1->0.
+
+Day 1795 - Blergen Personal Stories:
+- Elia Nell (scout) was shaken by the silent oracle. Status unchanged.
+- Finn Nell (builder) was shaken by the silent oracle. Status unchanged.
+- Galen Nell (healer) was shaken by the silent oracle. morale 1->0.
+
+Day 1796 - Blergen Personal Stories:
+- Finn Nell (builder) was shaken by the silent oracle. Status unchanged.
+- Galen Nell (healer) was shaken by the silent oracle. Status unchanged.
+- Hana Nell (cook) was shaken by the silent oracle. morale 1->0.
+
+Day 1797 - Blergen Personal Stories:
+- Galen Nell (healer) was shaken by the silent oracle. Status unchanged.
+- Hana Nell (cook) was shaken by the silent oracle. Status unchanged.
+- Iris Nell (guard) was shaken by the silent oracle. Status unchanged.
+
+Day 1798 - Blergen Personal Stories:
+- Hana Nell (cook) was shaken by the silent oracle. Status unchanged.
+- Iris Nell (guard) was shaken by the silent oracle. Status unchanged.
+- Lio Lark (teacher) was shaken by the silent oracle. Status unchanged.
+
+Day 1799 - Blergen Personal Stories:
+- Iris Nell (guard) was shaken by the silent oracle. Status unchanged.
+- Lio Lark (teacher) was shaken by the silent oracle. Status unchanged.
+- Mara Lark (forager) was shaken by the silent oracle. Status unchanged.
+
+Day 1800 - Blergen Personal Stories:
+- Lio Lark (teacher) was shaken by the silent oracle. Status unchanged.
+- Mara Lark (forager) was shaken by the silent oracle. Status unchanged.
+- Niko Lark (carpenter) was shaken by the silent oracle. Status unchanged.
+
+Day 1801 - Blergen Personal Stories:
+- Mara Lark (forager) was shaken by the silent oracle. Status unchanged.
+- Niko Lark (carpenter) was shaken by the silent oracle. Status unchanged.
+- Orin Lark (farmer) was shaken by the silent oracle. Status unchanged.
