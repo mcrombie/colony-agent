@@ -255,9 +255,9 @@ python -m pytest
 
 ## GitHub Actions
 
-The workflow in `.github/workflows/advance-colony.yml` can be started manually from the Actions tab. Scheduled repeating runs are disabled.
+The workflow in `.github/workflows/advance-colony.yml` runs hourly at minute 17 UTC and can also be started manually from the Actions tab.
 
-Before enabling it on GitHub, add this repository secret:
+Make sure this repository secret exists:
 
 ```text
 OPENAI_API_KEY
