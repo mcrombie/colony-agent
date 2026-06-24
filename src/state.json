@@ -1,10 +1,10 @@
 {
-  "day": 1802,
+  "day": 1803,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 1218,
-  "wood": 327,
+  "food": 1168,
+  "wood": 325,
   "morale": 0,
   "security": 0,
   "health": 1,
@@ -94249,6 +94249,71 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A gray sky pressed low over Blergen. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1802,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 342,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 8,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "winter_storm",
+        "severity": 4,
+        "summary": "A winter storm threatened the colony's shelters and stores."
+      },
+      "weather_effects": {
+        "wood": -2,
+        "morale": -1
+      },
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50,
+        "wood": -2
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_300",
+                "name": "Niko Lark"
+              },
+              {
+                "id": "person_301",
+                "name": "Orin Lark"
+              },
+              {
+                "id": "person_302",
+                "name": "Pia Lark"
+              }
+            ],
+            "summary": "Niko Lark, Orin Lark, and Pia Lark were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A winter storm threatened the colony's shelters and stores. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -106952,7 +107017,8 @@
           "Niko Lark was shaken when the oracle went silent on day 1751.",
           "Niko Lark was shaken when the oracle went silent on day 1752.",
           "Niko Lark was shaken when the oracle went silent on day 1800.",
-          "Niko Lark was shaken when the oracle went silent on day 1801."
+          "Niko Lark was shaken when the oracle went silent on day 1801.",
+          "Niko Lark was shaken when the oracle went silent on day 1802."
         ]
       }
     },
@@ -106994,7 +107060,8 @@
           "Orin Lark was shaken when the oracle went silent on day 1751.",
           "Orin Lark was shaken when the oracle went silent on day 1752.",
           "Orin Lark was shaken when the oracle went silent on day 1753.",
-          "Orin Lark was shaken when the oracle went silent on day 1801."
+          "Orin Lark was shaken when the oracle went silent on day 1801.",
+          "Orin Lark was shaken when the oracle went silent on day 1802."
         ]
       }
     },
@@ -107031,7 +107098,8 @@
           "Pia Lark received care from the sick ward on day 1726.",
           "Pia Lark was shaken when the oracle went silent on day 1752.",
           "Pia Lark was shaken when the oracle went silent on day 1753.",
-          "Pia Lark was shaken when the oracle went silent on day 1754."
+          "Pia Lark was shaken when the oracle went silent on day 1754.",
+          "Pia Lark was shaken when the oracle went silent on day 1802."
         ]
       }
     },

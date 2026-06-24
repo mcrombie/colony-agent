@@ -5396,3 +5396,8 @@ Day 1801 - Blergen Personal Stories:
 - Mara Lark (forager) was shaken by the silent oracle. Status unchanged.
 - Niko Lark (carpenter) was shaken by the silent oracle. Status unchanged.
 - Orin Lark (farmer) was shaken by the silent oracle. Status unchanged.
+
+Day 1802 - Blergen Personal Stories:
+- Niko Lark (carpenter) was shaken by the silent oracle. Status unchanged.
+- Orin Lark (farmer) was shaken by the silent oracle. Status unchanged.
+- Pia Lark (woodcutter) was shaken by the silent oracle. Status unchanged.

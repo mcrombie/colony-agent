@@ -5403,3 +5403,6 @@ Cold clear air settled over the camp. The chaos gods struck the colony, and Pres
 
 Day 1801 (Year 5, December 7) - Blergen:
 A gray sky pressed low over Blergen. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Mara Lark, Niko Lark, and Orin Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1802 (Year 5, December 8) - Blergen:
+A winter storm threatened the colony's shelters and stores. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced wood by 2. Niko Lark, Orin Lark, and Pia Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
