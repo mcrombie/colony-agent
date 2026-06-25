@@ -5426,3 +5426,8 @@ Day 1807 - Blergen Personal Stories:
 - Soren Lark (healer) was shaken by the silent oracle. Status unchanged.
 - Talia Lark (cook) was shaken by the silent oracle. Status unchanged.
 - Una Lark (guard) was shaken by the silent oracle. Status unchanged.
+
+Day 1808 - Blergen Personal Stories:
+- Talia Lark (cook) was shaken by the silent oracle. Status unchanged.
+- Una Lark (guard) was shaken by the silent oracle. Status unchanged.
+- Vera Lark (teacher) was shaken by the silent oracle. Status unchanged.
