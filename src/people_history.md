@@ -5406,3 +5406,8 @@ Day 1803 - Blergen Personal Stories:
 - Orin Lark (farmer) was shaken by the silent oracle. Status unchanged.
 - Pia Lark (woodcutter) was shaken by the silent oracle. Status unchanged.
 - Quin Lark (scout) was shaken by the silent oracle. Status unchanged.
+
+Day 1804 - Blergen Personal Stories:
+- Pia Lark (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Quin Lark (scout) was shaken by the silent oracle. Status unchanged.
+- Rhea Lark (builder) was shaken by the silent oracle. Status unchanged.
