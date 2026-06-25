@@ -5416,3 +5416,8 @@ Day 1805 - Blergen Personal Stories:
 - Quin Lark (scout) was shaken by the silent oracle. Status unchanged.
 - Rhea Lark (builder) was shaken by the silent oracle. Status unchanged.
 - Soren Lark (healer) was shaken by the silent oracle. Status unchanged.
+
+Day 1806 - Blergen Personal Stories:
+- Rhea Lark (builder) was shaken by the silent oracle. Status unchanged.
+- Soren Lark (healer) was shaken by the silent oracle. Status unchanged.
+- Talia Lark (cook) was shaken by the silent oracle. Status unchanged.

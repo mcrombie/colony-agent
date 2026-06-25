@@ -1,9 +1,9 @@
 {
-  "day": 1806,
+  "day": 1807,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 1018,
+  "food": 968,
   "wood": 323,
   "morale": 0,
   "security": 0,
@@ -94503,6 +94503,67 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Cold clear air settled over the camp. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1806,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 346,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 12,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "overcast",
+        "severity": 1,
+        "summary": "A gray sky pressed low over Blergen."
+      },
+      "weather_effects": {},
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_304",
+                "name": "Rhea Lark"
+              },
+              {
+                "id": "person_305",
+                "name": "Soren Lark"
+              },
+              {
+                "id": "person_306",
+                "name": "Talia Lark"
+              }
+            ],
+            "summary": "Rhea Lark, Soren Lark, and Talia Lark were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A gray sky pressed low over Blergen. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -107399,7 +107460,8 @@
           "Rhea Lark was shaken when the oracle went silent on day 1755.",
           "Rhea Lark was shaken when the oracle went silent on day 1756.",
           "Rhea Lark was shaken when the oracle went silent on day 1804.",
-          "Rhea Lark was shaken when the oracle went silent on day 1805."
+          "Rhea Lark was shaken when the oracle went silent on day 1805.",
+          "Rhea Lark was shaken when the oracle went silent on day 1806."
         ]
       }
     },
@@ -107438,7 +107500,8 @@
           "Soren Lark was shaken when the oracle went silent on day 1755.",
           "Soren Lark was shaken when the oracle went silent on day 1756.",
           "Soren Lark was shaken when the oracle went silent on day 1757.",
-          "Soren Lark was shaken when the oracle went silent on day 1805."
+          "Soren Lark was shaken when the oracle went silent on day 1805.",
+          "Soren Lark was shaken when the oracle went silent on day 1806."
         ]
       }
     },
@@ -107478,7 +107541,8 @@
           "Talia Lark received care from the sick ward on day 1735.",
           "Talia Lark was shaken when the oracle went silent on day 1756.",
           "Talia Lark was shaken when the oracle went silent on day 1757.",
-          "Talia Lark was shaken when the oracle went silent on day 1758."
+          "Talia Lark was shaken when the oracle went silent on day 1758.",
+          "Talia Lark was shaken when the oracle went silent on day 1806."
         ]
       }
     },
