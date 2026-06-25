@@ -5412,3 +5412,6 @@ Snow made paths and work crews slower. The chaos gods struck the colony, and Pre
 
 Day 1804 (Year 5, December 10) - Blergen:
 Snow made paths and work crews slower. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced wood by 1. Pia Lark, Quin Lark, and Rhea Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1805 (Year 5, December 11) - Blergen:
+Cold clear air settled over the camp. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Quin Lark, Rhea Lark, and Soren Lark were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.

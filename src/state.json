@@ -1,9 +1,9 @@
 {
-  "day": 1805,
+  "day": 1806,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 1068,
+  "food": 1018,
   "wood": 323,
   "morale": 0,
   "security": 0,
@@ -94442,6 +94442,67 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Snow made paths and work crews slower. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1805,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 345,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 11,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "clear_cold",
+        "severity": 1,
+        "summary": "Cold clear air settled over the camp."
+      },
+      "weather_effects": {},
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_303",
+                "name": "Quin Lark"
+              },
+              {
+                "id": "person_304",
+                "name": "Rhea Lark"
+              },
+              {
+                "id": "person_305",
+                "name": "Soren Lark"
+              }
+            ],
+            "summary": "Quin Lark, Rhea Lark, and Soren Lark were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Cold clear air settled over the camp. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -107293,7 +107354,8 @@
           "Quin Lark was shaken when the oracle went silent on day 1754.",
           "Quin Lark was shaken when the oracle went silent on day 1755.",
           "Quin Lark was shaken when the oracle went silent on day 1803.",
-          "Quin Lark was shaken when the oracle went silent on day 1804."
+          "Quin Lark was shaken when the oracle went silent on day 1804.",
+          "Quin Lark was shaken when the oracle went silent on day 1805."
         ]
       }
     },
@@ -107336,7 +107398,8 @@
           "Rhea Lark was shaken when the oracle went silent on day 1754.",
           "Rhea Lark was shaken when the oracle went silent on day 1755.",
           "Rhea Lark was shaken when the oracle went silent on day 1756.",
-          "Rhea Lark was shaken when the oracle went silent on day 1804."
+          "Rhea Lark was shaken when the oracle went silent on day 1804.",
+          "Rhea Lark was shaken when the oracle went silent on day 1805."
         ]
       }
     },
@@ -107374,7 +107437,8 @@
           "Soren Lark received care from the sick ward on day 1735.",
           "Soren Lark was shaken when the oracle went silent on day 1755.",
           "Soren Lark was shaken when the oracle went silent on day 1756.",
-          "Soren Lark was shaken when the oracle went silent on day 1757."
+          "Soren Lark was shaken when the oracle went silent on day 1757.",
+          "Soren Lark was shaken when the oracle went silent on day 1805."
         ]
       }
     },
