@@ -5439,3 +5439,6 @@ A winter storm threatened the colony's shelters and stores. The chaos gods struc
 
 Day 1813 (Year 5, December 19) - Blergen:
 Snow made paths and work crews slower. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced wood by 1. Yuri Lark, Zara Lark, and Ada Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1814 (Year 5, December 20) - Blergen:
+Snow made paths and work crews slower. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50, and reduced wood by 1. Zara Lark, Ada Moss, and Bram Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
