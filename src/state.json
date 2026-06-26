@@ -1,9 +1,9 @@
 {
-  "day": 1811,
+  "day": 1812,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 768,
+  "food": 718,
   "wood": 319,
   "morale": 0,
   "security": 0,
@@ -94818,6 +94818,67 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Cold clear air settled over the camp. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1811,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 351,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 17,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "overcast",
+        "severity": 1,
+        "summary": "A gray sky pressed low over Blergen."
+      },
+      "weather_effects": {},
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_309",
+                "name": "Wynn Lark"
+              },
+              {
+                "id": "person_310",
+                "name": "Xara Lark"
+              },
+              {
+                "id": "person_311",
+                "name": "Yuri Lark"
+              }
+            ],
+            "summary": "Wynn Lark, Xara Lark, and Yuri Lark were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A gray sky pressed low over Blergen. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -107944,7 +108005,8 @@
           "Wynn Lark was shaken when the oracle went silent on day 1760.",
           "Wynn Lark was shaken when the oracle went silent on day 1761.",
           "Wynn Lark was shaken when the oracle went silent on day 1809.",
-          "Wynn Lark was shaken when the oracle went silent on day 1810."
+          "Wynn Lark was shaken when the oracle went silent on day 1810.",
+          "Wynn Lark was shaken when the oracle went silent on day 1811."
         ]
       }
     },
@@ -107993,7 +108055,8 @@
           "Xara Lark was shaken when the oracle went silent on day 1760.",
           "Xara Lark was shaken when the oracle went silent on day 1761.",
           "Xara Lark was shaken when the oracle went silent on day 1762.",
-          "Xara Lark was shaken when the oracle went silent on day 1810."
+          "Xara Lark was shaken when the oracle went silent on day 1810.",
+          "Xara Lark was shaken when the oracle went silent on day 1811."
         ]
       }
     },
@@ -108029,7 +108092,8 @@
           "Yuri Lark worked the field expansion on day 1659.",
           "Yuri Lark was shaken when the oracle went silent on day 1761.",
           "Yuri Lark was shaken when the oracle went silent on day 1762.",
-          "Yuri Lark was shaken when the oracle went silent on day 1763."
+          "Yuri Lark was shaken when the oracle went silent on day 1763.",
+          "Yuri Lark was shaken when the oracle went silent on day 1811."
         ]
       }
     },
