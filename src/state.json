@@ -1,10 +1,10 @@
 {
-  "day": 1813,
+  "day": 1814,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 668,
-  "wood": 317,
+  "food": 618,
+  "wood": 316,
   "morale": 0,
   "security": 0,
   "health": 1,
@@ -94944,6 +94944,70 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A winter storm threatened the colony's shelters and stores. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1813,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 353,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 19,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "snow",
+        "severity": 2,
+        "summary": "Snow made paths and work crews slower."
+      },
+      "weather_effects": {
+        "wood": -1
+      },
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50,
+        "wood": -1
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_311",
+                "name": "Yuri Lark"
+              },
+              {
+                "id": "person_312",
+                "name": "Zara Lark"
+              },
+              {
+                "id": "person_313",
+                "name": "Ada Moss"
+              }
+            ],
+            "summary": "Yuri Lark, Zara Lark, and Ada Moss were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Snow made paths and work crews slower. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -108160,7 +108224,8 @@
           "Yuri Lark was shaken when the oracle went silent on day 1762.",
           "Yuri Lark was shaken when the oracle went silent on day 1763.",
           "Yuri Lark was shaken when the oracle went silent on day 1811.",
-          "Yuri Lark was shaken when the oracle went silent on day 1812."
+          "Yuri Lark was shaken when the oracle went silent on day 1812.",
+          "Yuri Lark was shaken when the oracle went silent on day 1813."
         ]
       }
     },
@@ -108201,7 +108266,8 @@
           "Zara Lark was shaken when the oracle went silent on day 1762.",
           "Zara Lark was shaken when the oracle went silent on day 1763.",
           "Zara Lark was shaken when the oracle went silent on day 1764.",
-          "Zara Lark was shaken when the oracle went silent on day 1812."
+          "Zara Lark was shaken when the oracle went silent on day 1812.",
+          "Zara Lark was shaken when the oracle went silent on day 1813."
         ]
       }
     },
@@ -108258,7 +108324,8 @@
           "Ada Moss scouted beyond the settlement on day 1714.",
           "Ada Moss was shaken when the oracle went silent on day 1763.",
           "Ada Moss was shaken when the oracle went silent on day 1764.",
-          "Ada Moss was shaken when the oracle went silent on day 1765."
+          "Ada Moss was shaken when the oracle went silent on day 1765.",
+          "Ada Moss was shaken when the oracle went silent on day 1813."
         ]
       }
     },
