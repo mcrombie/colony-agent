@@ -5445,3 +5445,6 @@ Snow made paths and work crews slower. The chaos gods struck the colony, and Pre
 
 Day 1815 (Year 5, December 21) - Blergen:
 Cold clear air settled over the camp. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Ada Moss, Bram Moss, and Cora Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
+
+Day 1816 (Year 5, December 22) - Blergen:
+A gray sky pressed low over Blergen. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced food by 50. Bram Moss, Cora Moss, and Dain Moss were shaken by the silence of the oracle. The loss of people is beginning to define the settlement's future.
