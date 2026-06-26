@@ -1,9 +1,9 @@
 {
-  "day": 1810,
+  "day": 1811,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 818,
+  "food": 768,
   "wood": 319,
   "morale": 0,
   "security": 0,
@@ -94757,6 +94757,67 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Snow made paths and work crews slower. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1810,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 350,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 16,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "clear_cold",
+        "severity": 1,
+        "summary": "Cold clear air settled over the camp."
+      },
+      "weather_effects": {},
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_308",
+                "name": "Vera Lark"
+              },
+              {
+                "id": "person_309",
+                "name": "Wynn Lark"
+              },
+              {
+                "id": "person_310",
+                "name": "Xara Lark"
+              }
+            ],
+            "summary": "Vera Lark, Wynn Lark, and Xara Lark were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Cold clear air settled over the camp. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -107822,7 +107883,8 @@
           "Vera Lark was shaken when the oracle went silent on day 1759.",
           "Vera Lark was shaken when the oracle went silent on day 1760.",
           "Vera Lark was shaken when the oracle went silent on day 1808.",
-          "Vera Lark was shaken when the oracle went silent on day 1809."
+          "Vera Lark was shaken when the oracle went silent on day 1809.",
+          "Vera Lark was shaken when the oracle went silent on day 1810."
         ]
       }
     },
@@ -107881,7 +107943,8 @@
           "Wynn Lark was shaken when the oracle went silent on day 1759.",
           "Wynn Lark was shaken when the oracle went silent on day 1760.",
           "Wynn Lark was shaken when the oracle went silent on day 1761.",
-          "Wynn Lark was shaken when the oracle went silent on day 1809."
+          "Wynn Lark was shaken when the oracle went silent on day 1809.",
+          "Wynn Lark was shaken when the oracle went silent on day 1810."
         ]
       }
     },
@@ -107929,7 +107992,8 @@
           "Xara Lark received care from the sick ward on day 1735.",
           "Xara Lark was shaken when the oracle went silent on day 1760.",
           "Xara Lark was shaken when the oracle went silent on day 1761.",
-          "Xara Lark was shaken when the oracle went silent on day 1762."
+          "Xara Lark was shaken when the oracle went silent on day 1762.",
+          "Xara Lark was shaken when the oracle went silent on day 1810."
         ]
       }
     },
