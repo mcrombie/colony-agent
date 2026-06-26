@@ -5446,3 +5446,8 @@ Day 1811 - Blergen Personal Stories:
 - Wynn Lark (forager) was shaken by the silent oracle. Status unchanged.
 - Xara Lark (carpenter) was shaken by the silent oracle. Status unchanged.
 - Yuri Lark (farmer) was shaken by the silent oracle. Status unchanged.
+
+Day 1812 - Blergen Personal Stories:
+- Xara Lark (carpenter) was shaken by the silent oracle. Status unchanged.
+- Yuri Lark (farmer) was shaken by the silent oracle. Status unchanged.
+- Zara Lark (woodcutter) was shaken by the silent oracle. Status unchanged.
