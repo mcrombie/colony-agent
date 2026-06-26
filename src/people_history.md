@@ -5461,3 +5461,8 @@ Day 1814 - Blergen Personal Stories:
 - Zara Lark (woodcutter) was shaken by the silent oracle. Status unchanged.
 - Ada Moss (scout) was shaken by the silent oracle. Status unchanged.
 - Bram Moss (builder) was shaken by the silent oracle. health 2->1.
+
+Day 1815 - Blergen Personal Stories:
+- Ada Moss (scout) was shaken by the silent oracle. Status unchanged.
+- Bram Moss (builder) was shaken by the silent oracle. Status unchanged.
+- Cora Moss (healer) was shaken by the silent oracle. Status unchanged.

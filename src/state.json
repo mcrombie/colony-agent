@@ -1,9 +1,9 @@
 {
-  "day": 1815,
+  "day": 1816,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 568,
+  "food": 518,
   "wood": 315,
   "morale": 0,
   "security": 0,
@@ -95072,6 +95072,67 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Snow made paths and work crews slower. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1815,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 355,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 21,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "clear_cold",
+        "severity": 1,
+        "summary": "Cold clear air settled over the camp."
+      },
+      "weather_effects": {},
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_313",
+                "name": "Ada Moss"
+              },
+              {
+                "id": "person_314",
+                "name": "Bram Moss"
+              },
+              {
+                "id": "person_315",
+                "name": "Cora Moss"
+              }
+            ],
+            "summary": "Ada Moss, Bram Moss, and Cora Moss were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Cold clear air settled over the camp. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -108391,7 +108452,8 @@
           "Ada Moss was shaken when the oracle went silent on day 1764.",
           "Ada Moss was shaken when the oracle went silent on day 1765.",
           "Ada Moss was shaken when the oracle went silent on day 1813.",
-          "Ada Moss was shaken when the oracle went silent on day 1814."
+          "Ada Moss was shaken when the oracle went silent on day 1814.",
+          "Ada Moss was shaken when the oracle went silent on day 1815."
         ]
       }
     },
@@ -108446,7 +108508,8 @@
           "Bram Moss was shaken when the oracle went silent on day 1764.",
           "Bram Moss was shaken when the oracle went silent on day 1765.",
           "Bram Moss was shaken when the oracle went silent on day 1766.",
-          "Bram Moss was shaken when the oracle went silent on day 1814."
+          "Bram Moss was shaken when the oracle went silent on day 1814.",
+          "Bram Moss was shaken when the oracle went silent on day 1815."
         ]
       }
     },
@@ -108481,7 +108544,8 @@
           "Cora Moss arrived with a Blergen Company settler convoy.",
           "Cora Moss was shaken when the oracle went silent on day 1765.",
           "Cora Moss was shaken when the oracle went silent on day 1766.",
-          "Cora Moss was shaken when the oracle went silent on day 1767."
+          "Cora Moss was shaken when the oracle went silent on day 1767.",
+          "Cora Moss was shaken when the oracle went silent on day 1815."
         ]
       }
     },
