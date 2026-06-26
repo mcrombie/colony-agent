@@ -5471,3 +5471,8 @@ Day 1816 - Blergen Personal Stories:
 - Bram Moss (builder) was shaken by the silent oracle. Status unchanged.
 - Cora Moss (healer) was shaken by the silent oracle. Status unchanged.
 - Dain Moss (cook) was shaken by the silent oracle. Status unchanged.
+
+Day 1817 - Blergen Personal Stories:
+- Cora Moss (healer) was shaken by the silent oracle. Status unchanged.
+- Dain Moss (cook) was shaken by the silent oracle. Status unchanged.
+- Elia Moss (guard) was shaken by the silent oracle. Status unchanged.
