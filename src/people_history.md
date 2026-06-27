@@ -5516,3 +5516,40 @@ Day 1825 - Blergen Personal Stories:
 - Kara Moss (scout) was shaken by the silent oracle. Status unchanged.
 - Lio Moss (builder) was shaken by the silent oracle. Status unchanged.
 - Mara Moss (healer) was shaken by the silent oracle. Status unchanged.
+
+Day 1826 - Blergen Personal Stories:
+- Lio Moss (builder) was shaken by the silent oracle. hunger 0->1.
+- Mara Moss (healer) was shaken by the silent oracle. hunger 0->1.
+- Niko Moss (cook) was shaken by the silent oracle. hunger 0->1.
+- Lio Lark (teacher) went without a full ration. hunger 0->1.
+- Mara Lark (forager) went without a full ration. hunger 0->1.
+- Niko Lark (carpenter) went without a full ration. hunger 0->1.
+- Orin Lark (farmer) went without a full ration. hunger 0->1.
+- Pia Lark (woodcutter) went without a full ration. hunger 0->1.
+- Quin Lark (scout) went without a full ration. hunger 0->1.
+- Rhea Lark (builder) went without a full ration. hunger 0->1.
+- Soren Lark (healer) went without a full ration. hunger 0->1.
+- Talia Lark (cook) went without a full ration. hunger 0->1.
+- Una Lark (guard) went without a full ration. hunger 0->1.
+- Vera Lark (teacher) went without a full ration. hunger 0->1.
+- Wynn Lark (forager) went without a full ration. hunger 0->1.
+- Xara Lark (carpenter) went without a full ration. hunger 0->1.
+- Yuri Lark (farmer) went without a full ration. hunger 0->1.
+- Zara Lark (woodcutter) went without a full ration. hunger 0->1.
+- Ada Moss (scout) went without a full ration. hunger 0->1.
+- Bram Moss (builder) went without a full ration. hunger 0->1.
+- Cora Moss (healer) went without a full ration. hunger 0->1.
+- Dain Moss (cook) went without a full ration. hunger 0->1.
+- Elia Moss (guard) went without a full ration. hunger 0->1.
+- Finn Moss (teacher) went without a full ration. hunger 0->1.
+- Galen Moss (forager) went without a full ration. hunger 0->1.
+- Hana Moss (carpenter) went without a full ration. hunger 0->1.
+- Iris Moss (farmer) went without a full ration. hunger 0->1.
+- Jory Moss (woodcutter) went without a full ration. hunger 0->1.
+- Kara Moss (scout) went without a full ration. hunger 0->1.
+- Lio Moss (builder) went without a full ration. hunger 0->1.
+- Mara Moss (healer) went without a full ration. hunger 0->1.
+- Niko Moss (cook) went without a full ration. hunger 0->1.
+- Orin Moss (guard) went without a full ration. hunger 0->1.
+- Pia Moss (teacher) went without a full ration. hunger 0->1.
+- Quin Moss (forager) went without a full ration. hunger 0->1.
