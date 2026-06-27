@@ -1,9 +1,9 @@
 {
-  "day": 1821,
+  "day": 1822,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 268,
+  "food": 218,
   "wood": 311,
   "morale": 0,
   "security": 0,
@@ -95448,6 +95448,67 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Cold clear air settled over the camp. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1821,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 361,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 27,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "overcast",
+        "severity": 1,
+        "summary": "A gray sky pressed low over Blergen."
+      },
+      "weather_effects": {},
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_319",
+                "name": "Galen Moss"
+              },
+              {
+                "id": "person_320",
+                "name": "Hana Moss"
+              },
+              {
+                "id": "person_321",
+                "name": "Iris Moss"
+              }
+            ],
+            "summary": "Galen Moss, Hana Moss, and Iris Moss were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A gray sky pressed low over Blergen. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -109051,7 +109112,8 @@
           "Galen Moss was shaken when the oracle went silent on day 1770.",
           "Galen Moss was shaken when the oracle went silent on day 1771.",
           "Galen Moss was shaken when the oracle went silent on day 1819.",
-          "Galen Moss was shaken when the oracle went silent on day 1820."
+          "Galen Moss was shaken when the oracle went silent on day 1820.",
+          "Galen Moss was shaken when the oracle went silent on day 1821."
         ]
       }
     },
@@ -109095,7 +109157,8 @@
           "Hana Moss was shaken when the oracle went silent on day 1770.",
           "Hana Moss was shaken when the oracle went silent on day 1771.",
           "Hana Moss was shaken when the oracle went silent on day 1772.",
-          "Hana Moss was shaken when the oracle went silent on day 1820."
+          "Hana Moss was shaken when the oracle went silent on day 1820.",
+          "Hana Moss was shaken when the oracle went silent on day 1821."
         ]
       }
     },
@@ -109136,7 +109199,8 @@
           "Iris Moss received care from the sick ward on day 1707.",
           "Iris Moss was shaken when the oracle went silent on day 1771.",
           "Iris Moss was shaken when the oracle went silent on day 1772.",
-          "Iris Moss was shaken when the oracle went silent on day 1773."
+          "Iris Moss was shaken when the oracle went silent on day 1773.",
+          "Iris Moss was shaken when the oracle went silent on day 1821."
         ]
       }
     },

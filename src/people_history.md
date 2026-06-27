@@ -5491,3 +5491,8 @@ Day 1820 - Blergen Personal Stories:
 - Finn Moss (teacher) was shaken by the silent oracle. Status unchanged.
 - Galen Moss (forager) was shaken by the silent oracle. Status unchanged.
 - Hana Moss (carpenter) was shaken by the silent oracle. Status unchanged.
+
+Day 1821 - Blergen Personal Stories:
+- Galen Moss (forager) was shaken by the silent oracle. Status unchanged.
+- Hana Moss (carpenter) was shaken by the silent oracle. Status unchanged.
+- Iris Moss (farmer) was shaken by the silent oracle. Status unchanged.
