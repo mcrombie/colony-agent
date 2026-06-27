@@ -5501,3 +5501,8 @@ Day 1822 - Blergen Personal Stories:
 - Hana Moss (carpenter) was shaken by the silent oracle. Status unchanged.
 - Iris Moss (farmer) was shaken by the silent oracle. Status unchanged.
 - Jory Moss (woodcutter) was shaken by the silent oracle. Status unchanged.
+
+Day 1823 - Blergen Personal Stories:
+- Iris Moss (farmer) was shaken by the silent oracle. Status unchanged.
+- Jory Moss (woodcutter) was shaken by the silent oracle. Status unchanged.
+- Kara Moss (scout) was shaken by the silent oracle. Status unchanged.
