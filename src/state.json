@@ -1,10 +1,10 @@
 {
-  "day": 1822,
+  "day": 1823,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 218,
-  "wood": 311,
+  "food": 168,
+  "wood": 309,
   "morale": 0,
   "security": 0,
   "health": 1,
@@ -95509,6 +95509,71 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A gray sky pressed low over Blergen. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1822,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 362,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 28,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "winter_storm",
+        "severity": 4,
+        "summary": "A winter storm threatened the colony's shelters and stores."
+      },
+      "weather_effects": {
+        "wood": -2,
+        "morale": -1
+      },
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50,
+        "wood": -2
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_320",
+                "name": "Hana Moss"
+              },
+              {
+                "id": "person_321",
+                "name": "Iris Moss"
+              },
+              {
+                "id": "person_322",
+                "name": "Jory Moss"
+              }
+            ],
+            "summary": "Hana Moss, Iris Moss, and Jory Moss were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A winter storm threatened the colony's shelters and stores. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -109158,7 +109223,8 @@
           "Hana Moss was shaken when the oracle went silent on day 1771.",
           "Hana Moss was shaken when the oracle went silent on day 1772.",
           "Hana Moss was shaken when the oracle went silent on day 1820.",
-          "Hana Moss was shaken when the oracle went silent on day 1821."
+          "Hana Moss was shaken when the oracle went silent on day 1821.",
+          "Hana Moss was shaken when the oracle went silent on day 1822."
         ]
       }
     },
@@ -109200,7 +109266,8 @@
           "Iris Moss was shaken when the oracle went silent on day 1771.",
           "Iris Moss was shaken when the oracle went silent on day 1772.",
           "Iris Moss was shaken when the oracle went silent on day 1773.",
-          "Iris Moss was shaken when the oracle went silent on day 1821."
+          "Iris Moss was shaken when the oracle went silent on day 1821.",
+          "Iris Moss was shaken when the oracle went silent on day 1822."
         ]
       }
     },
@@ -109235,7 +109302,8 @@
           "Jory Moss joined the wood crews on day 1724.",
           "Jory Moss was shaken when the oracle went silent on day 1772.",
           "Jory Moss was shaken when the oracle went silent on day 1773.",
-          "Jory Moss was shaken when the oracle went silent on day 1774."
+          "Jory Moss was shaken when the oracle went silent on day 1774.",
+          "Jory Moss was shaken when the oracle went silent on day 1822."
         ]
       }
     },
