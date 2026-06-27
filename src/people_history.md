@@ -5486,3 +5486,8 @@ Day 1819 - Blergen Personal Stories:
 - Elia Moss (guard) was shaken by the silent oracle. Status unchanged.
 - Finn Moss (teacher) was shaken by the silent oracle. Status unchanged.
 - Galen Moss (forager) was shaken by the silent oracle. Status unchanged.
+
+Day 1820 - Blergen Personal Stories:
+- Finn Moss (teacher) was shaken by the silent oracle. Status unchanged.
+- Galen Moss (forager) was shaken by the silent oracle. Status unchanged.
+- Hana Moss (carpenter) was shaken by the silent oracle. Status unchanged.

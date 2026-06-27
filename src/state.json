@@ -1,9 +1,9 @@
 {
-  "day": 1820,
+  "day": 1821,
   "year": 5,
   "colony_name": "Blergen",
   "population": 50,
-  "food": 318,
+  "food": 268,
   "wood": 311,
   "morale": 0,
   "security": 0,
@@ -95387,6 +95387,67 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Snow made paths and work crews slower. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1820,
+      "year": 5,
+      "date": {
+        "year": 5,
+        "day_of_year": 360,
+        "month": "December",
+        "month_number": 12,
+        "day_of_month": 26,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "clear_cold",
+        "severity": 1,
+        "summary": "Cold clear air settled over the camp."
+      },
+      "weather_effects": {},
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {
+        "food": -50
+      },
+      "survival_effects": {
+        "food": -50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_318",
+                "name": "Finn Moss"
+              },
+              {
+                "id": "person_319",
+                "name": "Galen Moss"
+              },
+              {
+                "id": "person_320",
+                "name": "Hana Moss"
+              }
+            ],
+            "summary": "Finn Moss, Galen Moss, and Hana Moss were shaken by the silence of the oracle."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Cold clear air settled over the camp. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -108921,7 +108982,8 @@
           "Finn Moss was shaken when the oracle went silent on day 1769.",
           "Finn Moss was shaken when the oracle went silent on day 1770.",
           "Finn Moss was shaken when the oracle went silent on day 1818.",
-          "Finn Moss was shaken when the oracle went silent on day 1819."
+          "Finn Moss was shaken when the oracle went silent on day 1819.",
+          "Finn Moss was shaken when the oracle went silent on day 1820."
         ]
       }
     },
@@ -108988,7 +109050,8 @@
           "Galen Moss was shaken when the oracle went silent on day 1769.",
           "Galen Moss was shaken when the oracle went silent on day 1770.",
           "Galen Moss was shaken when the oracle went silent on day 1771.",
-          "Galen Moss was shaken when the oracle went silent on day 1819."
+          "Galen Moss was shaken when the oracle went silent on day 1819.",
+          "Galen Moss was shaken when the oracle went silent on day 1820."
         ]
       }
     },
@@ -109031,7 +109094,8 @@
           "Hana Moss helped strengthen the settlement on day 1721.",
           "Hana Moss was shaken when the oracle went silent on day 1770.",
           "Hana Moss was shaken when the oracle went silent on day 1771.",
-          "Hana Moss was shaken when the oracle went silent on day 1772."
+          "Hana Moss was shaken when the oracle went silent on day 1772.",
+          "Hana Moss was shaken when the oracle went silent on day 1820."
         ]
       }
     },
