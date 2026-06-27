@@ -1,5 +1,5 @@
 {
-  "day": 1827,
+  "day": 1828,
   "year": 6,
   "colony_name": "Blergen",
   "population": 50,
@@ -95962,6 +95962,272 @@
         "deaths": []
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A hard freeze bit at stores, tools, and exposed hands. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1827,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 2,
+        "month": "January",
+        "month_number": 1,
+        "day_of_month": 2,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "overcast",
+        "severity": 1,
+        "summary": "A gray sky pressed low over Blergen."
+      },
+      "weather_effects": {},
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_314",
+        "name": "Bram Moss",
+        "since_day": 1561
+      },
+      "effects": {},
+      "survival_effects": {
+        "missed_rations": 50
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_325",
+                "name": "Mara Moss"
+              },
+              {
+                "id": "person_326",
+                "name": "Niko Moss"
+              },
+              {
+                "id": "person_327",
+                "name": "Orin Moss"
+              }
+            ],
+            "summary": "Mara Moss, Niko Moss, and Orin Moss were shaken by the silence of the oracle."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 50,
+            "people": [
+              {
+                "id": "person_330",
+                "name": "Rhea Moss"
+              },
+              {
+                "id": "person_331",
+                "name": "Soren Moss"
+              },
+              {
+                "id": "person_332",
+                "name": "Talia Moss"
+              },
+              {
+                "id": "person_333",
+                "name": "Una Moss"
+              },
+              {
+                "id": "person_334",
+                "name": "Vera Moss"
+              },
+              {
+                "id": "person_335",
+                "name": "Wynn Moss"
+              },
+              {
+                "id": "person_336",
+                "name": "Xara Moss"
+              },
+              {
+                "id": "person_337",
+                "name": "Yuri Moss"
+              },
+              {
+                "id": "person_338",
+                "name": "Zara Moss"
+              },
+              {
+                "id": "person_339",
+                "name": "Ada Nell"
+              },
+              {
+                "id": "person_340",
+                "name": "Bram Nell"
+              },
+              {
+                "id": "person_341",
+                "name": "Cora Nell"
+              },
+              {
+                "id": "person_342",
+                "name": "Dain Nell"
+              },
+              {
+                "id": "person_343",
+                "name": "Elia Nell"
+              },
+              {
+                "id": "person_344",
+                "name": "Finn Nell"
+              },
+              {
+                "id": "person_345",
+                "name": "Galen Nell"
+              },
+              {
+                "id": "person_346",
+                "name": "Hana Nell"
+              },
+              {
+                "id": "person_347",
+                "name": "Iris Nell"
+              },
+              {
+                "id": "person_298",
+                "name": "Lio Lark"
+              },
+              {
+                "id": "person_299",
+                "name": "Mara Lark"
+              },
+              {
+                "id": "person_300",
+                "name": "Niko Lark"
+              },
+              {
+                "id": "person_301",
+                "name": "Orin Lark"
+              },
+              {
+                "id": "person_302",
+                "name": "Pia Lark"
+              },
+              {
+                "id": "person_303",
+                "name": "Quin Lark"
+              },
+              {
+                "id": "person_304",
+                "name": "Rhea Lark"
+              },
+              {
+                "id": "person_305",
+                "name": "Soren Lark"
+              },
+              {
+                "id": "person_306",
+                "name": "Talia Lark"
+              },
+              {
+                "id": "person_307",
+                "name": "Una Lark"
+              },
+              {
+                "id": "person_308",
+                "name": "Vera Lark"
+              },
+              {
+                "id": "person_309",
+                "name": "Wynn Lark"
+              },
+              {
+                "id": "person_310",
+                "name": "Xara Lark"
+              },
+              {
+                "id": "person_311",
+                "name": "Yuri Lark"
+              },
+              {
+                "id": "person_312",
+                "name": "Zara Lark"
+              },
+              {
+                "id": "person_313",
+                "name": "Ada Moss"
+              },
+              {
+                "id": "person_314",
+                "name": "Bram Moss"
+              },
+              {
+                "id": "person_315",
+                "name": "Cora Moss"
+              },
+              {
+                "id": "person_316",
+                "name": "Dain Moss"
+              },
+              {
+                "id": "person_317",
+                "name": "Elia Moss"
+              },
+              {
+                "id": "person_318",
+                "name": "Finn Moss"
+              },
+              {
+                "id": "person_319",
+                "name": "Galen Moss"
+              },
+              {
+                "id": "person_320",
+                "name": "Hana Moss"
+              },
+              {
+                "id": "person_321",
+                "name": "Iris Moss"
+              },
+              {
+                "id": "person_322",
+                "name": "Jory Moss"
+              },
+              {
+                "id": "person_323",
+                "name": "Kara Moss"
+              },
+              {
+                "id": "person_324",
+                "name": "Lio Moss"
+              },
+              {
+                "id": "person_325",
+                "name": "Mara Moss"
+              },
+              {
+                "id": "person_326",
+                "name": "Niko Moss"
+              },
+              {
+                "id": "person_327",
+                "name": "Orin Moss"
+              },
+              {
+                "id": "person_328",
+                "name": "Pia Moss"
+              },
+              {
+                "id": "person_329",
+                "name": "Quin Moss"
+              }
+            ],
+            "summary": "Rhea Moss, Soren Moss, and Talia Moss, and 47 others went without full rations."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A gray sky pressed low over Blergen. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -108536,7 +108802,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108552,7 +108818,8 @@
           "Lio Lark was shaken when the oracle went silent on day 1798.",
           "Lio Lark was shaken when the oracle went silent on day 1799.",
           "Lio Lark was shaken when the oracle went silent on day 1800.",
-          "Lio Lark went without a full ration on day 1826."
+          "Lio Lark went without a full ration on day 1826.",
+          "Lio Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108580,7 +108847,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108621,7 +108888,8 @@
           "Mara Lark was shaken when the oracle went silent on day 1799.",
           "Mara Lark was shaken when the oracle went silent on day 1800.",
           "Mara Lark was shaken when the oracle went silent on day 1801.",
-          "Mara Lark went without a full ration on day 1826."
+          "Mara Lark went without a full ration on day 1826.",
+          "Mara Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108649,7 +108917,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108669,7 +108937,8 @@
           "Niko Lark was shaken when the oracle went silent on day 1800.",
           "Niko Lark was shaken when the oracle went silent on day 1801.",
           "Niko Lark was shaken when the oracle went silent on day 1802.",
-          "Niko Lark went without a full ration on day 1826."
+          "Niko Lark went without a full ration on day 1826.",
+          "Niko Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108697,7 +108966,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108714,7 +108983,8 @@
           "Orin Lark was shaken when the oracle went silent on day 1801.",
           "Orin Lark was shaken when the oracle went silent on day 1802.",
           "Orin Lark was shaken when the oracle went silent on day 1803.",
-          "Orin Lark went without a full ration on day 1826."
+          "Orin Lark went without a full ration on day 1826.",
+          "Orin Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108742,7 +109012,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108755,7 +109025,8 @@
           "Pia Lark was shaken when the oracle went silent on day 1802.",
           "Pia Lark was shaken when the oracle went silent on day 1803.",
           "Pia Lark was shaken when the oracle went silent on day 1804.",
-          "Pia Lark went without a full ration on day 1826."
+          "Pia Lark went without a full ration on day 1826.",
+          "Pia Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108783,7 +109054,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108820,7 +109091,8 @@
           "Quin Lark was shaken when the oracle went silent on day 1803.",
           "Quin Lark was shaken when the oracle went silent on day 1804.",
           "Quin Lark was shaken when the oracle went silent on day 1805.",
-          "Quin Lark went without a full ration on day 1826."
+          "Quin Lark went without a full ration on day 1826.",
+          "Quin Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108847,7 +109119,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108866,7 +109138,8 @@
           "Rhea Lark was shaken when the oracle went silent on day 1804.",
           "Rhea Lark was shaken when the oracle went silent on day 1805.",
           "Rhea Lark was shaken when the oracle went silent on day 1806.",
-          "Rhea Lark went without a full ration on day 1826."
+          "Rhea Lark went without a full ration on day 1826.",
+          "Rhea Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108894,7 +109167,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108908,7 +109181,8 @@
           "Soren Lark was shaken when the oracle went silent on day 1805.",
           "Soren Lark was shaken when the oracle went silent on day 1806.",
           "Soren Lark was shaken when the oracle went silent on day 1807.",
-          "Soren Lark went without a full ration on day 1826."
+          "Soren Lark went without a full ration on day 1826.",
+          "Soren Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108936,7 +109210,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108952,7 +109226,8 @@
           "Talia Lark was shaken when the oracle went silent on day 1806.",
           "Talia Lark was shaken when the oracle went silent on day 1807.",
           "Talia Lark was shaken when the oracle went silent on day 1808.",
-          "Talia Lark went without a full ration on day 1826."
+          "Talia Lark went without a full ration on day 1826.",
+          "Talia Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -108980,7 +109255,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -108999,7 +109274,8 @@
           "Una Lark was shaken when the oracle went silent on day 1807.",
           "Una Lark was shaken when the oracle went silent on day 1808.",
           "Una Lark was shaken when the oracle went silent on day 1809.",
-          "Una Lark went without a full ration on day 1826."
+          "Una Lark went without a full ration on day 1826.",
+          "Una Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -109027,7 +109303,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109039,7 +109315,8 @@
           "Vera Lark was shaken when the oracle went silent on day 1808.",
           "Vera Lark was shaken when the oracle went silent on day 1809.",
           "Vera Lark was shaken when the oracle went silent on day 1810.",
-          "Vera Lark went without a full ration on day 1826."
+          "Vera Lark went without a full ration on day 1826.",
+          "Vera Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -109067,7 +109344,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109101,7 +109378,8 @@
           "Wynn Lark was shaken when the oracle went silent on day 1809.",
           "Wynn Lark was shaken when the oracle went silent on day 1810.",
           "Wynn Lark was shaken when the oracle went silent on day 1811.",
-          "Wynn Lark went without a full ration on day 1826."
+          "Wynn Lark went without a full ration on day 1826.",
+          "Wynn Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -109129,7 +109407,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109153,7 +109431,8 @@
           "Xara Lark was shaken when the oracle went silent on day 1810.",
           "Xara Lark was shaken when the oracle went silent on day 1811.",
           "Xara Lark was shaken when the oracle went silent on day 1812.",
-          "Xara Lark went without a full ration on day 1826."
+          "Xara Lark went without a full ration on day 1826.",
+          "Xara Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -109181,7 +109460,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109193,7 +109472,8 @@
           "Yuri Lark was shaken when the oracle went silent on day 1811.",
           "Yuri Lark was shaken when the oracle went silent on day 1812.",
           "Yuri Lark was shaken when the oracle went silent on day 1813.",
-          "Yuri Lark went without a full ration on day 1826."
+          "Yuri Lark went without a full ration on day 1826.",
+          "Yuri Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -109221,7 +109501,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109237,7 +109517,8 @@
           "Zara Lark was shaken when the oracle went silent on day 1812.",
           "Zara Lark was shaken when the oracle went silent on day 1813.",
           "Zara Lark was shaken when the oracle went silent on day 1814.",
-          "Zara Lark went without a full ration on day 1826."
+          "Zara Lark went without a full ration on day 1826.",
+          "Zara Lark went without a full ration on day 1827."
         ]
       }
     },
@@ -109264,7 +109545,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109298,7 +109579,8 @@
           "Ada Moss was shaken when the oracle went silent on day 1813.",
           "Ada Moss was shaken when the oracle went silent on day 1814.",
           "Ada Moss was shaken when the oracle went silent on day 1815.",
-          "Ada Moss went without a full ration on day 1826."
+          "Ada Moss went without a full ration on day 1826.",
+          "Ada Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109326,7 +109608,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109356,7 +109638,8 @@
           "Bram Moss was shaken when the oracle went silent on day 1814.",
           "Bram Moss was shaken when the oracle went silent on day 1815.",
           "Bram Moss was shaken when the oracle went silent on day 1816.",
-          "Bram Moss went without a full ration on day 1826."
+          "Bram Moss went without a full ration on day 1826.",
+          "Bram Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109384,7 +109667,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109395,7 +109678,8 @@
           "Cora Moss was shaken when the oracle went silent on day 1815.",
           "Cora Moss was shaken when the oracle went silent on day 1816.",
           "Cora Moss was shaken when the oracle went silent on day 1817.",
-          "Cora Moss went without a full ration on day 1826."
+          "Cora Moss went without a full ration on day 1826.",
+          "Cora Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109423,7 +109707,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109435,7 +109719,8 @@
           "Dain Moss was shaken when the oracle went silent on day 1816.",
           "Dain Moss was shaken when the oracle went silent on day 1817.",
           "Dain Moss was shaken when the oracle went silent on day 1818.",
-          "Dain Moss went without a full ration on day 1826."
+          "Dain Moss went without a full ration on day 1826.",
+          "Dain Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109463,7 +109748,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109479,7 +109764,8 @@
           "Elia Moss was shaken when the oracle went silent on day 1817.",
           "Elia Moss was shaken when the oracle went silent on day 1818.",
           "Elia Moss was shaken when the oracle went silent on day 1819.",
-          "Elia Moss went without a full ration on day 1826."
+          "Elia Moss went without a full ration on day 1826.",
+          "Elia Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109507,7 +109793,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109518,7 +109804,8 @@
           "Finn Moss was shaken when the oracle went silent on day 1818.",
           "Finn Moss was shaken when the oracle went silent on day 1819.",
           "Finn Moss was shaken when the oracle went silent on day 1820.",
-          "Finn Moss went without a full ration on day 1826."
+          "Finn Moss went without a full ration on day 1826.",
+          "Finn Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109546,7 +109833,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109588,7 +109875,8 @@
           "Galen Moss was shaken when the oracle went silent on day 1819.",
           "Galen Moss was shaken when the oracle went silent on day 1820.",
           "Galen Moss was shaken when the oracle went silent on day 1821.",
-          "Galen Moss went without a full ration on day 1826."
+          "Galen Moss went without a full ration on day 1826.",
+          "Galen Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109616,7 +109904,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109635,7 +109923,8 @@
           "Hana Moss was shaken when the oracle went silent on day 1820.",
           "Hana Moss was shaken when the oracle went silent on day 1821.",
           "Hana Moss was shaken when the oracle went silent on day 1822.",
-          "Hana Moss went without a full ration on day 1826."
+          "Hana Moss went without a full ration on day 1826.",
+          "Hana Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109663,7 +109952,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109680,7 +109969,8 @@
           "Iris Moss was shaken when the oracle went silent on day 1821.",
           "Iris Moss was shaken when the oracle went silent on day 1822.",
           "Iris Moss was shaken when the oracle went silent on day 1823.",
-          "Iris Moss went without a full ration on day 1826."
+          "Iris Moss went without a full ration on day 1826.",
+          "Iris Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109707,7 +109997,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109719,7 +110009,8 @@
           "Jory Moss was shaken when the oracle went silent on day 1822.",
           "Jory Moss was shaken when the oracle went silent on day 1823.",
           "Jory Moss was shaken when the oracle went silent on day 1824.",
-          "Jory Moss went without a full ration on day 1826."
+          "Jory Moss went without a full ration on day 1826.",
+          "Jory Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109747,7 +110038,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109784,7 +110075,8 @@
           "Kara Moss was shaken when the oracle went silent on day 1823.",
           "Kara Moss was shaken when the oracle went silent on day 1824.",
           "Kara Moss was shaken when the oracle went silent on day 1825.",
-          "Kara Moss went without a full ration on day 1826."
+          "Kara Moss went without a full ration on day 1826.",
+          "Kara Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109812,7 +110104,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109833,7 +110125,8 @@
           "Lio Moss was shaken when the oracle went silent on day 1824.",
           "Lio Moss was shaken when the oracle went silent on day 1825.",
           "Lio Moss was shaken when the oracle went silent on day 1826.",
-          "Lio Moss went without a full ration on day 1826."
+          "Lio Moss went without a full ration on day 1826.",
+          "Lio Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109861,7 +110154,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109871,7 +110164,9 @@
           "Mara Moss was shaken when the oracle went silent on day 1777.",
           "Mara Moss was shaken when the oracle went silent on day 1825.",
           "Mara Moss was shaken when the oracle went silent on day 1826.",
-          "Mara Moss went without a full ration on day 1826."
+          "Mara Moss went without a full ration on day 1826.",
+          "Mara Moss was shaken when the oracle went silent on day 1827.",
+          "Mara Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109899,7 +110194,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109910,7 +110205,9 @@
           "Niko Moss was shaken when the oracle went silent on day 1777.",
           "Niko Moss was shaken when the oracle went silent on day 1778.",
           "Niko Moss was shaken when the oracle went silent on day 1826.",
-          "Niko Moss went without a full ration on day 1826."
+          "Niko Moss went without a full ration on day 1826.",
+          "Niko Moss was shaken when the oracle went silent on day 1827.",
+          "Niko Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109938,7 +110235,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109954,7 +110251,9 @@
           "Orin Moss was shaken when the oracle went silent on day 1777.",
           "Orin Moss was shaken when the oracle went silent on day 1778.",
           "Orin Moss was shaken when the oracle went silent on day 1779.",
-          "Orin Moss went without a full ration on day 1826."
+          "Orin Moss went without a full ration on day 1826.",
+          "Orin Moss was shaken when the oracle went silent on day 1827.",
+          "Orin Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -109982,7 +110281,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -109991,7 +110290,8 @@
           "Pia Moss was shaken when the oracle went silent on day 1778.",
           "Pia Moss was shaken when the oracle went silent on day 1779.",
           "Pia Moss was shaken when the oracle went silent on day 1780.",
-          "Pia Moss went without a full ration on day 1826."
+          "Pia Moss went without a full ration on day 1826.",
+          "Pia Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110019,7 +110319,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 1
+        "hunger": 2
       },
       "story": {
         "notable_events": [
@@ -110058,7 +110358,8 @@
           "Quin Moss was shaken when the oracle went silent on day 1779.",
           "Quin Moss was shaken when the oracle went silent on day 1780.",
           "Quin Moss was shaken when the oracle went silent on day 1781.",
-          "Quin Moss went without a full ration on day 1826."
+          "Quin Moss went without a full ration on day 1826.",
+          "Quin Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110086,7 +110387,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110101,7 +110402,8 @@
           "Rhea Moss helped strengthen the settlement on day 1731.",
           "Rhea Moss was shaken when the oracle went silent on day 1780.",
           "Rhea Moss was shaken when the oracle went silent on day 1781.",
-          "Rhea Moss was shaken when the oracle went silent on day 1782."
+          "Rhea Moss was shaken when the oracle went silent on day 1782.",
+          "Rhea Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110128,7 +110430,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110138,7 +110440,8 @@
           "Soren Moss received care from the sick ward on day 1717.",
           "Soren Moss was shaken when the oracle went silent on day 1781.",
           "Soren Moss was shaken when the oracle went silent on day 1782.",
-          "Soren Moss was shaken when the oracle went silent on day 1783."
+          "Soren Moss was shaken when the oracle went silent on day 1783.",
+          "Soren Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110166,7 +110469,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110176,7 +110479,8 @@
           "Talia Moss received care from the sick ward on day 1736.",
           "Talia Moss was shaken when the oracle went silent on day 1782.",
           "Talia Moss was shaken when the oracle went silent on day 1783.",
-          "Talia Moss was shaken when the oracle went silent on day 1784."
+          "Talia Moss was shaken when the oracle went silent on day 1784.",
+          "Talia Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110204,7 +110508,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110240,7 +110544,8 @@
           "Una Moss scouted beyond the settlement on day 1732.",
           "Una Moss was shaken when the oracle went silent on day 1783.",
           "Una Moss was shaken when the oracle went silent on day 1784.",
-          "Una Moss was shaken when the oracle went silent on day 1785."
+          "Una Moss was shaken when the oracle went silent on day 1785.",
+          "Una Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110268,7 +110573,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110286,7 +110591,8 @@
           "Vera Moss received care from the sick ward on day 1735.",
           "Vera Moss was shaken when the oracle went silent on day 1784.",
           "Vera Moss was shaken when the oracle went silent on day 1785.",
-          "Vera Moss was shaken when the oracle went silent on day 1786."
+          "Vera Moss was shaken when the oracle went silent on day 1786.",
+          "Vera Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110314,7 +110620,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110323,7 +110629,8 @@
           "Wynn Moss received care from the sick ward on day 1733.",
           "Wynn Moss was shaken when the oracle went silent on day 1785.",
           "Wynn Moss was shaken when the oracle went silent on day 1786.",
-          "Wynn Moss was shaken when the oracle went silent on day 1787."
+          "Wynn Moss was shaken when the oracle went silent on day 1787.",
+          "Wynn Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110351,7 +110658,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110368,7 +110675,8 @@
           "Xara Moss was shaken when the oracle went silent on day 1738.",
           "Xara Moss was shaken when the oracle went silent on day 1786.",
           "Xara Moss was shaken when the oracle went silent on day 1787.",
-          "Xara Moss was shaken when the oracle went silent on day 1788."
+          "Xara Moss was shaken when the oracle went silent on day 1788.",
+          "Xara Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110396,7 +110704,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110417,7 +110725,8 @@
           "Yuri Moss was shaken when the oracle went silent on day 1739.",
           "Yuri Moss was shaken when the oracle went silent on day 1787.",
           "Yuri Moss was shaken when the oracle went silent on day 1788.",
-          "Yuri Moss was shaken when the oracle went silent on day 1789."
+          "Yuri Moss was shaken when the oracle went silent on day 1789.",
+          "Yuri Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110445,7 +110754,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110457,7 +110766,8 @@
           "Zara Moss was shaken when the oracle went silent on day 1740.",
           "Zara Moss was shaken when the oracle went silent on day 1788.",
           "Zara Moss was shaken when the oracle went silent on day 1789.",
-          "Zara Moss was shaken when the oracle went silent on day 1790."
+          "Zara Moss was shaken when the oracle went silent on day 1790.",
+          "Zara Moss went without a full ration on day 1827."
         ]
       }
     },
@@ -110485,7 +110795,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110525,7 +110835,8 @@
           "Ada Nell was shaken when the oracle went silent on day 1741.",
           "Ada Nell was shaken when the oracle went silent on day 1789.",
           "Ada Nell was shaken when the oracle went silent on day 1790.",
-          "Ada Nell was shaken when the oracle went silent on day 1791."
+          "Ada Nell was shaken when the oracle went silent on day 1791.",
+          "Ada Nell went without a full ration on day 1827."
         ]
       }
     },
@@ -110552,7 +110863,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110573,7 +110884,8 @@
           "Bram Nell was shaken when the oracle went silent on day 1742.",
           "Bram Nell was shaken when the oracle went silent on day 1790.",
           "Bram Nell was shaken when the oracle went silent on day 1791.",
-          "Bram Nell was shaken when the oracle went silent on day 1792."
+          "Bram Nell was shaken when the oracle went silent on day 1792.",
+          "Bram Nell went without a full ration on day 1827."
         ]
       }
     },
@@ -110601,7 +110913,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110616,7 +110928,8 @@
           "Cora Nell was shaken when the oracle went silent on day 1743.",
           "Cora Nell was shaken when the oracle went silent on day 1791.",
           "Cora Nell was shaken when the oracle went silent on day 1792.",
-          "Cora Nell was shaken when the oracle went silent on day 1793."
+          "Cora Nell was shaken when the oracle went silent on day 1793.",
+          "Cora Nell went without a full ration on day 1827."
         ]
       }
     },
@@ -110644,7 +110957,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110657,7 +110970,8 @@
           "Dain Nell was shaken when the oracle went silent on day 1744.",
           "Dain Nell was shaken when the oracle went silent on day 1792.",
           "Dain Nell was shaken when the oracle went silent on day 1793.",
-          "Dain Nell was shaken when the oracle went silent on day 1794."
+          "Dain Nell was shaken when the oracle went silent on day 1794.",
+          "Dain Nell went without a full ration on day 1827."
         ]
       }
     },
@@ -110685,7 +110999,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110728,7 +111042,8 @@
           "Elia Nell was shaken when the oracle went silent on day 1745.",
           "Elia Nell was shaken when the oracle went silent on day 1793.",
           "Elia Nell was shaken when the oracle went silent on day 1794.",
-          "Elia Nell was shaken when the oracle went silent on day 1795."
+          "Elia Nell was shaken when the oracle went silent on day 1795.",
+          "Elia Nell went without a full ration on day 1827."
         ]
       }
     },
@@ -110756,7 +111071,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110776,7 +111091,8 @@
           "Finn Nell was shaken when the oracle went silent on day 1746.",
           "Finn Nell was shaken when the oracle went silent on day 1794.",
           "Finn Nell was shaken when the oracle went silent on day 1795.",
-          "Finn Nell was shaken when the oracle went silent on day 1796."
+          "Finn Nell was shaken when the oracle went silent on day 1796.",
+          "Finn Nell went without a full ration on day 1827."
         ]
       }
     },
@@ -110804,7 +111120,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110817,7 +111133,8 @@
           "Galen Nell was shaken when the oracle went silent on day 1747.",
           "Galen Nell was shaken when the oracle went silent on day 1795.",
           "Galen Nell was shaken when the oracle went silent on day 1796.",
-          "Galen Nell was shaken when the oracle went silent on day 1797."
+          "Galen Nell was shaken when the oracle went silent on day 1797.",
+          "Galen Nell went without a full ration on day 1827."
         ]
       }
     },
@@ -110845,7 +111162,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110858,7 +111175,8 @@
           "Hana Nell was shaken when the oracle went silent on day 1748.",
           "Hana Nell was shaken when the oracle went silent on day 1796.",
           "Hana Nell was shaken when the oracle went silent on day 1797.",
-          "Hana Nell was shaken when the oracle went silent on day 1798."
+          "Hana Nell was shaken when the oracle went silent on day 1798.",
+          "Hana Nell went without a full ration on day 1827."
         ]
       }
     },
@@ -110886,7 +111204,7 @@
         "alive": true,
         "health": 1,
         "morale": 0,
-        "hunger": 0
+        "hunger": 1
       },
       "story": {
         "notable_events": [
@@ -110906,7 +111224,8 @@
           "Iris Nell was shaken when the oracle went silent on day 1749.",
           "Iris Nell was shaken when the oracle went silent on day 1797.",
           "Iris Nell was shaken when the oracle went silent on day 1798.",
-          "Iris Nell was shaken when the oracle went silent on day 1799."
+          "Iris Nell was shaken when the oracle went silent on day 1799.",
+          "Iris Nell went without a full ration on day 1827."
         ]
       }
     }

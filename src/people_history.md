@@ -5553,3 +5553,58 @@ Day 1826 - Blergen Personal Stories:
 - Orin Moss (guard) went without a full ration. hunger 0->1.
 - Pia Moss (teacher) went without a full ration. hunger 0->1.
 - Quin Moss (forager) went without a full ration. hunger 0->1.
+
+Day 1827 - Blergen Personal Stories:
+- Mara Moss (healer) was shaken by the silent oracle. hunger 1->2.
+- Niko Moss (cook) was shaken by the silent oracle. hunger 1->2.
+- Orin Moss (guard) was shaken by the silent oracle. hunger 1->2.
+- Rhea Moss (carpenter) went without a full ration. hunger 0->1.
+- Soren Moss (farmer) went without a full ration. hunger 0->1.
+- Talia Moss (woodcutter) went without a full ration. hunger 0->1.
+- Una Moss (scout) went without a full ration. hunger 0->1.
+- Vera Moss (builder) went without a full ration. hunger 0->1.
+- Wynn Moss (healer) went without a full ration. hunger 0->1.
+- Xara Moss (cook) went without a full ration. hunger 0->1.
+- Yuri Moss (guard) went without a full ration. hunger 0->1.
+- Zara Moss (teacher) went without a full ration. hunger 0->1.
+- Ada Nell (forager) went without a full ration. hunger 0->1.
+- Bram Nell (carpenter) went without a full ration. hunger 0->1.
+- Cora Nell (farmer) went without a full ration. hunger 0->1.
+- Dain Nell (woodcutter) went without a full ration. hunger 0->1.
+- Elia Nell (scout) went without a full ration. hunger 0->1.
+- Finn Nell (builder) went without a full ration. hunger 0->1.
+- Galen Nell (healer) went without a full ration. hunger 0->1.
+- Hana Nell (cook) went without a full ration. hunger 0->1.
+- Iris Nell (guard) went without a full ration. hunger 0->1.
+- Lio Lark (teacher) went without a full ration. hunger 1->2.
+- Mara Lark (forager) went without a full ration. hunger 1->2.
+- Niko Lark (carpenter) went without a full ration. hunger 1->2.
+- Orin Lark (farmer) went without a full ration. hunger 1->2.
+- Pia Lark (woodcutter) went without a full ration. hunger 1->2.
+- Quin Lark (scout) went without a full ration. hunger 1->2.
+- Rhea Lark (builder) went without a full ration. hunger 1->2.
+- Soren Lark (healer) went without a full ration. hunger 1->2.
+- Talia Lark (cook) went without a full ration. hunger 1->2.
+- Una Lark (guard) went without a full ration. hunger 1->2.
+- Vera Lark (teacher) went without a full ration. hunger 1->2.
+- Wynn Lark (forager) went without a full ration. hunger 1->2.
+- Xara Lark (carpenter) went without a full ration. hunger 1->2.
+- Yuri Lark (farmer) went without a full ration. hunger 1->2.
+- Zara Lark (woodcutter) went without a full ration. hunger 1->2.
+- Ada Moss (scout) went without a full ration. hunger 1->2.
+- Bram Moss (builder) went without a full ration. hunger 1->2.
+- Cora Moss (healer) went without a full ration. hunger 1->2.
+- Dain Moss (cook) went without a full ration. hunger 1->2.
+- Elia Moss (guard) went without a full ration. hunger 1->2.
+- Finn Moss (teacher) went without a full ration. hunger 1->2.
+- Galen Moss (forager) went without a full ration. hunger 1->2.
+- Hana Moss (carpenter) went without a full ration. hunger 1->2.
+- Iris Moss (farmer) went without a full ration. hunger 1->2.
+- Jory Moss (woodcutter) went without a full ration. hunger 1->2.
+- Kara Moss (scout) went without a full ration. hunger 1->2.
+- Lio Moss (builder) went without a full ration. hunger 1->2.
+- Mara Moss (healer) went without a full ration. hunger 1->2.
+- Niko Moss (cook) went without a full ration. hunger 1->2.
+- Orin Moss (guard) went without a full ration. hunger 1->2.
+- Pia Moss (teacher) went without a full ration. hunger 1->2.
+- Quin Moss (forager) went without a full ration. hunger 1->2.
