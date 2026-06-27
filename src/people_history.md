@@ -5608,3 +5608,90 @@ Day 1827 - Blergen Personal Stories:
 - Orin Moss (guard) went without a full ration. hunger 1->2.
 - Pia Moss (teacher) went without a full ration. hunger 1->2.
 - Quin Moss (forager) went without a full ration. hunger 1->2.
+
+Day 1828 - Blergen Personal Stories:
+- Niko Moss (cook) was shaken by the silent oracle. health 1->0; hunger 2->3; died.
+- Orin Moss (guard) was shaken by the silent oracle. health 1->0; hunger 2->3; died.
+- Pia Moss (teacher) was shaken by the silent oracle. health 1->0; hunger 2->3; died.
+- Rhea Moss (carpenter) went without a full ration. hunger 1->2.
+- Soren Moss (farmer) went without a full ration. hunger 1->2.
+- Talia Moss (woodcutter) went without a full ration. hunger 1->2.
+- Una Moss (scout) went without a full ration. hunger 1->2.
+- Vera Moss (builder) went without a full ration. hunger 1->2.
+- Wynn Moss (healer) went without a full ration. hunger 1->2.
+- Xara Moss (cook) went without a full ration. hunger 1->2.
+- Yuri Moss (guard) went without a full ration. hunger 1->2.
+- Zara Moss (teacher) went without a full ration. hunger 1->2.
+- Ada Nell (forager) went without a full ration. hunger 1->2.
+- Bram Nell (carpenter) went without a full ration. hunger 1->2.
+- Cora Nell (farmer) went without a full ration. hunger 1->2.
+- Dain Nell (woodcutter) went without a full ration. hunger 1->2.
+- Elia Nell (scout) went without a full ration. hunger 1->2.
+- Finn Nell (builder) went without a full ration. hunger 1->2.
+- Galen Nell (healer) went without a full ration. hunger 1->2.
+- Hana Nell (cook) went without a full ration. hunger 1->2.
+- Iris Nell (guard) went without a full ration. hunger 1->2.
+- Lio Lark (teacher) went without a full ration. health 1->0; hunger 2->3; died.
+- Mara Lark (forager) went without a full ration. health 1->0; hunger 2->3; died.
+- Niko Lark (carpenter) went without a full ration. health 1->0; hunger 2->3; died.
+- Orin Lark (farmer) went without a full ration. health 1->0; hunger 2->3; died.
+- Pia Lark (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Quin Lark (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Rhea Lark (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Soren Lark (healer) went without a full ration. health 1->0; hunger 2->3; died.
+- Talia Lark (cook) went without a full ration. health 1->0; hunger 2->3; died.
+- Una Lark (guard) went without a full ration. health 1->0; hunger 2->3; died.
+- Vera Lark (teacher) went without a full ration. health 1->0; hunger 2->3; died.
+- Wynn Lark (forager) went without a full ration. health 1->0; hunger 2->3; died.
+- Xara Lark (carpenter) went without a full ration. health 1->0; hunger 2->3; died.
+- Yuri Lark (farmer) went without a full ration. health 1->0; hunger 2->3; died.
+- Zara Lark (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Ada Moss (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Bram Moss (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Cora Moss (healer) went without a full ration. health 1->0; hunger 2->3; died.
+- Dain Moss (cook) went without a full ration. health 1->0; hunger 2->3; died.
+- Elia Moss (guard) went without a full ration. health 1->0; hunger 2->3; died.
+- Finn Moss (teacher) went without a full ration. health 1->0; hunger 2->3; died.
+- Galen Moss (forager) went without a full ration. health 1->0; hunger 2->3; died.
+- Hana Moss (carpenter) went without a full ration. health 1->0; hunger 2->3; died.
+- Iris Moss (farmer) went without a full ration. health 1->0; hunger 2->3; died.
+- Jory Moss (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Kara Moss (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Lio Moss (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Mara Moss (healer) went without a full ration. health 1->0; hunger 2->3; died.
+- Niko Moss (cook) went without a full ration. health 1->0; hunger 2->3; died.
+- Orin Moss (guard) went without a full ration. health 1->0; hunger 2->3; died.
+- Pia Moss (teacher) went without a full ration. health 1->0; hunger 2->3; died.
+- Quin Moss (forager) went without a full ration. health 1->0; hunger 2->3; died.
+- Lio Lark (teacher) died of starvation. health 1->0; hunger 2->3; died.
+- Mara Lark (forager) died of starvation. health 1->0; hunger 2->3; died.
+- Niko Lark (carpenter) died of starvation. health 1->0; hunger 2->3; died.
+- Orin Lark (farmer) died of starvation. health 1->0; hunger 2->3; died.
+- Pia Lark (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Quin Lark (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Rhea Lark (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Soren Lark (healer) died of starvation. health 1->0; hunger 2->3; died.
+- Talia Lark (cook) died of starvation. health 1->0; hunger 2->3; died.
+- Una Lark (guard) died of starvation. health 1->0; hunger 2->3; died.
+- Vera Lark (teacher) died of starvation. health 1->0; hunger 2->3; died.
+- Wynn Lark (forager) died of starvation. health 1->0; hunger 2->3; died.
+- Xara Lark (carpenter) died of starvation. health 1->0; hunger 2->3; died.
+- Yuri Lark (farmer) died of starvation. health 1->0; hunger 2->3; died.
+- Zara Lark (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Ada Moss (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Bram Moss (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Cora Moss (healer) died of starvation. health 1->0; hunger 2->3; died.
+- Dain Moss (cook) died of starvation. health 1->0; hunger 2->3; died.
+- Elia Moss (guard) died of starvation. health 1->0; hunger 2->3; died.
+- Finn Moss (teacher) died of starvation. health 1->0; hunger 2->3; died.
+- Galen Moss (forager) died of starvation. health 1->0; hunger 2->3; died.
+- Hana Moss (carpenter) died of starvation. health 1->0; hunger 2->3; died.
+- Iris Moss (farmer) died of starvation. health 1->0; hunger 2->3; died.
+- Jory Moss (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Kara Moss (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Lio Moss (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Mara Moss (healer) died of starvation. health 1->0; hunger 2->3; died.
+- Niko Moss (cook) died of starvation. health 1->0; hunger 2->3; died.
+- Orin Moss (guard) died of starvation. health 1->0; hunger 2->3; died.
+- Pia Moss (teacher) died of starvation. health 1->0; hunger 2->3; died.
+- Quin Moss (forager) died of starvation. health 1->0; hunger 2->3; died.

@@ -5481,3 +5481,6 @@ A hard freeze bit at stores, tools, and exposed hands. The chaos gods struck the
 
 Day 1827 (Year 6, January 2) - Blergen:
 A gray sky pressed low over Blergen. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources. Mara Moss, Niko Moss, and Orin Moss were shaken by the silence of the oracle. Rhea Moss, Soren Moss, and Talia Moss, and 47 others went without full rations. The loss of people is beginning to define the settlement's future.
+
+Day 1828 (Year 6, January 3) - Blergen:
+A winter storm threatened the colony's shelters and stores. The chaos gods struck the colony, and President Bram Moss told the colonists to preserve resources; the day's changes reduced population by 32, and reduced wood by 3. Niko Moss, Orin Moss, and Pia Moss were shaken by the silence of the oracle. Rhea Moss, Soren Moss, and Talia Moss, and 47 others went without full rations. Lio Lark, Mara Lark, and Niko Lark, and 29 others died. The loss of people is beginning to define the settlement's future.
