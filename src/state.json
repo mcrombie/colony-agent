@@ -1,5 +1,5 @@
 {
-  "day": 1832,
+  "day": 1833,
   "year": 6,
   "colony_name": "Blergen",
   "population": 0,
@@ -97011,6 +97011,37 @@
         "deaths": []
       },
       "summary": "No colonists remained in Blergen. Weather: A hard freeze bit at stores, tools, and exposed hands. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 1832,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 7,
+        "month": "January",
+        "month_number": 1,
+        "day_of_month": 7,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "overcast",
+        "severity": 1,
+        "summary": "A gray sky pressed low over Blergen."
+      },
+      "weather_effects": {},
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: A gray sky pressed low over Blergen. No one remained to give orders or carry them out."
     }
   ],
   "people": [
