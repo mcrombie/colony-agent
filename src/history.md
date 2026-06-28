@@ -5487,3 +5487,6 @@ A winter storm threatened the colony's shelters and stores. The chaos gods struc
 
 Day 1829 (Year 6, January 4) - Blergen:
 Sleet made the paths slick and miserable. The chaos gods struck the colony, and President Xara Moss told the colonists to preserve resources; the day's changes reduced population by 18, reduced wood by 1, and reduced health by 1. Cora Nell, Dain Nell, and Elia Nell were shaken by the silence of the oracle. Rhea Moss, Soren Moss, and Talia Moss, and 15 others went without full rations. Rhea Moss, Soren Moss, and Talia Moss, and 15 others died. No colonists remain in Blergen.
+
+Day 1830 (Year 6, January 5) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
