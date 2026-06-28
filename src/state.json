@@ -1,5 +1,5 @@
 {
-  "day": 1831,
+  "day": 1832,
   "year": 6,
   "colony_name": "Blergen",
   "population": 0,
@@ -96978,6 +96978,39 @@
         "deaths": []
       },
       "summary": "No colonists remained in Blergen. Weather: Cold clear air settled over the camp. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 1831,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 6,
+        "month": "January",
+        "month_number": 1,
+        "day_of_month": 6,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "hard_freeze",
+        "severity": 3,
+        "summary": "A hard freeze bit at stores, tools, and exposed hands."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: A hard freeze bit at stores, tools, and exposed hands. No one remained to give orders or carry them out."
     }
   ],
   "people": [
