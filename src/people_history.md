@@ -5695,3 +5695,44 @@ Day 1828 - Blergen Personal Stories:
 - Orin Moss (guard) died of starvation. health 1->0; hunger 2->3; died.
 - Pia Moss (teacher) died of starvation. health 1->0; hunger 2->3; died.
 - Quin Moss (forager) died of starvation. health 1->0; hunger 2->3; died.
+
+Day 1829 - Blergen Personal Stories:
+- Cora Nell (farmer) was shaken by the silent oracle. health 1->0; hunger 2->3; died.
+- Dain Nell (woodcutter) was shaken by the silent oracle. health 1->0; hunger 2->3; died.
+- Elia Nell (scout) was shaken by the silent oracle. health 1->0; hunger 2->3; died.
+- Rhea Moss (carpenter) went without a full ration. health 1->0; hunger 2->3; died.
+- Soren Moss (farmer) went without a full ration. health 1->0; hunger 2->3; died.
+- Talia Moss (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Una Moss (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Vera Moss (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Wynn Moss (healer) went without a full ration. health 1->0; hunger 2->3; died.
+- Xara Moss (cook) went without a full ration. health 1->0; hunger 2->3; died.
+- Yuri Moss (guard) went without a full ration. health 1->0; hunger 2->3; died.
+- Zara Moss (teacher) went without a full ration. health 1->0; hunger 2->3; died.
+- Ada Nell (forager) went without a full ration. health 1->0; hunger 2->3; died.
+- Bram Nell (carpenter) went without a full ration. health 1->0; hunger 2->3; died.
+- Cora Nell (farmer) went without a full ration. health 1->0; hunger 2->3; died.
+- Dain Nell (woodcutter) went without a full ration. health 1->0; hunger 2->3; died.
+- Elia Nell (scout) went without a full ration. health 1->0; hunger 2->3; died.
+- Finn Nell (builder) went without a full ration. health 1->0; hunger 2->3; died.
+- Galen Nell (healer) went without a full ration. health 1->0; hunger 2->3; died.
+- Hana Nell (cook) went without a full ration. health 1->0; hunger 2->3; died.
+- Iris Nell (guard) went without a full ration. health 1->0; hunger 2->3; died.
+- Rhea Moss (carpenter) died of starvation. health 1->0; hunger 2->3; died.
+- Soren Moss (farmer) died of starvation. health 1->0; hunger 2->3; died.
+- Talia Moss (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Una Moss (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Vera Moss (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Wynn Moss (healer) died of starvation. health 1->0; hunger 2->3; died.
+- Xara Moss (cook) died of starvation. health 1->0; hunger 2->3; died.
+- Yuri Moss (guard) died of starvation. health 1->0; hunger 2->3; died.
+- Zara Moss (teacher) died of starvation. health 1->0; hunger 2->3; died.
+- Ada Nell (forager) died of starvation. health 1->0; hunger 2->3; died.
+- Bram Nell (carpenter) died of starvation. health 1->0; hunger 2->3; died.
+- Cora Nell (farmer) died of starvation. health 1->0; hunger 2->3; died.
+- Dain Nell (woodcutter) died of starvation. health 1->0; hunger 2->3; died.
+- Elia Nell (scout) died of starvation. health 1->0; hunger 2->3; died.
+- Finn Nell (builder) died of starvation. health 1->0; hunger 2->3; died.
+- Galen Nell (healer) died of starvation. health 1->0; hunger 2->3; died.
+- Hana Nell (cook) died of starvation. health 1->0; hunger 2->3; died.
+- Iris Nell (guard) died of starvation. health 1->0; hunger 2->3; died.

@@ -1,13 +1,13 @@
 {
-  "day": 1829,
+  "day": 1830,
   "year": 6,
   "colony_name": "Blergen",
-  "population": 18,
+  "population": 0,
   "food": 0,
-  "wood": 304,
+  "wood": 303,
   "morale": 0,
   "security": 0,
-  "health": 1,
+  "health": 0,
   "known_threats": [
     "wolves",
     "winter",
@@ -96693,6 +96693,260 @@
         ]
       },
       "summary": "The chaos gods struck the colony when the oracle went silent. Weather: A winter storm threatened the colony's shelters and stores. The president ordered the colony to preserve resources."
+    },
+    {
+      "day": 1829,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 4,
+        "month": "January",
+        "month_number": 1,
+        "day_of_month": 4,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "sleet",
+        "severity": 3,
+        "summary": "Sleet made the paths slick and miserable."
+      },
+      "weather_effects": {
+        "wood": -1,
+        "morale": -1
+      },
+      "event_type": "chaos_gods",
+      "world_event": "chaos_gods",
+      "event_details": {
+        "severity": 3
+      },
+      "leadership_action": "preserve_resources",
+      "president": {
+        "id": "person_336",
+        "name": "Xara Moss",
+        "since_day": 1829
+      },
+      "effects": {
+        "population": -18,
+        "wood": -1,
+        "health": -1
+      },
+      "survival_effects": {
+        "missed_rations": 18
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "shaken_by_chaos",
+            "people": [
+              {
+                "id": "person_341",
+                "name": "Cora Nell"
+              },
+              {
+                "id": "person_342",
+                "name": "Dain Nell"
+              },
+              {
+                "id": "person_343",
+                "name": "Elia Nell"
+              }
+            ],
+            "summary": "Cora Nell, Dain Nell, and Elia Nell were shaken by the silence of the oracle."
+          },
+          {
+            "type": "missed_rations",
+            "missed_rations": 18,
+            "people": [
+              {
+                "id": "person_330",
+                "name": "Rhea Moss"
+              },
+              {
+                "id": "person_331",
+                "name": "Soren Moss"
+              },
+              {
+                "id": "person_332",
+                "name": "Talia Moss"
+              },
+              {
+                "id": "person_333",
+                "name": "Una Moss"
+              },
+              {
+                "id": "person_334",
+                "name": "Vera Moss"
+              },
+              {
+                "id": "person_335",
+                "name": "Wynn Moss"
+              },
+              {
+                "id": "person_336",
+                "name": "Xara Moss"
+              },
+              {
+                "id": "person_337",
+                "name": "Yuri Moss"
+              },
+              {
+                "id": "person_338",
+                "name": "Zara Moss"
+              },
+              {
+                "id": "person_339",
+                "name": "Ada Nell"
+              },
+              {
+                "id": "person_340",
+                "name": "Bram Nell"
+              },
+              {
+                "id": "person_341",
+                "name": "Cora Nell"
+              },
+              {
+                "id": "person_342",
+                "name": "Dain Nell"
+              },
+              {
+                "id": "person_343",
+                "name": "Elia Nell"
+              },
+              {
+                "id": "person_344",
+                "name": "Finn Nell"
+              },
+              {
+                "id": "person_345",
+                "name": "Galen Nell"
+              },
+              {
+                "id": "person_346",
+                "name": "Hana Nell"
+              },
+              {
+                "id": "person_347",
+                "name": "Iris Nell"
+              }
+            ],
+            "summary": "Rhea Moss, Soren Moss, and Talia Moss, and 15 others went without full rations."
+          }
+        ],
+        "deaths": [
+          {
+            "id": "person_330",
+            "name": "Rhea Moss",
+            "cause": "starvation",
+            "summary": "Rhea Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_331",
+            "name": "Soren Moss",
+            "cause": "starvation",
+            "summary": "Soren Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_332",
+            "name": "Talia Moss",
+            "cause": "starvation",
+            "summary": "Talia Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_333",
+            "name": "Una Moss",
+            "cause": "starvation",
+            "summary": "Una Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_334",
+            "name": "Vera Moss",
+            "cause": "starvation",
+            "summary": "Vera Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_335",
+            "name": "Wynn Moss",
+            "cause": "starvation",
+            "summary": "Wynn Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_336",
+            "name": "Xara Moss",
+            "cause": "starvation",
+            "summary": "Xara Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_337",
+            "name": "Yuri Moss",
+            "cause": "starvation",
+            "summary": "Yuri Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_338",
+            "name": "Zara Moss",
+            "cause": "starvation",
+            "summary": "Zara Moss died of starvation on day 1829."
+          },
+          {
+            "id": "person_339",
+            "name": "Ada Nell",
+            "cause": "starvation",
+            "summary": "Ada Nell died of starvation on day 1829."
+          },
+          {
+            "id": "person_340",
+            "name": "Bram Nell",
+            "cause": "starvation",
+            "summary": "Bram Nell died of starvation on day 1829."
+          },
+          {
+            "id": "person_341",
+            "name": "Cora Nell",
+            "cause": "starvation",
+            "summary": "Cora Nell died of starvation on day 1829."
+          },
+          {
+            "id": "person_342",
+            "name": "Dain Nell",
+            "cause": "starvation",
+            "summary": "Dain Nell died of starvation on day 1829."
+          },
+          {
+            "id": "person_343",
+            "name": "Elia Nell",
+            "cause": "starvation",
+            "summary": "Elia Nell died of starvation on day 1829."
+          },
+          {
+            "id": "person_344",
+            "name": "Finn Nell",
+            "cause": "starvation",
+            "summary": "Finn Nell died of starvation on day 1829."
+          },
+          {
+            "id": "person_345",
+            "name": "Galen Nell",
+            "cause": "starvation",
+            "summary": "Galen Nell died of starvation on day 1829."
+          },
+          {
+            "id": "person_346",
+            "name": "Hana Nell",
+            "cause": "starvation",
+            "summary": "Hana Nell died of starvation on day 1829."
+          },
+          {
+            "id": "person_347",
+            "name": "Iris Nell",
+            "cause": "starvation",
+            "summary": "Iris Nell died of starvation on day 1829."
+          }
+        ]
+      },
+      "summary": "The chaos gods struck the colony when the oracle went silent. Weather: Sleet made the paths slick and miserable. The president ordered the colony to preserve resources."
     }
   ],
   "people": [
@@ -110916,10 +111170,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -110936,7 +111190,9 @@
           "Rhea Moss was shaken when the oracle went silent on day 1781.",
           "Rhea Moss was shaken when the oracle went silent on day 1782.",
           "Rhea Moss went without a full ration on day 1827.",
-          "Rhea Moss went without a full ration on day 1828."
+          "Rhea Moss went without a full ration on day 1828.",
+          "Rhea Moss went without a full ration on day 1829.",
+          "Rhea Moss died of starvation on day 1829."
         ]
       }
     },
@@ -110960,10 +111216,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -110975,7 +111231,9 @@
           "Soren Moss was shaken when the oracle went silent on day 1782.",
           "Soren Moss was shaken when the oracle went silent on day 1783.",
           "Soren Moss went without a full ration on day 1827.",
-          "Soren Moss went without a full ration on day 1828."
+          "Soren Moss went without a full ration on day 1828.",
+          "Soren Moss went without a full ration on day 1829.",
+          "Soren Moss died of starvation on day 1829."
         ]
       }
     },
@@ -111000,10 +111258,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111015,7 +111273,9 @@
           "Talia Moss was shaken when the oracle went silent on day 1783.",
           "Talia Moss was shaken when the oracle went silent on day 1784.",
           "Talia Moss went without a full ration on day 1827.",
-          "Talia Moss went without a full ration on day 1828."
+          "Talia Moss went without a full ration on day 1828.",
+          "Talia Moss went without a full ration on day 1829.",
+          "Talia Moss died of starvation on day 1829."
         ]
       }
     },
@@ -111040,10 +111300,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111081,7 +111341,9 @@
           "Una Moss was shaken when the oracle went silent on day 1784.",
           "Una Moss was shaken when the oracle went silent on day 1785.",
           "Una Moss went without a full ration on day 1827.",
-          "Una Moss went without a full ration on day 1828."
+          "Una Moss went without a full ration on day 1828.",
+          "Una Moss went without a full ration on day 1829.",
+          "Una Moss died of starvation on day 1829."
         ]
       }
     },
@@ -111106,10 +111368,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111129,7 +111391,9 @@
           "Vera Moss was shaken when the oracle went silent on day 1785.",
           "Vera Moss was shaken when the oracle went silent on day 1786.",
           "Vera Moss went without a full ration on day 1827.",
-          "Vera Moss went without a full ration on day 1828."
+          "Vera Moss went without a full ration on day 1828.",
+          "Vera Moss went without a full ration on day 1829.",
+          "Vera Moss died of starvation on day 1829."
         ]
       }
     },
@@ -111154,10 +111418,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111168,7 +111432,9 @@
           "Wynn Moss was shaken when the oracle went silent on day 1786.",
           "Wynn Moss was shaken when the oracle went silent on day 1787.",
           "Wynn Moss went without a full ration on day 1827.",
-          "Wynn Moss went without a full ration on day 1828."
+          "Wynn Moss went without a full ration on day 1828.",
+          "Wynn Moss went without a full ration on day 1829.",
+          "Wynn Moss died of starvation on day 1829."
         ]
       }
     },
@@ -111193,10 +111459,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111215,7 +111481,10 @@
           "Xara Moss was shaken when the oracle went silent on day 1787.",
           "Xara Moss was shaken when the oracle went silent on day 1788.",
           "Xara Moss went without a full ration on day 1827.",
-          "Xara Moss went without a full ration on day 1828."
+          "Xara Moss went without a full ration on day 1828.",
+          "Xara Moss became president of Blergen on day 1829.",
+          "Xara Moss went without a full ration on day 1829.",
+          "Xara Moss died of starvation on day 1829."
         ]
       }
     },
@@ -111240,10 +111509,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111266,7 +111535,9 @@
           "Yuri Moss was shaken when the oracle went silent on day 1788.",
           "Yuri Moss was shaken when the oracle went silent on day 1789.",
           "Yuri Moss went without a full ration on day 1827.",
-          "Yuri Moss went without a full ration on day 1828."
+          "Yuri Moss went without a full ration on day 1828.",
+          "Yuri Moss went without a full ration on day 1829.",
+          "Yuri Moss died of starvation on day 1829."
         ]
       }
     },
@@ -111291,10 +111562,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111308,7 +111579,9 @@
           "Zara Moss was shaken when the oracle went silent on day 1789.",
           "Zara Moss was shaken when the oracle went silent on day 1790.",
           "Zara Moss went without a full ration on day 1827.",
-          "Zara Moss went without a full ration on day 1828."
+          "Zara Moss went without a full ration on day 1828.",
+          "Zara Moss went without a full ration on day 1829.",
+          "Zara Moss died of starvation on day 1829."
         ]
       }
     },
@@ -111333,10 +111606,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111378,7 +111651,9 @@
           "Ada Nell was shaken when the oracle went silent on day 1790.",
           "Ada Nell was shaken when the oracle went silent on day 1791.",
           "Ada Nell went without a full ration on day 1827.",
-          "Ada Nell went without a full ration on day 1828."
+          "Ada Nell went without a full ration on day 1828.",
+          "Ada Nell went without a full ration on day 1829.",
+          "Ada Nell died of starvation on day 1829."
         ]
       }
     },
@@ -111402,10 +111677,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111428,7 +111703,9 @@
           "Bram Nell was shaken when the oracle went silent on day 1791.",
           "Bram Nell was shaken when the oracle went silent on day 1792.",
           "Bram Nell went without a full ration on day 1827.",
-          "Bram Nell went without a full ration on day 1828."
+          "Bram Nell went without a full ration on day 1828.",
+          "Bram Nell went without a full ration on day 1829.",
+          "Bram Nell died of starvation on day 1829."
         ]
       }
     },
@@ -111453,10 +111730,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111473,7 +111750,10 @@
           "Cora Nell was shaken when the oracle went silent on day 1792.",
           "Cora Nell was shaken when the oracle went silent on day 1793.",
           "Cora Nell went without a full ration on day 1827.",
-          "Cora Nell went without a full ration on day 1828."
+          "Cora Nell went without a full ration on day 1828.",
+          "Cora Nell was shaken when the oracle went silent on day 1829.",
+          "Cora Nell went without a full ration on day 1829.",
+          "Cora Nell died of starvation on day 1829."
         ]
       }
     },
@@ -111498,10 +111778,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111516,7 +111796,10 @@
           "Dain Nell was shaken when the oracle went silent on day 1793.",
           "Dain Nell was shaken when the oracle went silent on day 1794.",
           "Dain Nell went without a full ration on day 1827.",
-          "Dain Nell went without a full ration on day 1828."
+          "Dain Nell went without a full ration on day 1828.",
+          "Dain Nell was shaken when the oracle went silent on day 1829.",
+          "Dain Nell went without a full ration on day 1829.",
+          "Dain Nell died of starvation on day 1829."
         ]
       }
     },
@@ -111541,10 +111824,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111589,7 +111872,10 @@
           "Elia Nell was shaken when the oracle went silent on day 1794.",
           "Elia Nell was shaken when the oracle went silent on day 1795.",
           "Elia Nell went without a full ration on day 1827.",
-          "Elia Nell went without a full ration on day 1828."
+          "Elia Nell went without a full ration on day 1828.",
+          "Elia Nell was shaken when the oracle went silent on day 1829.",
+          "Elia Nell went without a full ration on day 1829.",
+          "Elia Nell died of starvation on day 1829."
         ]
       }
     },
@@ -111614,10 +111900,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111639,7 +111925,9 @@
           "Finn Nell was shaken when the oracle went silent on day 1795.",
           "Finn Nell was shaken when the oracle went silent on day 1796.",
           "Finn Nell went without a full ration on day 1827.",
-          "Finn Nell went without a full ration on day 1828."
+          "Finn Nell went without a full ration on day 1828.",
+          "Finn Nell went without a full ration on day 1829.",
+          "Finn Nell died of starvation on day 1829."
         ]
       }
     },
@@ -111664,10 +111952,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111682,7 +111970,9 @@
           "Galen Nell was shaken when the oracle went silent on day 1796.",
           "Galen Nell was shaken when the oracle went silent on day 1797.",
           "Galen Nell went without a full ration on day 1827.",
-          "Galen Nell went without a full ration on day 1828."
+          "Galen Nell went without a full ration on day 1828.",
+          "Galen Nell went without a full ration on day 1829.",
+          "Galen Nell died of starvation on day 1829."
         ]
       }
     },
@@ -111707,10 +111997,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111725,7 +112015,9 @@
           "Hana Nell was shaken when the oracle went silent on day 1797.",
           "Hana Nell was shaken when the oracle went silent on day 1798.",
           "Hana Nell went without a full ration on day 1827.",
-          "Hana Nell went without a full ration on day 1828."
+          "Hana Nell went without a full ration on day 1828.",
+          "Hana Nell went without a full ration on day 1829.",
+          "Hana Nell died of starvation on day 1829."
         ]
       }
     },
@@ -111750,10 +112042,10 @@
         "rivals": []
       },
       "status": {
-        "alive": true,
-        "health": 1,
+        "alive": false,
+        "health": 0,
         "morale": 0,
-        "hunger": 2
+        "hunger": 3
       },
       "story": {
         "notable_events": [
@@ -111775,7 +112067,9 @@
           "Iris Nell was shaken when the oracle went silent on day 1798.",
           "Iris Nell was shaken when the oracle went silent on day 1799.",
           "Iris Nell went without a full ration on day 1827.",
-          "Iris Nell went without a full ration on day 1828."
+          "Iris Nell went without a full ration on day 1828.",
+          "Iris Nell went without a full ration on day 1829.",
+          "Iris Nell died of starvation on day 1829."
         ]
       }
     }
@@ -111825,8 +112119,8 @@
     }
   },
   "president": {
-    "id": "person_314",
-    "name": "Bram Moss",
-    "since_day": 1561
+    "id": "person_336",
+    "name": "Xara Moss",
+    "since_day": 1829
   }
 }
