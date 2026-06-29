@@ -1,5 +1,5 @@
 {
-  "day": 1840,
+  "day": 1841,
   "year": 6,
   "colony_name": "Blergen",
   "population": 0,
@@ -97281,6 +97281,37 @@
         "deaths": []
       },
       "summary": "No colonists remained in Blergen. Weather: Sleet made the paths slick and miserable. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 1840,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 15,
+        "month": "January",
+        "month_number": 1,
+        "day_of_month": 15,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "clear_cold",
+        "severity": 1,
+        "summary": "Cold clear air settled over the camp."
+      },
+      "weather_effects": {},
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Cold clear air settled over the camp. No one remained to give orders or carry them out."
     }
   ],
   "people": [
