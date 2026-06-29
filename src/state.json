@@ -1,10 +1,10 @@
 {
-  "day": 1844,
+  "day": 1845,
   "year": 6,
   "colony_name": "Blergen",
   "population": 0,
   "food": 0,
-  "wood": 292,
+  "wood": 291,
   "morale": 0,
   "security": 0,
   "health": 0,
@@ -97412,6 +97412,42 @@
         "deaths": []
       },
       "summary": "No colonists remained in Blergen. Weather: A winter storm threatened the colony's shelters and stores. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 1844,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 19,
+        "month": "January",
+        "month_number": 1,
+        "day_of_month": 19,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "sleet",
+        "severity": 3,
+        "summary": "Sleet made the paths slick and miserable."
+      },
+      "weather_effects": {
+        "wood": -1,
+        "morale": -1
+      },
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {
+        "wood": -1
+      },
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Sleet made the paths slick and miserable. No one remained to give orders or carry them out."
     }
   ],
   "people": [
