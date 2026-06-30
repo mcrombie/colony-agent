@@ -1,10 +1,10 @@
 {
-  "day": 1853,
+  "day": 1854,
   "year": 6,
   "colony_name": "Blergen",
   "population": 0,
   "food": 0,
-  "wood": 287,
+  "wood": 284,
   "morale": 0,
   "security": 0,
   "health": 0,
@@ -97710,6 +97710,42 @@
         "deaths": []
       },
       "summary": "No colonists remained in Blergen. Weather: A gray sky pressed low over Blergen. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 1853,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 28,
+        "month": "January",
+        "month_number": 1,
+        "day_of_month": 28,
+        "season": "winter"
+      },
+      "weather": {
+        "season": "winter",
+        "condition": "winter_storm",
+        "severity": 5,
+        "summary": "A winter storm threatened the colony's shelters and stores."
+      },
+      "weather_effects": {
+        "wood": -3,
+        "morale": -1
+      },
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {
+        "wood": -3
+      },
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: A winter storm threatened the colony's shelters and stores. No one remained to give orders or carry them out."
     }
   ],
   "people": [
