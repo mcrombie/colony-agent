@@ -5550,3 +5550,6 @@ Sleet made the paths slick and miserable. No colonists remained to give orders, 
 
 Day 1850 (Year 6, January 25) - Blergen:
 Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1851 (Year 6, January 26) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
