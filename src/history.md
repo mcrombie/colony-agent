@@ -5574,3 +5574,6 @@ A gray sky pressed low over Blergen. No colonists remained to give orders, work 
 
 Day 1858 (Year 6, February 2) - Blergen:
 A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
+
+Day 1859 (Year 6, February 3) - Blergen:
+Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
