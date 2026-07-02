@@ -5592,3 +5592,6 @@ A winter storm threatened the colony's shelters and stores. No colonists remaine
 
 Day 1864 (Year 6, February 8) - Blergen:
 Sleet made the paths slick and miserable. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 1865 (Year 6, February 9) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
