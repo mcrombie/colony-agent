@@ -5655,3 +5655,6 @@ Sleet made the paths slick and miserable. No colonists remained to give orders, 
 
 Day 1885 (Year 6, March 1) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1886 (Year 6, March 2) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
