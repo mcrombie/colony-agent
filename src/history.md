@@ -5703,3 +5703,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 1901 (Year 6, March 17) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1902 (Year 6, March 18) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
