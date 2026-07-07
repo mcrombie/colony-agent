@@ -5736,3 +5736,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 1912 (Year 6, March 28) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1913 (Year 6, March 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
