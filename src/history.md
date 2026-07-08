@@ -5757,3 +5757,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 1919 (Year 6, April 4) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1920 (Year 6, April 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
