@@ -1,5 +1,5 @@
 {
-  "day": 1927,
+  "day": 1928,
   "year": 6,
   "colony_name": "Blergen",
   "population": 0,
@@ -100065,6 +100065,37 @@
         "month": "April",
         "month_number": 4,
         "day_of_month": 11,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Clear skies left the day's work mostly to the colony. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 1927,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 102,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 12,
         "season": "spring"
       },
       "weather": {
