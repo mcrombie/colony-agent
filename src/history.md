@@ -5832,3 +5832,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 1944 (Year 6, April 29) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1945 (Year 6, April 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
