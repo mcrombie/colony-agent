@@ -5850,3 +5850,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 1950 (Year 6, May 5) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1951 (Year 6, May 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
