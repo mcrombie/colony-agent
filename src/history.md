@@ -5952,3 +5952,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 1984 (Year 6, June 8) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1985 (Year 6, June 9) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
