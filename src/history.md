@@ -5928,3 +5928,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 1976 (Year 6, May 31) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 1977 (Year 6, June 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
