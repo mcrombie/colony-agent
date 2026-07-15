@@ -6000,3 +6000,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 2000 (Year 6, June 24) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2001 (Year 6, June 25) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
