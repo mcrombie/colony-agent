@@ -1,5 +1,5 @@
 {
-  "day": 2025,
+  "day": 2026,
   "year": 6,
   "colony_name": "Blergen",
   "population": 0,
@@ -103103,6 +103103,37 @@
         "month": "July",
         "month_number": 7,
         "day_of_month": 18,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Clear skies left the day's work mostly to the colony. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 2025,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 200,
+        "month": "July",
+        "month_number": 7,
+        "day_of_month": 19,
         "season": "summer"
       },
       "weather": {
