@@ -6105,3 +6105,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 2035 (Year 6, July 29) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2036 (Year 6, July 30) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
