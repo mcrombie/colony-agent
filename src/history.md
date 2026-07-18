@@ -6117,3 +6117,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 2039 (Year 6, August 2) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2040 (Year 6, August 3) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
