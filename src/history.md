@@ -6174,3 +6174,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 2058 (Year 6, August 21) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2059 (Year 6, August 22) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
