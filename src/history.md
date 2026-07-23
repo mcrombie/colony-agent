@@ -6288,3 +6288,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 2096 (Year 6, September 28) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2097 (Year 6, September 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
