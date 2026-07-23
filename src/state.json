@@ -1,5 +1,5 @@
 {
-  "day": 2103,
+  "day": 2104,
   "year": 6,
   "colony_name": "Blergen",
   "population": 0,
@@ -105521,6 +105521,37 @@
         "month": "October",
         "month_number": 10,
         "day_of_month": 4,
+        "season": "autumn"
+      },
+      "weather": {
+        "season": "autumn",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Clear skies left the day's work mostly to the colony. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 2103,
+      "year": 6,
+      "date": {
+        "year": 6,
+        "day_of_year": 278,
+        "month": "October",
+        "month_number": 10,
+        "day_of_month": 5,
         "season": "autumn"
       },
       "weather": {
