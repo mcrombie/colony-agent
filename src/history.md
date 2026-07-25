@@ -6354,3 +6354,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 2118 (Year 6, October 20) - Blergen:
 Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2119 (Year 6, October 21) - Blergen:
+Clear skies left the day's work mostly to the colony. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
