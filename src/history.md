@@ -6486,3 +6486,6 @@ A hard freeze bit at stores, tools, and exposed hands. No colonists remained to 
 
 Day 2162 (Year 6, December 3) - Blergen:
 A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2163 (Year 6, December 4) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 3. No colonists remain in Blergen.
