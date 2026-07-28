@@ -6480,3 +6480,6 @@ Clear skies left the day's work mostly to the colony. No colonists remained to g
 
 Day 2160 (Year 6, December 1) - Blergen:
 Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2161 (Year 6, December 2) - Blergen:
+A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
