@@ -6528,3 +6528,6 @@ Cold clear air settled over the camp. No colonists remained to give orders, work
 
 Day 2176 (Year 6, December 17) - Blergen:
 A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2177 (Year 6, December 18) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
