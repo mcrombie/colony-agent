@@ -6570,3 +6570,6 @@ Sleet made the paths slick and miserable. No colonists remained to give orders, 
 
 Day 2190 (Year 6, December 31) - Blergen:
 Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2191 (Year 7, January 1) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
