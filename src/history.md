@@ -6627,3 +6627,6 @@ Snow made paths and work crews slower. No colonists remained to give orders, wor
 
 Day 2209 (Year 7, January 19) - Blergen:
 Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 2210 (Year 7, January 20) - Blergen:
+Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
