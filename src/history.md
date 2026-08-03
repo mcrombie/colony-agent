@@ -6675,3 +6675,6 @@ Snow made paths and work crews slower. No colonists remained to give orders, wor
 
 Day 2225 (Year 7, February 4) - Blergen:
 Cold clear air settled over the camp. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2226 (Year 7, February 5) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
