@@ -6693,3 +6693,6 @@ Cold clear air settled over the camp. No colonists remained to give orders, work
 
 Day 2231 (Year 7, February 10) - Blergen:
 A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2232 (Year 7, February 11) - Blergen:
+A winter storm threatened the colony's shelters and stores. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 2. No colonists remain in Blergen.
