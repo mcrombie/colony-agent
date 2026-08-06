@@ -1,5 +1,5 @@
 {
-  "day": 2253,
+  "day": 2254,
   "year": 7,
   "colony_name": "Blergen",
   "population": 0,
@@ -110403,6 +110403,39 @@
         "month": "March",
         "month_number": 3,
         "day_of_month": 3,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "mud",
+        "severity": 2,
+        "summary": "Mud slowed carts, boots, and field work."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Mud slowed carts, boots, and field work. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 2253,
+      "year": 7,
+      "date": {
+        "year": 7,
+        "day_of_year": 63,
+        "month": "March",
+        "month_number": 3,
+        "day_of_month": 4,
         "season": "spring"
       },
       "weather": {
