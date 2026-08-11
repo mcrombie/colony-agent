@@ -7008,3 +7008,6 @@ Mud slowed carts, boots, and field work. No colonists remained to give orders, w
 
 Day 2336 (Year 7, May 26) - Blergen:
 Mud slowed carts, boots, and field work. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2337 (Year 7, May 27) - Blergen:
+Mud slowed carts, boots, and field work. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
