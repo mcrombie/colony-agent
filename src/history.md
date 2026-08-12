@@ -7074,3 +7074,6 @@ Dry heat pulled moisture from fields and people alike. No colonists remained to 
 
 Day 2358 (Year 7, June 17) - Blergen:
 Dry heat pulled moisture from fields and people alike. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2359 (Year 7, June 18) - Blergen:
+Dry heat pulled moisture from fields and people alike. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
