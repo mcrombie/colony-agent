@@ -1,5 +1,5 @@
 {
-  "day": 2422,
+  "day": 2423,
   "year": 7,
   "colony_name": "Blergen",
   "population": 0,
@@ -116059,6 +116059,40 @@
         "month": "August",
         "month_number": 8,
         "day_of_month": 19,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "dry_heat",
+        "severity": 3,
+        "summary": "Dry heat pulled moisture from fields and people alike."
+      },
+      "weather_effects": {
+        "food": -2,
+        "health": -1
+      },
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Dry heat pulled moisture from fields and people alike. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 2422,
+      "year": 7,
+      "date": {
+        "year": 7,
+        "day_of_year": 232,
+        "month": "August",
+        "month_number": 8,
+        "day_of_month": 20,
         "season": "summer"
       },
       "weather": {
