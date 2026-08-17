@@ -7305,3 +7305,6 @@ Cold rain left the settlement raw and tired. No colonists remained to give order
 
 Day 2435 (Year 7, September 2) - Blergen:
 Cold rain left the settlement raw and tired. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2436 (Year 7, September 3) - Blergen:
+Cold rain left the settlement raw and tired. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
