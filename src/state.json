@@ -1,5 +1,5 @@
 {
-  "day": 2495,
+  "day": 2496,
   "year": 7,
   "colony_name": "Blergen",
   "population": 0,
@@ -118481,6 +118481,39 @@
         "month": "October",
         "month_number": 10,
         "day_of_month": 31,
+        "season": "autumn"
+      },
+      "weather": {
+        "season": "autumn",
+        "condition": "cold_rain",
+        "severity": 3,
+        "summary": "Cold rain left the settlement raw and tired."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Cold rain left the settlement raw and tired. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 2495,
+      "year": 7,
+      "date": {
+        "year": 7,
+        "day_of_year": 305,
+        "month": "November",
+        "month_number": 11,
+        "day_of_month": 1,
         "season": "autumn"
       },
       "weather": {
