@@ -7614,3 +7614,6 @@ A winter storm threatened the colony's shelters and stores. No colonists remaine
 
 Day 2538 (Year 7, December 14) - Blergen:
 Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
+
+Day 2539 (Year 7, December 15) - Blergen:
+Snow made paths and work crews slower. No colonists remained to give orders, work the fields, or answer the day's dangers; the abandoned settlement's state reduced wood by 1. No colonists remain in Blergen.
