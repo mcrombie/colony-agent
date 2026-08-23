@@ -7668,3 +7668,6 @@ Cold clear air settled over the camp. No colonists remained to give orders, work
 
 Day 2556 (Year 8, January 1) - Blergen:
 A hard freeze bit at stores, tools, and exposed hands. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2557 (Year 8, January 2) - Blergen:
+A gray sky pressed low over Blergen. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
