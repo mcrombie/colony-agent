@@ -1,5 +1,5 @@
 {
-  "day": 2649,
+  "day": 2650,
   "year": 8,
   "colony_name": "Blergen",
   "population": 0,
@@ -123539,6 +123539,37 @@
         "month": "April",
         "month_number": 4,
         "day_of_month": 3,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "mild",
+        "severity": 1,
+        "summary": "Mild weather gave the colony a little breathing room."
+      },
+      "weather_effects": {},
+      "event_type": "empty_colony",
+      "world_event": "empty_colony",
+      "event_details": {},
+      "leadership_action": "no_action",
+      "president": null,
+      "effects": {},
+      "survival_effects": {},
+      "undead_outcome": {},
+      "people_events": {
+        "deaths": []
+      },
+      "summary": "No colonists remained in Blergen. Weather: Mild weather gave the colony a little breathing room. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 2649,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 94,
+        "month": "April",
+        "month_number": 4,
+        "day_of_month": 4,
         "season": "spring"
       },
       "weather": {
