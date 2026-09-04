@@ -7974,3 +7974,6 @@ Mild weather gave the colony a little breathing room. No colonists remained to g
 
 Day 2658 (Year 8, April 13) - Blergen:
 Mild weather gave the colony a little breathing room. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2659 (Year 8, April 14) - Blergen:
+Mild weather gave the colony a little breathing room. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
