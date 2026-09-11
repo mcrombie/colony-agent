@@ -18,6 +18,7 @@ from src.constants import (
     NO_ACTION_ACTION_TYPE,
 )
 from src.environment import environment_for_day, sync_calendar_state
+from src.frontier import advance_frontier, daily_frontier_effects, ensure_frontier
 from src.people import (
     apply_daily_food_status,
     apply_daily_people_events,
@@ -105,6 +106,8 @@ def apply_day(
     before = _ensure_resources_state(
         _ensure_agriculture_state(sync_calendar_state(ensure_people_exist(state)))
     )
+    if "frontier" in before:
+        before = ensure_frontier(before)
     if world_event_type == "discovery":
         event_details = _discovery_details(before, event_details)
     after = deepcopy(before)
@@ -144,10 +147,13 @@ def apply_day(
         environment=environment,
     )
     _apply_effects(after, leadership_effects)
+    frontier_effects = daily_frontier_effects(before, environment)
+    _apply_effects(after, frontier_effects)
 
     health_pressure = _net_effect(weather_effects, "health")
     health_pressure += _net_effect(world_effects, "health")
     health_pressure += _net_effect(leadership_effects, "health")
+    health_pressure += _net_effect(frontier_effects, "health")
     after = clamp_state(after)
     if undead_outcome:
         _apply_undead_threat_state(after, undead_outcome)
@@ -178,6 +184,11 @@ def apply_day(
         protected_ids=_people_event_person_ids(people_events),
     )
     sync_derived_colony_stats(after)
+    frontier_report = advance_frontier(
+        after, day=before["day"], world_event=world_event_type,
+        leadership_action=leadership_action, environment=environment,
+        production=frontier_effects,
+    )
     after["day"] = before["day"] + 1
     sync_calendar_state(after)
 
@@ -204,6 +215,9 @@ def apply_day(
             weather=weather,
         ),
     }
+    if frontier_report:
+        event_record["frontier"] = frontier_report
+        event_record["summary"] += " " + frontier_report["summary"]
     after.setdefault("event_log", []).append(event_record)
 
     return after, event_record

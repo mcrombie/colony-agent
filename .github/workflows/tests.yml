@@ -1,0 +1,19 @@
+name: Tests
+on:
+  push:
+    paths: ['src/**', 'tests/**', 'pyproject.toml', '.github/workflows/**', '!src/state.json', '!src/history.md', '!src/people_history.md']
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      COLONY_AI_MODE: 'off'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install '.[test]'
+      - run: python -m pytest -p no:cacheprovider

@@ -1,13 +1,15 @@
-"""Select colony decisions with OpenAI."""
+"""Choose local colony decisions, with tightly bounded optional AI visits."""
 
 from __future__ import annotations
 
+import os
 from typing import Any
 
 from src.config import load_local_env
-from src.constants import CHAOS_GODS_EVENT_TYPE, PRESERVE_RESOURCES_ACTION_TYPE
+from src.constants import EMPTY_COLONY_EVENT_TYPE, NO_ACTION_ACTION_TYPE
+from src.environment import environment_for_day
 from src.openai_selector import (
-    OpenAIAPICallError,
+    OpenAISelectorError,
     choose_leadership_action_with_openai,
     choose_world_event_with_openai,
 )
@@ -27,38 +29,139 @@ def choose_world_event(
     state: dict[str, Any],
     environment: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    """Choose a world event with OpenAI, failing loudly when config is missing."""
+    """Choose fate locally unless the user enabled an eligible AI day."""
     load_local_env()
+    local = choose_local_world_event(state, environment=environment)
+    if not should_use_ai(state):
+        return local
     try:
         decision = choose_world_event_with_openai(state, environment=environment)
         decision = _apply_storm_limits(decision, state, environment=environment)
-        return _apply_wolf_attack_cooldown(decision, state)
-    except OpenAIAPICallError as exc:
+        decision = _apply_wolf_attack_cooldown(decision, state)
+        return {**decision, "selector": "openai"}
+    except OpenAISelectorError as exc:
         print(
             "::warning title=OpenAI deity selector failed::"
             f"{_escape_github_annotation(str(exc))}"
         )
-        return {
-            "world_event": CHAOS_GODS_EVENT_TYPE,
-            "severity": 3,
-            "reasoning": "The oracle failed, so the chaos gods answered instead.",
-        }
+        return {**local, "selector": "local_fallback"}
 
 
 def choose_leadership_action(
     state: dict[str, Any],
     world_event: str | dict[str, Any],
 ) -> str:
-    """Choose the colony president's response with OpenAI."""
+    """Keep the president practical even when the optional API is unavailable."""
     load_local_env()
+    if not should_use_ai(state):
+        return choose_local_leadership_action(state, world_event)
     try:
         return choose_leadership_action_with_openai(state, world_event)
-    except OpenAIAPICallError as exc:
+    except OpenAISelectorError as exc:
         print(
             "::warning title=OpenAI president selector failed::"
             f"{_escape_github_annotation(str(exc))}"
         )
-        return PRESERVE_RESOURCES_ACTION_TYPE
+        return choose_local_leadership_action(state, world_event)
+
+
+def should_use_ai(state: dict[str, Any]) -> bool:
+    """Unknown modes fail closed: a stored API key alone never incurs cost."""
+    if state.get("population", 0) <= 0 or not os.getenv("OPENAI_API_KEY", "").strip():
+        return False
+    mode = os.getenv("COLONY_AI_MODE", "off").strip().lower()
+    return mode == "daily" or (mode == "weekly" and int(state.get("day", 1)) % 7 == 0)
+
+
+def choose_local_world_event(
+    state: dict[str, Any], environment: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """A repeatable seasonal event schedule with a safety margin for recovery."""
+    population = int(state.get("population", 0))
+    day = int(state.get("day", 1))
+    environment = environment or environment_for_day(day)
+    season = environment.get("date", {}).get("season", "spring")
+    event, reason, severity = "quiet_day", "Households and frontier crews continue their daily work.", None
+    if population <= 0:
+        event, reason = EMPTY_COLONY_EVENT_TYPE, "The settlement is awaiting new settlers."
+    elif state.get("food", 0) < population * 3:
+        event, severity, reason = "foraging", 5, "Low reserves send experienced foragers to secure the next meals."
+    elif state.get("health", 0) <= 3 or state.get("security", 0) <= 2:
+        reason = "The frontier has a respite while the colony restores care and defenses."
+    elif state.get("undead_threat", {}).get("active"):
+        event, severity, reason = "undead_rising", 1, "The watch acts on the remaining undead threat."
+    elif season in {"summer", "autumn"} and state.get("agriculture", {}).get("crop_fields", 0) >= population and day % 7 == 0:
+        event, reason = "good_harvest", "Prepared fields are ready for the seasonal harvest."
+    elif day % 47 == 0 and "wolves" in state.get("known_threats", []):
+        event, severity, reason = "wolf_attack", 2, "A small pack tests the colony's watch posts."
+    elif day % 29 == 0:
+        event, severity, reason = "storm", 2, "A passing storm tests the colony's stores and shelters."
+    elif day % 23 == 0:
+        event, reason = "dispute", "Work assignments bring a disagreement before the council."
+    elif day % 17 == 0 and state.get("health", 0) >= 5:
+        event, reason = "illness", "A seasonal illness calls for the healers' attention."
+    elif day % 11 == 0:
+        event, reason = "discovery", "Scouts examine a useful lead from the frontier routes."
+    elif day % 13 == 0:
+        event, severity, reason = "foraging", 4, "Foragers revisit a promising seasonal food source."
+    decision = {"world_event": event, "reasoning": reason, "selector": "local"}
+    if severity is not None:
+        decision["severity"] = severity
+    decision = _apply_storm_limits(decision, state, environment=environment)
+    return _apply_wolf_attack_cooldown(decision, state)
+
+
+def choose_local_leadership_action(
+    state: dict[str, Any], world_event: str | dict[str, Any],
+) -> str:
+    """Balance survival, lasting construction, and journeys without an API."""
+    population = int(state.get("population", 0))
+    if population <= 0:
+        return NO_ACTION_ACTION_TYPE
+    event = world_event if isinstance(world_event, str) else world_event["world_event"]
+    day = int(state.get("day", 1))
+    season = environment_for_day(day)["date"]["season"]
+    food, wood = int(state.get("food", 0)), int(state.get("wood", 0))
+    resources = state.get("resources", {})
+    stocks = resources.get("stockpiles", {})
+    crops = state.get("agriculture", {}).get("crop_fields", 0)
+    if event == "undead_rising":
+        return "fight_undead"
+    if food < population and event != "foraging":
+        return "harvest_crops" if crops and season in {"summer", "autumn"} else "ration_food"
+    if state.get("health", 0) <= 5 or event == "illness":
+        return "tend_the_sick"
+    if wood < 15:
+        return "gather_wood"
+    if state.get("security", 0) < 4 or event == "wolf_attack":
+        return "strengthen_defenses"
+    if state.get("morale", 0) < 4 or event == "dispute":
+        return "mediate_dispute"
+    if crops >= population * 2 and season in {"summer", "autumn"} and food < population * 12:
+        return "harvest_crops"
+    frontier = state.get("frontier", {})
+    project = next((p for p in frontier.get("projects", []) if p.get("completed_day") is None), {})
+    if day % 3 != 0:
+        return "send_scouts"
+    project_id = project.get("id")
+    if project_id == "kitchen_gardens" and season != "winter":
+        return "expand_fields"
+    if project_id == "rain_cistern":
+        if stocks.get("clay", 0) >= 8:
+            return "make_pottery"
+        if resources.get("deposits", {}).get("clay", {}).get("abundance", 0) > 0:
+            return "gather_clay"
+    if project_id == "watchtower":
+        return "strengthen_defenses" if state.get("security", 0) < 7 else "gather_wood"
+    if project_id == "clinic" and state.get("health", 0) < 8:
+        return "tend_the_sick"
+    if project_id == "river_dock":
+        return "gather_wood"
+    if stocks.get("bricks", 0) >= 10 and resources.get("improvements", {}).get("brick_shelters", 0) < 3:
+        return "build_with_brick"
+    if stocks.get("clay", 0) >= 20 and wood >= 30 and resources.get("improvements", {}).get("brick_shelters", 0) < 3:
+        return "fire_bricks"
+    return "send_scouts"
 
 
 def choose_event(state: dict[str, Any]) -> str:

@@ -3,9 +3,7 @@ from copy import deepcopy
 import pytest
 
 from src import event_selector
-from src.constants import CHAOS_GODS_EVENT_TYPE, PRESERVE_RESOURCES_ACTION_TYPE
 from src.openai_selector import (
-    MissingOpenAIConfigError,
     OpenAIAPICallError,
     _normalize_world_event_decision,
     _parse_with_retries,
@@ -26,6 +24,14 @@ BASE_STATE = {
     "known_threats": ["wolves", "winter"],
     "event_log": [],
 }
+
+
+@pytest.fixture(autouse=True)
+def optional_ai_test_mode(monkeypatch):
+    """Old selector tests exercise the explicitly enabled, mocked AI path."""
+    monkeypatch.setenv("COLONY_AI_MODE", "daily")
+    monkeypatch.setenv("OPENAI_API_KEY", "test-key-not-a-real-secret")
+    monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
 
 
 def state_with_people(count=12):
@@ -227,16 +233,15 @@ def test_choose_leadership_action_uses_openai_selector(monkeypatch):
     assert leadership_action == "send_scouts"
 
 
-def test_missing_openai_key_fails_loudly(monkeypatch):
+def test_missing_openai_key_uses_local_policy(monkeypatch):
     state = deepcopy(BASE_STATE)
     monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
     monkeypatch.delenv("OPENAI_API_KEY", raising=False)
 
-    with pytest.raises(MissingOpenAIConfigError, match="OPENAI_API_KEY is not set"):
-        event_selector.choose_world_event(state)
+    assert event_selector.choose_world_event(state) == event_selector.choose_local_world_event(state)
 
 
-def test_api_call_failure_becomes_chaos_gods_event(monkeypatch):
+def test_api_call_failure_uses_local_event_without_chaos_penalty(monkeypatch):
     state = deepcopy(BASE_STATE)
     monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
     monkeypatch.setattr(
@@ -249,11 +254,12 @@ def test_api_call_failure_becomes_chaos_gods_event(monkeypatch):
 
     world_event = event_selector.choose_world_event(state)
 
-    assert world_event["world_event"] == CHAOS_GODS_EVENT_TYPE
-    assert world_event["severity"] == 3
+    assert world_event["world_event"] == "foraging"
+    assert world_event["severity"] == 5
+    assert world_event["selector"] == "local_fallback"
 
 
-def test_leadership_api_failure_preserves_resources(monkeypatch):
+def test_leadership_api_failure_uses_local_policy(monkeypatch):
     state = deepcopy(BASE_STATE)
     monkeypatch.setattr(event_selector, "load_local_env", lambda: None)
     monkeypatch.setattr(
@@ -266,7 +272,7 @@ def test_leadership_api_failure_preserves_resources(monkeypatch):
 
     leadership_action = event_selector.choose_leadership_action(state, "quiet_day")
 
-    assert leadership_action == PRESERVE_RESOURCES_ACTION_TYPE
+    assert leadership_action == event_selector.choose_local_leadership_action(state, "quiet_day")
 
 
 def test_api_call_failure_logs_sanitized_warning(monkeypatch, capsys):
@@ -305,29 +311,22 @@ def test_president_api_call_failure_logs_sanitized_warning(monkeypatch, capsys):
     assert "AuthenticationError" in captured.out
 
 
-def test_openai_parse_retries_transient_failure(monkeypatch):
+def test_openai_parse_never_retries_failure():
     calls = {"count": 0}
-    monkeypatch.setattr("src.openai_selector.time.sleep", lambda seconds: None)
 
     class Responses:
         def parse(self, **kwargs):
             calls["count"] += 1
-            if calls["count"] == 1:
-                raise ConnectionError("temporary connection error")
-            return "ok"
+            raise ConnectionError("temporary connection error")
 
     class Client:
         responses = Responses()
 
-    result = _parse_with_retries(
-        client=Client(),
-        model="test-model",
-        input_payload=[],
-        text_format=object,
-    )
-
-    assert result == "ok"
-    assert calls["count"] == 2
+    with pytest.raises(OpenAIAPICallError, match="after 1 attempt"):
+        _parse_with_retries(
+            client=Client(), model="test-model", input_payload=[], text_format=object,
+        )
+    assert calls["count"] == 1
 
 
 def test_world_prompt_includes_bounded_character_context():

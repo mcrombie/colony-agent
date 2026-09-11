@@ -63,12 +63,15 @@ def write_daily_entry(
     company_text = _describe_company_interventions(
         event_record.get("company_interventions", [])
     )
+    frontier_text = _describe_frontier(event_record.get("frontier", {}))
 
     weather_text = _weather_text(event_record.get("weather"))
     if state_before["population"] <= 0:
         body = _empty_colony_body(weather_text, effects_text)
         if company_text:
             body = f"{company_text} {body}"
+        if frontier_text:
+            body = f"{body} {frontier_text}"
         closing = _closing_sentence(state_after)
         return f"Day {day}{date_text} - {colony_name}:\n{body} {closing}\n"
 
@@ -90,6 +93,8 @@ def write_daily_entry(
 
     if company_text:
         body = f"{company_text} {body}"
+    if frontier_text:
+        body = f"{body} {frontier_text}"
 
     closing = _closing_sentence(state_after)
     return f"Day {day}{date_text} - {colony_name}:\n{body} {closing}\n"
@@ -113,6 +118,17 @@ def write_personal_history_entry(
     colony_name = state_before["colony_name"]
     body = "\n".join(f"- {line}" for line in lines)
     return f"Day {day} - {colony_name} Personal Stories:\n{body}\n"
+
+
+def _describe_frontier(frontier: dict[str, Any]) -> str:
+    pieces = [frontier["summary"]] if frontier.get("summary") else []
+    for discovery in frontier.get("discoveries", []):
+        if discovery.get("summary") and discovery["summary"] not in pieces:
+            pieces.append(discovery["summary"])
+    if frontier.get("milestones"):
+        names = ", ".join(m["name"] for m in frontier["milestones"])
+        pieces.append(f"Milestones reached: {names}.")
+    return " ".join(pieces)
 
 
 def _describe_effects(effects: dict[str, int]) -> str:
@@ -210,6 +226,17 @@ def _personal_history_lines(
 ) -> list[str]:
     people_events = event_record.get("people_events", {})
     lines = []
+
+    for discovery in event_record.get("frontier", {}).get("discoveries", []):
+        for person_ref in discovery.get("crew", []):
+            lines.append(
+                _personal_line(
+                    person_ref,
+                    state_before=state_before,
+                    state_after=state_after,
+                    event_summary=f"returned from the expedition to {discovery['name']}",
+                )
+            )
 
     for illness in people_events.get("illnesses", []):
         for person_ref in illness.get("people", []):

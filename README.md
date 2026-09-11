@@ -1,18 +1,57 @@
-# Colony Agent
+# Blergen: the frontier observatory
 
-Colony Agent is a small stateful Python simulation. Each run advances the fictional colony of Blergen by one day, asks one AI role what happens to the colony, asks another AI role how the colony responds, applies deterministic effects, writes a short history entry, and saves the updated state.
+![Blergen atlas](docs/colony.svg)
 
-The selectors use the OpenAI API. Missing OpenAI configuration is treated as an error so runs do not silently fall back to random events. If the deity call fails, the colony receives a special `chaos_gods` event. If the president call fails, the colony falls back to `preserve_resources`.
+A persistent colony that advances once per UTC day. Ordinary households feed the village while named crews rebuild, chart the valley, and bring home discoveries. The default director runs entirely in Python: **zero paid API calls, no key, and no runtime dependencies**.
+
+Open [docs/index.html](docs/index.html) locally for the illustrated atlas, exact saved resource trends, construction, expeditions, and personal stories. The SVG above refreshes with every daily commit. Each Actions run also provides a downloadable `blergen-atlas` artifact containing the offline dashboard.
+
+## New chapter
+
+Six permanent projects grow from kitchen gardens to an observatory. Named expedition crews discover six mapped locations, then continue returning with seasonal observations and knowledge. Household food production, maintenance, and sensible local leadership make long-term settlement possible while weather, shortages, illness, and conflict still matter.
+
+Old saves migrate without deleting people or history. An already abandoned legacy colony receives twelve new settlers to start rebuilding; the dead remain dead and remembered. A later extinction waits thirty simulated days for another relief expedition. This is recorded immigration, never a reset.
+
+## Run and visualize
+
+Python 3.11 or later is enough for the free daily mode:
+
+```powershell
+python -m src.run_day
+python -m src.run_day --render-only
+```
+
+The first command advances only if the colony has not run on today's UTC date. Repeated or manually retried runs do not choose events, incur API cost, or duplicate history. The second only rebuilds the graphics. `--data-dir` and `--output-dir` allow isolated experiments; `--date YYYY-MM-DD` supplies an explicit date for a replay and rejects dates before the saved last run. Missed real dates do not trigger a costly catch-up loop.
+
+A process lock prevents overlapping local runs. State, chronicle, personal stories, and graphics are written through a local recovery journal; a retry replays an interrupted save before deciding whether another day is due.
+
+## Optional OpenAI visits
+
+Set `COLONY_AI_MODE=weekly` to invite OpenAI every seventh simulation day, or `daily` to use it each day. `off` is the default even if a key already exists. Each eligible day makes at most two requests (world event and president), with no retries, a 20-second timeout each, bounded recent context, and at most 384 output tokens per request including reasoning. Missing keys, missing SDK, and failed calls all use local decisions; an API outage no longer harms colonists.
+
+```powershell
+python -m pip install '.[ai]'
+```
+
+Then set these in `.env.local` (never commit keys):
+
+```text
+COLONY_AI_MODE=weekly
+OPENAI_API_KEY=your_api_key_here
+OPENAI_MODEL=gpt-5.4-mini
+```
+
+The existing model remains configurable; default free mode never contacts it. Output limits include reasoning tokens, as documented in [OpenAI's reasoning guide](https://developers.openai.com/api/docs/guides/reasoning).
 
 ## Why this is an agentic loop
 
 The project has a simple observe-decide-respond-act-record loop:
 
 1. Observe the current colony state from `src/state.json`.
-2. Ask the deity selector which world event befalls Blergen.
-3. Ask the president selector how colony leadership responds to that event.
+2. Choose a seasonal world event using the local director or an optional AI visit.
+3. Choose practical leadership for survival, construction, and exploration.
 4. Derive the day's calendar date, season, and weather.
-5. Act by applying deterministic weather, event, leadership, and survival effects.
+5. Apply household production, weather, event, leadership, construction, exploration, and survival effects.
 6. Consume daily food, with each living colonist needing 1 food per day.
 7. Record the result in `event_log` and `src/history.md`.
 8. Persist the new state for the next run.
@@ -90,11 +129,10 @@ The readable archive is split in two:
 From the project root:
 
 ```powershell
-python -m pip install -r requirements.txt
 python -m src.run_day
 ```
 
-This updates `src/state.json`, appends one paragraph to `src/history.md`, and appends any personal story beats to `src/people_history.md`.
+On a new UTC date this updates `src/state.json`, `src/history.md`, `src/people_history.md`, and the atlas in `docs/`.
 
 ## OpenAI selectors
 
@@ -105,7 +143,7 @@ OPENAI_API_KEY=your_api_key_here
 OPENAI_MODEL=gpt-5.4-mini
 ```
 
-When `OPENAI_API_KEY` is missing, `python -m src.run_day` fails before advancing the colony.
+Optional AI requires `COLONY_AI_MODE=weekly` or `daily`. A missing key uses the free local director.
 
 The OpenAI selectors only choose from allowed labels. The mechanical effects still come from deterministic local code.
 
@@ -136,9 +174,9 @@ harvest_crops, strengthen_defenses, tend_the_sick, mediate_dispute,
 send_scouts, hold_festival, fight_undead, contain_undead
 ```
 
-If the deity API call fails after configuration is present, the simulation records `chaos_gods`: health -1, security -1, and morale -1.
+If the deity API call fails, the local seasonal director supplies the world event without an outage penalty. Old `chaos_gods` records remain in the archive.
 
-If the president API call fails after configuration is present, the simulation uses `preserve_resources`.
+If the president API call fails, the local president chooses a useful action based on the colony's needs.
 
 If the president chooses `strengthen_defenses` when the colony has fewer than 10 wood, the simulation records `failed_strengthen_defenses` instead and leaves wood, security, and morale unchanged.
 
@@ -158,7 +196,7 @@ strain. If there is not enough food, named
 colonists miss rations and their hunger rises. Severe hunger causes named
 starvation deaths, reducing population.
 
-Food production is seasonal and must be planned ahead. `expand_fields` does not
+Households now produce daily subsistence food, improved by kitchen gardens and the river dock. Additional field production is seasonal and must be planned ahead. `expand_fields` does not
 produce edible food. It prepares `agriculture.crop_fields`, representing crops
 in the ground that can feed the colony later. Field work is strongest in spring,
 still useful in summer, limited in autumn, and ineffective in winter.
@@ -190,9 +228,7 @@ bricks into permanent shelter work, improving security and reducing some storm
 wood and health damage. Discovery records can also preserve other useful sites,
 such as fresh water and trail markers, for future mechanics.
 
-If population reaches 0, the colony becomes inert. Daily runs no longer ask the
-deity or president selectors for choices; the event log records an
-`empty_colony` day with `no_action` until future mechanics add new colonists.
+When a frontier colony loses its last colonist, days remain empty without selector calls until the thirty-day relief window. A modest rebuilding expedition then arrives, preserving the entire earlier story.
 
 ## Blergen Company interventions
 
@@ -244,7 +280,7 @@ still supported for scripts, but CLI flags are the intended manual interface.
 Install dependencies if needed:
 
 ```powershell
-python -m pip install -r requirements.txt
+python -m pip install '.[test]'
 ```
 
 Then run:
@@ -255,25 +291,12 @@ python -m pytest
 
 ## GitHub Actions
 
-The workflow in `.github/workflows/advance-colony.yml` runs hourly at minute 17 UTC and can also be started manually from the Actions tab.
+The daily workflow runs at **12:17 UTC** (08:17 New York in daylight time, 07:17 in standard time), with manual dispatch and a verification run when its workflow file changes. UTC-date idempotency prevents duplicate advances. The default job has no dependency installation or AI calls; optional SDK installation failure also falls back locally. Tests run separately on code changes, with a five-minute timeout. Daily state and graphics are committed together, and concurrent Git changes are rebased without force-pushing.
 
-Make sure this repository secret exists:
+No repository secrets are needed for free mode. Optional repository variables are `COLONY_AI_MODE` (`off`, `weekly`, `daily`) and `OPENAI_MODEL`; the optional secret is `OPENAI_API_KEY`.
 
-```text
-OPENAI_API_KEY
-```
+GitHub scheduled jobs can be delayed. Public schedules may disable after sixty days without repository activity; successful daily state commits keep the repository active. See [GitHub's schedule documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule). If a run fails, its Actions log and rerun button are the recovery path. No always-on server or recurring Codex task is required.
 
-Optionally add this repository variable to override the default model:
+## Validation
 
-```text
-OPENAI_MODEL
-```
-
-Each manual run installs dependencies, runs tests, advances the colony once, and commits changes to `src/state.json`, `src/history.md`, and `src/people_history.md`.
-
-## Roadmap
-
-1. Add an OpenAI API event selector. Done.
-2. Add a GitHub Actions daily run. Done.
-3. Publish `history.md` to Cromblog.
-4. Add charts and long-term summaries.
+Tests cover legacy mechanics, migration, practical decisions, weather diversity, a full simulated year, recovery from an abandoned world, exact data rendering, duplicate dates, process locks, and interrupted file writes. Historical chart values begin when exact snapshots were introduced; older absolute values are not invented from incomplete event deltas.

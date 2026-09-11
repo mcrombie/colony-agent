@@ -1,3 +1,11 @@
 # Local secrets / environment files
 .env
 .env.local
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+.run_day.lock
+.pending-day.json
+*.egg-info/
+.venv/

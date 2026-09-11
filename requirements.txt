@@ -1,4 +1,2 @@
--e .
-isort>=5.13.0
-openai>=2.0.0
-pytest
+# Developer setup; the default daily runtime needs only Python.
+-e .[test]

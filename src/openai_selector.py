@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import os
-import time
 from typing import Any, Literal
 
 from src.constants import LEADERSHIP_ACTION_TYPES, WORLD_EVENT_TYPES
@@ -13,7 +12,9 @@ from src.mechanics import food_days_remaining
 from src.people import character_context_for_prompt, president_context_for_prompt
 
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
-OPENAI_MAX_ATTEMPTS = 3
+OPENAI_MAX_ATTEMPTS = 1
+OPENAI_MAX_OUTPUT_TOKENS = 384
+OPENAI_TIMEOUT_SECONDS = 20.0
 
 
 class OpenAISelectorError(RuntimeError):
@@ -57,7 +58,7 @@ def choose_world_event_with_openai(
             "role": "system",
             "content": (
                 "You are a deity watching the fictional colony of Blergen. "
-                "Choose exactly one allowed world event that should befall "
+                "Keep reasoning to one short sentence. Choose exactly one allowed world event that should befall "
                 "the colony today. You control fate and circumstance, not "
                 "the colony's leadership decisions. Favor impactful events, "
                 "good and bad. Choose quiet_day only about 15 to 25 percent "
@@ -83,7 +84,7 @@ def choose_world_event_with_openai(
             "role": "user",
             "content": json.dumps(
                 _state_for_world_prompt(state, environment=environment),
-                indent=2,
+                separators=(",", ":"),
             ),
         },
     ]
@@ -145,7 +146,7 @@ def choose_leadership_action_with_openai(
                 "user payload identifies the specific colonist holding that "
                 "office. A report has arrived describing today's circumstance, "
                 "which may be a major event or a quiet day. Choose exactly "
-                "one allowed leadership action for the colony. Respond "
+                "one allowed leadership action for the colony. Keep reasoning to one short sentence. Respond "
                 "practically in light of the event and the current state. Do "
                 "not apply mechanics and do not invent new action types. "
                 "Named colonists are context for priorities, not extra output "
@@ -164,7 +165,7 @@ def choose_leadership_action_with_openai(
             "role": "user",
             "content": json.dumps(
                 _state_for_leadership_prompt(state, world_event),
-                indent=2,
+                separators=(",", ":"),
             ),
         },
     ]
@@ -205,7 +206,11 @@ def _openai_client() -> tuple[Any, str, type[Any]]:
         ) from exc
 
     model = os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
-    return OpenAI(api_key=api_key, timeout=30.0, max_retries=2), model, BaseModel
+    try:
+        client = OpenAI(api_key=api_key, timeout=OPENAI_TIMEOUT_SECONDS, max_retries=0)
+    except Exception as exc:
+        raise OpenAIAPICallError(f"OpenAI client could not start: {_safe_error_message(exc)}") from exc
+    return client, model, BaseModel
 
 
 def _parse_with_retries(
@@ -214,23 +219,24 @@ def _parse_with_retries(
     input_payload: list[dict[str, str]],
     text_format: type[Any],
 ) -> Any:
-    last_error = None
-    for attempt in range(1, OPENAI_MAX_ATTEMPTS + 1):
-        try:
-            return client.responses.parse(
-                model=model,
-                input=input_payload,
-                text_format=text_format,
-            )
-        except Exception as exc:
-            last_error = exc
-            if attempt < OPENAI_MAX_ATTEMPTS:
-                time.sleep(attempt * 2)
-
-    raise OpenAIAPICallError(
-        "OpenAI API call failed after "
-        f"{OPENAI_MAX_ATTEMPTS} attempts: {_safe_error_message(last_error)}"
-    ) from last_error
+    """Compatibility name for a single capped request; local policy handles failure."""
+    options = {"reasoning": {"effort": "low"}} if model.startswith("gpt-5") else {}
+    try:
+        response = client.responses.parse(
+            model=model,
+            input=input_payload,
+            text_format=text_format,
+            max_output_tokens=OPENAI_MAX_OUTPUT_TOKENS,
+            store=False,
+            **options,
+        )
+        if getattr(response, "output_parsed", None) is None:
+            raise ValueError("No complete structured decision was returned within the output budget.")
+        return response
+    except Exception as exc:
+        raise OpenAIAPICallError(
+            f"OpenAI API call failed after 1 attempt: {_safe_error_message(exc)}"
+        ) from exc
 
 
 def _safe_error_message(error: Exception) -> str:
@@ -310,6 +316,7 @@ def _state_for_world_prompt(
             "undead_threat": state.get("undead_threat", {}),
             "agriculture": _agriculture_context(state),
             "resources": _resources_context(state),
+            "frontier": _frontier_context(state),
         },
         "environment": environment or {},
         "threat_rules": [
@@ -323,8 +330,8 @@ def _state_for_world_prompt(
             "Winter is a season and period, not a world_event label.",
             "For foraging, wolf_attack, storm, and undead_rising, severity must be an integer from 1 to 5.",
         ],
-        "character_context": character_context_for_prompt(state),
-        "recent_events": state.get("event_log", [])[-5:],
+        "character_context": character_context_for_prompt(state, max_people=3),
+        "recent_events": _recent_event_context(state),
     }
 
 
@@ -355,12 +362,14 @@ def _state_for_leadership_prompt(
             "undead_threat": state.get("undead_threat", {}),
             "agriculture": _agriculture_context(state),
             "resources": _resources_context(state),
+            "frontier": _frontier_context(state),
         },
         "character_context": character_context_for_prompt(
             state,
             world_event=world_event_type,
+            max_people=3,
         ),
-        "recent_events": state.get("event_log", [])[-5:],
+        "recent_events": _recent_event_context(state),
         "important_rules": [
             "Food is consumed every day regardless of your action.",
             "Each living colonist needs 1 food per day.",
@@ -379,6 +388,7 @@ def _state_for_leadership_prompt(
             "For undead_rising, fight_undead can destroy zombies and contain_undead can stop spread.",
             "If undead are not killed or contained, the infection can kill colonists and create more zombies.",
             "send_scouts can help track threats but still costs the day's action.",
+            "Frontier households produce subsistence food and wood daily; projects and expeditions retain progress.",
             "Named colonists can inform priorities, but choose only one allowed action label.",
         ],
     }
@@ -387,6 +397,30 @@ def _state_for_leadership_prompt(
 def _state_for_prompt(state: dict[str, Any]) -> dict[str, Any]:
     """Backward-compatible prompt helper for older tests and callers."""
     return _state_for_world_prompt(state)
+
+
+def _recent_event_context(state: dict[str, Any]) -> list[dict[str, Any]]:
+    """Never send full chronicles, personal event lists, or old frontier charts."""
+    return [
+        {"day": event.get("day"),
+         "world_event": event.get("world_event", event.get("event_type")),
+         "leadership_action": event.get("leadership_action"),
+         "summary": str(event.get("summary", ""))[:200]}
+        for event in state.get("event_log", [])[-3:]
+    ]
+
+
+def _frontier_context(state: dict[str, Any]) -> dict[str, Any]:
+    frontier = state.get("frontier", {})
+    project = next((p for p in frontier.get("projects", []) if p.get("completed_day") is None), None)
+    expedition = frontier.get("expedition") or {}
+    return {
+        "focus": frontier.get("focus"),
+        "knowledge": frontier.get("knowledge", 0),
+        "active_project": {key: project.get(key) for key in ("id", "progress", "required")} if project else None,
+        "expedition": {key: expedition.get(key) for key in ("site_id", "progress", "required")},
+        "daily_production": frontier.get("last_report", {}).get("production", {}),
+    }
 
 
 def _dead_population(state: dict[str, Any]) -> int:

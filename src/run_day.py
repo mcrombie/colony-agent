@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import argparse
+from datetime import date, datetime, timezone
 from copy import deepcopy
 from pathlib import Path
 from collections.abc import Sequence
@@ -21,6 +22,9 @@ from src.interventions import (
 from src.mechanics import apply_day, clamp_state
 from src.narrative import write_daily_entry, write_personal_history_entry
 from src.people import ensure_people_exist, ensure_president
+from src.frontier import prepare_frontier
+from src.dashboard import render_dashboard, render_colony_svg
+from src.storage import atomic_write, colony_lock, commit_day, recover_day
 
 PROJECT_DIR = Path(__file__).resolve().parent
 STATE_PATH = PROJECT_DIR / "state.json"
@@ -54,13 +58,49 @@ def append_personal_history(entry: str, path: Path = PEOPLE_HISTORY_PATH) -> Non
 
 def run_day(
     company_intervention_requests: list[dict[str, Any]] | None = None,
+    *,
+    run_date: date | None = None,
+    data_dir: Path = PROJECT_DIR,
+    output_dir: Path = PROJECT_DIR.parent / "docs",
 ) -> dict[str, Any]:
-    """Advance the colony by one day and persist the result."""
-    state_before = sync_calendar_state(ensure_people_exist(load_state()))
+    """Advance once per UTC date and recover interrupted writes before deciding."""
+    today = run_date or datetime.now(timezone.utc).date()
+    with colony_lock(data_dir):
+        recover_day(data_dir, output_dir)
+        state = load_state(data_dir / "state.json")
+        previous = state.get("last_run_date")
+        if previous and date.fromisoformat(previous) >= today:
+            if date.fromisoformat(previous) > today:
+                raise ValueError("Cannot advance before the last recorded UTC date")
+            return {"skipped": True, "history_entry": "Already advanced for this UTC date; no API calls or new events.\n"}
+        state_after, event_record = advance_state(state, company_intervention_requests)
+        event_record["run_date"] = today.isoformat()
+        state_after["event_log"][-1]["run_date"] = today.isoformat()
+        state_after["last_run_date"] = today.isoformat()
+        entry = event_record.pop("history_entry")
+        personal_entry = event_record.pop("personal_history_entry")
+        history_path = data_dir / "history.md"
+        people_path = data_dir / "people_history.md"
+        history = (history_path.read_text(encoding="utf-8") if history_path.exists() else "# Colony history\n") + "\n" + entry
+        personal = (people_path.read_text(encoding="utf-8") if people_path.exists() else "# Personal history\n") + ("\n" + personal_entry if personal_entry else "")
+        payload = {
+            "history": history, "people": personal,
+            "html": render_dashboard(state_after), "map": render_colony_svg(state_after),
+            "state": json.dumps(state_after, indent=2) + "\n",
+        }
+        commit_day(payload, data_dir, output_dir)
+        return {**event_record, "history_entry": entry}
+
+
+def advance_state(state: dict[str, Any], company_intervention_requests=None):
+    """Build the next state without writing files; selectors may use optional AI."""
+    state_before = sync_calendar_state(ensure_people_exist(deepcopy(state)))
     state_before, company_interventions = apply_company_interventions(
         state_before,
         additional_interventions=company_intervention_requests,
     )
+    state_before, relief = prepare_frontier(state_before)
+    company_interventions.extend(relief)
     ensure_president(state_before)
     state_before = clamp_state(state_before)
     environment = environment_for_day(state_before["day"])
@@ -88,20 +128,34 @@ def run_day(
         state_after,
     )
 
-    append_history(entry)
-    append_personal_history(personal_entry)
-    save_state(state_after)
-    return {**event_record, "history_entry": entry}
+    return state_after, {**event_record, "history_entry": entry, "personal_history_entry": personal_entry}
+
+
+def render_only(data_dir: Path = PROJECT_DIR, output_dir: Path = PROJECT_DIR.parent / "docs") -> None:
+    with colony_lock(data_dir):
+        recover_day(data_dir, output_dir)
+        state = load_state(data_dir / "state.json")
+        atomic_write(output_dir / "index.html", render_dashboard(state))
+        atomic_write(output_dir / "colony.svg", render_colony_svg(state))
 
 
 def main(argv: Sequence[str] | None = None) -> None:
     args = _parse_args(argv)
-    event_record = run_day(_company_interventions_from_args(args))
+    if args.render_only:
+        render_only(args.data_dir, args.output_dir)
+        print(f"Atlas refreshed: {args.output_dir / 'index.html'}")
+        return
+    event_record = run_day(_company_interventions_from_args(args), run_date=args.date,
+                           data_dir=args.data_dir, output_dir=args.output_dir)
     print(event_record["history_entry"], end="")
 
 
 def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Advance Blergen by one day.")
+    parser.add_argument("--render-only", action="store_true", help="Refresh graphics without advancing time")
+    parser.add_argument("--date", type=date.fromisoformat, help="UTC date; defaults to today")
+    parser.add_argument("--data-dir", type=Path, default=PROJECT_DIR)
+    parser.add_argument("--output-dir", type=Path, default=PROJECT_DIR.parent / "docs")
     parser.add_argument(
         "--send-settlers",
         nargs="?",

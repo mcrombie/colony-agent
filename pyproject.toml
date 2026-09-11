@@ -7,7 +7,11 @@ name = "colony-agent"
 version = "0.1.0"
 description = "A small stateful colony simulation loop."
 requires-python = ">=3.11"
-dependencies = ["openai>=2.0.0"]
+dependencies = []
+
+[project.optional-dependencies]
+ai = ["openai>=2.0.0,<3"]
+test = ["pytest>=8,<10"]
 
 [tool.setuptools.packages.find]
 where = ["."]

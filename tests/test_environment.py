@@ -55,3 +55,10 @@ def test_environment_includes_date_and_weather():
 
     assert environment["date"]["month"] == "February"
     assert environment["weather"]["season"] == "winter"
+
+
+def test_weather_varies_within_every_season_and_is_stable_across_replays():
+    for first_day in (1, 100, 170, 275):
+        forecast = [weather_for_day(day) for day in range(first_day, first_day + 28)]
+        assert len({day["condition"] for day in forecast}) >= 4
+        assert forecast == [weather_for_day(day) for day in range(first_day, first_day + 28)]

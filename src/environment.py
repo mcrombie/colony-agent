@@ -138,7 +138,11 @@ def weather_for_day(day: int) -> dict[str, Any]:
     date = date_for_day(day)
     season = date["season"]
     table = WEATHER_TABLES[season]
-    condition, severity = table[((day * 7) + date["day_of_year"]) % len(table)]
+    # The former day*7 + day_of_year expression advanced by eight and therefore
+    # selected one fixed entry throughout every eight-entry seasonal table.
+    # Mix the absolute day so each season has varied, reproducible weather.
+    mixed_day = (day * 1103515245 + 12345) & 0x7FFFFFFF
+    condition, severity = table[(mixed_day >> 16) % len(table)]
     return {
         "season": season,
         "condition": condition,
