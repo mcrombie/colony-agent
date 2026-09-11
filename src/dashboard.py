@@ -111,10 +111,10 @@ def render_colony_svg(state: dict[str, Any]) -> str:
         name = str(site.get("name", f"Site {index + 1}"))
         label = name if discovered else f"Uncharted {_title(site.get('biome', 'site')).lower()}"
         status = "Discovered" if discovered else "Expedition in progress" if active else "Unsurveyed"
-        survey = _number(site.get("survey"))
-        required = max(1, _number(site.get("required"), 1))
-        percent = min(100, max(0, survey / required * 100))
-        markers.append(f'''<g><title>{_esc(name)}: {status}; survey {survey:g}/{required:g}</title>
+        visits = _number(site.get("survey"))
+        required = max(1, _number(expedition.get("required"), 1))
+        percent = min(100, max(0, _number(expedition.get("progress")) / required * 100)) if active else 100 if discovered else 0
+        markers.append(f'''<g><title>{_esc(name)}: {status}; {visits:g} completed visits; {'current expedition' if active else 'discovery'} {percent:g}%</title>
           <circle cx="{x:.0f}" cy="{y:.0f}" r="17" fill="#f5f3e7" stroke="{color}" stroke-width="2"/>
           <text x="{x:.0f}" y="{y+5:.0f}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="{color}">{index+1 if discovered else '?'}</text>
           <text x="{x:.0f}" y="{y+34:.0f}" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="600" font-size="12" fill="#204b3c" stroke="#eef1df" stroke-width="5" paint-order="stroke">{_esc(label)}</text>

@@ -62,6 +62,17 @@ def test_renderer_escapes_narrative_and_svg_text():
     ElementTree.fromstring(svg)
 
 
+def test_atlas_uses_active_expedition_work_and_completed_visits_separately():
+    state = colony()
+    state["frontier"] = {
+        "sites": [{"id": "river", "name": "River", "discovered": True, "survey": 1, "required": 6}],
+        "expedition": {"site_id": "river", "progress": 3, "required": 12},
+    }
+    assert "1 completed visits; current expedition 25%" in render_colony_svg(state)
+    state["frontier"]["expedition"] = None
+    assert "1 completed visits; discovery 100%" in render_colony_svg(state)
+
+
 def test_trends_use_exact_snapshots_not_inferred_effects():
     state = colony()
     state["event_log"] = [{"day": 1, "effects": {"food": -1000}},
