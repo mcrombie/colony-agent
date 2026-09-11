@@ -5736,3 +5736,11 @@ Day 1829 - Blergen Personal Stories:
 - Galen Nell (healer) died of starvation. health 1->0; hunger 2->3; died.
 - Hana Nell (cook) died of starvation. health 1->0; hunger 2->3; died.
 - Iris Nell (guard) died of starvation. health 1->0; hunger 2->3; died.
+
+Day 2704 - Blergen Personal Stories:
+- Orin Nell (scout) searched for forage. morale 7->8.
+- Una Nell (forager) searched for forage. morale 7->8.
+- Kara Nell (forager) searched for forage. Status unchanged.
+- Mara Nell (farmer) searched for forage. Status unchanged.
+- Orin Nell (scout) scouted beyond the settlement. morale 7->8.
+- Una Nell (forager) scouted beyond the settlement. morale 7->8.

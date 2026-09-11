@@ -8109,3 +8109,6 @@ Mild weather gave the colony a little breathing room. No colonists remained to g
 
 Day 2703 (Year 8, May 28) - Blergen:
 Mild weather gave the colony a little breathing room. No colonists remained to give orders, work the fields, or answer the day's dangers. No colonists remain in Blergen.
+
+Day 2704 (Year 8, May 29) - Blergen:
+Twelve new settlers arrived to rebuild Blergen; the old dead and their history remain remembered. A thunderstorm rolled over the settlement. A severity 4 foraging effort searched for food, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 13, increased wood by 6, increased morale by 1, and reduced security by 1. Orin Nell, Una Nell, Kara Nell, and Mara Nell searched for edible stores beyond camp. Orin Nell, and Una Nell scouted beyond the settlement. Work on Kitchen gardens reached 1/10. The loss of people is beginning to define the settlement's future.

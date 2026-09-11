@@ -1,13 +1,13 @@
 {
-  "day": 2704,
+  "day": 2705,
   "year": 8,
   "colony_name": "Blergen",
-  "population": 0,
-  "food": 0,
-  "wood": 115,
-  "morale": 0,
-  "security": 0,
-  "health": 0,
+  "population": 12,
+  "food": 133,
+  "wood": 121,
+  "morale": 8,
+  "security": 3,
+  "health": 7,
   "known_threats": [
     "wolves",
     "winter",
@@ -125265,6 +125265,114 @@
         "deaths": []
       },
       "summary": "No colonists remained in Blergen. Weather: Mild weather gave the colony a little breathing room. No one remained to give orders or carry them out."
+    },
+    {
+      "day": 2704,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 149,
+        "month": "May",
+        "month_number": 5,
+        "day_of_month": 29,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "thunderstorm",
+        "severity": 3,
+        "summary": "A thunderstorm rolled over the settlement."
+      },
+      "weather_effects": {
+        "security": -1
+      },
+      "event_type": "foraging",
+      "world_event": "foraging",
+      "event_details": {
+        "selector": "local",
+        "severity": 4
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 13,
+        "wood": 6,
+        "morale": 1,
+        "security": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "foraged_food",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              },
+              {
+                "id": "person_351",
+                "name": "Mara Nell"
+              }
+            ],
+            "summary": "Orin Nell, Una Nell, Kara Nell, and Mara Nell searched for edible stores beyond camp."
+          },
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              }
+            ],
+            "summary": "Orin Nell, and Una Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 4 foraging effort searched for food. Weather: A thunderstorm rolled over the settlement. The president sent scouts beyond the settlement. Work on Kitchen gardens reached 1/10.",
+      "frontier": {
+        "production": {
+          "food": 11,
+          "wood": 2
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Kitchen gardens reached 1/10."
+      },
+      "company_interventions": [
+        {
+          "type": "frontier_relief",
+          "day": 2704,
+          "source": "Blergen Company",
+          "effects": {
+            "population": 12,
+            "food": 120,
+            "wood": 0
+          },
+          "summary": "Twelve new settlers arrived to rebuild Blergen; the old dead and their history remain remembered."
+        }
+      ],
+      "run_date": "2026-09-11"
     }
   ],
   "people": [
@@ -140390,6 +140498,395 @@
           "Iris Nell died of starvation on day 1829."
         ]
       }
+    },
+    {
+      "id": "person_348",
+      "name": "Jory Nell",
+      "age": 50,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "restless",
+          "generous",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 9,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Jory Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+        ]
+      }
+    },
+    {
+      "id": "person_349",
+      "name": "Kara Nell",
+      "age": 57,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "wry",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 7,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Kara Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Kara Nell searched for forage on day 2704."
+        ]
+      }
+    },
+    {
+      "id": "person_350",
+      "name": "Lio Nell",
+      "age": 64,
+      "role": "carpenter",
+      "personality": {
+        "traits": [
+          "gentle",
+          "dutiful",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 9,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Lio Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Lio Nell became president of Blergen on day 2704."
+        ]
+      }
+    },
+    {
+      "id": "person_351",
+      "name": "Mara Nell",
+      "age": 20,
+      "role": "farmer",
+      "personality": {
+        "traits": [
+          "bold",
+          "inventive",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 7,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Mara Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Mara Nell searched for forage on day 2704."
+        ]
+      }
+    },
+    {
+      "id": "person_352",
+      "name": "Niko Nell",
+      "age": 27,
+      "role": "woodcutter",
+      "personality": {
+        "traits": [
+          "cautious",
+          "quiet",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Niko Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+        ]
+      }
+    },
+    {
+      "id": "person_353",
+      "name": "Orin Nell",
+      "age": 34,
+      "role": "scout",
+      "personality": {
+        "traits": [
+          "generous",
+          "warm",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Orin Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Orin Nell searched for forage on day 2704.",
+          "Orin Nell scouted beyond the settlement on day 2704."
+        ]
+      }
+    },
+    {
+      "id": "person_354",
+      "name": "Pia Nell",
+      "age": 41,
+      "role": "builder",
+      "personality": {
+        "traits": [
+          "skeptical",
+          "ambitious",
+          "bold"
+        ],
+        "temperament": "dry-humored",
+        "fear": "fire in the stores",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Pia Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+        ]
+      }
+    },
+    {
+      "id": "person_355",
+      "name": "Quin Nell",
+      "age": 48,
+      "role": "healer",
+      "personality": {
+        "traits": [
+          "dutiful",
+          "observant",
+          "skeptical"
+        ],
+        "temperament": "steady",
+        "fear": "winter hunger",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Quin Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+        ]
+      }
+    },
+    {
+      "id": "person_356",
+      "name": "Rhea Nell",
+      "age": 55,
+      "role": "cook",
+      "personality": {
+        "traits": [
+          "inventive",
+          "practical",
+          "quiet"
+        ],
+        "temperament": "intense",
+        "fear": "being forgotten",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Rhea Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+        ]
+      }
+    },
+    {
+      "id": "person_357",
+      "name": "Soren Nell",
+      "age": 62,
+      "role": "guard",
+      "personality": {
+        "traits": [
+          "quiet",
+          "stubborn",
+          "observant"
+        ],
+        "temperament": "cheerful",
+        "fear": "fire in the stores",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Soren Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+        ]
+      }
+    },
+    {
+      "id": "person_358",
+      "name": "Talia Nell",
+      "age": 18,
+      "role": "teacher",
+      "personality": {
+        "traits": [
+          "warm",
+          "protective"
+        ],
+        "temperament": "guarded",
+        "fear": "winter hunger",
+        "desire": "to earn the colony's trust"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Talia Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+        ]
+      }
+    },
+    {
+      "id": "person_359",
+      "name": "Una Nell",
+      "age": 25,
+      "role": "forager",
+      "personality": {
+        "traits": [
+          "ambitious",
+          "curious",
+          "restless"
+        ],
+        "temperament": "earnest",
+        "fear": "being forgotten",
+        "desire": "to build permanent fields"
+      },
+      "relationships": {
+        "friends": [],
+        "family": [],
+        "rivals": []
+      },
+      "status": {
+        "alive": true,
+        "health": 7,
+        "morale": 8,
+        "hunger": 0
+      },
+      "story": {
+        "notable_events": [
+          "Una Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Una Nell searched for forage on day 2704.",
+          "Una Nell scouted beyond the settlement on day 2704."
+        ]
+      }
     }
   ],
   "undead_threat": {
@@ -140435,5 +140932,191 @@
       "clay_storehouses": 0,
       "brick_shelters": 1
     }
-  }
+  },
+  "frontier": {
+    "version": 1,
+    "chapter": 2,
+    "started_day": 2704,
+    "focus": "Build Kitchen gardens",
+    "knowledge": 0,
+    "expeditions_completed": 0,
+    "milestones": [],
+    "timeline": [
+      {
+        "day": 2704,
+        "population": 12,
+        "food": 133,
+        "wood": 121,
+        "morale": 8,
+        "health": 7,
+        "security": 3,
+        "sites": 0,
+        "projects": 0
+      }
+    ],
+    "archive": [
+      {
+        "day": 2704,
+        "summary": "Twelve new settlers arrived to rebuild Blergen; the old dead and their history remain remembered."
+      }
+    ],
+    "expedition": {
+      "site_id": "river",
+      "progress": 3,
+      "required": 6,
+      "started_day": 2704,
+      "crew": [
+        {
+          "id": "person_353",
+          "name": "Orin Nell"
+        },
+        {
+          "id": "person_348",
+          "name": "Jory Nell"
+        }
+      ]
+    },
+    "last_report": {
+      "production": {
+        "food": 11,
+        "wood": 2
+      },
+      "completed": [],
+      "discoveries": [],
+      "summary": "Work on Kitchen gardens reached 1/10."
+    },
+    "relief_convoys": 1,
+    "last_relief_day": 2704,
+    "empty_since_day": null,
+    "projects": [
+      {
+        "id": "kitchen_gardens",
+        "name": "Kitchen gardens",
+        "description": "Cold frames and roots provide dependable daily food.",
+        "progress": 1,
+        "required": 10,
+        "completed_day": null
+      },
+      {
+        "id": "rain_cistern",
+        "name": "Rain cistern",
+        "description": "Clean water softens heat and cold-weather sickness.",
+        "progress": 0,
+        "required": 14,
+        "completed_day": null
+      },
+      {
+        "id": "watchtower",
+        "name": "Watchtower",
+        "description": "Maintained patrols keep the settlement secure.",
+        "progress": 0,
+        "required": 18,
+        "completed_day": null
+      },
+      {
+        "id": "clinic",
+        "name": "Village clinic",
+        "description": "Routine care helps the colony recover from illness.",
+        "progress": 0,
+        "required": 22,
+        "completed_day": null
+      },
+      {
+        "id": "river_dock",
+        "name": "River dock",
+        "description": "Fishing crews bring home a second dependable food supply.",
+        "progress": 0,
+        "required": 26,
+        "completed_day": null
+      },
+      {
+        "id": "observatory",
+        "name": "Hill observatory",
+        "description": "A survey archive turns return journeys into new knowledge.",
+        "progress": 0,
+        "required": 30,
+        "completed_day": null
+      }
+    ],
+    "sites": [
+      {
+        "id": "river",
+        "name": "Silver river",
+        "biome": "river",
+        "x": 24,
+        "y": 31,
+        "required": 6,
+        "finding": "A sheltered bend holds fish through the winter.",
+        "discovered": false,
+        "survey": 0,
+        "discovered_day": null
+      },
+      {
+        "id": "pinewood",
+        "name": "Whispering pines",
+        "biome": "forest",
+        "x": 20,
+        "y": 68,
+        "required": 8,
+        "finding": "Resin-rich fallen pine can heat the settlement.",
+        "discovered": false,
+        "survey": 0,
+        "discovered_day": null
+      },
+      {
+        "id": "ridge",
+        "name": "Copper ridge",
+        "biome": "mountain",
+        "x": 65,
+        "y": 18,
+        "required": 10,
+        "finding": "A high pass connects the old trails beyond the valley.",
+        "discovered": false,
+        "survey": 0,
+        "discovered_day": null
+      },
+      {
+        "id": "marsh",
+        "name": "Lantern marsh",
+        "biome": "wetland",
+        "x": 78,
+        "y": 70,
+        "required": 12,
+        "finding": "Night-blooming reeds mark a safe path across the marsh.",
+        "discovered": false,
+        "survey": 0,
+        "discovered_day": null
+      },
+      {
+        "id": "ruins",
+        "name": "The old waystation",
+        "biome": "ruins",
+        "x": 85,
+        "y": 38,
+        "required": 14,
+        "finding": "Weathered route records hint at an earlier settlement.",
+        "discovered": false,
+        "survey": 0,
+        "discovered_day": null
+      },
+      {
+        "id": "beacon",
+        "name": "Distant beacon",
+        "biome": "mountain",
+        "x": 45,
+        "y": 7,
+        "required": 16,
+        "finding": "The old beacon offers a view beyond the colony's first map.",
+        "discovered": false,
+        "survey": 0,
+        "discovered_day": null
+      }
+    ]
+  },
+  "president": {
+    "id": "person_350",
+    "name": "Lio Nell",
+    "since_day": 2704
+  },
+  "last_run_date": "2026-09-11"
 }
