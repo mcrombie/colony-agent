@@ -9,3 +9,7 @@ pytest-cache-files-*/
 .pending-day.json
 *.egg-info/
 .venv/
+
+# Local email previews contain message headers; never publish them.
+*.eml
+.email-previews/

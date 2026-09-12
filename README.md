@@ -300,3 +300,45 @@ GitHub scheduled jobs can be delayed. Public schedules may disable after sixty d
 ## Validation
 
 Tests cover legacy mechanics, migration, practical decisions, weather diversity, a full simulated year, recovery from an abandoned world, exact data rendering, duplicate dates, process locks, and interrupted file writes. Historical chart values begin when exact snapshots were introduced; older absolute values are not invented from incomplete event deltas.
+
+## Daily email reports
+
+Each scheduled run can send one email after the new world has been successfully pushed to GitHub. The email contains a plain-text and HTML account of the completed day, resources, development and personal/civic highlights. Attachments include `index.html` (the full visual dashboard), `colony.svg` (the map) and `colony-atlas.zip` (all files needed for relative links, including any full chronicle). Save and open the HTML, or extract the ZIP and open its `index.html`. No model call or extra Python dependency is used for email.
+
+Email delivery is off until a sending account is connected. Configure these **GitHub Actions secrets**:
+
+| Secret | Value |
+| --- | --- |
+| `COLONY_EMAIL_TO` | One recipient mailbox |
+| `SMTP_HOST` | Your provider's SMTP hostname |
+| `SMTP_FROM` | Authorized sender mailbox, optionally with a display name |
+| `SMTP_USERNAME` | SMTP login |
+| `SMTP_PASSWORD` | SMTP/provider app password |
+| `SMTP_SECURITY` | `ssl` (default) or `starttls` |
+| `SMTP_PORT` | `465` for SSL or `587` for STARTTLS by default |
+
+Then set the **repository variable** `COLONY_EMAIL_ENABLED` to `true`. An optional `COLONY_DASHBOARD_URL` variable may point to an existing HTTPS dashboard; leave it unset to use the attached visual reports and Actions link. The local `.env.local` supports the same names. Keep all addresses and credentials in private configuration, never in public source or preview files.
+
+For a private, one-time setup of **both** colonies, sign in with `gh auth login --hostname github.com`, then run the helper from either project:
+
+```sh
+python scripts/configure_email.py --to you@example.com --sender you@example.com --host smtp.example.com
+```
+
+It reads the SMTP password with hidden terminal input, uploads secrets via standard input to the explicitly authenticated GitHub CLI, enables both schedules' email steps, and dispatches each latest report without advancing either world. It never extracts Git credentials or saves the password locally. For Gmail, use `--host smtp.gmail.com` and a Gmail app password; [Google requires 2-Step Verification for app passwords](https://support.google.com/accounts/answer/185833?hl=en). Use the sender account authorized by your SMTP provider.
+
+To retry email only, manually run **Advance Colony** and check **Send the latest saved report without advancing the colony**, or use:
+
+```sh
+gh workflow run advance-colony.yml -f email_only=true
+```
+
+The receipt in `src/email_delivery.json` prevents normal repeated delivery to the same recipient for the same saved day. It contains hashes and timestamps, not email addresses or credentials. A failed send leaves the colony safely committed and records no success receipt. SMTP acceptance followed by a crash or a failed receipt push can still cause a duplicate on retry; inspect the inbox if the workflow reports that receipt failure. SMTP acceptance is not proof of inbox delivery, so check spam during initial setup. Disabling `COLONY_EMAIL_ENABLED` stops email without stopping the simulation.
+
+Preview the full MIME email locally without sending or changing any state:
+
+```sh
+python -m src.email_delivery --preview .email-previews/latest.eml
+```
+
+Previews are ignored by Git. No live email was sent merely by generating a preview.
