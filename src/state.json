@@ -1,12 +1,12 @@
 {
-  "day": 2705,
+  "day": 2706,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 133,
-  "wood": 121,
+  "food": 131,
+  "wood": 112,
   "morale": 8,
-  "security": 3,
+  "security": 4,
   "health": 7,
   "known_threats": [
     "wolves",
@@ -125373,6 +125373,77 @@
         }
       ],
       "run_date": "2026-09-11"
+    },
+    {
+      "day": 2705,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 150,
+        "month": "May",
+        "month_number": 5,
+        "day_of_month": 30,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "mud",
+        "severity": 2,
+        "summary": "Mud slowed carts, boots, and field work."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": -2,
+        "wood": -9,
+        "security": 1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              },
+              {
+                "id": "person_357",
+                "name": "Soren Nell"
+              }
+            ],
+            "summary": "Pia Nell, and Soren Nell helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Mud slowed carts, boots, and field work. The president spent wood to strengthen the settlement. Work on Kitchen gardens reached 2/10.",
+      "frontier": {
+        "production": {
+          "food": 11,
+          "wood": 2
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Kitchen gardens reached 2/10."
+      },
+      "run_date": "2026-09-12"
     }
   ],
   "people": [
@@ -140718,12 +140789,13 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Pia Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+          "Pia Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Pia Nell helped strengthen the settlement on day 2705."
         ]
       }
     },
@@ -140814,12 +140886,13 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Soren Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+          "Soren Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Soren Nell helped strengthen the settlement on day 2705."
         ]
       }
     },
@@ -140952,6 +141025,17 @@
         "security": 3,
         "sites": 0,
         "projects": 0
+      },
+      {
+        "day": 2705,
+        "population": 12,
+        "food": 131,
+        "wood": 112,
+        "morale": 8,
+        "health": 7,
+        "security": 4,
+        "sites": 0,
+        "projects": 0
       }
     ],
     "archive": [
@@ -140962,7 +141046,7 @@
     ],
     "expedition": {
       "site_id": "river",
-      "progress": 3,
+      "progress": 4,
       "required": 6,
       "started_day": 2704,
       "crew": [
@@ -140983,7 +141067,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Kitchen gardens reached 1/10."
+      "summary": "Work on Kitchen gardens reached 2/10."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -140993,7 +141077,7 @@
         "id": "kitchen_gardens",
         "name": "Kitchen gardens",
         "description": "Cold frames and roots provide dependable daily food.",
-        "progress": 1,
+        "progress": 2,
         "required": 10,
         "completed_day": null
       },
@@ -141118,5 +141202,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-11"
+  "last_run_date": "2026-09-12"
 }

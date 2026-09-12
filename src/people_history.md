@@ -5744,3 +5744,7 @@ Day 2704 - Blergen Personal Stories:
 - Mara Nell (farmer) searched for forage. Status unchanged.
 - Orin Nell (scout) scouted beyond the settlement. morale 7->8.
 - Una Nell (forager) scouted beyond the settlement. morale 7->8.
+
+Day 2705 - Blergen Personal Stories:
+- Pia Nell (builder) helped strengthen the settlement. morale 8->9.
+- Soren Nell (guard) helped strengthen the settlement. morale 8->9.
