@@ -1,9 +1,9 @@
 {
-  "day": 2706,
+  "day": 2707,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 131,
+  "food": 129,
   "wood": 112,
   "morale": 8,
   "security": 4,
@@ -125444,6 +125444,95 @@
         "summary": "Work on Kitchen gardens reached 2/10."
       },
       "run_date": "2026-09-12"
+    },
+    {
+      "day": 2706,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 151,
+        "month": "May",
+        "month_number": 5,
+        "day_of_month": 31,
+        "season": "spring"
+      },
+      "weather": {
+        "season": "spring",
+        "condition": "rain",
+        "severity": 2,
+        "summary": "Rain softened the paths and soaked the outer work sites."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {
+        "resource": "fresh_water",
+        "detail": "fresh water north of camp",
+        "quality": 3,
+        "abundance": 1000,
+        "access": 1,
+        "effect_key": "fresh_water_access",
+        "selector": "local"
+      },
+      "leadership_action": "expand_fields",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": -2,
+        "crop_fields": 36
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "fresh water north of camp",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              }
+            ],
+            "summary": "Una Nell discovered fresh water north of camp."
+          }
+        ],
+        "actions": [
+          {
+            "type": "expanded_fields",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell worked the field expansion."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered fresh water north of camp. Weather: Rain softened the paths and soaked the outer work sites. The president directed labor toward preparing the fields. Work on Kitchen gardens reached 4/10.",
+      "frontier": {
+        "production": {
+          "food": 11,
+          "wood": 2
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Kitchen gardens reached 4/10."
+      },
+      "run_date": "2026-09-13"
     }
   ],
   "people": [
@@ -140630,7 +140719,8 @@
       "story": {
         "notable_events": [
           "Kara Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "Kara Nell searched for forage on day 2704."
+          "Kara Nell searched for forage on day 2704.",
+          "Kara Nell worked the field expansion on day 2706."
         ]
       }
     },
@@ -140950,14 +141040,16 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Una Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Una Nell searched for forage on day 2704.",
-          "Una Nell scouted beyond the settlement on day 2704."
+          "Una Nell scouted beyond the settlement on day 2704.",
+          "Una Nell discovered fresh water north of camp on day 2706.",
+          "Una Nell worked the field expansion on day 2706."
         ]
       }
     }
@@ -140969,7 +141061,7 @@
     "last_event_day": 99
   },
   "agriculture": {
-    "crop_fields": 0
+    "crop_fields": 36
   },
   "resources": {
     "deposits": {
@@ -141036,6 +141128,17 @@
         "security": 4,
         "sites": 0,
         "projects": 0
+      },
+      {
+        "day": 2706,
+        "population": 12,
+        "food": 129,
+        "wood": 112,
+        "morale": 8,
+        "health": 7,
+        "security": 4,
+        "sites": 0,
+        "projects": 0
       }
     ],
     "archive": [
@@ -141046,7 +141149,7 @@
     ],
     "expedition": {
       "site_id": "river",
-      "progress": 4,
+      "progress": 5,
       "required": 6,
       "started_day": 2704,
       "crew": [
@@ -141067,7 +141170,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Kitchen gardens reached 2/10."
+      "summary": "Work on Kitchen gardens reached 4/10."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141077,7 +141180,7 @@
         "id": "kitchen_gardens",
         "name": "Kitchen gardens",
         "description": "Cold frames and roots provide dependable daily food.",
-        "progress": 2,
+        "progress": 4,
         "required": 10,
         "completed_day": null
       },
@@ -141202,5 +141305,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-12"
+  "last_run_date": "2026-09-13"
 }

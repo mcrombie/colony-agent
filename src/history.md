@@ -8115,3 +8115,6 @@ Twelve new settlers arrived to rebuild Blergen; the old dead and their history r
 
 Day 2705 (Year 8, May 30) - Blergen:
 Mud slowed carts, boots, and field work. No major world event overtook Blergen, and President Lio Nell spent wood to strengthen the settlement; the day's changes reduced food by 2, reduced wood by 9, and increased security by 1. Pia Nell, and Soren Nell helped strengthen the settlement. Work on Kitchen gardens reached 2/10. The loss of people is beginning to define the settlement's future.
+
+Day 2706 (Year 8, May 31) - Blergen:
+Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Lio Nell directed labor toward preparing the fields; the day's changes reduced food by 2, and increased prepared crop fields by 36. Una Nell discovered fresh water north of camp. Una Nell, and Kara Nell worked the field expansion. Work on Kitchen gardens reached 4/10. The loss of people is beginning to define the settlement's future.

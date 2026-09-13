@@ -5748,3 +5748,8 @@ Day 2704 - Blergen Personal Stories:
 Day 2705 - Blergen Personal Stories:
 - Pia Nell (builder) helped strengthen the settlement. morale 8->9.
 - Soren Nell (guard) helped strengthen the settlement. morale 8->9.
+
+Day 2706 - Blergen Personal Stories:
+- Una Nell (forager) discovered fresh water north of camp. morale 8->9.
+- Una Nell (forager) worked the field expansion. morale 8->9.
+- Kara Nell (forager) worked the field expansion. Status unchanged.
