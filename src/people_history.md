@@ -5753,3 +5753,10 @@ Day 2706 - Blergen Personal Stories:
 - Una Nell (forager) discovered fresh water north of camp. morale 8->9.
 - Una Nell (forager) worked the field expansion. morale 8->9.
 - Kara Nell (forager) worked the field expansion. Status unchanged.
+
+Day 2707 - Blergen Personal Stories:
+- Orin Nell (scout) returned from the expedition to Silver river. Status unchanged.
+- Jory Nell (teacher) returned from the expedition to Silver river. Status unchanged.
+- Rhea Nell (cook) harvested the ready crops. Status unchanged.
+- Una Nell (forager) harvested the ready crops. Status unchanged.
+- Kara Nell (forager) harvested the ready crops. Status unchanged.

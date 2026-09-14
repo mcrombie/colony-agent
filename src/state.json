@@ -1,9 +1,9 @@
 {
-  "day": 2707,
+  "day": 2708,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 129,
+  "food": 163,
   "wood": 112,
   "morale": 8,
   "security": 4,
@@ -125533,6 +125533,104 @@
         "summary": "Work on Kitchen gardens reached 4/10."
       },
       "run_date": "2026-09-13"
+    },
+    {
+      "day": 2707,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 152,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 1,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "harvest_crops",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 34,
+        "crop_fields": -36
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "harvested_crops",
+            "people": [
+              {
+                "id": "person_356",
+                "name": "Rhea Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Rhea Nell, Una Nell, and Kara Nell harvested the ready crops."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president ordered the ready crops harvested. A sheltered bend holds fish through the winter.",
+      "frontier": {
+        "production": {
+          "food": 11,
+          "wood": 2
+        },
+        "completed": [],
+        "discoveries": [
+          {
+            "id": "river",
+            "name": "Silver river",
+            "first_visit": true,
+            "day": 2707,
+            "knowledge": 3,
+            "crew": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_348",
+                "name": "Jory Nell"
+              }
+            ],
+            "summary": "A sheltered bend holds fish through the winter."
+          }
+        ],
+        "milestones": [
+          {
+            "id": "first_expedition",
+            "name": "Beyond the palisade",
+            "day": 2707
+          }
+        ],
+        "summary": "A sheltered bend holds fish through the winter."
+      },
+      "run_date": "2026-09-14"
     }
   ],
   "people": [
@@ -140687,7 +140785,8 @@
       },
       "story": {
         "notable_events": [
-          "Jory Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+          "Jory Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "On day 2707, Jory Nell returned from Silver river: A sheltered bend holds fish through the winter."
         ]
       }
     },
@@ -140720,7 +140819,8 @@
         "notable_events": [
           "Kara Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Kara Nell searched for forage on day 2704.",
-          "Kara Nell worked the field expansion on day 2706."
+          "Kara Nell worked the field expansion on day 2706.",
+          "Kara Nell harvested ready crops on day 2707."
         ]
       }
     },
@@ -140852,7 +140952,8 @@
         "notable_events": [
           "Orin Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Orin Nell searched for forage on day 2704.",
-          "Orin Nell scouted beyond the settlement on day 2704."
+          "Orin Nell scouted beyond the settlement on day 2704.",
+          "On day 2707, Orin Nell returned from Silver river: A sheltered bend holds fish through the winter."
         ]
       }
     },
@@ -140949,7 +141050,8 @@
       },
       "story": {
         "notable_events": [
-          "Rhea Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+          "Rhea Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Rhea Nell harvested ready crops on day 2707."
         ]
       }
     },
@@ -141049,7 +141151,8 @@
           "Una Nell searched for forage on day 2704.",
           "Una Nell scouted beyond the settlement on day 2704.",
           "Una Nell discovered fresh water north of camp on day 2706.",
-          "Una Nell worked the field expansion on day 2706."
+          "Una Nell worked the field expansion on day 2706.",
+          "Una Nell harvested ready crops on day 2707."
         ]
       }
     }
@@ -141061,7 +141164,7 @@
     "last_event_day": 99
   },
   "agriculture": {
-    "crop_fields": 36
+    "crop_fields": 0
   },
   "resources": {
     "deposits": {
@@ -141103,9 +141206,15 @@
     "chapter": 2,
     "started_day": 2704,
     "focus": "Build Kitchen gardens",
-    "knowledge": 0,
-    "expeditions_completed": 0,
-    "milestones": [],
+    "knowledge": 3,
+    "expeditions_completed": 1,
+    "milestones": [
+      {
+        "id": "first_expedition",
+        "name": "Beyond the palisade",
+        "day": 2707
+      }
+    ],
     "timeline": [
       {
         "day": 2704,
@@ -141139,38 +141248,64 @@
         "security": 4,
         "sites": 0,
         "projects": 0
+      },
+      {
+        "day": 2707,
+        "population": 12,
+        "food": 163,
+        "wood": 112,
+        "morale": 8,
+        "health": 7,
+        "security": 4,
+        "sites": 1,
+        "projects": 0
       }
     ],
     "archive": [
       {
         "day": 2704,
         "summary": "Twelve new settlers arrived to rebuild Blergen; the old dead and their history remain remembered."
+      },
+      {
+        "day": 2707,
+        "summary": "A sheltered bend holds fish through the winter."
       }
     ],
-    "expedition": {
-      "site_id": "river",
-      "progress": 5,
-      "required": 6,
-      "started_day": 2704,
-      "crew": [
-        {
-          "id": "person_353",
-          "name": "Orin Nell"
-        },
-        {
-          "id": "person_348",
-          "name": "Jory Nell"
-        }
-      ]
-    },
+    "expedition": null,
     "last_report": {
       "production": {
         "food": 11,
         "wood": 2
       },
       "completed": [],
-      "discoveries": [],
-      "summary": "Work on Kitchen gardens reached 4/10."
+      "discoveries": [
+        {
+          "id": "river",
+          "name": "Silver river",
+          "first_visit": true,
+          "day": 2707,
+          "knowledge": 3,
+          "crew": [
+            {
+              "id": "person_353",
+              "name": "Orin Nell"
+            },
+            {
+              "id": "person_348",
+              "name": "Jory Nell"
+            }
+          ],
+          "summary": "A sheltered bend holds fish through the winter."
+        }
+      ],
+      "milestones": [
+        {
+          "id": "first_expedition",
+          "name": "Beyond the palisade",
+          "day": 2707
+        }
+      ],
+      "summary": "A sheltered bend holds fish through the winter."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141180,7 +141315,7 @@
         "id": "kitchen_gardens",
         "name": "Kitchen gardens",
         "description": "Cold frames and roots provide dependable daily food.",
-        "progress": 4,
+        "progress": 6,
         "required": 10,
         "completed_day": null
       },
@@ -141234,9 +141369,9 @@
         "y": 31,
         "required": 6,
         "finding": "A sheltered bend holds fish through the winter.",
-        "discovered": false,
-        "survey": 0,
-        "discovered_day": null
+        "discovered": true,
+        "survey": 1,
+        "discovered_day": 2707
       },
       {
         "id": "pinewood",
@@ -141305,5 +141440,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-13"
+  "last_run_date": "2026-09-14"
 }

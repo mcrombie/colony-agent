@@ -8118,3 +8118,6 @@ Mud slowed carts, boots, and field work. No major world event overtook Blergen, 
 
 Day 2706 (Year 8, May 31) - Blergen:
 Rain softened the paths and soaked the outer work sites. A discovery gave the colony something new to discuss, and President Lio Nell directed labor toward preparing the fields; the day's changes reduced food by 2, and increased prepared crop fields by 36. Una Nell discovered fresh water north of camp. Una Nell, and Kara Nell worked the field expansion. Work on Kitchen gardens reached 4/10. The loss of people is beginning to define the settlement's future.
+
+Day 2707 (Year 8, June 1) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell ordered the ready crops harvested; the day's changes increased food by 34, and reduced prepared crop fields by 36. Rhea Nell, Una Nell, and Kara Nell harvested the ready crops. A sheltered bend holds fish through the winter. Milestones reached: Beyond the palisade. The loss of people is beginning to define the settlement's future.
