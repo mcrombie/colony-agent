@@ -1,10 +1,10 @@
 {
-  "day": 2708,
+  "day": 2709,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 163,
-  "wood": 112,
+  "food": 161,
+  "wood": 118,
   "morale": 8,
   "security": 4,
   "health": 7,
@@ -125631,6 +125631,76 @@
         "summary": "A sheltered bend holds fish through the winter."
       },
       "run_date": "2026-09-14"
+    },
+    {
+      "day": 2708,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 153,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 2,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "rain",
+        "severity": 2,
+        "summary": "Rain softened the paths and soaked the outer work sites."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": -2,
+        "wood": 6
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Rain softened the paths and soaked the outer work sites. The president sent scouts beyond the settlement. Work on Kitchen gardens reached 7/10.",
+      "frontier": {
+        "production": {
+          "food": 11,
+          "wood": 2
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Kitchen gardens reached 7/10."
+      },
+      "run_date": "2026-09-15"
     }
   ],
   "people": [
@@ -140812,7 +140882,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -140820,7 +140890,8 @@
           "Kara Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Kara Nell searched for forage on day 2704.",
           "Kara Nell worked the field expansion on day 2706.",
-          "Kara Nell harvested ready crops on day 2707."
+          "Kara Nell harvested ready crops on day 2707.",
+          "Kara Nell scouted beyond the settlement on day 2708."
         ]
       }
     },
@@ -141142,7 +141213,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141152,7 +141223,8 @@
           "Una Nell scouted beyond the settlement on day 2704.",
           "Una Nell discovered fresh water north of camp on day 2706.",
           "Una Nell worked the field expansion on day 2706.",
-          "Una Nell harvested ready crops on day 2707."
+          "Una Nell harvested ready crops on day 2707.",
+          "Una Nell scouted beyond the settlement on day 2708."
         ]
       }
     }
@@ -141259,6 +141331,17 @@
         "security": 4,
         "sites": 1,
         "projects": 0
+      },
+      {
+        "day": 2708,
+        "population": 12,
+        "food": 161,
+        "wood": 118,
+        "morale": 8,
+        "health": 7,
+        "security": 4,
+        "sites": 1,
+        "projects": 0
       }
     ],
     "archive": [
@@ -141271,41 +141354,30 @@
         "summary": "A sheltered bend holds fish through the winter."
       }
     ],
-    "expedition": null,
+    "expedition": {
+      "site_id": "pinewood",
+      "progress": 3,
+      "required": 8,
+      "started_day": 2708,
+      "crew": [
+        {
+          "id": "person_349",
+          "name": "Kara Nell"
+        },
+        {
+          "id": "person_350",
+          "name": "Lio Nell"
+        }
+      ]
+    },
     "last_report": {
       "production": {
         "food": 11,
         "wood": 2
       },
       "completed": [],
-      "discoveries": [
-        {
-          "id": "river",
-          "name": "Silver river",
-          "first_visit": true,
-          "day": 2707,
-          "knowledge": 3,
-          "crew": [
-            {
-              "id": "person_353",
-              "name": "Orin Nell"
-            },
-            {
-              "id": "person_348",
-              "name": "Jory Nell"
-            }
-          ],
-          "summary": "A sheltered bend holds fish through the winter."
-        }
-      ],
-      "milestones": [
-        {
-          "id": "first_expedition",
-          "name": "Beyond the palisade",
-          "day": 2707
-        }
-      ],
-      "summary": "A sheltered bend holds fish through the winter."
+      "discoveries": [],
+      "summary": "Work on Kitchen gardens reached 7/10."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141315,7 +141387,7 @@
         "id": "kitchen_gardens",
         "name": "Kitchen gardens",
         "description": "Cold frames and roots provide dependable daily food.",
-        "progress": 6,
+        "progress": 7,
         "required": 10,
         "completed_day": null
       },
@@ -141440,5 +141512,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-14"
+  "last_run_date": "2026-09-15"
 }

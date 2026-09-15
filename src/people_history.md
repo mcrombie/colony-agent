@@ -5760,3 +5760,7 @@ Day 2707 - Blergen Personal Stories:
 - Rhea Nell (cook) harvested the ready crops. Status unchanged.
 - Una Nell (forager) harvested the ready crops. Status unchanged.
 - Kara Nell (forager) harvested the ready crops. Status unchanged.
+
+Day 2708 - Blergen Personal Stories:
+- Una Nell (forager) scouted beyond the settlement. morale 9->10.
+- Kara Nell (forager) scouted beyond the settlement. morale 7->8.
