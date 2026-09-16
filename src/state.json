@@ -1,9 +1,9 @@
 {
-  "day": 2709,
+  "day": 2710,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 161,
+  "food": 159,
   "wood": 118,
   "morale": 8,
   "security": 4,
@@ -125701,6 +125701,74 @@
         "summary": "Work on Kitchen gardens reached 7/10."
       },
       "run_date": "2026-09-15"
+    },
+    {
+      "day": 2709,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 154,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 3,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "expand_fields",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": -2,
+        "crop_fields": 24
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "expanded_fields",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell worked the field expansion."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president directed labor toward preparing the fields. Work on Kitchen gardens reached 9/10.",
+      "frontier": {
+        "production": {
+          "food": 11,
+          "wood": 2
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Kitchen gardens reached 9/10."
+      },
+      "run_date": "2026-09-16"
     }
   ],
   "people": [
@@ -140891,7 +140959,8 @@
           "Kara Nell searched for forage on day 2704.",
           "Kara Nell worked the field expansion on day 2706.",
           "Kara Nell harvested ready crops on day 2707.",
-          "Kara Nell scouted beyond the settlement on day 2708."
+          "Kara Nell scouted beyond the settlement on day 2708.",
+          "Kara Nell worked the field expansion on day 2709."
         ]
       }
     },
@@ -141224,7 +141293,8 @@
           "Una Nell discovered fresh water north of camp on day 2706.",
           "Una Nell worked the field expansion on day 2706.",
           "Una Nell harvested ready crops on day 2707.",
-          "Una Nell scouted beyond the settlement on day 2708."
+          "Una Nell scouted beyond the settlement on day 2708.",
+          "Una Nell worked the field expansion on day 2709."
         ]
       }
     }
@@ -141236,7 +141306,7 @@
     "last_event_day": 99
   },
   "agriculture": {
-    "crop_fields": 0
+    "crop_fields": 24
   },
   "resources": {
     "deposits": {
@@ -141342,6 +141412,17 @@
         "security": 4,
         "sites": 1,
         "projects": 0
+      },
+      {
+        "day": 2709,
+        "population": 12,
+        "food": 159,
+        "wood": 118,
+        "morale": 8,
+        "health": 7,
+        "security": 4,
+        "sites": 1,
+        "projects": 0
       }
     ],
     "archive": [
@@ -141356,7 +141437,7 @@
     ],
     "expedition": {
       "site_id": "pinewood",
-      "progress": 3,
+      "progress": 4,
       "required": 8,
       "started_day": 2708,
       "crew": [
@@ -141377,7 +141458,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Kitchen gardens reached 7/10."
+      "summary": "Work on Kitchen gardens reached 9/10."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141387,7 +141468,7 @@
         "id": "kitchen_gardens",
         "name": "Kitchen gardens",
         "description": "Cold frames and roots provide dependable daily food.",
-        "progress": 7,
+        "progress": 9,
         "required": 10,
         "completed_day": null
       },
@@ -141512,5 +141593,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-15"
+  "last_run_date": "2026-09-16"
 }

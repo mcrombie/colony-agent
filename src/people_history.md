@@ -5764,3 +5764,7 @@ Day 2707 - Blergen Personal Stories:
 Day 2708 - Blergen Personal Stories:
 - Una Nell (forager) scouted beyond the settlement. morale 9->10.
 - Kara Nell (forager) scouted beyond the settlement. morale 7->8.
+
+Day 2709 - Blergen Personal Stories:
+- Una Nell (forager) worked the field expansion. Status unchanged.
+- Kara Nell (forager) worked the field expansion. Status unchanged.
