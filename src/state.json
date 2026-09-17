@@ -1,13 +1,13 @@
 {
-  "day": 2710,
+  "day": 2711,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 159,
-  "wood": 118,
-  "morale": 8,
+  "food": 155,
+  "wood": 124,
+  "morale": 9,
   "security": 4,
-  "health": 7,
+  "health": 6,
   "known_threats": [
     "wolves",
     "winter",
@@ -125769,6 +125769,92 @@
         "summary": "Work on Kitchen gardens reached 9/10."
       },
       "run_date": "2026-09-16"
+    },
+    {
+      "day": 2710,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 155,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 4,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "dry_heat",
+        "severity": 3,
+        "summary": "Dry heat pulled moisture from fields and people alike."
+      },
+      "weather_effects": {
+        "food": -2,
+        "health": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": -4,
+        "wood": 6,
+        "morale": 1,
+        "health": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Dry heat pulled moisture from fields and people alike. The president sent scouts beyond the settlement. The colony completed Kitchen gardens.",
+      "frontier": {
+        "production": {
+          "food": 11,
+          "wood": 2
+        },
+        "completed": [
+          {
+            "id": "kitchen_gardens",
+            "name": "Kitchen gardens",
+            "day": 2710
+          }
+        ],
+        "discoveries": [],
+        "milestones": [
+          {
+            "id": "first_roots",
+            "name": "First roots",
+            "day": 2710
+          }
+        ],
+        "summary": "The colony completed Kitchen gardens."
+      },
+      "run_date": "2026-09-17"
     }
   ],
   "people": [
@@ -140917,8 +141003,8 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
-        "morale": 9,
+        "health": 6,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -140950,7 +141036,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -140960,7 +141046,8 @@
           "Kara Nell worked the field expansion on day 2706.",
           "Kara Nell harvested ready crops on day 2707.",
           "Kara Nell scouted beyond the settlement on day 2708.",
-          "Kara Nell worked the field expansion on day 2709."
+          "Kara Nell worked the field expansion on day 2709.",
+          "Kara Nell scouted beyond the settlement on day 2710."
         ]
       }
     },
@@ -140987,7 +141074,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141020,7 +141107,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 7,
+        "morale": 8,
         "hunger": 0
       },
       "story": {
@@ -141053,7 +141140,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -141085,7 +141172,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -141120,7 +141207,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141294,7 +141381,8 @@
           "Una Nell worked the field expansion on day 2706.",
           "Una Nell harvested ready crops on day 2707.",
           "Una Nell scouted beyond the settlement on day 2708.",
-          "Una Nell worked the field expansion on day 2709."
+          "Una Nell worked the field expansion on day 2709.",
+          "Una Nell scouted beyond the settlement on day 2710."
         ]
       }
     }
@@ -141347,7 +141435,7 @@
     "version": 1,
     "chapter": 2,
     "started_day": 2704,
-    "focus": "Build Kitchen gardens",
+    "focus": "Build Rain cistern",
     "knowledge": 3,
     "expeditions_completed": 1,
     "milestones": [
@@ -141355,6 +141443,11 @@
         "id": "first_expedition",
         "name": "Beyond the palisade",
         "day": 2707
+      },
+      {
+        "id": "first_roots",
+        "name": "First roots",
+        "day": 2710
       }
     ],
     "timeline": [
@@ -141423,6 +141516,17 @@
         "security": 4,
         "sites": 1,
         "projects": 0
+      },
+      {
+        "day": 2710,
+        "population": 12,
+        "food": 155,
+        "wood": 124,
+        "morale": 9,
+        "health": 6,
+        "security": 4,
+        "sites": 1,
+        "projects": 1
       }
     ],
     "archive": [
@@ -141433,11 +141537,15 @@
       {
         "day": 2707,
         "summary": "A sheltered bend holds fish through the winter."
+      },
+      {
+        "day": 2710,
+        "summary": "The colony completed Kitchen gardens."
       }
     ],
     "expedition": {
       "site_id": "pinewood",
-      "progress": 4,
+      "progress": 7,
       "required": 8,
       "started_day": 2708,
       "crew": [
@@ -141456,9 +141564,22 @@
         "food": 11,
         "wood": 2
       },
-      "completed": [],
+      "completed": [
+        {
+          "id": "kitchen_gardens",
+          "name": "Kitchen gardens",
+          "day": 2710
+        }
+      ],
       "discoveries": [],
-      "summary": "Work on Kitchen gardens reached 9/10."
+      "milestones": [
+        {
+          "id": "first_roots",
+          "name": "First roots",
+          "day": 2710
+        }
+      ],
+      "summary": "The colony completed Kitchen gardens."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141468,9 +141589,9 @@
         "id": "kitchen_gardens",
         "name": "Kitchen gardens",
         "description": "Cold frames and roots provide dependable daily food.",
-        "progress": 9,
+        "progress": 10,
         "required": 10,
-        "completed_day": null
+        "completed_day": 2710
       },
       {
         "id": "rain_cistern",
@@ -141593,5 +141714,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-16"
+  "last_run_date": "2026-09-17"
 }

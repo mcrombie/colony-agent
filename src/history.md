@@ -8127,3 +8127,6 @@ Rain softened the paths and soaked the outer work sites. No major world event ov
 
 Day 2709 (Year 8, June 3) - Blergen:
 Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell directed labor toward preparing the fields; the day's changes reduced food by 2, and increased prepared crop fields by 24. Una Nell, and Kara Nell worked the field expansion. Work on Kitchen gardens reached 9/10. The loss of people is beginning to define the settlement's future.
+
+Day 2710 (Year 8, June 4) - Blergen:
+Dry heat pulled moisture from fields and people alike. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes reduced food by 4, increased wood by 6, increased morale by 1, and reduced health by 1. Una Nell, and Kara Nell scouted beyond the settlement. The colony completed Kitchen gardens. Milestones reached: First roots. The loss of people is beginning to define the settlement's future.
