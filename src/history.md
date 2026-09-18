@@ -8130,3 +8130,6 @@ Clear skies left the day's work mostly to the colony. No major world event overt
 
 Day 2710 (Year 8, June 4) - Blergen:
 Dry heat pulled moisture from fields and people alike. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes reduced food by 4, increased wood by 6, increased morale by 1, and reduced health by 1. Una Nell, and Kara Nell scouted beyond the settlement. The colony completed Kitchen gardens. Milestones reached: First roots. The loss of people is beginning to define the settlement's future.
+
+Day 2711 (Year 8, June 5) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 6, and increased morale by 1. Una Nell, and Kara Nell scouted beyond the settlement. Resin-rich fallen pine can heat the settlement. The loss of people is beginning to define the settlement's future.

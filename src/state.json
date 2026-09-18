@@ -1,11 +1,11 @@
 {
-  "day": 2711,
+  "day": 2712,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 155,
-  "wood": 124,
-  "morale": 9,
+  "food": 157,
+  "wood": 130,
+  "morale": 10,
   "security": 4,
   "health": 6,
   "known_threats": [
@@ -125855,6 +125855,94 @@
         "summary": "The colony completed Kitchen gardens."
       },
       "run_date": "2026-09-17"
+    },
+    {
+      "day": 2711,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 156,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 5,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 6,
+        "morale": 1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement. Resin-rich fallen pine can heat the settlement.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 2
+        },
+        "completed": [],
+        "discoveries": [
+          {
+            "id": "pinewood",
+            "name": "Whispering pines",
+            "first_visit": true,
+            "day": 2711,
+            "knowledge": 3,
+            "crew": [
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              },
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              }
+            ],
+            "summary": "Resin-rich fallen pine can heat the settlement."
+          }
+        ],
+        "summary": "Resin-rich fallen pine can heat the settlement."
+      },
+      "run_date": "2026-09-18"
     }
   ],
   "people": [
@@ -141036,7 +141124,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141047,7 +141135,9 @@
           "Kara Nell harvested ready crops on day 2707.",
           "Kara Nell scouted beyond the settlement on day 2708.",
           "Kara Nell worked the field expansion on day 2709.",
-          "Kara Nell scouted beyond the settlement on day 2710."
+          "Kara Nell scouted beyond the settlement on day 2710.",
+          "Kara Nell scouted beyond the settlement on day 2711.",
+          "On day 2711, Kara Nell returned from Whispering pines: Resin-rich fallen pine can heat the settlement."
         ]
       }
     },
@@ -141080,7 +141170,8 @@
       "story": {
         "notable_events": [
           "Lio Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "Lio Nell became president of Blergen on day 2704."
+          "Lio Nell became president of Blergen on day 2704.",
+          "On day 2711, Lio Nell returned from Whispering pines: Resin-rich fallen pine can heat the settlement."
         ]
       }
     },
@@ -141107,7 +141198,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141140,7 +141231,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141172,7 +141263,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141240,7 +141331,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141272,7 +141363,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141305,7 +141396,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141337,7 +141428,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 8,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141382,7 +141473,8 @@
           "Una Nell harvested ready crops on day 2707.",
           "Una Nell scouted beyond the settlement on day 2708.",
           "Una Nell worked the field expansion on day 2709.",
-          "Una Nell scouted beyond the settlement on day 2710."
+          "Una Nell scouted beyond the settlement on day 2710.",
+          "Una Nell scouted beyond the settlement on day 2711."
         ]
       }
     }
@@ -141436,8 +141528,8 @@
     "chapter": 2,
     "started_day": 2704,
     "focus": "Build Rain cistern",
-    "knowledge": 3,
-    "expeditions_completed": 1,
+    "knowledge": 6,
+    "expeditions_completed": 2,
     "milestones": [
       {
         "id": "first_expedition",
@@ -141527,6 +141619,17 @@
         "security": 4,
         "sites": 1,
         "projects": 1
+      },
+      {
+        "day": 2711,
+        "population": 12,
+        "food": 157,
+        "wood": 130,
+        "morale": 10,
+        "health": 6,
+        "security": 4,
+        "sites": 2,
+        "projects": 1
       }
     ],
     "archive": [
@@ -141541,45 +141644,40 @@
       {
         "day": 2710,
         "summary": "The colony completed Kitchen gardens."
+      },
+      {
+        "day": 2711,
+        "summary": "Resin-rich fallen pine can heat the settlement."
       }
     ],
-    "expedition": {
-      "site_id": "pinewood",
-      "progress": 7,
-      "required": 8,
-      "started_day": 2708,
-      "crew": [
-        {
-          "id": "person_349",
-          "name": "Kara Nell"
-        },
-        {
-          "id": "person_350",
-          "name": "Lio Nell"
-        }
-      ]
-    },
+    "expedition": null,
     "last_report": {
       "production": {
-        "food": 11,
+        "food": 15,
         "wood": 2
       },
-      "completed": [
+      "completed": [],
+      "discoveries": [
         {
-          "id": "kitchen_gardens",
-          "name": "Kitchen gardens",
-          "day": 2710
+          "id": "pinewood",
+          "name": "Whispering pines",
+          "first_visit": true,
+          "day": 2711,
+          "knowledge": 3,
+          "crew": [
+            {
+              "id": "person_349",
+              "name": "Kara Nell"
+            },
+            {
+              "id": "person_350",
+              "name": "Lio Nell"
+            }
+          ],
+          "summary": "Resin-rich fallen pine can heat the settlement."
         }
       ],
-      "discoveries": [],
-      "milestones": [
-        {
-          "id": "first_roots",
-          "name": "First roots",
-          "day": 2710
-        }
-      ],
-      "summary": "The colony completed Kitchen gardens."
+      "summary": "Resin-rich fallen pine can heat the settlement."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141597,7 +141695,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 0,
+        "progress": 1,
         "required": 14,
         "completed_day": null
       },
@@ -141655,9 +141753,9 @@
         "y": 68,
         "required": 8,
         "finding": "Resin-rich fallen pine can heat the settlement.",
-        "discovered": false,
-        "survey": 0,
-        "discovered_day": null
+        "discovered": true,
+        "survey": 1,
+        "discovered_day": 2711
       },
       {
         "id": "ridge",
@@ -141714,5 +141812,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-17"
+  "last_run_date": "2026-09-18"
 }

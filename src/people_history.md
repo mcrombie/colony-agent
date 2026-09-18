@@ -5772,3 +5772,9 @@ Day 2709 - Blergen Personal Stories:
 Day 2710 - Blergen Personal Stories:
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
 - Kara Nell (forager) scouted beyond the settlement. morale 8->9.
+
+Day 2711 - Blergen Personal Stories:
+- Kara Nell (forager) returned from the expedition to Whispering pines. morale 9->10.
+- Lio Nell (carpenter) returned from the expedition to Whispering pines. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
+- Kara Nell (forager) scouted beyond the settlement. morale 9->10.
