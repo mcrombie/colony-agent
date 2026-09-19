@@ -1,10 +1,10 @@
 {
-  "day": 2712,
+  "day": 2713,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 157,
-  "wood": 130,
+  "food": 159,
+  "wood": 131,
   "morale": 10,
   "security": 4,
   "health": 6,
@@ -125943,6 +125943,76 @@
         "summary": "Resin-rich fallen pine can heat the settlement."
       },
       "run_date": "2026-09-18"
+    },
+    {
+      "day": 2712,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 157,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 6,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "make_pottery",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 1,
+        "clay": -8,
+        "pottery": 1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "made_pottery",
+            "people": [
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              },
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              }
+            ],
+            "summary": "Lio Nell, and Pia Nell shaped clay into storage pottery."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president ordered clay shaped into storage pottery. Work on Rain cistern reached 3/14.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Rain cistern reached 3/14."
+      },
+      "run_date": "2026-09-19"
     }
   ],
   "people": [
@@ -141171,7 +141241,8 @@
         "notable_events": [
           "Lio Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Lio Nell became president of Blergen on day 2704.",
-          "On day 2711, Lio Nell returned from Whispering pines: Resin-rich fallen pine can heat the settlement."
+          "On day 2711, Lio Nell returned from Whispering pines: Resin-rich fallen pine can heat the settlement.",
+          "Lio Nell shaped clay storage pottery on day 2712."
         ]
       }
     },
@@ -141304,7 +141375,8 @@
       "story": {
         "notable_events": [
           "Pia Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "Pia Nell helped strengthen the settlement on day 2705."
+          "Pia Nell helped strengthen the settlement on day 2705.",
+          "Pia Nell shaped clay storage pottery on day 2712."
         ]
       }
     },
@@ -141513,9 +141585,9 @@
       }
     },
     "stockpiles": {
-      "clay": 1942,
+      "clay": 1934,
       "bricks": 0,
-      "pottery": 13
+      "pottery": 14
     },
     "improvements": {
       "kiln": 0,
@@ -141630,6 +141702,17 @@
         "security": 4,
         "sites": 2,
         "projects": 1
+      },
+      {
+        "day": 2712,
+        "population": 12,
+        "food": 159,
+        "wood": 131,
+        "morale": 10,
+        "health": 6,
+        "security": 4,
+        "sites": 2,
+        "projects": 1
       }
     ],
     "archive": [
@@ -141650,34 +141733,30 @@
         "summary": "Resin-rich fallen pine can heat the settlement."
       }
     ],
-    "expedition": null,
+    "expedition": {
+      "site_id": "ridge",
+      "progress": 1,
+      "required": 10,
+      "started_day": 2712,
+      "crew": [
+        {
+          "id": "person_351",
+          "name": "Mara Nell"
+        },
+        {
+          "id": "person_352",
+          "name": "Niko Nell"
+        }
+      ]
+    },
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 2
+        "wood": 3
       },
       "completed": [],
-      "discoveries": [
-        {
-          "id": "pinewood",
-          "name": "Whispering pines",
-          "first_visit": true,
-          "day": 2711,
-          "knowledge": 3,
-          "crew": [
-            {
-              "id": "person_349",
-              "name": "Kara Nell"
-            },
-            {
-              "id": "person_350",
-              "name": "Lio Nell"
-            }
-          ],
-          "summary": "Resin-rich fallen pine can heat the settlement."
-        }
-      ],
-      "summary": "Resin-rich fallen pine can heat the settlement."
+      "discoveries": [],
+      "summary": "Work on Rain cistern reached 3/14."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141695,7 +141774,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 1,
+        "progress": 3,
         "required": 14,
         "completed_day": null
       },
@@ -141812,5 +141891,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-18"
+  "last_run_date": "2026-09-19"
 }

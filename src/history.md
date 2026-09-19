@@ -8133,3 +8133,6 @@ Dry heat pulled moisture from fields and people alike. No major world event over
 
 Day 2711 (Year 8, June 5) - Blergen:
 Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 6, and increased morale by 1. Una Nell, and Kara Nell scouted beyond the settlement. Resin-rich fallen pine can heat the settlement. The loss of people is beginning to define the settlement's future.
+
+Day 2712 (Year 8, June 6) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell ordered clay shaped into storage pottery; the day's changes increased food by 2, increased wood by 1, reduced clay by 8, and increased pottery by 1. Lio Nell, and Pia Nell shaped clay into storage pottery. Work on Rain cistern reached 3/14. The loss of people is beginning to define the settlement's future.

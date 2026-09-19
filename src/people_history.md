@@ -5778,3 +5778,7 @@ Day 2711 - Blergen Personal Stories:
 - Lio Nell (carpenter) returned from the expedition to Whispering pines. Status unchanged.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
 - Kara Nell (forager) scouted beyond the settlement. morale 9->10.
+
+Day 2712 - Blergen Personal Stories:
+- Lio Nell (carpenter) shaped clay storage pottery. Status unchanged.
+- Pia Nell (builder) shaped clay storage pottery. Status unchanged.
