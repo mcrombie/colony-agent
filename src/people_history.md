@@ -5782,3 +5782,7 @@ Day 2711 - Blergen Personal Stories:
 Day 2712 - Blergen Personal Stories:
 - Lio Nell (carpenter) shaped clay storage pottery. Status unchanged.
 - Pia Nell (builder) shaped clay storage pottery. Status unchanged.
+
+Day 2713 - Blergen Personal Stories:
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.
+- Orin Nell (scout) scouted beyond the settlement. Status unchanged.
