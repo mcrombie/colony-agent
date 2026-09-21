@@ -1,12 +1,12 @@
 {
-  "day": 2714,
+  "day": 2715,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 161,
-  "wood": 138,
-  "morale": 10,
-  "security": 4,
+  "food": 163,
+  "wood": 140,
+  "morale": 9,
+  "security": 3,
   "health": 6,
   "known_threats": [
     "wolves",
@@ -126083,6 +126083,94 @@
         "summary": "Work on Rain cistern reached 4/14."
       },
       "run_date": "2026-09-20"
+    },
+    {
+      "day": 2714,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 159,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 8,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "thunderstorm",
+        "severity": 3,
+        "summary": "A thunderstorm rolled over the settlement."
+      },
+      "weather_effects": {
+        "security": -1
+      },
+      "event_type": "dispute",
+      "world_event": "dispute",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "mediate_dispute",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 2,
+        "morale": -1,
+        "security": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "conflicts": [
+          {
+            "type": "dispute",
+            "people": [
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              },
+              {
+                "id": "person_351",
+                "name": "Mara Nell"
+              }
+            ],
+            "summary": "Lio Nell and Mara Nell became rivals."
+          }
+        ],
+        "actions": [
+          {
+            "type": "mediated_dispute",
+            "people": [
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              },
+              {
+                "id": "person_351",
+                "name": "Mara Nell"
+              }
+            ],
+            "summary": "Lio Nell and Mara Nell stepped back from rivalry."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A dispute unsettled the colony. Weather: A thunderstorm rolled over the settlement. The president worked to mediate local tensions. Work on Rain cistern reached 5/14.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Rain cistern reached 5/14."
+      },
+      "run_date": "2026-09-21"
     }
   ],
   "people": [
@@ -141232,7 +141320,7 @@
       "status": {
         "alive": true,
         "health": 6,
-        "morale": 10,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -141313,7 +141401,9 @@
           "Lio Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Lio Nell became president of Blergen on day 2704.",
           "On day 2711, Lio Nell returned from Whispering pines: Resin-rich fallen pine can heat the settlement.",
-          "Lio Nell shaped clay storage pottery on day 2712."
+          "Lio Nell shaped clay storage pottery on day 2712.",
+          "Lio Nell argued with Mara Nell on day 2714.",
+          "Lio Nell reconciled with Mara Nell on day 2714."
         ]
       }
     },
@@ -141346,7 +141436,9 @@
       "story": {
         "notable_events": [
           "Mara Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "Mara Nell searched for forage on day 2704."
+          "Mara Nell searched for forage on day 2704.",
+          "Mara Nell argued with Lio Nell on day 2714.",
+          "Mara Nell reconciled with Lio Nell on day 2714."
         ]
       }
     },
@@ -141796,6 +141888,17 @@
         "security": 4,
         "sites": 2,
         "projects": 1
+      },
+      {
+        "day": 2714,
+        "population": 12,
+        "food": 163,
+        "wood": 140,
+        "morale": 9,
+        "health": 6,
+        "security": 3,
+        "sites": 2,
+        "projects": 1
       }
     ],
     "archive": [
@@ -141818,7 +141921,7 @@
     ],
     "expedition": {
       "site_id": "ridge",
-      "progress": 4,
+      "progress": 5,
       "required": 10,
       "started_day": 2712,
       "crew": [
@@ -141839,7 +141942,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Rain cistern reached 4/14."
+      "summary": "Work on Rain cistern reached 5/14."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141857,7 +141960,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 4,
+        "progress": 5,
         "required": 14,
         "completed_day": null
       },
@@ -141974,5 +142077,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-20"
+  "last_run_date": "2026-09-21"
 }

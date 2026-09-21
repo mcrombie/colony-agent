@@ -8139,3 +8139,6 @@ Clear skies left the day's work mostly to the colony. No major world event overt
 
 Day 2713 (Year 8, June 7) - Blergen:
 Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Kara Nell, and Orin Nell scouted beyond the settlement. Work on Rain cistern reached 4/14. The loss of people is beginning to define the settlement's future.
+
+Day 2714 (Year 8, June 8) - Blergen:
+A thunderstorm rolled over the settlement. A dispute unsettled the day's work, and President Lio Nell worked to mediate the tension; the day's changes increased food by 2, increased wood by 2, reduced morale by 1, and reduced security by 1. Lio Nell and Mara Nell became rivals. Lio Nell and Mara Nell stepped back from rivalry. Work on Rain cistern reached 5/14. The loss of people is beginning to define the settlement's future.

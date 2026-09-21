@@ -5786,3 +5786,8 @@ Day 2712 - Blergen Personal Stories:
 Day 2713 - Blergen Personal Stories:
 - Kara Nell (forager) scouted beyond the settlement. Status unchanged.
 - Orin Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 2714 - Blergen Personal Stories:
+- Lio Nell (carpenter) and Mara Nell (farmer) became rivals. Lio Nell: Status unchanged. Mara Nell: Status unchanged.
+- Lio Nell (carpenter) stepped back from rivalry. Status unchanged.
+- Mara Nell (farmer) stepped back from rivalry. Status unchanged.
