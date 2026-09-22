@@ -5791,3 +5791,7 @@ Day 2714 - Blergen Personal Stories:
 - Lio Nell (carpenter) and Mara Nell (farmer) became rivals. Lio Nell: Status unchanged. Mara Nell: Status unchanged.
 - Lio Nell (carpenter) stepped back from rivalry. Status unchanged.
 - Mara Nell (farmer) stepped back from rivalry. Status unchanged.
+
+Day 2715 - Blergen Personal Stories:
+- Pia Nell (builder) helped strengthen the settlement. Status unchanged.
+- Soren Nell (guard) helped strengthen the settlement. Status unchanged.

@@ -8142,3 +8142,6 @@ Rain softened the paths and soaked the outer work sites. No major world event ov
 
 Day 2714 (Year 8, June 8) - Blergen:
 A thunderstorm rolled over the settlement. A dispute unsettled the day's work, and President Lio Nell worked to mediate the tension; the day's changes increased food by 2, increased wood by 2, reduced morale by 1, and reduced security by 1. Lio Nell and Mara Nell became rivals. Lio Nell and Mara Nell stepped back from rivalry. Work on Rain cistern reached 5/14. The loss of people is beginning to define the settlement's future.
+
+Day 2715 (Year 8, June 9) - Blergen:
+Heat made the day's work tiring. No major world event overtook Blergen, and President Lio Nell spent wood to strengthen the settlement; the day's changes increased food by 2, reduced wood by 8, increased morale by 1, increased security by 1, and reduced health by 1. Pia Nell, and Soren Nell helped strengthen the settlement. Work on Rain cistern reached 6/14. The loss of people is beginning to define the settlement's future.

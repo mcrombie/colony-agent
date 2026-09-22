@@ -1,13 +1,13 @@
 {
-  "day": 2715,
+  "day": 2716,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 163,
-  "wood": 140,
-  "morale": 9,
-  "security": 3,
-  "health": 6,
+  "food": 165,
+  "wood": 132,
+  "morale": 10,
+  "security": 4,
+  "health": 5,
   "known_threats": [
     "wolves",
     "winter",
@@ -126171,6 +126171,79 @@
         "summary": "Work on Rain cistern reached 5/14."
       },
       "run_date": "2026-09-21"
+    },
+    {
+      "day": 2715,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 160,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 9,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "hot",
+        "severity": 2,
+        "summary": "Heat made the day's work tiring."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": -8,
+        "morale": 1,
+        "security": 1,
+        "health": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              },
+              {
+                "id": "person_357",
+                "name": "Soren Nell"
+              }
+            ],
+            "summary": "Pia Nell, and Soren Nell helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Heat made the day's work tiring. The president spent wood to strengthen the settlement. Work on Rain cistern reached 6/14.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Rain cistern reached 6/14."
+      },
+      "run_date": "2026-09-22"
     }
   ],
   "people": [
@@ -141319,8 +141392,8 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 9,
+        "health": 4,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -141351,7 +141424,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 5,
         "morale": 10,
         "hunger": 0
       },
@@ -141392,7 +141465,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141429,7 +141502,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141464,7 +141537,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141496,7 +141569,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141540,7 +141613,8 @@
         "notable_events": [
           "Pia Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Pia Nell helped strengthen the settlement on day 2705.",
-          "Pia Nell shaped clay storage pottery on day 2712."
+          "Pia Nell shaped clay storage pottery on day 2712.",
+          "Pia Nell helped strengthen the settlement on day 2715."
         ]
       }
     },
@@ -141566,7 +141640,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141598,7 +141672,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141638,7 +141712,8 @@
       "story": {
         "notable_events": [
           "Soren Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "Soren Nell helped strengthen the settlement on day 2705."
+          "Soren Nell helped strengthen the settlement on day 2705.",
+          "Soren Nell helped strengthen the settlement on day 2715."
         ]
       }
     },
@@ -141663,7 +141738,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141695,7 +141770,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141899,6 +141974,17 @@
         "security": 3,
         "sites": 2,
         "projects": 1
+      },
+      {
+        "day": 2715,
+        "population": 12,
+        "food": 165,
+        "wood": 132,
+        "morale": 10,
+        "health": 5,
+        "security": 4,
+        "sites": 2,
+        "projects": 1
       }
     ],
     "archive": [
@@ -141921,7 +142007,7 @@
     ],
     "expedition": {
       "site_id": "ridge",
-      "progress": 5,
+      "progress": 6,
       "required": 10,
       "started_day": 2712,
       "crew": [
@@ -141942,7 +142028,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Rain cistern reached 5/14."
+      "summary": "Work on Rain cistern reached 6/14."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -141960,7 +142046,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 5,
+        "progress": 6,
         "required": 14,
         "completed_day": null
       },
@@ -142077,5 +142163,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-21"
+  "last_run_date": "2026-09-22"
 }
