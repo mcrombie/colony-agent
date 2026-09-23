@@ -1,13 +1,13 @@
 {
-  "day": 2716,
+  "day": 2717,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 165,
-  "wood": 132,
+  "food": 191,
+  "wood": 134,
   "morale": 10,
   "security": 4,
-  "health": 5,
+  "health": 7,
   "known_threats": [
     "wolves",
     "winter",
@@ -126244,6 +126244,98 @@
         "summary": "Work on Rain cistern reached 6/14."
       },
       "run_date": "2026-09-22"
+    },
+    {
+      "day": 2716,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 161,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 10,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "good_harvest",
+      "world_event": "good_harvest",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "tend_the_sick",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 26,
+        "wood": 2,
+        "health": 2,
+        "crop_fields": -24
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "harvest",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell helped bring in the strong harvest."
+          },
+          {
+            "type": "tended_the_sick",
+            "people": [
+              {
+                "id": "person_348",
+                "name": "Jory Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              },
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              },
+              {
+                "id": "person_356",
+                "name": "Rhea Nell"
+              }
+            ],
+            "summary": "Jory Nell, Kara Nell, Lio Nell, and Rhea Nell received care."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A strong harvest favored Blergen. Weather: Clear skies left the day's work mostly to the colony. The president organized care for the sick. Work on Rain cistern reached 7/14.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Rain cistern reached 7/14."
+      },
+      "run_date": "2026-09-23"
     }
   ],
   "people": [
@@ -141392,14 +141484,15 @@
       },
       "status": {
         "alive": true,
-        "health": 4,
+        "health": 7,
         "morale": 10,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Jory Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "On day 2707, Jory Nell returned from Silver river: A sheltered bend holds fish through the winter."
+          "On day 2707, Jory Nell returned from Silver river: A sheltered bend holds fish through the winter.",
+          "Jory Nell received care from the sick ward on day 2716."
         ]
       }
     },
@@ -141424,7 +141517,7 @@
       },
       "status": {
         "alive": true,
-        "health": 5,
+        "health": 8,
         "morale": 10,
         "hunger": 0
       },
@@ -141439,7 +141532,9 @@
           "Kara Nell scouted beyond the settlement on day 2710.",
           "Kara Nell scouted beyond the settlement on day 2711.",
           "On day 2711, Kara Nell returned from Whispering pines: Resin-rich fallen pine can heat the settlement.",
-          "Kara Nell scouted beyond the settlement on day 2713."
+          "Kara Nell scouted beyond the settlement on day 2713.",
+          "Kara Nell helped bring in the strong harvest on day 2716.",
+          "Kara Nell received care from the sick ward on day 2716."
         ]
       }
     },
@@ -141465,7 +141560,7 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 9,
         "morale": 10,
         "hunger": 0
       },
@@ -141476,7 +141571,8 @@
           "On day 2711, Lio Nell returned from Whispering pines: Resin-rich fallen pine can heat the settlement.",
           "Lio Nell shaped clay storage pottery on day 2712.",
           "Lio Nell argued with Mara Nell on day 2714.",
-          "Lio Nell reconciled with Mara Nell on day 2714."
+          "Lio Nell reconciled with Mara Nell on day 2714.",
+          "Lio Nell received care from the sick ward on day 2716."
         ]
       }
     },
@@ -141502,7 +141598,7 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 7,
         "morale": 10,
         "hunger": 0
       },
@@ -141672,14 +141768,15 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 9,
         "morale": 10,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Rhea Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "Rhea Nell harvested ready crops on day 2707."
+          "Rhea Nell harvested ready crops on day 2707.",
+          "Rhea Nell received care from the sick ward on day 2716."
         ]
       }
     },
@@ -141785,7 +141882,8 @@
           "Una Nell scouted beyond the settlement on day 2708.",
           "Una Nell worked the field expansion on day 2709.",
           "Una Nell scouted beyond the settlement on day 2710.",
-          "Una Nell scouted beyond the settlement on day 2711."
+          "Una Nell scouted beyond the settlement on day 2711.",
+          "Una Nell helped bring in the strong harvest on day 2716."
         ]
       }
     }
@@ -141797,7 +141895,7 @@
     "last_event_day": 99
   },
   "agriculture": {
-    "crop_fields": 24
+    "crop_fields": 0
   },
   "resources": {
     "deposits": {
@@ -141985,6 +142083,17 @@
         "security": 4,
         "sites": 2,
         "projects": 1
+      },
+      {
+        "day": 2716,
+        "population": 12,
+        "food": 191,
+        "wood": 134,
+        "morale": 10,
+        "health": 7,
+        "security": 4,
+        "sites": 2,
+        "projects": 1
       }
     ],
     "archive": [
@@ -142007,7 +142116,7 @@
     ],
     "expedition": {
       "site_id": "ridge",
-      "progress": 6,
+      "progress": 7,
       "required": 10,
       "started_day": 2712,
       "crew": [
@@ -142028,7 +142137,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Rain cistern reached 6/14."
+      "summary": "Work on Rain cistern reached 7/14."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -142046,7 +142155,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 6,
+        "progress": 7,
         "required": 14,
         "completed_day": null
       },
@@ -142163,5 +142272,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-22"
+  "last_run_date": "2026-09-23"
 }

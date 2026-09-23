@@ -8145,3 +8145,6 @@ A thunderstorm rolled over the settlement. A dispute unsettled the day's work, a
 
 Day 2715 (Year 8, June 9) - Blergen:
 Heat made the day's work tiring. No major world event overtook Blergen, and President Lio Nell spent wood to strengthen the settlement; the day's changes increased food by 2, reduced wood by 8, increased morale by 1, increased security by 1, and reduced health by 1. Pia Nell, and Soren Nell helped strengthen the settlement. Work on Rain cistern reached 6/14. The loss of people is beginning to define the settlement's future.
+
+Day 2716 (Year 8, June 10) - Blergen:
+Clear skies left the day's work mostly to the colony. A good harvest lifted the colony's spirits, and President Lio Nell organized care for the sick; the day's changes increased food by 26, increased wood by 2, increased health by 2, and reduced prepared crop fields by 24. Una Nell, and Kara Nell helped bring in the strong harvest. Jory Nell, Kara Nell, Lio Nell, and Rhea Nell received care. Work on Rain cistern reached 7/14. The loss of people is beginning to define the settlement's future.

@@ -5795,3 +5795,11 @@ Day 2714 - Blergen Personal Stories:
 Day 2715 - Blergen Personal Stories:
 - Pia Nell (builder) helped strengthen the settlement. Status unchanged.
 - Soren Nell (guard) helped strengthen the settlement. Status unchanged.
+
+Day 2716 - Blergen Personal Stories:
+- Una Nell (forager) helped bring in the harvest. Status unchanged.
+- Kara Nell (forager) helped bring in the harvest. health 5->8.
+- Jory Nell (teacher) received care. health 4->7.
+- Kara Nell (forager) received care. health 5->8.
+- Lio Nell (carpenter) received care. health 6->9.
+- Rhea Nell (cook) received care. health 6->9.
