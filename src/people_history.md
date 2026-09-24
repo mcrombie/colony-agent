@@ -5803,3 +5803,10 @@ Day 2716 - Blergen Personal Stories:
 - Kara Nell (forager) received care. health 5->8.
 - Lio Nell (carpenter) received care. health 6->9.
 - Rhea Nell (cook) received care. health 6->9.
+
+Day 2717 - Blergen Personal Stories:
+- Mara Nell (farmer) returned from the expedition to Copper ridge. Status unchanged.
+- Niko Nell (woodcutter) returned from the expedition to Copper ridge. Status unchanged.
+- Orin Nell (scout) discovered old trail markers beyond the fields. Status unchanged.
+- Orin Nell (scout) scouted beyond the settlement. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.

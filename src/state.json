@@ -1,13 +1,13 @@
 {
-  "day": 2717,
+  "day": 2718,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 191,
-  "wood": 134,
+  "food": 193,
+  "wood": 141,
   "morale": 10,
   "security": 4,
-  "health": 7,
+  "health": 6,
   "known_threats": [
     "wolves",
     "winter",
@@ -126336,6 +126336,115 @@
         "summary": "Work on Rain cistern reached 7/14."
       },
       "run_date": "2026-09-23"
+    },
+    {
+      "day": 2717,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 162,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 11,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "hot",
+        "severity": 2,
+        "summary": "Heat made the day's work tiring."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {
+        "resource": "trail_markers",
+        "detail": "old trail markers beyond the fields",
+        "quality": 2,
+        "abundance": 1,
+        "access": 1,
+        "effect_key": "trail_markers_access",
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7,
+        "health": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "old trail markers beyond the fields",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              }
+            ],
+            "summary": "Orin Nell discovered old trail markers beyond the fields."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              }
+            ],
+            "summary": "Orin Nell, and Una Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered old trail markers beyond the fields. Weather: Heat made the day's work tiring. The president sent scouts beyond the settlement. A high pass connects the old trails beyond the valley.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [
+          {
+            "id": "ridge",
+            "name": "Copper ridge",
+            "first_visit": true,
+            "day": 2717,
+            "knowledge": 3,
+            "crew": [
+              {
+                "id": "person_351",
+                "name": "Mara Nell"
+              },
+              {
+                "id": "person_352",
+                "name": "Niko Nell"
+              }
+            ],
+            "summary": "A high pass connects the old trails beyond the valley."
+          }
+        ],
+        "summary": "A high pass connects the old trails beyond the valley."
+      },
+      "run_date": "2026-09-24"
     }
   ],
   "people": [
@@ -141484,7 +141593,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141607,7 +141716,8 @@
           "Mara Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Mara Nell searched for forage on day 2704.",
           "Mara Nell argued with Lio Nell on day 2714.",
-          "Mara Nell reconciled with Lio Nell on day 2714."
+          "Mara Nell reconciled with Lio Nell on day 2714.",
+          "On day 2717, Mara Nell returned from Copper ridge: A high pass connects the old trails beyond the valley."
         ]
       }
     },
@@ -141639,7 +141749,8 @@
       },
       "story": {
         "notable_events": [
-          "Niko Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+          "Niko Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "On day 2717, Niko Nell returned from Copper ridge: A high pass connects the old trails beyond the valley."
         ]
       }
     },
@@ -141675,7 +141786,9 @@
           "Orin Nell searched for forage on day 2704.",
           "Orin Nell scouted beyond the settlement on day 2704.",
           "On day 2707, Orin Nell returned from Silver river: A sheltered bend holds fish through the winter.",
-          "Orin Nell scouted beyond the settlement on day 2713."
+          "Orin Nell scouted beyond the settlement on day 2713.",
+          "Orin Nell discovered old trail markers beyond the fields on day 2717.",
+          "Orin Nell scouted beyond the settlement on day 2717."
         ]
       }
     },
@@ -141883,7 +141996,8 @@
           "Una Nell worked the field expansion on day 2709.",
           "Una Nell scouted beyond the settlement on day 2710.",
           "Una Nell scouted beyond the settlement on day 2711.",
-          "Una Nell helped bring in the strong harvest on day 2716."
+          "Una Nell helped bring in the strong harvest on day 2716.",
+          "Una Nell scouted beyond the settlement on day 2717."
         ]
       }
     }
@@ -141937,8 +142051,8 @@
     "chapter": 2,
     "started_day": 2704,
     "focus": "Build Rain cistern",
-    "knowledge": 6,
-    "expeditions_completed": 2,
+    "knowledge": 9,
+    "expeditions_completed": 3,
     "milestones": [
       {
         "id": "first_expedition",
@@ -142094,6 +142208,17 @@
         "security": 4,
         "sites": 2,
         "projects": 1
+      },
+      {
+        "day": 2717,
+        "population": 12,
+        "food": 193,
+        "wood": 141,
+        "morale": 10,
+        "health": 6,
+        "security": 4,
+        "sites": 3,
+        "projects": 1
       }
     ],
     "archive": [
@@ -142112,32 +142237,40 @@
       {
         "day": 2711,
         "summary": "Resin-rich fallen pine can heat the settlement."
+      },
+      {
+        "day": 2717,
+        "summary": "A high pass connects the old trails beyond the valley."
       }
     ],
-    "expedition": {
-      "site_id": "ridge",
-      "progress": 7,
-      "required": 10,
-      "started_day": 2712,
-      "crew": [
-        {
-          "id": "person_351",
-          "name": "Mara Nell"
-        },
-        {
-          "id": "person_352",
-          "name": "Niko Nell"
-        }
-      ]
-    },
+    "expedition": null,
     "last_report": {
       "production": {
         "food": 15,
         "wood": 3
       },
       "completed": [],
-      "discoveries": [],
-      "summary": "Work on Rain cistern reached 7/14."
+      "discoveries": [
+        {
+          "id": "ridge",
+          "name": "Copper ridge",
+          "first_visit": true,
+          "day": 2717,
+          "knowledge": 3,
+          "crew": [
+            {
+              "id": "person_351",
+              "name": "Mara Nell"
+            },
+            {
+              "id": "person_352",
+              "name": "Niko Nell"
+            }
+          ],
+          "summary": "A high pass connects the old trails beyond the valley."
+        }
+      ],
+      "summary": "A high pass connects the old trails beyond the valley."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -142155,7 +142288,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 7,
+        "progress": 8,
         "required": 14,
         "completed_day": null
       },
@@ -142225,9 +142358,9 @@
         "y": 18,
         "required": 10,
         "finding": "A high pass connects the old trails beyond the valley.",
-        "discovered": false,
-        "survey": 0,
-        "discovered_day": null
+        "discovered": true,
+        "survey": 1,
+        "discovered_day": 2717
       },
       {
         "id": "marsh",
@@ -142272,5 +142405,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-23"
+  "last_run_date": "2026-09-24"
 }

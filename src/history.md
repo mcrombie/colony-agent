@@ -8148,3 +8148,6 @@ Heat made the day's work tiring. No major world event overtook Blergen, and Pres
 
 Day 2716 (Year 8, June 10) - Blergen:
 Clear skies left the day's work mostly to the colony. A good harvest lifted the colony's spirits, and President Lio Nell organized care for the sick; the day's changes increased food by 26, increased wood by 2, increased health by 2, and reduced prepared crop fields by 24. Una Nell, and Kara Nell helped bring in the strong harvest. Jory Nell, Kara Nell, Lio Nell, and Rhea Nell received care. Work on Rain cistern reached 7/14. The loss of people is beginning to define the settlement's future.
+
+Day 2717 (Year 8, June 11) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 7, and reduced health by 1. Orin Nell discovered old trail markers beyond the fields. Orin Nell, and Una Nell scouted beyond the settlement. A high pass connects the old trails beyond the valley. The loss of people is beginning to define the settlement's future.
