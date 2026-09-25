@@ -1,10 +1,10 @@
 {
-  "day": 2718,
+  "day": 2719,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 193,
-  "wood": 141,
+  "food": 195,
+  "wood": 142,
   "morale": 10,
   "security": 4,
   "health": 6,
@@ -126445,6 +126445,76 @@
         "summary": "A high pass connects the old trails beyond the valley."
       },
       "run_date": "2026-09-24"
+    },
+    {
+      "day": 2718,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 163,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 12,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "make_pottery",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 1,
+        "clay": -8,
+        "pottery": 1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "made_pottery",
+            "people": [
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              },
+              {
+                "id": "person_356",
+                "name": "Rhea Nell"
+              }
+            ],
+            "summary": "Pia Nell, and Rhea Nell shaped clay into storage pottery."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president ordered clay shaped into storage pottery. Work on Rain cistern reached 10/14.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Rain cistern reached 10/14."
+      },
+      "run_date": "2026-09-25"
     }
   ],
   "people": [
@@ -141823,7 +141893,8 @@
           "Pia Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Pia Nell helped strengthen the settlement on day 2705.",
           "Pia Nell shaped clay storage pottery on day 2712.",
-          "Pia Nell helped strengthen the settlement on day 2715."
+          "Pia Nell helped strengthen the settlement on day 2715.",
+          "Pia Nell shaped clay storage pottery on day 2718."
         ]
       }
     },
@@ -141889,7 +141960,8 @@
         "notable_events": [
           "Rhea Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Rhea Nell harvested ready crops on day 2707.",
-          "Rhea Nell received care from the sick ward on day 2716."
+          "Rhea Nell received care from the sick ward on day 2716.",
+          "Rhea Nell shaped clay storage pottery on day 2718."
         ]
       }
     },
@@ -142036,9 +142108,9 @@
       }
     },
     "stockpiles": {
-      "clay": 1934,
+      "clay": 1926,
       "bricks": 0,
-      "pottery": 14
+      "pottery": 15
     },
     "improvements": {
       "kiln": 0,
@@ -142219,6 +142291,17 @@
         "security": 4,
         "sites": 3,
         "projects": 1
+      },
+      {
+        "day": 2718,
+        "population": 12,
+        "food": 195,
+        "wood": 142,
+        "morale": 10,
+        "health": 6,
+        "security": 4,
+        "sites": 3,
+        "projects": 1
       }
     ],
     "archive": [
@@ -142243,34 +142326,30 @@
         "summary": "A high pass connects the old trails beyond the valley."
       }
     ],
-    "expedition": null,
+    "expedition": {
+      "site_id": "marsh",
+      "progress": 1,
+      "required": 12,
+      "started_day": 2718,
+      "crew": [
+        {
+          "id": "person_354",
+          "name": "Pia Nell"
+        },
+        {
+          "id": "person_355",
+          "name": "Quin Nell"
+        }
+      ]
+    },
     "last_report": {
       "production": {
         "food": 15,
         "wood": 3
       },
       "completed": [],
-      "discoveries": [
-        {
-          "id": "ridge",
-          "name": "Copper ridge",
-          "first_visit": true,
-          "day": 2717,
-          "knowledge": 3,
-          "crew": [
-            {
-              "id": "person_351",
-              "name": "Mara Nell"
-            },
-            {
-              "id": "person_352",
-              "name": "Niko Nell"
-            }
-          ],
-          "summary": "A high pass connects the old trails beyond the valley."
-        }
-      ],
-      "summary": "A high pass connects the old trails beyond the valley."
+      "discoveries": [],
+      "summary": "Work on Rain cistern reached 10/14."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -142288,7 +142367,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 8,
+        "progress": 10,
         "required": 14,
         "completed_day": null
       },
@@ -142405,5 +142484,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-24"
+  "last_run_date": "2026-09-25"
 }

@@ -5810,3 +5810,7 @@ Day 2717 - Blergen Personal Stories:
 - Orin Nell (scout) discovered old trail markers beyond the fields. Status unchanged.
 - Orin Nell (scout) scouted beyond the settlement. Status unchanged.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2718 - Blergen Personal Stories:
+- Pia Nell (builder) shaped clay storage pottery. Status unchanged.
+- Rhea Nell (cook) shaped clay storage pottery. Status unchanged.

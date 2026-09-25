@@ -8151,3 +8151,6 @@ Clear skies left the day's work mostly to the colony. A good harvest lifted the 
 
 Day 2717 (Year 8, June 11) - Blergen:
 Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 7, and reduced health by 1. Orin Nell discovered old trail markers beyond the fields. Orin Nell, and Una Nell scouted beyond the settlement. A high pass connects the old trails beyond the valley. The loss of people is beginning to define the settlement's future.
+
+Day 2718 (Year 8, June 12) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell ordered clay shaped into storage pottery; the day's changes increased food by 2, increased wood by 1, reduced clay by 8, and increased pottery by 1. Pia Nell, and Rhea Nell shaped clay into storage pottery. Work on Rain cistern reached 10/14. The loss of people is beginning to define the settlement's future.
