@@ -5814,3 +5814,7 @@ Day 2717 - Blergen Personal Stories:
 Day 2718 - Blergen Personal Stories:
 - Pia Nell (builder) shaped clay storage pottery. Status unchanged.
 - Rhea Nell (cook) shaped clay storage pottery. Status unchanged.
+
+Day 2719 - Blergen Personal Stories:
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.

@@ -8154,3 +8154,6 @@ Heat made the day's work tiring. A discovery gave the colony something new to di
 
 Day 2718 (Year 8, June 12) - Blergen:
 Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell ordered clay shaped into storage pottery; the day's changes increased food by 2, increased wood by 1, reduced clay by 8, and increased pottery by 1. Pia Nell, and Rhea Nell shaped clay into storage pottery. Work on Rain cistern reached 10/14. The loss of people is beginning to define the settlement's future.
+
+Day 2719 (Year 8, June 13) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 7, and reduced security by 1. Una Nell, and Kara Nell scouted beyond the settlement. Work on Rain cistern reached 11/14. The loss of people is beginning to define the settlement's future.

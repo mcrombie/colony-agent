@@ -1,12 +1,12 @@
 {
-  "day": 2719,
+  "day": 2720,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 195,
-  "wood": 142,
+  "food": 197,
+  "wood": 149,
   "morale": 10,
-  "security": 4,
+  "security": 3,
   "health": 6,
   "known_threats": [
     "wolves",
@@ -126515,6 +126515,77 @@
         "summary": "Work on Rain cistern reached 10/14."
       },
       "run_date": "2026-09-25"
+    },
+    {
+      "day": 2719,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 164,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 13,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "thunderstorm",
+        "severity": 3,
+        "summary": "A thunderstorm rolled over the settlement."
+      },
+      "weather_effects": {
+        "security": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7,
+        "security": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: A thunderstorm rolled over the settlement. The president sent scouts beyond the settlement. Work on Rain cistern reached 11/14.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Rain cistern reached 11/14."
+      },
+      "run_date": "2026-09-26"
     }
   ],
   "people": [
@@ -141713,7 +141784,8 @@
           "On day 2711, Kara Nell returned from Whispering pines: Resin-rich fallen pine can heat the settlement.",
           "Kara Nell scouted beyond the settlement on day 2713.",
           "Kara Nell helped bring in the strong harvest on day 2716.",
-          "Kara Nell received care from the sick ward on day 2716."
+          "Kara Nell received care from the sick ward on day 2716.",
+          "Kara Nell scouted beyond the settlement on day 2719."
         ]
       }
     },
@@ -142069,7 +142141,8 @@
           "Una Nell scouted beyond the settlement on day 2710.",
           "Una Nell scouted beyond the settlement on day 2711.",
           "Una Nell helped bring in the strong harvest on day 2716.",
-          "Una Nell scouted beyond the settlement on day 2717."
+          "Una Nell scouted beyond the settlement on day 2717.",
+          "Una Nell scouted beyond the settlement on day 2719."
         ]
       }
     }
@@ -142302,6 +142375,17 @@
         "security": 4,
         "sites": 3,
         "projects": 1
+      },
+      {
+        "day": 2719,
+        "population": 12,
+        "food": 197,
+        "wood": 149,
+        "morale": 10,
+        "health": 6,
+        "security": 3,
+        "sites": 3,
+        "projects": 1
       }
     ],
     "archive": [
@@ -142328,7 +142412,7 @@
     ],
     "expedition": {
       "site_id": "marsh",
-      "progress": 1,
+      "progress": 4,
       "required": 12,
       "started_day": 2718,
       "crew": [
@@ -142349,7 +142433,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Rain cistern reached 10/14."
+      "summary": "Work on Rain cistern reached 11/14."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -142367,7 +142451,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 10,
+        "progress": 11,
         "required": 14,
         "completed_day": null
       },
@@ -142484,5 +142568,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-25"
+  "last_run_date": "2026-09-26"
 }
