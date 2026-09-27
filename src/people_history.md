@@ -5818,3 +5818,10 @@ Day 2718 - Blergen Personal Stories:
 Day 2719 - Blergen Personal Stories:
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
 - Kara Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2720 - Blergen Personal Stories:
+- Jory Nell (teacher) fell ill. health 6->7.
+- Jory Nell (teacher) received care. health 6->7.
+- Quin Nell (healer) received care. health 6->9.
+- Orin Nell (scout) received care. health 6->9.
+- Niko Nell (woodcutter) received care. health 6->9.

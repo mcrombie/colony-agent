@@ -1,13 +1,13 @@
 {
-  "day": 2720,
+  "day": 2721,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 197,
-  "wood": 149,
+  "food": 193,
+  "wood": 151,
   "morale": 10,
   "security": 3,
-  "health": 6,
+  "health": 7,
   "known_threats": [
     "wolves",
     "winter",
@@ -126586,6 +126586,97 @@
         "summary": "Work on Rain cistern reached 11/14."
       },
       "run_date": "2026-09-26"
+    },
+    {
+      "day": 2720,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 165,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 14,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "hot",
+        "severity": 2,
+        "summary": "Heat made the day's work tiring."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "illness",
+      "world_event": "illness",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "tend_the_sick",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": -4,
+        "wood": 2,
+        "health": 1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "illnesses": [
+          {
+            "type": "illness",
+            "people": [
+              {
+                "id": "person_348",
+                "name": "Jory Nell"
+              }
+            ],
+            "summary": "Jory Nell fell ill."
+          }
+        ],
+        "actions": [
+          {
+            "type": "tended_the_sick",
+            "people": [
+              {
+                "id": "person_348",
+                "name": "Jory Nell"
+              },
+              {
+                "id": "person_355",
+                "name": "Quin Nell"
+              },
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_352",
+                "name": "Niko Nell"
+              }
+            ],
+            "summary": "Jory Nell, Quin Nell, Orin Nell, and Niko Nell received care."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Illness spread through several homes. Weather: Heat made the day's work tiring. The president organized care for the sick. Work on Rain cistern reached 12/14.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Rain cistern reached 12/14."
+      },
+      "run_date": "2026-09-27"
     }
   ],
   "people": [
@@ -141734,7 +141825,7 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 7,
         "morale": 10,
         "hunger": 0
       },
@@ -141742,7 +141833,9 @@
         "notable_events": [
           "Jory Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "On day 2707, Jory Nell returned from Silver river: A sheltered bend holds fish through the winter.",
-          "Jory Nell received care from the sick ward on day 2716."
+          "Jory Nell received care from the sick ward on day 2716.",
+          "Jory Nell fell ill on day 2720.",
+          "Jory Nell received care from the sick ward on day 2720."
         ]
       }
     },
@@ -141885,14 +141978,15 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 9,
         "morale": 10,
         "hunger": 0
       },
       "story": {
         "notable_events": [
           "Niko Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "On day 2717, Niko Nell returned from Copper ridge: A high pass connects the old trails beyond the valley."
+          "On day 2717, Niko Nell returned from Copper ridge: A high pass connects the old trails beyond the valley.",
+          "Niko Nell received care from the sick ward on day 2720."
         ]
       }
     },
@@ -141918,7 +142012,7 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 9,
         "morale": 10,
         "hunger": 0
       },
@@ -141930,7 +142024,8 @@
           "On day 2707, Orin Nell returned from Silver river: A sheltered bend holds fish through the winter.",
           "Orin Nell scouted beyond the settlement on day 2713.",
           "Orin Nell discovered old trail markers beyond the fields on day 2717.",
-          "Orin Nell scouted beyond the settlement on day 2717."
+          "Orin Nell scouted beyond the settlement on day 2717.",
+          "Orin Nell received care from the sick ward on day 2720."
         ]
       }
     },
@@ -141992,13 +142087,14 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 9,
         "morale": 10,
         "hunger": 0
       },
       "story": {
         "notable_events": [
-          "Quin Nell joined the frontier relief expedition to rebuild among the old settlement's remains."
+          "Quin Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
+          "Quin Nell received care from the sick ward on day 2720."
         ]
       }
     },
@@ -142386,6 +142482,17 @@
         "security": 3,
         "sites": 3,
         "projects": 1
+      },
+      {
+        "day": 2720,
+        "population": 12,
+        "food": 193,
+        "wood": 151,
+        "morale": 10,
+        "health": 7,
+        "security": 3,
+        "sites": 3,
+        "projects": 1
       }
     ],
     "archive": [
@@ -142412,7 +142519,7 @@
     ],
     "expedition": {
       "site_id": "marsh",
-      "progress": 4,
+      "progress": 5,
       "required": 12,
       "started_day": 2718,
       "crew": [
@@ -142433,7 +142540,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Rain cistern reached 11/14."
+      "summary": "Work on Rain cistern reached 12/14."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -142451,7 +142558,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 11,
+        "progress": 12,
         "required": 14,
         "completed_day": null
       },
@@ -142568,5 +142675,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-26"
+  "last_run_date": "2026-09-27"
 }
