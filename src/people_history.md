@@ -5825,3 +5825,7 @@ Day 2720 - Blergen Personal Stories:
 - Quin Nell (healer) received care. health 6->9.
 - Orin Nell (scout) received care. health 6->9.
 - Niko Nell (woodcutter) received care. health 6->9.
+
+Day 2721 - Blergen Personal Stories:
+- Soren Nell (guard) helped strengthen the settlement. Status unchanged.
+- Lio Nell (carpenter) helped strengthen the settlement. Status unchanged.

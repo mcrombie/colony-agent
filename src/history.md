@@ -8160,3 +8160,6 @@ A thunderstorm rolled over the settlement. No major world event overtook Blergen
 
 Day 2720 (Year 8, June 14) - Blergen:
 Heat made the day's work tiring. Illness moved through the colony, and President Lio Nell organized care for the sick; the day's changes reduced food by 4, increased wood by 2, and increased health by 1. Jory Nell fell ill. Jory Nell, Quin Nell, Orin Nell, and Niko Nell received care. Work on Rain cistern reached 12/14. The loss of people is beginning to define the settlement's future.
+
+Day 2721 (Year 8, June 15) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell spent wood to strengthen the settlement; the day's changes increased food by 2, reduced wood by 8, and increased security by 1. Soren Nell, and Lio Nell helped strengthen the settlement. Work on Rain cistern reached 13/14. The loss of people is beginning to define the settlement's future.

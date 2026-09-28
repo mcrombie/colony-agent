@@ -1,12 +1,12 @@
 {
-  "day": 2721,
+  "day": 2722,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 193,
-  "wood": 151,
+  "food": 195,
+  "wood": 143,
   "morale": 10,
-  "security": 3,
+  "security": 4,
   "health": 7,
   "known_threats": [
     "wolves",
@@ -126677,6 +126677,75 @@
         "summary": "Work on Rain cistern reached 12/14."
       },
       "run_date": "2026-09-27"
+    },
+    {
+      "day": 2721,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 166,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 15,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": -8,
+        "security": 1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_357",
+                "name": "Soren Nell"
+              },
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              }
+            ],
+            "summary": "Soren Nell, and Lio Nell helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement. Work on Rain cistern reached 13/14.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Rain cistern reached 13/14."
+      },
+      "run_date": "2026-09-28"
     }
   ],
   "people": [
@@ -141916,7 +141985,8 @@
           "Lio Nell shaped clay storage pottery on day 2712.",
           "Lio Nell argued with Mara Nell on day 2714.",
           "Lio Nell reconciled with Mara Nell on day 2714.",
-          "Lio Nell received care from the sick ward on day 2716."
+          "Lio Nell received care from the sick ward on day 2716.",
+          "Lio Nell helped strengthen the settlement on day 2721."
         ]
       }
     },
@@ -142163,7 +142233,8 @@
         "notable_events": [
           "Soren Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Soren Nell helped strengthen the settlement on day 2705.",
-          "Soren Nell helped strengthen the settlement on day 2715."
+          "Soren Nell helped strengthen the settlement on day 2715.",
+          "Soren Nell helped strengthen the settlement on day 2721."
         ]
       }
     },
@@ -142493,6 +142564,17 @@
         "security": 3,
         "sites": 3,
         "projects": 1
+      },
+      {
+        "day": 2721,
+        "population": 12,
+        "food": 195,
+        "wood": 143,
+        "morale": 10,
+        "health": 7,
+        "security": 4,
+        "sites": 3,
+        "projects": 1
       }
     ],
     "archive": [
@@ -142519,7 +142601,7 @@
     ],
     "expedition": {
       "site_id": "marsh",
-      "progress": 5,
+      "progress": 6,
       "required": 12,
       "started_day": 2718,
       "crew": [
@@ -142540,7 +142622,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Rain cistern reached 12/14."
+      "summary": "Work on Rain cistern reached 13/14."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -142558,7 +142640,7 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 12,
+        "progress": 13,
         "required": 14,
         "completed_day": null
       },
@@ -142675,5 +142757,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-27"
+  "last_run_date": "2026-09-28"
 }
