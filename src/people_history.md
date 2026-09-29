@@ -5829,3 +5829,7 @@ Day 2720 - Blergen Personal Stories:
 Day 2721 - Blergen Personal Stories:
 - Soren Nell (guard) helped strengthen the settlement. Status unchanged.
 - Lio Nell (carpenter) helped strengthen the settlement. Status unchanged.
+
+Day 2722 - Blergen Personal Stories:
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.

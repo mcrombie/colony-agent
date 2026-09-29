@@ -1,13 +1,13 @@
 {
-  "day": 2722,
+  "day": 2723,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 195,
-  "wood": 143,
+  "food": 197,
+  "wood": 150,
   "morale": 10,
   "security": 4,
-  "health": 7,
+  "health": 6,
   "known_threats": [
     "wolves",
     "winter",
@@ -126746,6 +126746,83 @@
         "summary": "Work on Rain cistern reached 13/14."
       },
       "run_date": "2026-09-28"
+    },
+    {
+      "day": 2722,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 167,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 16,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "hot",
+        "severity": 2,
+        "summary": "Heat made the day's work tiring."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7,
+        "health": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Heat made the day's work tiring. The president sent scouts beyond the settlement. The colony completed Rain cistern.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [
+          {
+            "id": "rain_cistern",
+            "name": "Rain cistern",
+            "day": 2722
+          }
+        ],
+        "discoveries": [],
+        "summary": "The colony completed Rain cistern."
+      },
+      "run_date": "2026-09-29"
     }
   ],
   "people": [
@@ -141894,7 +141971,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -141947,7 +142024,8 @@
           "Kara Nell scouted beyond the settlement on day 2713.",
           "Kara Nell helped bring in the strong harvest on day 2716.",
           "Kara Nell received care from the sick ward on day 2716.",
-          "Kara Nell scouted beyond the settlement on day 2719."
+          "Kara Nell scouted beyond the settlement on day 2719.",
+          "Kara Nell scouted beyond the settlement on day 2722."
         ]
       }
     },
@@ -141973,7 +142051,7 @@
       },
       "status": {
         "alive": true,
-        "health": 9,
+        "health": 8,
         "morale": 10,
         "hunger": 0
       },
@@ -142012,7 +142090,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -142048,7 +142126,7 @@
       },
       "status": {
         "alive": true,
-        "health": 9,
+        "health": 8,
         "morale": 10,
         "hunger": 0
       },
@@ -142082,7 +142160,7 @@
       },
       "status": {
         "alive": true,
-        "health": 9,
+        "health": 8,
         "morale": 10,
         "hunger": 0
       },
@@ -142121,7 +142199,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -142157,7 +142235,7 @@
       },
       "status": {
         "alive": true,
-        "health": 9,
+        "health": 8,
         "morale": 10,
         "hunger": 0
       },
@@ -142190,7 +142268,7 @@
       },
       "status": {
         "alive": true,
-        "health": 9,
+        "health": 8,
         "morale": 10,
         "hunger": 0
       },
@@ -142225,7 +142303,7 @@
       },
       "status": {
         "alive": true,
-        "health": 7,
+        "health": 6,
         "morale": 10,
         "hunger": 0
       },
@@ -142259,7 +142337,7 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 5,
         "morale": 10,
         "hunger": 0
       },
@@ -142309,7 +142387,8 @@
           "Una Nell scouted beyond the settlement on day 2711.",
           "Una Nell helped bring in the strong harvest on day 2716.",
           "Una Nell scouted beyond the settlement on day 2717.",
-          "Una Nell scouted beyond the settlement on day 2719."
+          "Una Nell scouted beyond the settlement on day 2719.",
+          "Una Nell scouted beyond the settlement on day 2722."
         ]
       }
     }
@@ -142362,7 +142441,7 @@
     "version": 1,
     "chapter": 2,
     "started_day": 2704,
-    "focus": "Build Rain cistern",
+    "focus": "Build Watchtower",
     "knowledge": 9,
     "expeditions_completed": 3,
     "milestones": [
@@ -142575,6 +142654,17 @@
         "security": 4,
         "sites": 3,
         "projects": 1
+      },
+      {
+        "day": 2722,
+        "population": 12,
+        "food": 197,
+        "wood": 150,
+        "morale": 10,
+        "health": 6,
+        "security": 4,
+        "sites": 3,
+        "projects": 2
       }
     ],
     "archive": [
@@ -142597,11 +142687,15 @@
       {
         "day": 2717,
         "summary": "A high pass connects the old trails beyond the valley."
+      },
+      {
+        "day": 2722,
+        "summary": "The colony completed Rain cistern."
       }
     ],
     "expedition": {
       "site_id": "marsh",
-      "progress": 6,
+      "progress": 9,
       "required": 12,
       "started_day": 2718,
       "crew": [
@@ -142620,9 +142714,15 @@
         "food": 15,
         "wood": 3
       },
-      "completed": [],
+      "completed": [
+        {
+          "id": "rain_cistern",
+          "name": "Rain cistern",
+          "day": 2722
+        }
+      ],
       "discoveries": [],
-      "summary": "Work on Rain cistern reached 13/14."
+      "summary": "The colony completed Rain cistern."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -142640,9 +142740,9 @@
         "id": "rain_cistern",
         "name": "Rain cistern",
         "description": "Clean water softens heat and cold-weather sickness.",
-        "progress": 13,
+        "progress": 14,
         "required": 14,
-        "completed_day": null
+        "completed_day": 2722
       },
       {
         "id": "watchtower",
@@ -142757,5 +142857,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-28"
+  "last_run_date": "2026-09-29"
 }
