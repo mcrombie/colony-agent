@@ -1,10 +1,10 @@
 {
-  "day": 2723,
+  "day": 2724,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 197,
-  "wood": 150,
+  "food": 199,
+  "wood": 157,
   "morale": 10,
   "security": 4,
   "health": 6,
@@ -126823,6 +126823,93 @@
         "summary": "The colony completed Rain cistern."
       },
       "run_date": "2026-09-29"
+    },
+    {
+      "day": 2723,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 168,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 17,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement. Night-blooming reeds mark a safe path across the marsh.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [
+          {
+            "id": "marsh",
+            "name": "Lantern marsh",
+            "first_visit": true,
+            "day": 2723,
+            "knowledge": 3,
+            "crew": [
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              },
+              {
+                "id": "person_355",
+                "name": "Quin Nell"
+              }
+            ],
+            "summary": "Night-blooming reeds mark a safe path across the marsh."
+          }
+        ],
+        "summary": "Night-blooming reeds mark a safe path across the marsh."
+      },
+      "run_date": "2026-09-30"
     }
   ],
   "people": [
@@ -142025,7 +142112,8 @@
           "Kara Nell helped bring in the strong harvest on day 2716.",
           "Kara Nell received care from the sick ward on day 2716.",
           "Kara Nell scouted beyond the settlement on day 2719.",
-          "Kara Nell scouted beyond the settlement on day 2722."
+          "Kara Nell scouted beyond the settlement on day 2722.",
+          "Kara Nell scouted beyond the settlement on day 2723."
         ]
       }
     },
@@ -142209,7 +142297,8 @@
           "Pia Nell helped strengthen the settlement on day 2705.",
           "Pia Nell shaped clay storage pottery on day 2712.",
           "Pia Nell helped strengthen the settlement on day 2715.",
-          "Pia Nell shaped clay storage pottery on day 2718."
+          "Pia Nell shaped clay storage pottery on day 2718.",
+          "On day 2723, Pia Nell returned from Lantern marsh: Night-blooming reeds mark a safe path across the marsh."
         ]
       }
     },
@@ -142242,7 +142331,8 @@
       "story": {
         "notable_events": [
           "Quin Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "Quin Nell received care from the sick ward on day 2720."
+          "Quin Nell received care from the sick ward on day 2720.",
+          "On day 2723, Quin Nell returned from Lantern marsh: Night-blooming reeds mark a safe path across the marsh."
         ]
       }
     },
@@ -142388,7 +142478,8 @@
           "Una Nell helped bring in the strong harvest on day 2716.",
           "Una Nell scouted beyond the settlement on day 2717.",
           "Una Nell scouted beyond the settlement on day 2719.",
-          "Una Nell scouted beyond the settlement on day 2722."
+          "Una Nell scouted beyond the settlement on day 2722.",
+          "Una Nell scouted beyond the settlement on day 2723."
         ]
       }
     }
@@ -142442,8 +142533,8 @@
     "chapter": 2,
     "started_day": 2704,
     "focus": "Build Watchtower",
-    "knowledge": 9,
-    "expeditions_completed": 3,
+    "knowledge": 12,
+    "expeditions_completed": 4,
     "milestones": [
       {
         "id": "first_expedition",
@@ -142665,6 +142756,17 @@
         "security": 4,
         "sites": 3,
         "projects": 2
+      },
+      {
+        "day": 2723,
+        "population": 12,
+        "food": 199,
+        "wood": 157,
+        "morale": 10,
+        "health": 6,
+        "security": 4,
+        "sites": 4,
+        "projects": 2
       }
     ],
     "archive": [
@@ -142691,38 +142793,40 @@
       {
         "day": 2722,
         "summary": "The colony completed Rain cistern."
+      },
+      {
+        "day": 2723,
+        "summary": "Night-blooming reeds mark a safe path across the marsh."
       }
     ],
-    "expedition": {
-      "site_id": "marsh",
-      "progress": 9,
-      "required": 12,
-      "started_day": 2718,
-      "crew": [
-        {
-          "id": "person_354",
-          "name": "Pia Nell"
-        },
-        {
-          "id": "person_355",
-          "name": "Quin Nell"
-        }
-      ]
-    },
+    "expedition": null,
     "last_report": {
       "production": {
         "food": 15,
         "wood": 3
       },
-      "completed": [
+      "completed": [],
+      "discoveries": [
         {
-          "id": "rain_cistern",
-          "name": "Rain cistern",
-          "day": 2722
+          "id": "marsh",
+          "name": "Lantern marsh",
+          "first_visit": true,
+          "day": 2723,
+          "knowledge": 3,
+          "crew": [
+            {
+              "id": "person_354",
+              "name": "Pia Nell"
+            },
+            {
+              "id": "person_355",
+              "name": "Quin Nell"
+            }
+          ],
+          "summary": "Night-blooming reeds mark a safe path across the marsh."
         }
       ],
-      "discoveries": [],
-      "summary": "The colony completed Rain cistern."
+      "summary": "Night-blooming reeds mark a safe path across the marsh."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -142748,7 +142852,7 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 0,
+        "progress": 1,
         "required": 18,
         "completed_day": null
       },
@@ -142822,9 +142926,9 @@
         "y": 70,
         "required": 12,
         "finding": "Night-blooming reeds mark a safe path across the marsh.",
-        "discovered": false,
-        "survey": 0,
-        "discovered_day": null
+        "discovered": true,
+        "survey": 1,
+        "discovered_day": 2723
       },
       {
         "id": "ruins",
@@ -142857,5 +142961,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-09-29"
+  "last_run_date": "2026-09-30"
 }

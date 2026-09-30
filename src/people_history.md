@@ -5833,3 +5833,9 @@ Day 2721 - Blergen Personal Stories:
 Day 2722 - Blergen Personal Stories:
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
 - Kara Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2723 - Blergen Personal Stories:
+- Pia Nell (builder) returned from the expedition to Lantern marsh. Status unchanged.
+- Quin Nell (healer) returned from the expedition to Lantern marsh. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.
