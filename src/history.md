@@ -8169,3 +8169,6 @@ Heat made the day's work tiring. No major world event overtook Blergen, and Pres
 
 Day 2723 (Year 8, June 17) - Blergen:
 Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Una Nell, and Kara Nell scouted beyond the settlement. Night-blooming reeds mark a safe path across the marsh. The loss of people is beginning to define the settlement's future.
+
+Day 2724 (Year 8, June 18) - Blergen:
+Dry heat pulled moisture from fields and people alike. No major world event overtook Blergen, and President Lio Nell spent wood to strengthen the settlement; the day's changes reduced wood by 9, and increased security by 1. Lio Nell, and Pia Nell helped strengthen the settlement. Work on Watchtower reached 3/18. The loss of people is beginning to define the settlement's future.
