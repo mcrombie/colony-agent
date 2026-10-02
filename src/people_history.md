@@ -5843,3 +5843,7 @@ Day 2723 - Blergen Personal Stories:
 Day 2724 - Blergen Personal Stories:
 - Lio Nell (carpenter) helped strengthen the settlement. Status unchanged.
 - Pia Nell (builder) helped strengthen the settlement. Status unchanged.
+
+Day 2725 - Blergen Personal Stories:
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.
+- Orin Nell (scout) scouted beyond the settlement. Status unchanged.
