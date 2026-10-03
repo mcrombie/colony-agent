@@ -1,11 +1,11 @@
 {
-  "day": 2726,
+  "day": 2727,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 201,
-  "wood": 155,
-  "morale": 10,
+  "food": 203,
+  "wood": 146,
+  "morale": 9,
   "security": 5,
   "health": 6,
   "known_threats": [
@@ -127050,6 +127050,95 @@
         "summary": "Work on Watchtower reached 4/18."
       },
       "run_date": "2026-10-02"
+    },
+    {
+      "day": 2726,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 171,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 20,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "wolf_attack",
+      "world_event": "wolf_attack",
+      "event_details": {
+        "selector": "local",
+        "severity": 2
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": -9,
+        "morale": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "defended_wolf_attack",
+            "severity": 2,
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              },
+              {
+                "id": "person_357",
+                "name": "Soren Nell"
+              }
+            ],
+            "summary": "Orin Nell, Pia Nell, and Soren Nell were wounded holding the edge of camp against the wolves."
+          },
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              },
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              }
+            ],
+            "summary": "Lio Nell, and Pia Nell helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 2 wolf attack hit the settlement. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement. Work on Watchtower reached 6/18.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Watchtower reached 6/18."
+      },
+      "run_date": "2026-10-03"
     }
   ],
   "people": [
@@ -142294,7 +142383,8 @@
           "Lio Nell reconciled with Mara Nell on day 2714.",
           "Lio Nell received care from the sick ward on day 2716.",
           "Lio Nell helped strengthen the settlement on day 2721.",
-          "Lio Nell helped strengthen the settlement on day 2724."
+          "Lio Nell helped strengthen the settlement on day 2724.",
+          "Lio Nell helped strengthen the settlement on day 2726."
         ]
       }
     },
@@ -142390,8 +142480,8 @@
       },
       "status": {
         "alive": true,
-        "health": 8,
-        "morale": 10,
+        "health": 7,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -142404,7 +142494,8 @@
           "Orin Nell discovered old trail markers beyond the fields on day 2717.",
           "Orin Nell scouted beyond the settlement on day 2717.",
           "Orin Nell received care from the sick ward on day 2720.",
-          "Orin Nell scouted beyond the settlement on day 2725."
+          "Orin Nell scouted beyond the settlement on day 2725.",
+          "Orin Nell faced a severity 2 wolf attack on day 2726."
         ]
       }
     },
@@ -142430,7 +142521,7 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
+        "health": 5,
         "morale": 10,
         "hunger": 0
       },
@@ -142442,7 +142533,9 @@
           "Pia Nell helped strengthen the settlement on day 2715.",
           "Pia Nell shaped clay storage pottery on day 2718.",
           "On day 2723, Pia Nell returned from Lantern marsh: Night-blooming reeds mark a safe path across the marsh.",
-          "Pia Nell helped strengthen the settlement on day 2724."
+          "Pia Nell helped strengthen the settlement on day 2724.",
+          "Pia Nell faced a severity 2 wolf attack on day 2726.",
+          "Pia Nell helped strengthen the settlement on day 2726."
         ]
       }
     },
@@ -142537,8 +142630,8 @@
       },
       "status": {
         "alive": true,
-        "health": 6,
-        "morale": 10,
+        "health": 5,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -142546,7 +142639,8 @@
           "Soren Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Soren Nell helped strengthen the settlement on day 2705.",
           "Soren Nell helped strengthen the settlement on day 2715.",
-          "Soren Nell helped strengthen the settlement on day 2721."
+          "Soren Nell helped strengthen the settlement on day 2721.",
+          "Soren Nell faced a severity 2 wolf attack on day 2726."
         ]
       }
     },
@@ -142933,6 +143027,17 @@
         "security": 5,
         "sites": 4,
         "projects": 2
+      },
+      {
+        "day": 2726,
+        "population": 12,
+        "food": 203,
+        "wood": 146,
+        "morale": 9,
+        "health": 6,
+        "security": 5,
+        "sites": 4,
+        "projects": 2
       }
     ],
     "archive": [
@@ -142967,7 +143072,7 @@
     ],
     "expedition": {
       "site_id": "ruins",
-      "progress": 4,
+      "progress": 5,
       "required": 14,
       "started_day": 2724,
       "crew": [
@@ -142988,7 +143093,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Watchtower reached 4/18."
+      "summary": "Work on Watchtower reached 6/18."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -143014,7 +143119,7 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 4,
+        "progress": 6,
         "required": 18,
         "completed_day": null
       },
@@ -143123,5 +143228,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-02"
+  "last_run_date": "2026-10-03"
 }

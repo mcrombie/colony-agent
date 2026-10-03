@@ -5847,3 +5847,10 @@ Day 2724 - Blergen Personal Stories:
 Day 2725 - Blergen Personal Stories:
 - Kara Nell (forager) scouted beyond the settlement. Status unchanged.
 - Orin Nell (scout) scouted beyond the settlement. Status unchanged.
+
+Day 2726 - Blergen Personal Stories:
+- Orin Nell (scout) defended the camp from wolves. health 8->7; morale 10->9.
+- Pia Nell (builder) defended the camp from wolves. health 6->5.
+- Soren Nell (guard) defended the camp from wolves. health 6->5; morale 10->9.
+- Lio Nell (carpenter) helped strengthen the settlement. Status unchanged.
+- Pia Nell (builder) helped strengthen the settlement. health 6->5.

@@ -8175,3 +8175,6 @@ Dry heat pulled moisture from fields and people alike. No major world event over
 
 Day 2725 (Year 8, June 19) - Blergen:
 Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Kara Nell, and Orin Nell scouted beyond the settlement. Work on Watchtower reached 4/18. The loss of people is beginning to define the settlement's future.
+
+Day 2726 (Year 8, June 20) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 2 wolf attack hit the colony, and President Lio Nell spent wood to strengthen the settlement; the day's changes increased food by 2, reduced wood by 9, and reduced morale by 1. Orin Nell, Pia Nell, and Soren Nell were wounded holding the edge of camp against the wolves. Lio Nell, and Pia Nell helped strengthen the settlement. Work on Watchtower reached 6/18. The loss of people is beginning to define the settlement's future.
