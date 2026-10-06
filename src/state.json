@@ -1,12 +1,12 @@
 {
-  "day": 2728,
+  "day": 2729,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 205,
-  "wood": 137,
-  "morale": 9,
-  "security": 6,
+  "food": 207,
+  "wood": 144,
+  "morale": 10,
+  "security": 5,
   "health": 6,
   "known_threats": [
     "wolves",
@@ -127210,6 +127210,98 @@
         "summary": "Work on Watchtower reached 8/18."
       },
       "run_date": "2026-10-04"
+    },
+    {
+      "day": 2728,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 173,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 22,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "thunderstorm",
+        "severity": 3,
+        "summary": "A thunderstorm rolled over the settlement."
+      },
+      "weather_effects": {
+        "security": -1
+      },
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {
+        "resource": "clay",
+        "detail": "useful clay near the riverbank",
+        "quality": 2,
+        "abundance": 40,
+        "access": 1,
+        "effect_key": "clay_deposit",
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7,
+        "morale": 1,
+        "security": -1,
+        "clay_deposit": 40
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "useful clay near the riverbank",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              }
+            ],
+            "summary": "Orin Nell discovered useful clay near the riverbank."
+          }
+        ],
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              }
+            ],
+            "summary": "Orin Nell, and Una Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered useful clay near the riverbank. Weather: A thunderstorm rolled over the settlement. The president sent scouts beyond the settlement. Work on Watchtower reached 9/18.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Watchtower reached 9/18."
+      },
+      "run_date": "2026-10-06"
     }
   ],
   "people": [
@@ -142552,7 +142644,7 @@
       "status": {
         "alive": true,
         "health": 7,
-        "morale": 9,
+        "morale": 10,
         "hunger": 0
       },
       "story": {
@@ -142566,7 +142658,9 @@
           "Orin Nell scouted beyond the settlement on day 2717.",
           "Orin Nell received care from the sick ward on day 2720.",
           "Orin Nell scouted beyond the settlement on day 2725.",
-          "Orin Nell faced a severity 2 wolf attack on day 2726."
+          "Orin Nell faced a severity 2 wolf attack on day 2726.",
+          "Orin Nell discovered useful clay near the riverbank on day 2728.",
+          "Orin Nell scouted beyond the settlement on day 2728."
         ]
       }
     },
@@ -142790,7 +142884,8 @@
           "Una Nell scouted beyond the settlement on day 2717.",
           "Una Nell scouted beyond the settlement on day 2719.",
           "Una Nell scouted beyond the settlement on day 2722.",
-          "Una Nell scouted beyond the settlement on day 2723."
+          "Una Nell scouted beyond the settlement on day 2723.",
+          "Una Nell scouted beyond the settlement on day 2728."
         ]
       }
     }
@@ -142816,7 +142911,7 @@
       "clay": {
         "known": true,
         "quality": 2,
-        "abundance": 1774,
+        "abundance": 1814,
         "access": 6,
         "discovered_day": 25
       },
@@ -143122,6 +143217,17 @@
         "security": 6,
         "sites": 4,
         "projects": 2
+      },
+      {
+        "day": 2728,
+        "population": 12,
+        "food": 207,
+        "wood": 144,
+        "morale": 10,
+        "health": 6,
+        "security": 5,
+        "sites": 4,
+        "projects": 2
       }
     ],
     "archive": [
@@ -143156,7 +143262,7 @@
     ],
     "expedition": {
       "site_id": "ruins",
-      "progress": 6,
+      "progress": 9,
       "required": 14,
       "started_day": 2724,
       "crew": [
@@ -143177,7 +143283,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Watchtower reached 8/18."
+      "summary": "Work on Watchtower reached 9/18."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -143203,7 +143309,7 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 8,
+        "progress": 9,
         "required": 18,
         "completed_day": null
       },
@@ -143312,5 +143418,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-04"
+  "last_run_date": "2026-10-06"
 }

@@ -5858,3 +5858,8 @@ Day 2726 - Blergen Personal Stories:
 Day 2727 - Blergen Personal Stories:
 - Pia Nell (builder) helped strengthen the settlement. Status unchanged.
 - Soren Nell (guard) helped strengthen the settlement. morale 9->10.
+
+Day 2728 - Blergen Personal Stories:
+- Orin Nell (scout) discovered useful clay near the riverbank. morale 9->10.
+- Orin Nell (scout) scouted beyond the settlement. morale 9->10.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
