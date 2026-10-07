@@ -5863,3 +5863,7 @@ Day 2728 - Blergen Personal Stories:
 - Orin Nell (scout) discovered useful clay near the riverbank. morale 9->10.
 - Orin Nell (scout) scouted beyond the settlement. morale 9->10.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2729 - Blergen Personal Stories:
+- Orin Nell (scout) scouted beyond the settlement. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.

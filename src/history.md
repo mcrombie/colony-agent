@@ -8184,3 +8184,6 @@ Rain softened the paths and soaked the outer work sites. No major world event ov
 
 Day 2728 (Year 8, June 22) - Blergen:
 A thunderstorm rolled over the settlement. A discovery gave the colony something new to discuss, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, increased wood by 7, increased morale by 1, reduced security by 1, and increased known clay deposit by 40. Orin Nell discovered useful clay near the riverbank. Orin Nell, and Una Nell scouted beyond the settlement. Work on Watchtower reached 9/18. The loss of people is beginning to define the settlement's future.
+
+Day 2729 (Year 8, June 23) - Blergen:
+Dry heat pulled moisture from fields and people alike. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased wood by 7. Orin Nell, and Una Nell scouted beyond the settlement. Work on Watchtower reached 10/18. The loss of people is beginning to define the settlement's future.

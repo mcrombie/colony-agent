@@ -1,10 +1,10 @@
 {
-  "day": 2729,
+  "day": 2730,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
   "food": 207,
-  "wood": 144,
+  "wood": 151,
   "morale": 10,
   "security": 5,
   "health": 6,
@@ -127302,6 +127302,77 @@
         "summary": "Work on Watchtower reached 9/18."
       },
       "run_date": "2026-10-06"
+    },
+    {
+      "day": 2729,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 174,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 23,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "dry_heat",
+        "severity": 3,
+        "summary": "Dry heat pulled moisture from fields and people alike."
+      },
+      "weather_effects": {
+        "food": -2,
+        "health": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              }
+            ],
+            "summary": "Orin Nell, and Una Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Dry heat pulled moisture from fields and people alike. The president sent scouts beyond the settlement. Work on Watchtower reached 10/18.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3,
+          "health": 1
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Watchtower reached 10/18."
+      },
+      "run_date": "2026-10-07"
     }
   ],
   "people": [
@@ -142660,7 +142731,8 @@
           "Orin Nell scouted beyond the settlement on day 2725.",
           "Orin Nell faced a severity 2 wolf attack on day 2726.",
           "Orin Nell discovered useful clay near the riverbank on day 2728.",
-          "Orin Nell scouted beyond the settlement on day 2728."
+          "Orin Nell scouted beyond the settlement on day 2728.",
+          "Orin Nell scouted beyond the settlement on day 2729."
         ]
       }
     },
@@ -142885,7 +142957,8 @@
           "Una Nell scouted beyond the settlement on day 2719.",
           "Una Nell scouted beyond the settlement on day 2722.",
           "Una Nell scouted beyond the settlement on day 2723.",
-          "Una Nell scouted beyond the settlement on day 2728."
+          "Una Nell scouted beyond the settlement on day 2728.",
+          "Una Nell scouted beyond the settlement on day 2729."
         ]
       }
     }
@@ -143228,6 +143301,17 @@
         "security": 5,
         "sites": 4,
         "projects": 2
+      },
+      {
+        "day": 2729,
+        "population": 12,
+        "food": 207,
+        "wood": 151,
+        "morale": 10,
+        "health": 6,
+        "security": 5,
+        "sites": 4,
+        "projects": 2
       }
     ],
     "archive": [
@@ -143262,7 +143346,7 @@
     ],
     "expedition": {
       "site_id": "ruins",
-      "progress": 9,
+      "progress": 12,
       "required": 14,
       "started_day": 2724,
       "crew": [
@@ -143279,11 +143363,12 @@
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3
+        "wood": 3,
+        "health": 1
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Watchtower reached 9/18."
+      "summary": "Work on Watchtower reached 10/18."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -143309,7 +143394,7 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 9,
+        "progress": 10,
         "required": 18,
         "completed_day": null
       },
@@ -143418,5 +143503,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-06"
+  "last_run_date": "2026-10-07"
 }
