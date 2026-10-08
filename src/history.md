@@ -8187,3 +8187,6 @@ A thunderstorm rolled over the settlement. A discovery gave the colony something
 
 Day 2729 (Year 8, June 23) - Blergen:
 Dry heat pulled moisture from fields and people alike. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased wood by 7. Orin Nell, and Una Nell scouted beyond the settlement. Work on Watchtower reached 10/18. The loss of people is beginning to define the settlement's future.
+
+Day 2730 (Year 8, June 24) - Blergen:
+Clear skies left the day's work mostly to the colony. A severity 4 foraging effort searched for food, and President Lio Nell spent wood to strengthen the settlement; the day's changes increased food by 20, reduced wood by 9, and increased security by 1. Una Nell, Kara Nell, Mara Nell, and Orin Nell searched for edible stores beyond camp. Pia Nell, and Soren Nell helped strengthen the settlement. Work on Watchtower reached 12/18. The loss of people is beginning to define the settlement's future.

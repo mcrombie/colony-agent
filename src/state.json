@@ -1,12 +1,12 @@
 {
-  "day": 2730,
+  "day": 2731,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 207,
-  "wood": 151,
+  "food": 227,
+  "wood": 142,
   "morale": 10,
-  "security": 5,
+  "security": 6,
   "health": 6,
   "known_threats": [
     "wolves",
@@ -127373,6 +127373,98 @@
         "summary": "Work on Watchtower reached 10/18."
       },
       "run_date": "2026-10-07"
+    },
+    {
+      "day": 2730,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 175,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 24,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "foraging",
+      "world_event": "foraging",
+      "event_details": {
+        "selector": "local",
+        "severity": 4
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 20,
+        "wood": -9,
+        "security": 1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "foraged_food",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              },
+              {
+                "id": "person_351",
+                "name": "Mara Nell"
+              },
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              }
+            ],
+            "summary": "Una Nell, Kara Nell, Mara Nell, and Orin Nell searched for edible stores beyond camp."
+          },
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              },
+              {
+                "id": "person_357",
+                "name": "Soren Nell"
+              }
+            ],
+            "summary": "Pia Nell, and Soren Nell helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 4 foraging effort searched for food. Weather: Clear skies left the day's work mostly to the colony. The president spent wood to strengthen the settlement. Work on Watchtower reached 12/18.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Watchtower reached 12/18."
+      },
+      "run_date": "2026-10-08"
     }
   ],
   "people": [
@@ -142577,7 +142669,8 @@
           "Kara Nell scouted beyond the settlement on day 2719.",
           "Kara Nell scouted beyond the settlement on day 2722.",
           "Kara Nell scouted beyond the settlement on day 2723.",
-          "Kara Nell scouted beyond the settlement on day 2725."
+          "Kara Nell scouted beyond the settlement on day 2725.",
+          "Kara Nell searched for forage on day 2730."
         ]
       }
     },
@@ -142654,7 +142747,8 @@
           "Mara Nell searched for forage on day 2704.",
           "Mara Nell argued with Lio Nell on day 2714.",
           "Mara Nell reconciled with Lio Nell on day 2714.",
-          "On day 2717, Mara Nell returned from Copper ridge: A high pass connects the old trails beyond the valley."
+          "On day 2717, Mara Nell returned from Copper ridge: A high pass connects the old trails beyond the valley.",
+          "Mara Nell searched for forage on day 2730."
         ]
       }
     },
@@ -142732,7 +142826,8 @@
           "Orin Nell faced a severity 2 wolf attack on day 2726.",
           "Orin Nell discovered useful clay near the riverbank on day 2728.",
           "Orin Nell scouted beyond the settlement on day 2728.",
-          "Orin Nell scouted beyond the settlement on day 2729."
+          "Orin Nell scouted beyond the settlement on day 2729.",
+          "Orin Nell searched for forage on day 2730."
         ]
       }
     },
@@ -142773,7 +142868,8 @@
           "Pia Nell helped strengthen the settlement on day 2724.",
           "Pia Nell faced a severity 2 wolf attack on day 2726.",
           "Pia Nell helped strengthen the settlement on day 2726.",
-          "Pia Nell helped strengthen the settlement on day 2727."
+          "Pia Nell helped strengthen the settlement on day 2727.",
+          "Pia Nell helped strengthen the settlement on day 2730."
         ]
       }
     },
@@ -142879,7 +142975,8 @@
           "Soren Nell helped strengthen the settlement on day 2715.",
           "Soren Nell helped strengthen the settlement on day 2721.",
           "Soren Nell faced a severity 2 wolf attack on day 2726.",
-          "Soren Nell helped strengthen the settlement on day 2727."
+          "Soren Nell helped strengthen the settlement on day 2727.",
+          "Soren Nell helped strengthen the settlement on day 2730."
         ]
       }
     },
@@ -142958,7 +143055,8 @@
           "Una Nell scouted beyond the settlement on day 2722.",
           "Una Nell scouted beyond the settlement on day 2723.",
           "Una Nell scouted beyond the settlement on day 2728.",
-          "Una Nell scouted beyond the settlement on day 2729."
+          "Una Nell scouted beyond the settlement on day 2729.",
+          "Una Nell searched for forage on day 2730."
         ]
       }
     }
@@ -143312,6 +143410,17 @@
         "security": 5,
         "sites": 4,
         "projects": 2
+      },
+      {
+        "day": 2730,
+        "population": 12,
+        "food": 227,
+        "wood": 142,
+        "morale": 10,
+        "health": 6,
+        "security": 6,
+        "sites": 4,
+        "projects": 2
       }
     ],
     "archive": [
@@ -143346,7 +143455,7 @@
     ],
     "expedition": {
       "site_id": "ruins",
-      "progress": 12,
+      "progress": 13,
       "required": 14,
       "started_day": 2724,
       "crew": [
@@ -143363,12 +143472,11 @@
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3,
-        "health": 1
+        "wood": 3
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Watchtower reached 10/18."
+      "summary": "Work on Watchtower reached 12/18."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -143394,7 +143502,7 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 10,
+        "progress": 12,
         "required": 18,
         "completed_day": null
       },
@@ -143503,5 +143611,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-07"
+  "last_run_date": "2026-10-08"
 }

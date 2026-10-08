@@ -5867,3 +5867,11 @@ Day 2728 - Blergen Personal Stories:
 Day 2729 - Blergen Personal Stories:
 - Orin Nell (scout) scouted beyond the settlement. Status unchanged.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2730 - Blergen Personal Stories:
+- Una Nell (forager) searched for forage. Status unchanged.
+- Kara Nell (forager) searched for forage. Status unchanged.
+- Mara Nell (farmer) searched for forage. Status unchanged.
+- Orin Nell (scout) searched for forage. Status unchanged.
+- Pia Nell (builder) helped strengthen the settlement. Status unchanged.
+- Soren Nell (guard) helped strengthen the settlement. Status unchanged.
