@@ -1,10 +1,10 @@
 {
-  "day": 2731,
+  "day": 2732,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 227,
-  "wood": 142,
+  "food": 229,
+  "wood": 149,
   "morale": 10,
   "security": 6,
   "health": 6,
@@ -127465,6 +127465,96 @@
         "summary": "Work on Watchtower reached 12/18."
       },
       "run_date": "2026-10-08"
+    },
+    {
+      "day": 2731,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 176,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 25,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "hot",
+        "severity": 2,
+        "summary": "Heat made the day's work tiring."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Heat made the day's work tiring. The president sent scouts beyond the settlement. Weathered route records hint at an earlier settlement.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3,
+          "health": 1
+        },
+        "completed": [],
+        "discoveries": [
+          {
+            "id": "ruins",
+            "name": "The old waystation",
+            "first_visit": true,
+            "day": 2731,
+            "knowledge": 3,
+            "crew": [
+              {
+                "id": "person_356",
+                "name": "Rhea Nell"
+              },
+              {
+                "id": "person_357",
+                "name": "Soren Nell"
+              }
+            ],
+            "summary": "Weathered route records hint at an earlier settlement."
+          }
+        ],
+        "summary": "Weathered route records hint at an earlier settlement."
+      },
+      "run_date": "2026-10-09"
     }
   ],
   "people": [
@@ -142670,7 +142760,8 @@
           "Kara Nell scouted beyond the settlement on day 2722.",
           "Kara Nell scouted beyond the settlement on day 2723.",
           "Kara Nell scouted beyond the settlement on day 2725.",
-          "Kara Nell searched for forage on day 2730."
+          "Kara Nell searched for forage on day 2730.",
+          "Kara Nell scouted beyond the settlement on day 2731."
         ]
       }
     },
@@ -142938,7 +143029,8 @@
           "Rhea Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "Rhea Nell harvested ready crops on day 2707.",
           "Rhea Nell received care from the sick ward on day 2716.",
-          "Rhea Nell shaped clay storage pottery on day 2718."
+          "Rhea Nell shaped clay storage pottery on day 2718.",
+          "On day 2731, Rhea Nell returned from The old waystation: Weathered route records hint at an earlier settlement."
         ]
       }
     },
@@ -142976,7 +143068,8 @@
           "Soren Nell helped strengthen the settlement on day 2721.",
           "Soren Nell faced a severity 2 wolf attack on day 2726.",
           "Soren Nell helped strengthen the settlement on day 2727.",
-          "Soren Nell helped strengthen the settlement on day 2730."
+          "Soren Nell helped strengthen the settlement on day 2730.",
+          "On day 2731, Soren Nell returned from The old waystation: Weathered route records hint at an earlier settlement."
         ]
       }
     },
@@ -143056,7 +143149,8 @@
           "Una Nell scouted beyond the settlement on day 2723.",
           "Una Nell scouted beyond the settlement on day 2728.",
           "Una Nell scouted beyond the settlement on day 2729.",
-          "Una Nell searched for forage on day 2730."
+          "Una Nell searched for forage on day 2730.",
+          "Una Nell scouted beyond the settlement on day 2731."
         ]
       }
     }
@@ -143110,8 +143204,8 @@
     "chapter": 2,
     "started_day": 2704,
     "focus": "Build Watchtower",
-    "knowledge": 12,
-    "expeditions_completed": 4,
+    "knowledge": 15,
+    "expeditions_completed": 5,
     "milestones": [
       {
         "id": "first_expedition",
@@ -143421,6 +143515,17 @@
         "security": 6,
         "sites": 4,
         "projects": 2
+      },
+      {
+        "day": 2731,
+        "population": 12,
+        "food": 229,
+        "wood": 149,
+        "morale": 10,
+        "health": 6,
+        "security": 6,
+        "sites": 5,
+        "projects": 2
       }
     ],
     "archive": [
@@ -143451,32 +143556,41 @@
       {
         "day": 2723,
         "summary": "Night-blooming reeds mark a safe path across the marsh."
+      },
+      {
+        "day": 2731,
+        "summary": "Weathered route records hint at an earlier settlement."
       }
     ],
-    "expedition": {
-      "site_id": "ruins",
-      "progress": 13,
-      "required": 14,
-      "started_day": 2724,
-      "crew": [
-        {
-          "id": "person_356",
-          "name": "Rhea Nell"
-        },
-        {
-          "id": "person_357",
-          "name": "Soren Nell"
-        }
-      ]
-    },
+    "expedition": null,
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3
+        "wood": 3,
+        "health": 1
       },
       "completed": [],
-      "discoveries": [],
-      "summary": "Work on Watchtower reached 12/18."
+      "discoveries": [
+        {
+          "id": "ruins",
+          "name": "The old waystation",
+          "first_visit": true,
+          "day": 2731,
+          "knowledge": 3,
+          "crew": [
+            {
+              "id": "person_356",
+              "name": "Rhea Nell"
+            },
+            {
+              "id": "person_357",
+              "name": "Soren Nell"
+            }
+          ],
+          "summary": "Weathered route records hint at an earlier settlement."
+        }
+      ],
+      "summary": "Weathered route records hint at an earlier settlement."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -143502,7 +143616,7 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 12,
+        "progress": 13,
         "required": 18,
         "completed_day": null
       },
@@ -143588,9 +143702,9 @@
         "y": 38,
         "required": 14,
         "finding": "Weathered route records hint at an earlier settlement.",
-        "discovered": false,
-        "survey": 0,
-        "discovered_day": null
+        "discovered": true,
+        "survey": 1,
+        "discovered_day": 2731
       },
       {
         "id": "beacon",
@@ -143611,5 +143725,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-08"
+  "last_run_date": "2026-10-09"
 }

@@ -5875,3 +5875,9 @@ Day 2730 - Blergen Personal Stories:
 - Orin Nell (scout) searched for forage. Status unchanged.
 - Pia Nell (builder) helped strengthen the settlement. Status unchanged.
 - Soren Nell (guard) helped strengthen the settlement. Status unchanged.
+
+Day 2731 - Blergen Personal Stories:
+- Rhea Nell (cook) returned from the expedition to The old waystation. Status unchanged.
+- Soren Nell (guard) returned from the expedition to The old waystation. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.
