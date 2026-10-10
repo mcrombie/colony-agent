@@ -8193,3 +8193,6 @@ Clear skies left the day's work mostly to the colony. A severity 4 foraging effo
 
 Day 2731 (Year 8, June 25) - Blergen:
 Heat made the day's work tiring. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Una Nell, and Kara Nell scouted beyond the settlement. Weathered route records hint at an earlier settlement. The loss of people is beginning to define the settlement's future.
+
+Day 2732 (Year 8, June 26) - Blergen:
+Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Una Nell, and Kara Nell scouted beyond the settlement. Work on Watchtower reached 14/18. The loss of people is beginning to define the settlement's future.

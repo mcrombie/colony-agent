@@ -5881,3 +5881,7 @@ Day 2731 - Blergen Personal Stories:
 - Soren Nell (guard) returned from the expedition to The old waystation. Status unchanged.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
 - Kara Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2732 - Blergen Personal Stories:
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.
