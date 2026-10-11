@@ -8196,3 +8196,6 @@ Heat made the day's work tiring. No major world event overtook Blergen, and Pres
 
 Day 2732 (Year 8, June 26) - Blergen:
 Rain softened the paths and soaked the outer work sites. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Una Nell, and Kara Nell scouted beyond the settlement. Work on Watchtower reached 14/18. The loss of people is beginning to define the settlement's future.
+
+Day 2733 (Year 8, June 27) - Blergen:
+A thunderstorm rolled over the settlement. No major world event overtook Blergen, and President Lio Nell spent wood to strengthen the settlement; the day's changes increased food by 2, and reduced wood by 9. Soren Nell, and Lio Nell helped strengthen the settlement. Work on Watchtower reached 16/18. The loss of people is beginning to define the settlement's future.

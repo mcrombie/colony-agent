@@ -1,10 +1,10 @@
 {
-  "day": 2733,
+  "day": 2734,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 231,
-  "wood": 156,
+  "food": 233,
+  "wood": 147,
   "morale": 10,
   "security": 6,
   "health": 6,
@@ -127625,6 +127625,76 @@
         "summary": "Work on Watchtower reached 14/18."
       },
       "run_date": "2026-10-10"
+    },
+    {
+      "day": 2733,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 178,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 27,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "thunderstorm",
+        "severity": 3,
+        "summary": "A thunderstorm rolled over the settlement."
+      },
+      "weather_effects": {
+        "security": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "strengthen_defenses",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": -9
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "strengthened_defenses",
+            "people": [
+              {
+                "id": "person_357",
+                "name": "Soren Nell"
+              },
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              }
+            ],
+            "summary": "Soren Nell, and Lio Nell helped strengthen the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: A thunderstorm rolled over the settlement. The president spent wood to strengthen the settlement. Work on Watchtower reached 16/18.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Watchtower reached 16/18."
+      },
+      "run_date": "2026-10-11"
     }
   ],
   "people": [
@@ -142873,7 +142943,8 @@
           "Lio Nell received care from the sick ward on day 2716.",
           "Lio Nell helped strengthen the settlement on day 2721.",
           "Lio Nell helped strengthen the settlement on day 2724.",
-          "Lio Nell helped strengthen the settlement on day 2726."
+          "Lio Nell helped strengthen the settlement on day 2726.",
+          "Lio Nell helped strengthen the settlement on day 2733."
         ]
       }
     },
@@ -143140,7 +143211,8 @@
           "Soren Nell faced a severity 2 wolf attack on day 2726.",
           "Soren Nell helped strengthen the settlement on day 2727.",
           "Soren Nell helped strengthen the settlement on day 2730.",
-          "On day 2731, Soren Nell returned from The old waystation: Weathered route records hint at an earlier settlement."
+          "On day 2731, Soren Nell returned from The old waystation: Weathered route records hint at an earlier settlement.",
+          "Soren Nell helped strengthen the settlement on day 2733."
         ]
       }
     },
@@ -143609,6 +143681,17 @@
         "security": 6,
         "sites": 5,
         "projects": 2
+      },
+      {
+        "day": 2733,
+        "population": 12,
+        "food": 233,
+        "wood": 147,
+        "morale": 10,
+        "health": 6,
+        "security": 6,
+        "sites": 5,
+        "projects": 2
       }
     ],
     "archive": [
@@ -143647,7 +143730,7 @@
     ],
     "expedition": {
       "site_id": "beacon",
-      "progress": 3,
+      "progress": 4,
       "required": 16,
       "started_day": 2732,
       "crew": [
@@ -143668,7 +143751,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Watchtower reached 14/18."
+      "summary": "Work on Watchtower reached 16/18."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -143694,7 +143777,7 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 14,
+        "progress": 16,
         "required": 18,
         "completed_day": null
       },
@@ -143803,5 +143886,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-10"
+  "last_run_date": "2026-10-11"
 }
