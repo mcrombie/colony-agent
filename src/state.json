@@ -1,10 +1,10 @@
 {
-  "day": 2734,
+  "day": 2735,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 233,
-  "wood": 147,
+  "food": 235,
+  "wood": 154,
   "morale": 10,
   "security": 6,
   "health": 6,
@@ -127695,6 +127695,77 @@
         "summary": "Work on Watchtower reached 16/18."
       },
       "run_date": "2026-10-11"
+    },
+    {
+      "day": 2734,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 179,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 28,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "hot",
+        "severity": 2,
+        "summary": "Heat made the day's work tiring."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Heat made the day's work tiring. The president sent scouts beyond the settlement. Work on Watchtower reached 17/18.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3,
+          "health": 1
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Watchtower reached 17/18."
+      },
+      "run_date": "2026-10-12"
     }
   ],
   "people": [
@@ -142902,7 +142973,8 @@
           "Kara Nell scouted beyond the settlement on day 2725.",
           "Kara Nell searched for forage on day 2730.",
           "Kara Nell scouted beyond the settlement on day 2731.",
-          "Kara Nell scouted beyond the settlement on day 2732."
+          "Kara Nell scouted beyond the settlement on day 2732.",
+          "Kara Nell scouted beyond the settlement on day 2734."
         ]
       }
     },
@@ -143294,7 +143366,8 @@
           "Una Nell scouted beyond the settlement on day 2729.",
           "Una Nell searched for forage on day 2730.",
           "Una Nell scouted beyond the settlement on day 2731.",
-          "Una Nell scouted beyond the settlement on day 2732."
+          "Una Nell scouted beyond the settlement on day 2732.",
+          "Una Nell scouted beyond the settlement on day 2734."
         ]
       }
     }
@@ -143692,6 +143765,17 @@
         "security": 6,
         "sites": 5,
         "projects": 2
+      },
+      {
+        "day": 2734,
+        "population": 12,
+        "food": 235,
+        "wood": 154,
+        "morale": 10,
+        "health": 6,
+        "security": 6,
+        "sites": 5,
+        "projects": 2
       }
     ],
     "archive": [
@@ -143730,7 +143814,7 @@
     ],
     "expedition": {
       "site_id": "beacon",
-      "progress": 4,
+      "progress": 7,
       "required": 16,
       "started_day": 2732,
       "crew": [
@@ -143747,11 +143831,12 @@
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3
+        "wood": 3,
+        "health": 1
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Watchtower reached 16/18."
+      "summary": "Work on Watchtower reached 17/18."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -143777,7 +143862,7 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 16,
+        "progress": 17,
         "required": 18,
         "completed_day": null
       },
@@ -143886,5 +143971,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-11"
+  "last_run_date": "2026-10-12"
 }
