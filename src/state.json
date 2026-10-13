@@ -1,10 +1,10 @@
 {
-  "day": 2735,
+  "day": 2736,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 235,
-  "wood": 154,
+  "food": 237,
+  "wood": 161,
   "morale": 10,
   "security": 6,
   "health": 6,
@@ -127766,6 +127766,87 @@
         "summary": "Work on Watchtower reached 17/18."
       },
       "run_date": "2026-10-12"
+    },
+    {
+      "day": 2735,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 180,
+        "month": "June",
+        "month_number": 6,
+        "day_of_month": 29,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement. The colony completed Watchtower.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [
+          {
+            "id": "watchtower",
+            "name": "Watchtower",
+            "day": 2735
+          }
+        ],
+        "discoveries": [],
+        "milestones": [
+          {
+            "id": "safe_harbor",
+            "name": "A safe harbor",
+            "day": 2735
+          }
+        ],
+        "summary": "The colony completed Watchtower."
+      },
+      "run_date": "2026-10-13"
     }
   ],
   "people": [
@@ -142974,7 +143055,8 @@
           "Kara Nell searched for forage on day 2730.",
           "Kara Nell scouted beyond the settlement on day 2731.",
           "Kara Nell scouted beyond the settlement on day 2732.",
-          "Kara Nell scouted beyond the settlement on day 2734."
+          "Kara Nell scouted beyond the settlement on day 2734.",
+          "Kara Nell scouted beyond the settlement on day 2735."
         ]
       }
     },
@@ -143367,7 +143449,8 @@
           "Una Nell searched for forage on day 2730.",
           "Una Nell scouted beyond the settlement on day 2731.",
           "Una Nell scouted beyond the settlement on day 2732.",
-          "Una Nell scouted beyond the settlement on day 2734."
+          "Una Nell scouted beyond the settlement on day 2734.",
+          "Una Nell scouted beyond the settlement on day 2735."
         ]
       }
     }
@@ -143420,7 +143503,7 @@
     "version": 1,
     "chapter": 2,
     "started_day": 2704,
-    "focus": "Build Watchtower",
+    "focus": "Build Village clinic",
     "knowledge": 15,
     "expeditions_completed": 5,
     "milestones": [
@@ -143433,6 +143516,11 @@
         "id": "first_roots",
         "name": "First roots",
         "day": 2710
+      },
+      {
+        "id": "safe_harbor",
+        "name": "A safe harbor",
+        "day": 2735
       }
     ],
     "timeline": [
@@ -143776,6 +143864,17 @@
         "security": 6,
         "sites": 5,
         "projects": 2
+      },
+      {
+        "day": 2735,
+        "population": 12,
+        "food": 237,
+        "wood": 161,
+        "morale": 10,
+        "health": 6,
+        "security": 6,
+        "sites": 5,
+        "projects": 3
       }
     ],
     "archive": [
@@ -143810,11 +143909,15 @@
       {
         "day": 2731,
         "summary": "Weathered route records hint at an earlier settlement."
+      },
+      {
+        "day": 2735,
+        "summary": "The colony completed Watchtower."
       }
     ],
     "expedition": {
       "site_id": "beacon",
-      "progress": 7,
+      "progress": 10,
       "required": 16,
       "started_day": 2732,
       "crew": [
@@ -143831,12 +143934,24 @@
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3,
-        "health": 1
+        "wood": 3
       },
-      "completed": [],
+      "completed": [
+        {
+          "id": "watchtower",
+          "name": "Watchtower",
+          "day": 2735
+        }
+      ],
       "discoveries": [],
-      "summary": "Work on Watchtower reached 17/18."
+      "milestones": [
+        {
+          "id": "safe_harbor",
+          "name": "A safe harbor",
+          "day": 2735
+        }
+      ],
+      "summary": "The colony completed Watchtower."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -143862,9 +143977,9 @@
         "id": "watchtower",
         "name": "Watchtower",
         "description": "Maintained patrols keep the settlement secure.",
-        "progress": 17,
+        "progress": 18,
         "required": 18,
-        "completed_day": null
+        "completed_day": 2735
       },
       {
         "id": "clinic",
@@ -143971,5 +144086,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-12"
+  "last_run_date": "2026-10-13"
 }

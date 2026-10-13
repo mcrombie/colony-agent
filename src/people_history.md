@@ -5893,3 +5893,7 @@ Day 2733 - Blergen Personal Stories:
 Day 2734 - Blergen Personal Stories:
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
 - Kara Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2735 - Blergen Personal Stories:
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.

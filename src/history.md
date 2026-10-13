@@ -8202,3 +8202,6 @@ A thunderstorm rolled over the settlement. No major world event overtook Blergen
 
 Day 2734 (Year 8, June 28) - Blergen:
 Heat made the day's work tiring. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Una Nell, and Kara Nell scouted beyond the settlement. Work on Watchtower reached 17/18. The loss of people is beginning to define the settlement's future.
+
+Day 2735 (Year 8, June 29) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Una Nell, and Kara Nell scouted beyond the settlement. The colony completed Watchtower. Milestones reached: A safe harbor. The loss of people is beginning to define the settlement's future.
