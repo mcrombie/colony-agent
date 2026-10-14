@@ -5897,3 +5897,9 @@ Day 2734 - Blergen Personal Stories:
 Day 2735 - Blergen Personal Stories:
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
 - Kara Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2736 - Blergen Personal Stories:
+- Soren Nell (guard) received care. health 5->8.
+- Pia Nell (builder) received care. health 5->8.
+- Talia Nell (teacher) received care. health 5->8.
+- Jory Nell (teacher) received care. health 6->9.
