@@ -5903,3 +5903,8 @@ Day 2736 - Blergen Personal Stories:
 - Pia Nell (builder) received care. health 5->8.
 - Talia Nell (teacher) received care. health 5->8.
 - Jory Nell (teacher) received care. health 6->9.
+
+Day 2737 - Blergen Personal Stories:
+- Kara Nell (forager) and Lio Nell (carpenter) became rivals. Kara Nell: Status unchanged. Lio Nell: Status unchanged.
+- Kara Nell (forager) stepped back from rivalry. Status unchanged.
+- Lio Nell (carpenter) stepped back from rivalry. Status unchanged.

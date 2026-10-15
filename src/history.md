@@ -8208,3 +8208,6 @@ Clear skies left the day's work mostly to the colony. No major world event overt
 
 Day 2736 (Year 8, June 30) - Blergen:
 Heat made the day's work tiring. No major world event overtook Blergen, and President Lio Nell organized care for the sick; the day's changes reduced food by 4, increased wood by 1, and increased health by 2. Soren Nell, Pia Nell, Talia Nell, and Jory Nell received care. Work on Village clinic reached 2/22. The loss of people is beginning to define the settlement's future.
+
+Day 2737 (Year 8, July 1) - Blergen:
+Clear skies left the day's work mostly to the colony. A dispute unsettled the day's work, and President Lio Nell worked to mediate the tension; the day's changes increased food by 2, increased wood by 2, and reduced morale by 1. Kara Nell and Lio Nell became rivals. Kara Nell and Lio Nell stepped back from rivalry. Work on Village clinic reached 3/22. The loss of people is beginning to define the settlement's future.

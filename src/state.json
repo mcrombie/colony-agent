@@ -1,11 +1,11 @@
 {
-  "day": 2737,
+  "day": 2738,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 233,
-  "wood": 162,
-  "morale": 10,
+  "food": 235,
+  "wood": 164,
+  "morale": 9,
   "security": 6,
   "health": 8,
   "known_threats": [
@@ -127927,6 +127927,91 @@
         "summary": "Work on Village clinic reached 2/22."
       },
       "run_date": "2026-10-14"
+    },
+    {
+      "day": 2737,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 182,
+        "month": "July",
+        "month_number": 7,
+        "day_of_month": 1,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "dispute",
+      "world_event": "dispute",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "mediate_dispute",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 2,
+        "morale": -1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "conflicts": [
+          {
+            "type": "dispute",
+            "people": [
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              },
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              }
+            ],
+            "summary": "Kara Nell and Lio Nell became rivals."
+          }
+        ],
+        "actions": [
+          {
+            "type": "mediated_dispute",
+            "people": [
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              },
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              }
+            ],
+            "summary": "Kara Nell and Lio Nell stepped back from rivalry."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A dispute unsettled the colony. Weather: Clear skies left the day's work mostly to the colony. The president worked to mediate local tensions. Work on Village clinic reached 3/22.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Village clinic reached 3/22."
+      },
+      "run_date": "2026-10-15"
     }
   ],
   "people": [
@@ -143076,7 +143161,7 @@
       "status": {
         "alive": true,
         "health": 9,
-        "morale": 10,
+        "morale": 9,
         "hunger": 0
       },
       "story": {
@@ -143137,7 +143222,9 @@
           "Kara Nell scouted beyond the settlement on day 2731.",
           "Kara Nell scouted beyond the settlement on day 2732.",
           "Kara Nell scouted beyond the settlement on day 2734.",
-          "Kara Nell scouted beyond the settlement on day 2735."
+          "Kara Nell scouted beyond the settlement on day 2735.",
+          "Kara Nell argued with Lio Nell on day 2737.",
+          "Kara Nell reconciled with Lio Nell on day 2737."
         ]
       }
     },
@@ -143179,7 +143266,9 @@
           "Lio Nell helped strengthen the settlement on day 2721.",
           "Lio Nell helped strengthen the settlement on day 2724.",
           "Lio Nell helped strengthen the settlement on day 2726.",
-          "Lio Nell helped strengthen the settlement on day 2733."
+          "Lio Nell helped strengthen the settlement on day 2733.",
+          "Lio Nell argued with Kara Nell on day 2737.",
+          "Lio Nell reconciled with Kara Nell on day 2737."
         ]
       }
     },
@@ -143970,6 +144059,17 @@
         "security": 6,
         "sites": 5,
         "projects": 3
+      },
+      {
+        "day": 2737,
+        "population": 12,
+        "food": 235,
+        "wood": 164,
+        "morale": 9,
+        "health": 8,
+        "security": 6,
+        "sites": 5,
+        "projects": 3
       }
     ],
     "archive": [
@@ -144012,7 +144112,7 @@
     ],
     "expedition": {
       "site_id": "beacon",
-      "progress": 11,
+      "progress": 12,
       "required": 16,
       "started_day": 2732,
       "crew": [
@@ -144029,12 +144129,11 @@
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3,
-        "health": 1
+        "wood": 3
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Village clinic reached 2/22."
+      "summary": "Work on Village clinic reached 3/22."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -144068,7 +144167,7 @@
         "id": "clinic",
         "name": "Village clinic",
         "description": "Routine care helps the colony recover from illness.",
-        "progress": 2,
+        "progress": 3,
         "required": 22,
         "completed_day": null
       },
@@ -144169,5 +144268,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-14"
+  "last_run_date": "2026-10-15"
 }
