@@ -8211,3 +8211,6 @@ Heat made the day's work tiring. No major world event overtook Blergen, and Pres
 
 Day 2737 (Year 8, July 1) - Blergen:
 Clear skies left the day's work mostly to the colony. A dispute unsettled the day's work, and President Lio Nell worked to mediate the tension; the day's changes increased food by 2, increased wood by 2, and reduced morale by 1. Kara Nell and Lio Nell became rivals. Kara Nell and Lio Nell stepped back from rivalry. Work on Village clinic reached 3/22. The loss of people is beginning to define the settlement's future.
+
+Day 2738 (Year 8, July 2) - Blergen:
+Dry heat pulled moisture from fields and people alike. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased wood by 7, and increased morale by 1. Orin Nell, and Una Nell scouted beyond the settlement. Work on Village clinic reached 4/22. The loss of people is beginning to define the settlement's future.

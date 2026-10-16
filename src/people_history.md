@@ -5908,3 +5908,7 @@ Day 2737 - Blergen Personal Stories:
 - Kara Nell (forager) and Lio Nell (carpenter) became rivals. Kara Nell: Status unchanged. Lio Nell: Status unchanged.
 - Kara Nell (forager) stepped back from rivalry. Status unchanged.
 - Lio Nell (carpenter) stepped back from rivalry. Status unchanged.
+
+Day 2738 - Blergen Personal Stories:
+- Orin Nell (scout) scouted beyond the settlement. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
