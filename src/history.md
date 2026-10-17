@@ -8214,3 +8214,6 @@ Clear skies left the day's work mostly to the colony. A dispute unsettled the da
 
 Day 2738 (Year 8, July 2) - Blergen:
 Dry heat pulled moisture from fields and people alike. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased wood by 7, and increased morale by 1. Orin Nell, and Una Nell scouted beyond the settlement. Work on Village clinic reached 4/22. The loss of people is beginning to define the settlement's future.
+
+Day 2739 (Year 8, July 3) - Blergen:
+Heat made the day's work tiring. A discovery gave the colony something new to discuss, and President Lio Nell ordered clay fired into bricks; the day's changes increased food by 2, reduced wood by 3, reduced clay by 20, and increased bricks by 10. Orin Nell discovered fresh water north of camp. Niko Nell, and Pia Nell fired clay into bricks. The old beacon offers a view beyond the colony's first map. Milestones reached: The valley charted. The loss of people is beginning to define the settlement's future.

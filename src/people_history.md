@@ -5912,3 +5912,10 @@ Day 2737 - Blergen Personal Stories:
 Day 2738 - Blergen Personal Stories:
 - Orin Nell (scout) scouted beyond the settlement. Status unchanged.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2739 - Blergen Personal Stories:
+- Talia Nell (teacher) returned from the expedition to Distant beacon. Status unchanged.
+- Una Nell (forager) returned from the expedition to Distant beacon. Status unchanged.
+- Orin Nell (scout) discovered fresh water north of camp. Status unchanged.
+- Niko Nell (woodcutter) fired clay into bricks. Status unchanged.
+- Pia Nell (builder) fired clay into bricks. Status unchanged.

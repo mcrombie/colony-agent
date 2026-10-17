@@ -1,10 +1,10 @@
 {
-  "day": 2739,
+  "day": 2740,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 235,
-  "wood": 171,
+  "food": 237,
+  "wood": 168,
   "morale": 10,
   "security": 6,
   "health": 8,
@@ -128084,6 +128084,124 @@
         "summary": "Work on Village clinic reached 4/22."
       },
       "run_date": "2026-10-16"
+    },
+    {
+      "day": 2739,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 184,
+        "month": "July",
+        "month_number": 7,
+        "day_of_month": 3,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "hot",
+        "severity": 2,
+        "summary": "Heat made the day's work tiring."
+      },
+      "weather_effects": {
+        "health": -1
+      },
+      "event_type": "discovery",
+      "world_event": "discovery",
+      "event_details": {
+        "resource": "fresh_water",
+        "detail": "fresh water north of camp",
+        "quality": 3,
+        "abundance": 1000,
+        "access": 1,
+        "effect_key": "fresh_water_access",
+        "selector": "local"
+      },
+      "leadership_action": "fire_bricks",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": -3,
+        "clay": -20,
+        "bricks": 10
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "discoveries": [
+          {
+            "type": "discovery",
+            "detail": "fresh water north of camp",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              }
+            ],
+            "summary": "Orin Nell discovered fresh water north of camp."
+          }
+        ],
+        "actions": [
+          {
+            "type": "fired_bricks",
+            "people": [
+              {
+                "id": "person_352",
+                "name": "Niko Nell"
+              },
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              }
+            ],
+            "summary": "Niko Nell, and Pia Nell fired clay into bricks."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "Scouts discovered fresh water north of camp. Weather: Heat made the day's work tiring. The president ordered clay fired into bricks. The old beacon offers a view beyond the colony's first map.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3,
+          "health": 1
+        },
+        "completed": [],
+        "discoveries": [
+          {
+            "id": "beacon",
+            "name": "Distant beacon",
+            "first_visit": true,
+            "day": 2739,
+            "knowledge": 3,
+            "crew": [
+              {
+                "id": "person_358",
+                "name": "Talia Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              }
+            ],
+            "summary": "The old beacon offers a view beyond the colony's first map."
+          }
+        ],
+        "milestones": [
+          {
+            "id": "full_map",
+            "name": "The valley charted",
+            "day": 2739
+          }
+        ],
+        "summary": "The old beacon offers a view beyond the colony's first map."
+      },
+      "run_date": "2026-10-17"
     }
   ],
   "people": [
@@ -143411,7 +143529,8 @@
         "notable_events": [
           "Niko Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
           "On day 2717, Niko Nell returned from Copper ridge: A high pass connects the old trails beyond the valley.",
-          "Niko Nell received care from the sick ward on day 2720."
+          "Niko Nell received care from the sick ward on day 2720.",
+          "Niko Nell helped fire bricks on day 2739."
         ]
       }
     },
@@ -143457,7 +143576,8 @@
           "Orin Nell scouted beyond the settlement on day 2728.",
           "Orin Nell scouted beyond the settlement on day 2729.",
           "Orin Nell searched for forage on day 2730.",
-          "Orin Nell scouted beyond the settlement on day 2738."
+          "Orin Nell scouted beyond the settlement on day 2738.",
+          "Orin Nell discovered fresh water north of camp on day 2739."
         ]
       }
     },
@@ -143500,7 +143620,8 @@
           "Pia Nell helped strengthen the settlement on day 2726.",
           "Pia Nell helped strengthen the settlement on day 2727.",
           "Pia Nell helped strengthen the settlement on day 2730.",
-          "Pia Nell received care from the sick ward on day 2736."
+          "Pia Nell received care from the sick ward on day 2736.",
+          "Pia Nell helped fire bricks on day 2739."
         ]
       }
     },
@@ -143643,7 +143764,8 @@
       "story": {
         "notable_events": [
           "Talia Nell joined the frontier relief expedition to rebuild among the old settlement's remains.",
-          "Talia Nell received care from the sick ward on day 2736."
+          "Talia Nell received care from the sick ward on day 2736.",
+          "On day 2739, Talia Nell returned from Distant beacon: The old beacon offers a view beyond the colony's first map."
         ]
       }
     },
@@ -143697,7 +143819,8 @@
           "Una Nell scouted beyond the settlement on day 2732.",
           "Una Nell scouted beyond the settlement on day 2734.",
           "Una Nell scouted beyond the settlement on day 2735.",
-          "Una Nell scouted beyond the settlement on day 2738."
+          "Una Nell scouted beyond the settlement on day 2738.",
+          "On day 2739, Una Nell returned from Distant beacon: The old beacon offers a view beyond the colony's first map."
         ]
       }
     }
@@ -143736,8 +143859,8 @@
       }
     },
     "stockpiles": {
-      "clay": 1926,
-      "bricks": 0,
+      "clay": 1906,
+      "bricks": 10,
       "pottery": 15
     },
     "improvements": {
@@ -143751,8 +143874,8 @@
     "chapter": 2,
     "started_day": 2704,
     "focus": "Build Village clinic",
-    "knowledge": 15,
-    "expeditions_completed": 5,
+    "knowledge": 18,
+    "expeditions_completed": 6,
     "milestones": [
       {
         "id": "first_expedition",
@@ -143768,6 +143891,11 @@
         "id": "safe_harbor",
         "name": "A safe harbor",
         "day": 2735
+      },
+      {
+        "id": "full_map",
+        "name": "The valley charted",
+        "day": 2739
       }
     ],
     "timeline": [
@@ -144155,6 +144283,17 @@
         "security": 6,
         "sites": 5,
         "projects": 3
+      },
+      {
+        "day": 2739,
+        "population": 12,
+        "food": 237,
+        "wood": 168,
+        "morale": 10,
+        "health": 8,
+        "security": 6,
+        "sites": 6,
+        "projects": 3
       }
     ],
     "archive": [
@@ -144193,24 +144332,13 @@
       {
         "day": 2735,
         "summary": "The colony completed Watchtower."
+      },
+      {
+        "day": 2739,
+        "summary": "The old beacon offers a view beyond the colony's first map."
       }
     ],
-    "expedition": {
-      "site_id": "beacon",
-      "progress": 15,
-      "required": 16,
-      "started_day": 2732,
-      "crew": [
-        {
-          "id": "person_358",
-          "name": "Talia Nell"
-        },
-        {
-          "id": "person_359",
-          "name": "Una Nell"
-        }
-      ]
-    },
+    "expedition": null,
     "last_report": {
       "production": {
         "food": 15,
@@ -144218,8 +144346,34 @@
         "health": 1
       },
       "completed": [],
-      "discoveries": [],
-      "summary": "Work on Village clinic reached 4/22."
+      "discoveries": [
+        {
+          "id": "beacon",
+          "name": "Distant beacon",
+          "first_visit": true,
+          "day": 2739,
+          "knowledge": 3,
+          "crew": [
+            {
+              "id": "person_358",
+              "name": "Talia Nell"
+            },
+            {
+              "id": "person_359",
+              "name": "Una Nell"
+            }
+          ],
+          "summary": "The old beacon offers a view beyond the colony's first map."
+        }
+      ],
+      "milestones": [
+        {
+          "id": "full_map",
+          "name": "The valley charted",
+          "day": 2739
+        }
+      ],
+      "summary": "The old beacon offers a view beyond the colony's first map."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -144253,7 +144407,7 @@
         "id": "clinic",
         "name": "Village clinic",
         "description": "Routine care helps the colony recover from illness.",
-        "progress": 4,
+        "progress": 5,
         "required": 22,
         "completed_day": null
       },
@@ -144343,9 +144497,9 @@
         "y": 7,
         "required": 16,
         "finding": "The old beacon offers a view beyond the colony's first map.",
-        "discovered": false,
-        "survey": 0,
-        "discovered_day": null
+        "discovered": true,
+        "survey": 1,
+        "discovered_day": 2739
       }
     ]
   },
@@ -144354,5 +144508,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-16"
+  "last_run_date": "2026-10-17"
 }
