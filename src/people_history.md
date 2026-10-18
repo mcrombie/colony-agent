@@ -5919,3 +5919,7 @@ Day 2739 - Blergen Personal Stories:
 - Orin Nell (scout) discovered fresh water north of camp. Status unchanged.
 - Niko Nell (woodcutter) fired clay into bricks. Status unchanged.
 - Pia Nell (builder) fired clay into bricks. Status unchanged.
+
+Day 2740 - Blergen Personal Stories:
+- Orin Nell (scout) scouted beyond the settlement. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.

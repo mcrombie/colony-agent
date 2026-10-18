@@ -1,10 +1,10 @@
 {
-  "day": 2740,
+  "day": 2741,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 237,
-  "wood": 168,
+  "food": 239,
+  "wood": 175,
   "morale": 10,
   "security": 6,
   "health": 8,
@@ -128202,6 +128202,74 @@
         "summary": "The old beacon offers a view beyond the colony's first map."
       },
       "run_date": "2026-10-17"
+    },
+    {
+      "day": 2740,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 185,
+        "month": "July",
+        "month_number": 7,
+        "day_of_month": 4,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              }
+            ],
+            "summary": "Orin Nell, and Una Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement. Work on Village clinic reached 6/22.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Village clinic reached 6/22."
+      },
+      "run_date": "2026-10-18"
     }
   ],
   "people": [
@@ -143577,7 +143645,8 @@
           "Orin Nell scouted beyond the settlement on day 2729.",
           "Orin Nell searched for forage on day 2730.",
           "Orin Nell scouted beyond the settlement on day 2738.",
-          "Orin Nell discovered fresh water north of camp on day 2739."
+          "Orin Nell discovered fresh water north of camp on day 2739.",
+          "Orin Nell scouted beyond the settlement on day 2740."
         ]
       }
     },
@@ -143820,7 +143889,8 @@
           "Una Nell scouted beyond the settlement on day 2734.",
           "Una Nell scouted beyond the settlement on day 2735.",
           "Una Nell scouted beyond the settlement on day 2738.",
-          "On day 2739, Una Nell returned from Distant beacon: The old beacon offers a view beyond the colony's first map."
+          "On day 2739, Una Nell returned from Distant beacon: The old beacon offers a view beyond the colony's first map.",
+          "Una Nell scouted beyond the settlement on day 2740."
         ]
       }
     }
@@ -144294,6 +144364,17 @@
         "security": 6,
         "sites": 6,
         "projects": 3
+      },
+      {
+        "day": 2740,
+        "population": 12,
+        "food": 239,
+        "wood": 175,
+        "morale": 10,
+        "health": 8,
+        "security": 6,
+        "sites": 6,
+        "projects": 3
       }
     ],
     "archive": [
@@ -144338,42 +144419,30 @@
         "summary": "The old beacon offers a view beyond the colony's first map."
       }
     ],
-    "expedition": null,
+    "expedition": {
+      "site_id": "beacon",
+      "progress": 3,
+      "required": 11,
+      "started_day": 2740,
+      "crew": [
+        {
+          "id": "person_353",
+          "name": "Orin Nell"
+        },
+        {
+          "id": "person_348",
+          "name": "Jory Nell"
+        }
+      ]
+    },
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3,
-        "health": 1
+        "wood": 3
       },
       "completed": [],
-      "discoveries": [
-        {
-          "id": "beacon",
-          "name": "Distant beacon",
-          "first_visit": true,
-          "day": 2739,
-          "knowledge": 3,
-          "crew": [
-            {
-              "id": "person_358",
-              "name": "Talia Nell"
-            },
-            {
-              "id": "person_359",
-              "name": "Una Nell"
-            }
-          ],
-          "summary": "The old beacon offers a view beyond the colony's first map."
-        }
-      ],
-      "milestones": [
-        {
-          "id": "full_map",
-          "name": "The valley charted",
-          "day": 2739
-        }
-      ],
-      "summary": "The old beacon offers a view beyond the colony's first map."
+      "discoveries": [],
+      "summary": "Work on Village clinic reached 6/22."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -144407,7 +144476,7 @@
         "id": "clinic",
         "name": "Village clinic",
         "description": "Routine care helps the colony recover from illness.",
-        "progress": 5,
+        "progress": 6,
         "required": 22,
         "completed_day": null
       },
@@ -144508,5 +144577,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-17"
+  "last_run_date": "2026-10-18"
 }
