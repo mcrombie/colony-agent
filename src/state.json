@@ -1,10 +1,10 @@
 {
-  "day": 2741,
+  "day": 2742,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 239,
-  "wood": 175,
+  "food": 241,
+  "wood": 182,
   "morale": 10,
   "security": 6,
   "health": 8,
@@ -128270,6 +128270,76 @@
         "summary": "Work on Village clinic reached 6/22."
       },
       "run_date": "2026-10-18"
+    },
+    {
+      "day": 2741,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 186,
+        "month": "July",
+        "month_number": 7,
+        "day_of_month": 5,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "rain",
+        "severity": 2,
+        "summary": "Rain softened the paths and soaked the outer work sites."
+      },
+      "weather_effects": {
+        "morale": -1
+      },
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              }
+            ],
+            "summary": "Orin Nell, and Una Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Rain softened the paths and soaked the outer work sites. The president sent scouts beyond the settlement. Work on Village clinic reached 7/22.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Village clinic reached 7/22."
+      },
+      "run_date": "2026-10-19"
     }
   ],
   "people": [
@@ -143646,7 +143716,8 @@
           "Orin Nell searched for forage on day 2730.",
           "Orin Nell scouted beyond the settlement on day 2738.",
           "Orin Nell discovered fresh water north of camp on day 2739.",
-          "Orin Nell scouted beyond the settlement on day 2740."
+          "Orin Nell scouted beyond the settlement on day 2740.",
+          "Orin Nell scouted beyond the settlement on day 2741."
         ]
       }
     },
@@ -143890,7 +143961,8 @@
           "Una Nell scouted beyond the settlement on day 2735.",
           "Una Nell scouted beyond the settlement on day 2738.",
           "On day 2739, Una Nell returned from Distant beacon: The old beacon offers a view beyond the colony's first map.",
-          "Una Nell scouted beyond the settlement on day 2740."
+          "Una Nell scouted beyond the settlement on day 2740.",
+          "Una Nell scouted beyond the settlement on day 2741."
         ]
       }
     }
@@ -144375,6 +144447,17 @@
         "security": 6,
         "sites": 6,
         "projects": 3
+      },
+      {
+        "day": 2741,
+        "population": 12,
+        "food": 241,
+        "wood": 182,
+        "morale": 10,
+        "health": 8,
+        "security": 6,
+        "sites": 6,
+        "projects": 3
       }
     ],
     "archive": [
@@ -144421,7 +144504,7 @@
     ],
     "expedition": {
       "site_id": "beacon",
-      "progress": 3,
+      "progress": 6,
       "required": 11,
       "started_day": 2740,
       "crew": [
@@ -144442,7 +144525,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Village clinic reached 6/22."
+      "summary": "Work on Village clinic reached 7/22."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -144476,7 +144559,7 @@
         "id": "clinic",
         "name": "Village clinic",
         "description": "Routine care helps the colony recover from illness.",
-        "progress": 6,
+        "progress": 7,
         "required": 22,
         "completed_day": null
       },
@@ -144577,5 +144660,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-18"
+  "last_run_date": "2026-10-19"
 }

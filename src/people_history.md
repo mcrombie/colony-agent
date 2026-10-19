@@ -5923,3 +5923,7 @@ Day 2739 - Blergen Personal Stories:
 Day 2740 - Blergen Personal Stories:
 - Orin Nell (scout) scouted beyond the settlement. Status unchanged.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2741 - Blergen Personal Stories:
+- Orin Nell (scout) scouted beyond the settlement. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
