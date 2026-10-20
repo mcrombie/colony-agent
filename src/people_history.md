@@ -5927,3 +5927,8 @@ Day 2740 - Blergen Personal Stories:
 Day 2741 - Blergen Personal Stories:
 - Orin Nell (scout) scouted beyond the settlement. Status unchanged.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2742 - Blergen Personal Stories:
+- Pia Nell (builder) built permanent brick shelters. Status unchanged.
+- Soren Nell (guard) built permanent brick shelters. Status unchanged.
+- Lio Nell (carpenter) built permanent brick shelters. Status unchanged.

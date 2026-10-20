@@ -1,12 +1,12 @@
 {
-  "day": 2742,
+  "day": 2743,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 241,
-  "wood": 182,
+  "food": 243,
+  "wood": 184,
   "morale": 10,
-  "security": 6,
+  "security": 7,
   "health": 8,
   "known_threats": [
     "wolves",
@@ -128340,6 +128340,81 @@
         "summary": "Work on Village clinic reached 7/22."
       },
       "run_date": "2026-10-19"
+    },
+    {
+      "day": 2742,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 187,
+        "month": "July",
+        "month_number": 7,
+        "day_of_month": 6,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "build_with_brick",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 2,
+        "security": 1,
+        "bricks": -10,
+        "brick_shelters": 1
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "built_with_brick",
+            "people": [
+              {
+                "id": "person_354",
+                "name": "Pia Nell"
+              },
+              {
+                "id": "person_357",
+                "name": "Soren Nell"
+              },
+              {
+                "id": "person_350",
+                "name": "Lio Nell"
+              }
+            ],
+            "summary": "Pia Nell, Soren Nell, and Lio Nell raised permanent brick shelter work."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president put fired bricks into permanent shelter work. Work on Village clinic reached 8/22.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Village clinic reached 8/22."
+      },
+      "run_date": "2026-10-20"
     }
   ],
   "people": [
@@ -143596,7 +143671,8 @@
           "Lio Nell helped strengthen the settlement on day 2726.",
           "Lio Nell helped strengthen the settlement on day 2733.",
           "Lio Nell argued with Kara Nell on day 2737.",
-          "Lio Nell reconciled with Kara Nell on day 2737."
+          "Lio Nell reconciled with Kara Nell on day 2737.",
+          "Lio Nell helped build permanent brick shelters on day 2742."
         ]
       }
     },
@@ -143761,7 +143837,8 @@
           "Pia Nell helped strengthen the settlement on day 2727.",
           "Pia Nell helped strengthen the settlement on day 2730.",
           "Pia Nell received care from the sick ward on day 2736.",
-          "Pia Nell helped fire bricks on day 2739."
+          "Pia Nell helped fire bricks on day 2739.",
+          "Pia Nell helped build permanent brick shelters on day 2742."
         ]
       }
     },
@@ -143872,7 +143949,8 @@
           "Soren Nell helped strengthen the settlement on day 2730.",
           "On day 2731, Soren Nell returned from The old waystation: Weathered route records hint at an earlier settlement.",
           "Soren Nell helped strengthen the settlement on day 2733.",
-          "Soren Nell received care from the sick ward on day 2736."
+          "Soren Nell received care from the sick ward on day 2736.",
+          "Soren Nell helped build permanent brick shelters on day 2742."
         ]
       }
     },
@@ -144002,13 +144080,13 @@
     },
     "stockpiles": {
       "clay": 1906,
-      "bricks": 10,
+      "bricks": 0,
       "pottery": 15
     },
     "improvements": {
       "kiln": 0,
       "clay_storehouses": 0,
-      "brick_shelters": 1
+      "brick_shelters": 2
     }
   },
   "frontier": {
@@ -144458,6 +144536,17 @@
         "security": 6,
         "sites": 6,
         "projects": 3
+      },
+      {
+        "day": 2742,
+        "population": 12,
+        "food": 243,
+        "wood": 184,
+        "morale": 10,
+        "health": 8,
+        "security": 7,
+        "sites": 6,
+        "projects": 3
       }
     ],
     "archive": [
@@ -144504,7 +144593,7 @@
     ],
     "expedition": {
       "site_id": "beacon",
-      "progress": 6,
+      "progress": 7,
       "required": 11,
       "started_day": 2740,
       "crew": [
@@ -144525,7 +144614,7 @@
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Village clinic reached 7/22."
+      "summary": "Work on Village clinic reached 8/22."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -144559,7 +144648,7 @@
         "id": "clinic",
         "name": "Village clinic",
         "description": "Routine care helps the colony recover from illness.",
-        "progress": 7,
+        "progress": 8,
         "required": 22,
         "completed_day": null
       },
@@ -144660,5 +144749,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-19"
+  "last_run_date": "2026-10-20"
 }
