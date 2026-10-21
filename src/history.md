@@ -8226,3 +8226,6 @@ Rain softened the paths and soaked the outer work sites. No major world event ov
 
 Day 2742 (Year 8, July 6) - Blergen:
 Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell put fired bricks into permanent shelter work; the day's changes increased food by 2, increased wood by 2, increased security by 1, reduced bricks by 10, and increased brick shelters by 1. Pia Nell, Soren Nell, and Lio Nell raised permanent brick shelter work. Work on Village clinic reached 8/22. The loss of people is beginning to define the settlement's future.
+
+Day 2743 (Year 8, July 7) - Blergen:
+Dry heat pulled moisture from fields and people alike. A severity 4 foraging effort searched for food, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 18, and increased wood by 7. Una Nell, Kara Nell, Mara Nell, and Orin Nell searched for edible stores beyond camp. Una Nell, and Kara Nell scouted beyond the settlement. Work on Village clinic reached 9/22. The loss of people is beginning to define the settlement's future.

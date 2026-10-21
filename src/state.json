@@ -1,10 +1,10 @@
 {
-  "day": 2743,
+  "day": 2744,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 243,
-  "wood": 184,
+  "food": 261,
+  "wood": 191,
   "morale": 10,
   "security": 7,
   "health": 8,
@@ -128415,6 +128415,101 @@
         "summary": "Work on Village clinic reached 8/22."
       },
       "run_date": "2026-10-20"
+    },
+    {
+      "day": 2743,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 188,
+        "month": "July",
+        "month_number": 7,
+        "day_of_month": 7,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "dry_heat",
+        "severity": 3,
+        "summary": "Dry heat pulled moisture from fields and people alike."
+      },
+      "weather_effects": {
+        "food": -2,
+        "health": -1
+      },
+      "event_type": "foraging",
+      "world_event": "foraging",
+      "event_details": {
+        "selector": "local",
+        "severity": 4
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 18,
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "foraged_food",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              },
+              {
+                "id": "person_351",
+                "name": "Mara Nell"
+              },
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              }
+            ],
+            "summary": "Una Nell, Kara Nell, Mara Nell, and Orin Nell searched for edible stores beyond camp."
+          },
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "A severity 4 foraging effort searched for food. Weather: Dry heat pulled moisture from fields and people alike. The president sent scouts beyond the settlement. Work on Village clinic reached 9/22.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3,
+          "health": 1
+        },
+        "completed": [],
+        "discoveries": [],
+        "summary": "Work on Village clinic reached 9/22."
+      },
+      "run_date": "2026-10-21"
     }
   ],
   "people": [
@@ -143627,7 +143722,9 @@
           "Kara Nell scouted beyond the settlement on day 2734.",
           "Kara Nell scouted beyond the settlement on day 2735.",
           "Kara Nell argued with Lio Nell on day 2737.",
-          "Kara Nell reconciled with Lio Nell on day 2737."
+          "Kara Nell reconciled with Lio Nell on day 2737.",
+          "Kara Nell searched for forage on day 2743.",
+          "Kara Nell scouted beyond the settlement on day 2743."
         ]
       }
     },
@@ -143709,7 +143806,8 @@
           "Mara Nell argued with Lio Nell on day 2714.",
           "Mara Nell reconciled with Lio Nell on day 2714.",
           "On day 2717, Mara Nell returned from Copper ridge: A high pass connects the old trails beyond the valley.",
-          "Mara Nell searched for forage on day 2730."
+          "Mara Nell searched for forage on day 2730.",
+          "Mara Nell searched for forage on day 2743."
         ]
       }
     },
@@ -143793,7 +143891,8 @@
           "Orin Nell scouted beyond the settlement on day 2738.",
           "Orin Nell discovered fresh water north of camp on day 2739.",
           "Orin Nell scouted beyond the settlement on day 2740.",
-          "Orin Nell scouted beyond the settlement on day 2741."
+          "Orin Nell scouted beyond the settlement on day 2741.",
+          "Orin Nell searched for forage on day 2743."
         ]
       }
     },
@@ -144040,7 +144139,9 @@
           "Una Nell scouted beyond the settlement on day 2738.",
           "On day 2739, Una Nell returned from Distant beacon: The old beacon offers a view beyond the colony's first map.",
           "Una Nell scouted beyond the settlement on day 2740.",
-          "Una Nell scouted beyond the settlement on day 2741."
+          "Una Nell scouted beyond the settlement on day 2741.",
+          "Una Nell searched for forage on day 2743.",
+          "Una Nell scouted beyond the settlement on day 2743."
         ]
       }
     }
@@ -144547,6 +144648,17 @@
         "security": 7,
         "sites": 6,
         "projects": 3
+      },
+      {
+        "day": 2743,
+        "population": 12,
+        "food": 261,
+        "wood": 191,
+        "morale": 10,
+        "health": 8,
+        "security": 7,
+        "sites": 6,
+        "projects": 3
       }
     ],
     "archive": [
@@ -144593,7 +144705,7 @@
     ],
     "expedition": {
       "site_id": "beacon",
-      "progress": 7,
+      "progress": 10,
       "required": 11,
       "started_day": 2740,
       "crew": [
@@ -144610,11 +144722,12 @@
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3
+        "wood": 3,
+        "health": 1
       },
       "completed": [],
       "discoveries": [],
-      "summary": "Work on Village clinic reached 8/22."
+      "summary": "Work on Village clinic reached 9/22."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -144648,7 +144761,7 @@
         "id": "clinic",
         "name": "Village clinic",
         "description": "Routine care helps the colony recover from illness.",
-        "progress": 8,
+        "progress": 9,
         "required": 22,
         "completed_day": null
       },
@@ -144749,5 +144862,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-20"
+  "last_run_date": "2026-10-21"
 }
