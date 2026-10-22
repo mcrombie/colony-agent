@@ -8229,3 +8229,6 @@ Clear skies left the day's work mostly to the colony. No major world event overt
 
 Day 2743 (Year 8, July 7) - Blergen:
 Dry heat pulled moisture from fields and people alike. A severity 4 foraging effort searched for food, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 18, and increased wood by 7. Una Nell, Kara Nell, Mara Nell, and Orin Nell searched for edible stores beyond camp. Una Nell, and Kara Nell scouted beyond the settlement. Work on Village clinic reached 9/22. The loss of people is beginning to define the settlement's future.
+
+Day 2744 (Year 8, July 8) - Blergen:
+Clear skies left the day's work mostly to the colony. No major world event overtook Blergen, and President Lio Nell sent scouts beyond the settlement; the day's changes increased food by 2, and increased wood by 7. Una Nell, and Kara Nell scouted beyond the settlement. At Distant beacon, the returning crew charted a clear view of the evening stars. The loss of people is beginning to define the settlement's future.

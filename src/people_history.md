@@ -5940,3 +5940,9 @@ Day 2743 - Blergen Personal Stories:
 - Orin Nell (scout) searched for forage. Status unchanged.
 - Una Nell (forager) scouted beyond the settlement. Status unchanged.
 - Kara Nell (forager) scouted beyond the settlement. Status unchanged.
+
+Day 2744 - Blergen Personal Stories:
+- Orin Nell (scout) returned from the expedition to Distant beacon. Status unchanged.
+- Jory Nell (teacher) returned from the expedition to Distant beacon. Status unchanged.
+- Una Nell (forager) scouted beyond the settlement. Status unchanged.
+- Kara Nell (forager) scouted beyond the settlement. Status unchanged.

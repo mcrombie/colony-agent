@@ -1,10 +1,10 @@
 {
-  "day": 2744,
+  "day": 2745,
   "year": 8,
   "colony_name": "Blergen",
   "population": 12,
-  "food": 261,
-  "wood": 191,
+  "food": 263,
+  "wood": 198,
   "morale": 10,
   "security": 7,
   "health": 8,
@@ -128510,6 +128510,93 @@
         "summary": "Work on Village clinic reached 9/22."
       },
       "run_date": "2026-10-21"
+    },
+    {
+      "day": 2744,
+      "year": 8,
+      "date": {
+        "year": 8,
+        "day_of_year": 189,
+        "month": "July",
+        "month_number": 7,
+        "day_of_month": 8,
+        "season": "summer"
+      },
+      "weather": {
+        "season": "summer",
+        "condition": "clear",
+        "severity": 1,
+        "summary": "Clear skies left the day's work mostly to the colony."
+      },
+      "weather_effects": {},
+      "event_type": "quiet_day",
+      "world_event": "quiet_day",
+      "event_details": {
+        "selector": "local"
+      },
+      "leadership_action": "send_scouts",
+      "president": {
+        "id": "person_350",
+        "name": "Lio Nell",
+        "since_day": 2704
+      },
+      "effects": {
+        "food": 2,
+        "wood": 7
+      },
+      "survival_effects": {
+        "food": -12
+      },
+      "undead_outcome": {},
+      "people_events": {
+        "actions": [
+          {
+            "type": "sent_scouts",
+            "people": [
+              {
+                "id": "person_359",
+                "name": "Una Nell"
+              },
+              {
+                "id": "person_349",
+                "name": "Kara Nell"
+              }
+            ],
+            "summary": "Una Nell, and Kara Nell scouted beyond the settlement."
+          }
+        ],
+        "deaths": []
+      },
+      "summary": "No major world event overtook the colony. Weather: Clear skies left the day's work mostly to the colony. The president sent scouts beyond the settlement. At Distant beacon, the returning crew charted a clear view of the evening stars.",
+      "frontier": {
+        "production": {
+          "food": 15,
+          "wood": 3
+        },
+        "completed": [],
+        "discoveries": [
+          {
+            "id": "beacon",
+            "name": "Distant beacon",
+            "first_visit": false,
+            "day": 2744,
+            "knowledge": 1,
+            "crew": [
+              {
+                "id": "person_353",
+                "name": "Orin Nell"
+              },
+              {
+                "id": "person_348",
+                "name": "Jory Nell"
+              }
+            ],
+            "summary": "At Distant beacon, the returning crew charted a clear view of the evening stars."
+          }
+        ],
+        "summary": "At Distant beacon, the returning crew charted a clear view of the evening stars."
+      },
+      "run_date": "2026-10-22"
     }
   ],
   "people": [
@@ -143669,7 +143756,8 @@
           "Jory Nell received care from the sick ward on day 2716.",
           "Jory Nell fell ill on day 2720.",
           "Jory Nell received care from the sick ward on day 2720.",
-          "Jory Nell received care from the sick ward on day 2736."
+          "Jory Nell received care from the sick ward on day 2736.",
+          "On day 2744, Jory Nell returned from Distant beacon: At Distant beacon, the returning crew charted a clear view of the evening stars."
         ]
       }
     },
@@ -143724,7 +143812,8 @@
           "Kara Nell argued with Lio Nell on day 2737.",
           "Kara Nell reconciled with Lio Nell on day 2737.",
           "Kara Nell searched for forage on day 2743.",
-          "Kara Nell scouted beyond the settlement on day 2743."
+          "Kara Nell scouted beyond the settlement on day 2743.",
+          "Kara Nell scouted beyond the settlement on day 2744."
         ]
       }
     },
@@ -143892,7 +143981,8 @@
           "Orin Nell discovered fresh water north of camp on day 2739.",
           "Orin Nell scouted beyond the settlement on day 2740.",
           "Orin Nell scouted beyond the settlement on day 2741.",
-          "Orin Nell searched for forage on day 2743."
+          "Orin Nell searched for forage on day 2743.",
+          "On day 2744, Orin Nell returned from Distant beacon: At Distant beacon, the returning crew charted a clear view of the evening stars."
         ]
       }
     },
@@ -144141,7 +144231,8 @@
           "Una Nell scouted beyond the settlement on day 2740.",
           "Una Nell scouted beyond the settlement on day 2741.",
           "Una Nell searched for forage on day 2743.",
-          "Una Nell scouted beyond the settlement on day 2743."
+          "Una Nell scouted beyond the settlement on day 2743.",
+          "Una Nell scouted beyond the settlement on day 2744."
         ]
       }
     }
@@ -144195,8 +144286,8 @@
     "chapter": 2,
     "started_day": 2704,
     "focus": "Build Village clinic",
-    "knowledge": 18,
-    "expeditions_completed": 6,
+    "knowledge": 19,
+    "expeditions_completed": 7,
     "milestones": [
       {
         "id": "first_expedition",
@@ -144659,6 +144750,17 @@
         "security": 7,
         "sites": 6,
         "projects": 3
+      },
+      {
+        "day": 2744,
+        "population": 12,
+        "food": 263,
+        "wood": 198,
+        "morale": 10,
+        "health": 8,
+        "security": 7,
+        "sites": 6,
+        "projects": 3
       }
     ],
     "archive": [
@@ -144701,33 +144803,40 @@
       {
         "day": 2739,
         "summary": "The old beacon offers a view beyond the colony's first map."
+      },
+      {
+        "day": 2744,
+        "summary": "At Distant beacon, the returning crew charted a clear view of the evening stars."
       }
     ],
-    "expedition": {
-      "site_id": "beacon",
-      "progress": 10,
-      "required": 11,
-      "started_day": 2740,
-      "crew": [
-        {
-          "id": "person_353",
-          "name": "Orin Nell"
-        },
-        {
-          "id": "person_348",
-          "name": "Jory Nell"
-        }
-      ]
-    },
+    "expedition": null,
     "last_report": {
       "production": {
         "food": 15,
-        "wood": 3,
-        "health": 1
+        "wood": 3
       },
       "completed": [],
-      "discoveries": [],
-      "summary": "Work on Village clinic reached 9/22."
+      "discoveries": [
+        {
+          "id": "beacon",
+          "name": "Distant beacon",
+          "first_visit": false,
+          "day": 2744,
+          "knowledge": 1,
+          "crew": [
+            {
+              "id": "person_353",
+              "name": "Orin Nell"
+            },
+            {
+              "id": "person_348",
+              "name": "Jory Nell"
+            }
+          ],
+          "summary": "At Distant beacon, the returning crew charted a clear view of the evening stars."
+        }
+      ],
+      "summary": "At Distant beacon, the returning crew charted a clear view of the evening stars."
     },
     "relief_convoys": 1,
     "last_relief_day": 2704,
@@ -144761,7 +144870,7 @@
         "id": "clinic",
         "name": "Village clinic",
         "description": "Routine care helps the colony recover from illness.",
-        "progress": 9,
+        "progress": 10,
         "required": 22,
         "completed_day": null
       },
@@ -144852,7 +144961,7 @@
         "required": 16,
         "finding": "The old beacon offers a view beyond the colony's first map.",
         "discovered": true,
-        "survey": 1,
+        "survey": 2,
         "discovered_day": 2739
       }
     ]
@@ -144862,5 +144971,5 @@
     "name": "Lio Nell",
     "since_day": 2704
   },
-  "last_run_date": "2026-10-21"
+  "last_run_date": "2026-10-22"
 }
